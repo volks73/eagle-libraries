@@ -108,7 +108,13 @@
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
-<description>&lt;b&gt;Christopher R. Field's Library for Molex Corporation Parts&lt;/b&gt;</description>
+<description>&lt;b&gt;Volks73's Library for Molex Corporation Parts&lt;/b&gt;
+&lt;p&gt;
+https://github.com/volks73/eagle-libraries/volks73-Molex.lbr
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0), http://creativecommons.org/licenses/by-sa/3.0/. For attribution, please provide a link in any documentation or design files to the repository on Github. 
+&lt;/p&gt;</description>
 <packages>
 <package name="22-27-2031">
 <description>&lt;b&gt;KK 6410 Series 3-Pin Header with Fricton Lock&lt;/b&gt;</description>
