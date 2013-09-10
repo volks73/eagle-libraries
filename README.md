@@ -1,4 +1,4 @@
-eagle-libraries
-===============
+EAGLE Parts Libraries
+=====================
 
-Public EAGLE Parts for Eagle 6.0+
+Public EAGLE Parts Libraries for Eagle 6.0+
