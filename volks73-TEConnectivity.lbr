@@ -462,6 +462,13 @@ https://github.com/volks73/eagle-libraries/volks73-TEConnectivity.lbr
 <description>&lt;b&gt;16-Pin Header&lt;/b&gt;
 &lt;p&gt;
 A 16 pin, or channel, header connector.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;th&gt;Package&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;1634688&lt;/td&gt;&lt;td&gt;Digi-Key&lt;/td&gt;&lt;td&gt;A104861-ND&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;1634689&lt;/td&gt;&lt;td&gt;Digi-Key&lt;/td&gt;&lt;td&gt;A104862-ND&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
 &lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="16-PIN_HEADER" x="0" y="0"/>
@@ -488,8 +495,19 @@ A 16 pin, or channel, header connector.
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DIRECTION" value="Vertical" constant="no"/>
-<attribute name="GENDER" value="Male" constant="no"/>
+<attribute name="COLOR" value="Black" constant="no"/>
+<attribute name="CONNECTOR_TYPE" value="Header, Shrouded" constant="no"/>
+<attribute name="CONTACT_FINISH" value="Gold" constant="no"/>
+<attribute name="CONTACT_FINISH_THICKNESS" value="10 uin (0.25 um)" constant="no"/>
+<attribute name="CONTACT_MATING_LENGTH" value="0.228'' (5.80 mm)" constant="no"/>
+<attribute name="CONTACT_TYPE" value="Male Pin" constant="no"/>
+<attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
+<attribute name="NUMBER_POSITION" value="16" constant="no"/>
+<attribute name="NUMBER_ROWS" value="2" constant="no"/>
+<attribute name="PITCH" value="0.100'' (2.54 mm)" constant="no"/>
+<attribute name="ROW_SPACING" value="0.100'' (2.54 mm)" constant="no"/>
+<attribute name="SERIES" value="AMP-Latch, AMP" constant="no"/>
+<attribute name="TERMINATION" value="Solder" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -514,8 +532,18 @@ A 16 pin, or channel, header connector.
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DIRECTION" value="Right Angled" constant="no"/>
-<attribute name="GENDER" value="Male" constant="no"/>
+<attribute name="COLOR" value="Black" constant="no"/>
+<attribute name="CONNECTOR_TYPE" value="Header, Shrouded" constant="no"/>
+<attribute name="CONTACT_FINISH" value="Gold" constant="no"/>
+<attribute name="CONTACT_FINISH_THICKNESS" value="10 uin (0.25 um)" constant="no"/>
+<attribute name="CONTACT_MATING_LENGTH" value="0.228'' (5.80 mm)" constant="no"/>
+<attribute name="CONTACT_TYPE" value="Male Pin" constant="no"/>
+<attribute name="MOUNTING_TYPE" value="Through Hole, Right Angle" constant="no"/>
+<attribute name="NUMBER_POSITION" value="16" constant="no"/>
+<attribute name="NUMBER_ROWS" value="2" constant="no"/>
+<attribute name="PITCH" value="0.100'' (2.54 mm)" constant="no"/>
+<attribute name="SERIES" value="AMP-Latch, AMP" constant="no"/>
+<attribute name="TERMINATION" value="Solder" constant="no"/>
 </technology>
 </technologies>
 </device>
