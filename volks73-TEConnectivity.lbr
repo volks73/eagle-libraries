@@ -461,13 +461,10 @@ https://github.com/volks73/eagle-libraries/volks73-TEConnectivity.lbr
 <deviceset name="16-PIN_HEADER-" prefix="JP" uservalue="yes">
 <description>&lt;b&gt;16-Pin Header&lt;/b&gt;
 &lt;p&gt;
-A 16 pin, or channel, header connector.
-&lt;/p&gt;
-&lt;p&gt;
 &lt;table&gt;
-&lt;tr&gt;&lt;th&gt;Package&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;1634688&lt;/td&gt;&lt;td&gt;Digi-Key&lt;/td&gt;&lt;td&gt;A104861-ND&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;1634689&lt;/td&gt;&lt;td&gt;Digi-Key&lt;/td&gt;&lt;td&gt;A104862-ND&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;Package&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;1634688&lt;/td&gt;&lt;td&gt;Digi-Key&lt;/td&gt;&lt;td&gt;A104861-ND&lt;/td&gt;&lt;td&gt;CONN HEADER 16POS .100 VERT GOLD&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;1634689&lt;/td&gt;&lt;td&gt;Digi-Key&lt;/td&gt;&lt;td&gt;A104862-ND&lt;/td&gt;&lt;td&gt;CONN HEADER PIN R/A 16POS GOLD&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 &lt;/p&gt;</description>
 <gates>
@@ -498,11 +495,11 @@ A 16 pin, or channel, header connector.
 <attribute name="COLOR" value="Black" constant="no"/>
 <attribute name="CONNECTOR_TYPE" value="Header, Shrouded" constant="no"/>
 <attribute name="CONTACT_FINISH" value="Gold" constant="no"/>
-<attribute name="CONTACT_FINISH_THICKNESS" value="10 uin (0.25 um)" constant="no"/>
+<attribute name="CONTACT_FINISH_THICKNESS" value="10 uin (0.35 um)" constant="no"/>
 <attribute name="CONTACT_MATING_LENGTH" value="0.228'' (5.80 mm)" constant="no"/>
 <attribute name="CONTACT_TYPE" value="Male Pin" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
-<attribute name="NUMBER_POSITION" value="16" constant="no"/>
+<attribute name="NUMBER_POSITIONS" value="10" constant="no"/>
 <attribute name="NUMBER_ROWS" value="2" constant="no"/>
 <attribute name="PITCH" value="0.100'' (2.54 mm)" constant="no"/>
 <attribute name="ROW_SPACING" value="0.100'' (2.54 mm)" constant="no"/>
@@ -552,19 +549,10 @@ A 16 pin, or channel, header connector.
 <deviceset name="15-PIN_CONNECTOR-" prefix="CON" uservalue="yes">
 <description>&lt;b&gt;15-Pin D-Sub Miniature (DB15) Connector&lt;/b&gt;
 &lt;p&gt;
-A 15-pin D-Sub Miniature (DB15) connector.
-&lt;/p&gt;
-&lt;p&gt;
 &lt;table&gt;
-&lt;tr&gt;
-&lt;th&gt;Package&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;5747236-4&lt;/td&gt;&lt;td&gt;Digi-Key&lt;/td&gt;&lt;td&gt;A32073-ND&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;1734530-1&lt;/td&gt;&lt;td&gt;Digi-Key&lt;/td&gt;&lt;td&gt;A35116-ND&lt;/td&gt;
-&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;Package&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;5747236-4&lt;/td&gt;&lt;td&gt;Digi-Key&lt;/td&gt;&lt;td&gt;A32073-ND&lt;/td&gt;&lt;td&gt;CONN DSUB PLUG 15 POS R/A GOLD&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;1734530-1&lt;/td&gt;&lt;td&gt;Digi-Key&lt;/td&gt;&lt;td&gt;A35116-ND&lt;/td&gt;&lt;td&gt;CONN HD D-SUB RCPT R/A 15POS&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 &lt;/p&gt;</description>
 <gates>
@@ -661,16 +649,9 @@ A 15-pin D-Sub Miniature (DB15) connector.
 <deviceset name="9-PIN_CONNECTOR-" prefix="CON" uservalue="yes">
 <description>&lt;b&gt;9-Pin D-Sub miniature (DB9) Connector&lt;/b&gt;
 &lt;p&gt;
-A 9-Pin D-sub miniature (DB9) connector.
-&lt;/p&gt;
-&lt;p&gt;
 &lt;table&gt;
-&lt;tr&gt;
-&lt;th&gt;Package&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;1734354-1&lt;/td&gt;&lt;td&gt;Digi-Key&lt;/td&gt;&lt;td&gt;A35107-ND&lt;/td&gt;
-&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;Package&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;1734354-1&lt;/td&gt;&lt;td&gt;Digi-Key&lt;/td&gt;&lt;td&gt;A35107-ND&lt;/td&gt;&lt;td&gt;CONN D-SUB RCPT R/A 9POS GOLD/FL&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 &lt;/p&gt;</description>
 <gates>

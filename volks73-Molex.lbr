@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -289,7 +289,10 @@ https://github.com/volks73/eagle-libraries/volks73-Molex.lbr
 <deviceset name="3-PIN_HEADER-" prefix="JP" uservalue="yes">
 <description>&lt;b&gt;3-Pin Header&lt;/b&gt;
 &lt;p&gt;
-3-Pin header.
+&lt;table&gt;
+&lt;tr&gt;&lt;th&gt;Package&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;22-27-2031&lt;/td&gt;&lt;td&gt;Digi-Key&lt;/td&gt;&lt;td&gt;WM4112-ND&lt;/td&gt;&lt;td&gt;CONN HEADER 3POS .100 VERT TIN&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
 &lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="3-PIN_HEADER" x="2.54" y="0"/>
@@ -303,13 +306,17 @@ https://github.com/volks73/eagle-libraries/volks73-Molex.lbr
 </connects>
 <technologies>
 <technology name="">
+<attribute name="COLOR" value="Natural" constant="no"/>
+<attribute name="CONNECTOR_TYPE" value="Header, Unshrouded" constant="no"/>
+<attribute name="CONTACT_FINISH" value="Tin" constant="no"/>
+<attribute name="CONTACT_FINISH_THICKNESS" value="100 uin (2.54 um)" constant="no"/>
+<attribute name="CONTACT_TYPE" value="Male Pin" constant="no"/>
 <attribute name="FASTENING_TYPE" value="Friction Lock" constant="no"/>
-<attribute name="GENDER" value="Male" constant="no"/>
-<attribute name="MOUNTING" value="Through Hole" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
+<attribute name="NUMBER_POSITIONS" value="3" constant="no"/>
 <attribute name="PITCH" value="0.100'' (2.54 mm)" constant="no"/>
-<attribute name="SUPPLIER" value="Digi-Key" constant="no"/>
-<attribute name="SUPPLIER_NUMBER" value="WM4112-ND" constant="no"/>
+<attribute name="SERIES" value="KK 6410" constant="no"/>
+<attribute name="TERMINATION" value="Solder" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -318,7 +325,10 @@ https://github.com/volks73/eagle-libraries/volks73-Molex.lbr
 <deviceset name="5-PIN_HEADER-" prefix="JP" uservalue="yes">
 <description>&lt;b&gt;5-Pin Header&lt;/b&gt;
 &lt;p&gt;
-A 5-pin header.
+&lt;table&gt;
+&lt;tr&gt;&lt;th&gt;Package&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;22-27-2051&lt;/td&gt;&lt;td&gt;Digi-Key&lt;/td&gt;&lt;td&gt;WM4114-ND&lt;/td&gt;&lt;td&gt;CONN HEADER 5POS .100 VERT TIN&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
 &lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="5-PIN_HEADER" x="0" y="0"/>
@@ -334,12 +344,19 @@ A 5-pin header.
 </connects>
 <technologies>
 <technology name="">
+<attribute name="COLOR" value="Natural" constant="no"/>
+<attribute name="CONNECTOR_TYPE" value="Header, Unshrouded" constant="no"/>
+<attribute name="CONTACT_FINISH" value="Tin" constant="no"/>
+<attribute name="CONTACT_FINISH_THICKNESS" value="100 uin (2.54 um)" constant="no"/>
+<attribute name="CONTACT_MATING_LENGTH" value="0.295'' (7.49 mm)" constant="no"/>
+<attribute name="CONTACT_TYPE" value="Male Pin" constant="no"/>
 <attribute name="FASTENING_TYPE" value="Friction Lock" constant="no"/>
-<attribute name="GENDER" value="Male" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
+<attribute name="NUMBER_POSITIONS" value="5" constant="no"/>
+<attribute name="NUMBER_ROWS" value="1" constant="no"/>
 <attribute name="PITCH" value="0.100'' (2.54 mm)" constant="no"/>
-<attribute name="SUPPLIER" value="Digi-Key" constant="no"/>
-<attribute name="SUPPLIER_NUMBER" value="WM4114-ND" constant="no"/>
+<attribute name="SERIES" value="KK 6410" constant="no"/>
+<attribute name="TERMINATION" value="Solder" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -348,7 +365,14 @@ A 5-pin header.
 <deviceset name="2-PIN_HEADER-" prefix="JP" uservalue="yes">
 <description>&lt;b&gt;2-Pin Header&lt;/b&gt;
 &lt;p&gt;
-A 2-Pin header.
+
+&lt;/p&gt;
+&lt;p&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;th&gt;Package&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;22-27-2021&lt;/td&gt;&lt;td&gt;Digi-Key&lt;/td&gt;&lt;td&gt;WM4111-ND&lt;/td&gt;&lt;td&gt;CONN HEADER 2POS .100 VERT TIN&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;26-60-4020&lt;/td&gt;&lt;td&gt;Digi-Key&lt;/td&gt;&lt;td&gt;WM4620-ND&lt;/td&gt;&lt;td&gt;CONN HEADER 2POS .156 VERT TIN&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
 &lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="2-PIN_HEADER" x="-2.54" y="0"/>
@@ -361,12 +385,19 @@ A 2-Pin header.
 </connects>
 <technologies>
 <technology name="">
+<attribute name="COLOR" value="Natural" constant="no"/>
+<attribute name="CONNECTOR_TYPE" value="Header, Unshrouded" constant="no"/>
+<attribute name="CONTACT_FINISH" value="Tin" constant="no"/>
+<attribute name="CONTACT_FINISH_THICKNESS" value="100 uin (2.54 um)" constant="no"/>
+<attribute name="CONTACT_MATING_LENGTH" value="0.295'' (7.49 mm)" constant="no"/>
+<attribute name="CONTACT_TYPE" value="Male Pin" constant="no"/>
 <attribute name="FASTENING_TYPE" value="Friction Lock" constant="no"/>
-<attribute name="GENDER" value="Male" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
+<attribute name="NUMBER_POSITIONS" value="2" constant="no"/>
+<attribute name="NUMBER_ROWS" value="1" constant="no"/>
 <attribute name="PITCH" value="0.100'' (2.54 mm)" constant="no"/>
-<attribute name="SUPPLIER" value="Digi-Key" constant="no"/>
-<attribute name="SUPPLIER_NUMBER" value="WM4111-ND" constant="no"/>
+<attribute name="SERIES" value="KK 6410" constant="no"/>
+<attribute name="TERMINATION" value="Solder" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -377,12 +408,19 @@ A 2-Pin header.
 </connects>
 <technologies>
 <technology name="">
+<attribute name="COLOR" value="Natural" constant="no"/>
+<attribute name="CONNECTOR_TYPE" value="Header, Unshrouded" constant="no"/>
+<attribute name="CONTACT_FINISH" value="Tin" constant="no"/>
+<attribute name="CONTACT_FINISH_THICKNESS" value="60 uin (1.52 um)" constant="no"/>
+<attribute name="CONTACT_MATING_LENGTH" value="0.450'' (11.43 mm)" constant="no"/>
+<attribute name="CONTACT_TYPE" value="Male Pin" constant="no"/>
 <attribute name="FASTENING_TYPE" value="Friction Lock" constant="no"/>
-<attribute name="GENDER" value="Male" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
+<attribute name="NUMBER_POSITIONS" value="2" constant="no"/>
+<attribute name="NUMBER_ROWS" value="1" constant="no"/>
 <attribute name="PITCH" value="0.156'' (3.96 mm)" constant="no"/>
-<attribute name="SUPPLIER" value="Digi-Key" constant="no"/>
-<attribute name="SUPPLIER_NUMBER" value="WM4620-ND" constant="no"/>
+<attribute name="SERIES" value="KK 41791" constant="no"/>
+<attribute name="TERMINATION" value="Solder" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -391,7 +429,10 @@ A 2-Pin header.
 <deviceset name="6-PIN_HEADER-" prefix="JP" uservalue="yes">
 <description>&lt;b&gt;6-Pin Header&lt;/b&gt;
 &lt;p&gt;
-A 6-Pin header.
+&lt;table&gt;
+&lt;tr&gt;&lt;th&gt;Package&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;22-27-2061&lt;/td&gt;&lt;td&gt;Digi-Key&lt;/td&gt;&lt;td&gt;WM4115-ND&lt;/td&gt;&lt;td&gt;CONN HEADER 6POS .100 VERT TIN&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
 &lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="6-PIN_HEADER" x="0" y="0"/>
@@ -408,12 +449,19 @@ A 6-Pin header.
 </connects>
 <technologies>
 <technology name="">
+<attribute name="COLOR" value="Natural" constant="no"/>
+<attribute name="CONNECTOR_TYPE" value="Header, Unshrouded" constant="no"/>
+<attribute name="CONTACT_FINISH" value="Tin" constant="no"/>
+<attribute name="CONTACT_FINISH_THICKNESS" value="100 uin (2.54 um)" constant="no"/>
+<attribute name="CONTACT_MATING_LENGTH" value="0.295'' (7.49 mm)" constant="no"/>
+<attribute name="CONTACT_TYPE" value="Male Pin" constant="no"/>
 <attribute name="FASTENING_TYPE" value="Friction Lock" constant="no"/>
-<attribute name="GENDER" value="Male" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
+<attribute name="NUMBER_POSITIONS" value="6" constant="no"/>
+<attribute name="NUMBER_ROWS" value="1" constant="no"/>
 <attribute name="PITCH" value="0.100'' (2.54 mm)" constant="no"/>
-<attribute name="SUPPLIER" value="Digi-Key" constant="no"/>
-<attribute name="SUPPLIER_NUMBER" value="WM4115-ND" constant="no"/>
+<attribute name="SERIES" value="KK 6410" constant="no"/>
+<attribute name="TERMINATION" value="Solder" constant="no"/>
 </technology>
 </technologies>
 </device>
