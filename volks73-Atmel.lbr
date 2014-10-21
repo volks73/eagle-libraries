@@ -103,6 +103,95 @@ https://github.com/volks73/eagle-libraries/volks73-Atmel.lbr
 </symbols>
 <devicesets>
 <deviceset name="ATTINY85" prefix="U">
+<description>&lt;h1&gt;ATtiny85 Microcontroller&lt;/h1&gt;
+&lt;p&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;th&gt;Package&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;DIP-8&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ATTINY85-20PU/ATTINY85-20PU-ND/735469"&gt;ATTINY85-20PU-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;IC MCU 8BIT 8KB FLASH 8DIP&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a href="http://www.atmel.com/images/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;h2&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;High Performance, Low Power AVR® 8-Bit Microcontroller&lt;/li&gt;
+&lt;li&gt;Advanced RISC Architecture&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;120 Powerful Instructions – Most Single Clock Cycle Execution&lt;/li&gt;
+&lt;li&gt;32 x 8 General Purpose Working Registers&lt;/li&gt;
+&lt;li&gt;Fully Static Operation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Non-volatile Program and Data Memories&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;2/4/8K Bytes of In-System Programmable Program Memory Flash&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Endurance: 10,000 Write/Erase Cycles&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;128/256/512 Bytes In-System Programmable EEPROM&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Endurance: 100,000 Write/Erase Cycles&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;128/256/512 Bytes Internal SRAM&lt;/li&gt;
+&lt;li&gt;Programming Lock for Self-Programming Flash Program and EEPROM Data Security&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Peripheral Features&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;8-bit Timer/Counter with Prescaler and Two PWM Channels&lt;/li&gt;
+&lt;li&gt;8-bit High Speed Timer/Counter with Separate Prescaler&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;2 High Frequency PWM Outputs with Separate Output Compare Registers&lt;/li&gt;
+&lt;li&gt;Programmable Dead Time Generator&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;USI – Universal Serial Interface with Start Condition Detector&lt;/li&gt;
+&lt;li&gt;10-bit ADC&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;4 Single Ended Channels&lt;/li&gt;
+&lt;li&gt;2 Differential ADC Channel Pairs with Programmable Gain (1x, 20x)&lt;/li&gt;
+&lt;li&gt;Temperature Measurement&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Programmable Watchdog Timer with Separate On-chip Oscillator&lt;/li&gt;
+&lt;li&gt;On-chip Analog Comparator&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Special Microcontroller Features&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;debugWIRE On-chip Debug System&lt;/li&gt;
+&lt;li&gt;In-System Programmable via SPI Port&lt;/li&gt;
+&lt;li&gt;External and Internal Interrupt Sources&lt;/li&gt;
+&lt;li&gt;Low Power Idle, ADC Noise Reduction, and Power-down Modes&lt;/li&gt;
+&lt;li&gt;Enhanced Power-on Reset Circuit&lt;/li&gt;
+&lt;li&gt;Programmable Brown-out Detection Circuit&lt;/li&gt;
+&lt;li&gt;Internal Calibrated Oscillator&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;I/O and Packages&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Six Programmable I/O Lines&lt;/li&gt;
+&lt;li&gt;8-pin PDIP, 8-pin SOIC, 20-pad QFN/MLF, and 8-pin TSSOP (only ATtiny45/V)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Operating Voltage&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;1.8 - 5.5V for ATtiny25V/45V/85V&lt;/li&gt;
+&lt;li&gt;2.7 - 5.5V for ATtiny25/45/85&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Speed Grade&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;ATtiny25V/45V/85V: 0 – 4 MHz @ 1.8 - 5.5V, 0 - 10 MHz @ 2.7 - 5.5V&lt;/li&gt;
+&lt;li&gt;ATtiny25/45/85: 0 – 10 MHz @ 2.7 - 5.5V, 0 - 20 MHz @ 4.5 - 5.5V&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Industrial Temperature Range&lt;/li&gt;
+&lt;li&gt;Low Power Consumption&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Active Mode:&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;1 MHz, 1.8V: 300 μA&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Power-down Mode:&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;0.1 μA at 1.8V&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/p&gt;</description>
 <gates>
 <gate name="U$1" symbol="ATTINY85" x="0" y="0"/>
 </gates>
@@ -119,7 +208,23 @@ https://github.com/volks73/eagle-libraries/volks73-Atmel.lbr
 <connect gate="U$1" pin="VCC" pad="8"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="CONNECTIVITY" value="USI" constant="no"/>
+<attribute name="CORE_PROCESSOR" value="AVR" constant="no"/>
+<attribute name="CORE_SIZE" value="8-Bit" constant="no"/>
+<attribute name="DATA_CONVERTERS" value="A/D 4x10b" constant="no"/>
+<attribute name="EEPROM_SIZE" value="512 x 8" constant="no"/>
+<attribute name="NUMBER_OF_IO" value="6" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-40C ~ 85C" constant="no"/>
+<attribute name="OSCILLATOR_TYPE" value="Internal" constant="no"/>
+<attribute name="PERIPHERALS" value="Brown-out Detect/Reset, POR, PWM, WDT" constant="no"/>
+<attribute name="PROGRAM_MEMORY_SIZE" value="8KB (4K x 16)" constant="no"/>
+<attribute name="PROGRAM_MEMORY_TYPE" value="FLASH" constant="no"/>
+<attribute name="RAM_SIZE" value="512 x 8" constant="no"/>
+<attribute name="SERIES" value="AVR ATtiny" constant="no"/>
+<attribute name="SPEED" value="20MHz" constant="no"/>
+<attribute name="VOLTAGE-SUPPLY" value="2.7V ~ 5.5V" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
