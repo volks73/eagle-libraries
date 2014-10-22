@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -88,11 +88,13 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="FK16X7R1E106K-" prefix="C" uservalue="yes">
-<description>&lt;h1&gt;10uF Ceramic Capacitor&lt;/h1&gt;
+<deviceset name="FK" prefix="C" uservalue="yes">
+<description>&lt;h1&gt;Ceramic Capacitor&lt;/h1&gt;
 &lt;p&gt;
 &lt;table&gt;
 &lt;tr&gt;&lt;th&gt;Package&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Radial&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/FK18X7R1E104K/445-8421-ND/2815351"&gt;445-8421-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CAP CER 0.1UF 25V 10% RADIAL&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Radial&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/FK18X7R1E105K/445-8422-ND/2815352"&gt;445-8422-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CAP CER 1UF 25V 10% RADIAL&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;Radial&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/FK16X7R1E106K/445-8351-ND/2815281"&gt;445-8351-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CAP CER 10UF 25V 10% RADIAL&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 &lt;/p&gt;
@@ -103,7 +105,7 @@
 <gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="RADIAL-0.098" package="RADIAL-0.098&quot;">
+<device name="18X7R" package="RADIAL-0.098&quot;">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -111,78 +113,21 @@
 <technologies>
 <technology name="">
 <attribute name="APPLICATIONS" value="General Purpose" constant="no"/>
-<attribute name="CAPACITANCE" value="10uF" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
-<attribute name="HEIGHT" value="0.236&quot; (6.00mm)" constant="no"/>
+<attribute name="HEIGHT_SEATED" value="0.217&quot; (5.50mm)" constant="no"/>
 <attribute name="LEAD_SPACING" value="0.098&quot; (2.50mm)" constant="no"/>
 <attribute name="LEAD_STYLE" value="Formed Leads - Kinked" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
 <attribute name="OPERATING_TEMPERATURE" value="-55C ~ 125C" constant="no"/>
 <attribute name="RATINGS" value="-" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="X7R" constant="no"/>
-<attribute name="TOLERANCE" value="10%" constant="no"/>
-<attribute name="VOLTAGE_RATED" value="25V" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="FK18X5R1E105K-" prefix="C" uservalue="yes">
-<description>&lt;h1&gt;1.0uF Ceramic Capacitor&lt;/h1&gt;
-&lt;p&gt;
-&lt;table&gt;
-&lt;tr&gt;&lt;th&gt;Package&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;Radial&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/FK18X5R1E105K/445-8410-ND/2815340"&gt;445-8410-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CAP CER 1UF 25V 10% RADIAL&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;a href="http://product.tdk.com/capacitor/leadmlcc/en/documents/leadmlcc_commercial_general_en.pdf"&gt;Datasheet&lt;/a&gt;
-&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="RADIAL-0.098" package="RADIAL-0.098&quot;">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="APPLICATIONS" value="General Purpose" constant="no"/>
-<attribute name="CAPACITANCE" value="1.0uF" constant="no"/>
-<attribute name="FEATURES" value="-" constant="no"/>
-<attribute name="HEIGHT_SEATED" value="0.217&quot; (5.50mm)" constant="no"/>
-<attribute name="LEAD_SPACING" value="0.098&quot; (2.50mm)" constant="no"/>
-<attribute name="LEAD_STYLE" value="Formed Leads - Kinked" constant="no"/>
-<attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
-<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 85C" constant="no"/>
-<attribute name="RATINGS" value="-" constant="no"/>
-<attribute name="TEMPERATURE_COEFFICIENT" value="X5R" constant="no"/>
 <attribute name="THICKNESS" value="-" constant="no"/>
 <attribute name="TOLERANCE" value="10%" constant="no"/>
 <attribute name="VOLTAGE_RATED" value="25V" constant="no"/>
 </technology>
 </technologies>
 </device>
-</devices>
-</deviceset>
-<deviceset name="FK18X7R1E104K-" prefix="C" uservalue="yes">
-<description>&lt;h1&gt;0.1uF Ceramic Capacitor&lt;/h1&gt;
-&lt;p&gt;
-&lt;table&gt;
-&lt;tr&gt;&lt;th&gt;Package&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;Radial&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/FK18X7R1E104K/445-8421-ND/2815351"&gt;445-8421-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CAP CER 0.1UF 25V 10% RADIAL&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;a href="http://product.tdk.com/capacitor/leadmlcc/en/documents/leadmlcc_commercial_general_en.pdf"&gt;Datasheet&lt;/a&gt;
-&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="RADIAL-0.098" package="RADIAL-0.098&quot;">
+<device name="16X7R" package="RADIAL-0.098&quot;">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -190,8 +135,8 @@
 <technologies>
 <technology name="">
 <attribute name="APPLICATIONS" value="General Purpose" constant="no"/>
-<attribute name="CAPACITANCE" value="0.1uF" constant="no"/>
-<attribute name="HEIGHT_SEATED" value="0.217&quot; (5.50mm)" constant="no"/>
+<attribute name="FEATURES" value="-" constant="no"/>
+<attribute name="HEIGHT_SEATED" value="0.236&quot; (6.00mm)" constant="no"/>
 <attribute name="LEAD_SPACING" value="0.098&quot; (2.50mm)" constant="no"/>
 <attribute name="LEAD_STYLE" value="Formed Leads - Kinked" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
