@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -350,7 +350,7 @@ https://github.com/volks73/eagle-libraries/volks73-Molex.lbr
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="3-PIN_HEADER-" prefix="JP" uservalue="yes">
+<deviceset name="3-PIN_HEADER-" prefix="JP">
 <description>&lt;b&gt;3-Pin Header&lt;/b&gt;
 &lt;p&gt;
 &lt;table&gt;
@@ -362,7 +362,7 @@ https://github.com/volks73/eagle-libraries/volks73-Molex.lbr
 <gate name="G$1" symbol="3-PIN_HEADER" x="2.54" y="0"/>
 </gates>
 <devices>
-<device name="KK6410" package="22-27-2031">
+<device name="6410" package="22-27-2031">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -379,7 +379,7 @@ https://github.com/volks73/eagle-libraries/volks73-Molex.lbr
 <attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
 <attribute name="NUMBER_POSITIONS" value="3" constant="no"/>
 <attribute name="PITCH" value="0.100'' (2.54 mm)" constant="no"/>
-<attribute name="SERIES" value="KK 6410" constant="no"/>
+<attribute name="SERIES" value="KK" constant="no"/>
 <attribute name="TERMINATION" value="Solder" constant="no"/>
 </technology>
 </technologies>
@@ -399,7 +399,7 @@ https://github.com/volks73/eagle-libraries/volks73-Molex.lbr
 <gate name="G$1" symbol="5-PIN_HEADER" x="0" y="0"/>
 </gates>
 <devices>
-<device name="KK6410" package="22-27-2051">
+<device name="6410" package="22-27-2051">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -420,12 +420,12 @@ https://github.com/volks73/eagle-libraries/volks73-Molex.lbr
 <attribute name="NUMBER_POSITIONS" value="5" constant="no"/>
 <attribute name="NUMBER_ROWS" value="1" constant="no"/>
 <attribute name="PITCH" value="0.100'' (2.54 mm)" constant="no"/>
-<attribute name="SERIES" value="KK 6410" constant="no"/>
+<attribute name="SERIES" value="KK" constant="no"/>
 <attribute name="TERMINATION" value="Solder" constant="no"/>
 </technology>
 </technologies>
 </device>
-<device name="PICOBLADE53261" package="53261-0571">
+<device name="53261" package="53261-0571">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -448,13 +448,14 @@ https://github.com/volks73/eagle-libraries/volks73-Molex.lbr
 <attribute name="NUMBER_OF_ROWS" value="1" constant="no"/>
 <attribute name="PITCH" value="0.049&quot; (1.25mm)" constant="no"/>
 <attribute name="ROW_SPACING" value="-" constant="no"/>
+<attribute name="SERIES" value="PicoBlade" constant="no"/>
 <attribute name="TERMINATION" value="Solder" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2-PIN_HEADER-" prefix="JP" uservalue="yes">
+<deviceset name="2-PIN_HEADER-" prefix="JP">
 <description>&lt;b&gt;2-Pin Header&lt;/b&gt;
 &lt;p&gt;
 
@@ -470,7 +471,7 @@ https://github.com/volks73/eagle-libraries/volks73-Molex.lbr
 <gate name="G$1" symbol="2-PIN_HEADER" x="-2.54" y="0"/>
 </gates>
 <devices>
-<device name="KK6410" package="22-27-2021">
+<device name="6410" package="22-27-2021">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -488,12 +489,12 @@ https://github.com/volks73/eagle-libraries/volks73-Molex.lbr
 <attribute name="NUMBER_POSITIONS" value="2" constant="no"/>
 <attribute name="NUMBER_ROWS" value="1" constant="no"/>
 <attribute name="PITCH" value="0.100'' (2.54 mm)" constant="no"/>
-<attribute name="SERIES" value="KK 6410" constant="no"/>
+<attribute name="SERIES" value="KK" constant="no"/>
 <attribute name="TERMINATION" value="Solder" constant="no"/>
 </technology>
 </technologies>
 </device>
-<device name="KK41791" package="26-60-4020">
+<device name="41791" package="26-60-4020">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -511,14 +512,14 @@ https://github.com/volks73/eagle-libraries/volks73-Molex.lbr
 <attribute name="NUMBER_POSITIONS" value="2" constant="no"/>
 <attribute name="NUMBER_ROWS" value="1" constant="no"/>
 <attribute name="PITCH" value="0.156'' (3.96 mm)" constant="no"/>
-<attribute name="SERIES" value="KK 41791" constant="no"/>
+<attribute name="SERIES" value="KK" constant="no"/>
 <attribute name="TERMINATION" value="Solder" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="6-PIN_HEADER-" prefix="JP" uservalue="yes">
+<deviceset name="6-PIN_HEADER-" prefix="JP">
 <description>&lt;b&gt;6-Pin Header&lt;/b&gt;
 &lt;p&gt;
 &lt;table&gt;
@@ -530,7 +531,7 @@ https://github.com/volks73/eagle-libraries/volks73-Molex.lbr
 <gate name="G$1" symbol="6-PIN_HEADER" x="0" y="0"/>
 </gates>
 <devices>
-<device name="KK6410" package="22-27-2061">
+<device name="6410" package="22-27-2061">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -552,7 +553,7 @@ https://github.com/volks73/eagle-libraries/volks73-Molex.lbr
 <attribute name="NUMBER_POSITIONS" value="6" constant="no"/>
 <attribute name="NUMBER_ROWS" value="1" constant="no"/>
 <attribute name="PITCH" value="0.100'' (2.54 mm)" constant="no"/>
-<attribute name="SERIES" value="KK 6410" constant="no"/>
+<attribute name="SERIES" value="KK" constant="no"/>
 <attribute name="TERMINATION" value="Solder" constant="no"/>
 </technology>
 </technologies>
@@ -571,7 +572,7 @@ https://github.com/volks73/eagle-libraries/volks73-Molex.lbr
 <gate name="G$1" symbol="4-PIN_HEADER" x="0" y="0"/>
 </gates>
 <devices>
-<device name="PICOBLADE53261" package="53261-0471">
+<device name="53261" package="53261-0471">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -594,6 +595,7 @@ https://github.com/volks73/eagle-libraries/volks73-Molex.lbr
 <attribute name="NUMBER_OF_ROWS" value="1" constant="no"/>
 <attribute name="PITCH" value="0.049&quot; (1.25mm)" constant="no"/>
 <attribute name="ROW_SPACING" value="-" constant="no"/>
+<attribute name="SERIES" value="PicoBlade" constant="no"/>
 <attribute name="TERMINATION" value="Solder" constant="no"/>
 </technology>
 </technologies>

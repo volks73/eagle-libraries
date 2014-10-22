@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="7.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -96,7 +96,7 @@ https://github.com/volks73/eagle-libraries/volks73-FCI.lbr
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="1-PIN_HEADER-" prefix="JP" uservalue="yes">
+<deviceset name="1-PIN_HEADER-" prefix="JP">
 <description>&lt;b&gt;1-Pin Header&lt;/b&gt;
 &lt;p&gt;
 &lt;table&gt;

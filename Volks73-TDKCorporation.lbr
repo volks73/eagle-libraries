@@ -88,7 +88,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="FK" prefix="C" uservalue="yes">
+<deviceset name="CAPACITOR-" prefix="C" uservalue="yes">
 <description>&lt;h1&gt;Ceramic Capacitor&lt;/h1&gt;
 &lt;p&gt;
 &lt;table&gt;
@@ -105,7 +105,7 @@
 <gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="18X7R" package="RADIAL-0.098&quot;">
+<device name="FK18X7R" package="RADIAL-0.098&quot;">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -120,6 +120,7 @@
 <attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
 <attribute name="OPERATING_TEMPERATURE" value="-55C ~ 125C" constant="no"/>
 <attribute name="RATINGS" value="-" constant="no"/>
+<attribute name="SERIES" value="FK" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="X7R" constant="no"/>
 <attribute name="THICKNESS" value="-" constant="no"/>
 <attribute name="TOLERANCE" value="10%" constant="no"/>
@@ -127,7 +128,7 @@
 </technology>
 </technologies>
 </device>
-<device name="16X7R" package="RADIAL-0.098&quot;">
+<device name="FK16X7R" package="RADIAL-0.098&quot;">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -142,6 +143,7 @@
 <attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
 <attribute name="OPERATING_TEMPERATURE" value="-55C ~ 125C" constant="no"/>
 <attribute name="RATINGS" value="-" constant="no"/>
+<attribute name="SERIES" value="FK" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="X7R" constant="no"/>
 <attribute name="THICKNESS" value="-" constant="no"/>
 <attribute name="TOLERANCE" value="10%" constant="no"/>
