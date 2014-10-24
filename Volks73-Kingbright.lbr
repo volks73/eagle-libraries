@@ -128,8 +128,8 @@
 <packages>
 <package name="RADIAL-3.0MM">
 <circle x="0" y="0" radius="1.6" width="0.127" layer="21"/>
-<pad name="1" x="0" y="-1.27" drill="0.8" shape="square"/>
-<pad name="2" x="0" y="1.27" drill="0.8"/>
+<pad name="1" x="0" y="-1.27" drill="0.9" shape="square"/>
+<pad name="2" x="0" y="1.27" drill="0.9"/>
 <circle x="0" y="0" radius="1.45" width="0.127" layer="51"/>
 <text x="-2.95" y="2.5" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3" y="-4" size="1.27" layer="27">&gt;VALUE</text>
@@ -162,13 +162,13 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LED-3MM-" prefix="D" uservalue="yes">
-<description>&lt;h1&gt;3MM LED&lt;/h1&gt;
+<deviceset name="LED-" prefix="LED" uservalue="yes">
+<description>&lt;h1&gt;LED&lt;/h1&gt;
 &lt;p&gt;
 &lt;table&gt;
 &lt;tr&gt;&lt;th&gt;Package&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;SOT-23-3&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/WP710A10SGC/754-1591-ND/2769816"&gt;754-1591-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;LED GREEN CLEAR 3MM 565NM&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;SOT-23-3&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/WP710A10SEC%2FJ4/754-1562-ND/2704763"&gt;754-1562-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;3MM ORANGE LED ROUND&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Radial 3.0mm&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/WP710A10SGC/754-1591-ND/2769816"&gt;754-1591-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;LED GREEN CLEAR 3MM 565NM&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Radial 3.0mm&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/WP710A10SEC%2FJ4/754-1562-ND/2704763"&gt;754-1562-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;3MM ORANGE LED ROUND&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 &lt;/p&gt;
 &lt;p&gt;

@@ -94,7 +94,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="DIODE-" prefix="D">
+<deviceset name="1N" prefix="D">
 <description>&lt;h1&gt;Rectifier Diode&lt;/h1&gt;
 &lt;p&gt;
 &lt;table&gt;
@@ -129,7 +129,7 @@
 <gate name="G$1" symbol="DIODE" x="0" y="-2.54"/>
 </gates>
 <devices>
-<device name="1N4002" package="DO-41">
+<device name="4002" package="DO-41">
 <connects>
 <connect gate="G$1" pin="ANODE" pad="ANODE"/>
 <connect gate="G$1" pin="CATHODE" pad="CATHODE"/>
@@ -149,7 +149,7 @@
 </technology>
 </technologies>
 </device>
-<device name="1N4001" package="DO-41">
+<device name="4001" package="DO-41">
 <connects>
 <connect gate="G$1" pin="ANODE" pad="ANODE"/>
 <connect gate="G$1" pin="CATHODE" pad="CATHODE"/>

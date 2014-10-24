@@ -392,7 +392,7 @@ https://github.com/volks73/eagle-libraries/volks73-Molex.lbr
 &lt;table&gt;
 &lt;tr&gt;&lt;th&gt;Package&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;22-27-2051&lt;/td&gt;&lt;td&gt;Digi-Key&lt;/td&gt;&lt;td&gt;WM4114-ND&lt;/td&gt;&lt;td&gt;CONN HEADER 5POS .100 VERT TIN&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;53261-0571&lt;/td&gt;&lt;td&gt;Digi-Key&lt;/td&gt;&lt;td&gt;WM7623CT-ND&lt;/td&gt;&lt;td&gt;CONN HEADER 5POS 1.25MM R/A SMD&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;53261-0571&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/0532610571/WM7623CT-ND/699110"&gt;WM7623CT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CONN HEADER 5POS 1.25MM R/A SMD&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 &lt;/p&gt;</description>
 <gates>
@@ -565,7 +565,7 @@ https://github.com/volks73/eagle-libraries/volks73-Molex.lbr
 &lt;p&gt;
 &lt;table&gt;
 &lt;tr&gt;&lt;th&gt;Package&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;53261-0471&lt;/td&gt;&lt;td&gt;Digi-Key&lt;/td&gt;&lt;td&gt;WM7622CT-ND&lt;/td&gt;&lt;td&gt;CONN HEADER 4POS 1.25MM R/A SMD&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;53261-0471&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/0532610471/WM7622CT-ND/699109"&gt;WM7622CT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CONN HEADER 4POS 1.25MM R/A SMD&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 &lt;/p&gt;</description>
 <gates>
