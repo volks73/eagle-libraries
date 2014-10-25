@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -124,12 +124,22 @@
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
-<description>Volks73's Library for Lite-On Parts</description>
+<description>&lt;h1&gt;Volks73's Library for Lite-On Parts&lt;/h1&gt;
+&lt;p&gt;
+&lt;a href="https://github.com/volks73/eagle-libraries/volks73-FCI.lbr"&gt;Repository&lt;/a&gt;
+&lt;/p&gt;
+&lt;h3&gt;Licensing:&lt;/h3&gt; 
+&lt;p&gt;
+Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0), &lt;a href="http://creativecommons.org/licenses/by-sa/3.0/"&gt;http://creativecommons.org/licenses/by-sa/3.0/&lt;/a&gt;. 
+&lt;/p&gt;
+&lt;p&gt;
+For attribution, please provide a link in any documentation or design files to the repository on Github. 
+&lt;/p&gt;</description>
 <packages>
 <package name="RADIAL-3.00MM">
 <description>&lt;h1&gt;Radial 3.00mm Lead Spacing&lt;/h1&gt;</description>
-<pad name="1" x="-1.27" y="0" drill="0.7" shape="square"/>
-<pad name="2" x="1.27" y="0" drill="0.7"/>
+<pad name="1" x="-1.27" y="0" drill="1.1" shape="square"/>
+<pad name="2" x="1.27" y="0" drill="1.1"/>
 <circle x="0" y="0" radius="1.5" width="0.127" layer="49"/>
 <text x="-2.95" y="2.5" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3" y="-4" size="1.27" layer="27">&gt;VALUE</text>
@@ -139,6 +149,8 @@
 <text x="1.905" y="-1.905" size="0.8128" layer="21">C</text>
 <wire x1="-1.4" y1="0.8" x2="1.4" y2="0.8" width="0.127" layer="21" curve="-120"/>
 <wire x1="1.4" y1="-0.8" x2="-1.4" y2="-0.8" width="0.127" layer="21" curve="-120"/>
+<rectangle x1="-1.62" y1="-0.35" x2="-0.92" y2="0.35" layer="51"/>
+<rectangle x1="0.92" y1="-0.35" x2="1.62" y2="0.35" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -168,20 +180,19 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LTL" prefix="LED" uservalue="yes">
-<description>&lt;h1&gt;LED&lt;/h1&gt;
-&lt;p&gt;
-&lt;table&gt;
-&lt;tr&gt;&lt;th&gt;Package&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;Radial 3.0mm&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/LTL-4221N/160-1139-ND/214530"&gt;160-1139-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;LED 3MM HI-EFF RED DIFFUSED&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;Radial 3.0mm&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/LTL-4231N/160-1142-ND/214440"&gt;160-1142-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;LED 3MM GREEN DIFFUSED&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;Radial 3.0mm&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/LTL-4251N/160-1145-ND/149419"&gt;160-1145-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;LED 3MM YELLOW DIFFUSED&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
-&lt;/p&gt;
+<deviceset name="LTL-*" prefix="LED" uservalue="yes">
+<description>&lt;h1&gt;Light Emitting Diode (LED)&lt;/h1&gt;
+&lt;h2&gt;&lt;/h2&gt;
 &lt;p&gt;
 &lt;a href="http://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTL-4251N.pdf"&gt;Datasheet&lt;/a&gt;
 &lt;/p&gt;
-&lt;p&gt;
+&lt;h3&gt;Ordering Information&lt;/h3&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;LTL-4221N&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/LTL-4221N/160-1139-ND/214530"&gt;160-1139-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;LED 3MM HI-EFF RED DIFFUSED&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;LTL-4231N&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/LTL-4231N/160-1142-ND/214440"&gt;160-1142-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;LED 3MM GREEN DIFFUSED&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;LTL-4251N&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/LTL-4251N/160-1145-ND/149419"&gt;160-1145-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;LED 3MM YELLOW DIFFUSED&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
 &lt;h2&gt;Features&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;High Intensity&lt;/li&gt;
@@ -189,72 +200,64 @@
 &lt;li&gt;Selected minimum intensities&lt;/li&gt;
 &lt;li&gt;General purpose leads&lt;/li&gt;
 &lt;li&gt;Reliable and rugged&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;</description>
+&lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="LED" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-4221N" package="RADIAL-3.00MM">
+<device name="" package="RADIAL-3.00MM">
 <connects>
 <connect gate="G$1" pin="ANODE" pad="1"/>
 <connect gate="G$1" pin="CATHODE" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
+<technology name="4221N">
 <attribute name="COLOR" value="Red" constant="no"/>
-<attribute name="CURRENT" value="10mA" constant="no"/>
+<attribute name="CURRENT-TEST" value="10mA" constant="no"/>
 <attribute name="HEIGHT" value="4.45mm" constant="no"/>
 <attribute name="LENS_STYLE" value="Round with Domed Top, 3mm, T-1" constant="no"/>
 <attribute name="LENS_TYPE" value="Diffused, Tinted" constant="no"/>
+<attribute name="LUMINOUS_FLUX" value="-" constant="no"/>
 <attribute name="MILLICANDELA_RATING" value="8.7mcd" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
-<attribute name="VIEWING_ANGLE" value="60" constant="no"/>
-<attribute name="VOLTAGE_FORWARD" value="2V" constant="no"/>
-<attribute name="WAVELENGTH_DOMINANT" value="623nm" constant="no"/>
-<attribute name="WAVELENGTH_PEAK" value="635nm" constant="no"/>
+<attribute name="PACKAGE" value="Radial" constant="no"/>
+<attribute name="SIZE" value="-" constant="no"/>
+<attribute name="VIEWING-ANGLE" value="60" constant="no"/>
+<attribute name="VOLTAGE-FORWARD" value="2V" constant="no"/>
+<attribute name="WAVELENGTH-DOMINANT" value="623nm" constant="no"/>
+<attribute name="WAVELENGTH-PEAK" value="635nm" constant="no"/>
 </technology>
-</technologies>
-</device>
-<device name="-4231N" package="RADIAL-3.00MM">
-<connects>
-<connect gate="G$1" pin="ANODE" pad="1"/>
-<connect gate="G$1" pin="CATHODE" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
+<technology name="4231N">
 <attribute name="COLOR" value="Green" constant="no"/>
-<attribute name="CURRENT" value="10mA" constant="no"/>
+<attribute name="CURRENT-TEST" value="10mA" constant="no"/>
 <attribute name="HEIGHT" value="4.45mm" constant="no"/>
 <attribute name="LENS_STYLE" value="Round with Domed Top, 3mm, T-1" constant="no"/>
 <attribute name="LENS_TYPE" value="Diffused, Tinted" constant="no"/>
-<attribute name="MILLICANDELA_RATING" value="12.6mcd" constant="no"/>
+<attribute name="LUMINOUS_FLUX" value="-" constant="no"/>
+<attribute name="MILLICANDELA_RATING" value="12.5mcd" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
-<attribute name="VIEWING_ANGLE" value="60" constant="no"/>
-<attribute name="VOLTAGE_FORWARD" value="2.1V" constant="no"/>
-<attribute name="WAVELENGTH_DOMINANT" value="569nm" constant="no"/>
-<attribute name="WAVELENGTH_PEAK" value="565nm" constant="no"/>
+<attribute name="PACKAGE" value="Radial" constant="no"/>
+<attribute name="SIZE" value="-" constant="no"/>
+<attribute name="VIEWING-ANGLE" value="60" constant="no"/>
+<attribute name="VOLTAGE-FORWARD" value="2.1V" constant="no"/>
+<attribute name="WAVELENGTH-DOMINANT" value="569nm" constant="no"/>
+<attribute name="WAVELENGTH-PEAK" value="565nm" constant="no"/>
 </technology>
-</technologies>
-</device>
-<device name="-4251N" package="RADIAL-3.00MM">
-<connects>
-<connect gate="G$1" pin="ANODE" pad="1"/>
-<connect gate="G$1" pin="CATHODE" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
+<technology name="4251N">
 <attribute name="COLOR" value="Yellow" constant="no"/>
-<attribute name="CURRENT" value="10mA" constant="no"/>
+<attribute name="CURRENT-TEST" value="10mA" constant="no"/>
 <attribute name="HEIGHT" value="4.45mm" constant="no"/>
 <attribute name="LENS_STYLE" value="Round with Domed Top, 3mm, T-1" constant="no"/>
 <attribute name="LENS_TYPE" value="Diffused, Tinted" constant="no"/>
+<attribute name="LUMINOUS_FLUX" value="-" constant="no"/>
 <attribute name="MILLICANDELA_RATING" value="5.6mcd" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
-<attribute name="VIEWING_ANGLE" value="60" constant="no"/>
-<attribute name="VOLTAGE_FORWARD" value="2.1V" constant="no"/>
-<attribute name="WAVELENGTH_DOMINANT" value="588nm" constant="no"/>
-<attribute name="WAVELENGTH_PEAK" value="585nm" constant="no"/>
+<attribute name="PACKAGE" value="Radial" constant="no"/>
+<attribute name="SIZE" value="-" constant="no"/>
+<attribute name="VIEWING-ANGLE" value="60" constant="no"/>
+<attribute name="VOLTAGE-FORWARD" value="2.1V" constant="no"/>
+<attribute name="WAVELENGTH-DOMINANT" value="588nm" constant="no"/>
+<attribute name="WAVELENGTH-PEAK" value="585nm" constant="no"/>
 </technology>
 </technologies>
 </device>
