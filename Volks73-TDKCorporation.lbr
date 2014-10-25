@@ -42,8 +42,8 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="13" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
@@ -68,10 +68,11 @@ Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0), &lt;a href=
 For attribution, please provide a link in any documentation or design files to the repository on Github. 
 &lt;/p&gt;</description>
 <packages>
-<package name="RADIAL-0.098&quot;">
-<description>&lt;h1&gt;Radial 0.098" Lead Spacing&lt;/h1&gt;</description>
-<pad name="1" x="0" y="1.2446" drill="0.7"/>
-<pad name="2" x="0" y="-1.2446" drill="0.7"/>
+<package name="FK18">
+<description>&lt;h1&gt;Radial 0.098" Lead Spacing&lt;/h1&gt;
+&lt;h2&gt;FK Series 18 size code&lt;/h2&gt;</description>
+<pad name="1" x="0" y="1.2446" drill="0.9"/>
+<pad name="2" x="0" y="-1.2446" drill="0.9"/>
 <wire x1="-1.27" y1="-2.54" x2="-1.27" y2="0" width="0.127" layer="21"/>
 <wire x1="-1.27" y1="0" x2="-1.27" y2="2.54" width="0.127" layer="21"/>
 <wire x1="-1.27" y1="2.54" x2="1.27" y2="2.54" width="0.127" layer="21"/>
@@ -81,6 +82,35 @@ For attribution, please provide a link in any documentation or design files to t
 <wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.127" layer="21"/>
 <text x="-1.905" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="3.175" y="-3.175" size="1.27" layer="25" rot="R90">&gt;VALUE</text>
+<circle x="0" y="1.2446" radius="0.3" width="0.127" layer="51"/>
+<circle x="0" y="1.2446" radius="0.3" width="0.127" layer="51"/>
+<circle x="0" y="-1.2446" radius="0.3" width="0.127" layer="51"/>
+<wire x1="-1.25" y1="-2" x2="-1.25" y2="2" width="0.127" layer="49"/>
+<wire x1="1.25" y1="2" x2="1.25" y2="-2" width="0.127" layer="49"/>
+<wire x1="-1.25" y1="2" x2="1.25" y2="2" width="0.127" layer="49"/>
+<wire x1="1.25" y1="-2" x2="-1.25" y2="-2" width="0.127" layer="49"/>
+</package>
+<package name="FK16">
+<description>&lt;h1&gt;Radial 0.098" Lead Spacing&lt;/h1&gt;
+&lt;h2&gt;FK Series 16 size code&lt;/h2&gt;</description>
+<pad name="1" x="0" y="1.2446" drill="0.9"/>
+<pad name="2" x="0" y="-1.2446" drill="0.9"/>
+<wire x1="-1.27" y1="-2.54" x2="-1.27" y2="0" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="2.54" x2="1.27" y2="2.54" width="0.127" layer="21"/>
+<wire x1="1.27" y1="2.54" x2="1.27" y2="0" width="0.127" layer="21"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-2.54" x2="-1.27" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.127" layer="21"/>
+<text x="-2" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="3.3" y="-3.175" size="1.27" layer="25" rot="R90">&gt;VALUE</text>
+<circle x="0" y="1.2446" radius="0.3" width="0.127" layer="51"/>
+<circle x="0" y="1.2446" radius="0.3" width="0.127" layer="51"/>
+<circle x="0" y="-1.2446" radius="0.3" width="0.127" layer="51"/>
+<wire x1="-1.75" y1="-2.75" x2="-1.75" y2="2.75" width="0.127" layer="49"/>
+<wire x1="1.75" y1="2.75" x2="1.75" y2="-2.75" width="0.127" layer="49"/>
+<wire x1="-1.75" y1="2.75" x2="1.75" y2="2.75" width="0.127" layer="49"/>
+<wire x1="1.75" y1="-2.75" x2="-1.75" y2="-2.75" width="0.127" layer="49"/>
 </package>
 </packages>
 <symbols>
@@ -100,47 +130,30 @@ For attribution, please provide a link in any documentation or design files to t
 <devicesets>
 <deviceset name="FK?*" prefix="C" uservalue="yes">
 <description>&lt;h1&gt;Ceramic Capacitor&lt;/h1&gt;
-&lt;p&gt;
+&lt;h2&gt;MLCC with Dipped Radial Lead&lt;/h2&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://product.tdk.com/capacitor/leadmlcc/en/documents/leadmlcc_commercial_general_en.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Ordering Information&lt;/h3&gt;
 &lt;table&gt;
 &lt;tr&gt;&lt;th&gt;Package&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;Radial&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/FK18X7R1E104K/445-8421-ND/2815351"&gt;445-8421-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CAP CER 0.1UF 25V 10% RADIAL&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;Radial&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/FK18X7R1E105K/445-8422-ND/2815352"&gt;445-8422-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CAP CER 1UF 25V 10% RADIAL&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;Radial&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/FK16X7R1E106K/445-8351-ND/2815281"&gt;445-8351-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CAP CER 10UF 25V 10% RADIAL&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;a href="http://product.tdk.com/capacitor/leadmlcc/en/documents/leadmlcc_commercial_general_en.pdf"&gt;Datasheet&lt;/a&gt;
-&lt;/p&gt;</description>
+&lt;h3&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;High capacitance has been achieved through improvements in the thinning process of ceramic dielectric layers and multi-layer lamination technology.
+&lt;li&gt;High reliability is maintained under specified environmental conditions.&lt;/li&gt;
+&lt;li&gt;Low residual inductance and excellent frequency characteristics has been achieved.&lt;/li&gt;
+&lt;li&gt;The leads are formed with a "kink" to achieve consistent insertion heights and facilitate the release of gases during soldering for dramatically improved solderability.&lt;/li&gt;
+&lt;li&gt;Taping specifications are available for automatic insertions, which contribute to reduce on-board costs.&lt;/i&gt;</description>
 <gates>
 <gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="16" package="RADIAL-0.098&quot;">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="X7R1E106K">
-<attribute name="APPLICATIONS" value="General Purpose" constant="no"/>
-<attribute name="CAPACITANCE" value="10uF" constant="no"/>
-<attribute name="FEATURES" value="-" constant="no"/>
-<attribute name="HEIGHT" value="0.236&quot; (6.00mm)" constant="no"/>
-<attribute name="LEAD_SPACING" value="0.098&quot; (2.50mm)" constant="no"/>
-<attribute name="LEAD_STYLE" value="Formed Leads - Kinked" constant="no"/>
-<attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
-<attribute name="OPEARTING_TEMPERATURE" value="-55C ~ 125C" constant="no"/>
-<attribute name="PACKAGE" value="Radial" constant="no"/>
-<attribute name="RATINGS" value="-" constant="no"/>
-<attribute name="SIZE" value="0.217&quot; L x 0.138&quot; W (5.50mm x 3.50mm)" constant="no"/>
-<attribute name="TEMPERATURE_COEFFICIENT" value="X7R" constant="no"/>
-<attribute name="THICKNESS" value="-" constant="no"/>
-<attribute name="TOLERANCE" value="10%" constant="no"/>
-<attribute name="VOLTAGE-RATED" value="25V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="18" package="RADIAL-0.098&quot;">
+<device name="18" package="FK18">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -175,6 +188,31 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="PACKAGE" value="Radial" constant="no"/>
 <attribute name="RATINGS" value="-" constant="no"/>
 <attribute name="SIZE" value="0.157&quot; L x 0.098&quot; W (4.00mm x 2.50mm)" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="X7R" constant="no"/>
+<attribute name="THICKNESS" value="-" constant="no"/>
+<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="VOLTAGE-RATED" value="25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="16" package="FK16">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="X7R1E106K">
+<attribute name="APPLICATIONS" value="General Purpose" constant="no"/>
+<attribute name="CAPACITANCE" value="10uF" constant="no"/>
+<attribute name="FEATURES" value="-" constant="no"/>
+<attribute name="HEIGHT" value="0.236&quot;" constant="no"/>
+<attribute name="LEAD_SPACING" value="0.098&quot;" constant="no"/>
+<attribute name="LEAD_STYLE" value="Formed Leads - Kinked" constant="no"/>
+<attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 125C" constant="no"/>
+<attribute name="PACKAGE" value="Radial" constant="no"/>
+<attribute name="RATINGS" value="-" constant="no"/>
+<attribute name="SIZE" value="0.217&quot; L x 0.138&quot; W (5.50mm x 3.50mm)" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="X7R" constant="no"/>
 <attribute name="THICKNESS" value="-" constant="no"/>
 <attribute name="TOLERANCE" value="10%" constant="no"/>
