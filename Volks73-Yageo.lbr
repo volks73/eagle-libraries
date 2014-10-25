@@ -42,7 +42,7 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
@@ -105,19 +105,23 @@
 <description>Volks73's Library for Yageo Parts</description>
 <packages>
 <package name="AXIAL-0.300&quot;">
-<description>Axial 0.300" Spacing</description>
+<description>&lt;h1&gt;Axial 0.300" Lead Spacing&lt;/h1&gt;</description>
 <pad name="2" x="0" y="3.81" drill="0.7"/>
 <pad name="1" x="0" y="-3.81" drill="0.7"/>
-<wire x1="0" y1="1.905" x2="0" y2="3.175" width="0.127" layer="21"/>
-<wire x1="0" y1="-3.175" x2="0" y2="-1.905" width="0.127" layer="21"/>
-<text x="-1.27" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="2.54" y="-3.175" size="1.27" layer="25" rot="R90">&gt;VALUE</text>
+<wire x1="0" y1="1.905" x2="0" y2="3.048" width="0.127" layer="21"/>
+<wire x1="0" y1="-3.048" x2="0" y2="-1.905" width="0.127" layer="21"/>
+<text x="-1.905" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="3.175" y="-3.175" size="1.27" layer="25" rot="R90">&gt;VALUE</text>
 <wire x1="0" y1="1.905" x2="-0.635" y2="1.27" width="0.127" layer="21"/>
 <wire x1="-0.635" y1="1.27" x2="0.635" y2="0.635" width="0.127" layer="21"/>
 <wire x1="0.635" y1="0.635" x2="-0.635" y2="0" width="0.127" layer="21"/>
 <wire x1="-0.635" y1="0" x2="0.635" y2="-0.635" width="0.127" layer="21"/>
 <wire x1="0.635" y1="-0.635" x2="-0.635" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-0.635" y1="-1.27" x2="0" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="-1.2" y1="3.15" x2="1.2" y2="3.15" width="0.127" layer="49"/>
+<wire x1="-1.2" y1="-3.15" x2="1.2" y2="-3.15" width="0.127" layer="49"/>
+<wire x1="-1.2" y1="3.15" x2="-1.2" y2="-3.15" width="0.127" layer="49"/>
+<wire x1="1.2" y1="3.15" x2="1.2" y2="-3.15" width="0.127" layer="49"/>
 </package>
 </packages>
 <symbols>
@@ -138,7 +142,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CFR" prefix="R" uservalue="yes">
+<deviceset name="CFR-?-*" prefix="R" uservalue="yes">
 <description>&lt;h1&gt;Carbon Film Resistor&lt;/h1&gt;
 &lt;p&gt;
 &lt;table&gt;
@@ -159,133 +163,100 @@
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-25JB-52-510R" package="AXIAL-0.300&quot;">
+<device name="25JB-52" package="AXIAL-0.300&quot;">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="COMPOSITION" value="Carbon Film" constant="no"/>
-<attribute name="FEATURES" value="-" constant="no"/>
-<attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
-<attribute name="POWER" value="0.25W, 1/4W" constant="no"/>
-<attribute name="RESISTANCE" value="510" constant="no"/>
-<attribute name="SIZE" value="0.094&quot; Dia X 0.248&quot; L (2.40mm x 6.30mm)" constant="no"/>
-<attribute name="TEMPERATURE_COEFFICIENT" value="350ppm/C" constant="no"/>
-<attribute name="TOLERANCE" value="5%" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-25JB-52-4K7" package="AXIAL-0.300&quot;">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
+<technology name="10K">
 <attribute name="COMPOSITION" value="Carbon Film" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="HEIGHT" value="-" constant="no"/>
 <attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
-<attribute name="POWER" value="0.25W, 1/4W" constant="no"/>
-<attribute name="RESISTANCE" value="4.7k" constant="no"/>
-<attribute name="SIZE" value="0.094&quot; Dia x 0.248&quot; L (2.40mm x 6.30mm)" constant="no"/>
-<attribute name="TEMPERATURE_COEFFICIENT" value="350ppm/C" constant="no"/>
-<attribute name="TOLERANCE" value="5%" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-25JB-52-10K" package="AXIAL-0.300&quot;">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="COMPOSITION" value="Carbon Film" constant="no"/>
-<attribute name="FEATURES" value="-" constant="no"/>
-<attribute name="HEIGHT" value="-" constant="no"/>
-<attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
+<attribute name="PACKAGE" value="Axial" constant="no"/>
 <attribute name="POWER" value="0.25W, 1/4W" constant="no"/>
 <attribute name="RESISTANCE" value="10k" constant="no"/>
 <attribute name="SIZE" value="0.094&quot; Dia x 0.248&quot; L (2.40mm x 6.30mm)" constant="no"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="Axial" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="350ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="5%" constant="no"/>
 </technology>
-</technologies>
-</device>
-<device name="-25JB-52-240R" package="AXIAL-0.300&quot;">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
+<technology name="240R">
 <attribute name="COMPOSITION" value="Carbon Film" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="HEIGHT" value="-" constant="no"/>
 <attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
+<attribute name="PACKAGE" value="Axial" constant="no"/>
 <attribute name="POWER" value="0.25W, 1/4W" constant="no"/>
 <attribute name="RESISTANCE" value="240" constant="no"/>
 <attribute name="SIZE" value="0.094&quot; Dia x 0.248&quot; L (2.40mm x 6.30mm)" constant="no"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="Axial" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="350ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="5%" constant="no"/>
 </technology>
-</technologies>
-</device>
-<device name="-25JB-52-270R" package="AXIAL-0.300&quot;">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
+<technology name="270R">
 <attribute name="COMPOSITION" value="Carbon Film" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="HEIGHT" value="-" constant="no"/>
 <attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
+<attribute name="PACKAGE" value="Axial" constant="no"/>
 <attribute name="POWER" value="0.25W, 1/4W" constant="no"/>
-<attribute name="RESSITANCE" value="270" constant="no"/>
+<attribute name="RESISTANCE" value="270" constant="no"/>
 <attribute name="SIZE" value="0.094&quot; Dia x 0.248&quot; L (2.40mm x 6.30mm)" constant="no"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="Axial" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="350ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="5%" constant="no"/>
 </technology>
-</technologies>
-</device>
-<device name="-25JB-52-470R" package="AXIAL-0.300&quot;">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
+<technology name="470R">
 <attribute name="COMPOSITION" value="Carbon Film" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="HEIGHT" value="-" constant="no"/>
 <attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
+<attribute name="PACKAGE" value="Axial" constant="no"/>
 <attribute name="POWER" value="0.25W, 1/4W" constant="no"/>
 <attribute name="RESISTANCE" value="470" constant="no"/>
 <attribute name="SIZE" value="0.094&quot; Dia x 0.248&quot; L (2.40mm x 6.30mm)" constant="no"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="Axial" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="350ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="5%" constant="no"/>
 </technology>
-</technologies>
-</device>
-<device name="-25JB-52-820R" package="AXIAL-0.300&quot;">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
+<technology name="4K7">
 <attribute name="COMPOSITION" value="Carbon Film" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="HEIGHT" value="-" constant="no"/>
 <attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
+<attribute name="PACKAGE" value="Axial" constant="no"/>
+<attribute name="POWER" value="0.25W, 1/4W" constant="no"/>
+<attribute name="RESISTANCE" value="4.7k" constant="no"/>
+<attribute name="SIZE" value="0.094&quot; Dia x 0.248&quot; L (2.40mm x 6.30mm)" constant="no"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="Axial" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="350ppm/C" constant="no"/>
+<attribute name="TOLERANCE" value="5%" constant="no"/>
+</technology>
+<technology name="510R">
+<attribute name="COMPOSITION" value="Carbon Film" constant="no"/>
+<attribute name="FEATURES" value="-" constant="no"/>
+<attribute name="HEIGHT" value="-" constant="no"/>
+<attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
+<attribute name="PACKAGE" value="Axial" constant="no"/>
+<attribute name="POWER" value="0.25W, 1/4W" constant="no"/>
+<attribute name="RESISTANCE" value="510" constant="no"/>
+<attribute name="SIZE" value="0.094&quot; Dia x 0.248&quot; L (2.40mm x 6.30mm)" constant="no"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="Axial" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="350ppm/C" constant="no"/>
+<attribute name="TOLERANCE" value="5%" constant="no"/>
+</technology>
+<technology name="820R">
+<attribute name="COMPOSITION" value="Carbon Film" constant="no"/>
+<attribute name="FEATURES" value="-" constant="no"/>
+<attribute name="HEIGHT" value="-" constant="no"/>
+<attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
+<attribute name="PACKAGE" value="Axial" constant="no"/>
 <attribute name="POWER" value="0.25W, 1/4W" constant="no"/>
 <attribute name="RESISTANCE" value="820" constant="no"/>
 <attribute name="SIZE" value="0.094&quot; Dia x 0.248&quot; L (2.40mm x 6.30mm)" constant="no"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="Axial" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="350ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="5%" constant="no"/>
 </technology>

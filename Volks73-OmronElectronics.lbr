@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -128,7 +128,7 @@
 <description>Volks73's Librart for Omron Electronics, Inc. Parts</description>
 <packages>
 <package name="DIP-2">
-<description>&lt;h1&gt;Dual Inline Package (DIP) with two (2) pins&lt;/h1&gt;</description>
+<description>&lt;h1&gt;2-Pin Dual Inline Package (DIP)&lt;/h1&gt;</description>
 <pad name="1" x="-3.81" y="0" drill="0.8"/>
 <pad name="2" x="3.81" y="0" drill="0.8"/>
 <wire x1="-3" y1="-1.74" x2="-3" y2="0" width="0.127" layer="21"/>
@@ -153,8 +153,8 @@
 <circle x="-1.27" y="0" radius="0.3592" width="0.2032" layer="94"/>
 <text x="-5.08" y="2.54" size="1.778" layer="95">&gt;NAME</text>
 <text x="-5.08" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short"/>
+<pin name="2" x="5.08" y="0" visible="off" length="short" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>

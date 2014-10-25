@@ -42,7 +42,7 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
@@ -126,18 +126,19 @@
 <library>
 <description>Volks73's Library for Lite-On Parts</description>
 <packages>
-<package name="RADIAL-3.0MM">
+<package name="RADIAL-3.00MM">
 <description>&lt;h1&gt;Radial 3.00mm Lead Spacing&lt;/h1&gt;</description>
-<circle x="0" y="0" radius="1.6" width="0.127" layer="21"/>
 <pad name="1" x="-1.27" y="0" drill="0.7" shape="square"/>
 <pad name="2" x="1.27" y="0" drill="0.7"/>
-<circle x="0" y="0" radius="1.5" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="1.5" width="0.127" layer="49"/>
 <text x="-2.95" y="2.5" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3" y="-4" size="1.27" layer="27">&gt;VALUE</text>
 <text x="-2.54" y="0.635" size="1.016" layer="21">+</text>
 <text x="1.905" y="0.635" size="1.016" layer="21">-</text>
 <text x="-2.54" y="-1.905" size="0.8128" layer="21">A</text>
 <text x="1.905" y="-1.905" size="0.8128" layer="21">C</text>
+<wire x1="-1.4" y1="0.8" x2="1.4" y2="0.8" width="0.127" layer="21" curve="-120"/>
+<wire x1="1.4" y1="-0.8" x2="-1.4" y2="-0.8" width="0.127" layer="21" curve="-120"/>
 </package>
 </packages>
 <symbols>
@@ -194,7 +195,7 @@
 <gate name="G$1" symbol="LED" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-4221N" package="RADIAL-3.0MM">
+<device name="-4221N" package="RADIAL-3.00MM">
 <connects>
 <connect gate="G$1" pin="ANODE" pad="1"/>
 <connect gate="G$1" pin="CATHODE" pad="2"/>
@@ -215,7 +216,7 @@
 </technology>
 </technologies>
 </device>
-<device name="-4231N" package="RADIAL-3.0MM">
+<device name="-4231N" package="RADIAL-3.00MM">
 <connects>
 <connect gate="G$1" pin="ANODE" pad="1"/>
 <connect gate="G$1" pin="CATHODE" pad="2"/>
@@ -236,7 +237,7 @@
 </technology>
 </technologies>
 </device>
-<device name="-4251N" package="RADIAL-3.0MM">
+<device name="-4251N" package="RADIAL-3.00MM">
 <connects>
 <connect gate="G$1" pin="ANODE" pad="1"/>
 <connect gate="G$1" pin="CATHODE" pad="2"/>

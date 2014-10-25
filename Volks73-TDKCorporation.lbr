@@ -59,7 +59,7 @@
 <description>Volks73's Library for TDK Corporation Parts</description>
 <packages>
 <package name="RADIAL-0.098&quot;">
-<description>Radial 0.098" Spacing</description>
+<description>&lt;h1&gt;Radial 0.098" Lead Spacing&lt;/h1&gt;</description>
 <pad name="1" x="0" y="1.2446" drill="0.7"/>
 <pad name="2" x="0" y="-1.2446" drill="0.7"/>
 <wire x1="-1.27" y1="-2.54" x2="-1.27" y2="0" width="0.127" layer="21"/>
@@ -78,8 +78,8 @@
 <wire x1="-2.54" y1="0.635" x2="0" y2="0.635" width="0.254" layer="94"/>
 <wire x1="0" y1="0.635" x2="2.54" y2="0.635" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="-0.635" x2="0" y2="-0.635" width="0.254" layer="94"/>
-<pin name="2" x="0" y="5.08" visible="off" length="short" rot="R270"/>
-<pin name="1" x="0" y="-5.08" visible="off" length="short" rot="R90"/>
+<pin name="2" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="1" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
 <wire x1="0" y1="-0.635" x2="2.54" y2="-0.635" width="0.254" layer="94"/>
 <wire x1="0" y1="0.635" x2="0" y2="2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="-2.54" x2="0" y2="-0.635" width="0.254" layer="94"/>
@@ -88,7 +88,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="FK" prefix="C" uservalue="yes">
+<deviceset name="FK?*" prefix="C" uservalue="yes">
 <description>&lt;h1&gt;Ceramic Capacitor&lt;/h1&gt;
 &lt;p&gt;
 &lt;table&gt;
@@ -105,49 +105,70 @@
 <gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="18X7R" package="RADIAL-0.098&quot;">
+<device name="16" package="RADIAL-0.098&quot;">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
+<technology name="X7R1E106K">
 <attribute name="APPLICATIONS" value="General Purpose" constant="no"/>
+<attribute name="CAPACITANCE" value="10uF" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
-<attribute name="HEIGHT_SEATED" value="0.217&quot; (5.50mm)" constant="no"/>
+<attribute name="HEIGHT" value="0.236&quot; (6.00mm)" constant="no"/>
 <attribute name="LEAD_SPACING" value="0.098&quot; (2.50mm)" constant="no"/>
 <attribute name="LEAD_STYLE" value="Formed Leads - Kinked" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
-<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 125C" constant="no"/>
+<attribute name="OPEARTING_TEMPERATURE" value="-55C ~ 125C" constant="no"/>
+<attribute name="PACKAGE" value="Radial" constant="no"/>
 <attribute name="RATINGS" value="-" constant="no"/>
-<attribute name="SERIES" value="FK" constant="no"/>
+<attribute name="SIZE" value="0.217&quot; L x 0.138&quot; W (5.50mm x 3.50mm)" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="X7R" constant="no"/>
 <attribute name="THICKNESS" value="-" constant="no"/>
 <attribute name="TOLERANCE" value="10%" constant="no"/>
-<attribute name="VOLTAGE_RATED" value="25V" constant="no"/>
+<attribute name="VOLTAGE-RATED" value="25V" constant="no"/>
 </technology>
 </technologies>
 </device>
-<device name="16X7R" package="RADIAL-0.098&quot;">
+<device name="18" package="RADIAL-0.098&quot;">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
+<technology name="X7R1E104K">
 <attribute name="APPLICATIONS" value="General Purpose" constant="no"/>
+<attribute name="CAPACITANCE" value="0.1uF" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
-<attribute name="HEIGHT_SEATED" value="0.236&quot; (6.00mm)" constant="no"/>
+<attribute name="HEIGHT" value="0.217&quot; (5.50mm)" constant="no"/>
 <attribute name="LEAD_SPACING" value="0.098&quot; (2.50mm)" constant="no"/>
 <attribute name="LEAD_STYLE" value="Formed Leads - Kinked" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
 <attribute name="OPERATING_TEMPERATURE" value="-55C ~ 125C" constant="no"/>
+<attribute name="PACKAGE" value="Radial" constant="no"/>
 <attribute name="RATINGS" value="-" constant="no"/>
-<attribute name="SERIES" value="FK" constant="no"/>
+<attribute name="SIZE" value="0.157&quot; L x 0.098&quot; W (4.00mm x 2.50mm)" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="X7R" constant="no"/>
 <attribute name="THICKNESS" value="-" constant="no"/>
 <attribute name="TOLERANCE" value="10%" constant="no"/>
-<attribute name="VOLTAGE_RATED" value="25V" constant="no"/>
+<attribute name="VOLTAGE-RATED" value="25V" constant="no"/>
+</technology>
+<technology name="X7R1E105K">
+<attribute name="APPLICATIONS" value="General Purpose" constant="no"/>
+<attribute name="CAPACITANCE" value="1.0uF" constant="no"/>
+<attribute name="FEATURES" value="-" constant="no"/>
+<attribute name="HEIGHT" value="0.217&quot; (5.50mm)" constant="no"/>
+<attribute name="LEAD_SPACING" value="0.098&quot; (2.50mm)" constant="no"/>
+<attribute name="LEAD_STYLE" value="Formed Leads - Kinked" constant="no"/>
+<attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 125C" constant="no"/>
+<attribute name="PACKAGE" value="Radial" constant="no"/>
+<attribute name="RATINGS" value="-" constant="no"/>
+<attribute name="SIZE" value="0.157&quot; L x 0.098&quot; W (4.00mm x 2.50mm)" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="X7R" constant="no"/>
+<attribute name="THICKNESS" value="-" constant="no"/>
+<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="VOLTAGE-RATED" value="25V" constant="no"/>
 </technology>
 </technologies>
 </device>

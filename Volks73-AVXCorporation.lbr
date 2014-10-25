@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -41,8 +41,8 @@
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
@@ -118,7 +118,7 @@
 <wire x1="-2" y1="1" x2="-1" y2="1" width="0.127" layer="21"/>
 <text x="-3" y="-3" size="1.27" layer="25" font="vector" rot="R90">&gt;NAME</text>
 <text x="4" y="-3" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<circle x="0" y="0" radius="2.5" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="2.5" width="0.127" layer="49"/>
 </package>
 </packages>
 <symbols>
@@ -136,7 +136,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TAP" prefix="C" uservalue="yes">
+<deviceset name="TAP*?" prefix="C" uservalue="yes">
 <description>&lt;h1&gt;Tantalum Capacitor&lt;/h1&gt;
 &lt;h2&gt;Solid Tantalum Resin Dipped Capacitors&lt;/h2&gt;
 &lt;p&gt;
@@ -156,27 +156,25 @@ taped and reeled for auto insertion. The 15 case sizes with wide capacitance and
 <gate name="G$1" symbol="CAPACITOR_TANTALUM" x="0" y="0"/>
 </gates>
 <devices>
-<device name="106K010CCS" package="RADIAL-5.00MM">
+<device name="CCS" package="RADIAL-5.00MM">
 <connects>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
-<technology name="">
+<technology name="106K010">
 <attribute name="CAPACITANCE" value="10uF" constant="no"/>
-<attribute name="EQUIVALENT_SERIES_RESISTANCE" value="5 Ohm" constant="no"/>
+<attribute name="ESR" value="5 Ohm" constant="no"/>
 <attribute name="FEATURES" value="General Purpose" constant="no"/>
 <attribute name="HEIGHT" value="0.394&quot; (10.00mm)" constant="no"/>
 <attribute name="LEAD_SPACING" value="0.197&quot; (5.00mm)" constant="no"/>
-<attribute name="LIFETIME_TEMPERATURE" value="1000 Hrs @ 85C" constant="no"/>
-<attribute name="MANUFACTURER_SIZE_CODE" value="C" constant="no"/>
+<attribute name="LIFETIME" value="1000 Hrs @ 85C" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
 <attribute name="OPERATING_TEMPERATURE" value="-55C ~ 125C" constant="no"/>
 <attribute name="PACKAGE" value="Radial" constant="no"/>
-<attribute name="SIZE" value="0.197&quot; (5.00mm)" constant="no"/>
-<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="SIZE" value="0.197&quot; Dia (5.00mm)" constant="no"/>
 <attribute name="TYPE" value="Conformal Coated" constant="no"/>
-<attribute name="VOLTAGE" value="10V" constant="no"/>
+<attribute name="VOLTAGE-RATED" value="10V" constant="no"/>
 </technology>
 </technologies>
 </device>

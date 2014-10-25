@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -59,7 +59,7 @@
 <description>Volks73's Library for NXP Semiconductor Parts</description>
 <packages>
 <package name="SOIC-8">
-<description>Small Outline Integrated Circuit (SOIC) 8-Pin</description>
+<description>&lt;h1&gt;8-Pin Small Outline Integrated Circuit (SOIC)&lt;/h2&gt;</description>
 <smd name="4" x="-3.0734" y="-1.905" dx="1.27" dy="0.635" layer="1"/>
 <smd name="3" x="-3.0734" y="-0.635" dx="1.27" dy="0.635" layer="1"/>
 <smd name="2" x="-3.0734" y="0.635" dx="1.27" dy="0.635" layer="1"/>
@@ -90,7 +90,7 @@
 <rectangle x1="-3.0734" y1="-2.1463" x2="-2.032" y2="-1.6637" layer="51"/>
 </package>
 <package name="SOT-143B">
-<description>&lt;h1&gt;SOT-143B&lt;/h1&gt;</description>
+<description>&lt;h1&gt;Small-Outline Transistor (SOT) 143B&lt;/h1&gt;</description>
 <smd name="1" x="-0.75" y="-1.05" dx="1" dy="0.6" layer="1"/>
 <smd name="2" x="0.95" y="-1.05" dx="0.6" dy="0.6" layer="1"/>
 <smd name="3" x="0.95" y="1.05" dx="0.6" dy="0.6" layer="1"/>
@@ -114,8 +114,8 @@
 <wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
 <wire x1="10.16" y1="7.62" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
-<pin name="VCC" x="0" y="12.7" visible="pin" length="middle" rot="R270"/>
-<pin name="GND" x="0" y="-15.24" visible="pin" length="middle" rot="R90"/>
+<pin name="VCC" x="0" y="12.7" visible="pin" length="middle" direction="pwr" rot="R270"/>
+<pin name="GND" x="0" y="-15.24" visible="pin" length="middle" direction="pwr" rot="R90"/>
 <pin name="LDA" x="15.24" y="0" visible="pin" length="middle" rot="R180"/>
 <pin name="LCL" x="15.24" y="-2.54" visible="pin" length="middle" rot="R180"/>
 <pin name="SDA" x="-15.24" y="0" visible="pin" length="middle"/>
@@ -124,7 +124,7 @@
 <text x="2.54" y="8.89" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="PRTR5V0U2X">
-<pin name="GND" x="0" y="-15.24" visible="pin" length="middle" direction="pas" rot="R90"/>
+<pin name="GND" x="0" y="-15.24" visible="pin" length="middle" direction="pwr" rot="R90"/>
 <pin name="VCC" x="0" y="12.7" visible="pin" length="middle" direction="pwr" rot="R270"/>
 <pin name="IO1" x="-15.24" y="0" visible="pin" length="middle"/>
 <pin name="IO2" x="-15.24" y="-2.54" visible="pin" length="middle"/>

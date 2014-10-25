@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -43,7 +43,7 @@
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
@@ -65,6 +65,11 @@ https://github.com/volks73/eagle-libraries/volks73-Atmel.lbr
 &lt;/p&gt;</description>
 <packages>
 <package name="DIP-8">
+<description>&lt;h1&gt;8-Pin Dual Inline Package (DIP)&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Lead Spacing = 0.100" (2.54mm)&lt;/li&gt;
+&lt;li&gt;Wdith = 0.300"&lt;/li&gt;
+&lt;/ul&gt;</description>
 <pad name="1" x="-3.81" y="3.81" drill="1"/>
 <pad name="2" x="-3.81" y="1.27" drill="1"/>
 <pad name="3" x="-3.81" y="-1.27" drill="1"/>
@@ -81,6 +86,16 @@ https://github.com/volks73/eagle-libraries/volks73-Atmel.lbr
 <wire x1="-2.54" y1="5.08" x2="-0.635" y2="5.08" width="0.127" layer="21"/>
 <wire x1="2.54" y1="5.08" x2="0.635" y2="5.08" width="0.127" layer="21"/>
 <wire x1="0.635" y1="5.08" x2="-0.635" y2="5.08" width="0.127" layer="21" curve="-180"/>
+<wire x1="-3.81" y1="3.81" x2="-2.54" y2="3.81" width="0.6096" layer="51"/>
+<wire x1="-3.81" y1="1.27" x2="-2.54" y2="1.27" width="0.5588" layer="51"/>
+<wire x1="-3.81" y1="-1.27" x2="-2.54" y2="-1.27" width="0.5588" layer="51"/>
+<wire x1="-3.81" y1="-3.81" x2="-2.54" y2="-3.81" width="0.5588" layer="51"/>
+<wire x1="-3.81" y1="3.81" x2="-2.54" y2="3.81" width="0.5588" layer="51"/>
+<wire x1="2.54" y1="3.81" x2="3.81" y2="3.81" width="0.5588" layer="51"/>
+<wire x1="2.54" y1="1.27" x2="3.81" y2="1.27" width="0.5588" layer="51"/>
+<wire x1="2.54" y1="-1.27" x2="3.81" y2="-1.27" width="0.6096" layer="51"/>
+<wire x1="2.54" y1="-1.27" x2="3.81" y2="-1.27" width="0.6096" layer="51"/>
+<wire x1="2.54" y1="-3.81" x2="3.81" y2="-3.81" width="0.5588" layer="51"/>
 </package>
 </packages>
 <symbols>
