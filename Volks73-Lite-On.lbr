@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -136,7 +136,7 @@ Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0), &lt;a href=
 For attribution, please provide a link in any documentation or design files to the repository on Github. 
 &lt;/p&gt;</description>
 <packages>
-<package name="RADIAL-3.00MM">
+<package name="T-1_3MM">
 <description>&lt;h1&gt;Radial 3.00mm Lead Spacing&lt;/h1&gt;</description>
 <pad name="1" x="-1.27" y="0" drill="1.1" shape="square"/>
 <pad name="2" x="1.27" y="0" drill="1.1"/>
@@ -182,10 +182,11 @@ For attribution, please provide a link in any documentation or design files to t
 <devicesets>
 <deviceset name="LTL-*" prefix="LED" uservalue="yes">
 <description>&lt;h1&gt;Light Emitting Diode (LED)&lt;/h1&gt;
-&lt;h2&gt;&lt;/h2&gt;
-&lt;p&gt;
-&lt;a href="http://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTL-4251N.pdf"&gt;Datasheet&lt;/a&gt;
-&lt;/p&gt;
+&lt;h2&gt;Through Hole Lamp&lt;/h2&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTL-4251N.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;Ordering Information&lt;/h3&gt;
 &lt;table&gt;
 &lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
@@ -205,7 +206,7 @@ For attribution, please provide a link in any documentation or design files to t
 <gate name="G$1" symbol="LED" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="RADIAL-3.00MM">
+<device name="" package="T-1_3MM">
 <connects>
 <connect gate="G$1" pin="ANODE" pad="1"/>
 <connect gate="G$1" pin="CATHODE" pad="2"/>
