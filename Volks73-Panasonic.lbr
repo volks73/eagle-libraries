@@ -42,9 +42,9 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -136,14 +136,22 @@ Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0), &lt;a href=
 For attribution, please provide a link in any documentation or design files to the repository on Github. 
 &lt;/p&gt;</description>
 <packages>
-<package name="RADIAL-3.00MM">
+<package name="T-1_3MM">
 <description>&lt;h1&gt;Radial 3.00mm Lead Spacing&lt;/h1&gt;</description>
-<pad name="A" x="-1" y="0" drill="0.8" shape="square"/>
-<pad name="C" x="1" y="0" drill="0.8"/>
-<wire x1="-0.8" y1="1.6" x2="0.8" y2="1.6" width="0.127" layer="21"/>
-<wire x1="0.8" y1="1.6" x2="-0.8" y2="1.6" width="0.127" layer="21" curve="-306.869898"/>
-<text x="-3" y="2" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.5" y="-3.5" size="1.27" layer="25">&gt;VALUE</text>
+<pad name="A" x="-1.27" y="0" drill="1" shape="square"/>
+<pad name="C" x="1.27" y="0" drill="1"/>
+<circle x="0" y="0" radius="1.5" width="0.127" layer="49"/>
+<text x="-2.95" y="2.5" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3" y="-4" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-2.54" y="0.635" size="1.016" layer="21">+</text>
+<text x="1.905" y="0.635" size="1.016" layer="21">-</text>
+<text x="-2.54" y="-1.905" size="0.8128" layer="21">A</text>
+<text x="1.905" y="-1.905" size="0.8128" layer="21">C</text>
+<wire x1="-1.4" y1="0.9" x2="1.4" y2="0.9" width="0.127" layer="21" curve="-115"/>
+<wire x1="1.4" y1="-0.9" x2="-1.4" y2="-0.9" width="0.127" layer="21" curve="-115"/>
+<rectangle x1="-1.62" y1="-0.225" x2="-0.92" y2="0.225" layer="51"/>
+<rectangle x1="-1.62" y1="-0.225" x2="-0.92" y2="0.225" layer="51"/>
+<rectangle x1="0.92" y1="-0.225" x2="1.62" y2="0.225" layer="51" rot="R180"/>
 </package>
 </packages>
 <symbols>
@@ -173,28 +181,29 @@ For attribution, please provide a link in any documentation or design files to t
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LN*" uservalue="yes">
-<description>&lt;h1&gt;Light Emitting Diode (LED)&lt;/h1&gt;
+<deviceset name="LN2?*" prefix="LED" uservalue="yes">
+<description>&lt;h1&gt;Red Light Emitting Diode (LED)&lt;/h1&gt;
 &lt;h2&gt;Round Type&lt;/h2&gt;
-&lt;p&gt;
-&lt;a href="http://www.semicon.panasonic.co.jp/ds4/LN28RPX_E.pdf"&gt;Datasheet&lt;/a&gt;
-&lt;/p&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.semicon.panasonic.co.jp/ds4/LN28RPX_E.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Ordering Information&lt;/h3&gt;
 &lt;table&gt;
 &lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;LN28RPX&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/LN28RPX/P563-ND/410780"&gt;P563-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;LED RED DIFFUSED 3MM ROUND&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;LN31GPX&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/LN31GPX/P590-ND/410805"&gt;P590-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;LED GREEN DIFFUSED 5MM ROUND&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;</description>
 <gates>
 <gate name="G$1" symbol="LED" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="RADIAL-3.00MM">
+<device name="8" package="T-1_3MM">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name="28RPX">
+<technology name="RPX">
 <attribute name="COLOR" value="Red" constant="no"/>
 <attribute name="CURRENT-TEST" value="20mA" constant="no"/>
 <attribute name="HEIGHT" value="5.70nm" constant="no"/>
@@ -209,22 +218,6 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="VOLTAGE-FORWARD" value="2.2V" constant="no"/>
 <attribute name="WAVELENGTH-DOMINANT" value="-" constant="no"/>
 <attribute name="WAVELENGTH-PEAK" value="700nm" constant="no"/>
-</technology>
-<technology name="31GPX">
-<attribute name="COLOR" value="Green" constant="no"/>
-<attribute name="CURRENT-TEST" value="20mA" constant="no"/>
-<attribute name="HEIGHT" value="5.70nm" constant="no"/>
-<attribute name="LENS_STYLE" value="Round with Domed Top, 3mm, T-1" constant="no"/>
-<attribute name="LENS_TYPE" value="-" constant="no"/>
-<attribute name="LUMINOUS_FLUX" value="-" constant="no"/>
-<attribute name="MILLICANDELA_RATING" value="15mcd" constant="no"/>
-<attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
-<attribute name="PACKAGE" value="Radial" constant="no"/>
-<attribute name="SIZE" value="-" constant="no"/>
-<attribute name="VIEWING_ANGLE" value="-" constant="no"/>
-<attribute name="VOLTAGE-FORWARD" value="2.2V" constant="no"/>
-<attribute name="WAVELENGTH-DOMINANT" value="-" constant="no"/>
-<attribute name="WAVELENGTH-PEAK" value="565nm" constant="no"/>
 </technology>
 </technologies>
 </device>

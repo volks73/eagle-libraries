@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -138,8 +138,8 @@ For attribution, please provide a link in any documentation or design files to t
 <packages>
 <package name="T-1_3MM">
 <description>&lt;h1&gt;Radial 3.00mm Lead Spacing&lt;/h1&gt;</description>
-<pad name="1" x="-1.27" y="0" drill="1.1" shape="square"/>
-<pad name="2" x="1.27" y="0" drill="1.1"/>
+<pad name="1" x="-1.27" y="0" drill="1" shape="square"/>
+<pad name="2" x="1.27" y="0" drill="1"/>
 <circle x="0" y="0" radius="1.5" width="0.127" layer="49"/>
 <text x="-2.95" y="2.5" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3" y="-4" size="1.27" layer="27">&gt;VALUE</text>
@@ -147,10 +147,10 @@ For attribution, please provide a link in any documentation or design files to t
 <text x="1.905" y="0.635" size="1.016" layer="21">-</text>
 <text x="-2.54" y="-1.905" size="0.8128" layer="21">A</text>
 <text x="1.905" y="-1.905" size="0.8128" layer="21">C</text>
-<wire x1="-1.4" y1="0.8" x2="1.4" y2="0.8" width="0.127" layer="21" curve="-120"/>
-<wire x1="1.4" y1="-0.8" x2="-1.4" y2="-0.8" width="0.127" layer="21" curve="-120"/>
-<rectangle x1="-1.62" y1="-0.35" x2="-0.92" y2="0.35" layer="51"/>
-<rectangle x1="0.92" y1="-0.35" x2="1.62" y2="0.35" layer="51"/>
+<wire x1="-1.4" y1="0.9" x2="1.4" y2="0.9" width="0.127" layer="21" curve="-115"/>
+<wire x1="1.4" y1="-0.9" x2="-1.4" y2="-0.9" width="0.127" layer="21" curve="-115"/>
+<rectangle x1="-1.62" y1="-0.225" x2="-0.92" y2="0.225" layer="51"/>
+<rectangle x1="0.92" y1="-0.225" x2="1.62" y2="0.225" layer="51"/>
 </package>
 </packages>
 <symbols>
