@@ -177,9 +177,10 @@ For attribution, please provide a link in any documentation or design files to t
 <deviceset name="A6T-?" prefix="S" uservalue="yes">
 <description>&lt;h1&gt;Dual Inline Package (DIP) Switch&lt;/h1&gt;
 &lt;h2&gt;Single-Pole Single-Throw (SPST) DIP Switch&lt;/h2&gt;
-&lt;p&gt;
-&lt;a href="http://www.components.omron.com/components/web/PDFLIB.nsf/0/6EBABFA27C77F9908625730F0055AD35/$file/A6T_1110.pdf"&gt;Datasheet&lt;/a&gt;
-&lt;/p&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.components.omron.com/components/web/PDFLIB.nsf/0/6EBABFA27C77F9908625730F0055AD35/$file/A6T_1110.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;Ordering Information&lt;/h3&gt;
 &lt;table&gt;
 &lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
