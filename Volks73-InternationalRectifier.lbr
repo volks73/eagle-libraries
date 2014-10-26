@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -69,7 +69,15 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;/p&gt;</description>
 <packages>
 <package name="SOT-23-3">
-<description>SOT-23-3 3-Pin Surface Mount</description>
+<description>&lt;h1&gt;SOT-23-3&lt;/h1&gt;
+&lt;h2&gt;3-Pin Surface Mount&lt;/h2&gt;
+&lt;h3&gt;Aliases&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;SOT-23&lt;/li&gt;
+&lt;li&gt;TO-236-3&lt;/li&gt;
+&lt;li&gt;SC-59&lt;/li&gt;
+&lt;li&gt;Micro3&amp;trade;&lt;/li&gt;
+&lt;/ul&gt;</description>
 <smd name="1" x="-0.96" y="-1.15" dx="0.972" dy="0.802" layer="1" rot="R90"/>
 <smd name="2" x="0.95" y="-1.15" dx="0.972" dy="0.802" layer="1" rot="R90"/>
 <smd name="3" x="0" y="1.15" dx="0.972" dy="0.802" layer="1" rot="R90"/>
@@ -85,7 +93,7 @@ For attribution, please provide a link in any documentation or design files to t
 </package>
 </packages>
 <symbols>
-<symbol name="HEXFET_N">
+<symbol name="N_CHANNEL">
 <wire x1="-3.6576" y1="2.413" x2="-3.6576" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="-3.6576" y1="-2.54" x2="-5.08" y2="-2.54" width="0.1524" layer="94"/>
 <wire x1="0" y1="2.54" x2="0" y2="1.905" width="0.1524" layer="94"/>
@@ -122,39 +130,42 @@ For attribution, please provide a link in any documentation or design files to t
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MOSFET-" prefix="U">
-<description>&lt;h1&gt;MOSFET&lt;/h1&gt;
-&lt;p&gt;
+<deviceset name="IRLML*" prefix="U">
+<description>&lt;h1&gt;N-Channel MOSFET&lt;/h1&gt;
+&lt;h2&gt;&lt;/h2&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.irf.com/product-info/datasheets/data/irlml6344pbf.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Ordering Information&lt;/h3&gt;
 &lt;table&gt;
-&lt;tr&gt;&lt;th&gt;Package&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;SOT-23-3&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/IRLML6344TRPBF/IRLML6344TRPBFCT-ND/2538168"&gt;IRLML6344TRPBFCT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;MOSFET N-CH 30V 5A SOT23&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;a href="http://www.irf.com/product-info/datasheets/data/irlml6344pbf.pdf"&gt;Datasheet&lt;/a&gt;
-&lt;/p&gt;</description>
+&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;IRLML6344TRPBF&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/IRLML6344TRPBF/IRLML6344TRPBFCT-ND/2538168"&gt;IRLML6344TRPBFCT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;MOSFET N-CH 30V 5A SOT23&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</description>
 <gates>
-<gate name="G$1" symbol="HEXFET_N" x="0" y="0"/>
+<gate name="G$1" symbol="N_CHANNEL" x="0" y="0"/>
 </gates>
 <devices>
-<device name="IRLML6344TRPBF" package="SOT-23-3">
+<device name="" package="SOT-23-3">
 <connects>
 <connect gate="G$1" pin="D" pad="3"/>
 <connect gate="G$1" pin="G" pad="1"/>
 <connect gate="G$1" pin="S" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="CURRENT_CONTINUOUS_DRAIN" value="5A" constant="no"/>
+<technology name="6344TRPBF">
+<attribute name="CURRENT-CONTINUOUS_DRAIN" value="5A (Ta)" constant="no"/>
 <attribute name="DRAIN_TO_SOURCE_VOLTAGE" value="30V" constant="no"/>
 <attribute name="FET_FEATURE" value="Logic Level Gate" constant="no"/>
 <attribute name="FET_TYPE" value="MOSFET N-Channel, Metal Oxide" constant="no"/>
 <attribute name="GATE_CHARGE" value="6.8nC @ 4.5V" constant="no"/>
 <attribute name="INPUT_CAPACITANCE" value="650pF @ 25V" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Surface Mount" constant="no"/>
-<attribute name="POWER" value="1.3W" constant="no"/>
+<attribute name="PACKAGE" value="TO-236-3, SC-59, SOT-23-3" constant="no"/>
+<attribute name="POWER-MAX" value="1.3W" constant="no"/>
 <attribute name="RDS_ON" value="29 mOhm @ 5A, 4.5V" constant="no"/>
 <attribute name="SERIES" value="HEXFET" constant="no"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="SOT-23" constant="no"/>
 <attribute name="VGS" value="1.1V @ 10uA" constant="no"/>
 </technology>
 </technologies>
