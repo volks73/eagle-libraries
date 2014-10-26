@@ -121,7 +121,7 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;/p&gt;</description>
 <packages>
 <package name="1634688">
-<description>&lt;b&gt;8x2-Pin Vertical Box Header with Key&lt;/b&gt;</description>
+<description>&lt;h1&gt;8x2-Pin Vertical Box Header with Key&lt;/h1&gt;</description>
 <pad name="1" x="-8.89" y="-1.27" drill="0.8" shape="square"/>
 <pad name="2" x="-6.35" y="-1.27" drill="0.8"/>
 <pad name="3" x="-3.81" y="-1.27" drill="0.8"/>
@@ -158,7 +158,7 @@ For attribution, please provide a link in any documentation or design files to t
 <text x="7.62" y="5.08" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="1634689">
-<description>&lt;b&gt;8x2-Pin Right Angle Box Header with Key&lt;/b&gt;</description>
+<description>&lt;h1&gt;8x2-Pin Right Angle Box Header with Key&lt;/h1&gt;</description>
 <pad name="1" x="8.89" y="7.62" drill="0.8" shape="square" rot="R180"/>
 <pad name="2" x="6.35" y="7.62" drill="0.8" rot="R180"/>
 <pad name="3" x="3.81" y="7.62" drill="0.8" rot="R180"/>
@@ -195,7 +195,7 @@ For attribution, please provide a link in any documentation or design files to t
 <text x="7.62" y="8.89" size="1.27" layer="25">&gt;VALUE</text>
 </package>
 <package name="1734530-1">
-<description>&lt;b&gt;15-Pin High Density D-sub Miniature (DB15) Board Mount Connector&lt;/b&gt;</description>
+<description>&lt;h1&gt;15-Pin High Density D-sub Miniature (DB15) Board Mount Connector&lt;/h1&gt;</description>
 <pad name="SHIELD-1" x="-12.5" y="0" drill="3.2"/>
 <pad name="SHIELD-2" x="12.5" y="0" drill="3.2"/>
 <pad name="6" x="5.46" y="0" drill="0.8"/>
@@ -224,7 +224,7 @@ For attribution, please provide a link in any documentation or design files to t
 <text x="8.89" y="5.08" size="1.27" layer="25">&gt;VALUE</text>
 </package>
 <package name="5747236-4">
-<description>&lt;b&gt;15-Pin D-sub Miniature (DB15) Board Mount Connector&lt;/b&gt;</description>
+<description>&lt;h1&gt;15-Pin D-sub Miniature (DB15) Board Mount Connector&lt;/h1&gt;</description>
 <pad name="1" x="8.89" y="0" drill="1.1" shape="square"/>
 <pad name="2" x="6.35" y="0" drill="1.1"/>
 <pad name="3" x="3.81" y="0" drill="1.1"/>
@@ -255,7 +255,7 @@ For attribution, please provide a link in any documentation or design files to t
 <text x="12.7" y="-3.81" size="1.27" layer="25">&gt;VALUE</text>
 </package>
 <package name="1734354-1">
-<description>&lt;b&gt;9-Pin D-sub Miniature (DB9) Board Mount Connector&lt;/b&gt;</description>
+<description>&lt;h1&gt;9-Pin D-sub Miniature (DB9) Board Mount Connector&lt;/h1&gt;</description>
 <pad name="SHIELD-1" x="-12.495" y="0" drill="3.2"/>
 <pad name="SHIELD-2" x="12.495" y="0" drill="3.2"/>
 <pad name="1" x="5.54" y="1.42" drill="1.17" shape="square"/>
@@ -462,20 +462,20 @@ For attribution, please provide a link in any documentation or design files to t
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="16-PIN_HEADER-" prefix="JP" uservalue="yes">
-<description>&lt;b&gt;16-Pin Header&lt;/b&gt;
-&lt;p&gt;
+<deviceset name="16-PIN_HEADER-*_?" prefix="JP">
+<description>&lt;h1&gt;16-Pin Male Header&lt;/h1&gt;
+&lt;h2&gt;Ribbon Cable Connector&lt;/h2&gt;
+&lt;h3&gt;Ordering Information&lt;/h3&gt;
 &lt;table&gt;
-&lt;tr&gt;&lt;th&gt;Package&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;1634688&lt;/td&gt;&lt;td&gt;Digi-Key&lt;/td&gt;&lt;td&gt;A104861-ND&lt;/td&gt;&lt;td&gt;CONN HEADER 16POS .100 VERT GOLD&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;1634689&lt;/td&gt;&lt;td&gt;Digi-Key&lt;/td&gt;&lt;td&gt;A104862-ND&lt;/td&gt;&lt;td&gt;CONN HEADER PIN R/A 16POS GOLD&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
-&lt;/p&gt;</description>
+&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1634688&amp;DocType=Customer+Drawing&amp;DocLang=English"&gt;1634688&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-search/en?KeyWords=A104861-ND&amp;WT.z_header=search_go"&gt;A104861-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CONN HEADER 16POS .100 VERT GOLD&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1634689&amp;DocType=Customer+Drawing&amp;DocLang=English"&gt;1634689&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-search/en?KeyWords=A104862-ND&amp;WT.z_header=search_go"&gt;A104862-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CONN HEADER PIN R/A 16POS GOLD&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</description>
 <gates>
 <gate name="G$1" symbol="16-PIN_HEADER" x="0" y="0"/>
 </gates>
 <devices>
-<device name="MALE_VERTICAL" package="1634688">
+<device name="VERTICAL" package="1634688">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="10" pad="10"/>
@@ -495,7 +495,7 @@ For attribution, please provide a link in any documentation or design files to t
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <technologies>
-<technology name="">
+<technology name="AMP">
 <attribute name="COLOR" value="Black" constant="no"/>
 <attribute name="CONNECTOR_TYPE" value="Header, Shrouded" constant="no"/>
 <attribute name="CONTACT_FINISH" value="Gold" constant="no"/>
@@ -512,7 +512,7 @@ For attribution, please provide a link in any documentation or design files to t
 </technology>
 </technologies>
 </device>
-<device name="MALE_RIGHT_ANGLE" package="1634689">
+<device name="RIGHT_ANGLE" package="1634689">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="10" pad="10"/>
@@ -532,7 +532,7 @@ For attribution, please provide a link in any documentation or design files to t
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <technologies>
-<technology name="">
+<technology name="AMP">
 <attribute name="COLOR" value="Black" constant="no"/>
 <attribute name="CONNECTOR_TYPE" value="Header, Shrouded" constant="no"/>
 <attribute name="CONTACT_FINISH" value="Gold" constant="no"/>
@@ -550,20 +550,20 @@ For attribution, please provide a link in any documentation or design files to t
 </device>
 </devices>
 </deviceset>
-<deviceset name="15-PIN_CONNECTOR-" prefix="CON" uservalue="yes">
-<description>&lt;b&gt;15-Pin D-Sub Miniature (DB15) Connector&lt;/b&gt;
-&lt;p&gt;
+<deviceset name="15-PIN_CONNECTOR-*_?" prefix="JP">
+<description>&lt;h1&gt;15-Pin D-Sub Miniature (DB15) Connector&lt;/h1&gt;
+&lt;h3&gt;Ordering Information&lt;/h3&gt;
 &lt;table&gt;
-&lt;tr&gt;&lt;th&gt;Package&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;5747236-4&lt;/td&gt;&lt;td&gt;Digi-Key&lt;/td&gt;&lt;td&gt;A32073-ND&lt;/td&gt;&lt;td&gt;CONN DSUB PLUG 15 POS R/A GOLD&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;1734530-1&lt;/td&gt;&lt;td&gt;Digi-Key&lt;/td&gt;&lt;td&gt;A35116-ND&lt;/td&gt;&lt;td&gt;CONN HD D-SUB RCPT R/A 15POS&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=5747236&amp;DocType=Customer+Drawing&amp;DocLang=English"&gt;5747236-4&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-search/en?KeyWords=A32073-ND&amp;WT.z_header=search_go"&gt;A32073-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CONN DSUB PLUG 15 POS R/A GOLD&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1734530&amp;DocType=Customer+Drawing&amp;DocLang=English"&gt;1734530-1&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-search/en?KeyWords=A35116-ND&amp;WT.z_header=search_go"&gt;A35116-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CONN HD D-SUB RCPT R/A 15POS&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 &lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="15-PIN_CONNECTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="HD-22.AMP" package="1734530-1">
+<device name="HD-22" package="1734530-1">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="10" pad="10"/>
@@ -583,7 +583,7 @@ For attribution, please provide a link in any documentation or design files to t
 <connect gate="G$1" pin="GND" pad="SHIELD-1 SHIELD-2"/>
 </connects>
 <technologies>
-<technology name="">
+<technology name="AMP">
 <attribute name="COLOR" value="Black" constant="no"/>
 <attribute name="CONNECTOR_STYLE" value="D-Sub, High Density" constant="no"/>
 <attribute name="CONNECTOR_TYPE" value="Receptacle, Female Sockets" constant="no"/>
@@ -606,7 +606,7 @@ For attribution, please provide a link in any documentation or design files to t
 </technology>
 </technologies>
 </device>
-<device name="HD-20.AMP" package="5747236-4">
+<device name="HD-20" package="5747236-4">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="10" pad="10"/>
@@ -626,14 +626,14 @@ For attribution, please provide a link in any documentation or design files to t
 <connect gate="G$1" pin="GND" pad="SHIELD-1 SHIELD-2"/>
 </connects>
 <technologies>
-<technology name="">
+<technology name="AMP">
 <attribute name="COLOR" value="Black" constant="no"/>
 <attribute name="CONNECTOR_STYLE" value="D-Sub" constant="no"/>
 <attribute name="CONNECTOR_TYPE" value="Plug, Male Pins" constant="no"/>
 <attribute name="CONTACT_FINISH" value="Gold" constant="no"/>
 <attribute name="CONTACT_FINISH_THICKNESS" value="Flash" constant="no"/>
 <attribute name="CONTACT_TYPE" value="Signal" constant="no"/>
-<attribute name="CURRENT_RATING" value="6A" constant="no"/>
+<attribute name="CURRENT_RATING" value="" constant="no"/>
 <attribute name="FEATURES" value="Ground Strap, Grounding Indents" constant="no"/>
 <attribute name="FLANGE_FEATURE" value="Housing/Shell (4-40)" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Through Hole, Right Angle" constant="no"/>
@@ -650,19 +650,18 @@ For attribution, please provide a link in any documentation or design files to t
 </device>
 </devices>
 </deviceset>
-<deviceset name="9-PIN_CONNECTOR-" prefix="CON" uservalue="yes">
-<description>&lt;b&gt;9-Pin D-Sub miniature (DB9) Connector&lt;/b&gt;
-&lt;p&gt;
+<deviceset name="9-PIN_CONNECTOR-*_?" prefix="JP">
+<description>&lt;h1&gt;9-Pin D-Sub miniature (DB9) Connector&lt;/h1&gt;
+&lt;h3&gt;Ordering Information&lt;/h3&gt;
 &lt;table&gt;
-&lt;tr&gt;&lt;th&gt;Package&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;1734354-1&lt;/td&gt;&lt;td&gt;Digi-Key&lt;/td&gt;&lt;td&gt;A35107-ND&lt;/td&gt;&lt;td&gt;CONN D-SUB RCPT R/A 9POS GOLD/FL&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
-&lt;/p&gt;</description>
+&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1734354&amp;DocType=Customer+Drawing&amp;DocLang=English"&gt;1734354-1&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-search/en?KeyWords=A35107-ND&amp;WT.z_header=search_go"&gt;A35107-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CONN D-SUB RCPT R/A 9POS GOLD/FL&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</description>
 <gates>
 <gate name="G$1" symbol="9-PIN_CONNECTOR" x="0" y="-2.54"/>
 </gates>
 <devices>
-<device name="HD-20.AMP" package="1734354-1">
+<device name="HD-20" package="1734354-1">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -676,14 +675,14 @@ For attribution, please provide a link in any documentation or design files to t
 <connect gate="G$1" pin="GND" pad="SHIELD-1 SHIELD-2"/>
 </connects>
 <technologies>
-<technology name="">
+<technology name="AMP">
 <attribute name="COLOR" value="Black" constant="no"/>
 <attribute name="CONNECTOR_STYLE" value="D-Sub" constant="no"/>
-<attribute name="CONNECTOR_TYPE" value="REceptacle, Female Sockets" constant="no"/>
+<attribute name="CONNECTOR_TYPE" value="Receptacle, Female Sockets" constant="no"/>
 <attribute name="CONTACT_FINISH" value="Gold" constant="no"/>
 <attribute name="CONTACT_FINISH_THICKNESS" value="Flash" constant="no"/>
 <attribute name="CONTACT_TYPE" value="Signal" constant="no"/>
-<attribute name="CURRENT_RATING" value="2A" constant="no"/>
+<attribute name="CURRENT_RATING" value="" constant="no"/>
 <attribute name="FLANGE_FEATURE" value="Mating Side; Female Screwlock (4-40)" constant="no"/>
 <attribute name="HOUSING_MATERIAL" value="Polyamide (PA9T), Nylon 9T, Glass Filled" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Through Hole, Right Angle" constant="no"/>
