@@ -115,7 +115,8 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;/p&gt;</description>
 <packages>
 <package name="TAP-CCS">
-<description>&lt;h1&gt;Radial 5.00mm Lead Spacing&lt;/h1&gt;</description>
+<description>&lt;h1&gt;Radial 5.00mm Lead Spacing&lt;/h1&gt;
+&lt;h2&gt;TAP Series CCS size code&lt;/h2&gt;</description>
 <pad name="+" x="0" y="2.5" drill="0.7" shape="square" rot="R180"/>
 <pad name="-" x="0" y="-2.5" drill="0.7" rot="R180"/>
 <wire x1="0" y1="1.5" x2="0" y2="0.25" width="0.127" layer="21"/>

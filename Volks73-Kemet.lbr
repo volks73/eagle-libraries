@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -68,8 +68,9 @@ Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0), &lt;a href=
 For attribution, please provide a link in any documentation or design files to the repository on Github. 
 &lt;/p&gt;</description>
 <packages>
-<package name="315">
-<description>&lt;h1&gt;Radial 0.100" (2.54mm) Spacing&lt;/h1&gt;</description>
+<package name="C-315">
+<description>&lt;h1&gt;Radial 0.100" (2.54mm) Spacing&lt;/h1&gt;
+&lt;h2&gt; C Series 315 size code&lt;/h2&gt;</description>
 <pad name="1" x="0" y="1.27" drill="0.9"/>
 <pad name="2" x="0" y="-1.27" drill="0.9"/>
 <wire x1="-1.27" y1="-2.286" x2="-1.27" y2="0" width="0.127" layer="21"/>
@@ -122,7 +123,7 @@ For attribution, please provide a link in any documentation or design files to t
 <gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="315" package="315">
+<device name="315" package="C-315">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
