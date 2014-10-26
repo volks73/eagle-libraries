@@ -69,7 +69,11 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;/p&gt;</description>
 <packages>
 <package name="SOIC-8">
-<description>&lt;h1&gt;8-Pin Small Outline Integrated Circuit (SOIC)&lt;/h2&gt;</description>
+<description>&lt;h1&gt;8-Pin Small Outline Integrated Circuit (SOIC)&lt;/h1&gt;
+&lt;h3&gt;Aliases&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;8-SO&lt;/li&gt;
+&lt;/ul&gt;</description>
 <smd name="4" x="-3.0734" y="-1.905" dx="1.27" dy="0.635" layer="1"/>
 <smd name="3" x="-3.0734" y="-0.635" dx="1.27" dy="0.635" layer="1"/>
 <smd name="2" x="-3.0734" y="0.635" dx="1.27" dy="0.635" layer="1"/>
@@ -150,9 +154,10 @@ For attribution, please provide a link in any documentation or design files to t
 <deviceset name="P82B715?" prefix="U">
 <description>&lt;h1&gt;I&lt;sup&gt;2&lt;/sup&gt;C-Bus Extender&lt;/h1&gt;
 &lt;h2&gt;I&lt;sup&gt;2&lt;/sup&gt;C-bus extender&lt;/h2&gt;
-&lt;p&gt;
-&lt;a href="http://www.nxp.com/documents/data_sheet/P82B715.pdf"&gt;Datasheet&lt;/a&gt;
-&lt;/p&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.nxp.com/documents/data_sheet/P82B715.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;Ordering Information&lt;/h3&gt;
 &lt;table&gt;
 &lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
@@ -251,9 +256,10 @@ P82B96/PCA9600 and choose the type of device that is best for their application.
 <deviceset name="PRTR5V0U2X?" prefix="U">
 <description>&lt;h1&gt;I&lt;sup&gt;2&lt;/sup&gt;C-Bus EDS Protection&lt;/h1&gt;
 &lt;h2&gt;Ulta low capacitance double rail-to-rail ESD protection diode&lt;/h2&gt;
-&lt;p&gt;
-&lt;a href="http://www.nxp.com/documents/data_sheet/PRTR5V0U2X.pdf"&gt;Datasheet&lt;/a&gt;
-&lt;/p&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.nxp.com/documents/data_sheet/PRTR5V0U2X.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;Ordering Information&lt;/h3&gt;
 &lt;table&gt;
 &lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
@@ -261,15 +267,10 @@ P82B96/PCA9600 and choose the type of device that is best for their application.
 &lt;/table&gt;
 &lt;h3&gt;General Description&lt;/h3&gt;
 &lt;p&gt;
-Ultra low capacitance rail-to-rail ElectroStatic Discharge (ESD) protection diode in a small
-SOT143B Surface-Mounted Device (SMD) plastic package designed to protect two
-Hi-Speed data lines or high-frequency signal lines from the damage caused by ESD and
-other transients.
+Ultra low capacitance rail-to-rail ElectroStatic Discharge (ESD) protection diode in a small SOT143B Surface-Mounted Device (SMD) plastic package designed to protect two Hi-Speed data lines or high-frequency signal lines from the damage caused by ESD and other transients.
 &lt;/p&gt;
 &lt;p&gt;
-PRTR5V0U2X incorporates two pairs of ultra low capacitance rail-to-rail diodes as well as
-an additional ESD protection diode to ensure signal line protection even if no supply
-voltage is available.
+PRTR5V0U2X incorporates two pairs of ultra low capacitance rail-to-rail diodes as well as an additional ESD protection diode to ensure signal line protection even if no supply voltage is available.
 &lt;/p&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
