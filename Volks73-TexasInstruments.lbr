@@ -69,7 +69,12 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;/p&gt;</description>
 <packages>
 <package name="SOT-223">
-<description>&lt;h1&gt;Small-Outline Transistor (SOT) 223&lt;/h1&gt;</description>
+<description>&lt;h1&gt;Small-Outline Transistor (SOT) 223&lt;/h1&gt;
+&lt;h3&gt;Aliases&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;TO-261-4&lt;/li&gt;
+&lt;li&gt;TO-261AA&lt;/li&gt;
+&lt;/ul&gt;</description>
 <smd name="1" x="-2.3" y="-2.9" dx="0.95" dy="2.15" layer="1"/>
 <smd name="2" x="0" y="-2.9" dx="0.95" dy="2.15" layer="1"/>
 <smd name="3" x="2.3" y="-2.9" dx="0.95" dy="2.15" layer="1"/>
@@ -103,14 +108,16 @@ For attribution, please provide a link in any documentation or design files to t
 <deviceset name="LM317M?" prefix="U">
 <description>&lt;h1&gt;Voltage Regulator&lt;/h1&gt;
 &lt;h2&gt;3-Terminal Adjustable Regulator&lt;/h2&gt;
-&lt;p&gt;
-&lt;a href="http://www.ti.com/lit/ds/symlink/lm317m.pdf"&gt;Datasheet&lt;/a&gt;
-&lt;/p&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.ti.com/lit/ds/symlink/lm317m.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Ordering Information&lt;/h3&gt;
 &lt;table&gt;
-&lt;tr&gt;&lt;th&gt;Package&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;SOT-223&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/LM317MDCYR/296-12631-1-ND/454186"&gt;296-12631-1-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;IC REG LDO ADJ 0.5A SOT223&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;LM317MDCYR&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/LM317MDCYR/296-12631-1-ND/454186"&gt;296-12631-1-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;IC REG LDO ADJ 0.5A SOT223&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
-&lt;h2&gt;Features&lt;/h2&gt;
+&lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Output Voltage Range Adjustable from 1.25-V to 37-V&lt;/li&gt;
 &lt;li&gt;Output Current Greater Than 500-mA&lt;/li&gt;
@@ -119,7 +126,7 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;li&gt;Q Devices Meet Automotive Performance Requirements&lt;/li&gt;
 &lt;li&gt;Customer-Specific Configuration Control Can Be Supported for Q Devices Along With Major-Change Approval&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Applications&lt;/h2&gt;
+&lt;h3&gt;Applications&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Electronic Point-of-Sales&lt;/li&gt;
 &lt;li&gt;Medical/Health/Fitness Applications&lt;/li&gt;
