@@ -68,7 +68,7 @@ Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0), &lt;a href=
 For attribution, please provide a link in any documentation or design files to the repository on Github. 
 &lt;/p&gt;</description>
 <packages>
-<package name="FK18">
+<package name="18">
 <description>&lt;h1&gt;Radial 0.098" Lead Spacing&lt;/h1&gt;
 &lt;h2&gt;FK Series 18 size code&lt;/h2&gt;</description>
 <pad name="1" x="0" y="1.2446" drill="0.9"/>
@@ -90,7 +90,7 @@ For attribution, please provide a link in any documentation or design files to t
 <wire x1="-1.25" y1="2" x2="1.25" y2="2" width="0.127" layer="49"/>
 <wire x1="1.25" y1="-2" x2="-1.25" y2="-2" width="0.127" layer="49"/>
 </package>
-<package name="FK16">
+<package name="16">
 <description>&lt;h1&gt;Radial 0.098" Lead Spacing&lt;/h1&gt;
 &lt;h2&gt;FK Series 16 size code&lt;/h2&gt;</description>
 <pad name="1" x="0" y="1.2446" drill="0.9"/>
@@ -137,10 +137,10 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;/ul&gt;
 &lt;h3&gt;Ordering Information&lt;/h3&gt;
 &lt;table&gt;
-&lt;tr&gt;&lt;th&gt;Package&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;Radial&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/FK18X7R1E104K/445-8421-ND/2815351"&gt;445-8421-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CAP CER 0.1UF 25V 10% RADIAL&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;Radial&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/FK18X7R1E105K/445-8422-ND/2815352"&gt;445-8422-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CAP CER 1UF 25V 10% RADIAL&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;Radial&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/FK16X7R1E106K/445-8351-ND/2815281"&gt;445-8351-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CAP CER 10UF 25V 10% RADIAL&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;FK18X7R1E10K&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/FK18X7R1E104K/445-8421-ND/2815351"&gt;445-8421-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CAP CER 0.1UF 25V 10% RADIAL&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;FK18X7R1E105K&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/FK18X7R1E105K/445-8422-ND/2815352"&gt;445-8422-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CAP CER 1UF 25V 10% RADIAL&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;FK16XYR1E106K&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/FK16X7R1E106K/445-8351-ND/2815281"&gt;445-8351-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CAP CER 10UF 25V 10% RADIAL&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
@@ -153,7 +153,7 @@ For attribution, please provide a link in any documentation or design files to t
 <gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="18" package="FK18">
+<device name="18" package="18">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -195,7 +195,7 @@ For attribution, please provide a link in any documentation or design files to t
 </technology>
 </technologies>
 </device>
-<device name="16" package="FK16">
+<device name="16" package="16">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
