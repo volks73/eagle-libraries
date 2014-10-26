@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -114,7 +114,7 @@ Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0), &lt;a href=
 For attribution, please provide a link in any documentation or design files to the repository on Github. 
 &lt;/p&gt;</description>
 <packages>
-<package name="RADIAL-5.00MM">
+<package name="TAP-CCS">
 <description>&lt;h1&gt;Radial 5.00mm Lead Spacing&lt;/h1&gt;</description>
 <pad name="+" x="0" y="2.5" drill="0.7" shape="square" rot="R180"/>
 <pad name="-" x="0" y="-2.5" drill="0.7" rot="R180"/>
@@ -151,13 +151,14 @@ For attribution, please provide a link in any documentation or design files to t
 <deviceset name="TAP*?" prefix="C" uservalue="yes">
 <description>&lt;h1&gt;Tantalum Capacitor&lt;/h1&gt;
 &lt;h2&gt;Solid Tantalum Resin Dipped Capacitors&lt;/h2&gt;
-&lt;p&gt;
-&lt;a href="http://www.avx.com/docs/Catalogs/tap.pdf"&gt;Datasheet&lt;/a&gt;
-&lt;/p&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.avx.com/docs/Catalogs/tap.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;Ordering Information&lt;/h3&gt;
 &lt;table&gt;
-&lt;tr&gt;&lt;th&gt;Package&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;Radial 5.00mm&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/TAP106K010CCS/478-9320-ND/1471121"&gt;478-9320-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CAP TANT 10UF 10V 10% RADIAL&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;TAP106K010CCS&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/TAP106K010CCS/478-9320-ND/1471121"&gt;478-9320-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CAP TANT 10UF 10V 10% RADIAL&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 &lt;h3&gt;General Description&lt;/h3&gt;
 &lt;p&gt;
@@ -168,7 +169,7 @@ taped and reeled for auto insertion. The 15 case sizes with wide capacitance and
 <gate name="G$1" symbol="CAPACITOR_TANTALUM" x="0" y="0"/>
 </gates>
 <devices>
-<device name="CCS" package="RADIAL-5.00MM">
+<device name="CCS" package="TAP-CCS">
 <connects>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>

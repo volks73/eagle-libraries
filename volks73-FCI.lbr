@@ -121,7 +121,7 @@ Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0), &lt;a href=
 For attribution, please provide a link in any documentation or design files to the repository on Github. 
 &lt;/p&gt;</description>
 <packages>
-<package name="68000-101HLF">
+<package name="68000">
 <description>&lt;b&gt;1-Pin Vertical Header&lt;/b&gt;</description>
 <pad name="1" x="0" y="0" drill="1.1" shape="square"/>
 <wire x1="-1.2065" y1="0.762" x2="-0.762" y2="1.2065" width="0.127" layer="21"/>
@@ -135,11 +135,13 @@ For attribution, please provide a link in any documentation or design files to t
 <text x="-2.54" y="1.905" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-3.175" size="1.27" layer="25">&gt;VALUE</text>
 </package>
-<package name="RIGHT_ANGLE-0.100&quot;">
-<pad name="2" x="-1.27" y="0" drill="1.1"/>
-<pad name="1" x="-3.81" y="0" drill="1.1" shape="square"/>
-<pad name="3" x="1.27" y="0" drill="1.1"/>
-<pad name="4" x="3.81" y="0" drill="1.1"/>
+<package name="68016">
+<description>&lt;h1&gt;4-Pin Right Angle Male Header&lt;/h1&gt;
+&lt;h2&gt;0.100" Lead Spacing&lt;/h2&gt;</description>
+<pad name="2" x="-1.27" y="0" drill="1.2"/>
+<pad name="1" x="-3.81" y="0" drill="1.2" shape="square"/>
+<pad name="3" x="1.27" y="0" drill="1.2"/>
+<pad name="4" x="3.81" y="0" drill="1.2"/>
 <wire x1="-3.81" y1="4.064" x2="-3.81" y2="9.906" width="0.637540625" layer="51"/>
 <wire x1="-3.81" y1="0" x2="-3.81" y2="1.524" width="0.637540625" layer="51"/>
 <wire x1="-1.27" y1="0" x2="-1.27" y2="1.524" width="0.637540625" layer="51"/>
@@ -210,45 +212,56 @@ For attribution, please provide a link in any documentation or design files to t
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="1-PIN_HEADER-" prefix="JP">
-<description>&lt;b&gt;1-Pin Header&lt;/b&gt;
-&lt;p&gt;
+<deviceset name="68000-*" prefix="JP">
+<description>&lt;h1&gt;1-Pin Male Header&lt;/h1&gt;
+&lt;h2&gt;Vertical, Single Row&lt;/h2&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://portal.fciconnect.com/Comergent//fci/drawing/68000.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Ordering Information&lt;/h3&gt;
 &lt;table&gt;
-&lt;tr&gt;&lt;th&gt;Package&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;68000-101HLF&lt;/td&gt;&lt;td&gt;Digi-Key&lt;/td&gt;&lt;td&gt;609-3460-ND&lt;/td&gt;&lt;td&gt;BERGSTIK II .100" SR STRAIGHT&lt;/td&gt;&lt;/tr&gt;
-&lt;/p&gt;</description>
+&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;68000-101HLF&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-search/en?KeyWords=609-3460-ND&amp;WT.z_header=search_go"&gt;609-3460-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;BERGSTIK II .100" SR STRAIGHT&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</description>
 <gates>
 <gate name="G$1" symbol="1-PIN_HEADER" x="-5.08" y="0"/>
 </gates>
 <devices>
-<device name="BERGSTIK_II" package="68000-101HLF">
+<device name="" package="68000">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 </connects>
 <technologies>
-<technology name="">
+<technology name="101HLF">
 <attribute name="COLOR" value="Black" constant="no"/>
-<attribute name="CONNECTOR_TYPE" value="Header, Unshrouded" constant="no"/>
+<attribute name="CONNTECTOR_TYPE" value="Header, Unshrouded" constant="no"/>
 <attribute name="CONTACT_FINISH" value="Gold or Gold, GXT" constant="no"/>
-<attribute name="CONTACT_FINISH_THICKNESS" value="30 uin (0.76 um)" constant="no"/>
-<attribute name="CONTACT_MATING_LENGTH" value="0.230'' (5.84 mm)" constant="no"/>
+<attribute name="CONTACT_FINISH_THICKNESS" value="30uin (0.75um)" constant="no"/>
+<attribute name="CONTACT_MATING_LENGTH" value="0.230&quot; (5.84mm)" constant="no"/>
 <attribute name="CONTACT_TYPE" value="Male Pin" constant="no"/>
+<attribute name="FASTENING_TYPE" value="-" constant="no"/>
+<attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
-<attribute name="NUMBER_POSITIONS" value="1" constant="no"/>
-<attribute name="NUMBER_ROWS" value="1" constant="no"/>
-<attribute name="SERIES" value="BERGSTIK II, MezzSelect, Basics+" constant="no"/>
+<attribute name="NUMBER_OF_POSITIONS" value="1" constant="no"/>
+<attribute name="NUMBER_OF_POSITIONS_LOADED" value="All" constant="no"/>
+<attribute name="NUMBER_OF_ROWS" value="1" constant="no"/>
+<attribute name="PITCH" value="-" constant="no"/>
+<attribute name="ROW_SPACING" value="-" constant="no"/>
+<attribute name="SERIES" value="BERGSTIK-II, MezzSeelct, Basics+" constant="no"/>
 <attribute name="TERMINATION" value="Solder" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="68016" prefix="JP">
-<description>&lt;h1&gt;Male Header&lt;/h1&gt;
-&lt;h2&gt;Right Angle 0.100" Lead Spacing Header Pins&lt;/h2&gt;
-&lt;p&gt;
-&lt;a href=http://portal.fciconnect.com/Comergent//fci/drawing/68015.pdf"&gt;Datasheet&lt;/a&gt;
-&lt;/p&gt;
+<deviceset name="68016-*" prefix="JP">
+<description>&lt;h1&gt;4-Pin Male Header&lt;/h1&gt;
+&lt;h2&gt;Right Angle, Single Row, 0.100" (2.54mm) Pitch&lt;/h2&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=http://portal.fciconnect.com/Comergent//fci/drawing/68015.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;Ordering Information&lt;/h3&gt;
 &lt;table&gt;
 &lt;tr&gt;&lt;th&gt;Package&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
@@ -258,7 +271,7 @@ For attribution, please provide a link in any documentation or design files to t
 <gate name="G$1" symbol="4-PIN_HEADER" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-204HLF" package="RIGHT_ANGLE-0.100&quot;">
+<device name="" package="68016">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -266,7 +279,7 @@ For attribution, please provide a link in any documentation or design files to t
 <connect gate="G$1" pin="4" pad="4"/>
 </connects>
 <technologies>
-<technology name="">
+<technology name="204HLF">
 <attribute name="COLOR" value="Black" constant="no"/>
 <attribute name="CONNECTOR_TYPE" value="Header, Unshrouded" constant="no"/>
 <attribute name="CONTACT_FINISH" value="Gold or Gold, GXT" constant="no"/>
@@ -277,10 +290,11 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Through Hole, Right Angle" constant="no"/>
 <attribute name="NUMBER_OF_POSITIONS" value="4" constant="no"/>
-<attribute name="NUMBER_OF_POSITIONS_LOADED" value="All" constant="no"/>
+<attribute name="NUMBER_OF_POSITION_LOADED" value="All" constant="no"/>
 <attribute name="NUMBER_OF_ROWS" value="1" constant="no"/>
 <attribute name="PITCH" value="0.100&quot; (2.54mm)" constant="no"/>
 <attribute name="ROW_SPACING" value="-" constant="no"/>
+<attribute name="SERIES" value="BERGSTIK-II, MezzSelect, Basics+" constant="no"/>
 <attribute name="TERMINATION" value="Solder" constant="no"/>
 </technology>
 </technologies>

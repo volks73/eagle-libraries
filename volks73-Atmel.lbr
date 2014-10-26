@@ -74,7 +74,7 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;li&gt;Lead Spacing = 0.100" (2.54mm)&lt;/li&gt;
 &lt;li&gt;Wdith = 0.300"&lt;/li&gt;
 &lt;/ul&gt;</description>
-<pad name="1" x="-3.81" y="3.81" drill="1"/>
+<pad name="1" x="-3.81" y="3.81" drill="1" shape="square"/>
 <pad name="2" x="-3.81" y="1.27" drill="1"/>
 <pad name="3" x="-3.81" y="-1.27" drill="1"/>
 <pad name="4" x="-3.81" y="-3.81" drill="1"/>
@@ -124,9 +124,10 @@ For attribution, please provide a link in any documentation or design files to t
 <deviceset name="ATTINY*-?" prefix="U">
 <description>&lt;h1&gt;AVR&amp;reg; ATtiny Microcontroller&lt;/h1&gt;
 &lt;h2&gt;Atmel 8-bit AVR Microcontroller with 2/4/8K Bytes In-System Programmable Flash&lt;/h2&gt;
-&lt;p&gt;
-&lt;a href="http://www.atmel.com/images/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf"&gt;Datasheet&lt;/a&gt;
-&lt;/p&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.atmel.com/images/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;Ordering Information&lt;/h3&gt;
 &lt;table&gt;
 &lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
