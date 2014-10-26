@@ -114,7 +114,7 @@ Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0), &lt;a href=
 For attribution, please provide a link in any documentation or design files to the repository on Github. 
 &lt;/p&gt;</description>
 <packages>
-<package name="CFR-25">
+<package name="25">
 <description>&lt;h1&gt;Axial 0.300" Lead Spacing&lt;/h1&gt;
 &lt;h2&gt;CFR Series 25 size code&lt;/h2&gt;</description>
 <pad name="2" x="0" y="3.81" drill="0.7"/>
@@ -188,7 +188,7 @@ color lacquer.
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="25" package="CFR-25">
+<device name="25" package="25">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
