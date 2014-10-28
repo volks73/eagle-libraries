@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -111,7 +111,7 @@
 <library>
 <description>&lt;h1&gt;Volks73's Library for FCI Parts&lt;/h1&gt;
 &lt;p&gt;
-&lt;a href="https://github.com/volks73/eagle-libraries/volks73-FCI.lbr"&gt;Repository&lt;/a&gt;
+&lt;a href="https://github.com/volks73/eagle-libraries/"&gt;Repository&lt;/a&gt;
 &lt;/p&gt;
 &lt;h3&gt;Licensing:&lt;/h3&gt; 
 &lt;p&gt;
@@ -257,15 +257,10 @@ For attribution, please provide a link in any documentation or design files to t
 </deviceset>
 <deviceset name="68016-*" prefix="JP">
 <description>&lt;h1&gt;4-Pin Male Header&lt;/h1&gt;
-&lt;h2&gt;Right Angle, Single Row, 0.100" (2.54mm) Pitch&lt;/h2&gt;
-&lt;h3&gt;Documentation&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=http://portal.fciconnect.com/Comergent//fci/drawing/68015.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 &lt;h3&gt;Ordering Information&lt;/h3&gt;
 &lt;table&gt;
-&lt;tr&gt;&lt;th&gt;Package&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;Right Angle 0.100"&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/68016-204HLF/609-3319-ND/1878459"&gt;609-3319-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CONN HEADER 4POS .100 R/A 15AU&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href=http://portal.fciconnect.com/Comergent//fci/drawing/68015.pdf"&gt;68106-204HLF&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/68016-204HLF/609-3319-ND/1878459"&gt;609-3319-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CONN HEADER 4POS .100 R/A 15AU&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;</description>
 <gates>
 <gate name="G$1" symbol="4-PIN_HEADER" x="0" y="0"/>
