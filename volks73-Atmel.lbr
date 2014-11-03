@@ -42,7 +42,7 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -73,7 +73,11 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;ul&gt;
 &lt;li&gt;Lead Spacing = 0.100" (2.54mm)&lt;/li&gt;
 &lt;li&gt;Wdith = 0.300"&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;/ul&gt;
+&lt;h3&gt;Note&lt;/h3&gt;
+&lt;p&gt;
+The reference outline is for a 8-Pin, Closed IC Socket from Assman WSW Components (Axx-LL-TT series).
+&lt;/p&gt;</description>
 <pad name="1" x="-3.81" y="3.81" drill="1" shape="square"/>
 <pad name="2" x="-3.81" y="1.27" drill="1"/>
 <pad name="3" x="-3.81" y="-1.27" drill="1"/>
@@ -94,12 +98,14 @@ For attribution, please provide a link in any documentation or design files to t
 <wire x1="-3.81" y1="1.27" x2="-2.54" y2="1.27" width="0.5588" layer="51"/>
 <wire x1="-3.81" y1="-1.27" x2="-2.54" y2="-1.27" width="0.5588" layer="51"/>
 <wire x1="-3.81" y1="-3.81" x2="-2.54" y2="-3.81" width="0.5588" layer="51"/>
-<wire x1="-3.81" y1="3.81" x2="-2.54" y2="3.81" width="0.5588" layer="51"/>
 <wire x1="2.54" y1="3.81" x2="3.81" y2="3.81" width="0.5588" layer="51"/>
 <wire x1="2.54" y1="1.27" x2="3.81" y2="1.27" width="0.5588" layer="51"/>
 <wire x1="2.54" y1="-1.27" x2="3.81" y2="-1.27" width="0.6096" layer="51"/>
-<wire x1="2.54" y1="-1.27" x2="3.81" y2="-1.27" width="0.6096" layer="51"/>
 <wire x1="2.54" y1="-3.81" x2="3.81" y2="-3.81" width="0.5588" layer="51"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.127" layer="49"/>
+<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.127" layer="49"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.127" layer="49"/>
+<wire x1="5.08" y1="-5.08" x2="-5.08" y2="-5.08" width="0.127" layer="49"/>
 </package>
 </packages>
 <symbols>
