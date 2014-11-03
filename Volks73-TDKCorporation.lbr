@@ -85,10 +85,10 @@ For attribution, please provide a link in any documentation or design files to t
 <circle x="0" y="1.2446" radius="0.3" width="0.127" layer="51"/>
 <circle x="0" y="1.2446" radius="0.3" width="0.127" layer="51"/>
 <circle x="0" y="-1.2446" radius="0.3" width="0.127" layer="51"/>
-<wire x1="-1.25" y1="-2" x2="-1.25" y2="2" width="0.127" layer="49"/>
-<wire x1="1.25" y1="2" x2="1.25" y2="-2" width="0.127" layer="49"/>
-<wire x1="-1.25" y1="2" x2="1.25" y2="2" width="0.127" layer="49"/>
-<wire x1="1.25" y1="-2" x2="-1.25" y2="-2" width="0.127" layer="49"/>
+<wire x1="-1.25" y1="-3" x2="-1.25" y2="3" width="0.127" layer="49"/>
+<wire x1="1.25" y1="3" x2="1.25" y2="-3" width="0.127" layer="49"/>
+<wire x1="-1.25" y1="3" x2="1.25" y2="3" width="0.127" layer="49"/>
+<wire x1="1.25" y1="-3" x2="-1.25" y2="-3" width="0.127" layer="49"/>
 </package>
 <package name="FK-16">
 <description>&lt;h1&gt;Radial 0.098" Lead Spacing&lt;/h1&gt;
