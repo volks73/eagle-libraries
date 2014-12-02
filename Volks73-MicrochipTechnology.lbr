@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -42,8 +42,8 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="13" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
@@ -89,6 +89,39 @@
 <text x="-1.905" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="3.175" y="-3.175" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 </package>
+<package name="SOIC-8">
+<description>&lt;h1&gt;Small Outline Integrated Circuit (SOIC) 8-Pin&lt;/h1&gt;</description>
+<smd name="4" x="-2.7" y="-1.905" dx="1.55" dy="0.6" layer="1"/>
+<smd name="3" x="-2.7" y="-0.635" dx="1.55" dy="0.6" layer="1"/>
+<smd name="2" x="-2.7" y="0.635" dx="1.55" dy="0.6" layer="1"/>
+<smd name="1" x="-2.7" y="1.905" dx="1.55" dy="0.6" layer="1"/>
+<smd name="5" x="2.7" y="-1.905" dx="1.55" dy="0.6" layer="1"/>
+<smd name="6" x="2.7" y="-0.635" dx="1.55" dy="0.6" layer="1"/>
+<smd name="7" x="2.7" y="0.635" dx="1.55" dy="0.6" layer="1"/>
+<smd name="8" x="2.7" y="1.905" dx="1.55" dy="0.6" layer="1"/>
+<wire x1="-1.7" y1="-2.2" x2="-1.7" y2="2.2" width="0.127" layer="21"/>
+<wire x1="1.7" y1="2.2" x2="1.7" y2="-2.2" width="0.127" layer="21"/>
+<wire x1="1.7" y1="-2.2" x2="-1.7" y2="-2.2" width="0.127" layer="21"/>
+<text x="-2.54" y="3.175" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.175" y="-4.445" size="1.27" layer="25">&gt;VALUE</text>
+<rectangle x1="1.95" y1="1.6637" x2="3" y2="2.1463" layer="51"/>
+<rectangle x1="1.95" y1="0.3937" x2="3" y2="0.8763" layer="51"/>
+<rectangle x1="2.032" y1="-0.8763" x2="3.0734" y2="-0.3937" layer="51"/>
+<rectangle x1="1.95" y1="-0.8763" x2="3" y2="-0.3937" layer="51"/>
+<rectangle x1="1.95" y1="-2.1463" x2="3" y2="-1.6637" layer="51"/>
+<rectangle x1="-3" y1="1.6637" x2="-1.95" y2="2.1463" layer="51"/>
+<rectangle x1="-3" y1="0.3937" x2="-1.95" y2="0.8763" layer="51"/>
+<rectangle x1="-3" y1="-0.8763" x2="-1.95" y2="-0.3937" layer="51"/>
+<rectangle x1="-3" y1="-2.1463" x2="-1.95" y2="-1.6637" layer="51"/>
+<wire x1="0.635" y1="2.2" x2="-0.635" y2="2.2" width="0.127" layer="21" curve="-180"/>
+<wire x1="-0.635" y1="2.2" x2="-1.7" y2="2.2" width="0.127" layer="21"/>
+<wire x1="0.635" y1="2.2" x2="1.7" y2="2.2" width="0.127" layer="21"/>
+<circle x="-1.27" y="1.905" radius="0.2" width="0.127" layer="21"/>
+<wire x1="-1.95" y1="-2.45" x2="1.95" y2="-2.45" width="0.127" layer="49"/>
+<wire x1="1.95" y1="2.45" x2="-1.95" y2="2.45" width="0.127" layer="49"/>
+<wire x1="-1.95" y1="2.45" x2="-1.95" y2="-2.45" width="0.127" layer="49"/>
+<wire x1="1.95" y1="-2.45" x2="1.95" y2="2.45" width="0.127" layer="49"/>
+</package>
 </packages>
 <symbols>
 <symbol name="47X6">
@@ -113,6 +146,42 @@
 <wire x1="10.16" y1="12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-12.7" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
+</symbol>
+<symbol name="6002">
+<pin name="VINA+" x="-7.62" y="10.16" visible="pin" length="middle" direction="in"/>
+<pin name="VINA-" x="-7.62" y="5.08" visible="pin" length="middle" direction="in"/>
+<pin name="VSS" x="15.24" y="-25.4" visible="pin" length="middle" direction="pwr" rot="R90"/>
+<pin name="VDD" x="15.24" y="25.4" visible="pin" length="middle" direction="pwr" rot="R270"/>
+<pin name="VOUTA" x="38.1" y="7.62" visible="pin" length="middle" direction="out" rot="R180"/>
+<pin name="VINB+" x="-7.62" y="-5.08" visible="pin" length="middle" direction="in"/>
+<pin name="VINB-" x="-7.62" y="-10.16" length="middle" direction="in"/>
+<pin name="VOUTB" x="38.1" y="-7.62" visible="pin" length="middle" direction="out" rot="R180"/>
+<wire x1="12.7" y1="12.7" x2="12.7" y2="10.16" width="0.254" layer="94"/>
+<wire x1="12.7" y1="10.16" x2="12.7" y2="5.08" width="0.254" layer="94"/>
+<wire x1="12.7" y1="5.08" x2="12.7" y2="2.54" width="0.254" layer="94"/>
+<wire x1="12.7" y1="2.54" x2="20.32" y2="7.62" width="0.254" layer="94"/>
+<wire x1="20.32" y1="7.62" x2="12.7" y2="12.7" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-2.54" x2="12.7" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-5.08" x2="12.7" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-10.16" x2="12.7" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-12.7" x2="20.32" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-7.62" x2="12.7" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-20.32" x2="-2.54" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="20.32" x2="33.02" y2="20.32" width="0.254" layer="94"/>
+<wire x1="33.02" y1="20.32" x2="33.02" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="33.02" y1="-20.32" x2="-2.54" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="12.7" y1="10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="12.7" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="20.32" y1="7.62" x2="22.86" y2="7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-7.62" x2="22.86" y2="-7.62" width="0.254" layer="94"/>
+<text x="13.462" y="9.144" size="1.778" layer="94">+</text>
+<text x="13.462" y="-6.096" size="1.778" layer="94">+</text>
+<text x="13.462" y="4.064" size="1.778" layer="94">-</text>
+<text x="13.208" y="-10.922" size="1.778" layer="94">-</text>
+<text x="-2.54" y="21.59" size="1.27" layer="95">&gt;NAME</text>
+<text x="26.67" y="21.59" size="1.27" layer="95">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -315,6 +384,86 @@ The MCP3021 runs on a single supply voltage that operates over a broad range of 
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="SOT-23-5" constant="no"/>
 <attribute name="VOLTAGE-SUPPLY_ANALOG" value="2.7V ~ 5.5V" constant="no"/>
 <attribute name="VOLTAGE-SUPPLY_DIGITAL" value="2.7V ~ 5.5V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MCP6002T-*/?" prefix="U">
+<description>&lt;h1&gt;Op Amp&lt;/h1&gt;
+&lt;h2&gt;1 MHz, Low-Power Op Amp&lt;/h2&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Ordering Information&lt;/h3&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;MCP6002T-I/SN&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/MCP6002T-I%2FSN/MCP6002T-I%2FSNCT-ND/4307905"&gt;MCP6002T-I/SNCT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;IC OPAMP GP 1MHZ RRO 8SOIC&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;h3&gt;General Description&lt;/h3&gt;
+&lt;p&gt;
+The Microchip Technology Inc. MCP6001/2/4 family of operational amplifiers (op amps) is specifically designed for general-purpose applications. This family has a 1 MHz Gain Bandwidth Product (GBWP) and 90° phase margin (typical). It also maintains 45° phase margin (typical) with a 500 pF capacitive load. This family operates from a single supply voltage as low as 1.8V, while drawing 100 µA (typical) quiescent current. Additionally, the MCP6001/2/4 supports rail-to-rail input and output swing, with a common mode input voltage range of VDD + 300 mV to VSS – 300 mV. This family of op amps is designed with Microchip’s advanced CMOS process.
+&lt;/p&gt;
+&lt;p&gt;
+The MCP6001/2/4 family is available in the industrial and extended temperature ranges, with a power supply range of 1.8V to 6.0V..
+&lt;/p&gt;
+&lt;h3&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Available in SC-70-5 and SOT-23-5 packages&lt;/li&gt;
+&lt;li&gt;Gain Bandwidth Product: 1 MHz (typical)&lt;/li&gt;
+&lt;li&gt;Rail-to-Rail Input/Output&lt;/li&gt;
+&lt;li&gt;Supply Voltage: 1.8V to 6.0V&lt;/li&gt;
+&lt;li&gt;Supply Current: IQ = 100 µA (typical)&lt;/li&gt;
+&lt;li&gt;Phase Margin: 90° (typical)&lt;/li&gt;
+&lt;li&gt;Temperature Range:&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Industrial: -40°C to +85°C&lt;/li&gt;
+&lt;li&gt;Extended: -40°C to +125°C&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Available in Single, Dual and Quad Packages&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Applications&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Automotive&lt;/li&gt;
+&lt;li&gt;Portable Equipment&lt;/li&gt;
+&lt;li&gt;Photodiode Amplifier&lt;/li&gt;
+&lt;li&gt;Analog Filters&lt;/li&gt;
+&lt;li&gt;Notebooks and PDAs&lt;/li&gt;
+&lt;li&gt;Battery-Powered Systems&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="6002" x="-12.7" y="0"/>
+</gates>
+<devices>
+<device name="SN" package="SOIC-8">
+<connects>
+<connect gate="G$1" pin="VDD" pad="8"/>
+<connect gate="G$1" pin="VINA+" pad="3"/>
+<connect gate="G$1" pin="VINA-" pad="2"/>
+<connect gate="G$1" pin="VINB+" pad="5"/>
+<connect gate="G$1" pin="VINB-" pad="6"/>
+<connect gate="G$1" pin="VOUTA" pad="1"/>
+<connect gate="G$1" pin="VOUTB" pad="7"/>
+<connect gate="G$1" pin="VSS" pad="4"/>
+</connects>
+<technologies>
+<technology name="I">
+<attribute name="3DB_BANDWIDTH" value="-" constant="no"/>
+<attribute name="AMPLIFIER_TYPE" value="General Purpose" constant="no"/>
+<attribute name="CURRENT-INPUT_BIAS" value="1pA" constant="no"/>
+<attribute name="CURRENT-OUTPUT" value="23mA" constant="no"/>
+<attribute name="CURRENT-SUPPLY" value="100uA" constant="no"/>
+<attribute name="GAIN_BANDWIDTH" value="1MHz" constant="no"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount" constant="no"/>
+<attribute name="NUMBER_OF_CIRCUITS" value="2" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-40C ~ 85C" constant="no"/>
+<attribute name="OUTPUT_TYPE" value="Rail-to-Rail" constant="no"/>
+<attribute name="PACKAGE" value="8-SOIC" constant="no"/>
+<attribute name="SLEW_RATE" value="0.6 V/us" constant="no"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="8-SOIC N" constant="no"/>
+<attribute name="VOLTAGE-INPUT_OFFSET" value="4.5mV" constant="no"/>
+<attribute name="VOLTAGE-SUPPLY" value="1.8V ~ 6V" constant="no"/>
 </technology>
 </technologies>
 </device>
