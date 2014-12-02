@@ -136,6 +136,28 @@ For attribution, please provide a link in any documentation or design files to t
 <wire x1="0" y1="3.15" x2="0" y2="3.81" width="0.6" layer="51"/>
 <wire x1="0" y1="-3.81" x2="0" y2="-3.18" width="0.6" layer="51"/>
 </package>
+<package name="50">
+<description>&lt;h1&gt;Axial 0.500" Spacing&lt;/h1&gt;
+&lt;h2&gt;CFR Series 50 size code&lt;/h2&gt;</description>
+<pad name="2" x="0" y="6.35" drill="1"/>
+<pad name="1" x="0" y="-6.35" drill="1"/>
+<wire x1="0" y1="1.905" x2="0" y2="4.42" width="0.127" layer="21"/>
+<wire x1="0" y1="-4.318" x2="0" y2="-1.905" width="0.127" layer="21"/>
+<text x="-2.54" y="-3.175" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="3.81" y="-3.175" size="1.27" layer="25" rot="R90">&gt;VALUE</text>
+<wire x1="0" y1="1.905" x2="-0.635" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="0.635" width="0.127" layer="21"/>
+<wire x1="0.635" y1="0.635" x2="-0.635" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="0" x2="0.635" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="0.635" y1="-0.635" x2="-0.635" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="-1.27" x2="0" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="-1.83" y1="4.75" x2="1.83" y2="4.75" width="0.127" layer="49"/>
+<wire x1="-1.83" y1="-4.75" x2="1.83" y2="-4.75" width="0.127" layer="49"/>
+<wire x1="-1.83" y1="4.75" x2="-1.83" y2="-4.75" width="0.127" layer="49"/>
+<wire x1="1.83" y1="4.75" x2="1.83" y2="-4.75" width="0.127" layer="49"/>
+<wire x1="0" y1="4.75" x2="0" y2="6.35" width="0.85" layer="51"/>
+<wire x1="0" y1="-6.35" x2="0" y2="-4.75" width="0.85" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="RESISTOR">
@@ -173,6 +195,7 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;tr&gt;&lt;td&gt;CFR-25JB-52-470R&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/CFR-25JB-52-470R/470QBK-ND/2211"&gt;470QBK-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES 470 OHM 1/4W 5% AXIAL&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;CFR-25JB-52-820R&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/CFR-25JB-52-820R/820QBK-ND/3584"&gt;820QBK-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES 820 OHM 1/4W 5% AXIAL&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;CFR-25JB-52-510K&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/CFR-25JB-52-510K/510KQBK-ND/2305"&gt;510KQBK-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES 510K OHM 1/4W 5% AXIAL&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;CFR-50JB-52-2K4&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-search/en?pv1=1033&amp;FV=fff40001%2Cfff80482%2Cfffc000d%2Cfffc0038%2C80005%2C80084%2Cc0002%2C1c0002%2C1c0003&amp;mnonly=0&amp;newproducts=0&amp;ColumnSort=0&amp;page=1&amp;quantity=0&amp;ptm=0&amp;fid=0&amp;pageSize=50"&gt;2.4KH-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES 2.4K OHM 1/2W 5% AXIAL&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 &lt;h3&gt;General Description&lt;/h3&gt;
 &lt;p&gt;
@@ -282,6 +305,28 @@ The CFR Series Carbon Film Resistors are manufactured by coating a homogeneous f
 <attribute name="RESISTANCE" value="820" constant="no"/>
 <attribute name="SIZE" value="0.094&quot; Dia x 0.248&quot; L (2.40mm x 6.30mm)" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="350ppm/C" constant="no"/>
+<attribute name="TOLERANCE" value="5%" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="50" package="50">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="JB-52-2K4">
+<attribute name="COMPOSITION" value="Carbon Film" constant="no"/>
+<attribute name="FEATURES" value="-" constant="no"/>
+<attribute name="HEIGHT" value="-" constant="no"/>
+<attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
+<attribute name="OPERATING_TEMPEATURE" value="-55C ~ 155C" constant="no"/>
+<attribute name="PACKAGE" value="Axial" constant="no"/>
+<attribute name="POWER" value="0.5W, 1/2W" constant="no"/>
+<attribute name="RESISTANCE" value="2.4k" constant="no"/>
+<attribute name="SIZE" value="0.130&quot; Dia x 0.354&quot; L (3.30mm x 9.00mm)" constant="no"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="Axial" constant="no"/>
+<attribute name="TEMPEATURE_COEFFICIENT" value="350ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="5%" constant="no"/>
 </technology>
 </technologies>
