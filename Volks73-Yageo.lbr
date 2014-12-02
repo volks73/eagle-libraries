@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -114,9 +114,9 @@ Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0), &lt;a href=
 For attribution, please provide a link in any documentation or design files to the repository on Github. 
 &lt;/p&gt;</description>
 <packages>
-<package name="CFR-25">
+<package name="25">
 <description>&lt;h1&gt;Axial 0.300" Lead Spacing&lt;/h1&gt;
-&lt;h2&gt;CFR Series 25 size code&lt;/h2&gt;</description>
+&lt;h2&gt;25 size code&lt;/h2&gt;</description>
 <pad name="2" x="0" y="3.81" drill="0.7"/>
 <pad name="1" x="0" y="-3.81" drill="0.7"/>
 <wire x1="0" y1="1.905" x2="0" y2="3.15" width="0.127" layer="21"/>
@@ -157,7 +157,7 @@ For attribution, please provide a link in any documentation or design files to t
 <devicesets>
 <deviceset name="CFR-?*" prefix="R" uservalue="yes">
 <description>&lt;h1&gt;Carbon Film Resistor&lt;/h1&gt;
-&lt;h2&gt;General Type Normal &amp; Miniature Style&lt;/h2&gt;
+&lt;h2&gt;5% Tolerance, General Type Normal &amp; Miniature Style&lt;/h2&gt;
 &lt;h3&gt;Documentation&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://www.yageo.com/documents/recent/Yageo%20LR_CFR_2013.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
@@ -188,7 +188,7 @@ color lacquer.
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="25" package="CFR-25">
+<device name="25" package="25">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -277,6 +277,65 @@ color lacquer.
 <attribute name="SIZE" value="0.094&quot; Dia x 0.248&quot; L (2.40mm x 6.30mm)" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="350ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="5%" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MFR-?*" prefix="R" uservalue="yes">
+<description>&lt;h1&gt;Metal Film Resistor&lt;/h1&gt;
+&lt;h2&gt;1% Tolerance, General Type Normal &amp; Miniature Style&lt;/h2&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.yageo.com/documents/recent/Yageo%20LR_MFR_2013.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Ordering Information&lt;/h3&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;MFR-25FBF52-66K5&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/MFR-25FBF52-66K5/66.5KXBK-ND/13437"&gt;66.5KXBK-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES 66.5K OHM 1/4W 1% AXIAL&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;MFR-25FBF52-232K&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/MFR-25FBF52-232K/232KXBK-ND/13559"&gt;232KXBK-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES 232K OHM 1/4W 1% AXIAL&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;h3&gt;General Description&lt;/h3&gt;
+&lt;p&gt;
+The MFR Series Metal Film Resistors are manufactured using a vacuum sputtering system to deposit multiple layers of mixed metal alloys and passivative materials onto a carefully treated high grade ceramic substrate. After a helical groove has been cut in the resistive layer, tinned connecting leads of electrolytic copper are welded to the end-caps. The resistors are coated with layers of blue color lacquer.
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="25" package="25">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="FBF52-232K">
+<attribute name="COMPOSITION" value="Metal File" constant="no"/>
+<attribute name="FEATURES" value="-" constant="no"/>
+<attribute name="HEIGHT" value="-" constant="no"/>
+<attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
+<attribute name="PACKAGE" value="Axial" constant="no"/>
+<attribute name="POWER" value="0.25W, 1/4W" constant="no"/>
+<attribute name="RESISTANCE" value="232k" constant="no"/>
+<attribute name="SIZE" value="0.094&quot; Dia x 0.248&quot; L (2.40mm x 6.30mm)" constant="no"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="Axial" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+</technology>
+<technology name="FBF52-66K5">
+<attribute name="COMPOSITION" value="Metal File" constant="no"/>
+<attribute name="FEATURES" value="-" constant="no"/>
+<attribute name="HEIGHT" value="-" constant="no"/>
+<attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
+<attribute name="PACKAGE" value="Axial" constant="no"/>
+<attribute name="POWER" value="0.25W, 1/4W" constant="no"/>
+<attribute name="RESISTANCE" value="66.5k" constant="no"/>
+<attribute name="SIZE" value="0.094&quot; Dia x 0.248&quot; L (2.40mm x 6.30mm)" constant="no"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="Axial" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
 </technology>
 </technologies>
 </device>
