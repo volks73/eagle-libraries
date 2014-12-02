@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -135,6 +135,8 @@
 <wire x1="10.16" y1="12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-12.7" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
+<text x="-10.16" y="13.97" size="1.778" layer="95">&gt;NAME</text>
+<text x="1.27" y="13.97" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="3021">
 <pin name="VDD" x="0" y="17.78" visible="pin" length="middle" direction="pwr" rot="R270"/>
@@ -146,42 +148,44 @@
 <wire x1="10.16" y1="12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-12.7" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
+<text x="-10.16" y="13.97" size="1.778" layer="95">&gt;NAME</text>
+<text x="1.27" y="13.97" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="6002">
-<pin name="VINA+" x="-7.62" y="10.16" visible="pin" length="middle" direction="in"/>
-<pin name="VINA-" x="-7.62" y="5.08" visible="pin" length="middle" direction="in"/>
-<pin name="VSS" x="15.24" y="-25.4" visible="pin" length="middle" direction="pwr" rot="R90"/>
-<pin name="VDD" x="15.24" y="25.4" visible="pin" length="middle" direction="pwr" rot="R270"/>
-<pin name="VOUTA" x="38.1" y="7.62" visible="pin" length="middle" direction="out" rot="R180"/>
-<pin name="VINB+" x="-7.62" y="-5.08" visible="pin" length="middle" direction="in"/>
-<pin name="VINB-" x="-7.62" y="-10.16" length="middle" direction="in"/>
-<pin name="VOUTB" x="38.1" y="-7.62" visible="pin" length="middle" direction="out" rot="R180"/>
-<wire x1="12.7" y1="12.7" x2="12.7" y2="10.16" width="0.254" layer="94"/>
-<wire x1="12.7" y1="10.16" x2="12.7" y2="5.08" width="0.254" layer="94"/>
-<wire x1="12.7" y1="5.08" x2="12.7" y2="2.54" width="0.254" layer="94"/>
-<wire x1="12.7" y1="2.54" x2="20.32" y2="7.62" width="0.254" layer="94"/>
-<wire x1="20.32" y1="7.62" x2="12.7" y2="12.7" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-2.54" x2="12.7" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-5.08" x2="12.7" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-10.16" x2="12.7" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-12.7" x2="20.32" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="20.32" y1="-7.62" x2="12.7" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-20.32" x2="-2.54" y2="20.32" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="20.32" x2="33.02" y2="20.32" width="0.254" layer="94"/>
-<wire x1="33.02" y1="20.32" x2="33.02" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="33.02" y1="-20.32" x2="-2.54" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="12.7" y1="10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
-<wire x1="12.7" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
-<wire x1="20.32" y1="7.62" x2="22.86" y2="7.62" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="20.32" y1="-7.62" x2="22.86" y2="-7.62" width="0.254" layer="94"/>
-<text x="13.462" y="9.144" size="1.778" layer="94">+</text>
-<text x="13.462" y="-6.096" size="1.778" layer="94">+</text>
-<text x="13.462" y="4.064" size="1.778" layer="94">-</text>
-<text x="13.208" y="-10.922" size="1.778" layer="94">-</text>
-<text x="-2.54" y="21.59" size="1.27" layer="95">&gt;NAME</text>
-<text x="26.67" y="21.59" size="1.27" layer="95">&gt;VALUE</text>
+<pin name="VINA+" x="-22.86" y="7.62" visible="pin" length="middle" direction="in"/>
+<pin name="VINA-" x="-22.86" y="2.54" visible="pin" length="middle" direction="in"/>
+<pin name="VSS" x="0" y="-22.86" visible="pin" length="middle" direction="pwr" rot="R90"/>
+<pin name="VDD" x="0" y="22.86" visible="pin" length="middle" direction="pwr" rot="R270"/>
+<pin name="VOUTA" x="22.86" y="5.08" visible="pin" length="middle" direction="out" rot="R180"/>
+<pin name="VINB+" x="22.86" y="-2.54" visible="pin" length="middle" direction="in" rot="R180"/>
+<pin name="VINB-" x="22.86" y="-7.62" visible="pin" length="middle" direction="in" rot="R180"/>
+<pin name="VOUTB" x="-22.86" y="-5.08" visible="pin" length="middle" direction="out"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-17.78" x2="-17.78" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="17.78" x2="17.78" y2="17.78" width="0.254" layer="94"/>
+<wire x1="17.78" y1="17.78" x2="17.78" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-17.78" x2="-17.78" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<text x="-1.778" y="6.604" size="1.778" layer="94">+</text>
+<text x="2.032" y="-1.778" size="1.778" layer="94" rot="R180">+</text>
+<text x="-1.778" y="1.524" size="1.778" layer="94">-</text>
+<text x="2.032" y="-6.858" size="1.778" layer="94" rot="R180">-</text>
+<text x="-17.78" y="19.05" size="1.27" layer="95">&gt;NAME</text>
+<text x="1.27" y="19.05" size="1.27" layer="95">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
