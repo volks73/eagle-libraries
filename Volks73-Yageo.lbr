@@ -172,17 +172,11 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;tr&gt;&lt;td&gt;CFR-25JB-52-270R&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/CFR-25JB-52-270R/270QBK-ND/1386"&gt;270QBK-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES 270 OHM 1/4W 5% AXIAL&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;CFR-25JB-52-470R&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/CFR-25JB-52-470R/470QBK-ND/2211"&gt;470QBK-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES 470 OHM 1/4W 5% AXIAL&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;CFR-25JB-52-820R&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/CFR-25JB-52-820R/820QBK-ND/3584"&gt;820QBK-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES 820 OHM 1/4W 5% AXIAL&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;CFR-25JB-52-510K&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/CFR-25JB-52-510K/510KQBK-ND/2305"&gt;510KQBK-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES 510K OHM 1/4W 5% AXIAL&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 &lt;h3&gt;General Description&lt;/h3&gt;
 &lt;p&gt;
-The CFR Series Carbon Film Resistors are
-manufactured by coating a homogeneous
-film of pure carbon on high grade ceramic
-rods. After a helical groove has been cut in
-the resistive layer, tinned connecting leads of
-electrolytic copper are welded to the end-caps.
-The resistors are coated with layers of tan
-color lacquer.
+The CFR Series Carbon Film Resistors are manufactured by coating a homogeneous film of pure carbon on high grade ceramic rods. After a helical groove has been cut in the resistive layer, tinned connecting leads of electrolytic copper are welded to the end-caps. The resistors are coated with layers of tan color lacquer.
 &lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
@@ -198,7 +192,7 @@ color lacquer.
 <attribute name="COMPOSITION" value="Carbon Film" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="HEIGHT" value="-" constant="no"/>
-<attribute name="NUMBER_OF_TERMINATIONS" value="" constant="no"/>
+<attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
 <attribute name="PACKAGE" value="Axial" constant="no"/>
 <attribute name="POWER" value="0.25W, 1/4W" constant="no"/>
 <attribute name="RESISTANCE" value="10k" constant="no"/>
@@ -210,7 +204,7 @@ color lacquer.
 <attribute name="COMPOSITION" value="Carbon Film" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="HEIGHT" value="-" constant="no"/>
-<attribute name="NUMBER_OF_TERMINATIONS" value="" constant="no"/>
+<attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
 <attribute name="PACKAGE" value="Axial" constant="no"/>
 <attribute name="POWER" value="0.25W, 1/4W" constant="no"/>
 <attribute name="RESISTANCE" value="240" constant="no"/>
@@ -222,7 +216,7 @@ color lacquer.
 <attribute name="COMPOSITION" value="Carbon Film" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="HEIGHT" value="-" constant="no"/>
-<attribute name="NUMBER_OF_TERMINATIONS" value="" constant="no"/>
+<attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
 <attribute name="PACKAGE" value="Axial" constant="no"/>
 <attribute name="POWER" value="0.25W, 1/4W" constant="no"/>
 <attribute name="RESISTANCE" value="270" constant="no"/>
@@ -234,7 +228,7 @@ color lacquer.
 <attribute name="COMPOSITION" value="Carbon Film" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="HEIGHT" value="-" constant="no"/>
-<attribute name="NUMBER_OF_TERMINATIONS" value="" constant="no"/>
+<attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
 <attribute name="PACKAGE" value="Axial" constant="no"/>
 <attribute name="POWER" value="0.25W, 1/4W" constant="no"/>
 <attribute name="RESISTANCE" value="470" constant="no"/>
@@ -246,10 +240,22 @@ color lacquer.
 <attribute name="COMPOSITION" value="Carbon Film" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="HEIGHT" value="-" constant="no"/>
-<attribute name="NUMBER_OF_TERMINATIONS" value="" constant="no"/>
+<attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
 <attribute name="PACKAGE" value="Axial" constant="no"/>
 <attribute name="POWER" value="0.25W, 1/4W" constant="no"/>
 <attribute name="RESISTANCE" value="4.7k" constant="no"/>
+<attribute name="SIZE" value="0.094&quot; Dia x 0.248&quot; L (2.40mm x 6.30mm)" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="350ppm/C" constant="no"/>
+<attribute name="TOLERANCE" value="5%" constant="no"/>
+</technology>
+<technology name="JB-52-510K">
+<attribute name="COMPOSITION" value="Carbon Film" constant="no"/>
+<attribute name="FEATURES" value="-" constant="no"/>
+<attribute name="HEIGHT" value="-" constant="no"/>
+<attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
+<attribute name="PACKAGE" value="Axial" constant="no"/>
+<attribute name="POWER" value="0.25W, 1/4W" constant="no"/>
+<attribute name="RESISTANCE" value="510k" constant="no"/>
 <attribute name="SIZE" value="0.094&quot; Dia x 0.248&quot; L (2.40mm x 6.30mm)" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="350ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="5%" constant="no"/>
@@ -258,7 +264,7 @@ color lacquer.
 <attribute name="COMPOSITION" value="Carbon Film" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="HEIGHT" value="-" constant="no"/>
-<attribute name="NUMBER_OF_TERMINATIONS" value="" constant="no"/>
+<attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
 <attribute name="PACKAGE" value="Axial" constant="no"/>
 <attribute name="POWER" value="0.25W, 1/4W" constant="no"/>
 <attribute name="RESISTANCE" value="510" constant="no"/>
