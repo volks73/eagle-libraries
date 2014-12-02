@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -74,6 +74,21 @@
 <text x="-1.905" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="3.175" y="-3.175" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 </package>
+<package name="SOT-23-5">
+<description>&lt;h1&gt;Small Outline Transistor (SOT) Series 23 5-Pin&lt;/h1&gt;</description>
+<smd name="5" x="-0.95" y="1.4" dx="1.1" dy="0.6" layer="1" rot="R90"/>
+<smd name="4" x="0.95" y="1.4" dx="1.1" dy="0.6" layer="1" rot="R90"/>
+<smd name="3" x="0.95" y="-1.4" dx="1.1" dy="0.6" layer="1" rot="R270"/>
+<smd name="2" x="0" y="-1.4" dx="1.1" dy="0.6" layer="1" rot="R270"/>
+<smd name="1" x="-0.95" y="-1.4" dx="1.1" dy="0.6" layer="1" rot="R270"/>
+<circle x="-0.95" y="-0.35" radius="0.3" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-1.27" y2="0.635" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="1.27" y2="0.635" width="0.127" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="-1.27" y2="-0.635" width="0.127" layer="21"/>
+<text x="-1.905" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="3.175" y="-3.175" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="47X6">
@@ -83,6 +98,17 @@
 <pin name="SDA" x="-15.24" y="-2.54" visible="pin" length="middle"/>
 <pin name="VOUT" x="15.24" y="0" visible="pin" length="middle" direction="out" rot="R180"/>
 <pin name="VREF" x="-15.24" y="2.54" visible="pin" length="middle" direction="in"/>
+<wire x1="-10.16" y1="12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
+</symbol>
+<symbol name="3021">
+<pin name="VDD" x="0" y="17.78" visible="pin" length="middle" direction="pwr" rot="R270"/>
+<pin name="VSS" x="0" y="-17.78" visible="pin" length="middle" direction="pwr" rot="R90"/>
+<pin name="AIN" x="15.24" y="0" visible="pin" length="middle" direction="in" rot="R180"/>
+<pin name="SDA" x="-15.24" y="-2.54" visible="pin" length="middle"/>
+<pin name="SCL" x="-15.24" y="2.54" visible="pin" length="middle"/>
 <wire x1="-10.16" y1="12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
 <wire x1="10.16" y1="12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
@@ -200,6 +226,95 @@ These devices are available in small 6-pin SOT-23 and DFN 2x2 mm packages.
 <attribute name="SETTLING_TIME" value="6us" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="SOT-23-6" constant="no"/>
 <attribute name="VOLTAGE_SUPPLY_SOURCE" value="Single Supply" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MCP3021" prefix="U">
+<description>&lt;h1&gt;Analog-to-Digital Converter&lt;/h1&gt;
+&lt;h2&gt;Low Power 10-Bit A/D Converter with I&lt;sup&gt;2&lt;/sup&gt;2&amp;trade; Interface&lt;/h2&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/21805B.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Ordering Information&lt;/h3&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;MCP3021A5T-E/OT&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/MCP3021A5T-E%2FOT/MCP3021A5T-E%2FOTCT-ND/1979808"&gt;MCP3021A5T-E/OTCT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;IC ADC 10BIT 2.7V 1CH SOT23-5&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;h3&gt;General Description&lt;/h3&gt;
+&lt;p&gt;
+The Microchip Technology Inc. MCP3021 is a successive approximation A/D converter (ADC) with 10-bit resolution. Available in the SOT-23 package, this device provides one single-ended input with very low power consumption. Based on an advanced CMOS technology, the MCP3021 provides a low maximum conversion current and standby current of 250 µA and 1 µA, respectively. Low current consumption, combined with the small SOT-23 package, make this device ideal for battery-powered and remote data acquisition applications.
+&lt;/p&gt;
+&lt;p&gt;
+Communication to the MCP3021 is performed using a 2-wire I2C compatible interface. Standard (100 kHz) and Fast (400 kHz) I2C modes are available with the
+device. An on-chip conversion clock enables independent timing for the I2C and conversion clocks. The device is also addressable, allowing up to eight devices on a single 2-wire bus.
+&lt;/p&gt;
+&lt;p&gt;
+The MCP3021 runs on a single supply voltage that operates over a broad range of 2.7V to 5.5V. This device also provides excellent linearity of ±1 LSB differential non-linearity (DNL) and ±1 LSB integral nonlinearity (INL), maximum.
+&lt;/p&gt;
+&lt;h3&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;10-bit resolution&lt;li&gt;
+&lt;li&gt;±1 LSB DNL, ±1 LSB INL max.&lt;/li&gt;
+&lt;li&gt;250 µA max conversion current&lt;/li&gt;
+&lt;li&gt;5 nA typical standby current, 1 µA max.&lt;/li&gt;
+&lt;li&gt;I&lt;sup&gt;2&lt;/sup&gt;C&amp;trade; compatible serial interface&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;100 kHz I&lt;sup&gt;2&lt;/sup&gt;C Standard mode&lt;/li&gt;
+&lt;li&gt;400 kHz I&lt;sup&gt;2&lt;/sup&gt;C Fast mode&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Up to 8 devices on single 2-wire bus&lt;/li&gt;
+&lt;li&gt;22.3 ksps in I2C Fast mode&lt;/li&gt;
+&lt;li&gt;Single-ended analog input channel&lt;/li&gt;
+&lt;li&gt;On-chip sample and hold&lt;/li&gt;
+&lt;li&gt;On-chip conversion clock&lt;/li&gt;
+&lt;li&gt;Single supply specified operation: 2.7V to 5.5V&lt;/li&gt;
+&lt;li&gt;Temperature range:&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Extended: -40°C to +125°C&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Small SOT-23 package&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Applications&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Data Logging&lt;/li&gt;
+&lt;li&gt;Multi-zone Monitoring&lt;/li&gt;
+&lt;li&gt;Hand Held Portable Applications&lt;/li&gt;
+&lt;li&gt;Battery Powered Test Equipment&lt;/li&gt;
+&lt;li&gt;Remote or Isolated Data Acquisition&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="3021" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT-23-5">
+<connects>
+<connect gate="G$1" pin="AIN" pad="3"/>
+<connect gate="G$1" pin="SCL" pad="5"/>
+<connect gate="G$1" pin="SDA" pad="4"/>
+<connect gate="G$1" pin="VDD" pad="1"/>
+<connect gate="G$1" pin="VSS" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ARCHITECTURE" value="SAR" constant="no"/>
+<attribute name="CONFIGURATION" value="S/H-ADC" constant="no"/>
+<attribute name="DATA_INTERFACE" value="I2C" constant="no"/>
+<attribute name="FEATURES" value="-" constant="no"/>
+<attribute name="INPUT_TYPE" value="Single Ended" constant="no"/>
+<attribute name="NUMBER_OF_AD_CONVERTERS" value="1" constant="no"/>
+<attribute name="NUMBER_OF_BITS" value="10" constant="no"/>
+<attribute name="NUMBER_OF_INPUTS" value="1" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-40C ~ 125C" constant="no"/>
+<attribute name="PACKAGE" value="SC-74A, SOT-753" constant="no"/>
+<attribute name="RATIO" value="1:1" constant="no"/>
+<attribute name="REFERENCE_TYPE" value="External" constant="no"/>
+<attribute name="SAMPLING_RATE" value="22.3k" constant="no"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="SOT-23-5" constant="no"/>
+<attribute name="VOLTAGE-SUPPLY_ANALOG" value="2.7V ~ 5.5V" constant="no"/>
+<attribute name="VOLTAGE-SUPPLY_DIGITAL" value="2.7V ~ 5.5V" constant="no"/>
 </technology>
 </technologies>
 </device>
