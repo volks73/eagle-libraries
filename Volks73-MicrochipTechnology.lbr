@@ -48,7 +48,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -58,10 +58,153 @@
 <library>
 <description>&lt;h1&gt;Volks73's Library for Microchip Technology Parts&lt;/h1&gt;</description>
 <packages>
+<package name="SOT-23-6">
+<description>&lt;h1&gt;Small Outline Transistor (SOT) 23 Series 6-Pin&lt;/h1&gt;</description>
+<smd name="6" x="-0.95" y="1.4" dx="1.1" dy="0.6" layer="1" rot="R90"/>
+<smd name="5" x="0" y="1.4" dx="1.1" dy="0.6" layer="1" rot="R90"/>
+<smd name="4" x="0.95" y="1.4" dx="1.1" dy="0.6" layer="1" rot="R90"/>
+<smd name="3" x="0.95" y="-1.4" dx="1.1" dy="0.6" layer="1" rot="R270"/>
+<smd name="2" x="0" y="-1.4" dx="1.1" dy="0.6" layer="1" rot="R270"/>
+<smd name="1" x="-0.95" y="-1.4" dx="1.1" dy="0.6" layer="1" rot="R270"/>
+<circle x="-0.95" y="-0.35" radius="0.3" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-1.27" y2="0.635" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="1.27" y2="0.635" width="0.127" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="-1.27" y2="-0.635" width="0.127" layer="21"/>
+<text x="-1.905" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="3.175" y="-3.175" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
+<symbol name="47X6">
+<pin name="VCC" x="0" y="17.78" visible="pin" length="middle" direction="pwr" rot="R270"/>
+<pin name="GND" x="0" y="-17.78" visible="pin" length="middle" direction="pwr" rot="R90"/>
+<pin name="SCL" x="-15.24" y="0" visible="pin" length="middle"/>
+<pin name="SDA" x="-15.24" y="-2.54" visible="pin" length="middle"/>
+<pin name="VOUT" x="15.24" y="0" visible="pin" length="middle" direction="out" rot="R180"/>
+<pin name="VREF" x="-15.24" y="2.54" visible="pin" length="middle" direction="in"/>
+<wire x1="-10.16" y1="12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
+<deviceset name="MCP47*6" prefix="U">
+<description>&lt;h1&gt;Digital-to-Analog Converter&lt;/h1&gt;
+&lt;h2&gt;8-/10-/12-Bit Voltage Output Digital-to-Analog Converter (DAC) with EEPROM and I&lt;sup&gt;2&lt;/sup&gt;2&amp;trade; Interface&lt;/h2&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/22272C.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Ordering Information&lt;/h3&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;MCP4716A0T-E/CH&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/MCP4716A0T-E%2FCH/MCP4716A0T-E%2FCHCT-ND/2684987"&gt;MCP4716A0T-E/CHCT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;IC DAC 10BIT NV EEP I2C SOT-23-6&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;h3&gt;General Description&lt;/h3&gt;
+&lt;p&gt;
+The MCP4706/4716/4726 are single channel 8-bit, 10-bit, and 12-bit buffered voltage output Digital-toAnalog Converters (DAC) with nonvolatile memory and an I2C serial interface. This family will also be referred to as MCP47X6.
+&lt;/p&gt;
+&lt;p&gt;
+The VREF pin or the device VDD can be selected as the DAC’s reference voltage. When VDD is selected, VDD is
+connected internally to the DAC reference circuit. When the VREF pin is used, the user can select the output buffer’s gain to 1 or 2. When the gain is 2, the VREF pin voltage should be limited to a maximum of VDD/2.
+&lt;/p&gt;
+&lt;p&gt;
+The DAC register value and Configuration bits can be programmed to nonvolatile memory (EEPROM). The nonvolatile memory holds the DAC register and Configuration bit values when the device is powered off. A device Reset (such as a Power-on Reset) latches these stored values into the volatile memory
+&lt;/p&gt;
+&lt;p&gt;
+Power-Down modes enable system current reduction when the DAC output voltage is not required. The VOUT pin can be configured to present a low, medium, or high resistance load.
+&lt;/p&gt;
+&lt;p&gt;
+These devices have a two-wire I2C™ compatible serial interface for standard (100 kHz), fast (400 kHz), or High-Speed (3.4 MHz) mode.
+&lt;/p&gt;
+&lt;p&gt;
+These devices are available in small 6-pin SOT-23 and DFN 2x2 mm packages.
+&lt;/p&gt;
+&lt;h3&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Output Voltage Resolutions:&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;12-bit: MCP4726&lt;/i&gt;
+&lt;li&gt;10-bit: MCP4716&lt;/li&gt;
+&lt;li&gt;8-bit: MCP4706&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Rail-to-Rail Output&lt;/li&gt;
+&lt;li&gt;Fast Settling Time of 6 µs (typical)&lt;/li&gt;
+&lt;li&gt;DAC Voltage Reference Options:&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;V&lt;sub&gt;DD&lt;/sub&gt;&lt;/li&gt;
+&lt;li&gt;V&lt;sub&gt;REF&lt;/sub&gt; Pin&lt;li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Output Gain Options:&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Unity (1x)&lt;/li&gt;
+&lt;li&gt;2x, only when VREF pin is used as voltage source&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Nonvolatile Memory (EEPROM):&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Auto Recall of Saved DAC register setting&lt;/li&gt;
+&lt;li&gt;Auto Recall of Saved Device Configuration (Voltage Reference, Gain, Power-Down)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Power-Down modes:&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Disconnects output buffer&lt;/li&gt;
+&lt;li&gt;Selection of V&lt;sub&gt;OUT&lt;/sub&gt; pull-down resistors (640 kΩ, 125 kΩ, or 1 kΩ)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Low-Power Consumption:&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Normal Operation: 210 µA typical&lt;/li&gt;
+&lt;li&gt;Power-Down Operation: 60 nA typical (PD1:PD0 = 11)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Single-Supply Operation: 2.7V to 5.5V&lt;/li&gt;
+&lt;li&gt;I&lt;sup&gt;2&lt;/sup&gt;C™ Interface:&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Eight Available Addresses&lt;/li&gt;
+&lt;li&gt;Standard (100 kbps), Fast (400 kbps), and High-Speed (3.4 Mbps) modes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Small 6-lead SOT-23 and DFN (2x2) Packages&lt;/li&gt;
+&lt;li&gt;Extended Temperature Range: -40°C to +125°C&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Applications&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Set Point or Offset Trimming&lt;/li&gt;
+&lt;li&gt;Sensor Calibration&lt;/li&gt;
+&lt;li&gt;Low-Power Portable Instrumentation&lt;/li&gt;
+&lt;li&gt;PC Peripherals&lt;/li&gt;
+&lt;li&gt;Data Acquisition Systems&lt;/li&gt;
+&lt;li&gt;Motor Control&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="47X6" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT-23-6">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="SCL" pad="5"/>
+<connect gate="G$1" pin="SDA" pad="4"/>
+<connect gate="G$1" pin="VCC" pad="3"/>
+<connect gate="G$1" pin="VOUT" pad="1"/>
+<connect gate="G$1" pin="VREF" pad="6"/>
+</connects>
+<technologies>
+<technology name="1">
+<attribute name="DATA_INTERFACE" value="EEPROM, I2C, Serial" constant="no"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount" constant="no"/>
+<attribute name="NUMBER_OF_BITS" value="10" constant="no"/>
+<attribute name="NUMBER_OF_CONVERTERS" value="1" constant="no"/>
+<attribute name="NUMBER_OF_OUTPUTS_AND_TYPE" value="1 Voltage, Unipolar" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-40C ~ 125C" constant="no"/>
+<attribute name="PACKAGE" value="SOT-23-6" constant="no"/>
+<attribute name="SETTLING_TIME" value="6us" constant="no"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="SOT-23-6" constant="no"/>
+<attribute name="VOLTAGE_SUPPLY_SOURCE" value="Single Supply" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
