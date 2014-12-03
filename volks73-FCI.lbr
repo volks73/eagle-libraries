@@ -335,7 +335,7 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;h3&gt;Ordering Information&lt;/h3&gt;
 &lt;table&gt;
 &lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;a href=http://portal.fciconnect.com/Comergent//fci/drawing/68015.pdf"&gt;68106-204HLF&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/68016-204HLF/609-3319-ND/1878459"&gt;609-3319-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CONN HEADER 4POS .100 R/A 15AU&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href=http://portal.fciconnect.com/Comergent//fci/drawing/68015.pdf"&gt;68016-204HLF&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/68016-204HLF/609-3319-ND/1878459"&gt;609-3319-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CONN HEADER 4POS .100 R/A 15AU&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;</description>
 <gates>
 <gate name="G$1" symbol="4-PIN_HEADER" x="0" y="0"/>
@@ -376,7 +376,7 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;h3&gt;Ordering Information&lt;/h3&gt;
 &lt;table&gt;
 &lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;a href=http://portal.fciconnect.com/Comergent//fci/drawing/68015.pdf"&gt;68106-205HLF&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/68016-205HLF/609-4304-ND/1658018"&gt;609-4304-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CONN HEADER 5POS R/A .100 GOLD&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href=http://portal.fciconnect.com/Comergent//fci/drawing/68015.pdf"&gt;68016-205HLF&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/68016-205HLF/609-4304-ND/1658018"&gt;609-4304-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CONN HEADER 5POS R/A .100 GOLD&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;</description>
 <gates>
 <gate name="G$1" symbol="5-PIN_HEADER" x="0" y="0"/>
