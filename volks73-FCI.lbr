@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -135,9 +135,9 @@ For attribution, please provide a link in any documentation or design files to t
 <text x="-2.54" y="1.905" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-3.175" size="1.27" layer="25">&gt;VALUE</text>
 </package>
-<package name="68016">
-<description>&lt;h1&gt;4-Pin Right Angle Male Header&lt;/h1&gt;
-&lt;h2&gt;0.100" Lead Spacing&lt;/h2&gt;</description>
+<package name="204">
+<description>&lt;h1&gt;4-Pin Male Header, Right Angle, 0.100" Lead Spacing&lt;/h1&gt;
+&lt;h2&gt;BERGSTIK&amp;reg; II, MezzSelect&amp;trade;, Basics+ Series 204 Size Code&lt;/h2&gt;</description>
 <pad name="2" x="-1.27" y="0" drill="1.0922"/>
 <pad name="1" x="-3.81" y="0" drill="1.0922" shape="square"/>
 <pad name="3" x="1.27" y="0" drill="1.0922"/>
@@ -177,6 +177,57 @@ For attribution, please provide a link in any documentation or design files to t
 <wire x1="2.54" y1="2.159" x2="1.905" y2="1.524" width="0.127" layer="21"/>
 <wire x1="5.08" y1="2.159" x2="4.445" y2="1.524" width="0.127" layer="21"/>
 </package>
+<package name="205">
+<description>&lt;h1&gt;5-Pin Male Header, Right Angle, 0.100" Lead Spacing&lt;/h1&gt;
+&lt;h2&gt;BERGSTIK&amp;reg; II, MezzSelect&amp;trade;, Basics+ Series 205 Size Code&lt;/h2&gt;</description>
+<pad name="2" x="-2.54" y="-2.54" drill="1.0922"/>
+<pad name="1" x="-5.08" y="-2.54" drill="1.0922" shape="square"/>
+<pad name="3" x="0" y="-2.54" drill="1.0922"/>
+<pad name="5" x="5.08" y="-2.54" drill="1.0922"/>
+<wire x1="-5.08" y1="1.524" x2="-5.08" y2="7.366" width="0.637540625" layer="51"/>
+<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="-1.016" width="0.637540625" layer="51"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-1.016" width="0.637540625" layer="51"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-1.016" width="0.637540625" layer="51"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="-1.016" width="0.637540625" layer="51"/>
+<wire x1="-5.715" y1="-1.016" x2="-4.445" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="-3.175" y1="-1.016" x2="-1.905" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="-1.016" x2="0.635" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="4.445" y1="-1.016" x2="5.715" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="-5.715" y1="1.524" x2="-4.445" y2="1.524" width="0.127" layer="21"/>
+<wire x1="-3.175" y1="1.524" x2="-1.905" y2="1.524" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="1.524" x2="0.635" y2="1.524" width="0.127" layer="21"/>
+<wire x1="4.445" y1="1.524" x2="5.715" y2="1.524" width="0.127" layer="21"/>
+<wire x1="6.35" y1="0.889" x2="6.35" y2="-0.381" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="0.889" x2="-6.35" y2="-0.381" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="1.524" x2="-2.54" y2="7.366" width="0.637540625" layer="51"/>
+<wire x1="0" y1="1.524" x2="0" y2="7.366" width="0.637540625" layer="51"/>
+<wire x1="5.08" y1="1.524" x2="5.08" y2="7.366" width="0.637540625" layer="51"/>
+<wire x1="-6.35" y1="0.889" x2="-5.715" y2="1.524" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="0.889" x2="-3.175" y2="1.524" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="0.889" x2="-0.635" y2="1.524" width="0.127" layer="21"/>
+<wire x1="-4.445" y1="1.524" x2="-3.81" y2="0.889" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="1.524" x2="-1.27" y2="0.889" width="0.127" layer="21"/>
+<wire x1="0.635" y1="1.524" x2="1.27" y2="0.889" width="0.127" layer="21"/>
+<wire x1="5.715" y1="1.524" x2="6.35" y2="0.889" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="-0.381" x2="-5.715" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="-0.381" x2="-3.175" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-0.381" x2="-0.635" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="-0.381" x2="-4.445" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-0.381" x2="-1.905" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-0.381" x2="0.635" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="6.35" y1="-0.381" x2="5.715" y2="-1.016" width="0.127" layer="21"/>
+<pad name="4" x="2.54" y="-2.54" drill="1.0922"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="-1.016" width="0.637540625" layer="51"/>
+<wire x1="1.905" y1="-1.016" x2="3.175" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="1.905" y1="1.524" x2="3.175" y2="1.524" width="0.127" layer="21"/>
+<wire x1="2.54" y1="1.524" x2="2.54" y2="7.366" width="0.637540625" layer="51"/>
+<wire x1="1.27" y1="0.889" x2="1.905" y2="1.524" width="0.127" layer="21"/>
+<wire x1="3.175" y1="1.524" x2="3.81" y2="0.889" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-0.381" x2="1.905" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="3.81" y1="-0.381" x2="3.175" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="3.81" y1="0.889" x2="4.445" y2="1.524" width="0.127" layer="21"/>
+<wire x1="3.81" y1="-0.381" x2="4.445" y2="-1.016" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="1-PIN_HEADER">
@@ -208,6 +259,30 @@ For attribution, please provide a link in any documentation or design files to t
 <text x="-3.81" y="-10.16" size="1.27" layer="95">&gt;VALUE</text>
 <pin name="4" x="-7.62" y="-5.08" visible="pin" length="middle"/>
 <wire x1="-2.54" y1="-5.08" x2="-1.778" y2="-4.318" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-1.778" y2="-5.842" width="0.254" layer="94"/>
+</symbol>
+<symbol name="5-PIN_HEADER">
+<pin name="1" x="-7.62" y="5.08" visible="pin" length="middle"/>
+<pin name="2" x="-7.62" y="2.54" visible="pin" length="middle"/>
+<pin name="3" x="-7.62" y="0" visible="pin" length="middle"/>
+<wire x1="-3.81" y1="7.62" x2="-3.81" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-7.62" x2="3.81" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-7.62" x2="3.81" y2="7.62" width="0.254" layer="94"/>
+<wire x1="3.81" y1="7.62" x2="-3.81" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-1.778" y2="5.842" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-1.778" y2="3.302" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.778" y2="0.762" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-1.778" y2="4.318" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-1.778" y2="1.778" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.778" y2="-0.762" width="0.254" layer="94"/>
+<text x="-3.81" y="8.636" size="1.27" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-10.16" size="1.27" layer="95">&gt;VALUE</text>
+<pin name="4" x="-7.62" y="-2.54" visible="pin" length="middle"/>
+<wire x1="-2.54" y1="-2.54" x2="-1.778" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-1.778" y2="-3.302" width="0.254" layer="94"/>
+<pin name="5" x="-7.62" y="-5.08" visible="pin" length="middle"/>
+<wire x1="-2.54" y1="-5.08" x2="-1.778" y2="-4.318" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-1.778" y2="-3.302" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="-5.08" x2="-1.778" y2="-5.842" width="0.254" layer="94"/>
 </symbol>
 </symbols>
@@ -255,7 +330,7 @@ For attribution, please provide a link in any documentation or design files to t
 </device>
 </devices>
 </deviceset>
-<deviceset name="68016-*" prefix="JP">
+<deviceset name="68016-204*" prefix="JP">
 <description>&lt;h1&gt;4-Pin Male Header&lt;/h1&gt;
 &lt;h3&gt;Ordering Information&lt;/h3&gt;
 &lt;table&gt;
@@ -266,7 +341,7 @@ For attribution, please provide a link in any documentation or design files to t
 <gate name="G$1" symbol="4-PIN_HEADER" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="68016">
+<device name="" package="204">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -274,7 +349,7 @@ For attribution, please provide a link in any documentation or design files to t
 <connect gate="G$1" pin="4" pad="4"/>
 </connects>
 <technologies>
-<technology name="204HLF">
+<technology name="HLF">
 <attribute name="COLOR" value="Black" constant="no"/>
 <attribute name="CONNECTOR_TYPE" value="Header, Unshrouded" constant="no"/>
 <attribute name="CONTACT_FINISH" value="Gold or Gold, GXT" constant="no"/>
@@ -290,6 +365,48 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="PITCH" value="0.100&quot; (2.54mm)" constant="no"/>
 <attribute name="ROW_SPACING" value="-" constant="no"/>
 <attribute name="SERIES" value="BERGSTIK-II, MezzSelect, Basics+" constant="no"/>
+<attribute name="TERMINATION" value="Solder" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="68016-205*" prefix="JP">
+<description>&lt;h1&gt;5-Pin Male Header&lt;/h1&gt;
+&lt;h3&gt;Ordering Information&lt;/h3&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href=http://portal.fciconnect.com/Comergent//fci/drawing/68015.pdf"&gt;68106-205HLF&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/68016-205HLF/609-4304-ND/1658018"&gt;609-4304-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CONN HEADER 5POS R/A .100 GOLD&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</description>
+<gates>
+<gate name="G$1" symbol="5-PIN_HEADER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="205">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+</connects>
+<technologies>
+<technology name="HLF">
+<attribute name="COLOR" value="Black" constant="no"/>
+<attribute name="CONNECTOR_TYPE" value="Header, Unshrouded" constant="no"/>
+<attribute name="CONTACT_FINISH" value="Gold or Gold, GXT" constant="no"/>
+<attribute name="CONTACT_FINISH_THICKNESS" value="15uin (0.38um)" constant="no"/>
+<attribute name="CONTACT_MATING_LENGTH" value="0.230&quot; (5.84mm)" constant="no"/>
+<attribute name="CONTACT_TYPE" value="Male Pin" constant="no"/>
+<attribute name="FASTENING_TYPE" value="-" constant="no"/>
+<attribute name="FEATURES" value="-" constant="no"/>
+<attribute name="MOUNTING_TYPE" value="Through Hole, Right Angle" constant="no"/>
+<attribute name="NUMBER_OF_POSITIONS" value="5" constant="no"/>
+<attribute name="NUMBER_OF_POSITIONS_LOADED" value="All" constant="no"/>
+<attribute name="NUMBER_OF_ROWS" value="1" constant="no"/>
+<attribute name="PITCH" value="0.100&quot; (2.54mm)" constant="no"/>
+<attribute name="ROW_SPACING" value="-" constant="no"/>
+<attribute name="SERIES" value="BERGSTIK II, MezzSelect, Basics+" constant="no"/>
 <attribute name="TERMINATION" value="Solder" constant="no"/>
 </technology>
 </technologies>
