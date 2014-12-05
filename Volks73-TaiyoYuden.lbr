@@ -70,7 +70,7 @@ For attribution, please provide a link in any documentation or design files to t
 <packages>
 <package name="0402">
 <description>&lt;h1&gt;0402 (1005 Metric)&lt;/h1&gt;
-&lt;h2&gt;105 Size Code for the 0402 Surface Mount Device (SMD)&lt;/h2&gt;</description>
+&lt;h2&gt;M Series, 105 Size Code&lt;/h2&gt;</description>
 <smd name="1" x="-0.55" y="0" dx="0.5" dy="0.55" layer="1"/>
 <smd name="2" x="0.55" y="0" dx="0.5" dy="0.55" layer="1" rot="R180"/>
 <wire x1="-0.525" y1="0.25" x2="0.525" y2="0.25" width="0.127" layer="49"/>
@@ -81,6 +81,22 @@ For attribution, please provide a link in any documentation or design files to t
 <rectangle x1="-0.525" y1="-0.275" x2="-0.175" y2="0.275" layer="51" rot="R180"/>
 <text x="-3.175" y="0.635" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.175" y="-1.905" size="1.27" layer="25">&gt;VALUE</text>
+</package>
+<package name="1206">
+<description>&lt;h1&gt;1206 (3216 Metric)&lt;/h1&gt;
+&lt;h2&gt;M Series, 316 Size Code&lt;/h2&gt;</description>
+<wire x1="-1.675" y1="0.875" x2="1.675" y2="0.875" width="0.127" layer="49"/>
+<wire x1="1.675" y1="-0.875" x2="-1.675" y2="-0.875" width="0.127" layer="49"/>
+<wire x1="-1.675" y1="-0.875" x2="-1.675" y2="0.875" width="0.127" layer="49"/>
+<wire x1="1.675" y1="0.875" x2="1.675" y2="-0.875" width="0.127" layer="49"/>
+<rectangle x1="-1.675" y1="-0.875" x2="-0.84" y2="0.875" layer="51"/>
+<rectangle x1="0.84" y1="-0.875" x2="1.675" y2="0.875" layer="51" rot="R180"/>
+<text x="-2.54" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.175" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="0" y1="-0.875" x2="0" y2="0.875" width="0.127" layer="21"/>
+<smd name="1" x="-1.25" y="0" dx="1.5" dy="2" layer="1"/>
+<smd name="P$2" x="-1.25" y="0" dx="1.5" dy="2" layer="1"/>
+<smd name="2" x="1.25" y="0" dx="1.5" dy="2" layer="1" rot="R180"/>
 </package>
 </packages>
 <symbols>
@@ -100,7 +116,7 @@ For attribution, please provide a link in any documentation or design files to t
 <devicesets>
 <deviceset name="LMK?*" prefix="C" uservalue="yes">
 <description>&lt;h1&gt;Ceramic Capacitor&lt;/h1&gt;
-&lt;h2&gt;Multilayer Cermaic Capacitor&lt;/h2&gt;
+&lt;h2&gt;10V Rated, Multilayer Cermaic Capacitor&lt;/h2&gt;
 &lt;h3&gt;Documentation&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://www.yuden.co.jp/productdata/catalog/en/mlcc_all_e.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
@@ -137,6 +153,45 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="THICKNESS" value="0.022&quot; (0.55mm)" constant="no"/>
 <attribute name="TOLERANCE" value="10%" constant="no"/>
 <attribute name="VOLTAGE-RATED" value="10V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="UMK?*" prefix="C" uservalue="yes">
+<description>&lt;h1&gt;Ceramic Capacitor&lt;/h1&gt;
+&lt;h2&gt;50V Rated, Multilayer Cermaic Capacitor&lt;/h2&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.yuden.co.jp/productdata/catalog/en/mlcc_all_e.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Ordering Information&lt;/h3&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;UMK316AB7475KL-T&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/UMK316AB7475KL-T/587-2994-1-ND/2714187"&gt;587-2994-1-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CAP CER 4.7UF 50V 10% X7R 1206&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="316" package="1206">
+<technologies>
+<technology name="AB7475KL-T">
+<attribute name="APPLICATIONS" value="General Purpose" constant="no"/>
+<attribute name="CAPACITANCE" value="4.7uF" constant="no"/>
+<attribute name="FEATURES" value="-" constant="no"/>
+<attribute name="HEIGHT-SEATED" value="-" constant="no"/>
+<attribute name="LEAD_SPACING" value="-" constant="no"/>
+<attribute name="LEAD_STYLE" value="-" constant="no"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount, MLCC" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 125C" constant="no"/>
+<attribute name="PACKAGE" value="1206 (3216 Metric)" constant="no"/>
+<attribute name="RATINGS" value="-" constant="no"/>
+<attribute name="SERIES" value="M" constant="no"/>
+<attribute name="SIZE" value="0.126&quot; L x 0.063&quot; W (3.20mm x 1.60mm)" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="X7R" constant="no"/>
+<attribute name="THICKNESS" value="0.071&quot; (1.80mm)" constant="no"/>
+<attribute name="VOLTAGE-RATED" value="50V" constant="no"/>
 </technology>
 </technologies>
 </device>
