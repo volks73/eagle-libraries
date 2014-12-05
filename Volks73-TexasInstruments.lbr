@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -216,7 +216,7 @@ Package contains a relatively large pad on the bottom that should be soldered di
 </deviceset>
 <deviceset name="TPS54531*" prefix="U">
 <description>&lt;h1&gt;DC-DC Converter&lt;/h1&gt;
-&lt;h2&gt;Step-Down SWIFT&amp;trade; DC-DC Converter&lt;/h2&gt;
+&lt;h2&gt;5-A, 28-V INput, Step-Down SWIFT&amp;trade; DC-DC Converter with Eco-Mode&amp;trade;&lt;/h2&gt;
 &lt;h3&gt;Documentation&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://www.ti.com/lit/ds/symlink/tps54531.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
@@ -277,6 +277,63 @@ The TPS54531 device is a 28-V, 5-A non-synchronous buck converter that integrate
 <attribute name="VOLTAGE-INPUT" value="3.5V ~ 28V" constant="no"/>
 <attribute name="VOLTAGE-OUTPUT" value="0.8V ~ 25V" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TPS54332*" prefix="U">
+<description>&lt;h1&gt;DC-DC Converter&lt;/h1&gt;
+&lt;h2&gt;3.5-A, 28-V, 1-MHz, Step-Down DC-DC Converter with Eco-Mode&amp;trade;&lt;/h2&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.ti.com/lit/ds/symlink/tps54332.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Ordering Information&lt;/h3&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;TPS54332DDA&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/TPS54332DDA/296-24141-5-ND/2000741"&gt;296-24141-5-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;IC REG BUCK ADJ 3.5A 8SOPWRPAD&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;h3&gt;Description&lt;/h3&gt;
+The TPS54531 device is a 28-V, 5-A non-synchronous buck converter that integrates a low R&lt;sub&gt;DS(on)&lt;/sub&gt; high-side MOSFET. To increase efficiency at light loads, a pulse skipping Eco-mode feature is automatically activated. Furthermore, the 1-uA shutdown supply current allows the device to be used in battery powered applications. Current mode control with internal slope compensation simplifies the external compensation calculations and reduces component count while allowing the use of ceramic output capacitors. A resistor divider programs the hysteresis of the input under-voltage lockout. An overvoltage transient protection circuit limits voltage overshoots during startup and transient conditions. A cycle-by-cycle current-limit scheme, frequency fold back, and thermal shutdown protect the device and the load in the event of an overload condition. The TPS54531 device is available in 8-pin SO PowerPAD&amp;trade; package that has been internally optimized to improve thermal performance.
+&lt;h3&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;3.5 to 28-V Input Voltage Range&lt;/li&gt;
+&lt;li&gt;Adjustable Output Voltage Down to 0.8V&lt;/li&gt;
+&lt;li&gt;Integrated 80-m&amp;Omega; High-Side MOSFET Supports up to 3.5-A Continuous Output Current&lt;/li&gt;
+&lt;li&gt;High Efficiency at Light Loads with a Pulse Skipping Eco-mode&amp;trade;&lt;/li&gt;
+&lt;li&gt;Fixed 1MHz Switching Frequency&lt;/li&gt;
+&lt;li&gt;Typical 1uA Shutdown Quiescent Current&lt;/li&gt;
+&lt;li&gt;Adjustable Slow Start Limits Inrush Currents&lt;/li&gt;
+&lt;li&gt;Programmable UVLO Threshold&lt;/li&gt;
+&lt;li&gt;Overvoltage Transient Protection&lt;/li&gt;
+&lt;li&gt;Cycle-by-Cycle Current-Limit, Frequency Fold Back, and Thermal Shutdown Protection&lt;/li&gt;
+&lt;li&gt;Available in Thermally Enhanced 8-Pin SOIC PowerPAD&amp;trade; Package&lt;/li&gt;
+&lt;li&gt;Supported by &lt;a href="http://www.ti.com/lsds/ti/analog/webench/overview.page"&gt;WEBENCH&lt;/a&gt;&amp;trade; Tool (http://www.ti.com/lsds/ti/analog/webench/overview.page)
+&lt;/ul&gt;
+&lt;h3&gt;Applications&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Consumer Applications such as Set-Top Boxes, CPE Equipment, LCB Displays, Peripherals, and Battery Chargers&lt;/li&gt;
+&lt;li&gt; Industrial and Car Audio Power Supplies&lt;/li&gt;
+&lt;li&gt;5-V, 12-V and 24-V Distributed Power Systems&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="BUCK_CONVERTER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="8-SO_POWER_PAD">
+<connects>
+<connect gate="G$1" pin="BOOT" pad="1"/>
+<connect gate="G$1" pin="COMP" pad="6"/>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="GND" pad="7"/>
+<connect gate="G$1" pin="PH" pad="8"/>
+<connect gate="G$1" pin="PWR-PAD" pad="GND@1 GND@2"/>
+<connect gate="G$1" pin="SS" pad="4"/>
+<connect gate="G$1" pin="VIN" pad="2"/>
+<connect gate="G$1" pin="VSNS" pad="5"/>
+</connects>
+<technologies>
+<technology name="DDA"/>
 </technologies>
 </device>
 </devices>
