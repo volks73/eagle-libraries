@@ -216,7 +216,7 @@ Package contains a relatively large pad on the bottom that should be soldered di
 </deviceset>
 <deviceset name="TPS54531*" prefix="U">
 <description>&lt;h1&gt;DC-DC Converter&lt;/h1&gt;
-&lt;h2&gt;5-A, 28-V INput, Step-Down SWIFT&amp;trade; DC-DC Converter with Eco-Mode&amp;trade;&lt;/h2&gt;
+&lt;h2&gt;5-A, 28-V Input, Step-Down SWIFT&amp;trade; DC-DC Converter with Eco-Mode&amp;trade;&lt;/h2&gt;
 &lt;h3&gt;Documentation&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://www.ti.com/lit/ds/symlink/tps54531.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
@@ -333,7 +333,21 @@ The TPS54531 device is a 28-V, 5-A non-synchronous buck converter that integrate
 <connect gate="G$1" pin="VSNS" pad="5"/>
 </connects>
 <technologies>
-<technology name="DDA"/>
+<technology name="DDA">
+<attribute name="CURRENT-OUTPUT" value="3.5A" constant="no"/>
+<attribute name="FREQUENCY_SWITCHING" value="1MHz" constant="no"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount" constant="no"/>
+<attribute name="NUMBER_OF_OUTPUTS" value="1" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-40C ~ 150C" constant="no"/>
+<attribute name="OUTPUT_TYPE" value="Adjustable" constant="no"/>
+<attribute name="PACKAGE" value="8-SOIC (0.154&quot;, 3.90mm Width) Exposed Pad" constant="no"/>
+<attribute name="SERIES" value="Eco-Mode" constant="no"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="8-SO PowerPad" constant="no"/>
+<attribute name="SYNCHRONOUS_RECTIFIER" value="No" constant="no"/>
+<attribute name="TYPE" value="Step-Down (Buck)" constant="no"/>
+<attribute name="VOLTAGE-INPUT" value="3.5V ~ 28V" constant="no"/>
+<attribute name="VOLTAGE-OUTPUT" value="0.8V ~ 25V" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
