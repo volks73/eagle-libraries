@@ -242,6 +242,65 @@ For attribution, please provide a link in any documentation or design files to t
 </device>
 </devices>
 </deviceset>
+<deviceset name="LY_R976-PS-36" prefix="LED" uservalue="yes">
+<description>&lt;h1&gt;Yellow Light Emitting Diode (LED)&lt;/h1&gt;
+&lt;h2&gt;Surface Mount Device (SMD)&lt;/h2&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Ordering Information&lt;/h3&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;LY R976-PS-36&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/LY%20R976-PS-36/475-2560-1-ND/1802687"&gt;475-2560-1-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;LED CHIPLED 588NM YLW 0805 SMD&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;h3&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Package: SMT package 0805, colorless diffused resin, 2mm x 1.25mm x 0.8mm&lt;/li&gt;
+&lt;li&gt;Technology: InGaAIP&lt;/li&gt;
+&lt;li&gt;Viewing anagle at 50% I&lt;sub&gt;v&lt;/sub&gt;: 160&lt;sup&gt;o&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;Color: yellow (588nm)&lt;/li&gt;
+&lt;li&gt;Optical efficiency (typ.): 11 lm/W (yellow)&lt;/li&gt;
+&lt;li&gt;ESD - withstand voltage: up to 2 kV acc. to JESD22-A1114-F&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Applications&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Optical indicator&lt;/li&gt;
+&lt;li&gt;LCD Backlighting&lt;/li&gt;
+&lt;li&gt;Pushbuttons and Switches&lt;/li&gt;
+&lt;li&gt;Toys&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0805">
+<connects>
+<connect gate="G$1" pin="ANODE" pad="A"/>
+<connect gate="G$1" pin="CATHODE" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COLOR" value="Yellow" constant="no"/>
+<attribute name="CURRENT-TEST" value="20mA" constant="no"/>
+<attribute name="FAMILY" value="LED Indication - Discrete" constant="no"/>
+<attribute name="HEIGHT" value="0.80mm" constant="no"/>
+<attribute name="LENS_STYLE" value="Rectangle with Flat Top, 1.3mm x 1.25mm" constant="no"/>
+<attribute name="LENS_TYPE" value="Diffused" constant="no"/>
+<attribute name="LUMINOUS_FLUX" value="520 mlm" constant="no"/>
+<attribute name="MILLICANDELA_RATING" value="162.5mcd" constant="no"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount" constant="no"/>
+<attribute name="PACKAGE" value="0805 (2012 Metric)" constant="no"/>
+<attribute name="SERIES" value="CHIPLED" constant="no"/>
+<attribute name="VIEWING_ANGLE" value="160" constant="no"/>
+<attribute name="VOLTAGE-FORWARD" value="2V" constant="no"/>
+<attribute name="WAVELENGTH-DOMINANT" value="588nm" constant="no"/>
+<attribute name="WAVELENGTH-PEAK" value="591nm" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
