@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -78,7 +78,7 @@ For attribution, please provide a link in any documentation or design files to t
 <wire x1="5.15" y1="5.15" x2="5.15" y2="-5.15" width="0.127" layer="49"/>
 <wire x1="5.15" y1="-5.15" x2="-5.15" y2="-5.15" width="0.127" layer="49"/>
 <text x="-2.54" y="5.715" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.175" y="-6.985" size="1.27" layer="25">&gt;VALUE</text>
+<text x="-3.175" y="-6.985" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-5.75" y1="-1.65" x2="-3.15" y2="1.65" layer="51"/>
 <rectangle x1="3.15" y1="-1.65" x2="5.75" y2="1.65" layer="51" rot="R180"/>
 <wire x1="-5.08" y1="2.54" x2="-1.905" y2="2.54" width="0.127" layer="21"/>
