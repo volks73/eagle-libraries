@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -264,6 +264,11 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;table&gt;
 &lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;ERJ3EKF1022V&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-3EKF1022V/P10.2KHCT-ND/198104"&gt;10.2KHCT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 10.2K OHM 1% 1/10W 0603&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;ERJ3EKF1303V&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-3EKF1303V/P130KHCT-ND/198154"&gt;P130KHCT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 130K OHM 1% 1/10W 0603&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;ERJ3EKF1961V&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-3EKF1961V/P1.96KHCT-ND/198099"&gt;P1.96KHCT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 1.96K OHM 1% 1/10W 0603&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;ERJ3EKF3742V&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-3EKF3742V/P37.4KHCT-ND/198355"&gt;P37.4KHCT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 37.4K OHM 1% 1/10W 0603&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;ERJ3EKF6653V&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-3EKF6653V/P665KHCT-ND/198479"&gt;P665KHCT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 665K OHM 1% 1/10W 0603&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;ERJ3EKF51R1V&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-3EKF51R1V/P51.1HCT-ND/198423"&gt;P51.1HCT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 51.1 OHM 1% 1/10W 0603&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
@@ -304,6 +309,81 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="PACKAGE" value="0603 (1608 Metric)" constant="no"/>
 <attribute name="POWER" value="0.1W, 1/10W" constant="no"/>
 <attribute name="RESISTANCE" value="10.2k" constant="no"/>
+<attribute name="SERIES" value="ERJ" constant="no"/>
+<attribute name="SIZE" value="0.063&quot; L x 0.031&quot; W (1.60mm x 0.80mm)" constant="no"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="0603" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+</technology>
+<technology name="F1303V">
+<attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
+<attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
+<attribute name="HEIGHT" value="0.022&quot; (0.55mm)" constant="no"/>
+<attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
+<attribute name="PACKAGE" value="0603 (1608 Metric)" constant="no"/>
+<attribute name="POWER" value="0.1W, 1/10W" constant="no"/>
+<attribute name="RESISTANCE" value="130k" constant="no"/>
+<attribute name="SERIES" value="ERJ" constant="no"/>
+<attribute name="SIZE" value="0.063&quot; L x 0.031&quot; W (1.60mm x 0.80mm)" constant="no"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="0603" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+</technology>
+<technology name="F1961V">
+<attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
+<attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
+<attribute name="HEIGHT" value="0.022&quot; (0.55mm)" constant="no"/>
+<attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
+<attribute name="PACKAGE" value="0603 (1608 Metric)" constant="no"/>
+<attribute name="POWER" value="0.1W, 1/10W" constant="no"/>
+<attribute name="RESISTANCE" value="1.96k" constant="no"/>
+<attribute name="SERIES" value="ERJ" constant="no"/>
+<attribute name="SIZE" value="0.063&quot; L x 0.031&quot; W (1.60mm x 0.80mm)" constant="no"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="0603" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+</technology>
+<technology name="F3742V">
+<attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
+<attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
+<attribute name="HEIGHT" value="0.022&quot; (0.55mm)" constant="no"/>
+<attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
+<attribute name="PACKAGE" value="0603 (1608 Metric)" constant="no"/>
+<attribute name="POWER" value="0.1W, 1/10W" constant="no"/>
+<attribute name="RESISTANCE" value="37.4k" constant="no"/>
+<attribute name="SERIES" value="ERJ" constant="no"/>
+<attribute name="SIZE" value="0.063&quot; L x 0.031&quot; W (1.60mm x 0.80mm)" constant="no"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="0603" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+</technology>
+<technology name="F51R1V">
+<attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
+<attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
+<attribute name="HEIGHT" value="0.022&quot; (0.55mm)" constant="no"/>
+<attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
+<attribute name="PACKAGE" value="0603 (1608 Metric)" constant="no"/>
+<attribute name="POWER" value="0.1W, 1/10W" constant="no"/>
+<attribute name="RESISTANCE" value="51.1" constant="no"/>
+<attribute name="SERIES" value="ERJ" constant="no"/>
+<attribute name="SIZE" value="0.063&quot; L x 0.031&quot; W (1.60mm x 0.80mm)" constant="no"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="0603" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+</technology>
+<technology name="F6653V">
+<attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
+<attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
+<attribute name="HEIGHT" value="0.022&quot; (0.55mm)" constant="no"/>
+<attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
+<attribute name="PACKAGE" value="0603 (1608 Metric)" constant="no"/>
+<attribute name="POWER" value="0.1W, 1/10W" constant="no"/>
+<attribute name="RESISTANCE" value="665k" constant="no"/>
 <attribute name="SERIES" value="ERJ" constant="no"/>
 <attribute name="SIZE" value="0.063&quot; L x 0.031&quot; W (1.60mm x 0.80mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="0603" constant="no"/>
