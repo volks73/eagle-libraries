@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -77,10 +77,9 @@ For attribution, please provide a link in any documentation or design files to t
 <wire x1="1.6" y1="-0.9" x2="1.6" y2="0.9" width="0.127" layer="49"/>
 <wire x1="1.6" y1="-0.9" x2="-1.6" y2="-0.9" width="0.127" layer="49"/>
 <text x="-2.54" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.175" y="-2.54" size="1.27" layer="25">&gt;VALUE</text>
+<text x="-3.175" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.55" y1="-0.9" x2="-0.75" y2="0.9" layer="51"/>
 <rectangle x1="0.75" y1="-0.9" x2="1.55" y2="0.9" layer="51" rot="R180"/>
-<wire x1="0" y1="-0.9" x2="0" y2="0.9" width="0.254" layer="21"/>
 </package>
 <package name="0402">
 <description>&lt;h1&gt;0402 (1005 Metric)&lt;/h1&gt;
