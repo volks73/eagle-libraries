@@ -165,8 +165,22 @@ For attribution, please provide a link in any documentation or design files to t
 <text x="-3.175" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.875" y1="-0.475" x2="-0.425" y2="0.475" layer="51"/>
 <rectangle x1="0.425" y1="-0.475" x2="0.875" y2="0.475" layer="51" rot="R180"/>
-<smd name="1" x="-0.95" y="0" dx="0.65" dy="1" layer="1"/>
-<smd name="2" x="0.95" y="0" dx="0.65" dy="1" layer="1" rot="R180"/>
+<smd name="1" x="-0.775" y="0" dx="0.65" dy="1" layer="1"/>
+<smd name="2" x="0.775" y="0" dx="0.65" dy="1" layer="1" rot="R180"/>
+</package>
+<package name="1206">
+<description>&lt;h1&gt;1206 (3216 Metric)&lt;/h1&gt;
+&lt;h2&gt;ERJ Series, 3GE Size Code&lt;/h2&gt;</description>
+<wire x1="-1.625" y1="0.825" x2="1.625" y2="0.825" width="0.127" layer="49"/>
+<wire x1="1.625" y1="-0.825" x2="-1.625" y2="-0.825" width="0.127" layer="49"/>
+<wire x1="-1.625" y1="0.825" x2="-1.625" y2="-0.825" width="0.127" layer="49"/>
+<wire x1="1.625" y1="-0.825" x2="1.625" y2="0.825" width="0.127" layer="49"/>
+<rectangle x1="-1.625" y1="-0.825" x2="-0.925" y2="0.825" layer="51"/>
+<rectangle x1="0.925" y1="-0.825" x2="1.625" y2="0.825" layer="51" rot="R180"/>
+<text x="-2.54" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.175" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<smd name="1" x="-1.25" y="0" dx="1.3" dy="1.8" layer="1"/>
+<smd name="2" x="1.25" y="0" dx="1.3" dy="1.8" layer="1" rot="R180"/>
 </package>
 </packages>
 <symbols>
@@ -269,6 +283,10 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;tr&gt;&lt;td&gt;ERJ3EKF3742V&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-3EKF3742V/P37.4KHCT-ND/198355"&gt;P37.4KHCT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 37.4K OHM 1% 1/10W 0603&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;ERJ3EKF6653V&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-3EKF6653V/P665KHCT-ND/198479"&gt;P665KHCT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 665K OHM 1% 1/10W 0603&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;ERJ3EKF51R1V&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-3EKF51R1V/P51.1HCT-ND/198423"&gt;P51.1HCT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 51.1 OHM 1% 1/10W 0603&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;ERJ8GEYJ472V&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-8GEYJ472V/P4.7KECT-ND/203338"&gt;P4.7KECT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 4.7K OHM 5% 1/4W 1206&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;ERJ8GEYJ103V&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-8GEYJ103V/P10KECT-ND/203249"&gt;P10KECT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 10K OHM 5% 1/4W 1206&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;ERJ8GEYJ471V&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-8GEYJ471V/P470ECT-ND/203337"&gt;P470ECT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 470 OHM 5% 1/4W 1206&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;ERJ8GEYJ511V&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-8GEYJ511V/P510ECT-ND/203342"&gt;P510ECT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 510 OHM 5% 1/4W 1206&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
@@ -389,6 +407,89 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="0603" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="1%" constant="no"/>
+</technology>
+<technology name="YJ472V">
+<attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
+<attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
+<attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
+<attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
+<attribute name="PACKAGE" value="1206 (3216 Metric)" constant="no"/>
+<attribute name="POWER" value="0.25W, 1.4W" constant="no"/>
+<attribute name="RESISTANCE" value="4.7k" constant="no"/>
+<attribute name="SERIES" value="ERJ" constant="no"/>
+<attribute name="SIZE" value="0.126&quot; L x 0.063&quot; W (3.20mm x 1.60mm)" constant="no"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="1206" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="200ppm/C" constant="no"/>
+<attribute name="TOLERANCE" value="5%" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="8EG" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="YJ103V">
+<attribute name="COMPOSITION" value="Thick Film" constant="no"/>
+<attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
+<attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
+<attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
+<attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
+<attribute name="PACKAGE" value="1206 (3216 Metric)" constant="no"/>
+<attribute name="POWER" value="0.25W, 1/4W" constant="no"/>
+<attribute name="RESISTANCE" value="10k" constant="no"/>
+<attribute name="SERIES" value="ERJ" constant="no"/>
+<attribute name="SIZE" value="0.126&quot; L x 0.063&quot; W (3.20mm x 1.60mm)" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="200ppm/C" constant="no"/>
+<attribute name="TOLERANCE" value="5%" constant="no"/>
+</technology>
+<technology name="YJ471V">
+<attribute name="COMPOSITION" value="Thick Film" constant="no"/>
+<attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
+<attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
+<attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
+<attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
+<attribute name="PACKAGE" value="1206 (3216 Metric)" constant="no"/>
+<attribute name="POWER" value="0.25W, 1/4W" constant="no"/>
+<attribute name="RESISTANCE" value="470" constant="no"/>
+<attribute name="SERIES" value="ERJ" constant="no"/>
+<attribute name="SIZE" value="0.126&quot; L x 0.063&quot; W (3.20mm x 1.60mm)" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="200ppm/C" constant="no"/>
+<attribute name="TOLERANCE" value="5%" constant="no"/>
+</technology>
+<technology name="YJ472V">
+<attribute name="COMPOSITION" value="Thick Film" constant="no"/>
+<attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
+<attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
+<attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
+<attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
+<attribute name="PACKAGE" value="1206 (3216 Metric)" constant="no"/>
+<attribute name="POWER" value="0.25W, 1/4W" constant="no"/>
+<attribute name="RESISTANCE" value="4.7k" constant="no"/>
+<attribute name="SERIES" value="ERJ" constant="no"/>
+<attribute name="SIZE" value="0.126&quot; L x 0.063&quot; W (3.20mm x 1.60mm)" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="200ppm/C" constant="no"/>
+<attribute name="TOLERANCE" value="5%" constant="no"/>
+</technology>
+<technology name="YJ511V">
+<attribute name="COMPOSITION" value="Thick Film" constant="no"/>
+<attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
+<attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
+<attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
+<attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
+<attribute name="PACKAGE" value="1206 (3216 Metric)" constant="no"/>
+<attribute name="POWER" value="0.25W, 1/4W" constant="no"/>
+<attribute name="RESISTANCE" value="510" constant="no"/>
+<attribute name="SERIES" value="ERJ" constant="no"/>
+<attribute name="SIZE" value="0.126&quot; L x 0.063&quot; W (3.20mm x 1.60mm)" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="200ppm/C" constant="no"/>
+<attribute name="TOLERANCE" value="5%" constant="no"/>
 </technology>
 </technologies>
 </device>
