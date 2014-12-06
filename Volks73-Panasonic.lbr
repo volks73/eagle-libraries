@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -154,6 +154,20 @@ For attribution, please provide a link in any documentation or design files to t
 <rectangle x1="-1.62" y1="-0.225" x2="-0.92" y2="0.225" layer="51"/>
 <rectangle x1="0.92" y1="-0.225" x2="1.62" y2="0.225" layer="51" rot="R180"/>
 </package>
+<package name="0603">
+<description>&lt;h1&gt;0603 (1608 Metric)&lt;/h1&gt;
+&lt;h2&gt;ERJ Series, 3R Size Code&lt;/h2&gt;</description>
+<wire x1="-0.875" y1="0.475" x2="0.875" y2="0.475" width="0.127" layer="49"/>
+<wire x1="0.875" y1="-0.475" x2="-0.875" y2="-0.475" width="0.127" layer="49"/>
+<wire x1="-0.875" y1="0.475" x2="-0.875" y2="-0.475" width="0.127" layer="49"/>
+<wire x1="0.875" y1="-0.475" x2="0.875" y2="0.475" width="0.127" layer="49"/>
+<text x="-2.54" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.175" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.875" y1="-0.475" x2="-0.425" y2="0.475" layer="51"/>
+<rectangle x1="0.425" y1="-0.475" x2="0.875" y2="0.475" layer="51" rot="R180"/>
+<smd name="1" x="-0.95" y="0" dx="0.65" dy="1" layer="1"/>
+<smd name="2" x="0.95" y="0" dx="0.65" dy="1" layer="1" rot="R180"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LED">
@@ -179,6 +193,21 @@ For attribution, please provide a link in any documentation or design files to t
 <vertex x="-2.921" y="-2.413"/>
 <vertex x="-2.413" y="-2.921"/>
 </polygon>
+</symbol>
+<symbol name="RESISTOR">
+<wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-1.524" y1="-1.016" x2="-0.889" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="-0.889" y1="1.016" x2="-0.254" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-0.254" y1="-1.016" x2="0.381" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="0.381" y1="1.016" x2="1.016" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="-1.016" x2="1.651" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="2.286" y1="-1.016" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -219,6 +248,67 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="VOLTAGE-FORWARD" value="2.2V" constant="no"/>
 <attribute name="WAVELENGTH-DOMINANT" value="-" constant="no"/>
 <attribute name="WAVELENGTH-PEAK" value="700nm" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ERJ?*" prefix="R" uservalue="yes">
+<description>&lt;h1&gt;Resistor&lt;/h1&gt;
+&lt;h2&gt;Precision Think Film Chip Resistors&lt;/h2&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://industrial.panasonic.com/www-data/pdf/AOA0000/AOA0000CE2.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Ordering Information&lt;/h3&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;ERJ3EKF1022V&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-3EKF1022V/P10.2KHCT-ND/198104"&gt;10.2KHCT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 10.2K OHM 1% 1/10W 0603&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;h3&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Small size and lightweight&lt;/li&gt;
+&lt;li&gt;High reliability&lt;/li&gt;
+&lt;li&gt;Metal glaze thick fi lm resistive element and three layers of electrodes&lt;/li&gt;
+&lt;li&gt;Compatible with placement machines&lt;/li&gt;
+&lt;li&gt;Taping packaging available&lt;/li&gt;
+&lt;li&gt;Suitable for both refl ow and fl ow soldering&lt;/li&gt;
+&lt;li&gt;Low Resistance Tolerance&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;ERJXG, 1G, 2R, 3E, 6E, 8E, 14, 12, 1T Type : ±1 %&lt;/li&gt;
+&lt;li&gt;ERJ1R, 2R, 3R, 6R Type : ±0.5 %&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Reference Standards&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;IEC 60115-8, JIS C 5201-8, EIAJ RC-2134B&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;AEC-Q200 qualifi ed (Exemption ERJXG, ERJ1R)&lt;/li&gt;
+&lt;li&gt;RoHS compliant&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="3EK" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="F1022V">
+<attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
+<attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
+<attribute name="HEIGHT" value="0.022&quot; (0.55mm)" constant="no"/>
+<attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
+<attribute name="PACKAGE" value="0603 (1608 Metric)" constant="no"/>
+<attribute name="POWER" value="0.1W, 1/10W" constant="no"/>
+<attribute name="RESISTANCE" value="10.2k" constant="no"/>
+<attribute name="SERIES" value="ERJ" constant="no"/>
+<attribute name="SIZE" value="0.063&quot; L x 0.031&quot; W (1.60mm x 0.80mm)" constant="no"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="0603" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
 </technology>
 </technologies>
 </device>
