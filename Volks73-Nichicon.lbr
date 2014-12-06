@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -41,7 +41,7 @@
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="14" fill="1" visible="yes" active="yes"/>
@@ -102,50 +102,22 @@
 <layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <library>
-<description>&lt;h1&gt;Volks73's Library for AVX Corporation Parts&lt;/h1&gt;
-&lt;p&gt;
-&lt;a href="https://github.com/volks73/eagle-libraries/"&gt;Repository&lt;/a&gt;
-&lt;/p&gt;
-&lt;h3&gt;Licensing:&lt;/h3&gt; 
-&lt;p&gt;
-Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0), &lt;a href="http://creativecommons.org/licenses/by-sa/3.0/"&gt;http://creativecommons.org/licenses/by-sa/3.0/&lt;/a&gt;. 
-&lt;/p&gt;
-&lt;p&gt;
-For attribution, please provide a link in any documentation or design files to the repository on Github. 
-&lt;/p&gt;</description>
+<description>&lt;h1&gt;Volks73's Library for Nichicon Parts&lt;/h1&gt;</description>
 <packages>
-<package name="RADIAL-5.00MM">
-<description>&lt;h1&gt;Radial 5.00mm Lead Spacing&lt;/h1&gt;
-&lt;h2&gt;TAP Series CCS size code&lt;/h2&gt;</description>
-<pad name="+" x="0" y="2.5" drill="0.7" shape="square" rot="R180"/>
-<pad name="-" x="0" y="-2.5" drill="0.7" rot="R180"/>
-<wire x1="0" y1="1.5" x2="0" y2="0.25" width="0.127" layer="21"/>
-<wire x1="0" y1="-1.5" x2="0" y2="-0.25" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="0.25" x2="0" y2="0.25" width="0.127" layer="21"/>
-<wire x1="0" y1="0.25" x2="1.5" y2="0.25" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="-0.75" x2="0" y2="-0.25" width="0.127" layer="21" curve="-36.869898"/>
-<wire x1="0" y1="-0.25" x2="1.5" y2="-0.75" width="0.127" layer="21" curve="-36.869898"/>
-<wire x1="-1.5" y1="1.5" x2="-1.5" y2="0.5" width="0.127" layer="21"/>
-<wire x1="-2" y1="1" x2="-1" y2="1" width="0.127" layer="21"/>
-<text x="-3" y="-3" size="1.27" layer="25" font="vector" rot="R90">&gt;NAME</text>
-<text x="4" y="-3" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<circle x="0" y="0" radius="2.5" width="0.127" layer="49"/>
-<wire x1="0" y1="1.5" x2="0" y2="2.54" width="0.5" layer="51"/>
-<wire x1="0" y1="-1.5" x2="0" y2="-2.54" width="0.5" layer="51"/>
-</package>
-<package name="0603">
-<description>&lt;h1&gt;0603 (1608 Metric)&lt;/h1&gt;</description>
-<wire x1="-0.875" y1="0.48" x2="0.875" y2="0.48" width="0.127" layer="49"/>
-<wire x1="0.875" y1="-0.48" x2="-0.875" y2="-0.48" width="0.127" layer="49"/>
-<wire x1="-0.875" y1="0.48" x2="-0.875" y2="-0.48" width="0.127" layer="49"/>
-<wire x1="0.875" y1="-0.48" x2="0.875" y2="0.48" width="0.127" layer="49"/>
-<rectangle x1="-0.875" y1="-0.48" x2="-0.375" y2="0.48" layer="51"/>
-<rectangle x1="0.375" y1="-0.48" x2="0.875" y2="0.48" layer="51" rot="R180"/>
-<smd name="1" x="-0.85" y="0" dx="0.95" dy="0.95" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="0.95" dy="0.95" layer="1" rot="R180"/>
-<text x="-3.175" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.81" y="-1.905" size="1.27" layer="25">&gt;VALUE</text>
-<wire x1="0" y1="0.48" x2="0" y2="-0.48" width="0.127" layer="21"/>
+<package name="RADIAL-3.50MM">
+<description>&lt;h1&gt;Radial 3.5mm Lead Spacing&lt;/h1&gt;
+&lt;h2&gt;HE Series, PD Configuration&lt;/h2&gt;</description>
+<pad name="+" x="0" y="1.75" drill="0.7" shape="square"/>
+<pad name="-" x="0" y="-1.75" drill="0.7"/>
+<wire x1="0" y1="-1.25" x2="0" y2="-1.75" width="0.6" layer="51"/>
+<wire x1="0" y1="1.25" x2="0" y2="1.75" width="0.6" layer="51"/>
+<wire x1="-1.27" y1="0.5" x2="0" y2="0.5" width="0.127" layer="21"/>
+<wire x1="0" y1="0.5" x2="1.27" y2="0.5" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-0.6" x2="1.27" y2="-0.6" width="0.127" layer="21" curve="-100"/>
+<wire x1="0" y1="0" x2="0" y2="-1" width="0.127" layer="21"/>
+<wire x1="0" y1="1" x2="0" y2="0.5" width="0.127" layer="21"/>
+<text x="-1.905" y="0.635" size="1.27" layer="21">+</text>
+<circle x="0" y="0" radius="4" width="0.127" layer="49"/>
 </package>
 </packages>
 <symbols>
@@ -161,113 +133,54 @@ For attribution, please provide a link in any documentation or design files to t
 <pin name="+" x="0" y="2.54" visible="off" length="short" direction="in" swaplevel="1" rot="R270"/>
 <pin name="-" x="0" y="-5.08" visible="off" length="short" direction="out" swaplevel="1" rot="R90"/>
 </symbol>
-<symbol name="DIELECTRIC_CAPACITOR">
-<wire x1="-2.54" y1="0.635" x2="0" y2="0.635" width="0.254" layer="94"/>
-<wire x1="0" y1="0.635" x2="2.54" y2="0.635" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-0.635" x2="0" y2="-0.635" width="0.254" layer="94"/>
-<pin name="2" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="1" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<wire x1="0" y1="-0.635" x2="2.54" y2="-0.635" width="0.254" layer="94"/>
-<wire x1="0" y1="0.635" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="0" y2="-0.635" width="0.254" layer="94"/>
-<text x="-3.81" y="-3.81" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<text x="5.08" y="-3.81" size="1.778" layer="95" rot="R90">&gt;VALUE</text>
-</symbol>
 </symbols>
 <devicesets>
-<deviceset name="TAP*?" prefix="C" uservalue="yes">
-<description>&lt;h1&gt;Tantalum Capacitor&lt;/h1&gt;
-&lt;h2&gt;Solid Tantalum Resin Dipped Capacitors&lt;/h2&gt;
+<deviceset name="UHE*?" prefix="C" uservalue="yes">
+<description>&lt;h1&gt;Aluminum Electrolytic Capacitor&lt;/h1&gt;
+&lt;h2&gt;Miniature Sized, Low Impedance, High Reliability&lt;/h2&gt;
 &lt;h3&gt;Documentation&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="http://www.avx.com/docs/Catalogs/tap.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://nichicon-us.com/english/products/pdfs/e-he.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Ordering Information&lt;/h3&gt;
 &lt;table&gt;
 &lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;TAP106K010CCS&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/TAP106K010CCS/478-9320-ND/1471121"&gt;478-9320-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CAP TANT 10UF 10V 10% RADIAL&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;UHE1H101MPD&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/UHE1H101MPD/493-1605-ND/589346"&gt;493-1605-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CAP ALUM 100UF 50V 20% RADIAL&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
-&lt;h3&gt;General Description&lt;/h3&gt;
-&lt;p&gt;
-TAP is a professional grade device manufactured with a flame retardant coating and featuring low leakage current and impedance, very small physical sizes and exceptional temperature stability. It is designed and conditioned to operate to +125°C (see page 171 for voltage derating above 85°C) and is available loose or
-taped and reeled for auto insertion. The 15 case sizes with wide capacitance and working voltage ranges means the TAP can accommodate almost any application.
-&lt;/p&gt;</description>
+&lt;h3&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Low impedance and high reliability withstanding 4000 hours to 100000 hours&lt;/li&gt;
+&lt;li&gt;Compliant to the RoHS directive (2011/65/EU)&lt;/li&gt;
+&lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="ELECTROLYTIC_CAPACITOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="CCS" package="RADIAL-5.00MM">
+<device name="PD" package="RADIAL-3.50MM">
 <connects>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
-<technology name="106K010">
-<attribute name="CAPACITANCE" value="10uF" constant="no"/>
-<attribute name="ESR" value="5 Ohm" constant="no"/>
-<attribute name="FEATURES" value="General Purpose" constant="no"/>
-<attribute name="HEIGHT" value="0.394&quot; (10.00mm)" constant="no"/>
-<attribute name="LEAD_SPACING" value="0.197&quot; (5.00mm)" constant="no"/>
-<attribute name="LIFETIME" value="1000 Hrs @ 85C" constant="no"/>
-<attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
-<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 125C" constant="no"/>
-<attribute name="PACKAGE" value="Radial" constant="no"/>
-<attribute name="SIZE" value="0.197&quot; Dia (5.00mm)" constant="no"/>
-<attribute name="TYPE" value="Conformal Coated" constant="no"/>
-<attribute name="VOLTAGE-RATED" value="10V" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="?*" prefix="C" uservalue="yes">
-<description>&lt;h1&gt;X7R Ceramic Capacitor&lt;/h1&gt;
-&lt;h3&gt;Documentation&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="http://www.avx.com/docs/Catalogs/cx7r.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Ordering Information&lt;/h3&gt;
-&lt;table&gt;
-&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;06035C220JAT2A&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/06035C220JAT2A/478-6204-1-ND/2391403"&gt;478-6204-1-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CAP CER 22PF 50V 5% X7R 0603&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
-&lt;h3&gt;General Description&lt;/h3&gt;
-&lt;p&gt;
-X7R formulations are called “temperature stable” ceramics and fall into EIA Class II materials. X7R is the most popular of these intermediate dielectric constant materials. Its temperature variation of capacitance is within ±15% from -55°C to +125°C. This capacitance change is non-linear.
-&lt;/p&gt;
-&lt;p&gt;
-Capacitance for X7R varies under the influence of electrical operating conditions such as voltage and frequency.
-&lt;/p&gt;
-&lt;p&gt;
-X7R dielectric chip usage covers the broad spectrum of industrial applications where known changes in capacitance due to applied voltages are acceptable.
-&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="DIELECTRIC_CAPACITOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="0603" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="5C220JAT2A">
+<technology name="1H101M">
 <attribute name="APPLICATIONS" value="General Purpose" constant="no"/>
-<attribute name="CAPACITANCE" value="22pF" constant="no"/>
-<attribute name="FEATURES" value="-" constant="no"/>
-<attribute name="HEIGHT-SEATED" value="-" constant="no"/>
-<attribute name="LEAD_SPACING" value="-" constant="no"/>
-<attribute name="LEAD_STYLE" value="-" constant="no"/>
-<attribute name="MOUNTING_TYPE" value="Surface Mount, MLCC" constant="no"/>
-<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 125C" constant="no"/>
-<attribute name="PACKAGE" value="0603 (1608 Metric)" constant="no"/>
-<attribute name="RATINGS" value="-" constant="no"/>
-<attribute name="SERIES" value="-" constant="no"/>
-<attribute name="SIZE" value="0.063&quot; L x 0.032&quot; W (1.60mm x 0.81mm)" constant="no"/>
-<attribute name="TEMPERATURE_COEFFICIENT" value="X7R" constant="no"/>
-<attribute name="THICKNESS" value="0.035&quot; (0.90mm)" constant="no"/>
-<attribute name="TOLERANCE" value="5%" constant="no"/>
-<attribute name="VOLTAGE-RATED" value="50V" constant="no"/>
+<attribute name="CAPACITANCE" value="100uF" constant="no"/>
+<attribute name="ESR" value="-" constant="no"/>
+<attribute name="FAMILY" value="Aluminum Capacitors" constant="no"/>
+<attribute name="HEIGHT-SEATED" value="0.453&quot; (11.50mm)" constant="no"/>
+<attribute name="IMPEDANCE" value="150mOhm" constant="no"/>
+<attribute name="LEAD_SPACING" value="0.138&quot; (3.50mm)" constant="no"/>
+<attribute name="LIFETIME" value="7000 Hrs @ 105C" constant="no"/>
+<attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-40C ~ 105C" constant="no"/>
+<attribute name="PACKAGE" value="Radial, Can" constant="no"/>
+<attribute name="RIPPLE_CURRENT" value="555mA" constant="no"/>
+<attribute name="SERIES" value="HE" constant="no"/>
+<attribute name="SIZE" value="0.315&quot; Dia (8.00mm)" constant="no"/>
+<attribute name="SURFACE_MOUNT_LAND_SIZE" value="-" constant="no"/>
+<attribute name="TOLERANCE" value="20%" constant="no"/>
+<attribute name="TYPE" value="-" constant="no"/>
+<attribute name="VOLTAGE_RATING" value="50V" constant="no"/>
 </technology>
 </technologies>
 </device>
