@@ -82,6 +82,20 @@ For attribution, please provide a link in any documentation or design files to t
 <rectangle x1="0.75" y1="-0.9" x2="1.55" y2="0.9" layer="51" rot="R180"/>
 <wire x1="0" y1="-0.9" x2="0" y2="0.9" width="0.254" layer="21"/>
 </package>
+<package name="0402">
+<description>&lt;h1&gt;0402 (1005 Metric)&lt;/h1&gt;
+&lt;h2&gt;GRM Series, 155 Size Code&lt;/h2&gt;</description>
+<wire x1="-0.525" y1="0.275" x2="0.525" y2="0.275" width="0.127" layer="49"/>
+<wire x1="0.525" y1="-0.275" x2="-0.525" y2="-0.275" width="0.127" layer="49"/>
+<wire x1="-0.525" y1="0.275" x2="-0.525" y2="-0.275" width="0.127" layer="49"/>
+<wire x1="0.525" y1="-0.275" x2="0.525" y2="0.275" width="0.127" layer="49"/>
+<rectangle x1="-0.525" y1="-0.275" x2="-0.175" y2="0.275" layer="51"/>
+<rectangle x1="0.175" y1="-0.275" x2="0.525" y2="0.275" layer="51" rot="R180"/>
+<text x="-3.175" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<smd name="1" x="-0.55" y="0" dx="0.5" dy="0.7" layer="1"/>
+<smd name="2" x="0.55" y="0" dx="0.5" dy="0.7" layer="1" rot="R180"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CAPACITOR">
@@ -101,14 +115,11 @@ For attribution, please provide a link in any documentation or design files to t
 <deviceset name="GRM?*" prefix="C" uservalue="yes">
 <description>&lt;h1&gt;Ceramic Capacitor&lt;/h1&gt;
 &lt;h2&gt;Chip Monolithic Ceramic Capacitor for General&lt;/h2&gt;
-&lt;h3&gt;Documentation&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR61A476ME15-01.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 &lt;h3&gt;Ordering Information&lt;/h3&gt;
 &lt;table&gt;
 &lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;GRM31CR61A476ME15L&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/GRM31CR61A476ME15L/490-5528-1-ND/2334924"&gt;	490-5528-1-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CAP CER 47UF 10V 20% X5R 1206&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR61A476ME15-01.pdf"&gt;GRM31CR61A476ME15L&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/GRM31CR61A476ME15L/490-5528-1-ND/2334924"&gt;490-5528-1-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CAP CER 47UF 10V 20% X5R 1206&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H103KA88-01.pdf"&gt;GRM155R71H103KA88D&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/GRM155R71H103KA88D/490-4516-1-ND/1033275"&gt;490-4516-1-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CAP CER 10000PF 50V 10% X7R 0402&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;</description>
 <gates>
 <gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
@@ -137,6 +148,33 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="THICKNESS" value="0.071&quot; (1.80mm)" constant="no"/>
 <attribute name="TOLERANCE" value="20%" constant="no"/>
 <attribute name="VOLTAGE-RATED" value="10V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="155" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="R71H103KA88">
+<attribute name="APPLICATIONS" value="General Purpose" constant="no"/>
+<attribute name="CAPACITANCE" value="0.01uF" constant="no"/>
+<attribute name="FAMILY" value="Ceramic Capacitors" constant="no"/>
+<attribute name="FEATURES" value="-" constant="no"/>
+<attribute name="HEIGHT-SEATED" value="-" constant="no"/>
+<attribute name="LEAD_SPACING" value="-" constant="no"/>
+<attribute name="LEAD_STYLE" value="-" constant="no"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount, MLCC" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 125C" constant="no"/>
+<attribute name="PACKAGE" value="0402 (1005 Metric)" constant="no"/>
+<attribute name="RATINGS" value="-" constant="no"/>
+<attribute name="SERIES" value="GRM" constant="no"/>
+<attribute name="SIZE" value="0.039&quot; L x 0.020&quot; W (1.00mm x 0.50mm)" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="X7R" constant="no"/>
+<attribute name="THICKNESS" value="0.022&quot; (0.55mm)" constant="no"/>
+<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="VOLTAGE-RATED" value="50V" constant="no"/>
 </technology>
 </technologies>
 </device>
