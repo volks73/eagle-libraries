@@ -142,14 +142,14 @@ For attribution, please provide a link in any documentation or design files to t
 <wire x1="0.675" y1="-1.05" x2="-0.675" y2="-1.05" width="0.127" layer="49"/>
 <wire x1="-0.675" y1="1.05" x2="-0.675" y2="-1.05" width="0.127" layer="49"/>
 <wire x1="0.675" y1="-1.05" x2="0.675" y2="1.05" width="0.127" layer="49"/>
-<text x="-1.27" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="2.54" y="-3.175" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<text x="-1.905" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="3.175" y="-3.175" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 <rectangle x1="-0.675" y1="0.7" x2="0.675" y2="1.05" layer="51"/>
 <rectangle x1="-0.675" y1="-1.05" x2="0.675" y2="-0.7" layer="51" rot="R180"/>
-<text x="0.635" y="-3.175" size="1.27" layer="21" rot="R90">+</text>
-<text x="0.635" y="2.54" size="1.27" layer="21" rot="R90">-</text>
-<text x="0.635" y="-4.445" size="1.27" layer="21" rot="R90">A</text>
-<text x="0.635" y="3.81" size="1.27" layer="21" rot="R90">C</text>
+<text x="1.27" y="-2.54" size="0.8128" layer="21" rot="R90">+</text>
+<text x="1.27" y="1.905" size="0.8128" layer="21" rot="R90">-</text>
+<text x="-0.635" y="-2.54" size="0.8128" layer="21" rot="R90">A</text>
+<text x="-0.635" y="1.905" size="0.8128" layer="21" rot="R90">C</text>
 <smd name="C" x="0" y="1.05" dx="1.2" dy="1.2" layer="1"/>
 <smd name="A" x="0" y="-1.05" dx="1.2" dy="1.2" layer="1" rot="R180"/>
 </package>

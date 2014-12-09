@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -699,6 +699,7 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;a href="http://www.molex.com/pdm_docs/sd/532610471_sd.pdf"&gt;53261-0471&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/0532610471/WM7622CT-ND/699109"&gt;WM7622CT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CONN HEADER 4POS 1.25MM R/A SMD&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;a href="http://www.molex.com/pdm_docs/sd/5040500691_sd.pdf"&gt;5040500491&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/5040500491/WM10137CT-ND/4357653"&gt;WM10137CT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CONN WIRE TO BOARD RA 4POS&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href="http://www.molex.com/pdm_docs/sd/436500414_sd.pdf"&gt;0436500414&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/0436500414/WM3799CT-ND/2421872"&gt;WM3799CT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;MICROFIT 3.0 SR RA SMT GOLD 4CKT&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;</description>
 <gates>
 <gate name="G$1" symbol="4-PIN_HEADER" x="0" y="0"/>
@@ -787,6 +788,34 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="ROW_SPACING" value="-" constant="no"/>
 <attribute name="SERIES" value="Pico-Lock 504050" constant="no"/>
 <attribute name="TERMINATION" value="Solder" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="43650" package="0436500414">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name="MICRO-FIT">
+<attribute name="COLOR" value="Black" constant="no"/>
+<attribute name="CONNECTOR_TYPE" value="Header, Shrouded" constant="no"/>
+<attribute name="CONTACT_FINISH" value="Gold" constant="no"/>
+<attribute name="CONTACT_FINISH_THICKNESS" value="30uin (0.76um)" constant="no"/>
+<attribute name="CONTACT_MATING_LENGTH" value="-" constant="no"/>
+<attribute name="CONTACT_TYPE" value="Male Pin" constant="no"/>
+<attribute name="FAMILY" value="Rectangular Connectors - Headers, Male Pins" constant="no"/>
+<attribute name="FASTENING_TYPE" value="Locking Ramp" constant="no"/>
+<attribute name="FEATURES" value="Solder Retention" constant="no"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount, Right Angle" constant="no"/>
+<attribute name="NUMBER_OF_POSITIONS" value="4" constant="no"/>
+<attribute name="NUMBER_OF_POSITIONS_LOADED" value="All" constant="no"/>
+<attribute name="NUMBER_OF_ROWS" value="1" constant="no"/>
+<attribute name="PITCH" value="0.118&quot; (3.00mm)" constant="no"/>
+<attribute name="ROW_SPACING" value="-" constant="no"/>
+<attribute name="SERIES" value="Micro-Fit 3.0 43650" constant="no"/>
 </technology>
 </technologies>
 </device>
