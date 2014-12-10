@@ -84,7 +84,27 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MF-MSMF*?" prefix="F" uservalue="yes">
+<deviceset name="MF-MSMF*?" prefix="FUSE" uservalue="yes">
+<description>&lt;h1&gt;PTC Resettable Fuse&lt;/h1&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.bourns.com/data/global/pdfs/mfmsmf.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Ordering Information&lt;/h3&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;MF-MSMF075/24-2&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/MF-MSMF075%2F24-2/MF-MSMF075%2F24-2CT-ND/662844"&gt;MF-MSMF075/24-2CT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;PTC RESETTABLE .75A 24V 1812&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;h3&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Compliant with AEC-Q200 Rev-C- Stress Test Qualification for Passive Components in Automotive Applications&lt;/li&gt;
+&lt;li&gt;100% electrically compatible with all previous generations of 1812 SMT devices&lt;/li&gt;
+&lt;li&gt;Compatible with Pb and Pb-free solder reflow profiles&lt;/li&gt;
+&lt;li&gt;RoHS compliant* and halogen free**&lt;/li&gt;
+&lt;li&gt;Surface mount packaging for automated assembly&lt;/li&gt;
+&lt;li&gt;Standard 4532 mm (1812 mils) footprint&lt;/li&gt;
+&lt;li&gt;Patents pending&lt;/li&gt;
+&lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="FUSE" x="0" y="0"/>
 </gates>
