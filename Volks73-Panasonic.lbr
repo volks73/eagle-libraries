@@ -381,6 +381,36 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 </technology>
+<technology name="F2402V">
+<attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
+<attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
+<attribute name="HEIGHT" value="0.022&quot; (0.55mm)" constant="no"/>
+<attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
+<attribute name="PACKAGE" value="0603 (1608 Metric)" constant="no"/>
+<attribute name="POWER" value="0.1W, 1/10W" constant="no"/>
+<attribute name="RESISTANCE" value="24k" constant="no"/>
+<attribute name="SERIES" value="ERJ" constant="no"/>
+<attribute name="SIZE" value="0.063&quot; L x 0.031&quot; W (1.60mm x 0.80mm)" constant="no"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="0603" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+</technology>
+<technology name="F2743V">
+<attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
+<attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
+<attribute name="HEIGHT" value="0.022&quot; (0.55mm)" constant="no"/>
+<attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
+<attribute name="PACKAGE" value="0603 (1608 Metric)" constant="no"/>
+<attribute name="POWER" value="0.1W, 1/10W" constant="no"/>
+<attribute name="RESISTANCE" value="274k" constant="no"/>
+<attribute name="SERIES" value="ERJ" constant="no"/>
+<attribute name="SIZE" value="0.063&quot; L x 0.031&quot; W (1.60mm x 0.80mm)" constant="no"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="0603" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+</technology>
 <technology name="F3742V">
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
@@ -425,21 +455,6 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="0603" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="1%" constant="no"/>
-</technology>
-<technology name="YJ472V">
-<attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
-<attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
-<attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
-<attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
-<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
-<attribute name="PACKAGE" value="1206 (3216 Metric)" constant="no"/>
-<attribute name="POWER" value="0.25W, 1.4W" constant="no"/>
-<attribute name="RESISTANCE" value="4.7k" constant="no"/>
-<attribute name="SERIES" value="ERJ" constant="no"/>
-<attribute name="SIZE" value="0.126&quot; L x 0.063&quot; W (3.20mm x 1.60mm)" constant="no"/>
-<attribute name="SUPPLIER_DEVICE_PACKAGE" value="1206" constant="no"/>
-<attribute name="TEMPERATURE_COEFFICIENT" value="200ppm/C" constant="no"/>
-<attribute name="TOLERANCE" value="5%" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -577,6 +592,22 @@ For attribution, please provide a link in any documentation or design files to t
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
+<technology name="YJ122U">
+<attribute name="COMPOSITION" value="Thick Film" constant="no"/>
+<attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
+<attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
+<attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
+<attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
+<attribute name="PACKAGE" value="1210 (3225 Metric)" constant="no"/>
+<attribute name="POWER" value="0.5, 1/2W" constant="no"/>
+<attribute name="RESISTANCE" value="1.2k" constant="no"/>
+<attribute name="SERIES" value="ERJ" constant="no"/>
+<attribute name="SIZE" value="0.126&quot; L x 0.098&quot; W (3.20mm x 2.50mm)" constant="no"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="1210" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="150ppm/C" constant="no"/>
+<attribute name="TOLERANCE" value="5%" constant="no"/>
+</technology>
 <technology name="YJ155U">
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
