@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -305,6 +305,7 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;tr&gt;&lt;td&gt;ERJ8ENF1303V&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-8ENF1303V/P130KFCT-ND/89929"&gt;P130KFCT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 130K OHM 1% 1/4W 1206&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;ERJ8ENF1693V&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-8ENF1693V/P169KFCT-ND/89940"&gt;P169KFCT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 169K OHM 1% 1/4W 1206&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;ERJ14YJ155U&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-14YJ155U/P1.5MVCT-ND/282566"&gt;P1.5MVCT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 1.5M OHM 5% 1/2W 1210&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;ERJ-8ENF1504V&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-8ENF1504V/P1.50MFCT-ND/282745"&gt;P1.50MFCT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 1.5M OHM 1% 1/4W 1206&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
@@ -584,6 +585,21 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="TEMPERATURE_COEFFICIENT" value="200ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="5%" constant="no"/>
 </technology>
+<technology name="YK126V">
+<attribute name="COMPOSITION" value="Thick Film" constant="no"/>
+<attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
+<attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
+<attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
+<attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
+<attribute name="PACKAGE" value="1206 (3216 Metric)" constant="no"/>
+<attribute name="POWER" value="0.25W, 1/4W" constant="no"/>
+<attribute name="RESISTANCE" value="12M" constant="no"/>
+<attribute name="SERIES" value="ERJ" constant="no"/>
+<attribute name="SIZE" value="0.126&quot; L x 0.063&quot; W (3.20mm x 1.60mm)" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="-400/+150ppm/C" constant="no"/>
+<attribute name="TOLERANCE" value="10%" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="14" package="1210">
@@ -623,6 +639,31 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="1210" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="150ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="5%" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="8EN" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="F1504V">
+<attribute name="CATEGORY" value="Resistors" constant="no"/>
+<attribute name="COMPOSITION" value="Thick Film" constant="no"/>
+<attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
+<attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
+<attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
+<attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
+<attribute name="PACKAGE" value="1206 (3216 Metric)" constant="no"/>
+<attribute name="POWER" value="0.25W, 1/4W" constant="no"/>
+<attribute name="RESISTANCE" value="1.5M" constant="no"/>
+<attribute name="SERIES" value="ERJ" constant="no"/>
+<attribute name="SIZE" value="0.126&quot; L x 0.063&quot; W (3.20mm x 1.60mm)" constant="no"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="1206" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
 </technology>
 </technologies>
 </device>
