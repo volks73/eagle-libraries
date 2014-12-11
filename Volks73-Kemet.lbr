@@ -165,6 +165,37 @@ For attribution, please provide a link in any documentation or design files to t
 <wire x1="-3.5" y1="-1.5" x2="-3.5" y2="-2.5" width="0.127" layer="21"/>
 <wire x1="3.5" y1="-1.5" x2="3.5" y2="-2.5" width="0.127" layer="21"/>
 </package>
+<package name="RADIAL-SMD">
+<description>&lt;h1&gt;Radial, Can - Surface Mount Device&lt;/h1&gt;
+&lt;h2&gt;EDK Series, 9M Size Code&lt;/h2&gt;</description>
+<smd name="C" x="-3.25" y="0" dx="3.6" dy="1.1" layer="1"/>
+<smd name="A" x="3.25" y="0" dx="3.6" dy="1.1" layer="1" rot="R180"/>
+<wire x1="-4.15" y1="-4.15" x2="2.54" y2="-4.15" width="0.127" layer="49"/>
+<wire x1="2.54" y1="4.15" x2="-4.15" y2="4.15" width="0.127" layer="49"/>
+<wire x1="-4.15" y1="4.15" x2="-4.15" y2="-4.15" width="0.127" layer="49"/>
+<wire x1="4.15" y1="-2.54" x2="4.15" y2="2.54" width="0.127" layer="49"/>
+<wire x1="2.54" y1="-4.15" x2="4.15" y2="-2.54" width="0.127" layer="49"/>
+<wire x1="4.15" y1="2.54" x2="2.54" y2="4.15" width="0.127" layer="49"/>
+<circle x="0" y="0" radius="4" width="0.127" layer="49"/>
+<wire x1="-4.15" y1="4.15" x2="-4.15" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-4.15" y1="4.15" x2="2.54" y2="4.15" width="0.127" layer="21"/>
+<wire x1="2.54" y1="4.15" x2="4.15" y2="2.54" width="0.127" layer="21"/>
+<wire x1="4.15" y1="2.54" x2="4.15" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-4.15" y1="1.27" x2="4.15" y2="1.27" width="0.127" layer="21" curve="-135"/>
+<wire x1="-4.15" y1="-4.15" x2="2.54" y2="-4.15" width="0.127" layer="21"/>
+<wire x1="4.15" y1="-2.54" x2="2.54" y2="-4.15" width="0.127" layer="21"/>
+<wire x1="4.15" y1="-1.27" x2="4.15" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-4.15" y1="-4.15" x2="-4.15" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="4.15" y1="-1.27" x2="-4.15" y2="-1.27" width="0.127" layer="21" curve="-135"/>
+<text x="-5.715" y="-2.54" size="1.27" layer="21">-</text>
+<text x="-5.715" y="1.905" size="1.27" layer="21">C</text>
+<text x="5.08" y="1.905" size="1.27" layer="21">A</text>
+<text x="5.08" y="-2.54" size="1.27" layer="21">+</text>
+<text x="-3.175" y="4.445" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-5.715" size="1.27" layer="27">&gt;Value</text>
+<rectangle x1="-5" y1="-0.45" x2="-1.6" y2="0.45" layer="51"/>
+<rectangle x1="1.6" y1="-0.45" x2="5" y2="0.45" layer="51" rot="R180"/>
+</package>
 </packages>
 <symbols>
 <symbol name="DIELECTRIC_CAPACITOR">
@@ -322,6 +353,66 @@ as MSL (Moisture Sensitivity Level) 1 under J STD 020: unlimited flor life time 
 <attribute name="TOLERANCE" value="10%" constant="no"/>
 <attribute name="TYPE" value="Molded" constant="no"/>
 <attribute name="VOLTAGE-RATED" value="25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="EDK*?AA" prefix="C" uservalue="yes">
+<description>&lt;h1&gt;Surface Mount Aluminum Electrolytic Capacitors&lt;/h1&gt;
+&lt;h2&gt;EDK Series, +85&lt;sup&gt;o&lt;/sup&gt;C&lt;/h2&gt;
+&lt;h2&gt;&lt;/h2&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.kemet.com/Lists/ProductCatalog/Attachments/273/KEM_A4001_EDK.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Ordering information&lt;/h3&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;EDK107M050A9MAA&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/EDK107M050A9MAA/399-6672-1-ND/3082804"&gt;99-6672-1-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CAP ALUM 100UF 50V 20% SMD&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;h3&gt;Overview&lt;/h3&gt;
+&lt;p&gt;
+KEMET's EDK Series of aluminum electrolytic surface mount capacitors are designed for high density printed circuit boards.
+&lt;/p&gt;
+&lt;h3&gt;Applications&lt;/h3&gt;
+&lt;p&gt;
+Typical applications include coupling, decoupling, bypass, and fitering.
+&lt;/p&gt;
+&lt;h3&gt;Benefits&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Surface mount lead terminals&lt;/li&gt;
+&lt;li&gt;Low profile vertical chip&lt;/li&gt;
+&lt;li&gt;General purpose +85&lt;sup&gt;o&lt;/sup&gt;C/2,000 hours&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="ELECTROLYTIC_CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="9M" package="RADIAL-SMD">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="107M050A">
+<attribute name="APPLICATIONS" value="General Purpose" constant="no"/>
+<attribute name="CAPACITANCE" value="100uF" constant="no"/>
+<attribute name="CATEGORY" value="Capacitors" constant="no"/>
+<attribute name="ESR" value="-" constant="no"/>
+<attribute name="FAMILY" value="Aluminum Capacitors" constant="no"/>
+<attribute name="HEIGHT-SEATED" value="0.413&quot; (10.50mm)" constant="no"/>
+<attribute name="LEAD_SPACING" value="-" constant="no"/>
+<attribute name="LIFETIME" value="2000 Hrs @ 85C" constant="no"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount" constant="no"/>
+<attribute name="PACKAGE" value="Radial, Can - SMD" constant="no"/>
+<attribute name="RIPPLE_CURRENT" value="165mA" constant="no"/>
+<attribute name="SERIES" value="EDK" constant="no"/>
+<attribute name="SIZE" value="0.315&quot; Dia (8.00mm)" constant="no"/>
+<attribute name="SURFACE_MOUNT_LAND_SIZE" value="0.327&quot; L x 0.394&quot; W (8.30mm x 10.00mm)" constant="no"/>
+<attribute name="TOLERANCE" value="20%" constant="no"/>
+<attribute name="TYPE" value="-" constant="no"/>
+<attribute name="VOLTAGE_RATING" value="50V" constant="no"/>
 </technology>
 </technologies>
 </device>
