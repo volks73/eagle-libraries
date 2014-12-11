@@ -309,6 +309,7 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;tr&gt;&lt;td&gt;ERJ-3EKF2053V&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-3EKF2053V/P205KHCT-ND/198243"&gt;P205KHCT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 205K OHM 1% 1/10W 0603&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;ERJ-3EKF9532V&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-3EKF9532V/P95.3KHCT-ND/198554"&gt;P95.3KHCT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 95.3K OHM 1% 1/10W 0603&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;ERJ-3GEYJ435V&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-3GEYJ435V/P4.3MGCT-ND/282436"&gt;P4.3MGCT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 4.3M OHM 5% 1/10W 0603&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;ERJ-3EKF9102V&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-3EKF9102V/P91.0KHCT-ND/1746813"&gt;P91.0KHCT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 91K OHM 1% 1/10W 0603&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
@@ -469,6 +470,21 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="PACKAGE" value="0603 (1608 Metric)" constant="no"/>
 <attribute name="POWER" value="0.1W, 1/10W" constant="no"/>
 <attribute name="RESISTANCE" value="665k" constant="no"/>
+<attribute name="SERIES" value="ERJ" constant="no"/>
+<attribute name="SIZE" value="0.063&quot; L x 0.031&quot; W (1.60mm x 0.80mm)" constant="no"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="0603" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+</technology>
+<technology name="F9102V">
+<attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
+<attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
+<attribute name="HEIGHT" value="0.022&quot; (0.55mm)" constant="no"/>
+<attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
+<attribute name="PACKAGE" value="0603 (1608 Metric)" constant="no"/>
+<attribute name="POWER" value="0.1W, 1/10W" constant="no"/>
+<attribute name="RESISTANCE" value="91k" constant="no"/>
 <attribute name="SERIES" value="ERJ" constant="no"/>
 <attribute name="SIZE" value="0.063&quot; L x 0.031&quot; W (1.60mm x 0.80mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="0603" constant="no"/>
