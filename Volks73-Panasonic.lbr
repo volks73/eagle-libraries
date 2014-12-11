@@ -311,6 +311,7 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;tr&gt;&lt;td&gt;ERJ-3GEYJ435V&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-3GEYJ435V/P4.3MGCT-ND/282436"&gt;P4.3MGCT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 4.3M OHM 5% 1/10W 0603&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;ERJ-3EKF9102V&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-3EKF9102V/P91.0KHCT-ND/1746813"&gt;P91.0KHCT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 91K OHM 1% 1/10W 0603&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;ERJ-3EKF2103V&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-3EKF2103V/P210KHCT-ND/198249"&gt;P210KHCT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 210K OHM 1% 1/10W 0603&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;ERJ-14NF1271U&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-search/en?pv1=55&amp;pv2=5&amp;FV=fff40001%2Cfff800e9%2Cfffc000a%2Cc0001%2C1c0002&amp;k=Resistors&amp;mnonly=0&amp;newproducts=0&amp;ColumnSort=0&amp;page=1&amp;stock=1&amp;quantity=0&amp;ptm=0&amp;fid=0&amp;pageSize=50"&gt;P1.27KAACT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 1.27K OHM 1% 1/2W 1210&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
@@ -673,6 +674,22 @@ For attribution, please provide a link in any documentation or design files to t
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
+<technology name="NF1271U">
+<attribute name="COMPOSITION" value="Thick Film" constant="no"/>
+<attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
+<attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
+<attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
+<attribute name="NUMBER_OF_TERMINATIONS" value="" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
+<attribute name="PACKAGE" value="1210 (3225 Metric)" constant="no"/>
+<attribute name="POWER" value="0.5, 1/2W" constant="no"/>
+<attribute name="RESISTANCE" value="1.27k" constant="no"/>
+<attribute name="SERIES" value="ERJ" constant="no"/>
+<attribute name="SIZE" value="0.126&quot; L x 0.098&quot; W (3.20mm x 2.50mm)" constant="no"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="1210" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+</technology>
 <technology name="YJ122U">
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
