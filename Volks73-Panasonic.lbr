@@ -306,6 +306,9 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;tr&gt;&lt;td&gt;ERJ8ENF1693V&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-8ENF1693V/P169KFCT-ND/89940"&gt;P169KFCT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 169K OHM 1% 1/4W 1206&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;ERJ14YJ155U&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-14YJ155U/P1.5MVCT-ND/282566"&gt;P1.5MVCT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 1.5M OHM 5% 1/2W 1210&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;ERJ-8ENF1504V&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-8ENF1504V/P1.50MFCT-ND/282745"&gt;P1.50MFCT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 1.5M OHM 1% 1/4W 1206&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;ERJ-3EKF2053V&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-3EKF2053V/P205KHCT-ND/198243"&gt;P205KHCT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 205K OHM 1% 1/10W 0603&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;ERJ-3EKF9532V&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-3EKF9532V/P95.3KHCT-ND/198554"&gt;P95.3KHCT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 95.3K OHM 1% 1/10W 0603&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;ERJ-3GEYJ435V&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-3GEYJ435V/P4.3MGCT-ND/282436"&gt;P4.3MGCT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 4.3M OHM 5% 1/10W 0603&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
@@ -382,6 +385,21 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 </technology>
+<technology name="F2053V">
+<attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
+<attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
+<attribute name="HEIGHT" value="0.022&quot; (0.55mm)" constant="no"/>
+<attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
+<attribute name="PACKAGE" value="0603 (1608 Metric)" constant="no"/>
+<attribute name="POWER" value="0.1W, 1/10W" constant="no"/>
+<attribute name="RESISTANCE" value="205k" constant="no"/>
+<attribute name="SERIES" value="ERJ" constant="no"/>
+<attribute name="SIZE" value="0.063&quot; L x 0.031&quot; W (1.60mm x 0.80mm)" constant="no"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="0603" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+</technology>
 <technology name="F2402V">
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
@@ -451,6 +469,21 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="PACKAGE" value="0603 (1608 Metric)" constant="no"/>
 <attribute name="POWER" value="0.1W, 1/10W" constant="no"/>
 <attribute name="RESISTANCE" value="665k" constant="no"/>
+<attribute name="SERIES" value="ERJ" constant="no"/>
+<attribute name="SIZE" value="0.063&quot; L x 0.031&quot; W (1.60mm x 0.80mm)" constant="no"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="0603" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+</technology>
+<technology name="F9532V">
+<attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
+<attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
+<attribute name="HEIGHT" value="0.022&quot; (0.55mm)" constant="no"/>
+<attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
+<attribute name="PACKAGE" value="0603 (1608 Metric)" constant="no"/>
+<attribute name="POWER" value="0.1W, 1/10W" constant="no"/>
+<attribute name="RESISTANCE" value="95.3k" constant="no"/>
 <attribute name="SERIES" value="ERJ" constant="no"/>
 <attribute name="SIZE" value="0.063&quot; L x 0.031&quot; W (1.60mm x 0.80mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="0603" constant="no"/>
@@ -664,6 +697,31 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="1206" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="1%" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="3GE" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="YJ435V">
+<attribute name="CATEGORY" value="Resistors" constant="no"/>
+<attribute name="COMPOSITION" value="Thick Film" constant="no"/>
+<attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
+<attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
+<attribute name="HEIGHT" value="0.022&quot; (0.55mm)" constant="no"/>
+<attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
+<attribute name="PACKAGE" value="0603 (1608 Metric)" constant="no"/>
+<attribute name="POWER" value="0.1, 1/10W" constant="no"/>
+<attribute name="RESISTANCE" value="4.3M" constant="no"/>
+<attribute name="SERIES" value="ERJ" constant="no"/>
+<attribute name="SIZE" value="0.063&quot; L x 0.031&quot; W (1.60mm x 0.80mm)" constant="no"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="0603" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="-400/+150ppm/C" constant="no"/>
+<attribute name="TOLERANCE" value="5%" constant="no"/>
 </technology>
 </technologies>
 </device>
