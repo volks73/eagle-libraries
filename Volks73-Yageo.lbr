@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -139,8 +139,8 @@ For attribution, please provide a link in any documentation or design files to t
 <package name="50">
 <description>&lt;h1&gt;Axial 0.500" Spacing&lt;/h1&gt;
 &lt;h2&gt;CFR Series 50 size code&lt;/h2&gt;</description>
-<pad name="2" x="0" y="6.35" drill="1"/>
-<pad name="1" x="0" y="-6.35" drill="1"/>
+<pad name="2" x="0" y="5.715" drill="0.7"/>
+<pad name="1" x="0" y="-5.715" drill="0.7"/>
 <wire x1="0" y1="1.905" x2="0" y2="4.42" width="0.127" layer="21"/>
 <wire x1="0" y1="-4.318" x2="0" y2="-1.905" width="0.127" layer="21"/>
 <text x="-2.54" y="-3.175" size="1.27" layer="25" rot="R90">&gt;NAME</text>
@@ -155,8 +155,8 @@ For attribution, please provide a link in any documentation or design files to t
 <wire x1="-1.83" y1="-4.75" x2="1.83" y2="-4.75" width="0.127" layer="49"/>
 <wire x1="-1.83" y1="4.75" x2="-1.83" y2="-4.75" width="0.127" layer="49"/>
 <wire x1="1.83" y1="4.75" x2="1.83" y2="-4.75" width="0.127" layer="49"/>
-<wire x1="0" y1="4.75" x2="0" y2="6.35" width="0.85" layer="51"/>
-<wire x1="0" y1="-6.35" x2="0" y2="-4.75" width="0.85" layer="51"/>
+<wire x1="0" y1="4.75" x2="0" y2="5.715" width="0.5842" layer="51"/>
+<wire x1="0" y1="-5.715" x2="0" y2="-4.75" width="0.5842" layer="51"/>
 </package>
 </packages>
 <symbols>
