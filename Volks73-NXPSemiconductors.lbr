@@ -83,12 +83,9 @@ For attribution, please provide a link in any documentation or design files to t
 <smd name="7" x="3.0734" y="0.635" dx="1.27" dy="0.635" layer="1"/>
 <smd name="8" x="3.0734" y="1.905" dx="1.27" dy="0.635" layer="1"/>
 <wire x1="-2.032" y1="-2.54" x2="-2.032" y2="2.54" width="0.127" layer="21"/>
-<wire x1="-2.032" y1="2.54" x2="-1.27" y2="2.54" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="2.54" x2="2.032" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-2.032" y1="2.54" x2="2.032" y2="2.54" width="0.127" layer="21"/>
 <wire x1="2.032" y1="2.54" x2="2.032" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="2.032" y1="-2.54" x2="-1.27" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="-2.54" x2="-2.032" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="2.54" x2="-1.27" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="2.032" y1="-2.54" x2="-2.032" y2="-2.54" width="0.127" layer="21"/>
 <text x="-2.54" y="3.175" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.175" y="-4.445" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="2.032" y1="1.6637" x2="3.0734" y2="2.1463" layer="51"/>
@@ -102,6 +99,7 @@ For attribution, please provide a link in any documentation or design files to t
 <rectangle x1="-3.0734" y1="0.3937" x2="-2.032" y2="0.8763" layer="51"/>
 <rectangle x1="-3.0734" y1="-0.8763" x2="-2.032" y2="-0.3937" layer="51"/>
 <rectangle x1="-3.0734" y1="-2.1463" x2="-2.032" y2="-1.6637" layer="51"/>
+<circle x="-1.27" y="1.905" radius="0.3175" width="0.127" layer="21"/>
 </package>
 <package name="SOT-143B">
 <description>&lt;h1&gt;Small-Outline Transistor (SOT) 143B&lt;/h1&gt;</description>
