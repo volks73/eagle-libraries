@@ -82,6 +82,34 @@ For attribution, please provide a link in any documentation or design files to t
 <rectangle x1="1.885" y1="-1.705" x2="2.185" y2="1.705" layer="51"/>
 <rectangle x1="-2.185" y1="-1.705" x2="-1.885" y2="1.705" layer="51"/>
 </package>
+<package name="W">
+<description>&lt;h1&gt;3/8" Squre Trim Pot&lt;/h1&gt;
+&lt;h2&gt;Rectangular, Through Hole, Top Adjustment, "W" Size Code for 3296&lt;/h2&gt;</description>
+<pad name="1" x="0" y="-2.54" drill="0.8" shape="square"/>
+<pad name="2" x="0" y="0" drill="0.8"/>
+<pad name="3" x="0" y="2.54" drill="0.8"/>
+<wire x1="-1.27" y1="-3.81" x2="-1.27" y2="3.81" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="3.81" x2="2.413" y2="3.81" width="0.127" layer="21"/>
+<wire x1="2.413" y1="3.81" x2="2.413" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="2.413" y1="-3.81" x2="-1.27" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="3.81" x2="-2.413" y2="3.81" width="0.127" layer="21"/>
+<wire x1="-2.413" y1="3.81" x2="-2.413" y2="4.445" width="0.127" layer="21"/>
+<wire x1="-2.413" y1="4.445" x2="2.413" y2="4.445" width="0.127" layer="21"/>
+<wire x1="2.413" y1="4.445" x2="2.413" y2="3.81" width="0.127" layer="21"/>
+<wire x1="2.413" y1="-3.81" x2="2.413" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="2.413" y1="-4.445" x2="-2.413" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="-2.413" y1="-4.445" x2="-2.413" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-2.413" y1="-3.81" x2="-1.27" y2="-3.81" width="0.127" layer="21"/>
+<text x="-2.54" y="5.08" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.175" y="-6.35" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="0" y="0" radius="0.2667" width="0.127" layer="51"/>
+<circle x="0" y="2.54" radius="0.2667" width="0.127" layer="51"/>
+<circle x="0" y="-2.54" radius="0.2667" width="0.127" layer="51"/>
+<wire x1="-2.413" y1="4.7625" x2="2.54" y2="4.7625" width="0.127" layer="49"/>
+<wire x1="2.54" y1="4.7625" x2="2.54" y2="-4.7625" width="0.127" layer="49"/>
+<wire x1="2.54" y1="-4.7625" x2="-2.413" y2="-4.7625" width="0.127" layer="49"/>
+<wire x1="-2.413" y1="4.7625" x2="-2.413" y2="-4.7625" width="0.127" layer="49"/>
+</package>
 </packages>
 <symbols>
 <symbol name="FUSE">
@@ -91,6 +119,31 @@ For attribution, please provide a link in any documentation or design files to t
 <wire x1="0" y1="7.62" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
 <text x="-5.08" y="-5.08" size="1.778" layer="95" rot="R90">&gt;NAME</text>
 <text x="7.62" y="-5.08" size="1.778" layer="95" rot="R90">&gt;VALUE</text>
+</symbol>
+<symbol name="POT">
+<pin name="1" x="-12.7" y="0" visible="pad" length="middle" direction="pas"/>
+<pin name="3" x="12.7" y="0" visible="pad" length="middle" direction="pas" rot="R180"/>
+<wire x1="7.62" y1="0" x2="6.35" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="6.35" y1="-1.27" x2="5.08" y2="1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.27" x2="3.81" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-1.27" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="0" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-1.27" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="-3.81" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-1.27" x2="-5.08" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="1.27" x2="-6.35" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="-1.27" x2="-7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="2.54" x2="0" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="5.08" width="0.254" layer="94"/>
+<pin name="2" x="0" y="10.16" visible="pad" length="middle" direction="pas" rot="R270"/>
+<text x="7.62" y="1.27" size="1.778" layer="97">CW</text>
+<text x="-10.16" y="1.27" size="1.778" layer="97">CCW</text>
+<text x="1.27" y="6.35" size="1.778" layer="97">WIPER</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -135,6 +188,59 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SERIES" value="MF-MSMF" constant="no"/>
 <attribute name="TIME_TO_TRIP" value="0.2s" constant="no"/>
 <attribute name="VOLTAGE-MAX" value="24V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="3296?-*" prefix="VR" uservalue="yes">
+<description>&lt;h1&gt;Trim Potentiometer (Pot)&lt;/h1&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=http://www.bourns.com/data/global/pdfs/3296.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Ordering Information&lt;/h3&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;3296W-1-103LF&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/3296W-1-103LF/3296W-103LF-ND/1088045"&gt;3296W-103LF-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;TRIMMER 10K OHM 0.5W PC PIN&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;h3&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Multiturn/Cermet/Industrial/Sealed&lt;/li&gt;
+&lt;li&gt;5 terminal styles&lt;/li&gt;
+&lt;li&gt;Tape and reel packaging&lt;/li&gt;
+&lt;li&gt;Chevron seal design&lt;/li&gt;
+&lt;li&gt;Listed on the QPL for style RJ24 per MIL-R_22097 and RJR24 per High-Rel Mil-R-39035&lt;/li&gt;
+&lt;li&gt;Mounting hardware available (H-117P)&lt;/li&gt;
+&lt;li&gt;RoHS compliant* version available&lt;/li&gt;
+&lt;li&gt;For trimmer applications/processing guidelines, &lt;a href="http://www.bourns.com/data/global/pdfs/ap_proc.pdf"&gt;click here&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="POT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="W" package="W">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name="1-103LF">
+<attribute name="ADJUSTMENT_TYPE" value="Tope Adjustment" constant="no"/>
+<attribute name="CATEGORY" value="Potentiometers, Variable Resistors" constant="no"/>
+<attribute name="FAMILY" value="Trimmer Potentiometers" constant="no"/>
+<attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
+<attribute name="NUMBER_OF_TURNS" value="25" constant="no"/>
+<attribute name="POWER" value="0.5W, 1/2W" constant="no"/>
+<attribute name="RESISTANCE" value="10k" constant="no"/>
+<attribute name="RESISTIVE_MATERIAL" value="Cermet" constant="no"/>
+<attribute name="SERIES" value="Trimpt 3296 - Sealed" constant="no"/>
+<attribute name="SIZE" value="Rectangular - 0.375&quot; x 0.190&quot; Face x 0.395&quot; H (9.53mm x 4.83mm x 10.03mm)" constant="no"/>
+<attribute name="STANDARD_PACKAGE" value="50" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
+<attribute name="TERMINATION_STYLE" value="PC Pin" constant="no"/>
+<attribute name="TOLERANCE" value="10%" constant="no"/>
 </technology>
 </technologies>
 </device>
