@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.2.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="13" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;h1&gt;Volks73's Library for ECS, Inc. Parts&lt;/h1&gt;</description>
+<packages>
+<package name="HC49">
+<description>&lt;h1&gt;5.00MM Pitch Through Hole&lt;/h1&gt;
+&lt;h2&gt;4X size code&lt;/h2&gt;</description>
+<pad name="1" x="-2.44" y="0" drill="0.8"/>
+<pad name="2" x="2.44" y="0" drill="0.8"/>
+<wire x1="-5.25" y1="-0.635" x2="-5.25" y2="0.635" width="0.127" layer="21"/>
+<wire x1="5.25" y1="-0.635" x2="5.25" y2="0.635" width="0.127" layer="21"/>
+<wire x1="-3.77" y1="1.905" x2="3.77" y2="1.905" width="0.127" layer="21"/>
+<wire x1="-3.77" y1="-1.905" x2="3.77" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="-5.25" y1="0.635" x2="-3.77" y2="1.905" width="0.127" layer="21" curve="-90"/>
+<wire x1="3.77" y1="1.905" x2="5.25" y2="0.635" width="0.127" layer="21" curve="-90"/>
+<wire x1="5.25" y1="-0.635" x2="3.77" y2="-1.905" width="0.127" layer="21" curve="-90"/>
+<wire x1="-3.77" y1="-1.905" x2="-5.25" y2="-0.635" width="0.127" layer="21" curve="-90"/>
+<wire x1="-4.405" y1="2.325" x2="4.405" y2="2.325" width="0.127" layer="49"/>
+<wire x1="4.405" y1="-2.325" x2="-4.405" y2="-2.325" width="0.127" layer="49"/>
+<wire x1="-5.675" y1="1.27" x2="-5.675" y2="-1.27" width="0.127" layer="49"/>
+<wire x1="5.675" y1="-1.27" x2="5.675" y2="1.27" width="0.127" layer="49"/>
+<wire x1="-5.675" y1="1.27" x2="-4.445" y2="2.325" width="0.127" layer="49" curve="-90"/>
+<wire x1="5.675" y1="-1.27" x2="4.445" y2="-2.325" width="0.127" layer="49" curve="-90"/>
+<wire x1="4.405" y1="2.325" x2="5.675" y2="1.27" width="0.127" layer="49" curve="-90"/>
+<wire x1="-4.405" y1="-2.325" x2="-5.675" y2="-1.27" width="0.127" layer="49" curve="-90"/>
+<circle x="-2.44" y="0" radius="0.215" width="0.127" layer="51"/>
+<circle x="2.44" y="0" radius="0.215" width="0.127" layer="51"/>
+<text x="-2.54" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.175" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="CRYSTAL_OSCILLATOR">
+<pin name="1" x="-7.62" y="0" visible="off" length="middle" direction="pas"/>
+<pin name="2" x="7.62" y="0" visible="off" length="middle" direction="pas" rot="R180"/>
+<wire x1="-1.27" y1="3.81" x2="1.27" y2="3.81" width="0.254" layer="94"/>
+<wire x1="1.27" y1="3.81" x2="1.27" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-3.81" x2="-1.27" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-3.81" x2="-1.27" y2="3.81" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-3.81" x2="2.54" y2="4.064" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="3.81" x2="-2.54" y2="-3.81" width="0.254" layer="94"/>
+<text x="-3.81" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-6.096" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ECS-*-?" prefix="G" uservalue="yes">
+<description>&lt;h1&gt;Quartz Crystal Oscillator&lt;/h1&gt;
+&lt;h2&gt;Low Profile Resitance Weld Type Thru Hole Quartz Crystal&lt;/h2&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=http://www.ecsxtal.com/store/pdf/hc-49usx.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Ordering Information&lt;/h3&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;tdECS-160-20-4X&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ECS-160-20-4X/X1103-ND/827594"&gt;X1103-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CRYSTAL 16MHZ 20PF THRU&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;h3&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Cost Effective&lt;/li&gt;
+&lt;li&gt;Low Profile&lt;/li&gt;
+&lt;li&gt;Pb Free/RoHS Compliant&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="CRYSTAL_OSCILLATOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="4X" package="HC49">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="160-20">
+<attribute name="CATEGORY" value="Crystals and Oscillators" constant="no"/>
+<attribute name="ESR" value="40 Ohm" constant="no"/>
+<attribute name="FAMILY" value="Crystals" constant="no"/>
+<attribute name="FREQUENCY" value="16MHz" constant="no"/>
+<attribute name="FREQUENCY_STABILITY" value="50ppm" constant="no"/>
+<attribute name="FREQUENCY_TOLERANCE" value="30ppm" constant="no"/>
+<attribute name="HEIGHT" value="0.138&quot; (3.50mm)" constant="no"/>
+<attribute name="LOAD_CAPACITANCE" value="20pF" constant="no"/>
+<attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
+<attribute name="OPERATING_MODE" value="Fundamental" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-10C ~ 70C" constant="no"/>
+<attribute name="PACKAGE" value="HC49/US" constant="no"/>
+<attribute name="RATINGS" value="-" constant="no"/>
+<attribute name="SERIES" value="HC-49USX" constant="no"/>
+<attribute name="SIZE" value="0.447&quot; L x 0.183&quot; W (11.35mm x 4.65mm)" constant="no"/>
+<attribute name="STANDARD_PACKAGE" value="200" constant="no"/>
+<attribute name="TYPE" value="MHz Crystal" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
