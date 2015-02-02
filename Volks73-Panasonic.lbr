@@ -196,6 +196,20 @@ For attribution, please provide a link in any documentation or design files to t
 <smd name="1" x="-1.85" y="0" dx="1.3" dy="2.8" layer="1"/>
 <smd name="2" x="1.85" y="0" dx="1.3" dy="2.8" layer="1" rot="R180"/>
 </package>
+<package name="0805">
+<description>&lt;h1&gt;0805 (2012 Metric)&lt;/h1&gt;
+&lt;h2&gt;ERJ Series, P06 Size Code&lt;/h2&gt;</description>
+<smd name="1" x="-1.2" y="0" dx="1.4" dy="1.4" layer="1"/>
+<smd name="2" x="1.2" y="0" dx="1.4" dy="1.4" layer="1" rot="R180"/>
+<text x="-3.175" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-2.54" size="1.27" layer="25">&gt;VALUE</text>
+<wire x1="-1.1" y1="0.675" x2="1.1" y2="0.675" width="0.127" layer="49"/>
+<wire x1="1.1" y1="-0.675" x2="-1.1" y2="-0.675" width="0.127" layer="49"/>
+<wire x1="-1.1" y1="0.675" x2="-1.1" y2="-0.675" width="0.127" layer="49"/>
+<wire x1="1.1" y1="-0.675" x2="1.1" y2="0.675" width="0.127" layer="49"/>
+<rectangle x1="-1.1" y1="-0.635" x2="-0.85" y2="0.635" layer="51"/>
+<rectangle x1="0.85" y1="-0.635" x2="1.1" y2="0.635" layer="51" rot="R180"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LED">
@@ -312,6 +326,7 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;tr&gt;&lt;td&gt;ERJ-3EKF9102V&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-3EKF9102V/P91.0KHCT-ND/1746813"&gt;P91.0KHCT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 91K OHM 1% 1/10W 0603&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;ERJ-3EKF2103V&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-3EKF2103V/P210KHCT-ND/198249"&gt;P210KHCT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 210K OHM 1% 1/10W 0603&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;ERJ-14NF1271U&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-search/en?pv1=55&amp;pv2=5&amp;FV=fff40001%2Cfff800e9%2Cfffc000a%2Cc0001%2C1c0002&amp;k=Resistors&amp;mnonly=0&amp;newproducts=0&amp;ColumnSort=0&amp;page=1&amp;stock=1&amp;quantity=0&amp;ptm=0&amp;fid=0&amp;pageSize=50"&gt;P1.27KAACT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 1.27K OHM 1% 1/2W 1210&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;ERJ-P06F2401V&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-P06F2401V/P16067CT-ND/3982414"&gt;P16067CT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 2.4K OHM 1% 1/2W 0805&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
@@ -771,6 +786,31 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="0603" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="-400/+150ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="5%" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="P06" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="F2401V">
+<attribute name="CATEGORY" value="Resistors" constant="no"/>
+<attribute name="COMPOSITION" value="Thick Film" constant="no"/>
+<attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
+<attribute name="FEATURES" value="Automotive AEC-Q200, Pulse Withstanding" constant="no"/>
+<attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
+<attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
+<attribute name="PACKAGE" value="0805 (2012 Metric)" constant="no"/>
+<attribute name="POWER" value="0.5W, 1/2W" constant="no"/>
+<attribute name="RESISTANCE" value="2.4k" constant="no"/>
+<attribute name="SERIES" value="ERJ" constant="no"/>
+<attribute name="SIZE" value="0.079&quot; L x 0.049&quot; W (2.00mm x 1.25mm)" constant="no"/>
+<attribute name="STANDARD_PACKAGE" value="1" constant="no"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="0805" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
 </technology>
 </technologies>
 </device>
