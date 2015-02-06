@@ -150,13 +150,16 @@ For attribution, please provide a link in any documentation or design files to t
 <technology name="R61A476ME15L">
 <attribute name="APPLICATIONS" value="General Purpose" constant="no"/>
 <attribute name="CAPACITANCE" value="47uF" constant="no"/>
+<attribute name="DESCRIPTION" value="CAP CER 47UF 10V 20% X5R 1206" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="HEIGHT-SEATED" value="-" constant="no"/>
 <attribute name="LEAD_SPACING" value="-" constant="no"/>
 <attribute name="LEAD_STYLE" value="-" constant="no"/>
+<attribute name="MANUFACTURER" value="Murata Electronics North America" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Surface Mount, MLCC" constant="no"/>
 <attribute name="OPERATING_TEMPERATURE" value="-55C ~ 85C" constant="no"/>
 <attribute name="PACKAGE" value="1206 (3216 Metric)" constant="no"/>
+<attribute name="PART_NUMBER" value="GRM31CR61A476ME15L" constant="no"/>
 <attribute name="RATINGS" value="-" constant="no"/>
 <attribute name="SERIES" value="GRM" constant="no"/>
 <attribute name="SIZE" value="0.126&quot; L x 0.063&quot; W (3.20mm x 1.60mm)" constant="no"/>
@@ -176,14 +179,17 @@ For attribution, please provide a link in any documentation or design files to t
 <technology name="R71H103KA88">
 <attribute name="APPLICATIONS" value="General Purpose" constant="no"/>
 <attribute name="CAPACITANCE" value="0.01uF" constant="no"/>
+<attribute name="DESCRIPTION" value="CAP CER 10000PF 50V 10% X7R 0402" constant="no"/>
 <attribute name="FAMILY" value="Ceramic Capacitors" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="HEIGHT-SEATED" value="-" constant="no"/>
 <attribute name="LEAD_SPACING" value="-" constant="no"/>
 <attribute name="LEAD_STYLE" value="-" constant="no"/>
+<attribute name="MANUFACTURER" value="Murata Electronics North America" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Surface Mount, MLCC" constant="no"/>
 <attribute name="OPERATING_TEMPERATURE" value="-55C ~ 125C" constant="no"/>
 <attribute name="PACKAGE" value="0402 (1005 Metric)" constant="no"/>
+<attribute name="PART_NUMBER" value="GRM155R71H103KA88D" constant="no"/>
 <attribute name="RATINGS" value="-" constant="no"/>
 <attribute name="SERIES" value="GRM" constant="no"/>
 <attribute name="SIZE" value="0.039&quot; L x 0.020&quot; W (1.00mm x 0.50mm)" constant="no"/>
@@ -195,14 +201,17 @@ For attribution, please provide a link in any documentation or design files to t
 <technology name="R71H222KA01D">
 <attribute name="APPLICATIONS" value="General Purpose" constant="no"/>
 <attribute name="CAPACITANCE" value="2200pF" constant="no"/>
+<attribute name="DESCRIPTION" value="CAP CER 2200PF 50V 10% X7R 0402" constant="no"/>
 <attribute name="FAMILY" value="Ceramic Capacitors" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="HEIGHT-SEATED" value="-" constant="no"/>
 <attribute name="LEAD_SPACING" value="-" constant="no"/>
 <attribute name="LEAD_STYLE" value="-" constant="no"/>
+<attribute name="MANUFACTURER" value="Murata Electronics North America" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Surface Mount, MLCC" constant="no"/>
 <attribute name="OPERATING_TEMPERATURE" value="-55C ~ 125C" constant="no"/>
 <attribute name="PACKAGE" value="0402 (1005 Metric)" constant="no"/>
+<attribute name="PART_NUMBER" value="GRM155R71H222KA01D" constant="no"/>
 <attribute name="RATINGS" value="-" constant="no"/>
 <attribute name="SERIES" value="GRM" constant="no"/>
 <attribute name="SIZE" value="0.039&quot; L x 0.020&quot; W (1.00mm x 0.50mm)" constant="no"/>
@@ -223,14 +232,17 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="APPLICATIONS" value="General Purpose" constant="no"/>
 <attribute name="CAPACITANCE" value="20pF" constant="no"/>
 <attribute name="CATEGORY" value="Capacitors" constant="no"/>
+<attribute name="DESCRIPTION" value="CAP CER 20PF 50V 5% NP0 0603" constant="no"/>
 <attribute name="FAMILY" value="Ceramic Capacitors" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="HEIGHT-SEATED" value="-" constant="no"/>
 <attribute name="LEAD_SPACING" value="-" constant="no"/>
 <attribute name="LEAD_STYLE" value="-" constant="no"/>
+<attribute name="MANUFACTURER" value="Murata Electronics North America" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Surface Mount, MLCC" constant="no"/>
 <attribute name="OPERATING_TEMPERATURE" value="-55C ~ 125C" constant="no"/>
 <attribute name="PACKAGE" value="0603 (1608 Metric)" constant="no"/>
+<attribute name="PART_NUMBER" value="GRM1885C1H200JA01D" constant="no"/>
 <attribute name="RATINGS" value="-" constant="no"/>
 <attribute name="SERIES" value="GRM" constant="no"/>
 <attribute name="SIZE" value="0.063&quot; L x 0.031&quot; W (1.60mm x 0.80mm)" constant="no"/>

@@ -308,6 +308,39 @@ For attribution, please provide a link in any documentation or design files to t
 <text x="-7.62" y="1.905" size="1.27" layer="25">&gt;NAME</text>
 <text x="-7.62" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="206">
+<description>&lt;h1&gt;3x2 6-Pin Male Header&lt;/h1&gt;</description>
+<pad name="1" x="-2.54" y="1.27" drill="0.8" shape="square"/>
+<pad name="2" x="0" y="1.27" drill="0.8"/>
+<pad name="3" x="2.54" y="1.27" drill="0.8"/>
+<pad name="4" x="2.54" y="-1.27" drill="0.8"/>
+<pad name="5" x="0" y="-1.27" drill="0.8"/>
+<pad name="6" x="-2.54" y="-1.27" drill="0.8"/>
+<wire x1="-3.81" y1="1.905" x2="-3.175" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-3.175" y1="2.54" x2="-1.905" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="2.54" x2="-1.27" y2="1.905" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="1.905" x2="-1.27" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-1.905" x2="-1.905" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="-2.54" x2="-3.175" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-3.175" y1="-2.54" x2="-3.81" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="-1.905" x2="-3.81" y2="1.905" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="1.905" x2="-0.635" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="2.54" x2="0.635" y2="2.54" width="0.127" layer="21"/>
+<wire x1="0.635" y1="2.54" x2="1.27" y2="1.905" width="0.127" layer="21"/>
+<wire x1="1.27" y1="1.905" x2="1.27" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-1.905" x2="0.635" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="0.635" y1="-2.54" x2="-0.635" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="-2.54" x2="-1.27" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="1.27" y1="1.905" x2="1.905" y2="2.54" width="0.127" layer="21"/>
+<wire x1="1.905" y1="2.54" x2="3.175" y2="2.54" width="0.127" layer="21"/>
+<wire x1="3.175" y1="2.54" x2="3.81" y2="1.905" width="0.127" layer="21"/>
+<wire x1="3.81" y1="1.905" x2="3.81" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="3.81" y1="-1.905" x2="3.175" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="3.175" y1="-2.54" x2="1.905" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="1.905" y1="-2.54" x2="1.27" y2="-1.905" width="0.127" layer="21"/>
+<text x="-3.81" y="3.175" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-4.445" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="1-PIN_HEADER">
@@ -579,7 +612,7 @@ For attribution, please provide a link in any documentation or design files to t
 </device>
 </devices>
 </deviceset>
-<deviceset name="68685-306*" prefix="JP">
+<deviceset name="68685-?*" prefix="JP">
 <description>&lt;h1&gt;6-Pin Female Header&lt;/h1&gt;
 &lt;h3&gt;Ordering Information&lt;/h3&gt;
 &lt;table&gt;
@@ -590,7 +623,7 @@ For attribution, please provide a link in any documentation or design files to t
 <gate name="G$1" symbol="6-PIN_HEADER" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="306">
+<device name="306" package="306">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -617,6 +650,55 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="ROW_SPACING" value="-" constant="no"/>
 <attribute name="SERIES" value="DUBOX, MezzSelect, Basics+" constant="no"/>
 <attribute name="STANDARD_PACKAGE" value="38" constant="no"/>
+<attribute name="TERMINATION" value="Solder" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="67996-?*" prefix="J">
+<description>&lt;h1&gt;3x2 6-Pin Male Header&lt;/h1&gt;
+&lt;h3&gt;Ordering Information&lt;/h3&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href="http://portal.fciconnect.com/Comergent//fci/drawing/67996.pdf"&gt;67996-206HLF&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/67996-206HLF/609-3210-ND/1878485"&gt;609-3210-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CONN HEADER 6POS .100 STR 15AU&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</description>
+<gates>
+<gate name="G$1" symbol="6-PIN_HEADER" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="206" package="206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name="HLF">
+<attribute name="CATEGORY" value="Connectors, Interconnects" constant="no"/>
+<attribute name="COLOR" value="Black" constant="no"/>
+<attribute name="CONNECTOR_TYPE" value="Header, Unshrouded" constant="no"/>
+<attribute name="CONTACT_FINISH" value="Gold or Gold, GXT" constant="no"/>
+<attribute name="CONTACT_FINISH_THICKNESS" value="15µin (0.38µm)" constant="no"/>
+<attribute name="CONTACT_MATING_LENGTH" value="0.230&quot; (5.84mm)" constant="no"/>
+<attribute name="CONTACT_TYPE" value="Male Pin" constant="no"/>
+<attribute name="DESCRIPTION" value="CONN HEADER 6POS .100 STR 15AU" constant="no"/>
+<attribute name="FAMILY" value="Rectangular Connectors - Headers, Male Pins" constant="no"/>
+<attribute name="FASTENING_TYPE" value="-" constant="no"/>
+<attribute name="FEATURES" value="-" constant="no"/>
+<attribute name="MANUFACTURER" value="FCI" constant="no"/>
+<attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
+<attribute name="NUMBER_OF_POSITIONS" value="6" constant="no"/>
+<attribute name="NUMBER_OF_POSITIONS_LOADED" value="All" constant="no"/>
+<attribute name="NUMBER_OF_ROWS" value="2" constant="no"/>
+<attribute name="PART_NUMBER" value="67996-206HLF" constant="no"/>
+<attribute name="PITCH" value="0.100&quot; (2.54mm)" constant="no"/>
+<attribute name="ROW_SPACING" value="0.100&quot; (2.54mm)" constant="no"/>
+<attribute name="SERIES" value="BERGSTIK II, MezzSelect, Basics+" constant="no"/>
+<attribute name="STANDARD_PACKAGE" value="100" constant="no"/>
 <attribute name="TERMINATION" value="Solder" constant="no"/>
 </technology>
 </technologies>
