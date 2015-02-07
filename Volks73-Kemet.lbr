@@ -267,13 +267,16 @@ For attribution, please provide a link in any documentation or design files to t
 <technology name="C104M5U5TA">
 <attribute name="APPLICATIONS" value="General Purpose" constant="no"/>
 <attribute name="CAPACITANCE" value="0.1uF" constant="no"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V 20% RADIAL" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="HEIGHT" value="0.210&quot; (5.33mm)" constant="no"/>
 <attribute name="LEAD_SPACING" value="0.100&quot; (2.54mm)" constant="no"/>
 <attribute name="LEAD_STYLE" value="Straight" constant="no"/>
+<attribute name="MANUFACTURER" value="Kemet" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
 <attribute name="OPERATING_TEMERPATURE" value="10C ~ 85C" constant="no"/>
 <attribute name="PACKAGE" value="Radial" constant="no"/>
+<attribute name="PART_NUMBER" value="C315C104M5U5TA" constant="no"/>
 <attribute name="RATINGS" value="-" constant="no"/>
 <attribute name="SERIES" value="Golden Max" constant="no"/>
 <attribute name="SIZE" value="0.150&quot; L x 0.100&quot; W (3.81mm x 2.54mm" constant="no"/>
@@ -285,13 +288,16 @@ For attribution, please provide a link in any documentation or design files to t
 <technology name="C105K3R5TA">
 <attribute name="APPLICATIONS" value="General Purpose" constant="no"/>
 <attribute name="CAPACITANCE" value="1.0uF" constant="no"/>
+<attribute name="DESCRIPTION" value="CAP CER 1UF 25V 10% RADIAL" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="HEIGHT" value="0.210&quot; (5.33mm)" constant="no"/>
 <attribute name="LEAD_SPACING" value="0.100&quot; (2.54mm)" constant="no"/>
 <attribute name="LEAD_STYLE" value="Straight" constant="no"/>
+<attribute name="MANUFACTURER" value="Kemet" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
 <attribute name="OPERATING_TEMERPATURE" value="-55C ~ 125C" constant="no"/>
 <attribute name="PACKAGE" value="Radial" constant="no"/>
+<attribute name="PART_NUMBER" value="C315C105K3R5TA" constant="no"/>
 <attribute name="RATINGS" value="-" constant="no"/>
 <attribute name="SERIES" value="Golden Max" constant="no"/>
 <attribute name="SIZE" value="0.150&quot; L x 0.100&quot; W (3.81mm x 2.54mm" constant="no"/>
@@ -353,15 +359,18 @@ as MSL (Moisture Sensitivity Level) 1 under J STD 020: unlimited flor life time 
 <technology name="107K025AT">
 <attribute name="CAPACITANCE" value="100uF" constant="no"/>
 <attribute name="CATEGORY" value="Capacitors" constant="no"/>
+<attribute name="DESCRIPTION" value="CAP TANT 100UF 25V 10% 2917" constant="no"/>
 <attribute name="ESR" value="300 mOhm" constant="no"/>
 <attribute name="FAMILY" value="Tantalum Capacitors" constant="no"/>
 <attribute name="FEATURES" value="General Purpose" constant="no"/>
 <attribute name="HEIGHT-SEATED" value="0.169&quot; (4.30mm)" constant="no"/>
 <attribute name="LEAD_SPACING" value="-" constant="no"/>
+<attribute name="MANUFACTURER" value="Kemet" constant="no"/>
 <attribute name="MANUFACTURER_SIZE_CODE" value="X" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Surface Mount" constant="no"/>
 <attribute name="OPERATING_TEMPERATURE" value="-55C ~ 125C" constant="no"/>
 <attribute name="PACKAGE" value="2917 (7343 Metric)" constant="no"/>
+<attribute name="PART_NUMBER" value="T491X107K025AT" constant="no"/>
 <attribute name="SERIES" value="T491" constant="no"/>
 <attribute name="SIZE" value="0.287&quot; L x 0.169&quot; W (7.30mm x 4.30mm)" constant="no"/>
 <attribute name="TOLERANCE" value="10%" constant="no"/>
@@ -413,13 +422,16 @@ Typical applications include coupling, decoupling, bypass, and fitering.
 <attribute name="APPLICATIONS" value="General Purpose" constant="no"/>
 <attribute name="CAPACITANCE" value="100uF" constant="no"/>
 <attribute name="CATEGORY" value="Capacitors" constant="no"/>
+<attribute name="DESCRIPTION" value="CAP ALUM 100UF 50V 20% SMD" constant="no"/>
 <attribute name="ESR" value="-" constant="no"/>
 <attribute name="FAMILY" value="Aluminum Capacitors" constant="no"/>
 <attribute name="HEIGHT-SEATED" value="0.413&quot; (10.50mm)" constant="no"/>
 <attribute name="LEAD_SPACING" value="-" constant="no"/>
 <attribute name="LIFETIME" value="2000 Hrs @ 85C" constant="no"/>
+<attribute name="MANUFACTURER" value="Kemet" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Surface Mount" constant="no"/>
 <attribute name="PACKAGE" value="Radial, Can - SMD" constant="no"/>
+<attribute name="PART_NUMBER" value="EDK107M050A9MAA" constant="no"/>
 <attribute name="RIPPLE_CURRENT" value="165mA" constant="no"/>
 <attribute name="SERIES" value="EDK" constant="no"/>
 <attribute name="SIZE" value="0.315&quot; Dia (8.00mm)" constant="no"/>
@@ -458,14 +470,17 @@ Typical applications include coupling, decoupling, bypass, and fitering.
 <attribute name="APPLICATIONS" value="RF, Microware, High Frequency" constant="no"/>
 <attribute name="CAPACITANCE" value="20pF" constant="no"/>
 <attribute name="CATEGORY" value="Capacitors" constant="no"/>
+<attribute name="DESCRIPTION" value="CAP CER 20PF 50V 1% NP0 0201" constant="no"/>
 <attribute name="FAMILY" value="Ceramic Capacitors" constant="no"/>
 <attribute name="FEATURES" value="High Q, Low Loss" constant="no"/>
 <attribute name="HEIGHT-SEATED" value="-" constant="no"/>
 <attribute name="LEAD_SPACING" value="-" constant="no"/>
 <attribute name="LEAD_STYLE" value="-" constant="no"/>
+<attribute name="MANUFACTURER" value="Kemet" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Surface Mount, MLCC" constant="no"/>
 <attribute name="OPERATING_TEMPERATURE" value="-55C ~ 125C" constant="no"/>
 <attribute name="PACKAGE" value="0201 (0603 Metric)" constant="no"/>
+<attribute name="PART_NUMBER" value="CBR02C200F5GAC" constant="no"/>
 <attribute name="RATINGS" value="-" constant="no"/>
 <attribute name="SERIES" value="CBR" constant="no"/>
 <attribute name="SIZE" value="0.024&quot; L x 0.012&quot; W (0.60mm x 0.30mm)" constant="no"/>
