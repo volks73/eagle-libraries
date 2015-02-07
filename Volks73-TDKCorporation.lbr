@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -162,35 +162,47 @@ For attribution, please provide a link in any documentation or design files to t
 <technology name="X7R1E104K">
 <attribute name="APPLICATIONS" value="General Purpose" constant="no"/>
 <attribute name="CAPACITANCE" value="0.1uF" constant="no"/>
+<attribute name="CATEGORY" value="Capacitors" constant="no"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 25V 10% RADIAL" constant="no"/>
+<attribute name="FAMILY" value="Ceramic Capacitors" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="HEIGHT" value="0.217&quot; (5.50mm)" constant="no"/>
 <attribute name="LEAD_SPACING" value="0.098&quot; (2.50mm)" constant="no"/>
 <attribute name="LEAD_STYLE" value="Formed Leads - Kinked" constant="no"/>
+<attribute name="MANUFACTURER" value="TDK Corporation" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
-<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 125C" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55°C ~ 125°C" constant="no"/>
 <attribute name="PACKAGE" value="Radial" constant="no"/>
+<attribute name="PACKAGE-CASE" value="Radial" constant="no"/>
+<attribute name="PART_NUMBER" value="FK18X7R1E104K" constant="no"/>
 <attribute name="RATINGS" value="-" constant="no"/>
 <attribute name="SIZE" value="0.157&quot; L x 0.098&quot; W (4.00mm x 2.50mm)" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="X7R" constant="no"/>
 <attribute name="THICKNESS" value="-" constant="no"/>
-<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
 <attribute name="VOLTAGE-RATED" value="25V" constant="no"/>
 </technology>
 <technology name="X7R1E105K">
 <attribute name="APPLICATIONS" value="General Purpose" constant="no"/>
 <attribute name="CAPACITANCE" value="1.0uF" constant="no"/>
+<attribute name="CATEGORY" value="Capacitors" constant="no"/>
+<attribute name="DESCRIPTION" value="CAP CER 1UF 25V 10% RADIAL" constant="no"/>
+<attribute name="FAMILY" value="Ceramic Capacitors" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="HEIGHT" value="0.217&quot; (5.50mm)" constant="no"/>
 <attribute name="LEAD_SPACING" value="0.098&quot; (2.50mm)" constant="no"/>
 <attribute name="LEAD_STYLE" value="Formed Leads - Kinked" constant="no"/>
+<attribute name="MANUFACTURER" value="TDK Corporation" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
-<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 125C" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55°C ~ 125°C" constant="no"/>
 <attribute name="PACKAGE" value="Radial" constant="no"/>
+<attribute name="PACKAGE-CASE" value="" constant="no"/>
+<attribute name="PART_NUMBER" value="FK18X7R1E105K" constant="no"/>
 <attribute name="RATINGS" value="-" constant="no"/>
 <attribute name="SIZE" value="0.157&quot; L x 0.098&quot; W (4.00mm x 2.50mm)" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="X7R" constant="no"/>
 <attribute name="THICKNESS" value="-" constant="no"/>
-<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
 <attribute name="VOLTAGE-RATED" value="25V" constant="no"/>
 </technology>
 </technologies>
@@ -204,18 +216,24 @@ For attribution, please provide a link in any documentation or design files to t
 <technology name="X7R1E106K">
 <attribute name="APPLICATIONS" value="General Purpose" constant="no"/>
 <attribute name="CAPACITANCE" value="10uF" constant="no"/>
+<attribute name="CATEGORY" value="Capacitors" constant="no"/>
+<attribute name="DESCRIPTION" value="CAP CER 10UF 25V 10% RADIAL" constant="no"/>
+<attribute name="FAMILY" value="Ceramic Capacitors" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="HEIGHT" value="0.236&quot;" constant="no"/>
 <attribute name="LEAD_SPACING" value="0.098&quot;" constant="no"/>
 <attribute name="LEAD_STYLE" value="Formed Leads - Kinked" constant="no"/>
+<attribute name="MANUFACTURER" value="TDK Corporation" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
 <attribute name="OPERATING_TEMPERATURE" value="-55C ~ 125C" constant="no"/>
 <attribute name="PACKAGE" value="Radial" constant="no"/>
+<attribute name="PART_NUMBER" value="FK16X7R1E106K" constant="no"/>
 <attribute name="RATINGS" value="-" constant="no"/>
+<attribute name="SERIES" value="FK" constant="no"/>
 <attribute name="SIZE" value="0.217&quot; L x 0.138&quot; W (5.50mm x 3.50mm)" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="X7R" constant="no"/>
 <attribute name="THICKNESS" value="-" constant="no"/>
-<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
 <attribute name="VOLTAGE-RATED" value="25V" constant="no"/>
 </technology>
 </technologies>
