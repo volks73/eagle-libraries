@@ -596,12 +596,15 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CONTACT_FINISH_THICKNESS" value="100uin (2.54um)" constant="no"/>
 <attribute name="CONTACT_MATING_LENGTH" value="0.295&quot; (7.49mm)" constant="no"/>
 <attribute name="CONTACT_TYPE" value="Male Pin" constant="no"/>
+<attribute name="DESCRIPTION" value="CONN HEADER 3POS .100 VERT TIN" constant="no"/>
 <attribute name="FASTENING_TYPE" value="Friction Lock" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
+<attribute name="MANUFACTURER" value="Molex Inc" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
 <attribute name="NUMBER_OF_POSITIONS" value="3" constant="no"/>
 <attribute name="NUMBER_OF_POSITIONS_LOADED" value="All" constant="no"/>
 <attribute name="NUMBER_OF_ROWS" value="1" constant="no"/>
+<attribute name="PART_NUMBER" value="0022272031" constant="no"/>
 <attribute name="PITCH" value="0.100&quot; (2.54mm)" constant="no"/>
 <attribute name="ROW_SPACING" value="-" constant="no"/>
 <attribute name="SERIES" value="6410" constant="no"/>
@@ -624,13 +627,16 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CONTACT_FINISH_THICKNESS" value="39uin (1.00um)" constant="no"/>
 <attribute name="CONTACT_MATING_LENGTH" value="-" constant="no"/>
 <attribute name="CONTACT_TYPE" value="Blade Pin" constant="no"/>
+<attribute name="DESCRIPTION" value="CONN HEADER 3POS 1.25MM VERT SMD" constant="no"/>
 <attribute name="FAMILY" value="Rectangular Connectors - Headers, Male Pins" constant="no"/>
 <attribute name="FASTENING_TYPE" value="-" constant="no"/>
 <attribute name="FEATURES" value="Solder Retention" constant="no"/>
+<attribute name="MANUFACTURER" value="Molex Inc" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Surface Mount, Right Angle" constant="no"/>
 <attribute name="NUMBER_OF_POSITIONS" value="3" constant="no"/>
 <attribute name="NUMBER_OF_POSITIONS_LOADED" value="All" constant="no"/>
 <attribute name="NUMBER_OF_ROWS" value="1" constant="no"/>
+<attribute name="PART_NUMBER" value="0533980371" constant="no"/>
 <attribute name="PITCH" value="0.049&quot; (1.25mm)" constant="no"/>
 <attribute name="ROW_SPACING" value="-" constant="no"/>
 <attribute name="SERIES" value="PicoBlade 53261" constant="no"/>
@@ -668,12 +674,15 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CONTACT_FINISH_THICKNESS" value="100uin (2.54um)" constant="no"/>
 <attribute name="CONTACT_MATING_LENGTH" value="0.295&quot; (7.49mm)" constant="no"/>
 <attribute name="CONTACT_TYPE" value="Male Pin" constant="no"/>
+<attribute name="DESCRIPTION" value="CONN HEADER 5POS .100 VERT TIN" constant="no"/>
 <attribute name="FASTENING_TYPE" value="Friction Lock" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
+<attribute name="MANUFACTURER" value="Molex Inc" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
 <attribute name="NUMBER_OF_POSITIONS" value="5" constant="no"/>
 <attribute name="NUMBER_OF_POSITIONS_LOADED" value="All" constant="no"/>
 <attribute name="NUMBER_OF_ROWS" value="1" constant="no"/>
+<attribute name="PART_NUMBER" value="0022272051" constant="no"/>
 <attribute name="PITCH" value="0.100&quot; (2.54mm)" constant="no"/>
 <attribute name="ROW_SPACING" value="-" constant="no"/>
 <attribute name="SERIES" value="6410" constant="no"/>
@@ -697,12 +706,15 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CONTACT_FINISH_THICKNESS" value="39uin (1.00um)" constant="no"/>
 <attribute name="CONTACT_MATING_LENGTH" value="-" constant="no"/>
 <attribute name="CONTACT_TYPE" value="Blade Pin" constant="no"/>
+<attribute name="DESCRIPTION" value="CONN HEADER 5POS 1.25MM R/A SMD" constant="no"/>
 <attribute name="FASTENING_TYPE" value="-" constant="no"/>
 <attribute name="FEATURES" value="Solder Retention" constant="no"/>
+<attribute name="MANUFACTURER" value="Molex Inc" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Surface Mount, Right Angle" constant="no"/>
 <attribute name="NUMBER_OF_POSITIONS" value="5" constant="no"/>
 <attribute name="NUMBER_OF_POSITIONS_LOADED" value="All" constant="no"/>
 <attribute name="NUMBER_OF_ROWS" value="1" constant="no"/>
+<attribute name="PART_NUMBER" value="0532610571" constant="no"/>
 <attribute name="PITCH" value="0.049&quot; (1.25mm)" constant="no"/>
 <attribute name="ROW_SPACING" value="-" constant="no"/>
 <attribute name="SERIES" value="PicoBlade" constant="no"/>
@@ -739,12 +751,15 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CONTACT_FINISH_THICKNESS" value="100uin (2.54um)" constant="no"/>
 <attribute name="CONTACT_MATING_LENGTH" value="0.295&quot; (7.49mm)" constant="no"/>
 <attribute name="CONTACT_TYPE" value="Male Pin" constant="no"/>
+<attribute name="DESCRIPTION" value="CONN HEADER 2POS .100 VERT TIN" constant="no"/>
 <attribute name="FASTENING_TYPE" value="Friction Lock" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
+<attribute name="MANUFACTUER" value="Molex Inc" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
 <attribute name="NUMBER_OF_POSITIONS" value="2" constant="no"/>
 <attribute name="NUMBER_OF_POSITIONS_LOADED" value="All" constant="no"/>
 <attribute name="NUMBER_OF_ROWS" value="1" constant="no"/>
+<attribute name="PART_NUMBER" value="0022272021" constant="no"/>
 <attribute name="PITCH" value="0.100&quot; (2.54mm)" constant="no"/>
 <attribute name="ROW_SPACING" value="-" constant="no"/>
 <attribute name="SERIES" value="6410" constant="no"/>
@@ -765,12 +780,15 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CONTACT_FINISH_THICKNESS" value="60uin (1.52um)" constant="no"/>
 <attribute name="CONTACT_MATING_LENGTH" value="0.450&quot; (11.43mm)" constant="no"/>
 <attribute name="CONTACT_TYPE" value="Male Pin" constant="no"/>
+<attribute name="DESCRIPTION" value="CONN HEADER 2POS .156 VERT TIN" constant="no"/>
 <attribute name="FASTENING_TYPE" value="Friction Lock" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
+<attribute name="MANUFACTURER" value="Molex Inc" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
 <attribute name="NUMBER_OF_POSITIONS" value="2" constant="no"/>
 <attribute name="NUMBER_OF_POSITIONS_LOADED" value="All" constant="no"/>
 <attribute name="NUMBER_OF_ROWS" value="1" constant="no"/>
+<attribute name="PART_NUMBER" value="0026604020" constant="no"/>
 <attribute name="PITCH" value="0.156&quot; (3.96mm)" constant="no"/>
 <attribute name="ROW_SPACING" value="-" constant="no"/>
 <attribute name="SERIES" value="41791" constant="no"/>
@@ -789,16 +807,19 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CONTACT_FINISH" value="Tin" constant="no"/>
 <attribute name="CONTACT_MATERIAL" value="Copper Alloy" constant="no"/>
 <attribute name="CURRENT_RATING" value="5A, 6A, 9A" constant="no"/>
+<attribute name="DESCRIPTION" value="CONN SSL RCPT 2POS 4MM SOLDER" constant="no"/>
 <attribute name="FAMILY" value="Solid State Lighting Connectors" constant="no"/>
 <attribute name="FASTENING_TYPE" value="-" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="HOUSING_COLOR" value="Natural" constant="no"/>
 <attribute name="HOUSING_MATERIAL" value="Liquid Crystal Polymer (LCP), Halogen Free" constant="no"/>
 <attribute name="INGREE_PROTECTION" value="-" constant="no"/>
+<attribute name="MANUFACTURER" value="Molex Inc" constant="no"/>
 <attribute name="MATING_CYCLES" value="-" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Surface Mount, Right Angle" constant="no"/>
 <attribute name="NUMBER_OF_POSITIONS" value="2" constant="no"/>
 <attribute name="OPERATING_TEMPERATURE" value="-40C ~ 130C" constant="no"/>
+<attribute name="PART_NUMBER" value="1041880210" constant="no"/>
 <attribute name="PITCH" value="0.157&quot; (4.00mm)" constant="no"/>
 <attribute name="SERIES" value="Lite-Trap" constant="no"/>
 <attribute name="STYLE" value="Board to Cable/Wire" constant="no"/>
@@ -821,13 +842,16 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CONTACT_FINISH_THICKNESS" value="39uin (1.00um)" constant="no"/>
 <attribute name="CONTACT_MATING_LENGTH" value="-" constant="no"/>
 <attribute name="CONTACT_TYPE" value="Blade Pin" constant="no"/>
+<attribute name="DESCRIPTION" value="CONN HEADER 2POS 1.25MM R/A SMD" constant="no"/>
 <attribute name="FAMILY" value="Rectangular Connectors - Headers, Male Pins" constant="no"/>
 <attribute name="FASTENING_TYPE" value="-" constant="no"/>
 <attribute name="FEATURES" value="Solder Retention" constant="no"/>
+<attribute name="MANUFACTURER" value="Molex Inc" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Surface Mount, Right Angle" constant="no"/>
 <attribute name="NUMBER_OF_POSITIONS" value="2" constant="no"/>
 <attribute name="NUMBER_OF_POSITIONS_LOADED" value="All" constant="no"/>
 <attribute name="NUMBER_OF_ROWS" value="1" constant="no"/>
+<attribute name="PART_NUMBER" value="0532610271" constant="no"/>
 <attribute name="PITCH" value="0.049&quot; (1.25mm)" constant="no"/>
 <attribute name="ROW_SPACING" value="-" constant="no"/>
 <attribute name="SERIES" value="PicoBlade 53261" constant="no"/>
@@ -865,12 +889,15 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CONTACT_FINISH_THICKNESS" value="100uin (2.54um)" constant="no"/>
 <attribute name="CONTACT_MATING_LENGTH" value="0.295&quot; (7.49mm)" constant="no"/>
 <attribute name="CONTACT_TYPE" value="Male Pin" constant="no"/>
+<attribute name="DESCRIPTION" value="CONN HEADER 6POS .100 VERT TIN" constant="no"/>
 <attribute name="FASTENING_TYPE" value="Friction Lock" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
+<attribute name="MANUFACTURER" value="Molex Inc" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
 <attribute name="NUMBER_OF_POSITIONS" value="6" constant="no"/>
 <attribute name="NUMBER_OF_POSITIONS_LOADED" value="All" constant="no"/>
 <attribute name="NUMBER_OF_ROWS" value="1" constant="no"/>
+<attribute name="PART_NUMBER" value="0022272061" constant="no"/>
 <attribute name="PITCH" value="0.100&quot; (2.54mm)" constant="no"/>
 <attribute name="ROW_SPACING" value="-" constant="no"/>
 <attribute name="SERIES" value="6410" constant="no"/>
@@ -888,6 +915,7 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;tr&gt;&lt;td&gt;&lt;a href="http://www.molex.com/pdm_docs/sd/532610471_sd.pdf"&gt;53261-0471&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/0532610471/WM7622CT-ND/699109"&gt;WM7622CT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CONN HEADER 4POS 1.25MM R/A SMD&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;a href="http://www.molex.com/pdm_docs/sd/5040500691_sd.pdf"&gt;5040500491&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/5040500491/WM10137CT-ND/4357653"&gt;WM10137CT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CONN WIRE TO BOARD RA 4POS&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;a href="http://www.molex.com/pdm_docs/sd/436500414_sd.pdf"&gt;0436500414&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/0436500414/WM3799CT-ND/2421872"&gt;WM3799CT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;MICROFIT 3.0 SR RA SMT GOLD 4CKT&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href="http://www.molex.com/pdm_docs/sd/026645040_sd.pdf"&gt;0436500414&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-search/en?KeyWords=26-64-5040&amp;WT.z_header=search_go"&gt;WM3916-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;156 HDR FRLK RTAN PEG 4CKT TIN&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;</description>
 <gates>
 <gate name="G$1" symbol="4-PIN_HEADER" x="0" y="0"/>
@@ -939,13 +967,16 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CONTACT_FINISH_THICKNESS" value="60uin (1.52um)" constant="no"/>
 <attribute name="CONTACT_MATING_LENGTH" value="0.450&quot; (11.43mm)" constant="no"/>
 <attribute name="CONTACT_TYPE" value="Male Pin" constant="no"/>
+<attribute name="DESCRIPTION" value="156 HDR FRLK RTAN PEG 4CKT TIN" constant="no"/>
 <attribute name="FAMILY" value="Rectangular Connectors - Headers, Male Pins" constant="no"/>
 <attribute name="FASTENING_TYPE" value="Friction Lock" constant="no"/>
 <attribute name="FEATURES" value="Board Guide" constant="no"/>
+<attribute name="MANUFACTURER" value="Molex Inc" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Through Hole, Right Angle" constant="no"/>
 <attribute name="NUMBER_OF_POSITIONS" value="4" constant="no"/>
 <attribute name="NUMBER_OF_POSITIONS_LOADED" value="All" constant="no"/>
 <attribute name="NUMBER_OF_ROWS" value="1" constant="no"/>
+<attribute name="PART_NUMBER" value="0026645040" constant="no"/>
 <attribute name="PITCH" value="0.156&quot; (3.96mm)" constant="no"/>
 <attribute name="ROW_SPACING" value="-" constant="no"/>
 <attribute name="SERIES" value="KK 42492" constant="no"/>
