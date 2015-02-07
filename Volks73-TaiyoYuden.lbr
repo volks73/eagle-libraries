@@ -200,7 +200,9 @@ For attribution, please provide a link in any documentation or design files to t
 <technology name="AB7475KL-T">
 <attribute name="APPLICATIONS" value="General Purpose" constant="no"/>
 <attribute name="CAPACITANCE" value="4.7uF" constant="no"/>
+<attribute name="CATEGORY" value="Capacitors" constant="no"/>
 <attribute name="DESCRIPTION" value="CAP CER 4.7UF 50V 10% X7R 1206" constant="no"/>
+<attribute name="FAMILY" value="Cermaic Capacitors" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="HEIGHT-SEATED" value="-" constant="no"/>
 <attribute name="LEAD_SPACING" value="-" constant="no"/>
