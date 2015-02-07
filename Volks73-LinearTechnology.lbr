@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -177,9 +177,17 @@ The LTC4365 has a 36ms turn-on delay that debounces live connections and blocks 
 <technologies>
 <technology name="">
 <attribute name="APPLICATIONS" value="Overvoltage, Undervoltage Protection" constant="no"/>
+<attribute name="CATEGORY" value="Integrated Circuits (ICs)" constant="no"/>
 <attribute name="CURRENT-SUPPLY" value="125uA" constant="no"/>
+<attribute name="DESCRIPTION" value="IC OVERVOLTAGE PROT TSOT23-8" constant="no"/>
+<attribute name="FAMILY" value="PMIC - Power Management - Specialized" constant="no"/>
+<attribute name="MANUFACTURER" value="Linear Technology" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Surface Mount" constant="no"/>
 <attribute name="OPERATING_TEMPERATURE" value="0C ~ 70C" constant="no"/>
+<attribute name="PACKAGE-CASE" value="SOT-23-8 Thin, TSOT-23-8" constant="no"/>
+<attribute name="PART_NUMBER" value="LTC4365CTS8#TRMPBF" constant="no"/>
+<attribute name="SERIES" value="-" constant="no"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="SOT-23-8" constant="no"/>
 <attribute name="VOLTAGE-SUPPLY" value="2.5V ~ 34V" constant="no"/>
 </technology>
 </technologies>
