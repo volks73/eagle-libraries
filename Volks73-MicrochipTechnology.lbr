@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -317,12 +317,15 @@ These devices are available in small 6-pin SOT-23 and DFN 2x2 mm packages.
 <technologies>
 <technology name="1">
 <attribute name="DATA_INTERFACE" value="EEPROM, I2C, Serial" constant="no"/>
+<attribute name="DESCRIPTION" value="IC DAC 10BIT NV EEP I2C SOT-23-6" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Surface Mount" constant="no"/>
 <attribute name="NUMBER_OF_BITS" value="10" constant="no"/>
 <attribute name="NUMBER_OF_CONVERTERS" value="1" constant="no"/>
 <attribute name="NUMBER_OF_OUTPUTS_AND_TYPE" value="1 Voltage, Unipolar" constant="no"/>
 <attribute name="OPERATING_TEMPERATURE" value="-40C ~ 125C" constant="no"/>
 <attribute name="PACKAGE" value="SOT-23-6" constant="no"/>
+<attribute name="PART_NUMBER" value="MCP4716A0T-E/CH" constant="no"/>
 <attribute name="SETTLING_TIME" value="6us" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="SOT-23-6" constant="no"/>
 <attribute name="VOLTAGE_SUPPLY_SOURCE" value="Single Supply" constant="no"/>
@@ -402,13 +405,16 @@ The MCP3021 runs on a single supply voltage that operates over a broad range of 
 <attribute name="ARCHITECTURE" value="SAR" constant="no"/>
 <attribute name="CONFIGURATION" value="S/H-ADC" constant="no"/>
 <attribute name="DATA_INTERFACE" value="I2C" constant="no"/>
+<attribute name="DESCRIPTION" value="IC ADC 10BIT 2.7V 1CH SOT23-5" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="INPUT_TYPE" value="Single Ended" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
 <attribute name="NUMBER_OF_AD_CONVERTERS" value="1" constant="no"/>
 <attribute name="NUMBER_OF_BITS" value="10" constant="no"/>
 <attribute name="NUMBER_OF_INPUTS" value="1" constant="no"/>
 <attribute name="OPERATING_TEMPERATURE" value="-40C ~ 125C" constant="no"/>
 <attribute name="PACKAGE" value="SC-74A, SOT-753" constant="no"/>
+<attribute name="PART_NUMBER" value="MCP3021A5T-E/OT" constant="no"/>
 <attribute name="RATIO" value="1:1" constant="no"/>
 <attribute name="REFERENCE_TYPE" value="External" constant="no"/>
 <attribute name="SAMPLING_RATE" value="22.3k" constant="no"/>
@@ -485,12 +491,15 @@ The MCP6001/2/4 family is available in the industrial and extended temperature r
 <attribute name="CURRENT-INPUT_BIAS" value="1pA" constant="no"/>
 <attribute name="CURRENT-OUTPUT" value="23mA" constant="no"/>
 <attribute name="CURRENT-SUPPLY" value="100uA" constant="no"/>
+<attribute name="DESCRIPTION" value="IC OPAMP GP 1MHZ RRO 8SOIC" constant="no"/>
 <attribute name="GAIN_BANDWIDTH" value="1MHz" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Surface Mount" constant="no"/>
 <attribute name="NUMBER_OF_CIRCUITS" value="2" constant="no"/>
 <attribute name="OPERATING_TEMPERATURE" value="-40C ~ 85C" constant="no"/>
 <attribute name="OUTPUT_TYPE" value="Rail-to-Rail" constant="no"/>
 <attribute name="PACKAGE" value="8-SOIC" constant="no"/>
+<attribute name="PART_NUMBER" value="MCP6002T-I/SN" constant="no"/>
 <attribute name="SLEW_RATE" value="0.6 V/us" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="8-SOIC N" constant="no"/>
 <attribute name="VOLTAGE-INPUT_OFFSET" value="4.5mV" constant="no"/>
