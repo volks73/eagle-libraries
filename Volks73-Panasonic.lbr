@@ -278,13 +278,16 @@ For attribution, please provide a link in any documentation or design files to t
 <technology name="RPX">
 <attribute name="COLOR" value="Red" constant="no"/>
 <attribute name="CURRENT-TEST" value="20mA" constant="no"/>
+<attribute name="DESCRIPTION" value="LED RED DIFFUSED 3MM ROUND" constant="no"/>
 <attribute name="HEIGHT" value="5.70nm" constant="no"/>
 <attribute name="LENS_STYLE" value="Round with Domed Top, 3mm, T-1" constant="no"/>
 <attribute name="LENS_TYPE" value="-" constant="no"/>
 <attribute name="LUMINOUS_FLUX" value="-" constant="no"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" constant="no"/>
 <attribute name="MILLICANDELA_RATING" value="2mcd" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
 <attribute name="PACKAGE" value="Radial" constant="no"/>
+<attribute name="PART_NUMBER" value="LN28RPX" constant="no"/>
 <attribute name="SIZE" value="-" constant="no"/>
 <attribute name="VIEWING_ANGLE" value="-" constant="no"/>
 <attribute name="VOLTAGE-FORWARD" value="2.2V" constant="no"/>
@@ -359,12 +362,17 @@ For attribution, please provide a link in any documentation or design files to t
 </connects>
 <technologies>
 <technology name="F1022V">
+<attribute name="CATEGORY" value="Resistors" constant="no"/>
+<attribute name="COMPOSITION" value="Thick Film" constant="no"/>
+<attribute name="DESCRIPTION" value="RES SMD 10.2K OHM 1% 1/10W 0603" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.022&quot; (0.55mm)" constant="no"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" constant="no"/>
 <attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
 <attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
 <attribute name="PACKAGE" value="0603 (1608 Metric)" constant="no"/>
+<attribute name="PART_NUMBER" value="ERJ-3EKF1022V" constant="no"/>
 <attribute name="POWER" value="0.1W, 1/10W" constant="no"/>
 <attribute name="RESISTANCE" value="10.2k" constant="no"/>
 <attribute name="SERIES" value="ERJ" constant="no"/>
@@ -374,12 +382,17 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 </technology>
 <technology name="F1303V">
+<attribute name="CATEGORY" value="Resistors" constant="no"/>
+<attribute name="COMPOSITION" value="Thick Film" constant="no"/>
+<attribute name="DESCRIPTION" value="RES SMD 130K OHM 1% 1/10W 0603" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.022&quot; (0.55mm)" constant="no"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" constant="no"/>
 <attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
 <attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
 <attribute name="PACKAGE" value="0603 (1608 Metric)" constant="no"/>
+<attribute name="PART_NUMBER" value="ERJ-3EKF1303V" constant="no"/>
 <attribute name="POWER" value="0.1W, 1/10W" constant="no"/>
 <attribute name="RESISTANCE" value="130k" constant="no"/>
 <attribute name="SERIES" value="ERJ" constant="no"/>
@@ -389,12 +402,17 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 </technology>
 <technology name="F1961V">
+<attribute name="CATEGORY" value="Resistors" constant="no"/>
+<attribute name="COMPOSITION" value="Thick Film" constant="no"/>
+<attribute name="DESCRIPTION" value="RES SMD 1.96K OHM 1% 1/10W 0603" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.022&quot; (0.55mm)" constant="no"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" constant="no"/>
 <attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
 <attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
 <attribute name="PACKAGE" value="0603 (1608 Metric)" constant="no"/>
+<attribute name="PART_NUMBER" value="ERJ-3EKF1961V" constant="no"/>
 <attribute name="POWER" value="0.1W, 1/10W" constant="no"/>
 <attribute name="RESISTANCE" value="1.96k" constant="no"/>
 <attribute name="SERIES" value="ERJ" constant="no"/>
@@ -404,12 +422,17 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 </technology>
 <technology name="F2053V">
+<attribute name="CATEGORY" value="Resistors" constant="no"/>
+<attribute name="COMPOSITION" value="Thick Film" constant="no"/>
+<attribute name="DESCRIPTION" value="RES SMD 205K OHM 1% 1/10W 0603" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.022&quot; (0.55mm)" constant="no"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" constant="no"/>
 <attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
 <attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
 <attribute name="PACKAGE" value="0603 (1608 Metric)" constant="no"/>
+<attribute name="PART_NUMBER" value="ERJ-3EKF2053V" constant="no"/>
 <attribute name="POWER" value="0.1W, 1/10W" constant="no"/>
 <attribute name="RESISTANCE" value="205k" constant="no"/>
 <attribute name="SERIES" value="ERJ" constant="no"/>
@@ -419,12 +442,17 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 </technology>
 <technology name="F2103V">
+<attribute name="CATEGORY" value="Resistors" constant="no"/>
+<attribute name="COMPOSITION" value="Thick Film" constant="no"/>
+<attribute name="DESCRIPTION" value="RES SMD 210K OHM 1% 1/10W 0603" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.022&quot; (0.55mm)" constant="no"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" constant="no"/>
 <attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
 <attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
 <attribute name="PACKAGE" value="0603 (1608 Metric)" constant="no"/>
+<attribute name="PART_NUMBER" value="ERJ-3EKF2103V" constant="no"/>
 <attribute name="POWER" value="0.1W, 1/10W" constant="no"/>
 <attribute name="RESISTANCE" value="210k" constant="no"/>
 <attribute name="SERIES" value="ERJ" constant="no"/>
@@ -434,12 +462,17 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 </technology>
 <technology name="F2402V">
+<attribute name="CATEGORY" value="Resistors" constant="no"/>
+<attribute name="COMPOSITION" value="Thick Film" constant="no"/>
+<attribute name="DESCRIPTION" value="RES SMD 24K OHM 1% 1/10W 0603" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.022&quot; (0.55mm)" constant="no"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" constant="no"/>
 <attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
 <attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
 <attribute name="PACKAGE" value="0603 (1608 Metric)" constant="no"/>
+<attribute name="PART_NUMBER" value="ERJ-3EKF2402V" constant="no"/>
 <attribute name="POWER" value="0.1W, 1/10W" constant="no"/>
 <attribute name="RESISTANCE" value="24k" constant="no"/>
 <attribute name="SERIES" value="ERJ" constant="no"/>
@@ -449,12 +482,17 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 </technology>
 <technology name="F2743V">
+<attribute name="CATEGORY" value="Resistors" constant="no"/>
+<attribute name="COMPOSITION" value="Thick Film" constant="no"/>
+<attribute name="DESCRIPTION" value="RES SMD 274K OHM 1% 1/10W 0603" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.022&quot; (0.55mm)" constant="no"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" constant="no"/>
 <attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
 <attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
 <attribute name="PACKAGE" value="0603 (1608 Metric)" constant="no"/>
+<attribute name="PART_NUMBER" value="ERJ-3EKF2743V" constant="no"/>
 <attribute name="POWER" value="0.1W, 1/10W" constant="no"/>
 <attribute name="RESISTANCE" value="274k" constant="no"/>
 <attribute name="SERIES" value="ERJ" constant="no"/>
@@ -464,12 +502,17 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 </technology>
 <technology name="F3742V">
+<attribute name="CATEGORY" value="Resistors" constant="no"/>
+<attribute name="COMPOSITION" value="Thick Film" constant="no"/>
+<attribute name="DESCRIPTION" value="RES SMD 37.4K OHM 1% 1/10W 0603" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.022&quot; (0.55mm)" constant="no"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" constant="no"/>
 <attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
 <attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
 <attribute name="PACKAGE" value="0603 (1608 Metric)" constant="no"/>
+<attribute name="PART_NUMBER" value="ERJ-3EKF3742V" constant="no"/>
 <attribute name="POWER" value="0.1W, 1/10W" constant="no"/>
 <attribute name="RESISTANCE" value="37.4k" constant="no"/>
 <attribute name="SERIES" value="ERJ" constant="no"/>
@@ -479,12 +522,17 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 </technology>
 <technology name="F51R1V">
+<attribute name="CATEGORY" value="Resistors" constant="no"/>
+<attribute name="COMPOSITION" value="Thick Film" constant="no"/>
+<attribute name="DESCRIPTION" value="RES SMD 51.1 OHM 1% 1/10W 0603" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.022&quot; (0.55mm)" constant="no"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" constant="no"/>
 <attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
 <attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
 <attribute name="PACKAGE" value="0603 (1608 Metric)" constant="no"/>
+<attribute name="PART_NUMBER" value="ERJ-3EKF51R1V" constant="no"/>
 <attribute name="POWER" value="0.1W, 1/10W" constant="no"/>
 <attribute name="RESISTANCE" value="51.1" constant="no"/>
 <attribute name="SERIES" value="ERJ" constant="no"/>
@@ -494,12 +542,17 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 </technology>
 <technology name="F6653V">
+<attribute name="CATEGORY" value="Resistors" constant="no"/>
+<attribute name="COMPOSITION" value="Thick Film" constant="no"/>
+<attribute name="DESCRIPTION" value="RES SMD 665K OHM 1% 1/10W 0603" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.022&quot; (0.55mm)" constant="no"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" constant="no"/>
 <attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
 <attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
 <attribute name="PACKAGE" value="0603 (1608 Metric)" constant="no"/>
+<attribute name="PART_NUMBER" value="ERJ-3EKF6653V" constant="no"/>
 <attribute name="POWER" value="0.1W, 1/10W" constant="no"/>
 <attribute name="RESISTANCE" value="665k" constant="no"/>
 <attribute name="SERIES" value="ERJ" constant="no"/>
@@ -509,12 +562,17 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 </technology>
 <technology name="F9102V">
+<attribute name="CATEGORY" value="Resistors" constant="no"/>
+<attribute name="COMPOSITION" value="Thick Film" constant="no"/>
+<attribute name="DESCRIPTION" value="RES SMD 91K OHM 1% 1/10W 0603" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.022&quot; (0.55mm)" constant="no"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" constant="no"/>
 <attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
 <attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
 <attribute name="PACKAGE" value="0603 (1608 Metric)" constant="no"/>
+<attribute name="PART_NUMBER" value="ERJ-3EKF9102V" constant="no"/>
 <attribute name="POWER" value="0.1W, 1/10W" constant="no"/>
 <attribute name="RESISTANCE" value="91k" constant="no"/>
 <attribute name="SERIES" value="ERJ" constant="no"/>
@@ -524,12 +582,17 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 </technology>
 <technology name="F9532V">
+<attribute name="CATEGORY" value="Resistors" constant="no"/>
+<attribute name="COMPOSITION" value="Thick Film" constant="no"/>
+<attribute name="DESCRIPTION" value="RES SMD 95.3K OHM 1% 1/10W 0603" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.022&quot; (0.55mm)" constant="no"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" constant="no"/>
 <attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
 <attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
 <attribute name="PACKAGE" value="0603 (1608 Metric)" constant="no"/>
+<attribute name="PART_NUMBER" value="ERJ-3EKF9532V" constant="no"/>
 <attribute name="POWER" value="0.1W, 1/10W" constant="no"/>
 <attribute name="RESISTANCE" value="95.3k" constant="no"/>
 <attribute name="SERIES" value="ERJ" constant="no"/>
@@ -546,44 +609,18 @@ For attribution, please provide a link in any documentation or design files to t
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="NF1303V">
-<attribute name="COMPOSITION" value="Thick Film" constant="no"/>
-<attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
-<attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
-<attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
-<attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
-<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
-<attribute name="PACKAGE" value="1206 (3216 Metric)" constant="no"/>
-<attribute name="POWER" value="0.25W, 1/4W" constant="no"/>
-<attribute name="RESISTANCE" value="130k" constant="no"/>
-<attribute name="SERIES" value="ERJ" constant="no"/>
-<attribute name="SIZE" value="0.126&quot; L x 0.063&quot; W (3.20mm x 1.60mm)" constant="no"/>
-<attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
-<attribute name="TOLERANCE" value="1%" constant="no"/>
-</technology>
-<technology name="NF1693V">
-<attribute name="COMPOSITION" value="Thick Film" constant="no"/>
-<attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
-<attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
-<attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
-<attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
-<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
-<attribute name="PACKAGE" value="1206 (3216 Metric)" constant="no"/>
-<attribute name="POWER" value="0.25W, 1/4W" constant="no"/>
-<attribute name="RESISTANCE" value="169k" constant="no"/>
-<attribute name="SERIES" value="ERJ" constant="no"/>
-<attribute name="SIZE" value="0.126&quot; L x 0.063&quot; W (3.20mm x 1.60mm)" constant="no"/>
-<attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
-<attribute name="TOLERANCE" value="1%" constant="no"/>
-</technology>
 <technology name="NF5103V">
+<attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
+<attribute name="DESCRIPTION" value="RES SMD 10K OHM 5% 1/4W 1206" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" constant="no"/>
 <attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
 <attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
 <attribute name="PACKAGE" value="1206 (3216 Metric)" constant="no"/>
+<attribute name="PART_NUMBER" value="ERJ-8GEYJ103V" constant="no"/>
 <attribute name="POWER" value="0.25W, 1/4W" constant="no"/>
 <attribute name="RESISTANCE" value="510k" constant="no"/>
 <attribute name="SERIES" value="ERJ" constant="no"/>
@@ -592,13 +629,17 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 </technology>
 <technology name="YJ103V">
+<attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
+<attribute name="DESCRIPTION" value="RES SMD 10K OHM 5% 1/4W 1206" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" constant="no"/>
 <attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
 <attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
 <attribute name="PACKAGE" value="1206 (3216 Metric)" constant="no"/>
+<attribute name="PART_NUMBER" value="ERJ-8GEYJ103V" constant="no"/>
 <attribute name="POWER" value="0.25W, 1/4W" constant="no"/>
 <attribute name="RESISTANCE" value="10k" constant="no"/>
 <attribute name="SERIES" value="ERJ" constant="no"/>
@@ -607,13 +648,17 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="TOLERANCE" value="5%" constant="no"/>
 </technology>
 <technology name="YJ271V">
+<attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
+<attribute name="DESCRIPTION" value="RES SMD 270 OHM 5% 1/4W 1206" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" constant="no"/>
 <attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
 <attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
 <attribute name="PACKAGE" value="1206 (3216 Metric)" constant="no"/>
+<attribute name="PART_NUMBER" value="ERJ-8GEYJ271V" constant="no"/>
 <attribute name="POWER" value="0.25W, 1/4W" constant="no"/>
 <attribute name="RESISTANCE" value="270" constant="no"/>
 <attribute name="SERIES" value="ERJ" constant="no"/>
@@ -622,13 +667,17 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="TOLERANCE" value="5%" constant="no"/>
 </technology>
 <technology name="YJ471V">
+<attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
+<attribute name="DESCRIPTION" value="RES SMD 470 OHM 5% 1/4W 1206" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" constant="no"/>
 <attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
 <attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
 <attribute name="PACKAGE" value="1206 (3216 Metric)" constant="no"/>
+<attribute name="PART_NUMBER" value="ERJ-8GEYJ471V" constant="no"/>
 <attribute name="POWER" value="0.25W, 1/4W" constant="no"/>
 <attribute name="RESISTANCE" value="470" constant="no"/>
 <attribute name="SERIES" value="ERJ" constant="no"/>
@@ -637,13 +686,17 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="TOLERANCE" value="5%" constant="no"/>
 </technology>
 <technology name="YJ472V">
+<attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
+<attribute name="DESCRIPTION" value="RES SMD 4.7K OHM 5% 1/4W 1206" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" constant="no"/>
 <attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
 <attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
 <attribute name="PACKAGE" value="1206 (3216 Metric)" constant="no"/>
+<attribute name="PART_NUMBER" value="ERJ-8GEYJ472V" constant="no"/>
 <attribute name="POWER" value="0.25W, 1/4W" constant="no"/>
 <attribute name="RESISTANCE" value="4.7k" constant="no"/>
 <attribute name="SERIES" value="ERJ" constant="no"/>
@@ -652,13 +705,17 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="TOLERANCE" value="5%" constant="no"/>
 </technology>
 <technology name="YJ511V">
+<attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
+<attribute name="DESCRIPTION" value="RES SMD 510 OHM 5% 1/4W 1206" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" constant="no"/>
 <attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
 <attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
 <attribute name="PACKAGE" value="1206 (3216 Metric)" constant="no"/>
+<attribute name="PART_NUMBER" value="ERJ-8GEYJ511V" constant="no"/>
 <attribute name="POWER" value="0.25W, 1/4W" constant="no"/>
 <attribute name="RESISTANCE" value="510" constant="no"/>
 <attribute name="SERIES" value="ERJ" constant="no"/>
@@ -667,13 +724,17 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="TOLERANCE" value="5%" constant="no"/>
 </technology>
 <technology name="YK126V">
+<attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" constant="no"/>
 <attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
 <attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
 <attribute name="PACKAGE" value="1206 (3216 Metric)" constant="no"/>
+<attribute name="PART_NUMBER" value="" constant="no"/>
 <attribute name="POWER" value="0.25W, 1/4W" constant="no"/>
 <attribute name="RESISTANCE" value="12M" constant="no"/>
 <attribute name="SERIES" value="ERJ" constant="no"/>
@@ -690,13 +751,17 @@ For attribution, please provide a link in any documentation or design files to t
 </connects>
 <technologies>
 <technology name="NF1271U">
+<attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
+<attribute name="DESCRIPTION" value="RES SMD 1.27K OHM 1% 1/2W 1210" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
-<attribute name="NUMBER_OF_TERMINATIONS" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" constant="no"/>
+<attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
 <attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
 <attribute name="PACKAGE" value="1210 (3225 Metric)" constant="no"/>
+<attribute name="PART_NUMBER" value="ERJ-14NF1271U" constant="no"/>
 <attribute name="POWER" value="0.5, 1/2W" constant="no"/>
 <attribute name="RESISTANCE" value="1.27k" constant="no"/>
 <attribute name="SERIES" value="ERJ" constant="no"/>
@@ -706,13 +771,17 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 </technology>
 <technology name="YJ122U">
+<attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
+<attribute name="DESCRIPTION" value="RES SMD 1.2K OHM 5% 1/2W 1210" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" constant="no"/>
 <attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
 <attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
 <attribute name="PACKAGE" value="1210 (3225 Metric)" constant="no"/>
+<attribute name="PART_NUMBER" value="ERJ-14YJ122U" constant="no"/>
 <attribute name="POWER" value="0.5, 1/2W" constant="no"/>
 <attribute name="RESISTANCE" value="1.2k" constant="no"/>
 <attribute name="SERIES" value="ERJ" constant="no"/>
@@ -722,13 +791,17 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="TOLERANCE" value="5%" constant="no"/>
 </technology>
 <technology name="YJ155U">
+<attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
+<attribute name="DESCRIPTION" value="RES SMD 1.5M OHM 5% 1/2W 1210" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" constant="no"/>
 <attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
 <attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
 <attribute name="PACKAGE" value="1210 (3225 Metric)" constant="no"/>
+<attribute name="PART_NUMBER" value="ERJ-14YJ155U" constant="no"/>
 <attribute name="POWER" value="0.5, 1/2W" constant="no"/>
 <attribute name="RESISTANCE" value="1.5M" constant="no"/>
 <attribute name="SERIES" value="ERJ" constant="no"/>
@@ -745,22 +818,85 @@ For attribution, please provide a link in any documentation or design files to t
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="F1504V">
+<technology name="F1303V">
 <attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
+<attribute name="DESCRIPTION" value="RES SMD 130K OHM 1% 1/4W 1206" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" constant="no"/>
 <attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
-<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55°C ~ 155°C" constant="no"/>
 <attribute name="PACKAGE" value="1206 (3216 Metric)" constant="no"/>
+<attribute name="PART_NUMBER" value="ERJ-8ENF1303V" constant="no"/>
+<attribute name="POWER" value="0.25W, 1/4W" constant="no"/>
+<attribute name="RESISTANCE" value="130k" constant="no"/>
+<attribute name="SERIES" value="ERJ" constant="no"/>
+<attribute name="SIZE" value="0.126&quot; L x 0.063&quot; W (3.20mm x 1.60mm)" constant="no"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="1206" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="±100ppm/°C" constant="no"/>
+<attribute name="TOLERANCE" value="±1%" constant="no"/>
+</technology>
+<technology name="F1504V">
+<attribute name="CATEGORY" value="Resistors" constant="no"/>
+<attribute name="COMPOSITION" value="Thick Film" constant="no"/>
+<attribute name="DESCRIPTION" value="RES SMD 1.5M OHM 1% 1/4W 1206" constant="no"/>
+<attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
+<attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
+<attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" constant="no"/>
+<attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55°C ~ 155°C" constant="no"/>
+<attribute name="PACKAGE" value="1206 (3216 Metric)" constant="no"/>
+<attribute name="PART_NUMBER" value="ERJ-8ENF1504V" constant="no"/>
 <attribute name="POWER" value="0.25W, 1/4W" constant="no"/>
 <attribute name="RESISTANCE" value="1.5M" constant="no"/>
 <attribute name="SERIES" value="ERJ" constant="no"/>
 <attribute name="SIZE" value="0.126&quot; L x 0.063&quot; W (3.20mm x 1.60mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="1206" constant="no"/>
-<attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
-<attribute name="TOLERANCE" value="1%" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="±100ppm/°C" constant="no"/>
+<attribute name="TOLERANCE" value="±1%" constant="no"/>
+</technology>
+<technology name="F1693V">
+<attribute name="CATEGORY" value="Resistors" constant="no"/>
+<attribute name="COMPOSITION" value="Thick Film" constant="no"/>
+<attribute name="DESCRIPTION" value="RES SMD 169K OHM 1% 1/4W 1206" constant="no"/>
+<attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
+<attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
+<attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" constant="no"/>
+<attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55°C ~ 155°C" constant="no"/>
+<attribute name="PACKAGE" value="1206 (3216 Metric)" constant="no"/>
+<attribute name="PART_NUMBER" value="ERJ-8ENF1693V" constant="no"/>
+<attribute name="POWER" value="0.25W, 1/4W" constant="no"/>
+<attribute name="RESISTANCE" value="169k" constant="no"/>
+<attribute name="SERIES" value="ERJ" constant="no"/>
+<attribute name="SIZE" value="0.126&quot; L x 0.063&quot; W (3.20mm x 1.60mm)" constant="no"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="1206" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="±100ppm/°C" constant="no"/>
+<attribute name="TOLERANCE" value="±1%" constant="no"/>
+</technology>
+<technology name="F5103V">
+<attribute name="CATEGORY" value="Resistors" constant="no"/>
+<attribute name="COMPOSITION" value="Thick Film" constant="no"/>
+<attribute name="DESCRIPTION" value="RES SMD 510K OHM 1% 1/4W 1206" constant="no"/>
+<attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
+<attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
+<attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" constant="no"/>
+<attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55°C ~ 155°C" constant="no"/>
+<attribute name="PACKAGE" value="1206 (3216 Metric)" constant="no"/>
+<attribute name="PART_NUMBER" value="ERJ-8ENF5103V" constant="no"/>
+<attribute name="POWER" value="0.25W, 1/4W" constant="no"/>
+<attribute name="RESISTANCE" value="510k" constant="no"/>
+<attribute name="SERIES" value="ERJ" constant="no"/>
+<attribute name="SIZE" value="0.126&quot; L x 0.063&quot; W (3.20mm x 1.60mm)" constant="no"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="1206" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="±100ppm/°C" constant="no"/>
+<attribute name="TOLERANCE" value="±1%" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -773,12 +909,15 @@ For attribution, please provide a link in any documentation or design files to t
 <technology name="YJ435V">
 <attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
+<attribute name="DESCRIPTION" value="RES SMD 4.3M OHM 5% 1/10W 0603" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.022&quot; (0.55mm)" constant="no"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" constant="no"/>
 <attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
 <attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
 <attribute name="PACKAGE" value="0603 (1608 Metric)" constant="no"/>
+<attribute name="PART_NUMBER" value="ERJ-3GEYJ435V" constant="no"/>
 <attribute name="POWER" value="0.1, 1/10W" constant="no"/>
 <attribute name="RESISTANCE" value="4.3M" constant="no"/>
 <attribute name="SERIES" value="ERJ" constant="no"/>
@@ -798,12 +937,15 @@ For attribution, please provide a link in any documentation or design files to t
 <technology name="F2401V">
 <attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
+<attribute name="DESCRIPTION" value="RES SMD 2.4K OHM 1% 1/2W 0805" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200, Pulse Withstanding" constant="no"/>
 <attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" constant="no"/>
 <attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
 <attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
 <attribute name="PACKAGE" value="0805 (2012 Metric)" constant="no"/>
+<attribute name="PART_NUMBER" value="ERJ-P06F2401V" constant="no"/>
 <attribute name="POWER" value="0.5W, 1/2W" constant="no"/>
 <attribute name="RESISTANCE" value="2.4k" constant="no"/>
 <attribute name="SERIES" value="ERJ" constant="no"/>
