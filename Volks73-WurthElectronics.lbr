@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -137,18 +137,24 @@ It is recommended that the temperature of the part does not exceed 125&lt;sup&gt
 </connects>
 <technologies>
 <technology name="047">
+<attribute name="CATEGORY" value="Inductors, Coils, Chokes" constant="no"/>
 <attribute name="CURRENT-SATURATION" value="19A" constant="no"/>
 <attribute name="CURRENT_RATING" value="7A" constant="no"/>
 <attribute name="DC_RESISTANCE" value="15.5mOhm Max" constant="no"/>
+<attribute name="DESCRIPTION" value="FIXED IND 4.7UH 7A 15.5 MOHM SMD" constant="no"/>
+<attribute name="FAMILY" value="Fixed Inductors" constant="no"/>
 <attribute name="FREQUENCY-SELF_RESONANAT" value="16MHz" constant="no"/>
 <attribute name="FREQUENCY_TEST" value="100kHz" constant="no"/>
 <attribute name="HEIGHT-SEATED" value="0.157&quot; (4.00mm)" constant="no"/>
 <attribute name="INDUCTANCE" value="4.7uH" constant="no"/>
+<attribute name="MANUFACTURER" value="Wurth Electronics Inc" constant="no"/>
 <attribute name="MATERIAL-CORE" value="-" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Surface Mount" constant="no"/>
 <attribute name="OPERATING_TEMPERATURE" value="-40C ~ 125C" constant="no"/>
 <attribute name="PACKAGE" value="Nonstandard" constant="no"/>
+<attribute name="PART_NUMBER" value="74437368047" constant="no"/>
 <attribute name="Q_FREQ" value="-" constant="no"/>
+<attribute name="SERIES" value="WE-LHMI" constant="no"/>
 <attribute name="SHEILDING" value="Shielded" constant="no"/>
 <attribute name="SIZE" value="0.433&quot; L x 0.394&quot; W (11.00mm x 10.00mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="-" constant="no"/>
