@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -212,97 +212,145 @@ The CFR Series Carbon Film Resistors are manufactured by coating a homogeneous f
 </connects>
 <technologies>
 <technology name="JB-52-10K">
+<attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Carbon Film" constant="no"/>
+<attribute name="DESCRIPTION" value="RES 10K OHM 1/4W 5% AXIAL" constant="no"/>
+<attribute name="FAMILY" value="Through Hole Resistors" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="HEIGHT" value="-" constant="no"/>
+<attribute name="MANUFACTURER" value="Yageo" constant="no"/>
 <attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
 <attribute name="PACKAGE" value="Axial" constant="no"/>
+<attribute name="PART_NUMBER" value="CFR-25JB-52-10K" constant="no"/>
 <attribute name="POWER" value="0.25W, 1/4W" constant="no"/>
 <attribute name="RESISTANCE" value="10k" constant="no"/>
+<attribute name="SERIES" value="CFR" constant="no"/>
 <attribute name="SIZE" value="0.094&quot; Dia x 0.248&quot; L (2.40mm x 6.30mm)" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="350ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="5%" constant="no"/>
 </technology>
 <technology name="JB-52-240R">
+<attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Carbon Film" constant="no"/>
+<attribute name="DESCRIPTION" value="RES 240 OHM 1/4W 5% AXIAL" constant="no"/>
+<attribute name="FAMILY" value="Through Hole Resistors" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="HEIGHT" value="-" constant="no"/>
+<attribute name="MANUFACTURER" value="Yageo" constant="no"/>
 <attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
 <attribute name="PACKAGE" value="Axial" constant="no"/>
+<attribute name="PART_NUMBER" value="CFR-25JB-52-240R" constant="no"/>
 <attribute name="POWER" value="0.25W, 1/4W" constant="no"/>
 <attribute name="RESISTANCE" value="240" constant="no"/>
+<attribute name="SERIES" value="CFR" constant="no"/>
 <attribute name="SIZE" value="0.094&quot; Dia x 0.248&quot; L (2.40mm x 6.30mm)" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="350ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="5%" constant="no"/>
 </technology>
 <technology name="JB-52-270R">
+<attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Carbon Film" constant="no"/>
+<attribute name="DESCRIPTION" value="RES 270 OHM 1/4W 5% AXIAL" constant="no"/>
+<attribute name="FAMILY" value="Through Hole Resistors" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="HEIGHT" value="-" constant="no"/>
+<attribute name="MANUFACTURER" value="Yageo" constant="no"/>
 <attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
 <attribute name="PACKAGE" value="Axial" constant="no"/>
+<attribute name="PART_NUMBER" value="CFR-25JB-52-270R" constant="no"/>
 <attribute name="POWER" value="0.25W, 1/4W" constant="no"/>
 <attribute name="RESISTANCE" value="270" constant="no"/>
+<attribute name="SERIES" value="CFR" constant="no"/>
 <attribute name="SIZE" value="0.094&quot; Dia x 0.248&quot; L (2.40mm x 6.30mm)" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="350ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="5%" constant="no"/>
 </technology>
 <technology name="JB-52-470R">
+<attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Carbon Film" constant="no"/>
+<attribute name="DESCRIPTION" value="RES 470 OHM 1/4W 5% AXIAL" constant="no"/>
+<attribute name="FAMILY" value="Through Hole Resistors" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="HEIGHT" value="-" constant="no"/>
+<attribute name="MANUFACTURER" value="Yageo" constant="no"/>
 <attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
 <attribute name="PACKAGE" value="Axial" constant="no"/>
+<attribute name="PART_NUMBER" value="CFR-25JB-52-470R" constant="no"/>
 <attribute name="POWER" value="0.25W, 1/4W" constant="no"/>
 <attribute name="RESISTANCE" value="470" constant="no"/>
+<attribute name="SERIES" value="CFR" constant="no"/>
 <attribute name="SIZE" value="0.094&quot; Dia x 0.248&quot; L (2.40mm x 6.30mm)" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="350ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="5%" constant="no"/>
 </technology>
 <technology name="JB-52-4K7">
+<attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Carbon Film" constant="no"/>
+<attribute name="DESCRIPTION" value="RES 4.7K OHM 1/4W 5% AXIAL" constant="no"/>
+<attribute name="FAMILY" value="Through Hole Resistors" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="HEIGHT" value="-" constant="no"/>
+<attribute name="MANUFACTURER" value="Yageo" constant="no"/>
 <attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
 <attribute name="PACKAGE" value="Axial" constant="no"/>
+<attribute name="PART_NUMBER" value="CFR-25JB-52-4K7" constant="no"/>
 <attribute name="POWER" value="0.25W, 1/4W" constant="no"/>
 <attribute name="RESISTANCE" value="4.7k" constant="no"/>
+<attribute name="SERIES" value="CFR" constant="no"/>
 <attribute name="SIZE" value="0.094&quot; Dia x 0.248&quot; L (2.40mm x 6.30mm)" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="350ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="5%" constant="no"/>
 </technology>
 <technology name="JB-52-510K">
+<attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Carbon Film" constant="no"/>
+<attribute name="DESCRIPTION" value="RES 510K OHM 1/4W 5% AXIAL" constant="no"/>
+<attribute name="FAMILY" value="Through Hole Resistors" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="HEIGHT" value="-" constant="no"/>
+<attribute name="MANUFACTURER" value="Yageo" constant="no"/>
 <attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
 <attribute name="PACKAGE" value="Axial" constant="no"/>
+<attribute name="PART_NUMBER" value="CFR-25JB-52-510K" constant="no"/>
 <attribute name="POWER" value="0.25W, 1/4W" constant="no"/>
 <attribute name="RESISTANCE" value="510k" constant="no"/>
+<attribute name="SERIES" value="CFR" constant="no"/>
 <attribute name="SIZE" value="0.094&quot; Dia x 0.248&quot; L (2.40mm x 6.30mm)" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="350ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="5%" constant="no"/>
 </technology>
 <technology name="JB-52-510R">
+<attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Carbon Film" constant="no"/>
+<attribute name="DESCRIPTION" value="RES 510 OHM 1/4W 5% AXIAL" constant="no"/>
+<attribute name="FAMILY" value="Through Hole Resistors" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="HEIGHT" value="-" constant="no"/>
+<attribute name="MANUFACTURER" value="Yageo" constant="no"/>
 <attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
 <attribute name="PACKAGE" value="Axial" constant="no"/>
+<attribute name="PART_NUMBER" value="CFR-25JB-52-510R" constant="no"/>
 <attribute name="POWER" value="0.25W, 1/4W" constant="no"/>
 <attribute name="RESISTANCE" value="510" constant="no"/>
+<attribute name="SERIES" value="CFR" constant="no"/>
 <attribute name="SIZE" value="0.094&quot; Dia x 0.248&quot; L (2.40mm x 6.30mm)" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="350ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="5%" constant="no"/>
 </technology>
 <technology name="JB-52-820R">
+<attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Carbon Film" constant="no"/>
+<attribute name="DESCRIPTION" value="RES 820 OHM 1/4W 5% AXIAL" constant="no"/>
+<attribute name="FAMILY" value="Through Hole Resistors" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="HEIGHT" value="-" constant="no"/>
+<attribute name="MANUFACTURER" value="Yageo" constant="no"/>
 <attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
 <attribute name="PACKAGE" value="Axial" constant="no"/>
+<attribute name="PART_NUMBER" value="CFR-25JB-52-820R" constant="no"/>
 <attribute name="POWER" value="0.25W, 1/4W" constant="no"/>
 <attribute name="RESISTANCE" value="820" constant="no"/>
+<attribute name="SERIES" value="CFR" constant="no"/>
 <attribute name="SIZE" value="0.094&quot; Dia x 0.248&quot; L (2.40mm x 6.30mm)" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="350ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="5%" constant="no"/>
@@ -316,14 +364,20 @@ The CFR Series Carbon Film Resistors are manufactured by coating a homogeneous f
 </connects>
 <technologies>
 <technology name="JB-52-2K4">
+<attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Carbon Film" constant="no"/>
+<attribute name="DESCRIPTION" value="RES 2.4K OHM 1/2W 5% AXIAL" constant="no"/>
+<attribute name="FAMILY" value="Through Hole Resistors" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="HEIGHT" value="-" constant="no"/>
+<attribute name="MANUFACTURER" value="Yageo" constant="no"/>
 <attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
 <attribute name="OPERATING_TEMPEATURE" value="-55C ~ 155C" constant="no"/>
 <attribute name="PACKAGE" value="Axial" constant="no"/>
+<attribute name="PART_NUMBER" value="CFR-50JB-52-2K4" constant="no"/>
 <attribute name="POWER" value="0.5W, 1/2W" constant="no"/>
 <attribute name="RESISTANCE" value="2.4k" constant="no"/>
+<attribute name="SERIES" value="CFR" constant="no"/>
 <attribute name="SIZE" value="0.130&quot; Dia x 0.354&quot; L (3.30mm x 9.00mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="Axial" constant="no"/>
 <attribute name="TEMPEATURE_COEFFICIENT" value="350ppm/C" constant="no"/>
