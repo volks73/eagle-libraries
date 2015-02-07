@@ -184,14 +184,20 @@ For attribution, please provide a link in any documentation or design files to t
 </connects>
 <technologies>
 <technology name="FAL3M00">
+<attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Metal Film" constant="no"/>
+<attribute name="DESCRIPTION" value="RES MF HV .25W 3M OHM 1% AXIAL" constant="no"/>
+<attribute name="FAMILY" value="Through Hole Resistors" constant="no"/>
 <attribute name="FEATURES" value="Flame Retardant Coating, Moisture Resistant, Pulse Withstanding" constant="no"/>
 <attribute name="HEIGHT" value="-" constant="no"/>
+<attribute name="MANUFACTURER" value="Stackpole Electronics Inc" constant="no"/>
 <attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
 <attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
 <attribute name="PACKAGE" value="Axial" constant="no"/>
+<attribute name="PART_NUMBER" value="RNV14FAL3M00" constant="no"/>
 <attribute name="POWER" value="0.25W, 1/4W" constant="no"/>
 <attribute name="RESISTANCE" value="3M" constant="no"/>
+<attribute name="SERIES" value="RNV" constant="no"/>
 <attribute name="SIZE" value="0.094&quot; Dia x 0.236&quot; L (2.40mm x 6.00mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="Axial" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="200ppm/C" constant="no"/>
