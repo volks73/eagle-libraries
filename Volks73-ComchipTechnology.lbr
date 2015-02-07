@@ -154,79 +154,22 @@ For attribution, please provide a link in any documentation or design files to t
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name="100-G">
-<attribute name="CAPACITANCE" value="-" constant="no"/>
-<attribute name="CURRENT-AVERAGE_RECTIFIED" value="5A" constant="no"/>
-<attribute name="CURRENT-REVERSE_LEAKAGE" value="500uA @ 40V" constant="no"/>
-<attribute name="DIODE_TYPE" value="Schottky" constant="no"/>
-<attribute name="MOUNTING_TYPE" value="Surface Mount" constant="no"/>
-<attribute name="OPERATING_TEMPERATURE-JUNCTION" value="-40C ~ 125C" constant="no"/>
-<attribute name="PACKAGE" value="DO-214AB, SMC" constant="no"/>
-<attribute name="REVERSE_RECOVERY-TIME" value="-" constant="no"/>
-<attribute name="SERIES" value="-" constant="no"/>
-<attribute name="SPEED" value="Fast Recovery =&lt; 500ns, &gt; 200mA (Io)" constant="no"/>
-<attribute name="SUPPLIER_DEVICE_PACKAGE" value="DO-214AB, (SMC)" constant="no"/>
-<attribute name="VOLTAGE-DC_REVERSE" value="100V" constant="no"/>
-<attribute name="VOLTAGE-FORWARD" value="550mV @ 5A" constant="no"/>
-</technology>
-<technology name="20-G">
-<attribute name="CAPACITANCE" value="-" constant="no"/>
-<attribute name="CURRENT-AVERAGE_RECTIFIED" value="5A" constant="no"/>
-<attribute name="CURRENT-REVERSE_LEAKAGE" value="500uA @ 40V" constant="no"/>
-<attribute name="DIODE_TYPE" value="Schottky" constant="no"/>
-<attribute name="MOUNTING_TYPE" value="Surface Mount" constant="no"/>
-<attribute name="OPERATING_TEMPERATURE-JUNCTION" value="-40C ~ 125C" constant="no"/>
-<attribute name="PACKAGE" value="DO-214AB, SMC" constant="no"/>
-<attribute name="REVERSE_RECOVERY-TIME" value="-" constant="no"/>
-<attribute name="SERIES" value="-" constant="no"/>
-<attribute name="SPEED" value="Fast Recovery =&lt; 500ns, &gt; 200mA (Io)" constant="no"/>
-<attribute name="SUPPLIER_DEVICE_PACKAGE" value="DO-214AB, (SMC)" constant="no"/>
-<attribute name="VOLTAGE-DC_REVERSE" value="20V" constant="no"/>
-<attribute name="VOLTAGE-FORWARD" value="550mV @ 5A" constant="no"/>
-</technology>
 <technology name="40-G">
 <attribute name="CAPACITANCE" value="-" constant="no"/>
 <attribute name="CURRENT-AVERAGE_RECTIFIED" value="5A" constant="no"/>
 <attribute name="CURRENT-REVERSE_LEAKAGE" value="500uA @ 40V" constant="no"/>
+<attribute name="DESCRIPTION" value="DIODE SCHOTTKY 40V 5A DO214AB" constant="no"/>
 <attribute name="DIODE_TYPE" value="Schottky" constant="no"/>
+<attribute name="MANUFACTURER" value="Comchip Technology" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Surface Mount" constant="no"/>
 <attribute name="OPERATING_TEMPERATURE-JUNCTION" value="-40C ~ 125C" constant="no"/>
 <attribute name="PACKAGE" value="DO-214AB, SMC" constant="no"/>
+<attribute name="PART_NUMBER" value="CDBC540-G" constant="no"/>
 <attribute name="REVERSE_RECOVERY-TIME" value="-" constant="no"/>
 <attribute name="SERIES" value="-" constant="no"/>
 <attribute name="SPEED" value="Fast Recovery =&lt; 500ns, &gt; 200mA (Io)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="DO-214AB, (SMC)" constant="no"/>
 <attribute name="VOLTAGE-DC_REVERSE" value="40V" constant="no"/>
-<attribute name="VOLTAGE-FORWARD" value="550mV @ 5A" constant="no"/>
-</technology>
-<technology name="60-G">
-<attribute name="CAPACITANCE" value="-" constant="no"/>
-<attribute name="CURRENT-AVERAGE_RECTIFIED" value="5A" constant="no"/>
-<attribute name="CURRENT-REVERSE_LEAKAGE" value="500uA @ 40V" constant="no"/>
-<attribute name="DIODE_TYPE" value="Schottky" constant="no"/>
-<attribute name="MOUNTING_TYPE" value="Surface Mount" constant="no"/>
-<attribute name="OPERATING_TEMPERATURE-JUNCTION" value="-40C ~ 125C" constant="no"/>
-<attribute name="PACKAGE" value="DO-214AB, SMC" constant="no"/>
-<attribute name="REVERSE_RECOVERY-TIME" value="-" constant="no"/>
-<attribute name="SERIES" value="-" constant="no"/>
-<attribute name="SPEED" value="Fast Recovery =&lt; 500ns, &gt; 200mA (Io)" constant="no"/>
-<attribute name="SUPPLIER_DEVICE_PACKAGE" value="DO-214AB, (SMC)" constant="no"/>
-<attribute name="VOLTAGE-DC_REVERSE" value="60V" constant="no"/>
-<attribute name="VOLTAGE-FORWARD" value="550mV @ 5A" constant="no"/>
-</technology>
-<technology name="80-G">
-<attribute name="CAPACITANCE" value="-" constant="no"/>
-<attribute name="CURRENT-AVERAGE_RECTIFIED" value="5A" constant="no"/>
-<attribute name="CURRENT-REVERSE_LEAKAGE" value="500uA @ 40V" constant="no"/>
-<attribute name="DIODE_TYPE" value="Schottky" constant="no"/>
-<attribute name="MOUNTING_TYPE" value="Surface Mount" constant="no"/>
-<attribute name="OPERATING_TEMPERATURE-JUNCTION" value="-40C ~ 125C" constant="no"/>
-<attribute name="PACKAGE" value="DO-214AB, SMC" constant="no"/>
-<attribute name="REVERSE_RECOVERY-TIME" value="-" constant="no"/>
-<attribute name="SERIES" value="-" constant="no"/>
-<attribute name="SPEED" value="Fast Recovery =&lt; 500ns, &gt; 200mA (Io)" constant="no"/>
-<attribute name="SUPPLIER_DEVICE_PACKAGE" value="DO-214AB, (SMC)" constant="no"/>
-<attribute name="VOLTAGE-DC_REVERSE" value="80V" constant="no"/>
 <attribute name="VOLTAGE-FORWARD" value="550mV @ 5A" constant="no"/>
 </technology>
 </technologies>

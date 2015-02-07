@@ -570,7 +570,7 @@ For attribution, please provide a link in any documentation or design files to t
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="3-PIN_HEADER-*_?" prefix="JP">
+<deviceset name="3-PIN_HEADER-*_?" prefix="J">
 <description>&lt;h1&gt;3-Pin Male Header&lt;/h1&gt;
 &lt;h3&gt;Ordering Information&lt;/h3&gt;
 &lt;table&gt;
@@ -640,7 +640,7 @@ For attribution, please provide a link in any documentation or design files to t
 </device>
 </devices>
 </deviceset>
-<deviceset name="5-PIN_HEADER-*_?" prefix="JP">
+<deviceset name="5-PIN_HEADER-*_?" prefix="J">
 <description>&lt;h1&gt;5-Pin Male Header&lt;/h1&gt;
 &lt;h3&gt;Ordering Information&lt;/h3&gt;
 &lt;table&gt;
@@ -712,7 +712,7 @@ For attribution, please provide a link in any documentation or design files to t
 </device>
 </devices>
 </deviceset>
-<deviceset name="2-PIN_HEADER-*_?" prefix="JP">
+<deviceset name="2-PIN_HEADER-*_?" prefix="J">
 <description>&lt;h1&gt;2-Pin Male Header&lt;/h1&gt;
 &lt;h3&gt;Ordering Information&lt;/h3&gt;
 &lt;table&gt;
@@ -837,7 +837,7 @@ For attribution, please provide a link in any documentation or design files to t
 </device>
 </devices>
 </deviceset>
-<deviceset name="6-PIN_HEADER-*_?" prefix="JP">
+<deviceset name="6-PIN_HEADER-*_?" prefix="J">
 <description>&lt;h1&gt;6-Pin Male Header&lt;/h1&gt;
 &lt;h3&gt;Ordering Information&lt;/h3&gt;
 &lt;table&gt;
@@ -880,7 +880,7 @@ For attribution, please provide a link in any documentation or design files to t
 </device>
 </devices>
 </deviceset>
-<deviceset name="4-PIN_HEADER-*_?" prefix="JP">
+<deviceset name="4-PIN_HEADER-*_?" prefix="J">
 <description>&lt;h1&gt;4-Pin Male Header&lt;/h1&gt;
 &lt;h3&gt;Ordering Information&lt;/h3&gt;
 &lt;table&gt;

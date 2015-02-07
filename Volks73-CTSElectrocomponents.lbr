@@ -247,9 +247,12 @@ Surface Mount Multi-Functional DIP Switch IR Solderable, PCB Washable
 <attribute name="ACTUATOR_TYPE" value="Standard" constant="no"/>
 <attribute name="CIRCUIT" value="DPST" constant="no"/>
 <attribute name="CONTACT_RATING" value="0.05A @ 24VDC" constant="no"/>
+<attribute name="DESCRIPTION" value="SWITCH DIP DPST 1POS SMT 50V" constant="no"/>
+<attribute name="MANUFACTURER" value="CTS Electrocomponents" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Surface Mount" constant="no"/>
 <attribute name="NUMBER_OF_POSITIONS" value="1" constant="no"/>
 <attribute name="ORIENTATION" value="Top Actuated" constant="no"/>
+<attribute name="PART_NUMBER" value="204-211ST" constant="no"/>
 <attribute name="WASHABLE" value="Yes" constant="no"/>
 </technology>
 </technologies>

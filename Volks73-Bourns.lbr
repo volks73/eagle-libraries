@@ -149,7 +149,7 @@ For attribution, please provide a link in any documentation or design files to t
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MF-MSMF*?" prefix="FUSE" uservalue="yes">
+<deviceset name="MF-MSMF*?" prefix="F" uservalue="yes">
 <description>&lt;h1&gt;PTC Resettable Fuse&lt;/h1&gt;
 &lt;h3&gt;Documentation&lt;/h3&gt;
 &lt;ul&gt;
@@ -184,8 +184,11 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CATEGORY" value="Circuit Protection" constant="no"/>
 <attribute name="CURRENT-MAX" value="40A" constant="no"/>
 <attribute name="CURRENT-TRIP" value="1.5A" constant="no"/>
+<attribute name="DESCRIPTION" value="PTC RESETTABLE .75A 24V 1812" constant="no"/>
 <attribute name="FAMILY" value="PTC Resettable Fuses" constant="no"/>
+<attribute name="MANUFACTURER" value="Bourns Inc." constant="no"/>
 <attribute name="PACKAGE" value="1812 (4532 Metric), Concave" constant="no"/>
+<attribute name="PART_NUMBER" value="MF-MSMF075/24-2" constant="no"/>
 <attribute name="R_MINMAX" value="0.11 ~ 0.450 Ohm" constant="no"/>
 <attribute name="SERIES" value="MF-MSMF" constant="no"/>
 <attribute name="TIME_TO_TRIP" value="0.2s" constant="no"/>

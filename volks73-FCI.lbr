@@ -443,7 +443,7 @@ For attribution, please provide a link in any documentation or design files to t
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="68000-101*" prefix="JP">
+<deviceset name="68000-101*" prefix="J">
 <description>&lt;h1&gt;1-Pin Male Header&lt;/h1&gt;
 &lt;h2&gt;Vertical, Single Row&lt;/h2&gt;
 &lt;h3&gt;Documentation&lt;/h3&gt;
@@ -471,12 +471,15 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CONTACT_FINISH_THICKNESS" value="30uin (0.75um)" constant="no"/>
 <attribute name="CONTACT_MATING_LENGTH" value="0.230&quot; (5.84mm)" constant="no"/>
 <attribute name="CONTACT_TYPE" value="Male Pin" constant="no"/>
+<attribute name="DESCRIPTION" value="BERGSTIK II .100&quot; SR STRAIGHT" constant="no"/>
 <attribute name="FASTENING_TYPE" value="-" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
+<attribute name="MANUFACTURER" value="FCI" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
 <attribute name="NUMBER_OF_POSITIONS" value="1" constant="no"/>
 <attribute name="NUMBER_OF_POSITIONS_LOADED" value="All" constant="no"/>
 <attribute name="NUMBER_OF_ROWS" value="1" constant="no"/>
+<attribute name="PART_NUMBER" value="68000-101HLF" constant="no"/>
 <attribute name="PITCH" value="-" constant="no"/>
 <attribute name="ROW_SPACING" value="-" constant="no"/>
 <attribute name="SERIES" value="BERGSTIK-II, MezzSeelct, Basics+" constant="no"/>
@@ -486,7 +489,7 @@ For attribution, please provide a link in any documentation or design files to t
 </device>
 </devices>
 </deviceset>
-<deviceset name="68016-204*" prefix="JP">
+<deviceset name="68016-204*" prefix="J">
 <description>&lt;h1&gt;4-Pin Male Header&lt;/h1&gt;
 &lt;h3&gt;Ordering Information&lt;/h3&gt;
 &lt;table&gt;
@@ -512,12 +515,15 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CONTACT_FINISH_THICKNESS" value="15uin (0.38um)" constant="no"/>
 <attribute name="CONTACT_MATING_LENGTH" value="0.230&quot; (5.84mm)" constant="no"/>
 <attribute name="CONTACT_TYPE" value="Male Pin" constant="no"/>
+<attribute name="DESCRIPTION" value="CONN HEADER 4POS .100 R/A 15AU" constant="no"/>
 <attribute name="FASTENING_TYPE" value="-" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
+<attribute name="MANUFACTURER" value="FCI" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Through Hole, Right Angle" constant="no"/>
 <attribute name="NUMBER_OF_POSITIONS" value="4" constant="no"/>
 <attribute name="NUMBER_OF_POSITION_LOADED" value="All" constant="no"/>
 <attribute name="NUMBER_OF_ROWS" value="1" constant="no"/>
+<attribute name="PART_NUMBER" value="68016-204HLF" constant="no"/>
 <attribute name="PITCH" value="0.100&quot; (2.54mm)" constant="no"/>
 <attribute name="ROW_SPACING" value="-" constant="no"/>
 <attribute name="SERIES" value="BERGSTIK-II, MezzSelect, Basics+" constant="no"/>
@@ -527,7 +533,7 @@ For attribution, please provide a link in any documentation or design files to t
 </device>
 </devices>
 </deviceset>
-<deviceset name="68016-205*" prefix="JP">
+<deviceset name="68016-205*" prefix="J">
 <description>&lt;h1&gt;5-Pin Male Header&lt;/h1&gt;
 &lt;h3&gt;Ordering Information&lt;/h3&gt;
 &lt;table&gt;
@@ -554,12 +560,15 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CONTACT_FINISH_THICKNESS" value="15uin (0.38um)" constant="no"/>
 <attribute name="CONTACT_MATING_LENGTH" value="0.230&quot; (5.84mm)" constant="no"/>
 <attribute name="CONTACT_TYPE" value="Male Pin" constant="no"/>
+<attribute name="DESCRIPTION" value="CONN HEADER 5POS R/A .100 GOLD" constant="no"/>
 <attribute name="FASTENING_TYPE" value="-" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
+<attribute name="MANUFACTURER" value="FCI" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Through Hole, Right Angle" constant="no"/>
 <attribute name="NUMBER_OF_POSITIONS" value="5" constant="no"/>
 <attribute name="NUMBER_OF_POSITIONS_LOADED" value="All" constant="no"/>
 <attribute name="NUMBER_OF_ROWS" value="1" constant="no"/>
+<attribute name="PART_NUMBER" value="68016-205HLF" constant="no"/>
 <attribute name="PITCH" value="0.100&quot; (2.54mm)" constant="no"/>
 <attribute name="ROW_SPACING" value="-" constant="no"/>
 <attribute name="SERIES" value="BERGSTIK II, MezzSelect, Basics+" constant="no"/>
@@ -569,7 +578,7 @@ For attribution, please provide a link in any documentation or design files to t
 </device>
 </devices>
 </deviceset>
-<deviceset name="68016-203*" prefix="JP">
+<deviceset name="68016-203*" prefix="J">
 <description>&lt;h1&gt;3-Pin Male Header&lt;/h1&gt;
 &lt;h3&gt;Ordering Information&lt;/h3&gt;
 &lt;table&gt;
@@ -596,13 +605,16 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CONTACT_FINISH_THICKNESS" value="15uin (0.38um)" constant="no"/>
 <attribute name="CONTACT_MATING_LENGTH" value="0.230&quot; (5.84mm)" constant="no"/>
 <attribute name="CONTACT_TYPE" value="Male Pin" constant="no"/>
+<attribute name="DESCRIPTION" value="BS II SNGL" constant="no"/>
 <attribute name="FAMILY" value="Rectangular Connectors - Headers, Male Pins" constant="no"/>
 <attribute name="FASTENING_TYPE" value="-" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
+<attribute name="MANUFACTURER" value="FCI" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Through Hole, Right Angle" constant="no"/>
 <attribute name="NUMBER_OF_POSITIONS" value="3" constant="no"/>
 <attribute name="NUMBER_OF_POSITIONS_LOADED" value="All" constant="no"/>
 <attribute name="NUMBER_OF_ROWS" value="1" constant="no"/>
+<attribute name="PART_NUMBER" value="68016-203HLF" constant="no"/>
 <attribute name="PITCH" value="0.100&quot; (2.54mm)" constant="no"/>
 <attribute name="ROW_SPACING" value="-" constant="no"/>
 <attribute name="SERIES" value="BERGSTIK II, MezzSelect, Basics+" constant="no"/>
@@ -612,7 +624,7 @@ For attribution, please provide a link in any documentation or design files to t
 </device>
 </devices>
 </deviceset>
-<deviceset name="68685-?*" prefix="JP">
+<deviceset name="68685-?*" prefix="J">
 <description>&lt;h1&gt;6-Pin Female Header&lt;/h1&gt;
 &lt;h3&gt;Ordering Information&lt;/h3&gt;
 &lt;table&gt;
@@ -639,13 +651,16 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CONTACT_FINISH" value="Gold or Gold GXT" constant="no"/>
 <attribute name="CONTACT_FINISH_THICKNESS" value="30uin (0.76um)" constant="no"/>
 <attribute name="CONTACT_TYPE" value="Female Socket" constant="no"/>
+<attribute name="DESCRIPTION" value="CONN RCPT 6POS .100&quot; SNG ROW" constant="no"/>
 <attribute name="FAMILY" value="Rectangular Connectors - Headers, Receptacles, Female Sockets" constant="no"/>
 <attribute name="FASTENING_TYPE" value="-" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
+<attribute name="MANUFACTURER" value="FCI" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
 <attribute name="NUMBER_OF_POSITIONS" value="6" constant="no"/>
 <attribute name="NUMBER_OF_POSITIONS_LOADED" value="All" constant="no"/>
 <attribute name="NUMBER_OF_ROWS" value="1" constant="no"/>
+<attribute name="PART_NUMBER" value="68685-306LF" constant="no"/>
 <attribute name="PITCH" value="0.100&quot; (2.54mm)" constant="no"/>
 <attribute name="ROW_SPACING" value="-" constant="no"/>
 <attribute name="SERIES" value="DUBOX, MezzSelect, Basics+" constant="no"/>

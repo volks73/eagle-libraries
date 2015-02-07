@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -155,13 +155,16 @@ For attribution, please provide a link in any documentation or design files to t
 <technologies>
 <technology name="6344TRPBF">
 <attribute name="CURRENT-CONTINUOUS_DRAIN" value="5A (Ta)" constant="no"/>
+<attribute name="DESCRIPTION" value="MOSFET N-CH 30V 5A SOT23" constant="no"/>
 <attribute name="DRAIN_TO_SOURCE_VOLTAGE" value="30V" constant="no"/>
 <attribute name="FET_FEATURE" value="Logic Level Gate" constant="no"/>
 <attribute name="FET_TYPE" value="MOSFET N-Channel, Metal Oxide" constant="no"/>
 <attribute name="GATE_CHARGE" value="6.8nC @ 4.5V" constant="no"/>
 <attribute name="INPUT_CAPACITANCE" value="650pF @ 25V" constant="no"/>
+<attribute name="MANUFACTURER" value="International Rectifier" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Surface Mount" constant="no"/>
 <attribute name="PACKAGE" value="TO-236-3, SC-59, SOT-23-3" constant="no"/>
+<attribute name="PART_NUMBER" value="IRLML6344TRPBF" constant="no"/>
 <attribute name="POWER-MAX" value="1.3W" constant="no"/>
 <attribute name="RDS_ON" value="29 mOhm @ 5A, 4.5V" constant="no"/>
 <attribute name="SERIES" value="HEXFET" constant="no"/>

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -56,7 +56,17 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
-<description>&lt;h1&gt;Volks73's Library for ECS, Inc. Parts&lt;/h1&gt;</description>
+<description>&lt;h1&gt;Volks73's Library for ECS, Inc. Parts&lt;/h1&gt;
+&lt;p&gt;
+&lt;a href="https://github.com/volks73/eagle-libraries/"&gt;Repository&lt;/a&gt;
+&lt;/p&gt;
+&lt;h3&gt;Licensing:&lt;/h3&gt; 
+&lt;p&gt;
+Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0), &lt;a href="http://creativecommons.org/licenses/by-sa/3.0/"&gt;http://creativecommons.org/licenses/by-sa/3.0/&lt;/a&gt;. 
+&lt;/p&gt;
+&lt;p&gt;
+For attribution, please provide a link in any documentation or design files to the repository on Github. 
+&lt;/p&gt;</description>
 <packages>
 <package name="HC49">
 <description>&lt;h1&gt;5.00MM Pitch Through Hole&lt;/h1&gt;
@@ -130,6 +140,7 @@
 <technologies>
 <technology name="160-20">
 <attribute name="CATEGORY" value="Crystals and Oscillators" constant="no"/>
+<attribute name="DESCRIPTION" value="CRYSTAL 16MHZ 20PF THRU" constant="no"/>
 <attribute name="ESR" value="40 Ohm" constant="no"/>
 <attribute name="FAMILY" value="Crystals" constant="no"/>
 <attribute name="FREQUENCY" value="16MHz" constant="no"/>
@@ -137,10 +148,12 @@
 <attribute name="FREQUENCY_TOLERANCE" value="30ppm" constant="no"/>
 <attribute name="HEIGHT" value="0.138&quot; (3.50mm)" constant="no"/>
 <attribute name="LOAD_CAPACITANCE" value="20pF" constant="no"/>
+<attribute name="MANUFACTURER" value="ECS Inc" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
 <attribute name="OPERATING_MODE" value="Fundamental" constant="no"/>
 <attribute name="OPERATING_TEMPERATURE" value="-10C ~ 70C" constant="no"/>
 <attribute name="PACKAGE" value="HC49/US" constant="no"/>
+<attribute name="PART_NUMBER" value="ECS-160-20-4X" constant="no"/>
 <attribute name="RATINGS" value="-" constant="no"/>
 <attribute name="SERIES" value="HC-49USX" constant="no"/>
 <attribute name="SIZE" value="0.447&quot; L x 0.183&quot; W (11.35mm x 4.65mm)" constant="no"/>

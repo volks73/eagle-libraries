@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -206,14 +206,17 @@ taped and reeled for auto insertion. The 15 case sizes with wide capacitance and
 <technologies>
 <technology name="106K010">
 <attribute name="CAPACITANCE" value="10uF" constant="no"/>
+<attribute name="DESCRIPTION" value="CAP TANT 10UF 10V 10% RADIAL" constant="no"/>
 <attribute name="ESR" value="5 Ohm" constant="no"/>
 <attribute name="FEATURES" value="General Purpose" constant="no"/>
 <attribute name="HEIGHT" value="0.394&quot; (10.00mm)" constant="no"/>
 <attribute name="LEAD_SPACING" value="0.197&quot; (5.00mm)" constant="no"/>
 <attribute name="LIFETIME" value="1000 Hrs @ 85C" constant="no"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
 <attribute name="OPERATING_TEMPERATURE" value="-55C ~ 125C" constant="no"/>
 <attribute name="PACKAGE" value="Radial" constant="no"/>
+<attribute name="PART_NUMBER" value="TAP106K010CCS" constant="no"/>
 <attribute name="SIZE" value="0.197&quot; Dia (5.00mm)" constant="no"/>
 <attribute name="TYPE" value="Conformal Coated" constant="no"/>
 <attribute name="VOLTAGE-RATED" value="10V" constant="no"/>
@@ -256,13 +259,16 @@ X7R dielectric chip usage covers the broad spectrum of industrial applications w
 <technology name="5C220JAT2A">
 <attribute name="APPLICATIONS" value="General Purpose" constant="no"/>
 <attribute name="CAPACITANCE" value="22pF" constant="no"/>
+<attribute name="DESCRIPTION" value="CAP CER 22PF 50V 5% X7R 0603" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="HEIGHT-SEATED" value="-" constant="no"/>
 <attribute name="LEAD_SPACING" value="-" constant="no"/>
 <attribute name="LEAD_STYLE" value="-" constant="no"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Surface Mount, MLCC" constant="no"/>
 <attribute name="OPERATING_TEMPERATURE" value="-55C ~ 125C" constant="no"/>
 <attribute name="PACKAGE" value="0603 (1608 Metric)" constant="no"/>
+<attribute name="PART_NUMBER" value="06035C220JAT2A" constant="no"/>
 <attribute name="RATINGS" value="-" constant="no"/>
 <attribute name="SERIES" value="-" constant="no"/>
 <attribute name="SIZE" value="0.063&quot; L x 0.032&quot; W (1.60mm x 0.81mm)" constant="no"/>

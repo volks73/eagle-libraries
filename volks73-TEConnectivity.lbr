@@ -175,22 +175,22 @@ For attribution, please provide a link in any documentation or design files to t
 <pad name="14" x="-3.81" y="5.08" drill="0.8" rot="R180"/>
 <pad name="15" x="-6.35" y="5.08" drill="0.8" rot="R180"/>
 <pad name="16" x="-8.89" y="5.08" drill="0.8" rot="R180"/>
-<wire x1="-13.885" y1="-5.533" x2="-13.885" y2="3.417" width="0.127" layer="51"/>
+<wire x1="-13.885" y1="-5.533" x2="-13.885" y2="3.417" width="0.127" layer="49"/>
 <wire x1="-13.885" y1="3.417" x2="14.085" y2="3.417" width="0.127" layer="21"/>
-<wire x1="14.085" y1="3.417" x2="14.085" y2="-5.533" width="0.127" layer="51"/>
-<wire x1="14.085" y1="-5.533" x2="2.25" y2="-5.533" width="0.127" layer="51"/>
-<wire x1="2.25" y1="-5.533" x2="-2.05" y2="-5.533" width="0.127" layer="51"/>
-<wire x1="-2.05" y1="-5.533" x2="-13.885" y2="-5.533" width="0.127" layer="51"/>
-<wire x1="-2.05" y1="-5.533" x2="-2.05" y2="0.942" width="0.127" layer="51"/>
-<wire x1="-2.05" y1="0.942" x2="2.25" y2="0.942" width="0.127" layer="51"/>
-<wire x1="2.25" y1="0.942" x2="2.25" y2="-5.533" width="0.127" layer="51"/>
-<wire x1="10.1" y1="-4.058" x2="12.1" y2="-4.058" width="0.127" layer="51"/>
-<wire x1="12.1" y1="-4.058" x2="11.1" y2="-2.058" width="0.127" layer="51"/>
-<wire x1="11.1" y1="-2.058" x2="10.1" y2="-4.058" width="0.127" layer="51"/>
-<wire x1="-12.9" y1="-4.558" x2="-12.9" y2="-1.058" width="0.127" layer="51"/>
-<wire x1="-12.9" y1="-1.058" x2="-10.9" y2="-1.058" width="0.127" layer="51"/>
-<wire x1="-10.9" y1="-1.058" x2="-10.9" y2="-4.558" width="0.127" layer="51"/>
-<wire x1="-10.9" y1="-4.558" x2="-12.9" y2="-4.558" width="0.127" layer="51"/>
+<wire x1="14.085" y1="3.417" x2="14.085" y2="-5.533" width="0.127" layer="49"/>
+<wire x1="14.085" y1="-5.533" x2="2.25" y2="-5.533" width="0.127" layer="49"/>
+<wire x1="2.25" y1="-5.533" x2="-2.05" y2="-5.533" width="0.127" layer="49"/>
+<wire x1="-2.05" y1="-5.533" x2="-13.885" y2="-5.533" width="0.127" layer="49"/>
+<wire x1="-2.05" y1="-5.533" x2="-2.05" y2="0.942" width="0.127" layer="49"/>
+<wire x1="-2.05" y1="0.942" x2="2.25" y2="0.942" width="0.127" layer="49"/>
+<wire x1="2.25" y1="0.942" x2="2.25" y2="-5.533" width="0.127" layer="49"/>
+<wire x1="10.1" y1="-4.058" x2="12.1" y2="-4.058" width="0.127" layer="49"/>
+<wire x1="12.1" y1="-4.058" x2="11.1" y2="-2.058" width="0.127" layer="49"/>
+<wire x1="11.1" y1="-2.058" x2="10.1" y2="-4.058" width="0.127" layer="49"/>
+<wire x1="-12.9" y1="-4.558" x2="-12.9" y2="-1.058" width="0.127" layer="49"/>
+<wire x1="-12.9" y1="-1.058" x2="-10.9" y2="-1.058" width="0.127" layer="49"/>
+<wire x1="-10.9" y1="-1.058" x2="-10.9" y2="-4.558" width="0.127" layer="49"/>
+<wire x1="-10.9" y1="-4.558" x2="-12.9" y2="-4.558" width="0.127" layer="49"/>
 <text x="-13.97" y="8.89" size="1.27" layer="25">&gt;NAME</text>
 <text x="7.62" y="8.89" size="1.27" layer="25">&gt;VALUE</text>
 </package>
@@ -217,9 +217,9 @@ For attribution, please provide a link in any documentation or design files to t
 <pad name="13" x="-0.26" y="-2.54" drill="0.8"/>
 <pad name="14" x="-2.55" y="-2.54" drill="0.8"/>
 <pad name="15" x="-4.84" y="-2.54" drill="0.8"/>
-<wire x1="-8.15" y1="-11.43" x2="-8.15" y2="-17.43" width="0.127" layer="51"/>
-<wire x1="-8.15" y1="-17.43" x2="8.15" y2="-17.43" width="0.127" layer="51"/>
-<wire x1="8.15" y1="-17.43" x2="8.15" y2="-11.43" width="0.127" layer="51"/>
+<wire x1="-8.15" y1="-11.43" x2="-8.15" y2="-17.43" width="0.127" layer="49"/>
+<wire x1="-8.15" y1="-17.43" x2="8.15" y2="-17.43" width="0.127" layer="49"/>
+<wire x1="8.15" y1="-17.43" x2="8.15" y2="-11.43" width="0.127" layer="49"/>
 <text x="-15.24" y="5.08" size="1.27" layer="25">&gt;NAME</text>
 <text x="8.89" y="5.08" size="1.27" layer="25">&gt;VALUE</text>
 </package>
@@ -248,9 +248,9 @@ For attribution, please provide a link in any documentation or design files to t
 <wire x1="-19.558" y1="-1.7272" x2="19.558" y2="-1.7272" width="0.127" layer="21"/>
 <wire x1="-19.558" y1="10.922" x2="-19.558" y2="-1.7272" width="0.127" layer="21"/>
 <wire x1="19.558" y1="10.922" x2="19.558" y2="-1.7272" width="0.127" layer="21"/>
-<wire x1="-12.6238" y1="10.922" x2="-12.6238" y2="16.891" width="0.127" layer="51"/>
-<wire x1="-12.6238" y1="16.891" x2="12.6238" y2="16.891" width="0.127" layer="51"/>
-<wire x1="12.6238" y1="16.891" x2="12.6238" y2="10.922" width="0.127" layer="51"/>
+<wire x1="-12.6238" y1="10.922" x2="-12.6238" y2="16.891" width="0.127" layer="49"/>
+<wire x1="-12.6238" y1="16.891" x2="12.6238" y2="16.891" width="0.127" layer="49"/>
+<wire x1="12.6238" y1="16.891" x2="12.6238" y2="10.922" width="0.127" layer="49"/>
 <text x="-19.685" y="-3.81" size="1.27" layer="25">&gt;NAME</text>
 <text x="12.7" y="-3.81" size="1.27" layer="25">&gt;VALUE</text>
 </package>
@@ -464,7 +464,7 @@ For attribution, please provide a link in any documentation or design files to t
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="16-PIN_HEADER-*_?" prefix="JP">
+<deviceset name="16-PIN_HEADER-*_?" prefix="J">
 <description>&lt;h1&gt;16-Pin Male Header&lt;/h1&gt;
 &lt;h2&gt;Ribbon Cable Connector&lt;/h2&gt;
 &lt;h3&gt;Ordering Information&lt;/h3&gt;
@@ -504,9 +504,12 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CONTACT_FINISH_THICKNESS" value="10 uin (0.35 um)" constant="no"/>
 <attribute name="CONTACT_MATING_LENGTH" value="0.228'' (5.80 mm)" constant="no"/>
 <attribute name="CONTACT_TYPE" value="Male Pin" constant="no"/>
+<attribute name="DESCRIPTION" value="CONN HEADER 16POS .100 VERT GOLD" constant="no"/>
+<attribute name="MANUFACTURER" value="TE Connectivity" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
 <attribute name="NUMBER_POSITIONS" value="10" constant="no"/>
 <attribute name="NUMBER_ROWS" value="2" constant="no"/>
+<attribute name="PART_NUMBER" value="1-1634688-6" constant="no"/>
 <attribute name="PITCH" value="0.100'' (2.54 mm)" constant="no"/>
 <attribute name="ROW_SPACING" value="0.100'' (2.54 mm)" constant="no"/>
 <attribute name="SERIES" value="AMP-Latch, AMP" constant="no"/>
@@ -541,9 +544,12 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CONTACT_FINISH_THICKNESS" value="10 uin (0.25 um)" constant="no"/>
 <attribute name="CONTACT_MATING_LENGTH" value="0.228'' (5.80 mm)" constant="no"/>
 <attribute name="CONTACT_TYPE" value="Male Pin" constant="no"/>
+<attribute name="DESCRIPTION" value="CONN HEADER PIN R/A 16POS GOLD" constant="no"/>
+<attribute name="MANUFACTURER" value="TE Connectivity" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Through Hole, Right Angle" constant="no"/>
 <attribute name="NUMBER_POSITION" value="16" constant="no"/>
 <attribute name="NUMBER_ROWS" value="2" constant="no"/>
+<attribute name="PART_NUMBER" value="1-1634689-6" constant="no"/>
 <attribute name="PITCH" value="0.100'' (2.54 mm)" constant="no"/>
 <attribute name="SERIES" value="AMP-Latch, AMP" constant="no"/>
 <attribute name="TERMINATION" value="Solder" constant="no"/>
@@ -552,8 +558,8 @@ For attribution, please provide a link in any documentation or design files to t
 </device>
 </devices>
 </deviceset>
-<deviceset name="15-PIN_CONNECTOR-*_?" prefix="JP">
-<description>&lt;h1&gt;15-Pin D-Sub Miniature (DB15) Connector&lt;/h1&gt;
+<deviceset name="15-PIN_CONNECTOR-*_?" prefix="J">
+<description>&lt;h1&gt;15-Pin D-Sub Connector&lt;/h1&gt;
 &lt;h3&gt;Ordering Information&lt;/h3&gt;
 &lt;table&gt;
 &lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
@@ -593,13 +599,16 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CONTACT_FINISH_THICKNESS" value="Flash" constant="no"/>
 <attribute name="CONTACT_TYPE" value="Signal" constant="no"/>
 <attribute name="CURRENT_RATING" value="2A" constant="no"/>
+<attribute name="DESCRIPTION" value="CONN DSUB HD RCPT 15POS R/A SLDR" constant="no"/>
 <attribute name="FEATURES" value="Board Lock" constant="no"/>
 <attribute name="FLANGE_FEATURE" value="Housing/Shell (4-40)" constant="no"/>
 <attribute name="HOUSING_MATERIAL" value="Polyamide (PA9T), Nylon 9T" constant="no"/>
+<attribute name="MANUFACTURER" value="TE Connectivity" constant="no"/>
 <attribute name="MOUNTINT_TYPE" value="Through Hole, Right Angle" constant="no"/>
 <attribute name="NUMBER_POSITIONS" value="15" constant="no"/>
 <attribute name="NUMBER_ROWS" value="3" constant="no"/>
 <attribute name="OPERATING_TEMPERATURE" value="-55 ~ 105C" constant="no"/>
+<attribute name="PART_NUMBER" value="1-1734530-1" constant="no"/>
 <attribute name="SERIES" value="AMPLIMITE HD-22, AMP" constant="no"/>
 <attribute name="SHELL_MATERIAL" value="Steel, Nickel Plated" constant="no"/>
 <attribute name="SHELL_SIZE" value="1 (DE, E) High Density" constant="no"/>
@@ -636,12 +645,15 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CONTACT_FINISH_THICKNESS" value="Flash" constant="no"/>
 <attribute name="CONTACT_TYPE" value="Signal" constant="no"/>
 <attribute name="CURRENT_RATING" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="CONN D-SUB PLUG 15POS R/A SOLDER" constant="no"/>
 <attribute name="FEATURES" value="Ground Strap, Grounding Indents" constant="no"/>
 <attribute name="FLANGE_FEATURE" value="Housing/Shell (4-40)" constant="no"/>
+<attribute name="MANUFACTURER" value="TE Connectivity" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Through Hole, Right Angle" constant="no"/>
 <attribute name="NUMBER_POSITIONS" value="15" constant="no"/>
 <attribute name="NUMBER_ROWS" value="2" constant="no"/>
 <attribute name="OPERATING_TEMPERATURE" value="-55 ~ 105C" constant="no"/>
+<attribute name="PART_NUMBER" value="5747236-4" constant="no"/>
 <attribute name="SERIES" value="AMPLIMITE HD-20, AMP" constant="no"/>
 <attribute name="SHELL_MATERIAL" value="Steel, Tin Plated" constant="no"/>
 <attribute name="SHELL_SIZE" value="2 (DA, A)" constant="no"/>
@@ -652,7 +664,7 @@ For attribution, please provide a link in any documentation or design files to t
 </device>
 </devices>
 </deviceset>
-<deviceset name="9-PIN_CONNECTOR-*_?" prefix="JP">
+<deviceset name="9-PIN_CONNECTOR-*_?" prefix="J">
 <description>&lt;h1&gt;9-Pin D-Sub miniature (DB9) Connector&lt;/h1&gt;
 &lt;h3&gt;Ordering Information&lt;/h3&gt;
 &lt;table&gt;
