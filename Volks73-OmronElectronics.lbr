@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -210,11 +210,18 @@ DIP switch with through hole terminals in a wide assortment of pole configuratio
 <technology name="">
 <attribute name="ACTUATOR_LEVEL" value="Raised" constant="no"/>
 <attribute name="ACTUATOR_TYPE" value="Standard" constant="no"/>
+<attribute name="CATEGORY" value="Switches" constant="no"/>
 <attribute name="CIRCUIT" value="SPST" constant="no"/>
 <attribute name="CONTACT_RATING" value="0.025A @ 24VDC" constant="no"/>
+<attribute name="DESCRIPTION" value="SWITCH AUTODIP 1POS TOP ACT 24V" constant="no"/>
+<attribute name="FAMILY" value="DIP Switches" constant="no"/>
+<attribute name="MANUFACTURER" value="Omron Electronics Inc-EMC Div" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
 <attribute name="NUMBER_OF_POSITIONS" value="1" constant="no"/>
 <attribute name="ORIENTATION" value="Top Actuated" constant="no"/>
+<attribute name="PART_NUMBER" value="A6T-1104" constant="no"/>
+<attribute name="SERIES" value="A6T" constant="no"/>
+<attribute name="WASHABLE" value="No" constant="no"/>
 </technology>
 </technologies>
 </device>
