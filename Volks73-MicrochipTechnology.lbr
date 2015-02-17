@@ -289,6 +289,20 @@ For attribution, please provide a link in any documentation or design files to t
 <wire x1="17.78" y1="20.32" x2="17.78" y2="-20.32" width="0.254" layer="94"/>
 <wire x1="17.78" y1="-20.32" x2="-17.78" y2="-20.32" width="0.254" layer="94"/>
 </symbol>
+<symbol name="2561/2">
+<pin name="TXD" x="-17.78" y="2.54" length="middle"/>
+<pin name="VSS" x="0" y="-15.24" length="middle" direction="pwr" rot="R90"/>
+<pin name="VDD" x="0" y="15.24" length="middle" direction="pwr" rot="R270"/>
+<pin name="RXD" x="-17.78" y="0" length="middle"/>
+<pin name="SPLIT" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="CANL" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="CANH" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="STBY" x="-17.78" y="-2.54" length="middle"/>
+<wire x1="-12.7" y1="-10.16" x2="12.7" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-10.16" x2="12.7" y2="10.16" width="0.254" layer="94"/>
+<wire x1="12.7" y1="10.16" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="10.16" x2="-12.7" y2="-10.16" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="MCP47*6" prefix="U">
@@ -692,6 +706,93 @@ Microchip Technology’s MCP2515 is a stand-alone Controller Area Network (CAN) 
 <attribute name="STANDARDS" value="CAN 2.0" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="18-SOIC" constant="no"/>
 <attribute name="VOLTAGE-SUPPLY" value="2.7 V ~ 5.5 V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MCP256X-*/?" prefix="U">
+<description>&lt;h1&gt;High-Speed CAN Transceiver&lt;/h1&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/20005167C.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Ordering Information&lt;/h3&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;MCP2561-E/SN&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/MCP2561-E%2FSN/MCP2561-E%2FSN-ND/4079961"&gt;MCP2561-E/SN-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;IC TXRX CAN 8SOIC&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;h3&gt;General Description&lt;/h3&gt;
+&lt;p&gt;
+The MCP2561/2 is a Microchip Technology Inc. second generation high-speed CAN transceiver. It serves as an interface between a CAN protocol controller and the physical two-wire CAN bus.
+&lt;/p&gt;
+&lt;p&gt;
+The device meets the automotive requirements for high-speed (up to 1 Mb/s), low quiescent current, electromagnetic compatibility (EMC) and electrostatis discharge (ESD).
+&lt;/p&gt;
+&lt;h3&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Supports 1 Mb/s Operation&lt;/li&gt;
+&lt;li&gt;Implements ISO-11898-2 and ISO-11898-5 Standard Physical Layer Requirements&lt;/li&gt;
+&lt;li&gt;Very Low Standby Current (5 µA, typical)&lt;/li&gt;
+&lt;li&gt;V&lt;sub&gt;IO&lt;/sub&gt; Supply Pin to Interface Directly to CAN Controllers and Microcontrollers with 1.8V to 5.5V I/O&lt;/li&gt;
+&lt;li&gt;SPLIT Output Pin to Stabilize Common Mode in Biased Split Termination Schemes&lt;/li&gt;
+&lt;li&gt;CAN Bus Pins are Disconnected when Device is Unpowered:&lt;/li&gt;
+&lt;ul&gt;
+    &lt;li&gt;An Unpowered Node or Brown-Out Event will Not Load the CAN Bus&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Detection of Ground Fault:&lt;/li&gt;
+&lt;ul&gt;
+    &lt;li&gt;Permanent Dominant Detection on TXD&lt;/li&gt;
+    &lt;li&gt;Permanent Dominant Detection on Bus&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Power-on Reset and Voltage Brown-Out Protection on V&lt;sub&gt;DD&lt;/sub&gt; Pin&lt;/li&gt;
+&lt;li&gt;Protection Against Damage Due to Short-Circuit Conditions (Positive or Negative Battery Voltage)&lt;/li&gt;
+&lt;li&gt;Protection Against High-Voltage Transients in Automotive Environments&lt;/li&gt;
+&lt;li&gt;Automatic Thermal Shutdown Protection&lt;/li&gt;
+&lt;li&gt;Suitable for 12V and 24V Systems&lt;/li&gt;
+&lt;li&gt;Meets or exceeds stringent automotive design requirements including “Hardware Requirements for LIN, CAN and FlexRay Interfaces in Automotive Applications”, Version 1.3, May 2012&lt;/li&gt;
+&lt;li&gt;High-Noise Immunity Due to Differential Bus Implementation&lt;/li&gt;
+&lt;li&gt;High Electrostatic Discharge (ESD) Protection on CANH and CANL, meeting the IEC61000-4-2 up to ±14 kV&lt;/li&gt;
+&lt;li&gt;Available in PDIP-8L, SOIC-8L and 3x3 DFN-8L&lt;/li&gt;
+&lt;li&gt;Temperature ranges:&lt;/li&gt;
+&lt;ul&gt;
+    &lt;li&gt;Extended (E): -40°C to +125°C&lt;/li&gt;
+    &lt;li&gt;High (H): -40°C to +150°C&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="2561/2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SN" package="SOIC-8">
+<connects>
+<connect gate="G$1" pin="CANH" pad="7"/>
+<connect gate="G$1" pin="CANL" pad="6"/>
+<connect gate="G$1" pin="RXD" pad="4"/>
+<connect gate="G$1" pin="SPLIT" pad="5"/>
+<connect gate="G$1" pin="STBY" pad="8"/>
+<connect gate="G$1" pin="TXD" pad="1"/>
+<connect gate="G$1" pin="VDD" pad="3"/>
+<connect gate="G$1" pin="VSS" pad="2"/>
+</connects>
+<technologies>
+<technology name="E">
+<attribute name="CATEGORY" value="Integrated Circuits (ICs)" constant="no"/>
+<attribute name="DATA_RATE" value="-" constant="no"/>
+<attribute name="DESCRIPTION" value="IC TXRX CAN 8SOIC" constant="no"/>
+<attribute name="DUPLEX" value="Full" constant="no"/>
+<attribute name="FAMILY" value="Interface - Drivers, Receivers, Transceivers" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount" constant="no"/>
+<attribute name="NUMBER_OF_DRIVERS-RECEIVERS" value="1/1" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-40°C ~ 125°C" constant="no"/>
+<attribute name="PACKAGE_CASE" value="8-SOIC (0.154&quot;, 3.90mm Width)" constant="no"/>
+<attribute name="PART_NUMBER" value="MCP2561-E/SN" constant="no"/>
+<attribute name="PROTOCOL" value="CAN" constant="no"/>
+<attribute name="RECEIVER_HYSTERSIS" value="-" constant="no"/>
+<attribute name="SERIES" value="-" constant="no"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="8-SOIC N" constant="no"/>
+<attribute name="TYPE" value="Transceiver" constant="no"/>
+<attribute name="VOLTAGE-SUPPLY" value="4.5 V ~ 5.5 V" constant="no"/>
 </technology>
 </technologies>
 </device>
