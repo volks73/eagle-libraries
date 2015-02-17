@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -148,6 +148,30 @@ The reference outline is for a 8-Pin, Closed IC Socket from Assman WSW Component
 <wire x1="-4" y1="6.5" x2="-5.5" y2="6.5" width="0.127" layer="21"/>
 <text x="-2.5" y="7" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3" y="-8" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="3.8" y1="0.38" x2="5.325" y2="0.89" layer="51"/>
+<rectangle x1="3.8" y1="2.92" x2="5.325" y2="3.43" layer="51"/>
+<rectangle x1="3.8" y1="1.65" x2="5.325" y2="2.16" layer="51"/>
+<rectangle x1="3.8" y1="4.19" x2="5.325" y2="4.7" layer="51"/>
+<rectangle x1="3.8" y1="5.46" x2="5.325" y2="5.97" layer="51"/>
+<rectangle x1="3.8" y1="-0.89" x2="5.325" y2="-0.38" layer="51"/>
+<rectangle x1="3.8" y1="-2.16" x2="5.325" y2="-1.65" layer="51"/>
+<rectangle x1="3.8" y1="-3.43" x2="5.325" y2="-2.92" layer="51"/>
+<rectangle x1="3.8" y1="-4.7" x2="5.325" y2="-4.19" layer="51"/>
+<rectangle x1="3.8" y1="-5.97" x2="5.325" y2="-5.46" layer="51"/>
+<rectangle x1="-5.325" y1="-5.97" x2="-3.8" y2="-5.46" layer="51" rot="R180"/>
+<rectangle x1="-5.325" y1="-4.7" x2="-3.8" y2="-4.19" layer="51" rot="R180"/>
+<rectangle x1="-5.325" y1="-3.43" x2="-3.8" y2="-2.92" layer="51" rot="R180"/>
+<rectangle x1="-5.325" y1="-2.16" x2="-3.8" y2="-1.65" layer="51" rot="R180"/>
+<rectangle x1="-5.325" y1="-0.89" x2="-3.8" y2="-0.38" layer="51" rot="R180"/>
+<rectangle x1="-5.325" y1="0.38" x2="-3.8" y2="0.89" layer="51" rot="R180"/>
+<rectangle x1="-5.325" y1="1.65" x2="-3.8" y2="2.16" layer="51" rot="R180"/>
+<rectangle x1="-5.325" y1="2.92" x2="-3.8" y2="3.43" layer="51" rot="R180"/>
+<rectangle x1="-5.325" y1="4.19" x2="-3.8" y2="4.7" layer="51" rot="R180"/>
+<rectangle x1="-5.325" y1="5.46" x2="-3.8" y2="5.97" layer="51" rot="R180"/>
+<wire x1="-3.8" y1="6.5" x2="-3.8" y2="-6.5" width="0.127" layer="49"/>
+<wire x1="3.8" y1="-6.5" x2="3.8" y2="6.5" width="0.127" layer="49"/>
+<wire x1="-3.8" y1="6.5" x2="3.8" y2="6.5" width="0.127" layer="49"/>
+<wire x1="3.8" y1="-6.5" x2="-3.8" y2="-6.5" width="0.127" layer="49"/>
 </package>
 </packages>
 <symbols>
