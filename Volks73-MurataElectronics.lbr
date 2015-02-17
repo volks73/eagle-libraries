@@ -136,6 +136,7 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;tr&gt;&lt;td&gt;&lt;a href="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H103KA88-01.pdf"&gt;GRM155R71H103KA88D&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/GRM155R71H103KA88D/490-4516-1-ND/1033275"&gt;490-4516-1-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CAP CER 10000PF 50V 10% X7R 0402&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;a href="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H222KA01-01.pdf"&gt;GRM155R71H222KA01D&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/GRM155R71H222KA01D/490-1305-1-ND/587945"&gt;490-1305-1-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CAP CER 2200PF 50V 10% X7R 0402&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;a href="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1H200JA01-01.pdf"&gt;GRM1885C1H200JA01D&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/GRM1885C1H200JA01D/490-1410-1-ND/587632"&gt;490-1410-1-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CAP CER 20PF 50V 5% NP0 0603&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1H200JA01-01.pdf"&gt;GRM1555C1H180JA01D&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/GRM1555C1H180JA01D/490-5858-1-ND/2854384"&gt;	490-5858-1-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CAP CER 18PF 50V 5% NP0 0402&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;</description>
 <gates>
 <gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
@@ -176,6 +177,28 @@ For attribution, please provide a link in any documentation or design files to t
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
+<technology name="5C1H180JA01D">
+<attribute name="APPLICATIONS" value="General Purpose" constant="no"/>
+<attribute name="CAPACITANCE" value="18pF" constant="no"/>
+<attribute name="DESCRIPTION" value="CAP CER 18PF 50V 5% NP0 0402" constant="no"/>
+<attribute name="FAMILY" value="Ceramic Capacitors" constant="no"/>
+<attribute name="FEATURES" value="-" constant="no"/>
+<attribute name="HEIGHT-SEATED" value="-" constant="no"/>
+<attribute name="LEAD_SPACING" value="-" constant="no"/>
+<attribute name="LEAD_STYLE" value="-" constant="no"/>
+<attribute name="MANUFACTURER" value="Murata Electronics North America" constant="no"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount, MLCC" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55°C ~ 125°C" constant="no"/>
+<attribute name="PACKAGE" value="0402 (1005 Metric)" constant="no"/>
+<attribute name="PART_NUMBER" value="GRM1555C1H180JA01D" constant="no"/>
+<attribute name="RATINGS" value="-" constant="no"/>
+<attribute name="SERIES" value="GRM" constant="no"/>
+<attribute name="SIZE" value="0.039&quot; L x 0.020&quot; W (1.00mm x 0.50mm)" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="C0G, NP0" constant="no"/>
+<attribute name="THICKNESS" value="0.022&quot; (0.55mm)" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VOLTAGE-RATED" value="50V" constant="no"/>
+</technology>
 <technology name="R71H103KA88">
 <attribute name="APPLICATIONS" value="General Purpose" constant="no"/>
 <attribute name="CAPACITANCE" value="0.01uF" constant="no"/>
@@ -187,7 +210,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="LEAD_STYLE" value="-" constant="no"/>
 <attribute name="MANUFACTURER" value="Murata Electronics North America" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Surface Mount, MLCC" constant="no"/>
-<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 125C" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55°C ~ 125°C" constant="no"/>
 <attribute name="PACKAGE" value="0402 (1005 Metric)" constant="no"/>
 <attribute name="PART_NUMBER" value="GRM155R71H103KA88D" constant="no"/>
 <attribute name="RATINGS" value="-" constant="no"/>
@@ -195,7 +218,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SIZE" value="0.039&quot; L x 0.020&quot; W (1.00mm x 0.50mm)" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="X7R" constant="no"/>
 <attribute name="THICKNESS" value="0.022&quot; (0.55mm)" constant="no"/>
-<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
 <attribute name="VOLTAGE-RATED" value="50V" constant="no"/>
 </technology>
 <technology name="R71H222KA01D">
@@ -209,7 +232,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="LEAD_STYLE" value="-" constant="no"/>
 <attribute name="MANUFACTURER" value="Murata Electronics North America" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Surface Mount, MLCC" constant="no"/>
-<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 125C" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55°C ~ 125°C" constant="no"/>
 <attribute name="PACKAGE" value="0402 (1005 Metric)" constant="no"/>
 <attribute name="PART_NUMBER" value="GRM155R71H222KA01D" constant="no"/>
 <attribute name="RATINGS" value="-" constant="no"/>
@@ -217,7 +240,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SIZE" value="0.039&quot; L x 0.020&quot; W (1.00mm x 0.50mm)" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="X7R" constant="no"/>
 <attribute name="THICKNESS" value="0.022&quot; (0.55mm)" constant="no"/>
-<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
 <attribute name="VOLTAGE-RATED" value="50V" constant="no"/>
 </technology>
 </technologies>
