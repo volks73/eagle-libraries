@@ -97,7 +97,7 @@ For attribution, please provide a link in any documentation or design files to t
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="445*" prefix="G">
+<deviceset name="445*" prefix="G" uservalue="yes">
 <description>&lt;h1&gt;Quartz Crystal Oscillator&lt;/h1&gt;
 &lt;h2&gt;Surface Mount Quartz Crystal&lt;/h2&gt;
 &lt;h3&gt;Documentation&lt;/h3&gt;
