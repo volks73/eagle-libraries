@@ -149,6 +149,57 @@ For attribution, please provide a link in any documentation or design files to t
 <wire x1="-1.95" y1="2.45" x2="-1.95" y2="-2.45" width="0.127" layer="49"/>
 <wire x1="1.95" y1="-2.45" x2="1.95" y2="2.45" width="0.127" layer="49"/>
 </package>
+<package name="SOIC-18">
+<description>&lt;h1&gt;18-Lead Plastic Small Outline (SO) - Wide, 7.50 mm Body [SOIC]&lt;/h1&gt;</description>
+<smd name="1" x="-5.08" y="-4.7" dx="0.6" dy="2" layer="1"/>
+<smd name="2" x="-3.81" y="-4.7" dx="0.6" dy="2" layer="1"/>
+<smd name="3" x="-2.54" y="-4.7" dx="0.6" dy="2" layer="1"/>
+<smd name="4" x="-1.27" y="-4.7" dx="0.6" dy="2" layer="1"/>
+<smd name="5" x="0" y="-4.7" dx="0.6" dy="2" layer="1"/>
+<smd name="6" x="1.27" y="-4.7" dx="0.6" dy="2" layer="1"/>
+<smd name="7" x="2.54" y="-4.7" dx="0.6" dy="2" layer="1"/>
+<smd name="8" x="3.81" y="-4.7" dx="0.6" dy="2" layer="1"/>
+<smd name="9" x="5.08" y="-4.7" dx="0.6" dy="2" layer="1"/>
+<smd name="10" x="5.08" y="4.7" dx="0.6" dy="2" layer="1" rot="R180"/>
+<smd name="11" x="3.81" y="4.7" dx="0.6" dy="2" layer="1" rot="R180"/>
+<smd name="12" x="2.54" y="4.7" dx="0.6" dy="2" layer="1" rot="R180"/>
+<smd name="13" x="1.27" y="4.7" dx="0.6" dy="2" layer="1" rot="R180"/>
+<smd name="14" x="0" y="4.7" dx="0.6" dy="2" layer="1" rot="R180"/>
+<smd name="15" x="-1.27" y="4.7" dx="0.6" dy="2" layer="1" rot="R180"/>
+<smd name="16" x="-2.54" y="4.7" dx="0.6" dy="2" layer="1" rot="R180"/>
+<smd name="17" x="-3.81" y="4.7" dx="0.6" dy="2" layer="1" rot="R180"/>
+<smd name="18" x="-5.08" y="4.7" dx="0.6" dy="2" layer="1" rot="R180"/>
+<wire x1="-5.715" y1="-3.175" x2="5.715" y2="-3.175" width="0.127" layer="21"/>
+<wire x1="5.715" y1="-3.175" x2="5.715" y2="3.175" width="0.127" layer="21"/>
+<wire x1="5.715" y1="3.175" x2="-5.715" y2="3.175" width="0.127" layer="21"/>
+<wire x1="-5.715" y1="3.175" x2="-5.715" y2="-3.175" width="0.127" layer="21"/>
+<circle x="-4.445" y="-1.905" radius="0.898025" width="0.127" layer="21"/>
+<wire x1="-5.715" y1="-3.81" x2="-5.715" y2="-5.715" width="0.127" layer="21"/>
+<text x="-6.35" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="7.62" y="-3.175" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<wire x1="-5.75" y1="3.75" x2="5.75" y2="3.75" width="0.127" layer="49"/>
+<wire x1="5.75" y1="-3.75" x2="-5.75" y2="-3.75" width="0.127" layer="49"/>
+<wire x1="-5.75" y1="-3.75" x2="-5.75" y2="3.75" width="0.127" layer="49"/>
+<wire x1="5.75" y1="3.75" x2="5.75" y2="-3.75" width="0.127" layer="49"/>
+<rectangle x1="-0.255" y1="3.75" x2="0.255" y2="5.15" layer="51"/>
+<rectangle x1="1.015" y1="3.75" x2="1.525" y2="5.15" layer="51"/>
+<rectangle x1="2.285" y1="3.75" x2="2.795" y2="5.15" layer="51"/>
+<rectangle x1="3.555" y1="3.75" x2="4.065" y2="5.15" layer="51"/>
+<rectangle x1="4.825" y1="3.75" x2="5.335" y2="5.15" layer="51"/>
+<rectangle x1="-1.525" y1="3.75" x2="-1.015" y2="5.15" layer="51"/>
+<rectangle x1="-2.795" y1="3.75" x2="-2.285" y2="5.15" layer="51"/>
+<rectangle x1="-4.065" y1="3.75" x2="-3.555" y2="5.15" layer="51"/>
+<rectangle x1="-5.335" y1="3.75" x2="-4.825" y2="5.15" layer="51"/>
+<rectangle x1="-5.335" y1="-5.15" x2="-4.825" y2="-3.75" layer="51" rot="R180"/>
+<rectangle x1="-4.065" y1="-5.15" x2="-3.555" y2="-3.75" layer="51" rot="R180"/>
+<rectangle x1="-2.795" y1="-5.15" x2="-2.285" y2="-3.75" layer="51" rot="R180"/>
+<rectangle x1="-1.525" y1="-5.15" x2="-1.015" y2="-3.75" layer="51" rot="R180"/>
+<rectangle x1="-0.255" y1="-5.15" x2="0.255" y2="-3.75" layer="51" rot="R180"/>
+<rectangle x1="1.015" y1="-5.15" x2="1.525" y2="-3.75" layer="51" rot="R180"/>
+<rectangle x1="2.285" y1="-5.15" x2="2.795" y2="-3.75" layer="51" rot="R180"/>
+<rectangle x1="3.555" y1="-5.15" x2="4.065" y2="-3.75" layer="51" rot="R180"/>
+<rectangle x1="4.825" y1="-5.15" x2="5.335" y2="-3.75" layer="51" rot="R180"/>
+</package>
 </packages>
 <symbols>
 <symbol name="47X6">
@@ -213,6 +264,30 @@ For attribution, please provide a link in any documentation or design files to t
 <text x="2.032" y="-6.858" size="1.778" layer="94" rot="R180">-</text>
 <text x="-17.78" y="19.05" size="1.27" layer="95">&gt;NAME</text>
 <text x="1.27" y="19.05" size="1.27" layer="95">&gt;VALUE</text>
+</symbol>
+<symbol name="2515">
+<pin name="TXCAN" x="22.86" y="12.7" length="middle" rot="R180"/>
+<pin name="RXCAN" x="22.86" y="10.16" length="middle" rot="R180"/>
+<pin name="CLKOUT/SOF" x="-22.86" y="-10.16" length="middle"/>
+<pin name="!TX0RTS!" x="22.86" y="-5.08" length="middle" rot="R180"/>
+<pin name="!TX1RTS!" x="22.86" y="-7.62" length="middle" rot="R180"/>
+<pin name="!TX2RTS!" x="22.86" y="-10.16" length="middle" rot="R180"/>
+<pin name="OSC2" x="-22.86" y="-7.62" length="middle"/>
+<pin name="OSC1" x="-22.86" y="-5.08" length="middle"/>
+<pin name="VSS" x="0" y="-25.4" length="middle" rot="R90"/>
+<pin name="!RX1BF!" x="22.86" y="-2.54" length="middle" rot="R180"/>
+<pin name="!RX0BF!" x="22.86" y="0" length="middle" rot="R180"/>
+<pin name="!INT!" x="22.86" y="2.54" length="middle" rot="R180"/>
+<pin name="SCK" x="-22.86" y="5.08" length="middle"/>
+<pin name="SI" x="-22.86" y="7.62" length="middle"/>
+<pin name="SO" x="-22.86" y="10.16" length="middle"/>
+<pin name="!CS!" x="-22.86" y="2.54" length="middle"/>
+<pin name="!RESET!" x="22.86" y="-12.7" length="middle" rot="R180"/>
+<pin name="VDD" x="0" y="25.4" length="middle" rot="R270"/>
+<wire x1="-17.78" y1="-20.32" x2="-17.78" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="20.32" x2="17.78" y2="20.32" width="0.254" layer="94"/>
+<wire x1="17.78" y1="20.32" x2="17.78" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-20.32" x2="-17.78" y2="-20.32" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -504,6 +579,119 @@ The MCP6001/2/4 family is available in the industrial and extended temperature r
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="8-SOIC N" constant="no"/>
 <attribute name="VOLTAGE-INPUT_OFFSET" value="4.5mV" constant="no"/>
 <attribute name="VOLTAGE-SUPPLY" value="1.8V ~ 6V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MCP2515-*/?" prefix="U">
+<description>&lt;h1&gt;Stand-Alone CAN Controller with SPI Interface&lt;/h1&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/21801G.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Ordering Information&lt;/h3&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;MCP2515-I/SO&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/MCP2515-I%2FSO/MCP2515-I%2FSO-ND/593001"&gt;MCP2515-I/SO-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;IC CAN CONTROLLER W/SPI 18SOIC&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;h3&gt;General Description&lt;/h3&gt;
+&lt;p&gt;
+Microchip Technology’s MCP2515 is a stand-alone Controller Area Network (CAN) controller that implements the CAN specification, version 2.0B. It is capable of transmitting and receiving both standard and extended data and remote frames. The MCP2515 has two acceptance masks and six acceptance filters that are used to filter out unwanted messages, thereby reducing the host MCU’s overhead. The MCP2515 interfaces with microcontrollers (MCUs) via an industry standard Serial Peripheral Interface (SPI).
+&lt;/p&gt;
+&lt;h3&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Implements CAN V2.0B at 1 Mb/s:&lt;/li&gt;
+&lt;ul&gt;
+    &lt;li&gt;0-8 byte length in the data field&lt;/li&gt;
+    &lt;li&gt;Standard and extended data and remote frames&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Receive Buffers, Masks and Filters:&lt;/li&gt;
+&lt;ul&gt;
+    &lt;li&gt;Two receive buffers with prioritized message storage&lt;/li&gt;
+    &lt;li&gt;Six 29-bit filters&lt;/li&gt;
+    &lt;li&gt;Two 29-bit masks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Data Byte Filtering on the First Two Data Bytes (applies to standard data frames)&lt;/li&gt;
+&lt;li&gt;Three Transmit Buffers with Prioritization and Abort Features&lt;/li&gt;
+&lt;li&gt;High-Speed SPI Interface (10 MHz):&lt;/li&gt;
+&lt;ul&gt;
+    &lt;li&gt;SPI modes 0,0 and 1,1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;One-Shot mode Ensures Message Transmission is Attempted Only One Time&lt;/li&gt;
+&lt;li&gt;Clock Out Pin with Programmable Prescaler:&lt;/li&gt;
+&lt;ul&gt;
+    &lt;li&gt;Can be used as a clock source for other device(s)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Start-of-Frame (SOF) Signal is Available for Monitoring the SOF Signal:&lt;/li&gt;
+&lt;ul&gt;
+    &lt;li&gt;Can be used for time-slot-based protocols and/or bus diagnostics to detect early bus degradation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Interrupt Output Pin with Selectable Enables&lt;/li&gt;
+&lt;li&gt;Buffer Full Output Pins Configurable as:&lt;/li&gt;
+&lt;ul&gt;
+    &lt;li&gt;Interrupt output for each receive buffer&lt;/li&gt;
+    &lt;li&gt;General purpose output&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Request-to-Send (RTS) Input Pins Individually Configurable as:&lt;/li&gt;
+&lt;ul&gt;
+    &lt;li&gt;Control pins to request transmission for each transmit buffer&lt;/li&gt;
+    &lt;li&gt;General purpose inputs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Low-Power CMOS Technology:&lt;/li&gt;
+&lt;ul&gt;
+    &lt;li&gt;Operates from 2.7V - 5.5V&lt;/li&gt;
+    &lt;li&gt;5 mA active current (typical)&lt;/li&gt;
+    &lt;li&gt;1 µA standby current (typical) (Sleep mode)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Temperature Ranges Supported:&lt;/li&gt;
+&lt;ul&gt;
+    &lt;li&gt;Industrial (I): -40°C to +85°C&lt;/li&gt;
+    &lt;li&gt;Extended (E): -40°C to +125°C&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="2515" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="SO" package="SOIC-18">
+<connects>
+<connect gate="G$1" pin="!CS!" pad="16"/>
+<connect gate="G$1" pin="!INT!" pad="12"/>
+<connect gate="G$1" pin="!RESET!" pad="17"/>
+<connect gate="G$1" pin="!RX0BF!" pad="11"/>
+<connect gate="G$1" pin="!RX1BF!" pad="10"/>
+<connect gate="G$1" pin="!TX0RTS!" pad="4"/>
+<connect gate="G$1" pin="!TX1RTS!" pad="5"/>
+<connect gate="G$1" pin="!TX2RTS!" pad="6"/>
+<connect gate="G$1" pin="CLKOUT/SOF" pad="3"/>
+<connect gate="G$1" pin="OSC1" pad="8"/>
+<connect gate="G$1" pin="OSC2" pad="7"/>
+<connect gate="G$1" pin="RXCAN" pad="2"/>
+<connect gate="G$1" pin="SCK" pad="13"/>
+<connect gate="G$1" pin="SI" pad="14"/>
+<connect gate="G$1" pin="SO" pad="15"/>
+<connect gate="G$1" pin="TXCAN" pad="1"/>
+<connect gate="G$1" pin="VDD" pad="18"/>
+<connect gate="G$1" pin="VSS" pad="9"/>
+</connects>
+<technologies>
+<technology name="I">
+<attribute name="CATEGORY" value="Integrated Circuits (ICs)" constant="no"/>
+<attribute name="CURRENT-SUPPLY" value="10mA" constant="no"/>
+<attribute name="DESCRIPTION" value="IC CAN CONTROLLER W/SPI 18SOIC" constant="no"/>
+<attribute name="FAMILY" value="Interface - Controllers" constant="no"/>
+<attribute name="FUNCTION" value="Controller" constant="no"/>
+<attribute name="INTERFACE" value="SPI" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-40°C ~ 85°C" constant="no"/>
+<attribute name="PACKAGE-CASE" value="18-SOIC (0.295&quot;, 7.50mm Width)" constant="no"/>
+<attribute name="PART_NUMBER" value="MCP2515-I/SO" constant="no"/>
+<attribute name="PROTOCOL" value="CAN" constant="no"/>
+<attribute name="SERIES" value="-" constant="no"/>
+<attribute name="STANDARDS" value="CAN 2.0" constant="no"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="18-SOIC" constant="no"/>
+<attribute name="VOLTAGE-SUPPLY" value="2.7 V ~ 5.5 V" constant="no"/>
 </technology>
 </technologies>
 </device>
