@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
@@ -275,6 +275,8 @@ Package contains a relatively large pad on the bottom that should be soldered di
 <symbol name="SUPPLY">
 <pin name="V+" x="0" y="12.7" length="middle" rot="R270"/>
 <pin name="V-" x="0" y="-12.7" length="middle" rot="R90"/>
+<text x="-2.54" y="-7.62" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="3.81" y="-7.62" size="1.778" layer="95" rot="R90">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -622,7 +624,7 @@ The OPAx171 series of op amps are specified from -40&lt;sup&gt;o&lt;/sup&gt;C to
 <gates>
 <gate name="A" symbol="OP_AMP" x="0" y="12.7"/>
 <gate name="B" symbol="OP_AMP" x="0" y="-15.24"/>
-<gate name="SUPPLY" symbol="SUPPLY" x="-27.94" y="0" addlevel="request"/>
+<gate name="SUPPLY" symbol="SUPPLY" x="-27.94" y="2.54" addlevel="request"/>
 </gates>
 <devices>
 <device name="AIDR" package="SO-8">
