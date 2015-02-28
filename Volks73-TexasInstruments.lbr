@@ -646,12 +646,15 @@ The OPAx171 series of op amps are specified from -40&lt;sup&gt;o&lt;/sup&gt;C to
 <attribute name="CURRENT-INPUT_BIAS" value="8pA" constant="no"/>
 <attribute name="CURRENT-OUTPUT-CHANNEL" value="35mA" constant="no"/>
 <attribute name="CURRENT-SUPPLY" value="475µA" constant="no"/>
+<attribute name="DESCRIPTION" value="IC OPAMP GP 3MHZ RRO 8SOIC" constant="no"/>
 <attribute name="FAMILY" value="Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps" constant="no"/>
 <attribute name="GAIN_BANDWIDTH_PRODUCT" value="3MHz" constant="no"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Surface Mount" constant="no"/>
 <attribute name="NUMBER_OF_CIRCUITS" value="2" constant="no"/>
 <attribute name="OPERATING_TEMPERATURE" value="-40°C ~ 125°C" constant="no"/>
 <attribute name="OUTPUT_TYPE" value="Rail-to-Rail" constant="no"/>
+<attribute name="PART_NUMBER" value="OPA2171AIDR" constant="no"/>
 <attribute name="SERIES" value="-" constant="no"/>
 <attribute name="SLEW_RATE" value="1.5 V/µs" constant="no"/>
 <attribute name="VOLTAGE-INPUT_OFFSET" value="250µV" constant="no"/>
