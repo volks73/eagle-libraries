@@ -203,37 +203,31 @@ For attribution, please provide a link in any documentation or design files to t
 </packages>
 <symbols>
 <symbol name="47X6">
-<pin name="VCC" x="0" y="17.78" visible="pin" length="middle" direction="pwr" rot="R270"/>
-<pin name="GND" x="0" y="-17.78" visible="pin" length="middle" direction="pwr" rot="R90"/>
-<pin name="SCL" x="-15.24" y="0" visible="pin" length="middle"/>
-<pin name="SDA" x="-15.24" y="-2.54" visible="pin" length="middle"/>
+<pin name="SCL" x="-15.24" y="-2.54" visible="pin" length="middle"/>
+<pin name="SDA" x="-15.24" y="-5.08" visible="pin" length="middle"/>
 <pin name="VOUT" x="15.24" y="0" visible="pin" length="middle" direction="out" rot="R180"/>
 <pin name="VREF" x="-15.24" y="2.54" visible="pin" length="middle" direction="in"/>
-<wire x1="-10.16" y1="12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
-<wire x1="10.16" y1="12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
-<text x="-10.16" y="13.97" size="1.778" layer="95">&gt;NAME</text>
-<text x="1.27" y="13.97" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-10.16" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<text x="-10.16" y="6.35" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="3021">
-<pin name="VDD" x="0" y="17.78" visible="pin" length="middle" direction="pwr" rot="R270"/>
-<pin name="VSS" x="0" y="-17.78" visible="pin" length="middle" direction="pwr" rot="R90"/>
 <pin name="AIN" x="15.24" y="0" visible="pin" length="middle" direction="in" rot="R180"/>
 <pin name="SDA" x="-15.24" y="-2.54" visible="pin" length="middle"/>
-<pin name="SCL" x="-15.24" y="2.54" visible="pin" length="middle"/>
-<wire x1="-10.16" y1="12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
-<wire x1="10.16" y1="12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
-<text x="-10.16" y="13.97" size="1.778" layer="95">&gt;NAME</text>
-<text x="1.27" y="13.97" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="SCL" x="-15.24" y="0" visible="pin" length="middle"/>
+<wire x1="-10.16" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<text x="-10.16" y="6.35" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="6002">
 <pin name="VINA+" x="-22.86" y="7.62" visible="pin" length="middle" direction="in"/>
 <pin name="VINA-" x="-22.86" y="2.54" visible="pin" length="middle" direction="in"/>
-<pin name="VSS" x="0" y="-22.86" visible="pin" length="middle" direction="pwr" rot="R90"/>
-<pin name="VDD" x="0" y="22.86" visible="pin" length="middle" direction="pwr" rot="R270"/>
 <pin name="VOUTA" x="22.86" y="5.08" visible="pin" length="middle" direction="out" rot="R180"/>
 <pin name="VINB+" x="22.86" y="-2.54" visible="pin" length="middle" direction="in" rot="R180"/>
 <pin name="VINB-" x="22.86" y="-7.62" visible="pin" length="middle" direction="in" rot="R180"/>
@@ -248,10 +242,10 @@ For attribution, please provide a link in any documentation or design files to t
 <wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94"/>
 <wire x1="2.54" y1="0" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="-5.08" x2="2.54" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-17.78" y1="-17.78" x2="-17.78" y2="17.78" width="0.254" layer="94"/>
-<wire x1="-17.78" y1="17.78" x2="17.78" y2="17.78" width="0.254" layer="94"/>
-<wire x1="17.78" y1="17.78" x2="17.78" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="17.78" y1="-17.78" x2="-17.78" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-12.7" x2="-17.78" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="12.7" x2="17.78" y2="12.7" width="0.254" layer="94"/>
+<wire x1="17.78" y1="12.7" x2="17.78" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-12.7" x2="-17.78" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="2.54" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
 <wire x1="5.08" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
@@ -262,8 +256,8 @@ For attribution, please provide a link in any documentation or design files to t
 <text x="2.032" y="-1.778" size="1.778" layer="94" rot="R180">+</text>
 <text x="-1.778" y="1.524" size="1.778" layer="94">-</text>
 <text x="2.032" y="-6.858" size="1.778" layer="94" rot="R180">-</text>
-<text x="-17.78" y="19.05" size="1.27" layer="95">&gt;NAME</text>
-<text x="1.27" y="19.05" size="1.27" layer="95">&gt;VALUE</text>
+<text x="-17.78" y="13.97" size="1.27" layer="95">&gt;NAME</text>
+<text x="-17.78" y="-15.24" size="1.27" layer="95">&gt;VALUE</text>
 </symbol>
 <symbol name="2515">
 <pin name="TXCAN" x="22.86" y="12.7" length="middle" rot="R180"/>
@@ -274,7 +268,6 @@ For attribution, please provide a link in any documentation or design files to t
 <pin name="!TX2RTS!" x="22.86" y="-10.16" length="middle" rot="R180"/>
 <pin name="OSC2" x="-22.86" y="-7.62" length="middle"/>
 <pin name="OSC1" x="-22.86" y="-5.08" length="middle"/>
-<pin name="VSS" x="0" y="-25.4" length="middle" rot="R90"/>
 <pin name="!RX1BF!" x="22.86" y="-2.54" length="middle" rot="R180"/>
 <pin name="!RX0BF!" x="22.86" y="0" length="middle" rot="R180"/>
 <pin name="!INT!" x="22.86" y="2.54" length="middle" rot="R180"/>
@@ -283,29 +276,32 @@ For attribution, please provide a link in any documentation or design files to t
 <pin name="SO" x="-22.86" y="10.16" length="middle"/>
 <pin name="!CS!" x="-22.86" y="2.54" length="middle"/>
 <pin name="!RESET!" x="22.86" y="-12.7" length="middle" rot="R180"/>
-<pin name="VDD" x="0" y="25.4" length="middle" rot="R270"/>
-<wire x1="-17.78" y1="-20.32" x2="-17.78" y2="20.32" width="0.254" layer="94"/>
-<wire x1="-17.78" y1="20.32" x2="17.78" y2="20.32" width="0.254" layer="94"/>
-<wire x1="17.78" y1="20.32" x2="17.78" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="17.78" y1="-20.32" x2="-17.78" y2="-20.32" width="0.254" layer="94"/>
-<text x="-17.78" y="21.59" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.54" y="-22.86" size="1.778" layer="95">&gt;VALUE</text>
+<wire x1="-17.78" y1="-17.78" x2="-17.78" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="17.78" x2="17.78" y2="17.78" width="0.254" layer="94"/>
+<wire x1="17.78" y1="17.78" x2="17.78" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-17.78" x2="-17.78" y2="-17.78" width="0.254" layer="94"/>
+<text x="-17.78" y="19.05" size="1.778" layer="95">&gt;NAME</text>
+<text x="-17.78" y="-20.32" size="1.778" layer="95">&gt;VALUE</text>
 </symbol>
 <symbol name="2561">
 <pin name="TXD" x="-17.78" y="2.54" length="middle"/>
-<pin name="VSS" x="0" y="-15.24" length="middle" direction="pwr" rot="R90"/>
-<pin name="VDD" x="0" y="15.24" length="middle" direction="pwr" rot="R270"/>
 <pin name="RXD" x="-17.78" y="0" length="middle"/>
 <pin name="SPLIT" x="17.78" y="0" length="middle" rot="R180"/>
 <pin name="CANL" x="17.78" y="-2.54" length="middle" rot="R180"/>
 <pin name="CANH" x="17.78" y="2.54" length="middle" rot="R180"/>
 <pin name="STBY" x="-17.78" y="-2.54" length="middle"/>
-<wire x1="-12.7" y1="-10.16" x2="12.7" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-10.16" x2="12.7" y2="10.16" width="0.254" layer="94"/>
-<wire x1="12.7" y1="10.16" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="10.16" x2="-12.7" y2="-10.16" width="0.254" layer="94"/>
-<text x="-12.7" y="11.43" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.54" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-12.7" y1="-7.62" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="12.7" y2="7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="7.62" x2="-12.7" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="7.62" x2="-12.7" y2="-7.62" width="0.254" layer="94"/>
+<text x="-12.7" y="8.89" size="1.778" layer="95">&gt;NAME</text>
+<text x="-12.7" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="SUPPLY">
+<pin name="VDD" x="0" y="12.7" length="middle" direction="pwr" rot="R270"/>
+<pin name="VSS" x="0" y="-12.7" length="middle" direction="pwr" rot="R90"/>
+<text x="-2.54" y="-7.62" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="3.81" y="-7.62" size="1.778" layer="95" rot="R90">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -396,14 +392,15 @@ These devices are available in small 6-pin SOT-23 and DFN 2x2 mm packages.
 &lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="47X6" x="0" y="0"/>
+<gate name="@SUPPLY" symbol="SUPPLY" x="-25.4" y="2.54" addlevel="request"/>
 </gates>
 <devices>
 <device name="" package="SOT-23-6">
 <connects>
-<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="@SUPPLY" pin="VDD" pad="3"/>
+<connect gate="@SUPPLY" pin="VSS" pad="2"/>
 <connect gate="G$1" pin="SCL" pad="5"/>
 <connect gate="G$1" pin="SDA" pad="4"/>
-<connect gate="G$1" pin="VCC" pad="3"/>
 <connect gate="G$1" pin="VOUT" pad="1"/>
 <connect gate="G$1" pin="VREF" pad="6"/>
 </connects>
@@ -483,15 +480,16 @@ The MCP3021 runs on a single supply voltage that operates over a broad range of 
 &lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="3021" x="0" y="0"/>
+<gate name="@SUPPLY" symbol="SUPPLY" x="-25.4" y="0" addlevel="request"/>
 </gates>
 <devices>
 <device name="" package="SOT-23-5">
 <connects>
+<connect gate="@SUPPLY" pin="VDD" pad="1"/>
+<connect gate="@SUPPLY" pin="VSS" pad="2"/>
 <connect gate="G$1" pin="AIN" pad="3"/>
 <connect gate="G$1" pin="SCL" pad="5"/>
 <connect gate="G$1" pin="SDA" pad="4"/>
-<connect gate="G$1" pin="VDD" pad="1"/>
-<connect gate="G$1" pin="VSS" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
@@ -563,19 +561,20 @@ The MCP6001/2/4 family is available in the industrial and extended temperature r
 &lt;li&gt;Battery-Powered Systems&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
-<gate name="G$1" symbol="6002" x="-12.7" y="0"/>
+<gate name="G$1" symbol="6002" x="0" y="0"/>
+<gate name="@SUPPLY" symbol="SUPPLY" x="-33.02" y="2.54" addlevel="request"/>
 </gates>
 <devices>
 <device name="SN" package="SOIC-8">
 <connects>
-<connect gate="G$1" pin="VDD" pad="8"/>
+<connect gate="@SUPPLY" pin="VDD" pad="8"/>
+<connect gate="@SUPPLY" pin="VSS" pad="4"/>
 <connect gate="G$1" pin="VINA+" pad="3"/>
 <connect gate="G$1" pin="VINA-" pad="2"/>
 <connect gate="G$1" pin="VINB+" pad="5"/>
 <connect gate="G$1" pin="VINB-" pad="6"/>
 <connect gate="G$1" pin="VOUTA" pad="1"/>
 <connect gate="G$1" pin="VOUTB" pad="7"/>
-<connect gate="G$1" pin="VSS" pad="4"/>
 </connects>
 <technologies>
 <technology name="I">
@@ -669,11 +668,14 @@ Microchip Technology’s MCP2515 is a stand-alone Controller Area Network (CAN) 
 &lt;/ul&gt;
 &lt;/ul&gt;</description>
 <gates>
-<gate name="G$1" symbol="2515" x="2.54" y="0"/>
+<gate name="G$1" symbol="2515" x="0" y="0"/>
+<gate name="@SUPPLY" symbol="SUPPLY" x="-40.64" y="0" addlevel="request"/>
 </gates>
 <devices>
 <device name="SO" package="SOIC-18">
 <connects>
+<connect gate="@SUPPLY" pin="VDD" pad="18"/>
+<connect gate="@SUPPLY" pin="VSS" pad="9"/>
 <connect gate="G$1" pin="!CS!" pad="16"/>
 <connect gate="G$1" pin="!INT!" pad="12"/>
 <connect gate="G$1" pin="!RESET!" pad="17"/>
@@ -690,8 +692,6 @@ Microchip Technology’s MCP2515 is a stand-alone Controller Area Network (CAN) 
 <connect gate="G$1" pin="SI" pad="14"/>
 <connect gate="G$1" pin="SO" pad="15"/>
 <connect gate="G$1" pin="TXCAN" pad="1"/>
-<connect gate="G$1" pin="VDD" pad="18"/>
-<connect gate="G$1" pin="VSS" pad="9"/>
 </connects>
 <technologies>
 <technology name="I">
@@ -765,18 +765,19 @@ The device meets the automotive requirements for high-speed (up to 1 Mb/s), low 
 &lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="2561" x="0" y="0"/>
+<gate name="@SUPPLY" symbol="SUPPLY" x="-27.94" y="0" addlevel="request"/>
 </gates>
 <devices>
 <device name="SN" package="SOIC-8">
 <connects>
+<connect gate="@SUPPLY" pin="VDD" pad="3"/>
+<connect gate="@SUPPLY" pin="VSS" pad="2"/>
 <connect gate="G$1" pin="CANH" pad="7"/>
 <connect gate="G$1" pin="CANL" pad="6"/>
 <connect gate="G$1" pin="RXD" pad="4"/>
 <connect gate="G$1" pin="SPLIT" pad="5"/>
 <connect gate="G$1" pin="STBY" pad="8"/>
 <connect gate="G$1" pin="TXD" pad="1"/>
-<connect gate="G$1" pin="VDD" pad="3"/>
-<connect gate="G$1" pin="VSS" pad="2"/>
 </connects>
 <technologies>
 <technology name="E">
