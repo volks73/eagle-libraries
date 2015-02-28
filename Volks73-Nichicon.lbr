@@ -131,6 +131,37 @@ For attribution, please provide a link in any documentation or design files to t
 <text x="-3.175" y="4.445" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.175" y="-5.715" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="1GB">
+<description>&lt;h1&gt;Radial, Can - Surface Mount Device (SMD)&lt;/h1&gt;
+&lt;h2&gt;WX Series, 1GB Size Code&lt;/h2&gt;</description>
+<smd name="+" x="0" y="3.25" dx="3.5" dy="2.5" layer="1" rot="R90"/>
+<smd name="-" x="0" y="-3.25" dx="3.5" dy="2.5" layer="1" rot="R90"/>
+<wire x1="-1.27" y1="0.5" x2="0" y2="0.5" width="0.127" layer="21"/>
+<wire x1="0" y1="0.5" x2="1.27" y2="0.5" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-0.6" x2="1.27" y2="-0.6" width="0.127" layer="21" curve="-100"/>
+<wire x1="0" y1="0" x2="0" y2="-1" width="0.127" layer="21"/>
+<wire x1="0" y1="1" x2="0" y2="0.5" width="0.127" layer="21"/>
+<text x="-5.715" y="3.81" size="1.27" layer="21">+</text>
+<wire x1="-1.905" y1="4.15" x2="-3.175" y2="4.15" width="0.127" layer="21"/>
+<wire x1="-3.175" y1="4.15" x2="-4.15" y2="3.175" width="0.127" layer="21"/>
+<wire x1="-4.15" y1="3.175" x2="-4.15" y2="-4.15" width="0.127" layer="21"/>
+<wire x1="-4.15" y1="-4.15" x2="-1.905" y2="-4.15" width="0.127" layer="21"/>
+<wire x1="4.15" y1="-4.15" x2="4.15" y2="3.175" width="0.127" layer="21"/>
+<wire x1="1.905" y1="4.15" x2="3.175" y2="4.15" width="0.127" layer="21"/>
+<wire x1="3.175" y1="4.15" x2="4.15" y2="3.175" width="0.127" layer="21"/>
+<wire x1="4.15" y1="-4.15" x2="1.905" y2="-4.15" width="0.127" layer="21"/>
+<text x="-5.715" y="-5.08" size="1.27" layer="21">-</text>
+<wire x1="-4.25" y1="-4.25" x2="-4.25" y2="4.25" width="0.127" layer="49"/>
+<wire x1="-4.25" y1="4.25" x2="4.25" y2="4.25" width="0.127" layer="49"/>
+<wire x1="4.25" y1="4.25" x2="4.25" y2="-4.25" width="0.127" layer="49"/>
+<wire x1="4.25" y1="-4.25" x2="-4.25" y2="-4.25" width="0.127" layer="49"/>
+<rectangle x1="-0.4" y1="1.15" x2="0.4" y2="4.45" layer="51"/>
+<rectangle x1="-0.4" y1="-4.45" x2="0.4" y2="-1.15" layer="51" rot="R180"/>
+<text x="-3.81" y="5.715" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-6.985" size="1.27" layer="27">&gt;VALUE</text>
+<text x="5.08" y="3.81" size="1.27" layer="21">+</text>
+<text x="5.08" y="-5.08" size="1.27" layer="21">-</text>
+</package>
 </packages>
 <symbols>
 <symbol name="ELECTROLYTIC_CAPACITOR">
@@ -199,6 +230,63 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="TOLERANCE" value="20%" constant="no"/>
 <attribute name="TYPE" value="-" constant="no"/>
 <attribute name="VOLTAGE_RATING" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="UWX*?" prefix="C" uservalue="yes">
+<description>&lt;h1&gt;Aluminum Electrolytic Capacitor&lt;/h1&gt;
+&lt;h2&gt;5.5mmL Chip Type&lt;/h2&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://nichicon-us.com/english/products/pdfs/e-wx.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Ordering Information&lt;/h3&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;UWX1E101MCL1GB&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/UWX1E101MCL1GB/493-2113-1-ND/590088"&gt;493-2113-1-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CAP ALUM 100UF 25V 20% SMD&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;h3&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Chip type with 5.5mm height&lt;/li&gt;
+&lt;li&gt;Designed for surface mounting on high desnity PC board&lt;/li&gt;
+&lt;li&gt;Applicable to automatic mounting machine fed with carrier tape&lt;/li&gt;
+&lt;li&gt;Load life of 2000 hours at 85&lt;sup&gt;o&lt;/sup&gt;C&lt;/li&gt;
+&lt;li&gt;Compliant to the RoHS directive (2011/65/EU)&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="ELECTROLYTIC_CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="1GB" package="1GB">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name="1E101MCL">
+<attribute name="APPLICATIONS" value="General Purpose" constant="no"/>
+<attribute name="CAPACITANCE" value="100µF" constant="no"/>
+<attribute name="CATEGORY" value="Capacitors" constant="no"/>
+<attribute name="DESCRIPTION" value="CAP ALUM 100UF 25V 20% SMD" constant="no"/>
+<attribute name="ESR" value="-" constant="no"/>
+<attribute name="FAMILY" value="Aluminum Capacitors" constant="no"/>
+<attribute name="HEIGHT-SEATED" value="0.213&quot; (5.40mm)" constant="no"/>
+<attribute name="IMPEDANCE" value="-" constant="no"/>
+<attribute name="LEAD_SPACING" value="-" constant="no"/>
+<attribute name="LIFETIME_TEMP" value="2000 Hrs @ 85°C" constant="no"/>
+<attribute name="MANUFACTURER" value="Nichicon" constant="no"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-40°C ~ 85°C" constant="no"/>
+<attribute name="PART_NUMBER" value="UWX1E101MCL1GB" constant="no"/>
+<attribute name="RIPPLE_CURRENT" value="110mA" constant="no"/>
+<attribute name="SERIES" value="WX" constant="no"/>
+<attribute name="SIZE-DIMENSION" value="0.315&quot; Dia (8.00mm)" constant="no"/>
+<attribute name="SURFACE_MOUNT_LAND_SIZE" value="0.327&quot; L x 0.327&quot; W (8.30mm x 8.30mm)" constant="no"/>
+<attribute name="TOLERANCE" value="±20%" constant="no"/>
+<attribute name="TYPE" value="-" constant="no"/>
+<attribute name="VOLTAGE_RATING" value="25V" constant="no"/>
 </technology>
 </technologies>
 </device>
