@@ -136,7 +136,7 @@ For attribution, please provide a link in any documentation or design files to t
 <wire x1="-1.27" y1="1.905" x2="1.27" y2="1.905" width="0.127" layer="49"/>
 <wire x1="-1.27" y1="-1.905" x2="1.27" y2="-1.905" width="0.127" layer="49"/>
 </package>
-<package name="2917">
+<package name="X">
 <description>&lt;h1&gt;2917 (7343 Metric)&lt;/h1&gt;
 &lt;h2&gt;T491 Series, X Size Code&lt;/h2&gt;</description>
 <smd name="A" x="-3.22" y="0" dx="2.77" dy="2.55" layer="1"/>
@@ -210,9 +210,9 @@ For attribution, please provide a link in any documentation or design files to t
 <text x="-2.54" y="0.635" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.175" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="7343-31">
-<description>&lt;h1&gt;7343-31 Metric Surface Mount Device&lt;/h1&gt;
-&lt;h2&gt;Size Code: D&lt;/h2&gt;</description>
+<package name="D">
+<description>&lt;h1&gt;2917 (7343 Metric)&lt;/h1&gt;
+&lt;h2&gt;T491 Series, D Size Code&lt;/h2&gt;</description>
 <smd name="-" x="-3.22" y="0" dx="2.77" dy="2.55" layer="1"/>
 <smd name="+" x="3.22" y="0" dx="2.77" dy="2.55" layer="1" rot="R180"/>
 <wire x1="-5.11" y1="-2.8" x2="-5.11" y2="2.8" width="0.127" layer="49"/>
@@ -382,7 +382,7 @@ as MSL (Moisture Sensitivity Level) 1 under J STD 020: unlimited flor life time 
 <gate name="G$1" symbol="ELECTROLYTIC_CAPACITOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="X" package="2917">
+<device name="X" package="X">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
@@ -411,7 +411,7 @@ as MSL (Moisture Sensitivity Level) 1 under J STD 020: unlimited flor life time 
 </technology>
 </technologies>
 </device>
-<device name="D" package="7343-31">
+<device name="D" package="D">
 <connects>
 <connect gate="G$1" pin="A" pad="+"/>
 <connect gate="G$1" pin="C" pad="-"/>
