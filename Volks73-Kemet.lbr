@@ -210,6 +210,38 @@ For attribution, please provide a link in any documentation or design files to t
 <text x="-2.54" y="0.635" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.175" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="7343-31">
+<description>&lt;h1&gt;7343-31 Metric Surface Mount Device&lt;/h1&gt;
+&lt;h2&gt;Size Code: D&lt;/h2&gt;</description>
+<smd name="-" x="-3.22" y="0" dx="2.77" dy="2.55" layer="1"/>
+<smd name="+" x="3.22" y="0" dx="2.77" dy="2.55" layer="1" rot="R180"/>
+<wire x1="-5.11" y1="-2.8" x2="-5.11" y2="2.8" width="0.127" layer="49"/>
+<wire x1="-5.11" y1="2.8" x2="5.11" y2="2.8" width="0.127" layer="49"/>
+<wire x1="5.11" y1="2.8" x2="5.11" y2="-2.8" width="0.127" layer="49"/>
+<wire x1="5.11" y1="-2.8" x2="-5.11" y2="-2.8" width="0.127" layer="49"/>
+<wire x1="1.27" y1="0" x2="0.235" y2="0" width="0.127" layer="21"/>
+<wire x1="0.235" y1="0" x2="0.235" y2="-1.24" width="0.127" layer="21"/>
+<wire x1="0.235" y1="0" x2="0.235" y2="1.24" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="0" x2="-0.335" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.835" y1="1.24" x2="-0.935" y2="-1.24" width="0.127" layer="21" curve="-100"/>
+<wire x1="-3.8" y1="-2.3" x2="3.175" y2="-2.3" width="0.127" layer="21"/>
+<wire x1="3.175" y1="-2.3" x2="3.8" y2="-2.3" width="0.127" layer="21"/>
+<wire x1="3.8" y1="2.3" x2="-3.8" y2="2.3" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="2.3" x2="-3.81" y2="1.5" width="0.127" layer="21"/>
+<wire x1="3.81" y1="1.51" x2="3.81" y2="2.31" width="0.127" layer="21"/>
+<wire x1="3.81" y1="-2.3" x2="3.81" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="-2.3" x2="-3.81" y2="-1.5" width="0.127" layer="21"/>
+<rectangle x1="-3.8" y1="-1.2" x2="-1.8" y2="1.2" layer="51"/>
+<rectangle x1="1.8" y1="-1.2" x2="3.8" y2="1.2" layer="51" rot="R180"/>
+<text x="4.445" y="1.27" size="1.27" layer="21">+</text>
+<text x="4.445" y="-2.54" size="1.27" layer="21">+</text>
+<text x="-5.08" y="1.27" size="1.27" layer="21">-</text>
+<text x="-5.08" y="-2.54" size="1.27" layer="21">-</text>
+<wire x1="3.175" y1="1.51" x2="3.175" y2="2.31" width="0.127" layer="21"/>
+<wire x1="3.175" y1="-2.3" x2="3.175" y2="-1.5" width="0.127" layer="21"/>
+<text x="-5.08" y="3.175" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.08" y="-4.445" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="DIELECTRIC_CAPACITOR">
@@ -376,6 +408,35 @@ as MSL (Moisture Sensitivity Level) 1 under J STD 020: unlimited flor life time 
 <attribute name="TOLERANCE" value="10%" constant="no"/>
 <attribute name="TYPE" value="Molded" constant="no"/>
 <attribute name="VOLTAGE-RATED" value="25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="D" package="7343-31">
+<connects>
+<connect gate="G$1" pin="A" pad="+"/>
+<connect gate="G$1" pin="C" pad="-"/>
+</connects>
+<technologies>
+<technology name="107K016AT">
+<attribute name="CAPACITANCE" value="100µF" constant="no"/>
+<attribute name="CATEGORY" value="Capacitors" constant="no"/>
+<attribute name="DESCRIPTION" value="CAP TANT 100UF 16V 10% 2917" constant="no"/>
+<attribute name="ESR" value="700 mOhm" constant="no"/>
+<attribute name="FAMILY" value="Tantalum Capacitors" constant="no"/>
+<attribute name="FEATURES" value="General Purpose" constant="no"/>
+<attribute name="HEIGHT-SEATED" value="0.122&quot; (3.10mm)" constant="no"/>
+<attribute name="LEAD_SPACING" value="-" constant="no"/>
+<attribute name="LIFETIME_TEMP" value="2000 Hrs @ 85°C" constant="no"/>
+<attribute name="MANUFACTURER" value="Kemet" constant="no"/>
+<attribute name="MANUFACTURER_SIZE_CODE" value="D" constant="no"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55°C ~ 125°C" constant="no"/>
+<attribute name="PART_NUMBER" value="T491D107K016AT" constant="no"/>
+<attribute name="SERIES" value="T491" constant="no"/>
+<attribute name="SIZE" value="0.287&quot; L x 0.169&quot; W (7.30mm x 4.30mm)" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="TYPE" value="Molded" constant="no"/>
+<attribute name="VOLTAGE-RATED" value="16V" constant="no"/>
 </technology>
 </technologies>
 </device>
