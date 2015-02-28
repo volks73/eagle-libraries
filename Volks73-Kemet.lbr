@@ -438,6 +438,48 @@ as MSL (Moisture Sensitivity Level) 1 under J STD 020: unlimited flor life time 
 <attribute name="TYPE" value="Molded" constant="no"/>
 <attribute name="VOLTAGE-RATED" value="16V" constant="no"/>
 </technology>
+<technology name="107M006AT">
+<attribute name="CAPACITANCE" value="100µF" constant="no"/>
+<attribute name="CATEGORY" value="Capacitors" constant="no"/>
+<attribute name="DESCRIPTION" value="CAP TANT 100UF 6.3V 20% 2917" constant="no"/>
+<attribute name="ESR" value="800 mOhm" constant="no"/>
+<attribute name="FAMILY" value="Tantalum Capacitors" constant="no"/>
+<attribute name="FEATURES" value="General Purpose" constant="no"/>
+<attribute name="HEIGHT-SEATED" value="0.122&quot; (3.10mm)" constant="no"/>
+<attribute name="LEAD_SPACING" value="-" constant="no"/>
+<attribute name="LIFETIME_TEMP" value="2000 Hrs @ 85°C" constant="no"/>
+<attribute name="MANUFACTURER" value="Kemet" constant="no"/>
+<attribute name="MANUFACTURER_SIZE_CODE" value="D" constant="no"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55°C ~ 125°C" constant="no"/>
+<attribute name="PART_NUMBER" value="T491D107M006AT" constant="no"/>
+<attribute name="SERIES" value="T491" constant="no"/>
+<attribute name="SIZE" value="0.287&quot; L x 0.169&quot; W (7.30mm x 4.30mm)" constant="no"/>
+<attribute name="TOLERANCE" value="±20%" constant="no"/>
+<attribute name="TYPE" value="Molded" constant="no"/>
+<attribute name="VOLTAGE-RATED" value="6.3V" constant="no"/>
+</technology>
+<technology name="107M010AT">
+<attribute name="CAPACITANCE" value="100µF" constant="no"/>
+<attribute name="CATEGORY" value="Capacitors" constant="no"/>
+<attribute name="DESCRIPTION" value="CAP TANT 100UF 10V 20% 2917" constant="no"/>
+<attribute name="ESR" value="700 mOhm" constant="no"/>
+<attribute name="FAMILY" value="Tantalum Capacitors" constant="no"/>
+<attribute name="FEATURES" value="General Purpose" constant="no"/>
+<attribute name="HEIGHT-SEATED" value="0.122&quot; (3.10mm)" constant="no"/>
+<attribute name="LEAD_SPACING" value="-" constant="no"/>
+<attribute name="LIFETIME_TEMP" value="2000 Hrs @ 85°C" constant="no"/>
+<attribute name="MANUFACTURER" value="Kemet" constant="no"/>
+<attribute name="MANUFACTURER_SIZE_CODE" value="D" constant="no"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55°C ~ 125°C" constant="no"/>
+<attribute name="PART_NUMBER" value="T491D107M010AT" constant="no"/>
+<attribute name="SERIES" value="T491" constant="no"/>
+<attribute name="SIZE" value="0.287&quot; L x 0.169&quot; W (7.30mm x 4.30mm)" constant="no"/>
+<attribute name="TOLERANCE" value="±20%" constant="no"/>
+<attribute name="TYPE" value="Molded" constant="no"/>
+<attribute name="VOLTAGE-RATED" value="10V" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
