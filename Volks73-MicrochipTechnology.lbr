@@ -225,40 +225,6 @@ For attribution, please provide a link in any documentation or design files to t
 <text x="-10.16" y="6.35" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="6002">
-<pin name="VINA+" x="-22.86" y="7.62" visible="pin" length="middle" direction="in"/>
-<pin name="VINA-" x="-22.86" y="2.54" visible="pin" length="middle" direction="in"/>
-<pin name="VOUTA" x="22.86" y="5.08" visible="pin" length="middle" direction="out" rot="R180"/>
-<pin name="VINB+" x="22.86" y="-2.54" visible="pin" length="middle" direction="in" rot="R180"/>
-<pin name="VINB-" x="22.86" y="-7.62" visible="pin" length="middle" direction="in" rot="R180"/>
-<pin name="VOUTB" x="-22.86" y="-5.08" visible="pin" length="middle" direction="out"/>
-<wire x1="-2.54" y1="10.16" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="7.62" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0" x2="5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-10.16" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-7.62" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-5.08" x2="2.54" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-17.78" y1="-12.7" x2="-17.78" y2="12.7" width="0.254" layer="94"/>
-<wire x1="-17.78" y1="12.7" x2="17.78" y2="12.7" width="0.254" layer="94"/>
-<wire x1="17.78" y1="12.7" x2="17.78" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="17.78" y1="-12.7" x2="-17.78" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
-<text x="-1.778" y="6.604" size="1.778" layer="94">+</text>
-<text x="2.032" y="-1.778" size="1.778" layer="94" rot="R180">+</text>
-<text x="-1.778" y="1.524" size="1.778" layer="94">-</text>
-<text x="2.032" y="-6.858" size="1.778" layer="94" rot="R180">-</text>
-<text x="-17.78" y="13.97" size="1.27" layer="95">&gt;NAME</text>
-<text x="-17.78" y="-15.24" size="1.27" layer="95">&gt;VALUE</text>
-</symbol>
 <symbol name="2515">
 <pin name="TXCAN" x="22.86" y="12.7" length="middle" rot="R180"/>
 <pin name="RXCAN" x="22.86" y="10.16" length="middle" rot="R180"/>
@@ -302,6 +268,28 @@ For attribution, please provide a link in any documentation or design files to t
 <pin name="VSS" x="0" y="-12.7" length="middle" direction="pwr" rot="R90"/>
 <text x="-2.54" y="-7.62" size="1.778" layer="95" rot="R90">&gt;NAME</text>
 <text x="3.81" y="-7.62" size="1.778" layer="95" rot="R90">&gt;VALUE</text>
+</symbol>
+<symbol name="OP_AMP">
+<pin name="+" x="-10.16" y="5.08" length="middle"/>
+<pin name="-" x="-10.16" y="-5.08" length="middle"/>
+<pin name="OUT" x="12.7" y="0" length="middle" rot="R180"/>
+<wire x1="-5.08" y1="10.16" x2="0" y2="6.096" width="0.254" layer="94"/>
+<wire x1="0" y1="6.096" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="0" y2="-6.096" width="0.254" layer="94"/>
+<wire x1="0" y1="-6.096" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-10.16" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
+<text x="-5.08" y="11.43" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="V+">
+<pin name="V+" x="0" y="5.08" length="middle" direction="pwr" rot="R270"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="3.81" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+</symbol>
+<symbol name="V-">
+<pin name="V-" x="0" y="-5.08" length="middle" direction="pwr" rot="R90"/>
+<text x="-2.54" y="0" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="3.81" y="0" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -561,20 +549,21 @@ The MCP6001/2/4 family is available in the industrial and extended temperature r
 &lt;li&gt;Battery-Powered Systems&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
-<gate name="G$1" symbol="6002" x="0" y="0"/>
 <gate name="@SUPPLY" symbol="SUPPLY" x="-33.02" y="2.54" addlevel="request"/>
+<gate name="A" symbol="OP_AMP" x="5.08" y="20.32"/>
+<gate name="B" symbol="OP_AMP" x="5.08" y="-10.16"/>
 </gates>
 <devices>
 <device name="SN" package="SOIC-8">
 <connects>
 <connect gate="@SUPPLY" pin="VDD" pad="8"/>
 <connect gate="@SUPPLY" pin="VSS" pad="4"/>
-<connect gate="G$1" pin="VINA+" pad="3"/>
-<connect gate="G$1" pin="VINA-" pad="2"/>
-<connect gate="G$1" pin="VINB+" pad="5"/>
-<connect gate="G$1" pin="VINB-" pad="6"/>
-<connect gate="G$1" pin="VOUTA" pad="1"/>
-<connect gate="G$1" pin="VOUTB" pad="7"/>
+<connect gate="A" pin="+" pad="3"/>
+<connect gate="A" pin="-" pad="2"/>
+<connect gate="A" pin="OUT" pad="1"/>
+<connect gate="B" pin="+" pad="5"/>
+<connect gate="B" pin="-" pad="6"/>
+<connect gate="B" pin="OUT" pad="7"/>
 </connects>
 <technologies>
 <technology name="I">
