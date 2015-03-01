@@ -159,7 +159,7 @@ For attribution, please provide a link in any documentation or design files to t
 <text x="-6.35" y="3.81" size="1.27" layer="21">&gt;NAME</text>
 <text x="-6.35" y="-5.08" size="1.27" layer="21">&gt;VALUE</text>
 </package>
-<package name="22-27-2021">
+<package name="KK-6410_2-PIN">
 <description>&lt;h1&gt;KK&amp;reg; 6410 Series 2-Pin Vertical Header with Friction Lock&lt;/h1&gt;
 &lt;h2&gt;Single Row, 0.100" (2.54mm) Pitch&lt;/h2&gt;</description>
 <pad name="1" x="-1.27" y="0" drill="1.2" shape="square"/>
@@ -176,7 +176,7 @@ For attribution, please provide a link in any documentation or design files to t
 <text x="-2.54" y="3.81" size="1.27" layer="21">&gt;NAME</text>
 <text x="-2.54" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="26-60-4020">
+<package name="KK-41791_2-PIN">
 <description>&lt;h1&gt;KK&amp;reg; 41791 Series 2-Pin Vertical Header with Friction Lock&lt;/h1&gt;
 &lt;h2&gt;Single Row, 0.156" (3.96mm) Ptich&lt;/h2&gt;</description>
 <pad name="1" x="-1.9812" y="0" drill="1.70688125" shape="square"/>
@@ -423,7 +423,7 @@ For attribution, please provide a link in any documentation or design files to t
 <text x="-1.27" y="-2.54" size="1.27" layer="21">2</text>
 <wire x1="7" y1="-0.635" x2="7" y2="0.635" width="0.127" layer="21"/>
 </package>
-<package name="PICOBLADE_2-PIN">
+<package name="PICOBLADE-53261_2-PIN">
 <description>&lt;h1&gt;2-Pin Surface Mount, Right Angle, Male Header&lt;/h1&gt;
 &lt;h2&gt;PicoBlade&amp;trade; 53261 Series, Single Row, 0.049" (1.25mm) Pitch&lt;/h2&gt;
 &lt;ul&gt;
@@ -759,80 +759,22 @@ For attribution, please provide a link in any documentation or design files to t
 </device>
 </devices>
 </deviceset>
-<deviceset name="2-PIN_HEADER-*_?" prefix="J">
-<description>&lt;h1&gt;2-Pin Male Header&lt;/h1&gt;
-&lt;h3&gt;Ordering Information&lt;/h3&gt;
-&lt;table&gt;
-&lt;tr&gt;&lt;th&gt;Package&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;a href="http://www.molex.com/pdm_docs/sd/022272021_sd.pdf"&gt;22-27-2021&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-search/en?KeyWords=WM4111-ND&amp;WT.z_header=search_go"&gt;WM4111-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CONN HEADER 2POS .100 VERT TIN&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;a href="http://www.molex.com/pdm_docs/sd/026604020_sd.pdf"&gt;26-60-4020&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-search/en?KeyWords=WM4620-ND&amp;WT.z_header=search_go"&gt;WM4620-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CONN HEADER 2POS .156 VERT TIN&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;a href="http://www.molex.com/pdm_docs/sd/1041880210_sd.pdf"&gt;1041880210&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/1041880210/WM10425CT-ND/4747481"&gt;WM10425CT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CONN SSL RCPT 2POS 4MM SOLDER&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;a href="http://www.molex.com/pdm_docs/sd/532610271_sd.pdf"&gt;0532610271&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/0532610271/WM7620TR-ND/699094"&gt;WM7620TR-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CONN HEADER 2POS 1.25MM R/A SMD&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;</description>
+<deviceset name="1041880210" prefix="J">
+<description>&lt;h1&gt;Lite-Trap™ SMT Wire-to-Board Connectors, Push-Button Type, Two Circuit&lt;/h1&gt;
+&lt;h2&gt;Lite-Trap™ SMT Wire-to-Board Connector System&lt;/h2&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://rhu103.sma-promail.com/SQLImages/kelmscott/Molex/PDF_Images/987650-9991.PDF"&gt;Brochure&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.molex.com/pdm_docs/sd/1041880210_sd.pdf"&gt;Drawing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.molex.com/pdm_docs/ps/PS-104188-001.pdf"&gt;Product Specification&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.molex.com/pdm_docs/pk/PK-104188-001.pdf"&gt;Packaging Specification&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
 <gates>
 <gate name="@1" symbol="MALE_CONNECTOR" x="0" y="5.08"/>
 <gate name="@2" symbol="MALE_CONNECTOR" x="0" y="-5.08"/>
 </gates>
 <devices>
-<device name="6410" package="22-27-2021">
-<connects>
-<connect gate="@1" pin="P$1" pad="1"/>
-<connect gate="@2" pin="P$1" pad="2"/>
-</connects>
-<technologies>
-<technology name="KK">
-<attribute name="COLOR" value="Natural" constant="no"/>
-<attribute name="CONNECTOR_TYPE" value="Header, Unshrouded" constant="no"/>
-<attribute name="CONTACT_FINISH" value="Tin" constant="no"/>
-<attribute name="CONTACT_FINISH_THICKNESS" value="100uin (2.54um)" constant="no"/>
-<attribute name="CONTACT_MATING_LENGTH" value="0.295&quot; (7.49mm)" constant="no"/>
-<attribute name="CONTACT_TYPE" value="Male Pin" constant="no"/>
-<attribute name="DESCRIPTION" value="CONN HEADER 2POS .100 VERT TIN" constant="no"/>
-<attribute name="FASTENING_TYPE" value="Friction Lock" constant="no"/>
-<attribute name="FEATURES" value="-" constant="no"/>
-<attribute name="MANUFACTUER" value="Molex Inc" constant="no"/>
-<attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
-<attribute name="NUMBER_OF_POSITIONS" value="2" constant="no"/>
-<attribute name="NUMBER_OF_POSITIONS_LOADED" value="All" constant="no"/>
-<attribute name="NUMBER_OF_ROWS" value="1" constant="no"/>
-<attribute name="PART_NUMBER" value="0022272021" constant="no"/>
-<attribute name="PITCH" value="0.100&quot; (2.54mm)" constant="no"/>
-<attribute name="ROW_SPACING" value="-" constant="no"/>
-<attribute name="SERIES" value="6410" constant="no"/>
-<attribute name="TERMINATION" value="Solder" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="41791" package="26-60-4020">
-<connects>
-<connect gate="@1" pin="P$1" pad="1"/>
-<connect gate="@2" pin="P$1" pad="2"/>
-</connects>
-<technologies>
-<technology name="KK">
-<attribute name="COLOR" value="Natural" constant="no"/>
-<attribute name="CONNECTOR_TYPE" value="Header, Unshrouded" constant="no"/>
-<attribute name="CONTACT_FINISH" value="Tin" constant="no"/>
-<attribute name="CONTACT_FINISH_THICKNESS" value="60uin (1.52um)" constant="no"/>
-<attribute name="CONTACT_MATING_LENGTH" value="0.450&quot; (11.43mm)" constant="no"/>
-<attribute name="CONTACT_TYPE" value="Male Pin" constant="no"/>
-<attribute name="DESCRIPTION" value="CONN HEADER 2POS .156 VERT TIN" constant="no"/>
-<attribute name="FASTENING_TYPE" value="Friction Lock" constant="no"/>
-<attribute name="FEATURES" value="-" constant="no"/>
-<attribute name="MANUFACTURER" value="Molex Inc" constant="no"/>
-<attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
-<attribute name="NUMBER_OF_POSITIONS" value="2" constant="no"/>
-<attribute name="NUMBER_OF_POSITIONS_LOADED" value="All" constant="no"/>
-<attribute name="NUMBER_OF_ROWS" value="1" constant="no"/>
-<attribute name="PART_NUMBER" value="0026604020" constant="no"/>
-<attribute name="PITCH" value="0.156&quot; (3.96mm)" constant="no"/>
-<attribute name="ROW_SPACING" value="-" constant="no"/>
-<attribute name="SERIES" value="41791" constant="no"/>
-<attribute name="TERMINATION" value="Solder" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="104188" package="LITE-TRAP_2-PIN">
+<device name="" package="LITE-TRAP_2-PIN">
 <connects>
 <connect gate="@1" pin="P$1" pad="1 2"/>
 <connect gate="@2" pin="P$1" pad="3 4"/>
@@ -862,36 +804,6 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="TERMINATION" value="Solder" constant="no"/>
 <attribute name="VOLTAGE_RATING" value="300V" constant="no"/>
 <attribute name="WIRE_GAUGE" value="18-24AWG" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="53261" package="PICOBLADE_2-PIN">
-<connects>
-<connect gate="@1" pin="P$1" pad="1"/>
-<connect gate="@2" pin="P$1" pad="2"/>
-</connects>
-<technologies>
-<technology name="PICOBLADE">
-<attribute name="COLOR" value="Natural" constant="no"/>
-<attribute name="CONNECTOR_TYPE" value="Header, Shrouded" constant="no"/>
-<attribute name="CONTACT_FINISH" value="Tin" constant="no"/>
-<attribute name="CONTACT_FINISH_THICKNESS" value="39uin (1.00um)" constant="no"/>
-<attribute name="CONTACT_MATING_LENGTH" value="-" constant="no"/>
-<attribute name="CONTACT_TYPE" value="Blade Pin" constant="no"/>
-<attribute name="DESCRIPTION" value="CONN HEADER 2POS 1.25MM R/A SMD" constant="no"/>
-<attribute name="FAMILY" value="Rectangular Connectors - Headers, Male Pins" constant="no"/>
-<attribute name="FASTENING_TYPE" value="-" constant="no"/>
-<attribute name="FEATURES" value="Solder Retention" constant="no"/>
-<attribute name="MANUFACTURER" value="Molex Inc" constant="no"/>
-<attribute name="MOUNTING_TYPE" value="Surface Mount, Right Angle" constant="no"/>
-<attribute name="NUMBER_OF_POSITIONS" value="2" constant="no"/>
-<attribute name="NUMBER_OF_POSITIONS_LOADED" value="All" constant="no"/>
-<attribute name="NUMBER_OF_ROWS" value="1" constant="no"/>
-<attribute name="PART_NUMBER" value="0532610271" constant="no"/>
-<attribute name="PITCH" value="0.049&quot; (1.25mm)" constant="no"/>
-<attribute name="ROW_SPACING" value="-" constant="no"/>
-<attribute name="SERIES" value="PicoBlade 53261" constant="no"/>
-<attribute name="TERMINATION" value="Solder" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1088,6 +1000,152 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="PITCH" value="0.118&quot; (3.00mm)" constant="no"/>
 <attribute name="ROW_SPACING" value="-" constant="no"/>
 <attribute name="SERIES" value="Micro-Fit 3.0 43650" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="0532610271" prefix="J">
+<description>&lt;h1&gt;1.25mm Pitch PicoBlade™ Header, Surface Mount, Right Angle, 2 Circuits&lt;/h1&gt;
+&lt;h2&gt;PicoBlade™ Connector System&lt;/h2&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.molex.com/pdm_docs/sd/532610271_sd.pdf"&gt;Drawing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="@1" symbol="MALE_CONNECTOR" x="0" y="5.08"/>
+<gate name="@2" symbol="MALE_CONNECTOR" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="" package="PICOBLADE-53261_2-PIN">
+<connects>
+<connect gate="@1" pin="P$1" pad="1"/>
+<connect gate="@2" pin="P$1" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Conectors, Interconnects" constant="no"/>
+<attribute name="COLOR" value="Natural" constant="no"/>
+<attribute name="CONNECTOR_TYPE" value="Header, Shrouded" constant="no"/>
+<attribute name="CONTACT_FINISH" value="Tin" constant="no"/>
+<attribute name="CONTACT_FINISH_THICKNESS" value="39µin (1.00µm)" constant="no"/>
+<attribute name="CONTACT_MATING_LENGTH" value="-" constant="no"/>
+<attribute name="CONTACT_TYPE" value="Blade Pin" constant="no"/>
+<attribute name="DESCRIPTION" value="CONN HEADER 2POS 1.25MM R/A SMD" constant="no"/>
+<attribute name="FAMILY" value="Rectangular Connectors - Headers, Male Pins" constant="no"/>
+<attribute name="FASTENING_TYPE" value="-" constant="no"/>
+<attribute name="FEATURES" value="Solder Retention" constant="no"/>
+<attribute name="MANUFACTURER" value="Molex Inc" constant="no"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount, Right Angle" constant="no"/>
+<attribute name="NUMBER_OF_POSITIONS" value="2" constant="no"/>
+<attribute name="NUMBER_OF_POSITIONS_LOADED" value="All" constant="no"/>
+<attribute name="NUMBER_OF_ROWS" value="1" constant="no"/>
+<attribute name="PART_NUMBER" value="0532610271" constant="no"/>
+<attribute name="PITCH" value="0.049&quot; (1.25mm)" constant="no"/>
+<attribute name="ROW_SPACING" value="-" constant="no"/>
+<attribute name="SERIES" value="PicoBlade™ 53261" constant="no"/>
+<attribute name="TERMINATION" value="Solder" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="0022272021" prefix="J">
+<description>&lt;h1&gt;KK® 254 Wire-to-Board Header, Vertical, with Friction Lock, 2 Circuits, Tin (Sn) Plating&lt;/h1&gt;
+&lt;h2&gt;KK® Interconnect System&lt;/h2&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.molex.com/pdm_docs/sd/022272021_sd.pdf"&gt;Drawing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.molex.com/pdm_docs/ps/PS-99020-0088.pdf"&gt;Product Specification&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Matings&lt;/h3&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;0022013027&lt;/td&gt;&lt;td&gt;CONN HOUS 2POS .100 W/RAMP/RIB&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;0010112023&lt;/td&gt;&lt;td&gt;CONN HOUSING 2POS .100 HI PRESS&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;0022012027&lt;/td&gt;&lt;td&gt;CONN HOUSING 2POS .100 W/RAMP&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;14-56-2021&lt;/td&gt;&lt;td&gt;CONN IDC 2POS .100 GOLD 24AWG&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;14-60-0021&lt;/td&gt;&lt;td&gt;CONN IDC 2POS .100 TIN 24AWG&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;0022012021&lt;/td&gt;&lt;td&gt;CONN HOUSING 2POS .100 W/O RAMP&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;0022012025&lt;/td&gt;&lt;td&gt;CONN HSNG 2POS .100 W/RAMP/RIB&lt;/td&gt;&lt;/tr&gt;</description>
+<gates>
+<gate name="@1" symbol="MALE_CONNECTOR" x="0" y="5.08"/>
+<gate name="@2" symbol="MALE_CONNECTOR" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="" package="KK-6410_2-PIN">
+<connects>
+<connect gate="@1" pin="P$1" pad="1"/>
+<connect gate="@2" pin="P$1" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Connectors, Interconnects" constant="no"/>
+<attribute name="COLOR" value="Natural" constant="no"/>
+<attribute name="CONNECTOR_TYPE" value="Header, Unshrouded" constant="no"/>
+<attribute name="CONTACT_FINISH" value="Tin" constant="no"/>
+<attribute name="CONTACT_FINISH_THICKNESS" value="100µin (2.54µm)" constant="no"/>
+<attribute name="CONTACT_MATING_LENGTH" value="0.295&quot; (7.49mm)" constant="no"/>
+<attribute name="CONTACT_TYPE" value="Male Pin" constant="no"/>
+<attribute name="DESCRIPTION" value="CONN HEADER 2POS .100 VERT TIN" constant="no"/>
+<attribute name="FAMILY" value="Rectangular Connectors - Headers, Male Pins" constant="no"/>
+<attribute name="FASTENING_TYPE" value="Friction Lock" constant="no"/>
+<attribute name="FEATURES" value="-" constant="no"/>
+<attribute name="MANUFACTURER" value="Molex Inc" constant="no"/>
+<attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
+<attribute name="NUMBER_OF_POSITIONS" value="2" constant="no"/>
+<attribute name="NUMBER_OF_POSITIONS_LOADED" value="All" constant="no"/>
+<attribute name="NUMBER_OF_ROWS" value="1" constant="no"/>
+<attribute name="PART_NUMBER" value="0022272021" constant="no"/>
+<attribute name="PITCH" value="0.100&quot; (2.54mm)" constant="no"/>
+<attribute name="ROW_SPACING" value="-" constant="no"/>
+<attribute name="SERIES" value="KK® 6410" constant="no"/>
+<attribute name="TERMINATION" value="Solder" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="0026604020" prefix="J">
+<description>&lt;h1&gt;KK® 396 Header, Vertical, Friction Lock, 2 Circuits, Tin (Sn) Plating&lt;/h1&gt;
+&lt;h2&gt;KK® Interconnect System&lt;/h2&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.molex.com/pdm_docs/sd/026604020_sd.pdf"&gt;Drawing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="@1" symbol="MALE_CONNECTOR" x="0" y="5.08"/>
+<gate name="@2" symbol="MALE_CONNECTOR" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="" package="KK-41791_2-PIN">
+<connects>
+<connect gate="@1" pin="P$1" pad="1"/>
+<connect gate="@2" pin="P$1" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Connectors, Interconnects" constant="no"/>
+<attribute name="COLOR" value="Natural" constant="no"/>
+<attribute name="CONNECTOR_TYPE" value="Header, Unshrouded" constant="no"/>
+<attribute name="CONTACT_FINISH" value="Tin" constant="no"/>
+<attribute name="CONTACT_FINISH_THICKNESS" value="60µin (1.52µm)" constant="no"/>
+<attribute name="CONTACT_MATING_LENGTH" value="0.450&quot; (11.43mm)" constant="no"/>
+<attribute name="CONTACT_TYPE" value="Male Pin" constant="no"/>
+<attribute name="DESCRIPTION" value="CONN HEADER 2POS .156 VERT TIN" constant="no"/>
+<attribute name="FAMILY" value="Rectangular Connectors - Headers, Male Pins" constant="no"/>
+<attribute name="FASTENING_TYPE" value="Friction Lock" constant="no"/>
+<attribute name="FEATURES" value="-" constant="no"/>
+<attribute name="MANUFACTURER" value="Molex Inc" constant="no"/>
+<attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
+<attribute name="NUMBER_OF_POSITIONS" value="2" constant="no"/>
+<attribute name="NUMBER_OF_POSITIONS_LOADED" value="All" constant="no"/>
+<attribute name="NUMBER_OF_ROWS" value="1" constant="no"/>
+<attribute name="PART_NUMBER" value="0026604020" constant="no"/>
+<attribute name="PITCH" value="0.156&quot; (3.96mm)" constant="no"/>
+<attribute name="ROW_SPACING" value="-" constant="no"/>
+<attribute name="SERIES" value="KK® 41791" constant="no"/>
+<attribute name="TERMINATION" value="Solder" constant="no"/>
 </technology>
 </technologies>
 </device>
