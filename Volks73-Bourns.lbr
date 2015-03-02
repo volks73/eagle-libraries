@@ -155,11 +155,6 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://www.bourns.com/data/global/pdfs/mfmsmf.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Ordering Information&lt;/h3&gt;
-&lt;table&gt;
-&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;MF-MSMF075/24-2&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/MF-MSMF075%2F24-2/MF-MSMF075%2F24-2CT-ND/662844"&gt;MF-MSMF075/24-2CT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;PTC RESETTABLE .75A 24V 1812&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Compliant with AEC-Q200 Rev-C- Stress Test Qualification for Passive Components in Automotive Applications&lt;/li&gt;
@@ -191,6 +186,9 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="PART_NUMBER" value="MF-MSMF075/24-2" constant="no"/>
 <attribute name="R_MINMAX" value="0.11 ~ 0.450 Ohm" constant="no"/>
 <attribute name="SERIES" value="MF-MSMF" constant="no"/>
+<attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-detail/en/MF-MSMF075%2F24-2/MF-MSMF075%2F24-2CT-ND/662844" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="MF-MSMF075/24-2CT-ND" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
 <attribute name="TIME_TO_TRIP" value="0.2s" constant="no"/>
 <attribute name="VOLTAGE-MAX" value="24V" constant="no"/>
 </technology>
@@ -204,11 +202,6 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=http://www.bourns.com/data/global/pdfs/3296.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Ordering Information&lt;/h3&gt;
-&lt;table&gt;
-&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;3296W-1-103LF&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/3296W-1-103LF/3296W-103LF-ND/1088045"&gt;3296W-103LF-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;TRIMMER 10K OHM 0.5W PC PIN&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Multiturn/Cermet/Industrial/Sealed&lt;/li&gt;
@@ -246,6 +239,9 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SERIES" value="Trimpt 3296 - Sealed" constant="no"/>
 <attribute name="SIZE" value="Rectangular - 0.375&quot; x 0.190&quot; Face x 0.395&quot; H (9.53mm x 4.83mm x 10.03mm)" constant="no"/>
 <attribute name="STANDARD_PACKAGE" value="50" constant="no"/>
+<attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-detail/en/3296W-1-103LF/3296W-103LF-ND/1088045" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="3296W-103LF-ND" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
 <attribute name="TERMINATION_STYLE" value="PC Pin" constant="no"/>
 <attribute name="TOLERANCE" value="10%" constant="no"/>
