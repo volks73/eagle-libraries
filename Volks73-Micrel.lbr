@@ -112,11 +112,6 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://www.micrel.com/_PDF/mic2920.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Ordering Information&lt;/h3&gt;
-&lt;table&gt;
-&lt;tr&gt;&lt;th&gt;Package&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;SOT-223&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/MIC2920A-5.0WS%20TR/576-1117-1-ND/771850"&gt;576-1117-1-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;IC REG LDO 5V 0.4A SOT223&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
 &lt;h3&gt;General Description&lt;/h3&gt;
 &lt;p&gt;
 The MIC2920A family are “bulletproof,” efficient voltage regulators with very low dropout voltage (typically 40mV at light loads and 370mV at 250mA), and very low quiescent current (140µA typical). The quiescent current of the MIC2920A increases only slightly in dropout, prolonging battery life. Key MIC2920A features include protection against reversed battery, fold-back current limiting, and automotive “load dump”protection (60V positive transient).
@@ -167,6 +162,7 @@ The MIC2920 is available in several configurations. The MIC2920A-x.x devices are
 <attribute name="CURRENT-LIMIT" value="-" constant="no"/>
 <attribute name="CURRENT-LIMIT-MIN" value="-" constant="no"/>
 <attribute name="CURRENT-OUTPUT" value="400mA" constant="no"/>
+<attribute name="DATASHEET" value="http://www.micrel.com/_PDF/mic2920.pdf" constant="no"/>
 <attribute name="DESCRIPTION" value="IC REG LDO 5V 0.4A SOT223" constant="no"/>
 <attribute name="FAMILY" value="PMIC - Voltage Regulators - Linear (LDO)" constant="no"/>
 <attribute name="MANUFACTURER" value="Micrel Inc" constant="no"/>
@@ -177,6 +173,9 @@ The MIC2920 is available in several configurations. The MIC2920A-x.x devices are
 <attribute name="REGULATOR_TOPOLOGY" value="Positive Fixed" constant="no"/>
 <attribute name="SERIES" value="-" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="SOT-223" constant="no"/>
+<attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-detail/en/MIC2920A-5.0WS%20TR/576-1117-1-ND/771850" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="576-1117-1-ND" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
 <attribute name="VOLTAGE_DROPOUT" value="0.4V @ 400mA" constant="no"/>
 <attribute name="VOLTAGE_INPUT" value="Up to 26V" constant="no"/>
 <attribute name="VOLTAGE_OUTPUT" value="5V" constant="no"/>
