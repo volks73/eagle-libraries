@@ -328,6 +328,7 @@ The reference outline is for a 8-Pin, Closed IC Socket from Assman WSW Component
 <attribute name="CONNECTIVITY" value="USI" constant="no"/>
 <attribute name="CORE_PROCESSOR" value="AVR" constant="no"/>
 <attribute name="CORE_SIZE" value="8-Bit" constant="no"/>
+<attribute name="DATASHEET" value="http://www.atmel.com/images/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf" constant="no"/>
 <attribute name="DATA_CONVERTERS" value="A/D 4x10b" constant="no"/>
 <attribute name="DESCRIPTION" value="IC MCU 8BIT 8KB FLASH 8DIP" constant="no"/>
 <attribute name="EEPROM_SIZE" value="512 x 8" constant="no"/>
@@ -486,6 +487,7 @@ The ATtiny87/167 AVR is supported with a full suite of program and system develo
 <attribute name="CONNECTIVITY" value="I²C, LIN, SPI, UART/USART, USI" constant="no"/>
 <attribute name="CORE_PROCESSOR" value="AVR" constant="no"/>
 <attribute name="CORE_SIZE" value="8-Bit" constant="no"/>
+<attribute name="DATASHEET" value="http://www.atmel.com/Images/Atmel-8265-8-bit-AVR-Microcontroller-tinyAVR-ATtiny87-ATtiny167_datasheet.pdf" constant="no"/>
 <attribute name="DATA_CONVERTERS" value="A/D 11x10b" constant="no"/>
 <attribute name="DESCRIPTION" value="IC MCU 8BIT 16KB FLASH 20SOIC" constant="no"/>
 <attribute name="EEPROM_SIZE" value="512 x 8" constant="no"/>
