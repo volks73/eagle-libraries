@@ -124,11 +124,6 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://www.comchiptech.com/cms/UserFiles/CDBC520-G%20Thru936981.%20CDBC5100-G%20RevC.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Ordering Information&lt;/h3&gt;
-&lt;table&gt;
-&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;CDBC540-G&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/CDBC540-G/641-1126-1-ND/1559087"&gt;641-1126-1-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;DIODE SCHOTTKY 40V 5A DO214AB&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Ideal for surface mount applications&lt;/li&gt;
@@ -169,6 +164,9 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SERIES" value="-" constant="no"/>
 <attribute name="SPEED" value="Fast Recovery =&lt; 500ns, &gt; 200mA (Io)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="DO-214AB, (SMC)" constant="no"/>
+<attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-detail/en/CDBC540-G/641-1126-1-ND/1559087" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="641-1126-1-ND" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
 <attribute name="VOLTAGE-DC_REVERSE" value="40V" constant="no"/>
 <attribute name="VOLTAGE-FORWARD" value="550mV @ 5A" constant="no"/>
 </technology>
