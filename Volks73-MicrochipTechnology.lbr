@@ -379,18 +379,18 @@ These devices are available in small 6-pin SOT-23 and DFN 2x2 mm packages.
 &lt;li&gt;Motor Control&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
-<gate name="G$1" symbol="47X6" x="0" y="0"/>
-<gate name="@SUPPLY" symbol="SUPPLY" x="-25.4" y="2.54" addlevel="request"/>
+<gate name="U$1" symbol="47X6" x="0" y="0"/>
+<gate name="-SUPPLY" symbol="SUPPLY" x="-25.4" y="2.54" addlevel="request"/>
 </gates>
 <devices>
 <device name="" package="SOT-23-6">
 <connects>
-<connect gate="@SUPPLY" pin="VDD" pad="3"/>
-<connect gate="@SUPPLY" pin="VSS" pad="2"/>
-<connect gate="G$1" pin="SCL" pad="5"/>
-<connect gate="G$1" pin="SDA" pad="4"/>
-<connect gate="G$1" pin="VOUT" pad="1"/>
-<connect gate="G$1" pin="VREF" pad="6"/>
+<connect gate="-SUPPLY" pin="VDD" pad="3"/>
+<connect gate="-SUPPLY" pin="VSS" pad="2"/>
+<connect gate="U$1" pin="SCL" pad="5"/>
+<connect gate="U$1" pin="SDA" pad="4"/>
+<connect gate="U$1" pin="VOUT" pad="1"/>
+<connect gate="U$1" pin="VREF" pad="6"/>
 </connects>
 <technologies>
 <technology name="1">
@@ -467,17 +467,17 @@ The MCP3021 runs on a single supply voltage that operates over a broad range of 
 &lt;li&gt;Remote or Isolated Data Acquisition&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
-<gate name="G$1" symbol="3021" x="0" y="0"/>
-<gate name="@SUPPLY" symbol="SUPPLY" x="-25.4" y="0" addlevel="request"/>
+<gate name="U$1" symbol="3021" x="0" y="0"/>
+<gate name="-SUPPLY" symbol="SUPPLY" x="-25.4" y="0" addlevel="request"/>
 </gates>
 <devices>
 <device name="" package="SOT-23-5">
 <connects>
-<connect gate="@SUPPLY" pin="VDD" pad="1"/>
-<connect gate="@SUPPLY" pin="VSS" pad="2"/>
-<connect gate="G$1" pin="AIN" pad="3"/>
-<connect gate="G$1" pin="SCL" pad="5"/>
-<connect gate="G$1" pin="SDA" pad="4"/>
+<connect gate="-SUPPLY" pin="VDD" pad="1"/>
+<connect gate="-SUPPLY" pin="VSS" pad="2"/>
+<connect gate="U$1" pin="AIN" pad="3"/>
+<connect gate="U$1" pin="SCL" pad="5"/>
+<connect gate="U$1" pin="SDA" pad="4"/>
 </connects>
 <technologies>
 <technology name="">
@@ -549,15 +549,15 @@ The MCP6001/2/4 family is available in the industrial and extended temperature r
 &lt;li&gt;Battery-Powered Systems&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
-<gate name="@SUPPLY" symbol="SUPPLY" x="-33.02" y="2.54" addlevel="request"/>
+<gate name="-SUPPLY" symbol="SUPPLY" x="-33.02" y="2.54" addlevel="request"/>
 <gate name="A" symbol="OP_AMP" x="5.08" y="20.32"/>
 <gate name="B" symbol="OP_AMP" x="5.08" y="-10.16"/>
 </gates>
 <devices>
 <device name="SN" package="SOIC-8">
 <connects>
-<connect gate="@SUPPLY" pin="VDD" pad="8"/>
-<connect gate="@SUPPLY" pin="VSS" pad="4"/>
+<connect gate="-SUPPLY" pin="VDD" pad="8"/>
+<connect gate="-SUPPLY" pin="VSS" pad="4"/>
 <connect gate="A" pin="+" pad="3"/>
 <connect gate="A" pin="-" pad="2"/>
 <connect gate="A" pin="OUT" pad="1"/>
@@ -657,30 +657,30 @@ Microchip Technology’s MCP2515 is a stand-alone Controller Area Network (CAN) 
 &lt;/ul&gt;
 &lt;/ul&gt;</description>
 <gates>
-<gate name="G$1" symbol="2515" x="0" y="0"/>
-<gate name="@SUPPLY" symbol="SUPPLY" x="-40.64" y="0" addlevel="request"/>
+<gate name="U$1" symbol="2515" x="0" y="0"/>
+<gate name="-SUPPLY" symbol="SUPPLY" x="-40.64" y="0" addlevel="request"/>
 </gates>
 <devices>
 <device name="SO" package="SOIC-18">
 <connects>
-<connect gate="@SUPPLY" pin="VDD" pad="18"/>
-<connect gate="@SUPPLY" pin="VSS" pad="9"/>
-<connect gate="G$1" pin="!CS!" pad="16"/>
-<connect gate="G$1" pin="!INT!" pad="12"/>
-<connect gate="G$1" pin="!RESET!" pad="17"/>
-<connect gate="G$1" pin="!RX0BF!" pad="11"/>
-<connect gate="G$1" pin="!RX1BF!" pad="10"/>
-<connect gate="G$1" pin="!TX0RTS!" pad="4"/>
-<connect gate="G$1" pin="!TX1RTS!" pad="5"/>
-<connect gate="G$1" pin="!TX2RTS!" pad="6"/>
-<connect gate="G$1" pin="CLKOUT/SOF" pad="3"/>
-<connect gate="G$1" pin="OSC1" pad="8"/>
-<connect gate="G$1" pin="OSC2" pad="7"/>
-<connect gate="G$1" pin="RXCAN" pad="2"/>
-<connect gate="G$1" pin="SCK" pad="13"/>
-<connect gate="G$1" pin="SI" pad="14"/>
-<connect gate="G$1" pin="SO" pad="15"/>
-<connect gate="G$1" pin="TXCAN" pad="1"/>
+<connect gate="-SUPPLY" pin="VDD" pad="18"/>
+<connect gate="-SUPPLY" pin="VSS" pad="9"/>
+<connect gate="U$1" pin="!CS!" pad="16"/>
+<connect gate="U$1" pin="!INT!" pad="12"/>
+<connect gate="U$1" pin="!RESET!" pad="17"/>
+<connect gate="U$1" pin="!RX0BF!" pad="11"/>
+<connect gate="U$1" pin="!RX1BF!" pad="10"/>
+<connect gate="U$1" pin="!TX0RTS!" pad="4"/>
+<connect gate="U$1" pin="!TX1RTS!" pad="5"/>
+<connect gate="U$1" pin="!TX2RTS!" pad="6"/>
+<connect gate="U$1" pin="CLKOUT/SOF" pad="3"/>
+<connect gate="U$1" pin="OSC1" pad="8"/>
+<connect gate="U$1" pin="OSC2" pad="7"/>
+<connect gate="U$1" pin="RXCAN" pad="2"/>
+<connect gate="U$1" pin="SCK" pad="13"/>
+<connect gate="U$1" pin="SI" pad="14"/>
+<connect gate="U$1" pin="SO" pad="15"/>
+<connect gate="U$1" pin="TXCAN" pad="1"/>
 </connects>
 <technologies>
 <technology name="I">
@@ -753,20 +753,20 @@ The device meets the automotive requirements for high-speed (up to 1 Mb/s), low 
     &lt;li&gt;High (H): -40°C to +150°C&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
-<gate name="G$1" symbol="2561" x="0" y="0"/>
-<gate name="@SUPPLY" symbol="SUPPLY" x="-27.94" y="0" addlevel="request"/>
+<gate name="U$1" symbol="2561" x="0" y="0"/>
+<gate name="-SUPPLY" symbol="SUPPLY" x="-27.94" y="0" addlevel="request"/>
 </gates>
 <devices>
 <device name="SN" package="SOIC-8">
 <connects>
-<connect gate="@SUPPLY" pin="VDD" pad="3"/>
-<connect gate="@SUPPLY" pin="VSS" pad="2"/>
-<connect gate="G$1" pin="CANH" pad="7"/>
-<connect gate="G$1" pin="CANL" pad="6"/>
-<connect gate="G$1" pin="RXD" pad="4"/>
-<connect gate="G$1" pin="SPLIT" pad="5"/>
-<connect gate="G$1" pin="STBY" pad="8"/>
-<connect gate="G$1" pin="TXD" pad="1"/>
+<connect gate="-SUPPLY" pin="VDD" pad="3"/>
+<connect gate="-SUPPLY" pin="VSS" pad="2"/>
+<connect gate="U$1" pin="CANH" pad="7"/>
+<connect gate="U$1" pin="CANL" pad="6"/>
+<connect gate="U$1" pin="RXD" pad="4"/>
+<connect gate="U$1" pin="SPLIT" pad="5"/>
+<connect gate="U$1" pin="STBY" pad="8"/>
+<connect gate="U$1" pin="TXD" pad="1"/>
 </connects>
 <technologies>
 <technology name="E">
