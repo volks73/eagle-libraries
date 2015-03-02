@@ -201,6 +201,7 @@ taped and reeled for auto insertion. The 15 case sizes with wide capacitance and
 <technologies>
 <technology name="106K010">
 <attribute name="CAPACITANCE" value="10uF" constant="no"/>
+<attribute name="DATASHEET" value="http://www.avx.com/docs/Catalogs/tap.pdf" constant="no"/>
 <attribute name="DESCRIPTION" value="CAP TANT 10UF 10V 10% RADIAL" constant="no"/>
 <attribute name="ESR" value="5 Ohm" constant="no"/>
 <attribute name="FEATURES" value="General Purpose" constant="no"/>
@@ -252,6 +253,7 @@ X7R dielectric chip usage covers the broad spectrum of industrial applications w
 <technology name="5C220JAT2A">
 <attribute name="APPLICATIONS" value="General Purpose" constant="no"/>
 <attribute name="CAPACITANCE" value="22pF" constant="no"/>
+<attribute name="DATASHEET" value="http://www.avx.com/docs/Catalogs/cx7r.pdf" constant="no"/>
 <attribute name="DESCRIPTION" value="CAP CER 22PF 50V 5% X7R 0603" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="HEIGHT-SEATED" value="-" constant="no"/>
