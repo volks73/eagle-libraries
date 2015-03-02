@@ -153,6 +153,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CAPACITANCE" value="-" constant="no"/>
 <attribute name="CURRENT-AVERAGE_RECTIFIED" value="5A" constant="no"/>
 <attribute name="CURRENT-REVERSE_LEAKAGE" value="500uA @ 40V" constant="no"/>
+<attribute name="DATASHEET" value="http://www.comchiptech.com/cms/UserFiles/CDBC520-G%20Thru936981.%20CDBC5100-G%20RevC.pdf" constant="no"/>
 <attribute name="DESCRIPTION" value="DIODE SCHOTTKY 40V 5A DO214AB" constant="no"/>
 <attribute name="DIODE_TYPE" value="Schottky" constant="no"/>
 <attribute name="MANUFACTURER" value="Comchip Technology" constant="no"/>
