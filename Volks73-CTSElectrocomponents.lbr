@@ -196,11 +196,6 @@ For attribution, please provide a link in any documentation or design files to t
 <deviceset name="204-211*" prefix="S" uservalue="yes">
 <description>&lt;h1&gt;Dual Inline Package (DIP) Switch&lt;/h1&gt;
 &lt;h2&gt;Double-Pole Single-Throw (DPST) DIP Switch, 1 Position&lt;/h2&gt;
-&lt;h3&gt;Ordering Information&lt;/h3&gt;
-&lt;table&gt;
-&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;a href="http://www.ctscorp.com/components/Datasheets/204.pdf"&gt;204-211ST&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/204-211ST/CT204211ST-ND/267310"&gt;CT204211ST-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;SWITCH DIP DPST 1POS SMT 50V&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
 &lt;h3&gt;General Description&lt;/h3&gt;
 &lt;p&gt;
 Surface Mount Multi-Functional DIP Switch IR Solderable, PCB Washable
@@ -253,6 +248,9 @@ Surface Mount Multi-Functional DIP Switch IR Solderable, PCB Washable
 <attribute name="NUMBER_OF_POSITIONS" value="1" constant="no"/>
 <attribute name="ORIENTATION" value="Top Actuated" constant="no"/>
 <attribute name="PART_NUMBER" value="204-211ST" constant="no"/>
+<attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-detail/en/204-211ST/CT204211ST-ND/267310" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="CT204211ST-ND" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
 <attribute name="WASHABLE" value="Yes" constant="no"/>
 </technology>
 </technologies>
