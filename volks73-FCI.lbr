@@ -467,12 +467,7 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;h3&gt;Documentation&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://portal.fciconnect.com/Comergent//fci/drawing/68000.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Ordering Information&lt;/h3&gt;
-&lt;table&gt;
-&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;68000-101HLF&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-search/en?KeyWords=609-3460-ND&amp;WT.z_header=search_go"&gt;609-3460-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;BERGSTIK II .100" SR STRAIGHT&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;</description>
+&lt;/ul&gt;</description>
 <gates>
 <gate name="@1" symbol="MALE_CONNECTOR" x="0" y="0"/>
 </gates>
@@ -489,6 +484,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CONTACT_FINISH_THICKNESS" value="30uin (0.75um)" constant="no"/>
 <attribute name="CONTACT_MATING_LENGTH" value="0.230&quot; (5.84mm)" constant="no"/>
 <attribute name="CONTACT_TYPE" value="Male Pin" constant="no"/>
+<attribute name="DATASHEET" value="http://portal.fciconnect.com/Comergent//fci/drawing/68000.pdf" constant="no"/>
 <attribute name="DESCRIPTION" value="BERGSTIK II .100&quot; SR STRAIGHT" constant="no"/>
 <attribute name="FASTENING_TYPE" value="-" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
@@ -501,6 +497,9 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="PITCH" value="-" constant="no"/>
 <attribute name="ROW_SPACING" value="-" constant="no"/>
 <attribute name="SERIES" value="BERGSTIK-II, MezzSeelct, Basics+" constant="no"/>
+<attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-search/en?KeyWords=609-3460-ND&amp;WT.z_header=search_go" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="609-3460-ND" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
 <attribute name="TERMINATION" value="Solder" constant="no"/>
 </technology>
 </technologies>
@@ -508,12 +507,12 @@ For attribution, please provide a link in any documentation or design files to t
 </devices>
 </deviceset>
 <deviceset name="68016-204*" prefix="J">
-<description>&lt;h1&gt;4-Pin Male Header&lt;/h1&gt;
-&lt;h3&gt;Ordering Information&lt;/h3&gt;
-&lt;table&gt;
-&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;a href=http://portal.fciconnect.com/Comergent//fci/drawing/68015.pdf"&gt;68016-204HLF&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/68016-204HLF/609-3319-ND/1878459"&gt;609-3319-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CONN HEADER 4POS .100 R/A 15AU&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;</description>
+<description>&lt;h1&gt;4-Pin Right-Angle Male Header&lt;/h1&gt;
+&lt;h2&gt;BERGSTIK® II, MezzSelect™, Basics+&lt;/h2&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://portal.fciconnect.com/Comergent//fci/drawing/68015.pdf"&gt;Drawing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
 <gates>
 <gate name="@1" symbol="MALE_CONNECTOR" x="0" y="17.78"/>
 <gate name="@2" symbol="MALE_CONNECTOR" x="0" y="5.08"/>
@@ -536,6 +535,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CONTACT_FINISH_THICKNESS" value="15uin (0.38um)" constant="no"/>
 <attribute name="CONTACT_MATING_LENGTH" value="0.230&quot; (5.84mm)" constant="no"/>
 <attribute name="CONTACT_TYPE" value="Male Pin" constant="no"/>
+<attribute name="DATASHEET" value="http://portal.fciconnect.com/Comergent//fci/drawing/68015.pdf" constant="no"/>
 <attribute name="DESCRIPTION" value="CONN HEADER 4POS .100 R/A 15AU" constant="no"/>
 <attribute name="FASTENING_TYPE" value="-" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
@@ -548,6 +548,9 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="PITCH" value="0.100&quot; (2.54mm)" constant="no"/>
 <attribute name="ROW_SPACING" value="-" constant="no"/>
 <attribute name="SERIES" value="BERGSTIK-II, MezzSelect, Basics+" constant="no"/>
+<attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-detail/en/68016-204HLF/609-3319-ND/1878459" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="609-3319-ND" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
 <attribute name="TERMINATION" value="Solder" constant="no"/>
 </technology>
 </technologies>
@@ -555,12 +558,12 @@ For attribution, please provide a link in any documentation or design files to t
 </devices>
 </deviceset>
 <deviceset name="68016-205*" prefix="J">
-<description>&lt;h1&gt;5-Pin Male Header&lt;/h1&gt;
-&lt;h3&gt;Ordering Information&lt;/h3&gt;
-&lt;table&gt;
-&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;a href="http://portal.fciconnect.com/Comergent//fci/drawing/68015.pdf"&gt;68016-205HLF&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/68016-205HLF/609-4304-ND/1658018"&gt;609-4304-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CONN HEADER 5POS R/A .100 GOLD&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;</description>
+<description>&lt;h1&gt;5-Pin Right-Angle Male Header&lt;/h1&gt;
+&lt;h2&gt;BERGSTIK® II, MezzSelect™, Basics+&lt;/h2&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://portal.fciconnect.com/Comergent//fci/drawing/68015.pdf"&gt;Drawing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
 <gates>
 <gate name="@1" symbol="MALE_CONNECTOR" x="0" y="25.4"/>
 <gate name="@2" symbol="MALE_CONNECTOR" x="0" y="12.7"/>
@@ -579,13 +582,16 @@ For attribution, please provide a link in any documentation or design files to t
 </connects>
 <technologies>
 <technology name="HLF">
+<attribute name="CATEGORY" value="Connectors, Interconnects" constant="no"/>
 <attribute name="COLOR" value="Black" constant="no"/>
 <attribute name="CONNECTOR_TYPE" value="Header, Unshrouded" constant="no"/>
 <attribute name="CONTACT_FINISH" value="Gold or Gold, GXT" constant="no"/>
 <attribute name="CONTACT_FINISH_THICKNESS" value="15uin (0.38um)" constant="no"/>
 <attribute name="CONTACT_MATING_LENGTH" value="0.230&quot; (5.84mm)" constant="no"/>
 <attribute name="CONTACT_TYPE" value="Male Pin" constant="no"/>
+<attribute name="DATASHEET" value="http://portal.fciconnect.com/Comergent//fci/drawing/68015.pdf" constant="no"/>
 <attribute name="DESCRIPTION" value="CONN HEADER 5POS R/A .100 GOLD" constant="no"/>
+<attribute name="FAMILY" value="Rectangular Connectors - Headers, Male Pins" constant="no"/>
 <attribute name="FASTENING_TYPE" value="-" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="MANUFACTURER" value="FCI" constant="no"/>
@@ -597,6 +603,9 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="PITCH" value="0.100&quot; (2.54mm)" constant="no"/>
 <attribute name="ROW_SPACING" value="-" constant="no"/>
 <attribute name="SERIES" value="BERGSTIK II, MezzSelect, Basics+" constant="no"/>
+<attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-detail/en/68016-205HLF/609-4304-ND/1658018" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="609-4304-ND" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
 <attribute name="TERMINATION" value="Solder" constant="no"/>
 </technology>
 </technologies>
@@ -604,14 +613,12 @@ For attribution, please provide a link in any documentation or design files to t
 </devices>
 </deviceset>
 <deviceset name="68016-203*" prefix="J">
-<description>&lt;h1&gt;3-Pin Male Header&lt;/h1&gt;
-&lt;h3&gt;Ordering Information&lt;/h3&gt;
-&lt;table&gt;
-&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;a href="http://portal.fciconnect.com/Comergent//fci/drawing/68015.pdf"&gt;68016-203HLF&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-search/en?x=0&amp;y=0&amp;lang=en&amp;site=us&amp;keywords=68016-203HLF"&gt;68016-203HLF-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;BS II SNGL&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;a href="http://portal.fciconnect.com/Comergent//fci/drawing/68015.pdf"&gt;68016-203HLF&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-search/en?pv88=7&amp;FV=ffec0fdd%2Cfff40016%2Cfff802f3%2C7800ba%2C114016f%2C1640001%2C1680001%2Cd080005&amp;mnonly=0&amp;newproducts=0&amp;ColumnSort=0&amp;page=1&amp;stock=1&amp;quantity=0&amp;ptm=0&amp;fid=0&amp;pageSize=50"&gt;609-3320-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CONN HEADER 6POS .100 R/A 15AU&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;a href="http://portal.fciconnect.com/Comergent//fci/drawing/68015.pdf"&gt;68016-203HLF&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/68016-236HLF/609-2226-ND/1002541"&gt;609-2226-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CONN HEADER 36PS .100 R/A 15GOLD&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;</description>
+<description>&lt;h1&gt;3-Pin Right-Angle Male Header&lt;/h1&gt;
+&lt;h2&gt;BERGSTIK® II, MezzSelect™, Basics+&lt;/h2&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://portal.fciconnect.com/Comergent//fci/drawing/68015.pdf"&gt;Drawing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
 <gates>
 <gate name="@1" symbol="MALE_CONNECTOR" x="0" y="12.7"/>
 <gate name="@2" symbol="MALE_CONNECTOR" x="0" y="0"/>
@@ -632,6 +639,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CONTACT_FINISH_THICKNESS" value="15uin (0.38um)" constant="no"/>
 <attribute name="CONTACT_MATING_LENGTH" value="0.230&quot; (5.84mm)" constant="no"/>
 <attribute name="CONTACT_TYPE" value="Male Pin" constant="no"/>
+<attribute name="DATASHEET" value="http://portal.fciconnect.com/Comergent//fci/drawing/68015.pdf" constant="no"/>
 <attribute name="DESCRIPTION" value="BS II SNGL" constant="no"/>
 <attribute name="FAMILY" value="Rectangular Connectors - Headers, Male Pins" constant="no"/>
 <attribute name="FASTENING_TYPE" value="-" constant="no"/>
@@ -645,6 +653,9 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="PITCH" value="0.100&quot; (2.54mm)" constant="no"/>
 <attribute name="ROW_SPACING" value="-" constant="no"/>
 <attribute name="SERIES" value="BERGSTIK II, MezzSelect, Basics+" constant="no"/>
+<attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-search/en?x=0&amp;y=0&amp;lang=en&amp;site=us&amp;keywords=68016-203HLF" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="68016-203HLF-ND" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
 <attribute name="TERMINATION" value="Solder" constant="no"/>
 </technology>
 </technologies>
@@ -653,11 +664,11 @@ For attribution, please provide a link in any documentation or design files to t
 </deviceset>
 <deviceset name="68685-?*" prefix="J">
 <description>&lt;h1&gt;6-Pin Female Header&lt;/h1&gt;
-&lt;h3&gt;Ordering Information&lt;/h3&gt;
-&lt;table&gt;
-&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;a href="http://portal.fciconnect.com/Comergent//fci/drawing/68685.pdf"&gt;68685-306LF&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/68685-306LF/609-3588-ND/1525350"&gt;609-3588-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CONN RCPT 6POS .100" SNG ROW&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;</description>
+&lt;h2&gt;DUBOX™, MezzSelect™, Basics+&lt;/h2&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://portal.fciconnect.com/Comergent//fci/drawing/68685.pdf"&gt;Drawing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
 <gates>
 <gate name="@1" symbol="FEMALE_CONNECTOR" x="0" y="33.02"/>
 <gate name="@2" symbol="FEMALE_CONNECTOR" x="0" y="20.32"/>
@@ -678,11 +689,13 @@ For attribution, please provide a link in any documentation or design files to t
 </connects>
 <technologies>
 <technology name="LF">
+<attribute name="CATEGORY" value="Connectors, Interconnects" constant="no"/>
 <attribute name="COLOR" value="Black" constant="no"/>
 <attribute name="CONNECTOR_TYPE" value="Receptacle" constant="no"/>
 <attribute name="CONTACT_FINISH" value="Gold or Gold GXT" constant="no"/>
 <attribute name="CONTACT_FINISH_THICKNESS" value="30uin (0.76um)" constant="no"/>
 <attribute name="CONTACT_TYPE" value="Female Socket" constant="no"/>
+<attribute name="DATASHEET" value="http://portal.fciconnect.com/Comergent//fci/drawing/68685.pdf" constant="no"/>
 <attribute name="DESCRIPTION" value="CONN RCPT 6POS .100&quot; SNG ROW" constant="no"/>
 <attribute name="FAMILY" value="Rectangular Connectors - Headers, Receptacles, Female Sockets" constant="no"/>
 <attribute name="FASTENING_TYPE" value="-" constant="no"/>
@@ -697,6 +710,9 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="ROW_SPACING" value="-" constant="no"/>
 <attribute name="SERIES" value="DUBOX, MezzSelect, Basics+" constant="no"/>
 <attribute name="STANDARD_PACKAGE" value="38" constant="no"/>
+<attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-detail/en/68685-306LF/609-3588-ND/1525350" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="609-3588-ND" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
 <attribute name="TERMINATION" value="Solder" constant="no"/>
 </technology>
 </technologies>
@@ -705,11 +721,10 @@ For attribution, please provide a link in any documentation or design files to t
 </deviceset>
 <deviceset name="67996-?*" prefix="J">
 <description>&lt;h1&gt;3x2 6-Pin Male Header&lt;/h1&gt;
-&lt;h3&gt;Ordering Information&lt;/h3&gt;
-&lt;table&gt;
-&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;a href="http://portal.fciconnect.com/Comergent//fci/drawing/67996.pdf"&gt;67996-206HLF&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/67996-206HLF/609-3210-ND/1878485"&gt;609-3210-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CONN HEADER 6POS .100 STR 15AU&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;</description>
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://portal.fciconnect.com/Comergent//fci/drawing/67996.pdf"&gt;Drawing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
 <gates>
 <gate name="@1" symbol="MALE_CONNECTOR" x="0" y="25.4"/>
 <gate name="@2" symbol="MALE_CONNECTOR" x="0" y="15.24"/>
@@ -737,6 +752,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CONTACT_FINISH_THICKNESS" value="15µin (0.38µm)" constant="no"/>
 <attribute name="CONTACT_MATING_LENGTH" value="0.230&quot; (5.84mm)" constant="no"/>
 <attribute name="CONTACT_TYPE" value="Male Pin" constant="no"/>
+<attribute name="DATASHEET" value="http://portal.fciconnect.com/Comergent//fci/drawing/67996.pdf" constant="no"/>
 <attribute name="DESCRIPTION" value="CONN HEADER 6POS .100 STR 15AU" constant="no"/>
 <attribute name="FAMILY" value="Rectangular Connectors - Headers, Male Pins" constant="no"/>
 <attribute name="FASTENING_TYPE" value="-" constant="no"/>
@@ -751,6 +767,9 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="ROW_SPACING" value="0.100&quot; (2.54mm)" constant="no"/>
 <attribute name="SERIES" value="BERGSTIK II, MezzSelect, Basics+" constant="no"/>
 <attribute name="STANDARD_PACKAGE" value="100" constant="no"/>
+<attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-detail/en/67996-206HLF/609-3210-ND/1878485" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="609-3210-ND" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
 <attribute name="TERMINATION" value="Solder" constant="no"/>
 </technology>
 </technologies>
