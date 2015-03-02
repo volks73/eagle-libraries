@@ -196,6 +196,10 @@ For attribution, please provide a link in any documentation or design files to t
 <deviceset name="204-211*" prefix="S" uservalue="yes">
 <description>&lt;h1&gt;Dual Inline Package (DIP) Switch&lt;/h1&gt;
 &lt;h2&gt;Double-Pole Single-Throw (DPST) DIP Switch, 1 Position&lt;/h2&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.ctscorp.com/components/Datasheets/204.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;General Description&lt;/h3&gt;
 &lt;p&gt;
 Surface Mount Multi-Functional DIP Switch IR Solderable, PCB Washable
@@ -242,6 +246,7 @@ Surface Mount Multi-Functional DIP Switch IR Solderable, PCB Washable
 <attribute name="ACTUATOR_TYPE" value="Standard" constant="no"/>
 <attribute name="CIRCUIT" value="DPST" constant="no"/>
 <attribute name="CONTACT_RATING" value="0.05A @ 24VDC" constant="no"/>
+<attribute name="DATASHEET" value="http://www.ctscorp.com/components/Datasheets/204.pdf" constant="no"/>
 <attribute name="DESCRIPTION" value="SWITCH DIP DPST 1POS SMT 50V" constant="no"/>
 <attribute name="MANUFACTURER" value="CTS Electrocomponents" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Surface Mount" constant="no"/>
