@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
@@ -248,7 +248,7 @@ Package contains a relatively large pad on the bottom that should be soldered di
 <wire x1="10.16" y1="-5.08" x2="10.16" y2="7.62" width="0.254" layer="94"/>
 <wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
 <text x="-10.16" y="8.89" size="1.27" layer="95">&gt;NAME</text>
-<text x="1.27" y="8.89" size="1.27" layer="96">&gt;VALUE</text>
+<text x="-10.16" y="-7.62" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="OP_AMP">
 <pin name="+" x="-10.16" y="5.08" length="middle"/>
@@ -310,14 +310,14 @@ Package contains a relatively large pad on the bottom that should be soldered di
 &lt;li&gt;TV/Set-Top Box&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
-<gate name="G$1" symbol="VOLTAGE_REGULATOR" x="0" y="2.54"/>
+<gate name="U$1" symbol="VOLTAGE_REGULATOR" x="0" y="2.54"/>
 </gates>
 <devices>
 <device name="DCY" package="SOT-223">
 <connects>
-<connect gate="G$1" pin="ADJUST" pad="1"/>
-<connect gate="G$1" pin="INPUT" pad="3"/>
-<connect gate="G$1" pin="OUTPUT" pad="2 4"/>
+<connect gate="U$1" pin="ADJUST" pad="1"/>
+<connect gate="U$1" pin="INPUT" pad="3"/>
+<connect gate="U$1" pin="OUTPUT" pad="2 4"/>
 </connects>
 <technologies>
 <technology name="">
@@ -373,19 +373,19 @@ The TPS54531 device is a 28-V, 5-A non-synchronous buck converter that integrate
 &lt;li&gt;5-V, 12-V and 24-V Distributed Power Systems&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
-<gate name="G$1" symbol="BUCK_CONVERTER" x="0" y="0"/>
+<gate name="U$1" symbol="BUCK_CONVERTER" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SO-8_POWERPAD">
 <connects>
-<connect gate="G$1" pin="BOOT" pad="1"/>
-<connect gate="G$1" pin="COMP" pad="6"/>
-<connect gate="G$1" pin="EN" pad="3"/>
-<connect gate="G$1" pin="GND" pad="7 POWERPAD_BOTTOM POWERPAD_TOP"/>
-<connect gate="G$1" pin="PH" pad="8"/>
-<connect gate="G$1" pin="SS" pad="4"/>
-<connect gate="G$1" pin="VIN" pad="2"/>
-<connect gate="G$1" pin="VSNS" pad="5"/>
+<connect gate="U$1" pin="BOOT" pad="1"/>
+<connect gate="U$1" pin="COMP" pad="6"/>
+<connect gate="U$1" pin="EN" pad="3"/>
+<connect gate="U$1" pin="GND" pad="7 POWERPAD_BOTTOM POWERPAD_TOP"/>
+<connect gate="U$1" pin="PH" pad="8"/>
+<connect gate="U$1" pin="SS" pad="4"/>
+<connect gate="U$1" pin="VIN" pad="2"/>
+<connect gate="U$1" pin="VSNS" pad="5"/>
 </connects>
 <technologies>
 <technology name="">
@@ -448,19 +448,19 @@ The TPS54531 device is a 28-V, 5-A non-synchronous buck converter that integrate
 &lt;li&gt;5-V, 12-V and 24-V Distributed Power Systems&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
-<gate name="G$1" symbol="BUCK_CONVERTER" x="0" y="0"/>
+<gate name="U$1" symbol="BUCK_CONVERTER" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SO-8_POWERPAD">
 <connects>
-<connect gate="G$1" pin="BOOT" pad="1"/>
-<connect gate="G$1" pin="COMP" pad="6"/>
-<connect gate="G$1" pin="EN" pad="3"/>
-<connect gate="G$1" pin="GND" pad="7 POWERPAD_BOTTOM POWERPAD_TOP"/>
-<connect gate="G$1" pin="PH" pad="8"/>
-<connect gate="G$1" pin="SS" pad="4"/>
-<connect gate="G$1" pin="VIN" pad="2"/>
-<connect gate="G$1" pin="VSNS" pad="5"/>
+<connect gate="U$1" pin="BOOT" pad="1"/>
+<connect gate="U$1" pin="COMP" pad="6"/>
+<connect gate="U$1" pin="EN" pad="3"/>
+<connect gate="U$1" pin="GND" pad="7 POWERPAD_BOTTOM POWERPAD_TOP"/>
+<connect gate="U$1" pin="PH" pad="8"/>
+<connect gate="U$1" pin="SS" pad="4"/>
+<connect gate="U$1" pin="VIN" pad="2"/>
+<connect gate="U$1" pin="VSNS" pad="5"/>
 </connects>
 <technologies>
 <technology name="">
@@ -523,19 +523,19 @@ The TPS54331 device is a 28-V, 3-A non-synchronous buck converter that integrate
 &lt;li&gt;5-V, 12-V and 24-V Distributed Power Systems&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
-<gate name="G$1" symbol="BUCK_CONVERTER" x="0" y="-2.54"/>
+<gate name="U$1" symbol="BUCK_CONVERTER" x="0" y="-2.54"/>
 </gates>
 <devices>
 <device name="" package="SOIC-8">
 <connects>
-<connect gate="G$1" pin="BOOT" pad="1"/>
-<connect gate="G$1" pin="COMP" pad="6"/>
-<connect gate="G$1" pin="EN" pad="3"/>
-<connect gate="G$1" pin="GND" pad="7"/>
-<connect gate="G$1" pin="PH" pad="8"/>
-<connect gate="G$1" pin="SS" pad="4"/>
-<connect gate="G$1" pin="VIN" pad="2"/>
-<connect gate="G$1" pin="VSNS" pad="5"/>
+<connect gate="U$1" pin="BOOT" pad="1"/>
+<connect gate="U$1" pin="COMP" pad="6"/>
+<connect gate="U$1" pin="EN" pad="3"/>
+<connect gate="U$1" pin="GND" pad="7"/>
+<connect gate="U$1" pin="PH" pad="8"/>
+<connect gate="U$1" pin="SS" pad="4"/>
+<connect gate="U$1" pin="VIN" pad="2"/>
+<connect gate="U$1" pin="VSNS" pad="5"/>
 </connects>
 <technologies>
 <technology name="DR">
@@ -624,19 +624,19 @@ The OPAx171 series of op amps are specified from -40&lt;sup&gt;o&lt;/sup&gt;C to
 <gates>
 <gate name="A" symbol="OP_AMP" x="0" y="12.7"/>
 <gate name="B" symbol="OP_AMP" x="0" y="-15.24"/>
-<gate name="SUPPLY" symbol="SUPPLY" x="-27.94" y="2.54" addlevel="request"/>
+<gate name="-SUPPLY" symbol="SUPPLY" x="-27.94" y="2.54" addlevel="request"/>
 </gates>
 <devices>
 <device name="AIDR" package="SO-8">
 <connects>
+<connect gate="-SUPPLY" pin="V+" pad="8"/>
+<connect gate="-SUPPLY" pin="V-" pad="4"/>
 <connect gate="A" pin="+" pad="3"/>
 <connect gate="A" pin="-" pad="2"/>
 <connect gate="A" pin="OUT" pad="1"/>
 <connect gate="B" pin="+" pad="5"/>
 <connect gate="B" pin="-" pad="6"/>
 <connect gate="B" pin="OUT" pad="7"/>
-<connect gate="SUPPLY" pin="V+" pad="8"/>
-<connect gate="SUPPLY" pin="V-" pad="4"/>
 </connects>
 <technologies>
 <technology name="">
