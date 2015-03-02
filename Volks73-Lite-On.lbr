@@ -207,10 +207,12 @@ For attribution, please provide a link in any documentation or design files to t
 </connects>
 <technologies>
 <technology name="4221N">
+<attribute name="CATEGORY" value="Optoelectronics" constant="no"/>
 <attribute name="COLOR" value="Red" constant="no"/>
 <attribute name="CURRENT-TEST" value="10mA" constant="no"/>
 <attribute name="DATASHEET" value="http://optoelectronics.liteon.com/upload/download/DS-20-92-0237/S_110_LTL-4221N.pdf" constant="no"/>
 <attribute name="DESCRIPTION" value="LED 3MM HI-EFF RED DIFFUSED" constant="no"/>
+<attribute name="FAMILY" value="ED Indication - Discrete" constant="no"/>
 <attribute name="HEIGHT" value="4.45mm" constant="no"/>
 <attribute name="LENS_STYLE" value="Round with Domed Top, 3mm, T-1" constant="no"/>
 <attribute name="LENS_TYPE" value="Diffused, Tinted" constant="no"/>
@@ -230,10 +232,12 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="WAVELENGTH-PEAK" value="635nm" constant="no"/>
 </technology>
 <technology name="4231N">
+<attribute name="CATEGORY" value="Optoelectronics" constant="no"/>
 <attribute name="COLOR" value="Green" constant="no"/>
 <attribute name="CURRENT-TEST" value="10mA" constant="no"/>
 <attribute name="DATASHEET" value="http://media.digikey.com/photos/Lite%20On%20Photos/LTL-4231N.jpg" constant="no"/>
 <attribute name="DESCRIPTION" value="LED 3MM GREEN DIFFUSED" constant="no"/>
+<attribute name="FAMILY" value="ED Indication - Discrete" constant="no"/>
 <attribute name="HEIGHT" value="4.45mm" constant="no"/>
 <attribute name="LENS_STYLE" value="Round with Domed Top, 3mm, T-1" constant="no"/>
 <attribute name="LENS_TYPE" value="Diffused, Tinted" constant="no"/>
@@ -253,10 +257,12 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="WAVELENGTH-PEAK" value="565nm" constant="no"/>
 </technology>
 <technology name="4251N">
+<attribute name="CATEGORY" value="Optoelectronics" constant="no"/>
 <attribute name="COLOR" value="Yellow" constant="no"/>
 <attribute name="CURRENT-TEST" value="10mA" constant="no"/>
 <attribute name="DATASHEET" value="http://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTL-4251N.pdf" constant="no"/>
 <attribute name="DESCRIPTION" value="LED 3MM YELLOW DIFFUSED" constant="no"/>
+<attribute name="FAMILY" value="ED Indication - Discrete" constant="no"/>
 <attribute name="HEIGHT" value="4.45mm" constant="no"/>
 <attribute name="LENS_STYLE" value="Round with Domed Top, 3mm, T-1" constant="no"/>
 <attribute name="LENS_TYPE" value="Diffused, Tinted" constant="no"/>
