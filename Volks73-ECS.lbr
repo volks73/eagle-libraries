@@ -115,13 +115,9 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;h2&gt;Low Profile Resitance Weld Type Thru Hole Quartz Crystal&lt;/h2&gt;
 &lt;h3&gt;Documentation&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=http://www.ecsxtal.com/store/pdf/hc-49usx.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.ecsxtal.com/store/pdf/hc-49usx.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.ecsxtal.com/store/pdf/partnumber4.pdf"&gt;Crystal Part Numbering Guide&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Ordering Information&lt;/h3&gt;
-&lt;table&gt;
-&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;tdECS-160-20-4X&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ECS-160-20-4X/X1103-ND/827594"&gt;X1103-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CRYSTAL 16MHZ 20PF THRU&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Cost Effective&lt;/li&gt;
@@ -140,6 +136,7 @@ For attribution, please provide a link in any documentation or design files to t
 <technologies>
 <technology name="160-20">
 <attribute name="CATEGORY" value="Crystals and Oscillators" constant="no"/>
+<attribute name="DATASHEET" value="http://www.ecsxtal.com/store/pdf/hc-49usx.pdf" constant="no"/>
 <attribute name="DESCRIPTION" value="CRYSTAL 16MHZ 20PF THRU" constant="no"/>
 <attribute name="ESR" value="40 Ohm" constant="no"/>
 <attribute name="FAMILY" value="Crystals" constant="no"/>
@@ -158,6 +155,9 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SERIES" value="HC-49USX" constant="no"/>
 <attribute name="SIZE" value="0.447&quot; L x 0.183&quot; W (11.35mm x 4.65mm)" constant="no"/>
 <attribute name="STANDARD_PACKAGE" value="200" constant="no"/>
+<attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-detail/en/ECS-160-20-4X/X1103-ND/827594" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="X1103-ND" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
 <attribute name="TYPE" value="MHz Crystal" constant="no"/>
 </technology>
 </technologies>
