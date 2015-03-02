@@ -179,6 +179,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CATEGORY" value="Circuit Protection" constant="no"/>
 <attribute name="CURRENT-MAX" value="40A" constant="no"/>
 <attribute name="CURRENT-TRIP" value="1.5A" constant="no"/>
+<attribute name="DATASHEET" value="http://www.bourns.com/data/global/pdfs/mfmsmf.pdf" constant="no"/>
 <attribute name="DESCRIPTION" value="PTC RESETTABLE .75A 24V 1812" constant="no"/>
 <attribute name="FAMILY" value="PTC Resettable Fuses" constant="no"/>
 <attribute name="MANUFACTURER" value="Bourns Inc." constant="no"/>
@@ -200,7 +201,7 @@ For attribution, please provide a link in any documentation or design files to t
 <description>&lt;h1&gt;Trim Potentiometer (Pot)&lt;/h1&gt;
 &lt;h3&gt;Documentation&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=http://www.bourns.com/data/global/pdfs/3296.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.bourns.com/data/global/pdfs/3296.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
@@ -227,6 +228,7 @@ For attribution, please provide a link in any documentation or design files to t
 <technology name="1-103LF">
 <attribute name="ADJUSTMENT_TYPE" value="Tope Adjustment" constant="no"/>
 <attribute name="CATEGORY" value="Potentiometers, Variable Resistors" constant="no"/>
+<attribute name="DATASHEET" value="http://www.bourns.com/data/global/pdfs/3296.pdf" constant="no"/>
 <attribute name="DESCRIPTION" value="TRIMMER 10K OHM 0.5W PC PIN" constant="no"/>
 <attribute name="FAMILY" value="Trimmer Potentiometers" constant="no"/>
 <attribute name="MANUFACTURER" value="Bourns Inc" constant="no"/>
