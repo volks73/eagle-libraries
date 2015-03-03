@@ -176,7 +176,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="PLUG-MATING_PLUG_DIAMETER" value="2.5mm ID, 5.5mm OD" constant="no"/>
 <attribute name="SERIES" value="-" constant="no"/>
 <attribute name="SHIELDING" value="Unshielded" constant="no"/>
-<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/PJ-002BH-SMT-TR/CP-002BHPJCT-ND/669694&quot;&gt;Info&lt;/a&gt;" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/PJ-002BH-SMT-TR/CP-002BHPJCT-ND/669694&quot;&gt;Details&lt;/a&gt;" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="CP-002BHPJCT-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/PJ-002BH-SMT-TR/CP-002BHPJCT-ND/669694" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;" constant="no"/>

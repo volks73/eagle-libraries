@@ -168,7 +168,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="RDS_ON" value="29 mOhm @ 5A, 4.5V" constant="no"/>
 <attribute name="SERIES" value="HEXFET" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="SOT-23" constant="no"/>
-<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/IRLML6344TRPBF/IRLML6344TRPBFCT-ND/2538168&quot;&gt;Info&lt;/a&gt;" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/IRLML6344TRPBF/IRLML6344TRPBFCT-ND/2538168&quot;&gt;Details&lt;/a&gt;" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="IRLML6344TRPBFCT-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/IRLML6344TRPBF/IRLML6344TRPBFCT-ND/2538168" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;" constant="no"/>

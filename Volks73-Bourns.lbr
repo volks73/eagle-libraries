@@ -188,7 +188,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="PART_NUMBER" value="MF-MSMF075/24-2" constant="no"/>
 <attribute name="R_MINMAX" value="0.11 ~ 0.450 Ohm" constant="no"/>
 <attribute name="SERIES" value="MF-MSMF" constant="no"/>
-<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/MF-MSMF075%2F24-2/MF-MSMF075%2F24-2CT-ND/662844&quot;&gt;Info&lt;/a&gt;" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/MF-MSMF075%2F24-2/MF-MSMF075%2F24-2CT-ND/662844&quot;&gt;Details&lt;/a&gt;" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="MF-MSMF075/24-2CT-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/MF-MSMF075%2F24-2/MF-MSMF075%2F24-2CT-ND/662844" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;" constant="no"/>
@@ -246,7 +246,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SERIES" value="Trimpt 3296 - Sealed" constant="no"/>
 <attribute name="SIZE" value="Rectangular - 0.375&quot; x 0.190&quot; Face x 0.395&quot; H (9.53mm x 4.83mm x 10.03mm)" constant="no"/>
 <attribute name="STANDARD_PACKAGE" value="50" constant="no"/>
-<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/3296W-1-103LF/3296W-103LF-ND/1088045&quot;&gt;Info&lt;/a&gt;" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/3296W-1-103LF/3296W-103LF-ND/1088045&quot;&gt;Details&lt;/a&gt;" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="3296W-103LF-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/3296W-1-103LF/3296W-103LF-ND/1088045" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;" constant="no"/>
