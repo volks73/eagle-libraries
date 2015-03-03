@@ -180,7 +180,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CURRENT-MAX" value="40A" constant="no"/>
 <attribute name="CURRENT-TRIP" value="1.5A" constant="no"/>
 <attribute name="DESCRIPTION" value="PTC RESETTABLE .75A 24V 1812" constant="no"/>
-<attribute name="DOCUMENTATION" value="&lt;a href=&quot;http://www.bourns.com/data/global/pdfs/mfmsmf.pdf&quot;&gt;Datasheet&lt;/a&gt;" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.bourns.com/data/global/pdfs/mfmsmf.pdf&quot;&gt;Datasheet&lt;/a&gt;" constant="no"/>
 <attribute name="DOCUMENTATION_URL" value="http://www.bourns.com/data/global/pdfs/mfmsmf.pdf" constant="no"/>
 <attribute name="FAMILY" value="PTC Resettable Fuses" constant="no"/>
 <attribute name="MANUFACTURER" value="Bourns Inc." constant="no"/>
@@ -188,10 +188,10 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="PART_NUMBER" value="MF-MSMF075/24-2" constant="no"/>
 <attribute name="R_MINMAX" value="0.11 ~ 0.450 Ohm" constant="no"/>
 <attribute name="SERIES" value="MF-MSMF" constant="no"/>
-<attribute name="SUPPLIER" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Digi-Key&lt;/a&gt;" constant="no"/>
-<attribute name="SUPPLIER_ITEM" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/MF-MSMF075%2F24-2/MF-MSMF075%2F24-2CT-ND/662844&quot;&gt;Info&lt;/a&gt;" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/MF-MSMF075%2F24-2/MF-MSMF075%2F24-2CT-ND/662844&quot;&gt;Info&lt;/a&gt;" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="MF-MSMF075/24-2CT-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/MF-MSMF075%2F24-2/MF-MSMF075%2F24-2CT-ND/662844" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Digi-Key&lt;/a&gt;" constant="no"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com" constant="no"/>
 <attribute name="TIME_TO_TRIP" value="0.2s" constant="no"/>
@@ -233,7 +233,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="ADJUSTMENT_TYPE" value="Tope Adjustment" constant="no"/>
 <attribute name="CATEGORY" value="Potentiometers, Variable Resistors" constant="no"/>
 <attribute name="DESCRIPTION" value="TRIMMER 10K OHM 0.5W PC PIN" constant="no"/>
-<attribute name="DOCUMENTATION" value="&lt;a href=&quot;http://www.bourns.com/data/global/pdfs/3296.pdf&quot;&gt;Datasheet&lt;/a&gt;" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.bourns.com/data/global/pdfs/3296.pdf&quot;&gt;Datasheet&lt;/a&gt;" constant="no"/>
 <attribute name="DOCUMENTATION_URL" value="http://www.bourns.com/data/global/pdfs/3296.pdf" constant="no"/>
 <attribute name="FAMILY" value="Trimmer Potentiometers" constant="no"/>
 <attribute name="MANUFACTURER" value="Bourns Inc" constant="no"/>
@@ -246,10 +246,10 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SERIES" value="Trimpt 3296 - Sealed" constant="no"/>
 <attribute name="SIZE" value="Rectangular - 0.375&quot; x 0.190&quot; Face x 0.395&quot; H (9.53mm x 4.83mm x 10.03mm)" constant="no"/>
 <attribute name="STANDARD_PACKAGE" value="50" constant="no"/>
-<attribute name="SUPPLIER" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Digi-Key&lt;/a&gt;" constant="no"/>
-<attribute name="SUPPLIER_ITEM" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/3296W-1-103LF/3296W-103LF-ND/1088045&quot;&gt;Info&lt;/a&gt;" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/3296W-1-103LF/3296W-103LF-ND/1088045&quot;&gt;Info&lt;/a&gt;" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="3296W-103LF-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/3296W-1-103LF/3296W-103LF-ND/1088045" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Digi-Key&lt;/a&gt;" constant="no"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>

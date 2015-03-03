@@ -136,7 +136,7 @@ Model 445 is a low cost device used in a wide range of commercial applications i
 <technology name="C25D20M00000">
 <attribute name="CATEGORY" value="Crystals and Oscillators" constant="no"/>
 <attribute name="DESCRIPTION" value="CRYSTAL 20MHZ 18PF SMD" constant="no"/>
-<attribute name="DOCUMENTATION" value="&lt;a href=&quot;http://www.ctscorp.com/components/Datasheets/008-0360-0.pdf&quot;&gt;Datasheet&lt;/a&gt;" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.ctscorp.com/components/Datasheets/008-0360-0.pdf&quot;&gt;Datasheet&lt;/a&gt;" constant="no"/>
 <attribute name="DOCUMENTATION_URL" value="http://www.ctscorp.com/components/Datasheets/008-0360-0.pdf" constant="no"/>
 <attribute name="ESR" value="40 Ohm" constant="no"/>
 <attribute name="FAMILY" value="Crystals" constant="no"/>
@@ -154,10 +154,10 @@ Model 445 is a low cost device used in a wide range of commercial applications i
 <attribute name="RATINGS" value="-" constant="no"/>
 <attribute name="SERIES" value="445" constant="no"/>
 <attribute name="SIZE" value="0.197&quot; L x 0.126&quot; W (5.00mm x 3.20mm)" constant="no"/>
-<attribute name="SUPPLIER" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Digi-Key&lt;/a&gt;" constant="no"/>
-<attribute name="SUPPLIER_ITEM" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/445C25D20M00000/CTX1164CT-ND/3135104&quot;&gt;Info&lt;/a&gt;" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/445C25D20M00000/CTX1164CT-ND/3135104&quot;&gt;Info&lt;/a&gt;" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="CTX1164CT-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/445C25D20M00000/CTX1164CT-ND/3135104" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Digi-Key&lt;/a&gt;" constant="no"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com" constant="no"/>
 <attribute name="TYPE" value="MHz Crystal" constant="no"/>

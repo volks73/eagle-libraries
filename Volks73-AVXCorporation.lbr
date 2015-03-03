@@ -202,7 +202,7 @@ taped and reeled for auto insertion. The 15 case sizes with wide capacitance and
 <technology name="106K010">
 <attribute name="CAPACITANCE" value="10uF" constant="no"/>
 <attribute name="DESCRIPTION" value="CAP TANT 10UF 10V 10% RADIAL" constant="no"/>
-<attribute name="DOCUMENTATION" value="&lt;a href=&quot;http://www.avx.com/docs/Catalogs/tap.pdf&quot;&gt;Datasheet&lt;/a&gt;" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.avx.com/docs/Catalogs/tap.pdf&quot;&gt;Datasheet&lt;/a&gt;" constant="no"/>
 <attribute name="DOCUMENTATION_URL" value="http://www.avx.com/docs/Catalogs/tap.pdf" constant="no"/>
 <attribute name="ESR" value="5 Ohm" constant="no"/>
 <attribute name="FEATURES" value="General Purpose" constant="no"/>
@@ -215,10 +215,10 @@ taped and reeled for auto insertion. The 15 case sizes with wide capacitance and
 <attribute name="PACKAGE" value="Radial" constant="no"/>
 <attribute name="PART_NUMBER" value="TAP106K010CCS" constant="no"/>
 <attribute name="SIZE" value="0.197&quot; Dia (5.00mm)" constant="no"/>
-<attribute name="SUPPLIER" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Digi-Key&lt;/a&gt;" constant="no"/>
-<attribute name="SUPPLIER_ITEM" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/TAP106K010CCS/478-9320-ND/1471121&quot;&gt;Info&lt;/a&gt;" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/TAP106K010CCS/478-9320-ND/1471121&quot;&gt;Info&lt;/a&gt;" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="478-9320-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/TAP106K010CCS/478-9320-ND/1471121" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Digi-Key&lt;/a&gt;" constant="no"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com" constant="no"/>
 <attribute name="TYPE" value="Conformal Coated" constant="no"/>
@@ -258,7 +258,7 @@ X7R dielectric chip usage covers the broad spectrum of industrial applications w
 <attribute name="APPLICATIONS" value="General Purpose" constant="no"/>
 <attribute name="CAPACITANCE" value="22pF" constant="no"/>
 <attribute name="DESCRIPTION" value="CAP CER 22PF 50V 5% X7R 0603" constant="no"/>
-<attribute name="DOCUMENTATION" value="&lt;a href=&quot;http://www.avx.com/docs/Catalogs/cx7r.pdf&quot;&gt;Datasheet&lt;/a&gt;" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.avx.com/docs/Catalogs/cx7r.pdf&quot;&gt;Datasheet&lt;/a&gt;" constant="no"/>
 <attribute name="DOCUMENTATION_URL" value="http://www.avx.com/docs/Catalogs/cx7r.pdf" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="HEIGHT-SEATED" value="-" constant="no"/>
@@ -272,10 +272,10 @@ X7R dielectric chip usage covers the broad spectrum of industrial applications w
 <attribute name="RATINGS" value="-" constant="no"/>
 <attribute name="SERIES" value="-" constant="no"/>
 <attribute name="SIZE" value="0.063&quot; L x 0.032&quot; W (1.60mm x 0.81mm)" constant="no"/>
-<attribute name="SUPPLIER" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Digi-Key&lt;/a&gt;" constant="no"/>
-<attribute name="SUPPLIER_ITEM" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/06035C220JAT2A/478-6204-1-ND/2391403&quot;&gt;Info&lt;/a&gt;" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/06035C220JAT2A/478-6204-1-ND/2391403&quot;&gt;Info&lt;/a&gt;" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="478-6204-1-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/06035C220JAT2A/478-6204-1-ND/2391403" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Digi-Key&lt;/a&gt;" constant="no"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="X7R" constant="no"/>
