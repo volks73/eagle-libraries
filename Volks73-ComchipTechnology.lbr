@@ -153,9 +153,10 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CAPACITANCE" value="-" constant="no"/>
 <attribute name="CURRENT-AVERAGE_RECTIFIED" value="5A" constant="no"/>
 <attribute name="CURRENT-REVERSE_LEAKAGE" value="500uA @ 40V" constant="no"/>
-<attribute name="DATASHEET" value="http://www.comchiptech.com/cms/UserFiles/CDBC520-G%20Thru936981.%20CDBC5100-G%20RevC.pdf" constant="no"/>
 <attribute name="DESCRIPTION" value="DIODE SCHOTTKY 40V 5A DO214AB" constant="no"/>
 <attribute name="DIODE_TYPE" value="Schottky" constant="no"/>
+<attribute name="DOCUMENTATION" value="&lt;a href=&quot;http://www.comchiptech.com/cms/UserFiles/CDBC520-G%20Thru936981.%20CDBC5100-G%20RevC.pdf&quot;&gt;Datasheet&lt;/a&gt;" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.comchiptech.com/cms/UserFiles/CDBC520-G%20Thru936981.%20CDBC5100-G%20RevC.pdf" constant="no"/>
 <attribute name="MANUFACTURER" value="Comchip Technology" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Surface Mount" constant="no"/>
 <attribute name="OPERATING_TEMPERATURE-JUNCTION" value="-40C ~ 125C" constant="no"/>
@@ -164,10 +165,13 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="REVERSE_RECOVERY-TIME" value="-" constant="no"/>
 <attribute name="SERIES" value="-" constant="no"/>
 <attribute name="SPEED" value="Fast Recovery =&lt; 500ns, &gt; 200mA (Io)" constant="no"/>
+<attribute name="SUPPLIER" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Digi-Key&lt;/a&gt;" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="DO-214AB, (SMC)" constant="no"/>
-<attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-detail/en/CDBC540-G/641-1126-1-ND/1559087" constant="no"/>
+<attribute name="SUPPLIER_ITEM" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/CDBC540-G/641-1126-1-ND/1559087&quot;&gt;Info&lt;/a&gt;" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="641-1126-1-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/CDBC540-G/641-1126-1-ND/1559087" constant="no"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com" constant="no"/>
 <attribute name="VOLTAGE-DC_REVERSE" value="40V" constant="no"/>
 <attribute name="VOLTAGE-FORWARD" value="550mV @ 5A" constant="no"/>
 </technology>
