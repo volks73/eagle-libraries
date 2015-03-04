@@ -157,7 +157,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CAPACITANCE" value="0.1uF" constant="no"/>
 <attribute name="CATEGORY" value="Capacitors" constant="no"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 25V 10% RADIAL" constant="no"/>
-<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://product.tdk.com/capacitor/leadmlcc/en/documents/leadmlcc_commercial_general_en.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
 <attribute name="DOCUMENTATION_URL" value="http://product.tdk.com/capacitor/leadmlcc/en/documents/leadmlcc_commercial_general_en.pdf"/>
 <attribute name="FAMILY" value="Ceramic Capacitors" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
@@ -172,7 +172,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="PART_NUMBER" value="FK18X7R1E104K" constant="no"/>
 <attribute name="RATINGS" value="-" constant="no"/>
 <attribute name="SIZE" value="0.157&quot; L x 0.098&quot; W (4.00mm x 2.50mm)" constant="no"/>
-<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-search/en?KeyWords=FK18X7R1E104K&amp;WT.z_header=search_go&quot;&gt;Details&lt;/a&gt;"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="445-8421-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-search/en?KeyWords=FK18X7R1E104K&amp;WT.z_header=search_go" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
@@ -188,7 +188,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CAPACITANCE" value="1.0uF" constant="no"/>
 <attribute name="CATEGORY" value="Capacitors" constant="no"/>
 <attribute name="DESCRIPTION" value="CAP CER 1UF 25V 10% RADIAL" constant="no"/>
-<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://product.tdk.com/capacitor/leadmlcc/en/documents/leadmlcc_commercial_general_en.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
 <attribute name="DOCUMENTATION_URL" value="http://product.tdk.com/capacitor/leadmlcc/en/documents/leadmlcc_commercial_general_en.pdf"/>
 <attribute name="FAMILY" value="Ceramic Capacitors" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
@@ -203,7 +203,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="PART_NUMBER" value="FK18X7R1E105K" constant="no"/>
 <attribute name="RATINGS" value="-" constant="no"/>
 <attribute name="SIZE" value="0.157&quot; L x 0.098&quot; W (4.00mm x 2.50mm)" constant="no"/>
-<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-search/en?KeyWords=FK18X7R1E105K&amp;WT.z_header=search_go&quot;&gt;Details&lt;/a&gt;"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="445-8422-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-search/en?KeyWords=FK18X7R1E105K&amp;WT.z_header=search_go" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
@@ -227,7 +227,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CAPACITANCE" value="10uF" constant="no"/>
 <attribute name="CATEGORY" value="Capacitors" constant="no"/>
 <attribute name="DESCRIPTION" value="CAP CER 10UF 25V 10% RADIAL" constant="no"/>
-<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://product.tdk.com/capacitor/leadmlcc/en/documents/leadmlcc_commercial_general_en.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
 <attribute name="DOCUMENTATION_URL" value="http://product.tdk.com/capacitor/leadmlcc/en/documents/leadmlcc_commercial_general_en.pdf" constant="no"/>
 <attribute name="FAMILY" value="Ceramic Capacitors" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
@@ -242,7 +242,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="RATINGS" value="-" constant="no"/>
 <attribute name="SERIES" value="FK" constant="no"/>
 <attribute name="SIZE" value="0.217&quot; L x 0.138&quot; W (5.50mm x 3.50mm)" constant="no"/>
-<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-search/en?KeyWords=FK16X7R1E106K&amp;WT.z_header=search_go&quot;&gt;Details&lt;/a&gt;"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="445-8351-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-search/en?KeyWords=FK16X7R1E106K&amp;WT.z_header=search_go" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>

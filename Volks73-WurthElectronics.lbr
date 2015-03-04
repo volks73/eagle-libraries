@@ -141,7 +141,7 @@ It is recommended that the temperature of the part does not exceed 125&lt;sup&gt
 <attribute name="CURRENT_RATING" value="7A" constant="no"/>
 <attribute name="DC_RESISTANCE" value="15.5mOhm Max" constant="no"/>
 <attribute name="DESCRIPTION" value="FIXED IND 4.7UH 7A 15.5 MOHM SMD" constant="no"/>
-<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://katalog.we-online.de/pbs/datasheet/74437368047.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
 <attribute name="DOCUMENTATION_URL" value="http://katalog.we-online.de/pbs/datasheet/74437368047.pdf" constant="no"/>
 <attribute name="FAMILY" value="Fixed Inductors" constant="no"/>
 <attribute name="FREQUENCY-SELF_RESONANAT" value="16MHz" constant="no"/>
@@ -159,7 +159,7 @@ It is recommended that the temperature of the part does not exceed 125&lt;sup&gt
 <attribute name="SHEILDING" value="Shielded" constant="no"/>
 <attribute name="SIZE" value="0.433&quot; L x 0.394&quot; W (11.00mm x 10.00mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="-" constant="no"/>
-<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/74437368047/732-3389-1-ND/2791133&quot;&gt;Details&lt;/a&gt;"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="732-3389-1-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/74437368047/732-3389-1-ND/2791133" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>

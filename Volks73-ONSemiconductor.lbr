@@ -150,7 +150,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CURRENT-REVERSE_LEAKAGE" value="10uA @ 50V" constant="no"/>
 <attribute name="DESCRIPTION" value="DIODE GEN PURP 50V 1A DO41" constant="no"/>
 <attribute name="DIODE_TYPE" value="Standard" constant="no"/>
-<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.onsemi.com/pub_link/Collateral/1N4001-D.PDF&quot;&gt;Datasheet&lt;/a&gt;"/>
 <attribute name="DOCUMENTATION_URL" value="http://www.onsemi.com/pub_link/Collateral/1N4001-D.PDF" constant="no"/>
 <attribute name="FAMILY" value="Diodes, Rectifiers, - Single" constant="no"/>
 <attribute name="MANUFACTURER" value="ON Semiconductor" constant="no"/>
@@ -162,7 +162,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SERIES" value="-" constant="no"/>
 <attribute name="SPEED" value="Standard Recovery &gt;500ns, &gt; 200mA (Io)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="DO-41" constant="no"/>
-<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/1N4001G/1N4001GOS-ND/1485468&quot;&gt;Details&lt;/a&gt;"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="1N4001GOS-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/1N4001G/1N4001GOS-ND/1485468" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
@@ -178,7 +178,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CURRENT-REVERSE_LEAKAGE" value="10uA @ 100V" constant="no"/>
 <attribute name="DESCRIPTION" value="DIODE GEN PURP 100V 1A DO41" constant="no"/>
 <attribute name="DIODE_TYPE" value="Standard" constant="no"/>
-<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.onsemi.com/pub_link/Collateral/1N4001-D.PDF&quot;&gt;Datasheet&lt;/a&gt;"/>
 <attribute name="DOCUMENTATION_URL" value="http://www.onsemi.com/pub_link/Collateral/1N4001-D.PDF" constant="no"/>
 <attribute name="FAMILY" value="Diodes, Rectifiers, - Single" constant="no"/>
 <attribute name="MANUFACTURER" value="ON Semiconductor" constant="no"/>
@@ -190,7 +190,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SERIES" value="-" constant="no"/>
 <attribute name="SPEED" value="Standard Recovery &gt;500ns, &gt; 200mA (Io)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="DO-41" constant="no"/>
-<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/1N4002RLG/1N4002RLGOSCT-ND/917622&quot;&gt;Details&lt;/a&gt;"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="1N4002RLGOSCT-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/1N4002RLG/1N4002RLGOSCT-ND/917622" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>

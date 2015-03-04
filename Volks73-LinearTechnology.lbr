@@ -175,7 +175,7 @@ The LTC4365 has a 36ms turn-on delay that debounces live connections and blocks 
 <attribute name="CATEGORY" value="Integrated Circuits (ICs)" constant="no"/>
 <attribute name="CURRENT-SUPPLY" value="125uA" constant="no"/>
 <attribute name="DESCRIPTION" value="IC OVERVOLTAGE PROT TSOT23-8" constant="no"/>
-<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://cds.linear.com/docs/en/datasheet/4365fa.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
 <attribute name="DOCUMENTATION_URL" value="http://cds.linear.com/docs/en/datasheet/4365fa.pdf" constant="no"/>
 <attribute name="FAMILY" value="PMIC - Power Management - Specialized" constant="no"/>
 <attribute name="MANUFACTURER" value="Linear Technology" constant="no"/>
@@ -186,7 +186,7 @@ The LTC4365 has a 36ms turn-on delay that debounces live connections and blocks 
 <attribute name="SERIES" value="-" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="SOT-23-8" constant="no"/>
 <attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-detail/en/LTC4365CTS8%23TRMPBF/LTC4365CTS8%23TRMPBFCT-ND/2404677" constant="no"/>
-<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/LTC4365CTS8%23TRMPBF/LTC4365CTS8%23TRMPBFCT-ND/2404677&quot;&gt;Details&lt;/a&gt;"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="LTC4365CTS8#TRMPBFCT-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/LTC4365CTS8%23TRMPBF/LTC4365CTS8%23TRMPBFCT-ND/2404677" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>

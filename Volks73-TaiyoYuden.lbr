@@ -149,7 +149,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="APPLICATIONS" value="General Purpose" constant="no"/>
 <attribute name="CAPACITANCE" value="0.1uF" constant="no"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 10V 10% X5R 0402" constant="no"/>
-<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.yuden.co.jp/productdata/catalog/en/mlcc_all_e.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
 <attribute name="DOCUMENTATION_URL" value="http://www.yuden.co.jp/productdata/catalog/en/mlcc_all_e.pdf" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="HEIGHT-SEATED" value="-" constant="no"/>
@@ -162,7 +162,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="RATINGS" value="-" constant="no"/>
 <attribute name="SERIES" value="M" constant="no"/>
 <attribute name="SIZE" value="0.039&quot; L x 0.020&quot; W (1.00mm x 0.50mm)" constant="no"/>
-<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/LMK105BJ104KV-F/587-1227-1-ND/931004&quot;&gt;Details&lt;/a&gt;"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="587-1227-1-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/LMK105BJ104KV-F/587-1227-1-ND/931004" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
@@ -199,7 +199,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CAPACITANCE" value="4.7uF" constant="no"/>
 <attribute name="CATEGORY" value="Capacitors" constant="no"/>
 <attribute name="DESCRIPTION" value="CAP CER 4.7UF 50V 10% X7R 1206" constant="no"/>
-<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.yuden.co.jp/productdata/catalog/en/mlcc_all_e.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
 <attribute name="DOCUMENTATION_URL" value="http://www.yuden.co.jp/productdata/catalog/en/mlcc_all_e.pdf" constant="no"/>
 <attribute name="FAMILY" value="Cermaic Capacitors" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
@@ -214,7 +214,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="RATINGS" value="-" constant="no"/>
 <attribute name="SERIES" value="M" constant="no"/>
 <attribute name="SIZE" value="0.126&quot; L x 0.063&quot; W (3.20mm x 1.60mm)" constant="no"/>
-<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/UMK316AB7475KL-T/587-2994-1-ND/2714187&quot;&gt;Details&lt;/a&gt;"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="587-2994-1-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/UMK316AB7475KL-T/587-2994-1-ND/2714187" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
@@ -237,7 +237,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CAPACITANCE" value="1uF" constant="no"/>
 <attribute name="CATEGORY" value="Capacitors" constant="no"/>
 <attribute name="DESCRIPTION" value="CAP CER 1UF 50V 10% X5R 0603" constant="no"/>
-<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.yuden.co.jp/productdata/catalog/en/mlcc_all_e.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
 <attribute name="DOCUMENTATION_URL" value="http://www.yuden.co.jp/productdata/catalog/en/mlcc_all_e.pdf" constant="no"/>
 <attribute name="FAMILY" value="Ceramic Capacitors" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
@@ -253,7 +253,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SERIES" value="M" constant="no"/>
 <attribute name="SIZE" value="0.063&quot; L x 0.031&quot; W (1.60mm x 0.80mm)" constant="no"/>
 <attribute name="STANDARD_PACKAGE" value="1" constant="no"/>
-<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/UMK107BJ105KA-T/587-2400-1-ND/2179013&quot;&gt;Details&lt;/a&gt;"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="587-2400-1-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/UMK107BJ105KA-T/587-2400-1-ND/2179013" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>

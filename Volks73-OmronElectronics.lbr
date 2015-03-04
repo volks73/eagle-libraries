@@ -209,7 +209,7 @@ DIP switch with through hole terminals in a wide assortment of pole configuratio
 <attribute name="CIRCUIT" value="SPST" constant="no"/>
 <attribute name="CONTACT_RATING" value="0.025A @ 24VDC" constant="no"/>
 <attribute name="DESCRIPTION" value="SWITCH AUTODIP 1POS TOP ACT 24V" constant="no"/>
-<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;https://www.components.omron.com/components/web/PDFLIB.nsf/0/6EBABFA27C77F9908625730F0055AD35/$file/A6T_1110.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
 <attribute name="DOCUMENTATION_URL" value="https://www.components.omron.com/components/web/PDFLIB.nsf/0/6EBABFA27C77F9908625730F0055AD35/$file/A6T_1110.pdf" constant="no"/>
 <attribute name="FAMILY" value="DIP Switches" constant="no"/>
 <attribute name="MANUFACTURER" value="Omron Electronics Inc-EMC Div" constant="no"/>
@@ -218,7 +218,7 @@ DIP switch with through hole terminals in a wide assortment of pole configuratio
 <attribute name="ORIENTATION" value="Top Actuated" constant="no"/>
 <attribute name="PART_NUMBER" value="A6T-1104" constant="no"/>
 <attribute name="SERIES" value="A6T" constant="no"/>
-<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/A6T-1104/SW1231-ND/368233&quot;&gt;Details&lt;/a&gt;"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="SW1231-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/A6T-1104/SW1231-ND/368233" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>

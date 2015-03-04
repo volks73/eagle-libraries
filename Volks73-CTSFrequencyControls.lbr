@@ -136,7 +136,7 @@ Model 445 is a low cost device used in a wide range of commercial applications i
 <technology name="C25D20M00000">
 <attribute name="CATEGORY" value="Crystals and Oscillators" constant="no"/>
 <attribute name="DESCRIPTION" value="CRYSTAL 20MHZ 18PF SMD" constant="no"/>
-<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.ctscorp.com/components/Datasheets/008-0360-0.pdf&quot;&gt;Datasheet&lt;/a&gt;" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.ctscorp.com/components/Datasheets/008-0360-0.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
 <attribute name="DOCUMENTATION_URL" value="http://www.ctscorp.com/components/Datasheets/008-0360-0.pdf" constant="no"/>
 <attribute name="ESR" value="40 Ohm" constant="no"/>
 <attribute name="FAMILY" value="Crystals" constant="no"/>
@@ -154,7 +154,7 @@ Model 445 is a low cost device used in a wide range of commercial applications i
 <attribute name="RATINGS" value="-" constant="no"/>
 <attribute name="SERIES" value="445" constant="no"/>
 <attribute name="SIZE" value="0.197&quot; L x 0.126&quot; W (5.00mm x 3.20mm)" constant="no"/>
-<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/445C25D20M00000/CTX1164CT-ND/3135104&quot;&gt;Details&lt;/a&gt;" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/445C25D20M00000/CTX1164CT-ND/3135104&quot;&gt;Details&lt;/a&gt;"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="CTX1164CT-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/445C25D20M00000/CTX1164CT-ND/3135104" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>

@@ -247,14 +247,14 @@ Surface Mount Multi-Functional DIP Switch IR Solderable, PCB Washable
 <attribute name="CIRCUIT" value="DPST" constant="no"/>
 <attribute name="CONTACT_RATING" value="0.05A @ 24VDC" constant="no"/>
 <attribute name="DESCRIPTION" value="SWITCH DIP DPST 1POS SMT 50V" constant="no"/>
-<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.ctscorp.com/components/Datasheets/204.pdf&quot;&gt;Datasheet&lt;/a&gt;" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.ctscorp.com/components/Datasheets/204.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
 <attribute name="DOCUMENTATION_URL" value="http://www.ctscorp.com/components/Datasheets/204.pdf" constant="no"/>
 <attribute name="MANUFACTURER" value="CTS Electrocomponents" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Surface Mount" constant="no"/>
 <attribute name="NUMBER_OF_POSITIONS" value="1" constant="no"/>
 <attribute name="ORIENTATION" value="Top Actuated" constant="no"/>
 <attribute name="PART_NUMBER" value="204-211ST" constant="no"/>
-<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/204-211ST/CT204211ST-ND/267310&quot;&gt;Details&lt;/a&gt;" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/204-211ST/CT204211ST-ND/267310&quot;&gt;Details&lt;/a&gt;"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="CT204211ST-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/204-211ST/CT204211ST-ND/267310" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>

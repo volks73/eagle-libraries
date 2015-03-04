@@ -175,7 +175,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CATEGORY" value="Discete Semiconductor Products" constant="no"/>
 <attribute name="CURRENT-CONTINUOUS_DRAIN" value="8.5A" constant="no"/>
 <attribute name="DESCRIPTION" value="MOSFET 2N-CH 30V 8.5A 8-SOIC" constant="no"/>
-<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.vishay.com/docs/67907/si4214ddy-t1-e3.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
 <attribute name="DOCUMENTATION_URL" value="http://www.vishay.com/docs/67907/si4214ddy-t1-e3.pdf" constant="no"/>
 <attribute name="DRAIN_TO_SOURCE_VOLTAGE" value="30V" constant="no"/>
 <attribute name="FAMILY" value="FETs - Arrays" constant="no"/>
@@ -189,7 +189,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="POWER-MAX" value="3.1W" constant="no"/>
 <attribute name="RDS_ON" value="19.5 mOhm @ 8A, 10V" constant="no"/>
 <attribute name="SERIES" value="TrenchFET" constant="no"/>
-<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/SI4214DDY-T1-GE3/SI4214DDY-T1-GE3CT-ND/3305376&quot;&gt;Details&lt;/a&gt;"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="SI4214DDY-T1-GE3CT-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/SI4214DDY-T1-GE3/SI4214DDY-T1-GE3CT-ND/3305376" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>

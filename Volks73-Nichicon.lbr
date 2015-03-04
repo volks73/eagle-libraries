@@ -207,7 +207,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="APPLICATIONS" value="General Purpose" constant="no"/>
 <attribute name="CAPACITANCE" value="100uF" constant="no"/>
 <attribute name="DESCRIPTION" value="CAP ALUM 100UF 50V 20% RADIAL" constant="no"/>
-<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://nichicon-us.com/english/products/pdfs/e-he.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
 <attribute name="DOCUMENTATION_URL" value="http://nichicon-us.com/english/products/pdfs/e-he.pdf"/>
 <attribute name="ESR" value="-" constant="no"/>
 <attribute name="FAMILY" value="Aluminum Capacitors" constant="no"/>
@@ -223,7 +223,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="RIPPLE_CURRENT" value="555mA" constant="no"/>
 <attribute name="SERIES" value="HE" constant="no"/>
 <attribute name="SIZE" value="0.315&quot; Dia (8.00mm)" constant="no"/>
-<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/UHE1H101MPD/493-1605-ND/589346&quot;&gt;Details&lt;/a&gt;"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="493-1605-ND"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/UHE1H101MPD/493-1605-ND/589346" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
@@ -268,7 +268,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CAPACITANCE" value="100µF" constant="no"/>
 <attribute name="CATEGORY" value="Capacitors" constant="no"/>
 <attribute name="DESCRIPTION" value="CAP ALUM 100UF 25V 20% SMD" constant="no"/>
-<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.nichicon.co.jp/english/products/pdfs/e-ch_ta.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
 <attribute name="DOCUMENTATION_URL" value="http://www.nichicon.co.jp/english/products/pdfs/e-ch_ta.pdf"/>
 <attribute name="ESR" value="-" constant="no"/>
 <attribute name="FAMILY" value="Aluminum Capacitors" constant="no"/>
@@ -283,7 +283,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="RIPPLE_CURRENT" value="110mA" constant="no"/>
 <attribute name="SERIES" value="WX" constant="no"/>
 <attribute name="SIZE-DIMENSION" value="0.315&quot; Dia (8.00mm)" constant="no"/>
-<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/UWX1E101MCL1GB/493-2113-1-ND/590088&quot;&gt;Details&lt;/a&gt;"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="493-2113-1-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/UWX1E101MCL1GB/493-2113-1-ND/590088" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>

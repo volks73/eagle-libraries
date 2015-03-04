@@ -238,7 +238,7 @@ P82B96/PCA9600 and choose the type of device that is best for their application.
 <attribute name="DATA_RATE" value="400kHz" constant="no"/>
 <attribute name="DELAY_TIME" value="-" constant="no"/>
 <attribute name="DESCRIPTION" value="IC REDRIVER I2C 1CH 400KHZ 8SO" constant="no"/>
-<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.nxp.com/documents/data_sheet/P82B715.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
 <attribute name="DOCUMENTATION_URL" value="http://www.nxp.com/documents/data_sheet/P82B715.pdf" constant="no"/>
 <attribute name="INPUT" value="2-Wire Buse" constant="no"/>
 <attribute name="MANUFACTURER" value="NXP Semiconductors" constant="no"/>
@@ -247,7 +247,7 @@ P82B96/PCA9600 and choose the type of device that is best for their application.
 <attribute name="OUTPUT" value="2-Wire Bus" constant="no"/>
 <attribute name="PART_NUMBER" value="P82B715TD,118" constant="no"/>
 <attribute name="SIGNAL_CONDITIONING" value="-" constant="no"/>
-<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/P82B715TD,118/568-1007-2-ND/735621&quot;&gt;Details&lt;/a&gt;"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="568-1007-2-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/P82B715TD,118/568-1007-2-ND/735621" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
@@ -313,7 +313,7 @@ PRTR5V0U2X incorporates two pairs of ultra low capacitance rail-to-rail diodes a
 <attribute name="CAPACITANCE" value="1pF @ 1MHz" constant="no"/>
 <attribute name="CURRENT_PEAK_PULSE" value="-" constant="no"/>
 <attribute name="DESCRIPTION" value="TVS DIODE 5.5VWM SOT143B" constant="no"/>
-<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.nxp.com/documents/data_sheet/PRTR5V0U2X.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
 <attribute name="DOCUMENTATION_URL" value="http://www.nxp.com/documents/data_sheet/PRTR5V0U2X.pdf" constant="no"/>
 <attribute name="MANUFACTURER" value="NXP Semiconductors" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Surface Mount" constant="no"/>
@@ -321,7 +321,7 @@ PRTR5V0U2X incorporates two pairs of ultra low capacitance rail-to-rail diodes a
 <attribute name="PART_NUMBER" value="PRTR5V0U2X,215" constant="no"/>
 <attribute name="POWER-PEAK_PULSE" value="-" constant="no"/>
 <attribute name="POWER_LINE_PROTECTION" value="Yes" constant="no"/>
-<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/PRTR5V0U2X,215/568-4140-1-ND/1589981&quot;&gt;Details&lt;/a&gt;"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="568-4140-1-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/PRTR5V0U2X,215/568-4140-1-ND/1589981" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>

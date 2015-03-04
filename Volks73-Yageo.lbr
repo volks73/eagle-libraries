@@ -202,7 +202,7 @@ The CFR Series Carbon Film Resistors are manufactured by coating a homogeneous f
 <attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Carbon Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES 10K OHM 1/4W 5% AXIAL" constant="no"/>
-<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.yageo.com/documents/recent/Yageo%20LR_CFR_2013.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
 <attribute name="DOCUMENTATION_URL" value="http://www.yageo.com/documents/recent/Yageo%20LR_CFR_2013.pdf"/>
 <attribute name="FAMILY" value="Through Hole Resistors" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
@@ -215,7 +215,7 @@ The CFR Series Carbon Film Resistors are manufactured by coating a homogeneous f
 <attribute name="RESISTANCE" value="10k" constant="no"/>
 <attribute name="SERIES" value="CFR" constant="no"/>
 <attribute name="SIZE" value="0.094&quot; Dia x 0.248&quot; L (2.40mm x 6.30mm)" constant="no"/>
-<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/CFR-25JB-52-10K/10KQBK-ND/338&quot;&gt;Details&lt;/a&gt;"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="10KQBK-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/CFR-25JB-52-10K/10KQBK-ND/338" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
@@ -228,7 +228,7 @@ The CFR Series Carbon Film Resistors are manufactured by coating a homogeneous f
 <attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Carbon Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES 240 OHM 1/4W 5% AXIAL" constant="no"/>
-<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.yageo.com/documents/recent/Yageo%20LR_CFR_2013.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
 <attribute name="DOCUMENTATION_URL" value="http://www.yageo.com/documents/recent/Yageo%20LR_CFR_2013.pdf"/>
 <attribute name="FAMILY" value="Through Hole Resistors" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
@@ -241,7 +241,7 @@ The CFR Series Carbon Film Resistors are manufactured by coating a homogeneous f
 <attribute name="RESISTANCE" value="240" constant="no"/>
 <attribute name="SERIES" value="CFR" constant="no"/>
 <attribute name="SIZE" value="0.094&quot; Dia x 0.248&quot; L (2.40mm x 6.30mm)" constant="no"/>
-<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/CFR-25JB-52-240R/240QBK-ND/1342&quot;&gt;Details&lt;/a&gt;"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="240QBK-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/CFR-25JB-52-240R/240QBK-ND/1342" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
@@ -254,7 +254,7 @@ The CFR Series Carbon Film Resistors are manufactured by coating a homogeneous f
 <attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Carbon Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES 270 OHM 1/4W 5% AXIAL" constant="no"/>
-<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.yageo.com/documents/recent/Yageo%20LR_CFR_2013.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
 <attribute name="DOCUMENTATION_URL" value="http://www.yageo.com/documents/recent/Yageo%20LR_CFR_2013.pdf"/>
 <attribute name="FAMILY" value="Through Hole Resistors" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
@@ -267,7 +267,7 @@ The CFR Series Carbon Film Resistors are manufactured by coating a homogeneous f
 <attribute name="RESISTANCE" value="270" constant="no"/>
 <attribute name="SERIES" value="CFR" constant="no"/>
 <attribute name="SIZE" value="0.094&quot; Dia x 0.248&quot; L (2.40mm x 6.30mm)" constant="no"/>
-<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/CFR-25JB-52-270R/270QBK-ND/1386&quot;&gt;Details&lt;/a&gt;"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="270QBK-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/CFR-25JB-52-270R/270QBK-ND/1386" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
@@ -280,7 +280,7 @@ The CFR Series Carbon Film Resistors are manufactured by coating a homogeneous f
 <attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Carbon Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES 470 OHM 1/4W 5% AXIAL" constant="no"/>
-<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.yageo.com/documents/recent/Yageo%20LR_CFR_2013.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
 <attribute name="DOCUMENTATION_URL" value="http://www.yageo.com/documents/recent/Yageo%20LR_CFR_2013.pdf"/>
 <attribute name="FAMILY" value="Through Hole Resistors" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
@@ -293,7 +293,7 @@ The CFR Series Carbon Film Resistors are manufactured by coating a homogeneous f
 <attribute name="RESISTANCE" value="470" constant="no"/>
 <attribute name="SERIES" value="CFR" constant="no"/>
 <attribute name="SIZE" value="0.094&quot; Dia x 0.248&quot; L (2.40mm x 6.30mm)" constant="no"/>
-<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/CFR-25JB-52-470R/470QBK-ND/2211&quot;&gt;Details&lt;/a&gt;"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="470QBK-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/CFR-25JB-52-470R/470QBK-ND/2211" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
@@ -306,7 +306,7 @@ The CFR Series Carbon Film Resistors are manufactured by coating a homogeneous f
 <attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Carbon Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES 4.7K OHM 1/4W 5% AXIAL" constant="no"/>
-<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.yageo.com/documents/recent/Yageo%20LR_CFR_2013.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
 <attribute name="DOCUMENTATION_URL" value="http://www.yageo.com/documents/recent/Yageo%20LR_CFR_2013.pdf"/>
 <attribute name="FAMILY" value="Through Hole Resistors" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
@@ -319,7 +319,7 @@ The CFR Series Carbon Film Resistors are manufactured by coating a homogeneous f
 <attribute name="RESISTANCE" value="4.7k" constant="no"/>
 <attribute name="SERIES" value="CFR" constant="no"/>
 <attribute name="SIZE" value="0.094&quot; Dia x 0.248&quot; L (2.40mm x 6.30mm)" constant="no"/>
-<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/CFR-25JB-52-4K7/4.7KQBK-ND/1846&quot;&gt;Details&lt;/a&gt;"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="4.7KQBK-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/CFR-25JB-52-4K7/4.7KQBK-ND/1846" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
@@ -332,7 +332,7 @@ The CFR Series Carbon Film Resistors are manufactured by coating a homogeneous f
 <attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Carbon Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES 510K OHM 1/4W 5% AXIAL" constant="no"/>
-<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.yageo.com/documents/recent/Yageo%20LR_CFR_2013.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
 <attribute name="DOCUMENTATION_URL" value="http://www.yageo.com/documents/recent/Yageo%20LR_CFR_2013.pdf"/>
 <attribute name="FAMILY" value="Through Hole Resistors" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
@@ -345,7 +345,7 @@ The CFR Series Carbon Film Resistors are manufactured by coating a homogeneous f
 <attribute name="RESISTANCE" value="510k" constant="no"/>
 <attribute name="SERIES" value="CFR" constant="no"/>
 <attribute name="SIZE" value="0.094&quot; Dia x 0.248&quot; L (2.40mm x 6.30mm)" constant="no"/>
-<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/CFR-25JB-52-510K/510KQBK-ND/2305&quot;&gt;Details&lt;/a&gt;"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="510KQBK-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/CFR-25JB-52-510K/510KQBK-ND/2305" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
@@ -358,7 +358,7 @@ The CFR Series Carbon Film Resistors are manufactured by coating a homogeneous f
 <attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Carbon Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES 510 OHM 1/4W 5% AXIAL" constant="no"/>
-<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.yageo.com/documents/recent/Yageo%20LR_CFR_2013.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
 <attribute name="DOCUMENTATION_URL" value="http://www.yageo.com/documents/recent/Yageo%20LR_CFR_2013.pdf"/>
 <attribute name="FAMILY" value="Through Hole Resistors" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
@@ -371,7 +371,7 @@ The CFR Series Carbon Film Resistors are manufactured by coating a homogeneous f
 <attribute name="RESISTANCE" value="510" constant="no"/>
 <attribute name="SERIES" value="CFR" constant="no"/>
 <attribute name="SIZE" value="0.094&quot; Dia x 0.248&quot; L (2.40mm x 6.30mm)" constant="no"/>
-<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/CFR-25JB-52-510R/510QBK-ND/2306&quot;&gt;Details&lt;/a&gt;"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="510QBK-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/CFR-25JB-52-510R/510QBK-ND/2306" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
@@ -384,7 +384,7 @@ The CFR Series Carbon Film Resistors are manufactured by coating a homogeneous f
 <attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Carbon Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES 820 OHM 1/4W 5% AXIAL" constant="no"/>
-<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.yageo.com/documents/recent/Yageo%20LR_CFR_2013.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
 <attribute name="DOCUMENTATION_URL" value="http://www.yageo.com/documents/recent/Yageo%20LR_CFR_2013.pdf"/>
 <attribute name="FAMILY" value="Through Hole Resistors" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
@@ -397,7 +397,7 @@ The CFR Series Carbon Film Resistors are manufactured by coating a homogeneous f
 <attribute name="RESISTANCE" value="820" constant="no"/>
 <attribute name="SERIES" value="CFR" constant="no"/>
 <attribute name="SIZE" value="0.094&quot; Dia x 0.248&quot; L (2.40mm x 6.30mm)" constant="no"/>
-<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/CFR-25JB-52-820R/820QBK-ND/3584&quot;&gt;Details&lt;/a&gt;"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="820QBK-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/CFR-25JB-52-820R/820QBK-ND/3584" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
@@ -418,7 +418,7 @@ The CFR Series Carbon Film Resistors are manufactured by coating a homogeneous f
 <attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Carbon Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES 2.4K OHM 1/2W 5% AXIAL" constant="no"/>
-<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.yageo.com/documents/recent/Yageo%20LR_CFR_2013.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
 <attribute name="DOCUMENTATION_URL" value="http://www.yageo.com/documents/recent/Yageo%20LR_CFR_2013.pdf" constant="no"/>
 <attribute name="FAMILY" value="Through Hole Resistors" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
@@ -433,7 +433,7 @@ The CFR Series Carbon Film Resistors are manufactured by coating a homogeneous f
 <attribute name="SERIES" value="CFR" constant="no"/>
 <attribute name="SIZE" value="0.130&quot; Dia x 0.354&quot; L (3.30mm x 9.00mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="Axial" constant="no"/>
-<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-search/en?KeyWords=CFR-50JB-52-2K4&amp;WT.z_header=search_go&quot;&gt;Details&lt;/a&gt;"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="2.4KH-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-search/en?KeyWords=CFR-50JB-52-2K4&amp;WT.z_header=search_go" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
@@ -475,7 +475,7 @@ The MFR Series Metal Film Resistors are manufactured using a vacuum sputtering s
 <technologies>
 <technology name="FBF52-232K">
 <attribute name="COMPOSITION" value="Metal File" constant="no"/>
-<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.yageo.com/documents/recent/Yageo%20LR_MFR_2013.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
 <attribute name="DOCUMENTATION_URL" value="http://www.yageo.com/documents/recent/Yageo%20LR_MFR_2013.pdf" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="HEIGHT" value="-" constant="no"/>
@@ -486,7 +486,7 @@ The MFR Series Metal Film Resistors are manufactured using a vacuum sputtering s
 <attribute name="RESISTANCE" value="232k" constant="no"/>
 <attribute name="SIZE" value="0.094&quot; Dia x 0.248&quot; L (2.40mm x 6.30mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="Axial" constant="no"/>
-<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;www.digikey.com/product-detail/en/MFR-25FBF52-232K/232KXBK-ND/13559&quot;&gt;Details&lt;/a&gt;"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="232KXBK-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="www.digikey.com/product-detail/en/MFR-25FBF52-232K/232KXBK-ND/13559" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
@@ -497,7 +497,7 @@ The MFR Series Metal Film Resistors are manufactured using a vacuum sputtering s
 </technology>
 <technology name="FBF52-66K5">
 <attribute name="COMPOSITION" value="Metal File" constant="no"/>
-<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.yageo.com/documents/recent/Yageo%20LR_MFR_2013.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
 <attribute name="DOCUMENTATION_URL" value="http://www.yageo.com/documents/recent/Yageo%20LR_MFR_2013.pdf" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="HEIGHT" value="-" constant="no"/>
@@ -508,7 +508,7 @@ The MFR Series Metal Film Resistors are manufactured using a vacuum sputtering s
 <attribute name="RESISTANCE" value="66.5k" constant="no"/>
 <attribute name="SIZE" value="0.094&quot; Dia x 0.248&quot; L (2.40mm x 6.30mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="Axial" constant="no"/>
-<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/MFR-25FBF52-66K5/66.5KXBK-ND/13437&quot;&gt;Details&lt;/a&gt;"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="66.5KXBK-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/MFR-25FBF52-66K5/66.5KXBK-ND/13437" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>

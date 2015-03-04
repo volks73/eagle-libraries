@@ -216,7 +216,7 @@ A homogenous film of metal alloy is deposited on a high grade ceramic body. Afte
 <attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Metal Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES 130K OHM 1/4W 1% AXIAL" constant="no"/>
-<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.vishay.com/docs/30260/hvr2537.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
 <attribute name="DOCUMENTATION_URL" value="http://www.vishay.com/docs/30260/hvr2537.pdf"/>
 <attribute name="FAMILY" value="Through Hole Resistors" constant="no"/>
 <attribute name="FEATURES" value="Flame Retardant Coating, Pulse Withstanding" constant="no"/>
@@ -231,7 +231,7 @@ A homogenous film of metal alloy is deposited on a high grade ceramic body. Afte
 <attribute name="SERIES" value="HVR25" constant="no"/>
 <attribute name="SIZE" value="0.098&quot; Dia x 0.256&quot; L (2.50mm x 6.50mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="Axial" constant="no"/>
-<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/HVR2500001303FR500/PPCQF130KCT-ND/719762&quot;&gt;Details&lt;/a&gt;"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="PPCQF130KCT-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/HVR2500001303FR500/PPCQF130KCT-ND/719762" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
@@ -244,7 +244,7 @@ A homogenous film of metal alloy is deposited on a high grade ceramic body. Afte
 <attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Metal Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES 169K OHM 1/4W 1% AXIAL" constant="no"/>
-<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.vishay.com/docs/30260/hvr2537.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
 <attribute name="DOCUMENTATION_URL" value="http://www.vishay.com/docs/30260/hvr2537.pdf"/>
 <attribute name="FAMILY" value="Through Hole Resistors" constant="no"/>
 <attribute name="FEATURES" value="Flame Retardant Coating, Pulse Withstanding" constant="no"/>
@@ -259,7 +259,7 @@ A homogenous film of metal alloy is deposited on a high grade ceramic body. Afte
 <attribute name="SERIES" value="" constant="no"/>
 <attribute name="SIZE" value="0.098&quot; Dia x 0.256&quot; L (2.50mm x 6.50mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="Axial" constant="no"/>
-<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/HVR2500001693FR500/PPCQF169KCT-ND/719774&quot;&gt;Details&lt;/a&gt;"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="PPCQF169KCT-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/HVR2500001693FR500/PPCQF169KCT-ND/719774" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
@@ -280,7 +280,7 @@ A homogenous film of metal alloy is deposited on a high grade ceramic body. Afte
 <attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Metal Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES 1.5M OHM 1/2W 1% AXIAL" constant="no"/>
-<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.vishay.com/docs/30260/hvr2537.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
 <attribute name="DOCUMENTATION_URL" value="http://www.vishay.com/docs/30260/hvr2537.pdf" constant="no"/>
 <attribute name="FAMILY" value="Through Hole Resistors" constant="no"/>
 <attribute name="FEATURES" value="Flame Retardant Coating, Pulse Withstanding" constant="no"/>
@@ -295,7 +295,7 @@ A homogenous film of metal alloy is deposited on a high grade ceramic body. Afte
 <attribute name="SERIES" value="HVR37" constant="no"/>
 <attribute name="SIZE" value="0.157&quot; Dia x 0.394&quot; L (4.00mm x 10.00mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="Axial" constant="no"/>
-<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/HVR3700001504FR500/PPCHF1.50MCT-ND/719997&quot;&gt;Details&lt;/a&gt;"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="PPCHF1.50MCT-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/HVR3700001504FR500/PPCHF1.50MCT-ND/719997" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>

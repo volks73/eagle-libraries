@@ -290,7 +290,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CONTACT_TYPE" value="Signal" constant="no"/>
 <attribute name="CURRENT_RATING" value="2A" constant="no"/>
 <attribute name="DESCRIPTION" value="CONN DSUB HD RCPT 15POS R/A SLDR" constant="no"/>
-<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1734530&amp;DocType=Customer+Drawing&amp;DocLang=English&quot;&gt;Datasheet&lt;/a&gt;"/>
 <attribute name="DOCUMENTATION_URL" value="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1734530&amp;DocType=Customer+Drawing&amp;DocLang=English" constant="no"/>
 <attribute name="FEATURES" value="Board Lock" constant="no"/>
 <attribute name="FLANGE_FEATURE" value="Housing/Shell (4-40)" constant="no"/>
@@ -304,7 +304,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SERIES" value="AMPLIMITE HD-22, AMP" constant="no"/>
 <attribute name="SHELL_MATERIAL" value="Steel, Nickel Plated" constant="no"/>
 <attribute name="SHELL_SIZE" value="1 (DE, E) High Density" constant="no"/>
-<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-search/en?KeyWords=A35116-ND&amp;WT.z_header=search_go&quot;&gt;Details&lt;/a&gt;"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="A35116-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-search/en?KeyWords=A35116-ND&amp;WT.z_header=search_go" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
@@ -359,7 +359,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CONTACT_TYPE" value="Signal" constant="no"/>
 <attribute name="CURRENT_RATING" value="" constant="no"/>
 <attribute name="DESCRIPTION" value="CONN D-SUB RCPT 9POS R/A SOLDER" constant="no"/>
-<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1734354&amp;DocType=Customer+Drawing&amp;DocLang=English&quot;&gt;Datasheet&lt;/a&gt;"/>
 <attribute name="DOCUMENTATION_URL" value="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1734354&amp;DocType=Customer+Drawing&amp;DocLang=English" constant="no"/>
 <attribute name="FLANGE_FEATURE" value="Mating Side; Female Screwlock (4-40)" constant="no"/>
 <attribute name="HOUSING_MATERIAL" value="Polyamide (PA9T), Nylon 9T, Glass Filled" constant="no"/>
@@ -372,7 +372,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SERIES" value="AMPLIMITE HD-20, AMP" constant="no"/>
 <attribute name="SHELL_MATERIAL" value="Steel, Nickel Plated" constant="no"/>
 <attribute name="SHELL_SIZE" value="1 (DE, E)" constant="no"/>
-<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-search/en?KeyWords=A35107-ND&amp;WT.z_header=search_go&quot;&gt;Details&lt;/a&gt;"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="A35107-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-search/en?KeyWords=A35107-ND&amp;WT.z_header=search_go" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>

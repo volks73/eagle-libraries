@@ -163,7 +163,7 @@ The MIC2920 is available in several configurations. The MIC2920A-x.x devices are
 <attribute name="CURRENT-LIMIT-MIN" value="-" constant="no"/>
 <attribute name="CURRENT-OUTPUT" value="400mA" constant="no"/>
 <attribute name="DESCRIPTION" value="IC REG LDO 5V 0.4A SOT223" constant="no"/>
-<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.micrel.com/_PDF/mic2920.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
 <attribute name="DOCUMENTATION_URL" value="http://www.micrel.com/_PDF/mic2920.pdf" constant="no"/>
 <attribute name="FAMILY" value="PMIC - Voltage Regulators - Linear (LDO)" constant="no"/>
 <attribute name="MANUFACTURER" value="Micrel Inc" constant="no"/>
@@ -175,7 +175,7 @@ The MIC2920 is available in several configurations. The MIC2920A-x.x devices are
 <attribute name="SERIES" value="-" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="SOT-223" constant="no"/>
 <attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-detail/en/MIC2920A-5.0WS%20TR/576-1117-1-ND/771850" constant="no"/>
-<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/MIC2920A-5.0WS%20TR/576-1117-1-ND/771850&quot;&gt;Details&lt;/a&gt;"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="576-1117-1-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/MIC2920A-5.0WS%20TR/576-1117-1-ND/771850" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>

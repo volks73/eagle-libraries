@@ -330,7 +330,7 @@ The reference outline is for a 8-Pin, Closed IC Socket from Assman WSW Component
 <attribute name="CORE_SIZE" value="8-Bit" constant="no"/>
 <attribute name="DATA_CONVERTERS" value="A/D 4x10b" constant="no"/>
 <attribute name="DESCRIPTION" value="IC MCU 8BIT 8KB FLASH 8DIP" constant="no"/>
-<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.atmel.com/images/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf&quot;&gt;Datasheet&lt;/a&gt;" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.atmel.com/images/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
 <attribute name="DOCUMENTATION_URL" value="http://www.atmel.com/images/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf" constant="no"/>
 <attribute name="EEPROM_SIZE" value="512 x 8" constant="no"/>
 <attribute name="MANUFACTURER" value="Atmel" constant="no"/>
@@ -345,7 +345,7 @@ The reference outline is for a 8-Pin, Closed IC Socket from Assman WSW Component
 <attribute name="RAM_SIZE" value="512 x 8" constant="no"/>
 <attribute name="SPEED" value="20MHz" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="8-PDIP" constant="no"/>
-<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/ATTINY85-20PU/ATTINY85-20PU-ND/735469&quot;&gt;Details&lt;/a&gt;" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/ATTINY85-20PU/ATTINY85-20PU-ND/735469&quot;&gt;Details&lt;/a&gt;"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="ATTINY85-20PU-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/ATTINY85-20PU/ATTINY85-20PU-ND/735469" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
@@ -493,7 +493,7 @@ The ATtiny87/167 AVR is supported with a full suite of program and system develo
 <attribute name="CORE_SIZE" value="8-Bit" constant="no"/>
 <attribute name="DATA_CONVERTERS" value="A/D 11x10b" constant="no"/>
 <attribute name="DESCRIPTION" value="IC MCU 8BIT 16KB FLASH 20SOIC" constant="no"/>
-<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.atmel.com/Images/Atmel-8265-8-bit-AVR-Microcontroller-tinyAVR-ATtiny87-ATtiny167_datasheet.pdf&quot;&gt;Datasheet&lt;/a&gt;" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.atmel.com/Images/Atmel-8265-8-bit-AVR-Microcontroller-tinyAVR-ATtiny87-ATtiny167_datasheet.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
 <attribute name="DOCUMENTATION_URL" value="http://www.atmel.com/Images/Atmel-8265-8-bit-AVR-Microcontroller-tinyAVR-ATtiny87-ATtiny167_datasheet.pdf" constant="no"/>
 <attribute name="EEPROM_SIZE" value="512 x 8" constant="no"/>
 <attribute name="FAMILY" value="Embedded - Microcontrollers" constant="no"/>
@@ -510,7 +510,7 @@ The ATtiny87/167 AVR is supported with a full suite of program and system develo
 <attribute name="SERIES" value="AVR® ATtiny" constant="no"/>
 <attribute name="SPEED" value="20MHz" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="20-SOIC" constant="no"/>
-<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/ATTINY167-SUR/ATTINY167-SURCT-ND/2774335&quot;&gt;Details&lt;/a&gt;" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/ATTINY167-SUR/ATTINY167-SURCT-ND/2774335&quot;&gt;Details&lt;/a&gt;"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="ATTINY167-SURCT-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/ATTINY167-SUR/ATTINY167-SURCT-ND/2774335" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>

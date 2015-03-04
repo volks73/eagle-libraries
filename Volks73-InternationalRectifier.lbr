@@ -152,7 +152,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CATEGORY" value="Discrete Semiconductor Products" constant="no"/>
 <attribute name="CURRENT-CONTINUOUS_DRAIN" value="5A (Ta)" constant="no"/>
 <attribute name="DESCRIPTION" value="MOSFET N-CH 30V 5A SOT23" constant="no"/>
-<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.irf.com/product-info/datasheets/data/irlml6344pbf.pdf&quot;&gt;Datasheet&lt;/a&gt;" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.irf.com/product-info/datasheets/data/irlml6344pbf.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
 <attribute name="DOCUMENTATION_URL" value="http://www.irf.com/product-info/datasheets/data/irlml6344pbf.pdf" constant="no"/>
 <attribute name="DRAIN_TO_SOURCE_VOLTAGE" value="30V" constant="no"/>
 <attribute name="FAMILY" value="FETs - Single" constant="no"/>
@@ -168,7 +168,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="RDS_ON" value="29 mOhm @ 5A, 4.5V" constant="no"/>
 <attribute name="SERIES" value="HEXFET" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="SOT-23" constant="no"/>
-<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/IRLML6344TRPBF/IRLML6344TRPBFCT-ND/2538168&quot;&gt;Details&lt;/a&gt;" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/IRLML6344TRPBF/IRLML6344TRPBFCT-ND/2538168&quot;&gt;Details&lt;/a&gt;"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="IRLML6344TRPBFCT-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/IRLML6344TRPBF/IRLML6344TRPBFCT-ND/2538168" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
