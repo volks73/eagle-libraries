@@ -211,8 +211,9 @@ For attribution, please provide a link in any documentation or design files to t
 <technology name="A10SEC">
 <attribute name="COLOR" value="Orange" constant="no"/>
 <attribute name="CURRENT-TEST" value="20mA" constant="no"/>
-<attribute name="DATASHEET" value="http://www.kingbrightusa.com/images/catalog/SPEC/WP710A10SGC.pdf" constant="no"/>
 <attribute name="DESCRIPTION" value="3MM ORANGE LED ROUND" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.kingbrightusa.com/images/catalog/SPEC/WP710A10SGC.pdf" constant="no"/>
 <attribute name="HEIGHT" value="4.60mm" constant="no"/>
 <attribute name="LENS_STYLE" value="Round with Domed Top, 3mm, T-1" constant="no"/>
 <attribute name="LENS_TYPE" value="Clear" constant="no"/>
@@ -222,8 +223,12 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="PART_NUMBER" value="WP710A10SEC/J4" constant="no"/>
 <attribute name="SIZE" value="-" constant="no"/>
 <attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-search/en?KeyWords=754-1562-ND&amp;WT.z_header=search_go" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="754-1562-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
+<attribute name="SUPPLIER_URL" value="" constant="no"/>
 <attribute name="VIEWING_ANGLE" value="34" constant="no"/>
 <attribute name="VOLTAGE-FORWARD" value="2.2V" constant="no"/>
 <attribute name="WAVELENGTH-DOMINANT" value="605nm" constant="no"/>
@@ -232,8 +237,9 @@ For attribution, please provide a link in any documentation or design files to t
 <technology name="A10SGC">
 <attribute name="COLOR" value="Green" constant="no"/>
 <attribute name="CURRENT-TEST" value="20mA" constant="no"/>
-<attribute name="DATASHEET" value="http://www.kingbrightusa.com/images/catalog/SPEC/WP710A10SGC.pdf" constant="no"/>
 <attribute name="DESCRIPTION" value="LED GREEN CLEAR 3MM 565NM" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.kingbrightusa.com/images/catalog/SPEC/WP710A10SGC.pdf" constant="no"/>
 <attribute name="HEIGHT" value="4.60mm" constant="no"/>
 <attribute name="LENS_STYLE" value="Round with Domed Top, 3mm, T-1" constant="no"/>
 <attribute name="LENS_TYPE" value="Clear" constant="no"/>
@@ -243,8 +249,12 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="PART_NUMBER" value="WP710A10SGC" constant="no"/>
 <attribute name="SIZE" value="-" constant="no"/>
 <attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-detail/en/WP710A10SGC/754-1591-ND/2769816" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="754-1591-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
+<attribute name="SUPPLIER_URL" value="" constant="no"/>
 <attribute name="VIEWING_ANGLE" value="34" constant="no"/>
 <attribute name="VOLTAGE-FORWARD" value="2.2V" constant="no"/>
 <attribute name="WAVELENGTH-DOMINANT" value="568nm" constant="no"/>
