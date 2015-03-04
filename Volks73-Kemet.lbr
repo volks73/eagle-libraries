@@ -564,10 +564,9 @@ Typical applications include coupling, decoupling, bypass, and fitering.
 <attribute name="APPLICATIONS" value="General Purpose" constant="no"/>
 <attribute name="CAPACITANCE" value="100uF" constant="no"/>
 <attribute name="CATEGORY" value="Capacitors" constant="no"/>
-<attribute name="DATASHEET" value="http://www.kemet.com/Lists/ProductCatalog/Attachments/273/KEM_A4001_EDK.pdf" constant="no"/>
 <attribute name="DESCRIPTION" value="CAP ALUM 100UF 50V 20% SMD" constant="no"/>
 <attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
-<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.kemet.com/Lists/ProductCatalog/Attachments/273/KEM_A4001_EDK.pdf" constant="no"/>
 <attribute name="ESR" value="-" constant="no"/>
 <attribute name="FAMILY" value="Aluminum Capacitors" constant="no"/>
 <attribute name="HEIGHT-SEATED" value="0.413&quot; (10.50mm)" constant="no"/>
@@ -617,10 +616,9 @@ Typical applications include coupling, decoupling, bypass, and fitering.
 <attribute name="APPLICATIONS" value="RF, Microware, High Frequency" constant="no"/>
 <attribute name="CAPACITANCE" value="20pF" constant="no"/>
 <attribute name="CATEGORY" value="Capacitors" constant="no"/>
-<attribute name="DATASHEET" value="http://www.kemet.com/Lists/ProductCatalog/Attachments/490/KEM_C1030_CBR_SMD.pdf" constant="no"/>
 <attribute name="DESCRIPTION" value="CAP CER 20PF 50V 1% NP0 0201" constant="no"/>
 <attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
-<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.kemet.com/Lists/ProductCatalog/Attachments/490/KEM_C1030_CBR_SMD.pdf" constant="no"/>
 <attribute name="FAMILY" value="Ceramic Capacitors" constant="no"/>
 <attribute name="FEATURES" value="High Q, Low Loss" constant="no"/>
 <attribute name="HEIGHT-SEATED" value="-" constant="no"/>
