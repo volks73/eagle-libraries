@@ -142,6 +142,8 @@ It is recommended that the temperature of the part does not exceed 125&lt;sup&gt
 <attribute name="CURRENT_RATING" value="7A" constant="no"/>
 <attribute name="DC_RESISTANCE" value="15.5mOhm Max" constant="no"/>
 <attribute name="DESCRIPTION" value="FIXED IND 4.7UH 7A 15.5 MOHM SMD" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
 <attribute name="FAMILY" value="Fixed Inductors" constant="no"/>
 <attribute name="FREQUENCY-SELF_RESONANAT" value="16MHz" constant="no"/>
 <attribute name="FREQUENCY_TEST" value="100kHz" constant="no"/>
@@ -158,6 +160,12 @@ It is recommended that the temperature of the part does not exceed 125&lt;sup&gt
 <attribute name="SHEILDING" value="Shielded" constant="no"/>
 <attribute name="SIZE" value="0.433&quot; L x 0.394&quot; W (11.00mm x 10.00mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="-" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="" constant="no"/>
+<attribute name="SUPPLIER_URL" value="" constant="no"/>
 <attribute name="TOLERANCE" value="20%" constant="no"/>
 <attribute name="TYPE" value="Wirewound" constant="no"/>
 </technology>
