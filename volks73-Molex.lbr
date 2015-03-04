@@ -528,7 +528,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CONTACT_MATING_LENGTH" value="0.295&quot; (7.49mm)" constant="no"/>
 <attribute name="CONTACT_TYPE" value="Male Pin" constant="no"/>
 <attribute name="DESCRIPTION" value="CONN HEADER 3POS .100 VERT TIN" constant="no"/>
-<attribute name="DOCUMENTATION" value="&lt;a href=&quot;http://www.molex.com/pdm_docs/sd/022272031_sd.pdf&quot;&gt;Drawing&lt;/a&gt;" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.molex.com/pdm_docs/sd/022272031_sd.pdf&quot;&gt;Drawing&lt;/a&gt;" constant="no"/>
 <attribute name="DOCUMENTATION_URL" value="http://www.molex.com/pdm_docs/sd/022272031_sd.pdf" constant="no"/>
 <attribute name="FASTENING_TYPE" value="Friction Lock" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
@@ -586,7 +586,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CONTACT_MATING_LENGTH" value="0.295&quot; (7.49mm)" constant="no"/>
 <attribute name="CONTACT_TYPE" value="Male Pin" constant="no"/>
 <attribute name="DESCRIPTION" value="CONN HEADER 5POS .100 VERT TIN" constant="no"/>
-<attribute name="DOCUMENTATION" value="&lt;a href=&quot;http://www.molex.com/pdm_docs/sd/022272051_sd.pdf&quot;&gt;Drawing&lt;/a&gt;" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.molex.com/pdm_docs/sd/022272051_sd.pdf&quot;&gt;Drawing&lt;/a&gt;" constant="no"/>
 <attribute name="DOCUMENTATION_URL" value="http://www.molex.com/pdm_docs/sd/022272051_sd.pdf" constant="no"/>
 <attribute name="FASTENING_TYPE" value="Friction Lock" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
@@ -637,7 +637,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CONTACT_MATERIAL" value="Copper Alloy" constant="no"/>
 <attribute name="CURRENT_RATING" value="5A, 6A, 9A" constant="no"/>
 <attribute name="DESCRIPTION" value="CONN SSL RCPT 2POS 4MM SOLDER" constant="no"/>
-<attribute name="DOCUMENTATION" value="&lt;a href=&quot;http://www.molex.com/pdm_docs/sd/1041880210_sd.pdf&quot;&gt;Drawing&lt;/a&gt;" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.molex.com/pdm_docs/sd/1041880210_sd.pdf&quot;&gt;Drawing&lt;/a&gt;" constant="no"/>
 <attribute name="DOCUMENTATION_URL" value="http://www.molex.com/pdm_docs/sd/1041880210_sd.pdf" constant="no"/>
 <attribute name="FAMILY" value="Solid State Lighting Connectors" constant="no"/>
 <attribute name="FASTENING_TYPE" value="-" constant="no"/>
@@ -703,7 +703,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CONTACT_MATING_LENGTH" value="0.295&quot; (7.49mm)" constant="no"/>
 <attribute name="CONTACT_TYPE" value="Male Pin" constant="no"/>
 <attribute name="DESCRIPTION" value="CONN HEADER 6POS .100 VERT TIN" constant="no"/>
-<attribute name="DOCUMENTATION" value="&lt;a href=&quot;http://www.molex.com/pdm_docs/sd/022272061_sd.pdf&quot;&gt;Drawing&lt;/a&gt;" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.molex.com/pdm_docs/sd/022272061_sd.pdf&quot;&gt;Drawing&lt;/a&gt;" constant="no"/>
 <attribute name="DOCUMENTATION_URL" value="http://www.molex.com/pdm_docs/sd/022272061_sd.pdf" constant="no"/>
 <attribute name="FASTENING_TYPE" value="Friction Lock" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
@@ -760,7 +760,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CONTACT_MATING_LENGTH" value="0.450&quot; (11.43mm)" constant="no"/>
 <attribute name="CONTACT_TYPE" value="Male Pin" constant="no"/>
 <attribute name="DESCRIPTION" value="156 HDR FRLK RTAN PEG 4CKT TIN" constant="no"/>
-<attribute name="DOCUMENTATION" value="&lt;a href=&quot;http://www.molex.com/pdm_docs/sd/026645040_sd.pdf&quot;&gt;Datasheet&lt;/a&gt;" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.molex.com/pdm_docs/sd/026645040_sd.pdf&quot;&gt;Datasheet&lt;/a&gt;" constant="no"/>
 <attribute name="DOCUMENTATION_URL" value="http://www.molex.com/pdm_docs/sd/026645040_sd.pdf" constant="no"/>
 <attribute name="FAMILY" value="Rectangular Connectors - Headers, Male Pins" constant="no"/>
 <attribute name="FASTENING_TYPE" value="Friction Lock" constant="no"/>
@@ -813,7 +813,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CONTACT_MATING_LENGTH" value="-" constant="no"/>
 <attribute name="CONTACT_TYPE" value="Blade Pin" constant="no"/>
 <attribute name="DESCRIPTION" value="CONN HEADER 2POS 1.25MM R/A SMD" constant="no"/>
-<attribute name="DOCUMENTATION" value="&lt;a href=&quot;http://www.molex.com/pdm_docs/sd/532610271_sd.pdf&quot;&gt;Drawing&lt;/a&gt;" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.molex.com/pdm_docs/sd/532610271_sd.pdf&quot;&gt;Drawing&lt;/a&gt;" constant="no"/>
 <attribute name="DOCUMENTATION_URL" value="http://www.molex.com/pdm_docs/sd/532610271_sd.pdf" constant="no"/>
 <attribute name="FAMILY" value="Rectangular Connectors - Headers, Male Pins" constant="no"/>
 <attribute name="FASTENING_TYPE" value="-" constant="no"/>
@@ -876,9 +876,9 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CONTACT_FINISH_THICKNESS" value="100µin (2.54µm)" constant="no"/>
 <attribute name="CONTACT_MATING_LENGTH" value="0.295&quot; (7.49mm)" constant="no"/>
 <attribute name="CONTACT_TYPE" value="Male Pin" constant="no"/>
-<attribute name="DATASHEET_URL" value="http://www.molex.com/pdm_docs/sd/022272021_sd.pdf" constant="no"/>
 <attribute name="DESCRIPTION" value="CONN HEADER 2POS .100 VERT TIN" constant="no"/>
-<attribute name="DOCUMENTATION" value="&lt;a href=&quot;http://www.molex.com/pdm_docs/sd/022272021_sd.pdf&quot;&gt;Drawing&lt;/a&gt;" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.molex.com/pdm_docs/sd/022272021_sd.pdf&quot;&gt;Drawing&lt;/a&gt;" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.molex.com/pdm_docs/sd/022272021_sd.pdf" constant="no"/>
 <attribute name="FAMILY" value="Rectangular Connectors - Headers, Male Pins" constant="no"/>
 <attribute name="FASTENING_TYPE" value="Friction Lock" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
@@ -893,8 +893,10 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SERIES" value="KK® 6410" constant="no"/>
 <attribute name="SUPPLIER" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Digi-Key&lt;/a&gt;" constant="no"/>
 <attribute name="SUPPLIER_ITEM" value="&lt;a href=&quot;http://www.digikey.com/product-search/en?KeyWords=0022272021&amp;WT.z_header=search_go&quot;&gt;Info&lt;/a&gt;" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="WM4111-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-search/en?KeyWords=0022272021&amp;WT.z_header=search_go" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com" constant="no"/>
 <attribute name="TERMINATION" value="Solder" constant="no"/>
@@ -930,7 +932,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CONTACT_MATING_LENGTH" value="0.450&quot; (11.43mm)" constant="no"/>
 <attribute name="CONTACT_TYPE" value="Male Pin" constant="no"/>
 <attribute name="DESCRIPTION" value="CONN HEADER 2POS .156 VERT TIN" constant="no"/>
-<attribute name="DOCUMENTATION" value="&lt;a href=&quot;http://www.molex.com/pdm_docs/sd/026604020_sd.pdf&quot;&gt;Drawing&lt;/a&gt;" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.molex.com/pdm_docs/sd/026604020_sd.pdf&quot;&gt;Drawing&lt;/a&gt;" constant="no"/>
 <attribute name="DOCUMENTATION_URL" value="http://www.molex.com/pdm_docs/sd/026604020_sd.pdf" constant="no"/>
 <attribute name="FAMILY" value="Rectangular Connectors - Headers, Male Pins" constant="no"/>
 <attribute name="FASTENING_TYPE" value="Friction Lock" constant="no"/>
@@ -987,7 +989,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CONTACT_MATING_LENGTH" value="-" constant="no"/>
 <attribute name="CONTACT_TYPE" value="Blade Pin" constant="no"/>
 <attribute name="DESCRIPTION" value="CONN HEADER 4POS 1.25MM R/A SMD" constant="no"/>
-<attribute name="DOCUMENTATION" value="&lt;a href=&quot;http://www.molex.com/pdm_docs/sd/532610471_sd.pdf&quot;&gt;Drawing&lt;/a&gt;" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.molex.com/pdm_docs/sd/532610471_sd.pdf&quot;&gt;Drawing&lt;/a&gt;" constant="no"/>
 <attribute name="DOCUMENTATION_URL" value="http://www.molex.com/pdm_docs/sd/532610471_sd.pdf" constant="no"/>
 <attribute name="FAMILY" value="Rectangular Connectors - Headers, Male Pins" constant="no"/>
 <attribute name="FASTENING_TYPE" value="-" constant="no"/>
@@ -1046,7 +1048,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CONTACT_MATING_LENGTH" value="-" constant="no"/>
 <attribute name="CONTACT_TYPE" value="Blade Pin" constant="no"/>
 <attribute name="DESCRIPTION" value="CONN HEADER 5POS 1.25MM R/A SMD" constant="no"/>
-<attribute name="DOCUMENTATION" value="&lt;a href=&quot;http://www.molex.com/pdm_docs/sd/532610571_sd.pdf&quot;&gt;Drawing&lt;/a&gt;" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.molex.com/pdm_docs/sd/532610571_sd.pdf&quot;&gt;Drawing&lt;/a&gt;" constant="no"/>
 <attribute name="DOCUMENTATION_URL" value="http://www.molex.com/pdm_docs/sd/532610571_sd.pdf" constant="no"/>
 <attribute name="FAMILY" value="Rectangular Connectors - Headers, Male Pins" constant="no"/>
 <attribute name="FASTENING_TYPE" value="-" constant="no"/>
@@ -1106,7 +1108,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CONTACT_MATING_LENGTH" value="-" constant="no"/>
 <attribute name="CONTACT_TYPE" value="Male Pin" constant="no"/>
 <attribute name="DESCRIPTION" value="MICROFIT 3.0 SR RA SMT GOLD 4CKT" constant="no"/>
-<attribute name="DOCUMENTATION" value="&lt;a href=&quot;http://www.molex.com/pdm_docs/sd/436500414_sd.pdf&quot;&gt;Drawing&lt;/a&gt;" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.molex.com/pdm_docs/sd/436500414_sd.pdf&quot;&gt;Drawing&lt;/a&gt;" constant="no"/>
 <attribute name="DOCUMENTATION_URL" value="http://www.molex.com/pdm_docs/sd/436500414_sd.pdf" constant="no"/>
 <attribute name="FAMILY" value="Rectangular Connectors - Headers, Male Pins" constant="no"/>
 <attribute name="FASTENING_TYPE" value="Locking Ramp" constant="no"/>
@@ -1164,7 +1166,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CONTACT_MATING_LENGTH" value="-" constant="no"/>
 <attribute name="CONTACT_TYPE" value="Blade Pin" constant="no"/>
 <attribute name="DESCRIPTION" value="CONN WIRE TO BOARD RA 4POS" constant="no"/>
-<attribute name="DOCUMENTATION" value="&lt;a href=&quot;http://www.molex.com/pdm_docs/sd/5040500691_sd.pdf&quot;&gt;Drawing&lt;/a&gt;" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.molex.com/pdm_docs/sd/5040500691_sd.pdf&quot;&gt;Drawing&lt;/a&gt;" constant="no"/>
 <attribute name="DOCUMENTATION_URL" value="http://www.molex.com/pdm_docs/sd/5040500691_sd.pdf" constant="no"/>
 <attribute name="FAMILY" value="Rectangular Connectors - Headers, Male Pins" constant="no"/>
 <attribute name="MANUFACTURER" value="Molex Inc" constant="no"/>
