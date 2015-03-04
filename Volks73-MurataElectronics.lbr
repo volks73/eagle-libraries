@@ -128,16 +128,7 @@ For attribution, please provide a link in any documentation or design files to t
 <devicesets>
 <deviceset name="GRM?*" prefix="C" uservalue="yes">
 <description>&lt;h1&gt;Ceramic Capacitor&lt;/h1&gt;
-&lt;h2&gt;Chip Monolithic Ceramic Capacitor for General&lt;/h2&gt;
-&lt;h3&gt;Ordering Information&lt;/h3&gt;
-&lt;table&gt;
-&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;a href="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR61A476ME15-01.pdf"&gt;GRM31CR61A476ME15L&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/GRM31CR61A476ME15L/490-5528-1-ND/2334924"&gt;490-5528-1-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CAP CER 47UF 10V 20% X5R 1206&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;a href="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H103KA88-01.pdf"&gt;GRM155R71H103KA88D&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/GRM155R71H103KA88D/490-4516-1-ND/1033275"&gt;490-4516-1-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CAP CER 10000PF 50V 10% X7R 0402&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;a href="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H222KA01-01.pdf"&gt;GRM155R71H222KA01D&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/GRM155R71H222KA01D/490-1305-1-ND/587945"&gt;490-1305-1-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CAP CER 2200PF 50V 10% X7R 0402&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;a href="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1H200JA01-01.pdf"&gt;GRM1885C1H200JA01D&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/GRM1885C1H200JA01D/490-1410-1-ND/587632"&gt;490-1410-1-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CAP CER 20PF 50V 5% NP0 0603&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;a href="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1H200JA01-01.pdf"&gt;GRM1555C1H180JA01D&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/GRM1555C1H180JA01D/490-5858-1-ND/2854384"&gt;	490-5858-1-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CAP CER 18PF 50V 5% NP0 0402&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;</description>
+&lt;h2&gt;Chip Monolithic Ceramic Capacitor for General&lt;/h2&gt;</description>
 <gates>
 <gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
 </gates>
@@ -152,6 +143,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="APPLICATIONS" value="General Purpose" constant="no"/>
 <attribute name="CAPACITANCE" value="47uF" constant="no"/>
 <attribute name="DESCRIPTION" value="CAP CER 47UF 10V 20% X5R 1206" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://search.murata.co.jp/Ceramy/image/img/A01X/partnumbering_e_01.pdf" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="HEIGHT-SEATED" value="-" constant="no"/>
 <attribute name="LEAD_SPACING" value="-" constant="no"/>
@@ -164,6 +157,9 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="RATINGS" value="-" constant="no"/>
 <attribute name="SERIES" value="GRM" constant="no"/>
 <attribute name="SIZE" value="0.126&quot; L x 0.063&quot; W (3.20mm x 1.60mm)" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="490-5528-1-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/GRM31CR61A476ME15L/490-5528-1-ND/2334924" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
@@ -185,7 +181,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CAPACITANCE" value="18pF" constant="no"/>
 <attribute name="DESCRIPTION" value="CAP CER 18PF 50V 5% NP0 0402" constant="no"/>
 <attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
-<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H103KA88-01.pdf"/>
 <attribute name="FAMILY" value="Ceramic Capacitors" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="HEIGHT-SEATED" value="-" constant="no"/>
@@ -200,8 +196,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SERIES" value="GRM" constant="no"/>
 <attribute name="SIZE" value="0.039&quot; L x 0.020&quot; W (1.00mm x 0.50mm)" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="490-1410-1-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/GRM1885C1H200JA01D/490-1410-1-ND/587632" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
@@ -215,7 +211,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CAPACITANCE" value="0.01uF" constant="no"/>
 <attribute name="DESCRIPTION" value="CAP CER 10000PF 50V 10% X7R 0402" constant="no"/>
 <attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
-<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H103KA88-01.pdf"/>
 <attribute name="FAMILY" value="Ceramic Capacitors" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="HEIGHT-SEATED" value="-" constant="no"/>
@@ -230,8 +226,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SERIES" value="GRM" constant="no"/>
 <attribute name="SIZE" value="0.039&quot; L x 0.020&quot; W (1.00mm x 0.50mm)" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="490-4516-1-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/GRM155R71H103KA88D/490-4516-1-ND/1033275"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
@@ -245,7 +241,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CAPACITANCE" value="2200pF" constant="no"/>
 <attribute name="DESCRIPTION" value="CAP CER 2200PF 50V 10% X7R 0402" constant="no"/>
 <attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
-<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H103KA88-01.pdf"/>
 <attribute name="FAMILY" value="Ceramic Capacitors" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="HEIGHT-SEATED" value="-" constant="no"/>
@@ -260,8 +256,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SERIES" value="GRM" constant="no"/>
 <attribute name="SIZE" value="0.039&quot; L x 0.020&quot; W (1.00mm x 0.50mm)" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="490-1305-1-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/GRM155R71H222KA01D/490-1305-1-ND/587945"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
@@ -283,6 +279,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CAPACITANCE" value="20pF" constant="no"/>
 <attribute name="CATEGORY" value="Capacitors" constant="no"/>
 <attribute name="DESCRIPTION" value="CAP CER 20PF 50V 5% NP0 0603" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://search.murata.co.jp/Ceramy/image/img/A01X/partnumbering_e_01.pdf" constant="no"/>
 <attribute name="FAMILY" value="Ceramic Capacitors" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="HEIGHT-SEATED" value="-" constant="no"/>
@@ -297,6 +295,9 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SERIES" value="GRM" constant="no"/>
 <attribute name="SIZE" value="0.063&quot; L x 0.031&quot; W (1.60mm x 0.80mm)" constant="no"/>
 <attribute name="STANDARD_PACKAGE" value="1" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="490-1410-1-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/GRM1885C1H200JA01D/490-1410-1-ND/587632" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>

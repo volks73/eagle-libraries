@@ -188,11 +188,6 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://nichicon-us.com/english/products/pdfs/e-he.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Ordering Information&lt;/h3&gt;
-&lt;table&gt;
-&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;UHE1H101MPD&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/UHE1H101MPD/493-1605-ND/589346"&gt;493-1605-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CAP ALUM 100UF 50V 20% RADIAL&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Low impedance and high reliability withstanding 4000 hours to 100000 hours&lt;/li&gt;
@@ -213,7 +208,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CAPACITANCE" value="100uF" constant="no"/>
 <attribute name="DESCRIPTION" value="CAP ALUM 100UF 50V 20% RADIAL" constant="no"/>
 <attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
-<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://nichicon-us.com/english/products/pdfs/e-he.pdf"/>
 <attribute name="ESR" value="-" constant="no"/>
 <attribute name="FAMILY" value="Aluminum Capacitors" constant="no"/>
 <attribute name="HEIGHT-SEATED" value="0.453&quot; (11.50mm)" constant="no"/>
@@ -229,8 +224,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SERIES" value="HE" constant="no"/>
 <attribute name="SIZE" value="0.315&quot; Dia (8.00mm)" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="493-1605-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/UHE1H101MPD/493-1605-ND/589346" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
@@ -250,11 +245,6 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://nichicon-us.com/english/products/pdfs/e-wx.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Ordering Information&lt;/h3&gt;
-&lt;table&gt;
-&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;UWX1E101MCL1GB&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/UWX1E101MCL1GB/493-2113-1-ND/590088"&gt;493-2113-1-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CAP ALUM 100UF 25V 20% SMD&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Chip type with 5.5mm height&lt;/li&gt;
@@ -279,7 +269,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CATEGORY" value="Capacitors" constant="no"/>
 <attribute name="DESCRIPTION" value="CAP ALUM 100UF 25V 20% SMD" constant="no"/>
 <attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
-<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.nichicon.co.jp/english/products/pdfs/e-ch_ta.pdf"/>
 <attribute name="ESR" value="-" constant="no"/>
 <attribute name="FAMILY" value="Aluminum Capacitors" constant="no"/>
 <attribute name="HEIGHT-SEATED" value="0.213&quot; (5.40mm)" constant="no"/>
@@ -294,8 +284,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SERIES" value="WX" constant="no"/>
 <attribute name="SIZE-DIMENSION" value="0.315&quot; Dia (8.00mm)" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="493-2113-1-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/UWX1E101MCL1GB/493-2113-1-ND/590088" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>

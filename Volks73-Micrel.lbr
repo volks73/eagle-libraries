@@ -177,7 +177,7 @@ The MIC2920 is available in several configurations. The MIC2920A-x.x devices are
 <attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-detail/en/MIC2920A-5.0WS%20TR/576-1117-1-ND/771850" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="576-1117-1-ND" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/MIC2920A-5.0WS%20TR/576-1117-1-ND/771850" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>

@@ -184,13 +184,6 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://www.vishay.com/docs/30260/hvr2537.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Ordering Information&lt;/h3&gt;
-&lt;table&gt;
-&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;HVR3700001504FR500&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/HVR3700001504FR500/PPCHF1.50MCT-ND/719997"&gt;PPCHF1.50MCT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES 1.5M OHM 1/2W 1% AXIAL&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;HVR2500001303FR500&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/HVR2500001303FR500/PPCQF130KCT-ND/719762"&gt;PPCQF130KCT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES 130K OHM 1/4W 1% AXIAL&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;HVR2500001693FR500&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/HVR2500001693FR500/PPCQF169KCT-ND/719774"&gt;PPCQF169KCT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES 169K OHM 1/4W 1% AXIAL&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
 &lt;h3&gt;General Description&lt;/h3&gt;
 &lt;p&gt;
 A homogenous film of metal alloy is deposited on a high grade ceramic body. After a helical groove has been cut in the resistive layer, tinned electrolytic copper wires are welded to the end-caps. The resistors are coated with a blue, non-flammable lacquer, which provides electrical, mechanical, and climatic protection.
@@ -239,8 +232,8 @@ A homogenous film of metal alloy is deposited on a high grade ceramic body. Afte
 <attribute name="SIZE" value="0.098&quot; Dia x 0.256&quot; L (2.50mm x 6.50mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="Axial" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="PPCQF130KCT-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/HVR2500001303FR500/PPCQF130KCT-ND/719762" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
@@ -267,8 +260,8 @@ A homogenous film of metal alloy is deposited on a high grade ceramic body. Afte
 <attribute name="SIZE" value="0.098&quot; Dia x 0.256&quot; L (2.50mm x 6.50mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="Axial" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="PPCQF169KCT-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/HVR2500001693FR500/PPCQF169KCT-ND/719774" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
@@ -303,8 +296,8 @@ A homogenous film of metal alloy is deposited on a high grade ceramic body. Afte
 <attribute name="SIZE" value="0.157&quot; Dia x 0.394&quot; L (4.00mm x 10.00mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="Axial" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="PPCHF1.50MCT-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/HVR3700001504FR500/PPCHF1.50MCT-ND/719997" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>

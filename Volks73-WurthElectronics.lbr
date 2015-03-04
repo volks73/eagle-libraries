@@ -111,11 +111,10 @@ For attribution, please provide a link in any documentation or design files to t
 <deviceset name="744373?*" prefix="L" uservalue="yes">
 <description>&lt;h1&gt;Power Inductor&lt;/h1&gt;
 &lt;h2&gt;Surface Mount Device Power Inductor&lt;/h2&gt;
-&lt;h3&gt;Ordering Information&lt;/h3&gt;
-&lt;table&gt;
-&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;a href="http://katalog.we-online.de/pbs/datasheet/74437368047.pd"&gt;74437368047&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/74437368047/732-3389-1-ND/2791133"&gt;732-3389-1-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;FIXED IND 4.7UH 7A 15.5 MOHM SMD&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://katalog.we-online.de/pbs/datasheet/74437368047.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;General Description&lt;/h3&gt;
 &lt;p&gt;
 It is recommended that the temperature of the part does not exceed 125&lt;sup&gt;o&lt;/sup&gt;C under worst case operating conditions.
@@ -143,7 +142,7 @@ It is recommended that the temperature of the part does not exceed 125&lt;sup&gt
 <attribute name="DC_RESISTANCE" value="15.5mOhm Max" constant="no"/>
 <attribute name="DESCRIPTION" value="FIXED IND 4.7UH 7A 15.5 MOHM SMD" constant="no"/>
 <attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
-<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://katalog.we-online.de/pbs/datasheet/74437368047.pdf" constant="no"/>
 <attribute name="FAMILY" value="Fixed Inductors" constant="no"/>
 <attribute name="FREQUENCY-SELF_RESONANAT" value="16MHz" constant="no"/>
 <attribute name="FREQUENCY_TEST" value="100kHz" constant="no"/>
@@ -161,8 +160,8 @@ It is recommended that the temperature of the part does not exceed 125&lt;sup&gt
 <attribute name="SIZE" value="0.433&quot; L x 0.394&quot; W (11.00mm x 10.00mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="-" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="732-3389-1-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/74437368047/732-3389-1-ND/2791133" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>

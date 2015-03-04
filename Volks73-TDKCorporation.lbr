@@ -135,13 +135,6 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://product.tdk.com/capacitor/leadmlcc/en/documents/leadmlcc_commercial_general_en.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Ordering Information&lt;/h3&gt;
-&lt;table&gt;
-&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;FK18X7R1E10K&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/FK18X7R1E104K/445-8421-ND/2815351"&gt;445-8421-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CAP CER 0.1UF 25V 10% RADIAL&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;FK18X7R1E105K&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/FK18X7R1E105K/445-8422-ND/2815352"&gt;445-8422-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CAP CER 1UF 25V 10% RADIAL&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;FK16XYR1E106K&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/FK16X7R1E106K/445-8351-ND/2815281"&gt;445-8351-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CAP CER 10UF 25V 10% RADIAL&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;High capacitance has been achieved through improvements in the thinning process of ceramic dielectric layers and multi-layer lamination technology.
@@ -177,6 +170,9 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="PART_NUMBER" value="FK18X7R1E104K" constant="no"/>
 <attribute name="RATINGS" value="-" constant="no"/>
 <attribute name="SIZE" value="0.157&quot; L x 0.098&quot; W (4.00mm x 2.50mm)" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="445-8421-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-search/en?KeyWords=FK18X7R1E104K&amp;WT.z_header=search_go" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
@@ -203,6 +199,9 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="PART_NUMBER" value="FK18X7R1E105K" constant="no"/>
 <attribute name="RATINGS" value="-" constant="no"/>
 <attribute name="SIZE" value="0.157&quot; L x 0.098&quot; W (4.00mm x 2.50mm)" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="445-8422-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-search/en?KeyWords=FK18X7R1E105K&amp;WT.z_header=search_go" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
@@ -240,8 +239,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SERIES" value="FK" constant="no"/>
 <attribute name="SIZE" value="0.217&quot; L x 0.138&quot; W (5.50mm x 3.50mm)" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="445-8351-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-search/en?KeyWords=FK16X7R1E106K&amp;WT.z_header=search_go" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>

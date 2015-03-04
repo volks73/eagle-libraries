@@ -144,11 +144,6 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://www.vishay.com/docs/67907/si4214ddy-t1-e3.pdff"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Ordering Information&lt;/h3&gt;
-&lt;table&gt;
-&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;SI4214DDY-T1-GE3&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/SI4214DDY-T1-GE3/SI4214DDY-T1-GE3CT-ND/3305376"&gt;SI4214DDY-T1-GE3CT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;MOSFET 2N-CH 30V 8.5A 8-SOIC&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;TrenchFET&lt;sup&gt;&amp;reg;&lt;/sup&gt; Power MOSFET&lt;/li&gt;
@@ -195,8 +190,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="RDS_ON" value="19.5 mOhm @ 8A, 10V" constant="no"/>
 <attribute name="SERIES" value="TrenchFET" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="SI4214DDY-T1-GE3CT-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/SI4214DDY-T1-GE3/SI4214DDY-T1-GE3CT-ND/3305376" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>

@@ -190,11 +190,6 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Ordering Information&lt;/h3&gt;
-&lt;table&gt;
-&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;LG R971-KN-1&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/LG%20R971-KN-1/475-1410-1-ND/1802598"&gt;475-1410-1-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;LED CHIPLED 570NM GREEN 0805 SMD&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Package: SMT package 0805, colorless diffused resin, 2mm x 1.25mm x 0.8mm&lt;/li&gt;
@@ -226,7 +221,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CURRENT-TEST" value="20mA" constant="no"/>
 <attribute name="DESCRIPTION" value="LED CHIPLED 570NM GREEN 0805 SMD" constant="no"/>
 <attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
-<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" constant="no"/>
 <attribute name="FAMILY" value="LED indications - Discrete" constant="no"/>
 <attribute name="HEIGHT" value="0.80mm" constant="no"/>
 <attribute name="LENS_STYLE" value="Rectangle with Flat Top, 1.3mm x 1.25mm" constant="no"/>
@@ -240,8 +235,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SERIES" value="CHIPLED" constant="no"/>
 <attribute name="SIZE" value="2.00mm L x 1.25mm W" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="475-1410-1-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/LG%20R971-KN-1/475-1410-1-ND/1802598" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
@@ -260,11 +255,6 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Ordering Information&lt;/h3&gt;
-&lt;table&gt;
-&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;LY R976-PS-36&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/LY%20R976-PS-36/475-2560-1-ND/1802687"&gt;475-2560-1-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;LED CHIPLED 588NM YLW 0805 SMD&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Package: SMT package 0805, colorless diffused resin, 2mm x 1.25mm x 0.8mm&lt;/li&gt;
@@ -296,7 +286,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CURRENT-TEST" value="20mA" constant="no"/>
 <attribute name="DESCRIPTION" value="LED CHIPLED 588NM YLW 0805 SMD" constant="no"/>
 <attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
-<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.osram-os.com/Graphics/XPic9/00078941_0.pdf" constant="no"/>
 <attribute name="FAMILY" value="LED Indication - Discrete" constant="no"/>
 <attribute name="HEIGHT" value="0.80mm" constant="no"/>
 <attribute name="LENS_STYLE" value="Rectangle with Flat Top, 1.3mm x 1.25mm" constant="no"/>
@@ -309,8 +299,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="PART_NUMBER" value="LY R976-PS-36" constant="no"/>
 <attribute name="SERIES" value="CHIPLED" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="475-2560-1-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/LY%20R976-PS-36/475-2560-1-ND/1802687" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>

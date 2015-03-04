@@ -158,11 +158,6 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://www.nxp.com/documents/data_sheet/P82B715.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Ordering Information&lt;/h3&gt;
-&lt;table&gt;
-&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;P82B715TD&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/P82B715TD,118/568-1007-2-ND/735621"&gt;568-1007-2-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;IC I2C BUS EXTENDER 8-SOIC&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
 &lt;h3&gt;General Description&lt;/h3&gt;
 &lt;p&gt;
 The P82B715 is a bipolar IC intended for application in I2C-bus and derivative bus
@@ -244,7 +239,7 @@ P82B96/PCA9600 and choose the type of device that is best for their application.
 <attribute name="DELAY_TIME" value="-" constant="no"/>
 <attribute name="DESCRIPTION" value="IC REDRIVER I2C 1CH 400KHZ 8SO" constant="no"/>
 <attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
-<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.nxp.com/documents/data_sheet/P82B715.pdf" constant="no"/>
 <attribute name="INPUT" value="2-Wire Buse" constant="no"/>
 <attribute name="MANUFACTURER" value="NXP Semiconductors" constant="no"/>
 <attribute name="NUMBER_OF_CHANNELS" value="1" constant="no"/>
@@ -253,8 +248,8 @@ P82B96/PCA9600 and choose the type of device that is best for their application.
 <attribute name="PART_NUMBER" value="P82B715TD,118" constant="no"/>
 <attribute name="SIGNAL_CONDITIONING" value="-" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="568-1007-2-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/P82B715TD,118/568-1007-2-ND/735621" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
@@ -272,11 +267,6 @@ P82B96/PCA9600 and choose the type of device that is best for their application.
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://www.nxp.com/documents/data_sheet/PRTR5V0U2X.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Ordering Information&lt;/h3&gt;
-&lt;table&gt;
-&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;PRTR5V0U2X&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/PRTR5V0U2X,215/568-4140-1-ND/1589981"&gt;568-4140-1-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;TVS DIODE 5.5VWM SOT143B&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
 &lt;h3&gt;General Description&lt;/h3&gt;
 &lt;p&gt;
 Ultra low capacitance rail-to-rail ElectroStatic Discharge (ESD) protection diode in a small SOT143B Surface-Mounted Device (SMD) plastic package designed to protect two Hi-Speed data lines or high-frequency signal lines from the damage caused by ESD and other transients.
@@ -324,7 +314,7 @@ PRTR5V0U2X incorporates two pairs of ultra low capacitance rail-to-rail diodes a
 <attribute name="CURRENT_PEAK_PULSE" value="-" constant="no"/>
 <attribute name="DESCRIPTION" value="TVS DIODE 5.5VWM SOT143B" constant="no"/>
 <attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
-<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.nxp.com/documents/data_sheet/PRTR5V0U2X.pdf" constant="no"/>
 <attribute name="MANUFACTURER" value="NXP Semiconductors" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Surface Mount" constant="no"/>
 <attribute name="OPERATING_TEMPERATURE" value="-40C ~ 85C" constant="no"/>
@@ -332,8 +322,8 @@ PRTR5V0U2X incorporates two pairs of ultra low capacitance rail-to-rail diodes a
 <attribute name="POWER-PEAK_PULSE" value="-" constant="no"/>
 <attribute name="POWER_LINE_PROTECTION" value="Yes" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="568-4140-1-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/PRTR5V0U2X,215/568-4140-1-ND/1589981" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>

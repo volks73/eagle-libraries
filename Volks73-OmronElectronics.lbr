@@ -181,11 +181,6 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://www.components.omron.com/components/web/PDFLIB.nsf/0/6EBABFA27C77F9908625730F0055AD35/$file/A6T_1110.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Ordering Information&lt;/h3&gt;
-&lt;table&gt;
-&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;A6T-1104&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/A6T-1104/SW1231-ND/368233"&gt;SW1231-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;SWITCH AUTODIP 1POS TOP ACT 24V&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
 &lt;h3&gt;General Description&lt;/h3&gt;
 &lt;p&gt;
 DIP switch with through hole terminals in a wide assortment of pole configurations
@@ -215,7 +210,7 @@ DIP switch with through hole terminals in a wide assortment of pole configuratio
 <attribute name="CONTACT_RATING" value="0.025A @ 24VDC" constant="no"/>
 <attribute name="DESCRIPTION" value="SWITCH AUTODIP 1POS TOP ACT 24V" constant="no"/>
 <attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
-<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="https://www.components.omron.com/components/web/PDFLIB.nsf/0/6EBABFA27C77F9908625730F0055AD35/$file/A6T_1110.pdf" constant="no"/>
 <attribute name="FAMILY" value="DIP Switches" constant="no"/>
 <attribute name="MANUFACTURER" value="Omron Electronics Inc-EMC Div" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
@@ -224,8 +219,8 @@ DIP switch with through hole terminals in a wide assortment of pole configuratio
 <attribute name="PART_NUMBER" value="A6T-1104" constant="no"/>
 <attribute name="SERIES" value="A6T" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="SW1231-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/A6T-1104/SW1231-ND/368233" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>

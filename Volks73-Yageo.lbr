@@ -184,19 +184,6 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://www.yageo.com/documents/recent/Yageo%20LR_CFR_2013.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Ordering Information&lt;/h3&gt;
-&lt;table&gt;
-&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;CFR-25JB-52-510R&lt;/td&gt;&lt;td&gt;&lt;a href="http:A//www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/CFR-25JB-52-510R/510QBK-ND/2306"&gt;510QBK-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES 510 OHM 1/4W 5% AXIAL&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;CFR-25JB-52-4K7&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/CFR-25JB-52-4K7/4.7KQBK-ND/1846"&gt;4.7KQBK-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES 4.7K OHM 1/4W 5% AXIAL&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;CFR-25JB-52-10K&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/CFR-25JB-52-10K/10KQBK-ND/338"&gt;10KQBK-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES 10K OHM 1/4W 5% AXIAL&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;CFR-25JB-52-240R&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/CFR-25JB-52-240R/240QBK-ND/1342"&gt;240QBK-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES 240 OHM 1/4W 5% AXIAL&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;CFR-25JB-52-270R&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/CFR-25JB-52-270R/270QBK-ND/1386"&gt;270QBK-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES 270 OHM 1/4W 5% AXIAL&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;CFR-25JB-52-470R&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/CFR-25JB-52-470R/470QBK-ND/2211"&gt;470QBK-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES 470 OHM 1/4W 5% AXIAL&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;CFR-25JB-52-820R&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/CFR-25JB-52-820R/820QBK-ND/3584"&gt;820QBK-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES 820 OHM 1/4W 5% AXIAL&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;CFR-25JB-52-510K&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/CFR-25JB-52-510K/510KQBK-ND/2305"&gt;510KQBK-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES 510K OHM 1/4W 5% AXIAL&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;CFR-50JB-52-2K4&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-search/en?pv1=1033&amp;FV=fff40001%2Cfff80482%2Cfffc000d%2Cfffc0038%2C80005%2C80084%2Cc0002%2C1c0002%2C1c0003&amp;mnonly=0&amp;newproducts=0&amp;ColumnSort=0&amp;page=1&amp;quantity=0&amp;ptm=0&amp;fid=0&amp;pageSize=50"&gt;2.4KH-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES 2.4K OHM 1/2W 5% AXIAL&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
 &lt;h3&gt;General Description&lt;/h3&gt;
 &lt;p&gt;
 The CFR Series Carbon Film Resistors are manufactured by coating a homogeneous film of pure carbon on high grade ceramic rods. After a helical groove has been cut in the resistive layer, tinned connecting leads of electrolytic copper are welded to the end-caps. The resistors are coated with layers of tan color lacquer.
@@ -229,8 +216,8 @@ The CFR Series Carbon Film Resistors are manufactured by coating a homogeneous f
 <attribute name="SERIES" value="CFR" constant="no"/>
 <attribute name="SIZE" value="0.094&quot; Dia x 0.248&quot; L (2.40mm x 6.30mm)" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="10KQBK-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/CFR-25JB-52-10K/10KQBK-ND/338" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
@@ -255,8 +242,8 @@ The CFR Series Carbon Film Resistors are manufactured by coating a homogeneous f
 <attribute name="SERIES" value="CFR" constant="no"/>
 <attribute name="SIZE" value="0.094&quot; Dia x 0.248&quot; L (2.40mm x 6.30mm)" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="240QBK-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/CFR-25JB-52-240R/240QBK-ND/1342" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
@@ -281,8 +268,8 @@ The CFR Series Carbon Film Resistors are manufactured by coating a homogeneous f
 <attribute name="SERIES" value="CFR" constant="no"/>
 <attribute name="SIZE" value="0.094&quot; Dia x 0.248&quot; L (2.40mm x 6.30mm)" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="270QBK-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/CFR-25JB-52-270R/270QBK-ND/1386" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
@@ -307,8 +294,8 @@ The CFR Series Carbon Film Resistors are manufactured by coating a homogeneous f
 <attribute name="SERIES" value="CFR" constant="no"/>
 <attribute name="SIZE" value="0.094&quot; Dia x 0.248&quot; L (2.40mm x 6.30mm)" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="470QBK-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/CFR-25JB-52-470R/470QBK-ND/2211" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
@@ -333,8 +320,8 @@ The CFR Series Carbon Film Resistors are manufactured by coating a homogeneous f
 <attribute name="SERIES" value="CFR" constant="no"/>
 <attribute name="SIZE" value="0.094&quot; Dia x 0.248&quot; L (2.40mm x 6.30mm)" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="4.7KQBK-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/CFR-25JB-52-4K7/4.7KQBK-ND/1846" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
@@ -359,8 +346,8 @@ The CFR Series Carbon Film Resistors are manufactured by coating a homogeneous f
 <attribute name="SERIES" value="CFR" constant="no"/>
 <attribute name="SIZE" value="0.094&quot; Dia x 0.248&quot; L (2.40mm x 6.30mm)" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="510KQBK-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/CFR-25JB-52-510K/510KQBK-ND/2305" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
@@ -385,8 +372,8 @@ The CFR Series Carbon Film Resistors are manufactured by coating a homogeneous f
 <attribute name="SERIES" value="CFR" constant="no"/>
 <attribute name="SIZE" value="0.094&quot; Dia x 0.248&quot; L (2.40mm x 6.30mm)" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="510QBK-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/CFR-25JB-52-510R/510QBK-ND/2306" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
@@ -411,8 +398,8 @@ The CFR Series Carbon Film Resistors are manufactured by coating a homogeneous f
 <attribute name="SERIES" value="CFR" constant="no"/>
 <attribute name="SIZE" value="0.094&quot; Dia x 0.248&quot; L (2.40mm x 6.30mm)" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="820QBK-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/CFR-25JB-52-820R/820QBK-ND/3584" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
@@ -432,7 +419,7 @@ The CFR Series Carbon Film Resistors are manufactured by coating a homogeneous f
 <attribute name="COMPOSITION" value="Carbon Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES 2.4K OHM 1/2W 5% AXIAL" constant="no"/>
 <attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
-<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.yageo.com/documents/recent/Yageo%20LR_CFR_2013.pdf" constant="no"/>
 <attribute name="FAMILY" value="Through Hole Resistors" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="HEIGHT" value="-" constant="no"/>
@@ -447,8 +434,8 @@ The CFR Series Carbon Film Resistors are manufactured by coating a homogeneous f
 <attribute name="SIZE" value="0.130&quot; Dia x 0.354&quot; L (3.30mm x 9.00mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="Axial" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="2.4KH-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-search/en?KeyWords=CFR-50JB-52-2K4&amp;WT.z_header=search_go" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>

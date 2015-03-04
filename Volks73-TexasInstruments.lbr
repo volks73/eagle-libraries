@@ -287,11 +287,6 @@ Package contains a relatively large pad on the bottom that should be soldered di
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://www.ti.com/lit/ds/symlink/lm317m.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Ordering Information&lt;/h3&gt;
-&lt;table&gt;
-&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;LM317MDCYR&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/LM317MDCYR/296-12631-1-ND/454186"&gt;296-12631-1-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;IC REG LDO ADJ 0.5A SOT223&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Output Voltage Range Adjustable from 1.25-V to 37-V&lt;/li&gt;
@@ -333,8 +328,8 @@ Package contains a relatively large pad on the bottom that should be soldered di
 <attribute name="PART_NUMBER" value="LM317MDCYR" constant="no"/>
 <attribute name="REGULATOR_TOPOLOGY" value="Positive Adjustable" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="296-12631-1-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/LM317MDCYR/296-12631-1-ND/454186" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
@@ -353,11 +348,6 @@ Package contains a relatively large pad on the bottom that should be soldered di
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://www.ti.com/lit/ds/symlink/tps54531.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Ordering Information&lt;/h3&gt;
-&lt;table&gt;
-&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;TPS54531DDA&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/TPS54531DDA/296-36206-5-ND/4172337"&gt;296-36206-5-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;IC REG BUCK ADJ 5A 8SOPWRPAD&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
 &lt;h3&gt;Description&lt;/h3&gt;
 The TPS54531 device is a 28-V, 5-A non-synchronous buck converter that integrates a low R&lt;sub&gt;DS(on)&lt;/sub&gt; high-side MOSFET. To increase efficiency at light loads, a pulse skipping Eco-mode feature is automatically activated. Furthermore, the 1-uA shutdown supply current allows the device to be used in battery powered applications. Current mode control with internal slope compensation simplifies the external compensation calculations and reduces component count while allowing the use of ceramic output capacitors. A resistor divider programs the hysteresis of the input under-voltage lockout. An overvoltage transient protection circuit limits voltage overshoots during startup and transient conditions. A cycle-by-cycle current-limit scheme, frequency fold back, and thermal shutdown protect the device and the load in the event of an overload condition. The TPS54531 device is available in 8-pin SO PowerPAD&amp;trade; package that has been internally optimized to improve thermal performance.
 &lt;h3&gt;Features&lt;/h3&gt;
@@ -414,8 +404,8 @@ The TPS54531 device is a 28-V, 5-A non-synchronous buck converter that integrate
 <attribute name="SERIES" value="SWIFT, Eco-Mode" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="8-SO PowerPad" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="296-36206-5-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/TPS54531DDA/296-36206-5-ND/4172337" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
@@ -435,11 +425,6 @@ The TPS54531 device is a 28-V, 5-A non-synchronous buck converter that integrate
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://www.ti.com/lit/ds/symlink/tps54332.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Ordering Information&lt;/h3&gt;
-&lt;table&gt;
-&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;TPS54332DDA&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/TPS54332DDA/296-24141-5-ND/2000741"&gt;296-24141-5-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;IC REG BUCK ADJ 3.5A 8SOPWRPAD&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
 &lt;h3&gt;Description&lt;/h3&gt;
 The TPS54531 device is a 28-V, 5-A non-synchronous buck converter that integrates a low R&lt;sub&gt;DS(on)&lt;/sub&gt; high-side MOSFET. To increase efficiency at light loads, a pulse skipping Eco-mode feature is automatically activated. Furthermore, the 1-uA shutdown supply current allows the device to be used in battery powered applications. Current mode control with internal slope compensation simplifies the external compensation calculations and reduces component count while allowing the use of ceramic output capacitors. A resistor divider programs the hysteresis of the input under-voltage lockout. An overvoltage transient protection circuit limits voltage overshoots during startup and transient conditions. A cycle-by-cycle current-limit scheme, frequency fold back, and thermal shutdown protect the device and the load in the event of an overload condition. The TPS54531 device is available in 8-pin SO PowerPAD&amp;trade; package that has been internally optimized to improve thermal performance.
 &lt;h3&gt;Features&lt;/h3&gt;
@@ -497,8 +482,8 @@ The TPS54531 device is a 28-V, 5-A non-synchronous buck converter that integrate
 <attribute name="SERIES" value="Eco-Mode" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="8-SO PowerPad" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="296-24141-5-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/TPS54332DDA/296-24141-5-ND/2000741" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
@@ -518,11 +503,6 @@ The TPS54531 device is a 28-V, 5-A non-synchronous buck converter that integrate
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://www.ti.com/lit/ds/symlink/tps54331.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Ordering Information&lt;/h3&gt;
-&lt;table&gt;
-&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;TPS54331DR&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/TPS54331DR/296-26991-1-ND/2255284"&gt;296-26991-1-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;IC REG BUCK ADJ 3A 8SOIC&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
 &lt;h3&gt;Description&lt;/h3&gt;
 The TPS54331 device is a 28-V, 3-A non-synchronous buck converter that integrates a low R&lt;sub&gt;DS(on)&lt;/sub&gt; high-side MOSFET. To increase efficiency at light loads, a pulse skipping Eco-mode feature is automatically activated. Furthermore, the 1-uA shutdown supply current allows the device to be used in battery powered applications. Current mode control with internal slope compensation simplifies the external compensation calculations and reduces component count while allowing the use of ceramic output capacitors. A resistor divider programs the hysteresis of the input under-voltage lockout. An overvoltage transient protection circuit limits voltage overshoots during startup and transient conditions. A cycle-by-cycle current-limit scheme, frequency fold back, and thermal shutdown protect the device and the load in the event of an overload condition. The TPS54331 device is available in 8-pin SOIC package and 8-pin SO PowerPAD package that has been internally optimized to improve thermal performance.
 &lt;h3&gt;Features&lt;/h3&gt;
@@ -580,8 +560,8 @@ The TPS54331 device is a 28-V, 3-A non-synchronous buck converter that integrate
 <attribute name="SEIRES" value="Swift, Eco-Mode" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="8-SOIC" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="296-26991-1-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/TPS54331DR/296-26991-1-ND/2255284" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
@@ -601,11 +581,6 @@ The TPS54331 device is a 28-V, 3-A non-synchronous buck converter that integrate
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://www.ti.com/lit/ds/symlink/opa2171.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Ordering Information&lt;/h3&gt;
-&lt;table&gt;
-&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;OPA2171AIDR&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/OPA2171AIDR/296-29091-1-ND/2688394"&gt;296-29091-1-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;IC OPAMP GP 3MHZ RRO 8SOIC&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Supply Range: +2.7V to +36V, ±1.35V to ±18V&lt;/li&gt;
@@ -692,8 +667,8 @@ The OPAx171 series of op amps are specified from -40&lt;sup&gt;o&lt;/sup&gt;C to
 <attribute name="SERIES" value="-" constant="no"/>
 <attribute name="SLEW_RATE" value="1.5 V/µs" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="296-29091-1-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/OPA2171AIDR/296-29091-1-ND/2688394" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>

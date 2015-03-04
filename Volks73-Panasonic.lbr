@@ -259,12 +259,7 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;h3&gt;Documentation&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://www.semicon.panasonic.co.jp/ds4/LN28RPX_E.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Ordering Information&lt;/h3&gt;
-&lt;table&gt;
-&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;LN28RPX&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/LN28RPX/P563-ND/410780"&gt;P563-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;LED RED DIFFUSED 3MM ROUND&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;</description>
+&lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="LED" x="0" y="0"/>
 </gates>
@@ -279,6 +274,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="COLOR" value="Red" constant="no"/>
 <attribute name="CURRENT-TEST" value="20mA" constant="no"/>
 <attribute name="DESCRIPTION" value="LED RED DIFFUSED 3MM ROUND" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://industrial.panasonic.com/ww/www-cgi/jvcr13pz.cgi?E_SC_4_ATA7001_LN28RPX_8_WW=" constant="no"/>
 <attribute name="HEIGHT" value="5.70nm" constant="no"/>
 <attribute name="LENS_STYLE" value="Round with Domed Top, 3mm, T-1" constant="no"/>
 <attribute name="LENS_TYPE" value="-" constant="no"/>
@@ -289,6 +286,9 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="PACKAGE" value="Radial" constant="no"/>
 <attribute name="PART_NUMBER" value="LN28RPX" constant="no"/>
 <attribute name="SIZE" value="-" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="P563-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/LN28RPX/P563-ND/410780" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
@@ -308,32 +308,6 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://industrial.panasonic.com/www-data/pdf/AOA0000/AOA0000CE2.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Ordering Information&lt;/h3&gt;
-&lt;table&gt;
-&lt;tr&gt;&lt;th&gt;Part Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;ERJ3EKF1022V&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-3EKF1022V/P10.2KHCT-ND/198104"&gt;10.2KHCT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 10.2K OHM 1% 1/10W 0603&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;ERJ3EKF1303V&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-3EKF1303V/P130KHCT-ND/198154"&gt;P130KHCT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 130K OHM 1% 1/10W 0603&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;ERJ3EKF1961V&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-3EKF1961V/P1.96KHCT-ND/198099"&gt;P1.96KHCT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 1.96K OHM 1% 1/10W 0603&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;ERJ3EKF3742V&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-3EKF3742V/P37.4KHCT-ND/198355"&gt;P37.4KHCT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 37.4K OHM 1% 1/10W 0603&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;ERJ3EKF6653V&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-3EKF6653V/P665KHCT-ND/198479"&gt;P665KHCT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 665K OHM 1% 1/10W 0603&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;ERJ3EKF51R1V&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-3EKF51R1V/P51.1HCT-ND/198423"&gt;P51.1HCT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 51.1 OHM 1% 1/10W 0603&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;ERJ8GEYJ472V&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-8GEYJ472V/P4.7KECT-ND/203338"&gt;P4.7KECT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 4.7K OHM 5% 1/4W 1206&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;ERJ8GEYJ103V&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-8GEYJ103V/P10KECT-ND/203249"&gt;P10KECT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 10K OHM 5% 1/4W 1206&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;ERJ8GEYJ471V&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-8GEYJ471V/P470ECT-ND/203337"&gt;P470ECT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 470 OHM 5% 1/4W 1206&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;ERJ8GEYJ511V&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-8GEYJ511V/P510ECT-ND/203342"&gt;P510ECT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 510 OHM 5% 1/4W 1206&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;ERJ8ENF5103V&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-8ENF5103V/P510KFCT-ND/1746609"&gt;P510KFCT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 510K OHM 1% 1/4W 1206&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;ERJ8ENF1303V&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-8ENF1303V/P130KFCT-ND/89929"&gt;P130KFCT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 130K OHM 1% 1/4W 1206&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;ERJ8ENF1693V&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-8ENF1693V/P169KFCT-ND/89940"&gt;P169KFCT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 169K OHM 1% 1/4W 1206&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;ERJ14YJ155U&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-14YJ155U/P1.5MVCT-ND/282566"&gt;P1.5MVCT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 1.5M OHM 5% 1/2W 1210&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;ERJ-8ENF1504V&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-8ENF1504V/P1.50MFCT-ND/282745"&gt;P1.50MFCT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 1.5M OHM 1% 1/4W 1206&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;ERJ-3EKF2053V&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-3EKF2053V/P205KHCT-ND/198243"&gt;P205KHCT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 205K OHM 1% 1/10W 0603&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;ERJ-3EKF9532V&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-3EKF9532V/P95.3KHCT-ND/198554"&gt;P95.3KHCT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 95.3K OHM 1% 1/10W 0603&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;ERJ-3GEYJ435V&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-3GEYJ435V/P4.3MGCT-ND/282436"&gt;P4.3MGCT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 4.3M OHM 5% 1/10W 0603&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;ERJ-3EKF9102V&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-3EKF9102V/P91.0KHCT-ND/1746813"&gt;P91.0KHCT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 91K OHM 1% 1/10W 0603&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;ERJ-3EKF2103V&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-3EKF2103V/P210KHCT-ND/198249"&gt;P210KHCT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 210K OHM 1% 1/10W 0603&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;ERJ-14NF1271U&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-search/en?pv1=55&amp;pv2=5&amp;FV=fff40001%2Cfff800e9%2Cfffc000a%2Cc0001%2C1c0002&amp;k=Resistors&amp;mnonly=0&amp;newproducts=0&amp;ColumnSort=0&amp;page=1&amp;stock=1&amp;quantity=0&amp;ptm=0&amp;fid=0&amp;pageSize=50"&gt;P1.27KAACT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 1.27K OHM 1% 1/2W 1210&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;ERJ-P06F2401V&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com"&gt;Digi-Key&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="http://www.digikey.com/product-detail/en/ERJ-P06F2401V/P16067CT-ND/3982414"&gt;P16067CT-ND&lt;/a&gt;&lt;/td&gt;&lt;td&gt;RES SMD 2.4K OHM 1% 1/2W 0805&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Small size and lightweight&lt;/li&gt;
@@ -369,7 +343,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES SMD 10.2K OHM 1% 1/10W 0603" constant="no"/>
 <attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
-<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://industrial.panasonic.com/ww/products/resistors/chip-resistors/chip-resistors/thick-film-chip-resistors/ERJ14YJ155U"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.022&quot; (0.55mm)" constant="no"/>
@@ -384,8 +358,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SIZE" value="0.063&quot; L x 0.031&quot; W (1.60mm x 0.80mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="0603" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="P10.2KHCT-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/ERJ-3EKF1022V/P10.2KHCT-ND/198104" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
@@ -397,7 +371,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES SMD 130K OHM 1% 1/10W 0603" constant="no"/>
 <attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
-<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://industrial.panasonic.com/ww/products/resistors/chip-resistors/chip-resistors/thick-film-chip-resistors/ERJ14YJ155U"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.022&quot; (0.55mm)" constant="no"/>
@@ -412,8 +386,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SIZE" value="0.063&quot; L x 0.031&quot; W (1.60mm x 0.80mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="0603" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="P130KHCT-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/ERJ-3EKF1303V/P130KHCT-ND/198154" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
@@ -425,7 +399,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES SMD 1.96K OHM 1% 1/10W 0603" constant="no"/>
 <attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
-<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://industrial.panasonic.com/ww/products/resistors/chip-resistors/chip-resistors/thick-film-chip-resistors/ERJ14YJ155U"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.022&quot; (0.55mm)" constant="no"/>
@@ -440,8 +414,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SIZE" value="0.063&quot; L x 0.031&quot; W (1.60mm x 0.80mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="0603" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="P1.96KHCT-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/ERJ-3EKF1961V/P1.96KHCT-ND/198099" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
@@ -453,7 +427,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES SMD 205K OHM 1% 1/10W 0603" constant="no"/>
 <attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
-<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://industrial.panasonic.com/ww/products/resistors/chip-resistors/chip-resistors/thick-film-chip-resistors/ERJ14YJ155U"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.022&quot; (0.55mm)" constant="no"/>
@@ -468,8 +442,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SIZE" value="0.063&quot; L x 0.031&quot; W (1.60mm x 0.80mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="0603" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="P205KHCT-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/ERJ-3EKF2053V/P205KHCT-ND/198243" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
@@ -481,7 +455,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES SMD 210K OHM 1% 1/10W 0603" constant="no"/>
 <attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
-<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://industrial.panasonic.com/ww/products/resistors/chip-resistors/chip-resistors/thick-film-chip-resistors/ERJ14YJ155U"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.022&quot; (0.55mm)" constant="no"/>
@@ -496,8 +470,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SIZE" value="0.063&quot; L x 0.031&quot; W (1.60mm x 0.80mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="0603" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="P210KHCT-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/ERJ-3EKF2103V/P210KHCT-ND/198249" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
@@ -509,7 +483,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES SMD 24K OHM 1% 1/10W 0603" constant="no"/>
 <attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
-<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://industrial.panasonic.com/ww/products/resistors/chip-resistors/chip-resistors/thick-film-chip-resistors/ERJ14YJ155U"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.022&quot; (0.55mm)" constant="no"/>
@@ -524,8 +498,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SIZE" value="0.063&quot; L x 0.031&quot; W (1.60mm x 0.80mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="0603" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="P24.0KHCT-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/ERJ-3EKF2402V/P24.0KHCT-ND/1746748" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
@@ -537,7 +511,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES SMD 274K OHM 1% 1/10W 0603" constant="no"/>
 <attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
-<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://industrial.panasonic.com/ww/products/resistors/chip-resistors/chip-resistors/thick-film-chip-resistors/ERJ14YJ155U"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.022&quot; (0.55mm)" constant="no"/>
@@ -552,8 +526,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SIZE" value="0.063&quot; L x 0.031&quot; W (1.60mm x 0.80mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="0603" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="P274KHCT-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/ERJ-3EKF2743V/P274KHCT-ND/198293" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
@@ -565,7 +539,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES SMD 37.4K OHM 1% 1/10W 0603" constant="no"/>
 <attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
-<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://industrial.panasonic.com/ww/products/resistors/chip-resistors/chip-resistors/thick-film-chip-resistors/ERJ14YJ155U"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.022&quot; (0.55mm)" constant="no"/>
@@ -580,8 +554,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SIZE" value="0.063&quot; L x 0.031&quot; W (1.60mm x 0.80mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="0603" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="P37.4KHCT-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/ERJ-3EKF3742V/P37.4KHCT-ND/198355" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
@@ -593,7 +567,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES SMD 51.1 OHM 1% 1/10W 0603" constant="no"/>
 <attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
-<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://industrial.panasonic.com/ww/products/resistors/chip-resistors/chip-resistors/thick-film-chip-resistors/ERJ14YJ155U"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.022&quot; (0.55mm)" constant="no"/>
@@ -608,8 +582,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SIZE" value="0.063&quot; L x 0.031&quot; W (1.60mm x 0.80mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="0603" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="P51.1HCT-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/ERJ-3EKF51R1V/P51.1HCT-ND/198423" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
@@ -621,7 +595,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES SMD 665K OHM 1% 1/10W 0603" constant="no"/>
 <attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
-<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://industrial.panasonic.com/ww/products/resistors/chip-resistors/chip-resistors/thick-film-chip-resistors/ERJ14YJ155U"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.022&quot; (0.55mm)" constant="no"/>
@@ -636,8 +610,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SIZE" value="0.063&quot; L x 0.031&quot; W (1.60mm x 0.80mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="0603" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="P665KHCT-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/ERJ-3EKF6653V/P665KHCT-ND/198479" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
@@ -649,7 +623,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES SMD 91K OHM 1% 1/10W 0603" constant="no"/>
 <attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
-<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://industrial.panasonic.com/ww/products/resistors/chip-resistors/chip-resistors/thick-film-chip-resistors/ERJ14YJ155U"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.022&quot; (0.55mm)" constant="no"/>
@@ -664,8 +638,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SIZE" value="0.063&quot; L x 0.031&quot; W (1.60mm x 0.80mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="0603" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="P91.0KHCT-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/ERJ-3EKF9102V/P91.0KHCT-ND/1746813" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
@@ -677,7 +651,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES SMD 95.3K OHM 1% 1/10W 0603" constant="no"/>
 <attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
-<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://industrial.panasonic.com/ww/products/resistors/chip-resistors/chip-resistors/thick-film-chip-resistors/ERJ14YJ155U"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.022&quot; (0.55mm)" constant="no"/>
@@ -692,8 +666,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SIZE" value="0.063&quot; L x 0.031&quot; W (1.60mm x 0.80mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="0603" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="P95.3KHCT-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/ERJ-3EKF9532V/P95.3KHCT-ND/198554" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
@@ -713,7 +687,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES SMD 10K OHM 5% 1/4W 1206" constant="no"/>
 <attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
-<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://industrial.panasonic.com/ww/products/resistors/chip-resistors/chip-resistors/thick-film-chip-resistors/ERJ14YJ155U" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
@@ -727,8 +701,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SERIES" value="ERJ" constant="no"/>
 <attribute name="SIZE" value="0.126&quot; L x 0.063&quot; W (3.20mm x 1.60mm)" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="P10KECT-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/ERJ-8GEYJ103V/P10KECT-ND/203249" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
@@ -740,7 +714,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES SMD 10K OHM 5% 1/4W 1206" constant="no"/>
 <attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
-<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://industrial.panasonic.com/ww/products/resistors/chip-resistors/chip-resistors/thick-film-chip-resistors/ERJ14YJ155U" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
@@ -754,8 +728,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SERIES" value="ERJ" constant="no"/>
 <attribute name="SIZE" value="0.126&quot; L x 0.063&quot; W (3.20mm x 1.60mm)" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="P10KECT-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/ERJ-8GEYJ103V/P10KECT-ND/203249" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
@@ -767,7 +741,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES SMD 270 OHM 5% 1/4W 1206" constant="no"/>
 <attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
-<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://industrial.panasonic.com/ww/products/resistors/chip-resistors/chip-resistors/thick-film-chip-resistors/ERJ14YJ155U" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
@@ -781,8 +755,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SERIES" value="ERJ" constant="no"/>
 <attribute name="SIZE" value="0.126&quot; L x 0.063&quot; W (3.20mm x 1.60mm)" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="P270ECT-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/ERJ-8GEYJ271V/P270ECT-ND/203306" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
@@ -794,7 +768,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES SMD 470 OHM 5% 1/4W 1206" constant="no"/>
 <attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
-<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://industrial.panasonic.com/ww/products/resistors/chip-resistors/chip-resistors/thick-film-chip-resistors/ERJ14YJ155U" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
@@ -808,8 +782,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SERIES" value="ERJ" constant="no"/>
 <attribute name="SIZE" value="0.126&quot; L x 0.063&quot; W (3.20mm x 1.60mm)" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="P470ECT-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/ERJ-8GEYJ471V/P470ECT-ND/203337" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
@@ -821,7 +795,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES SMD 4.7K OHM 5% 1/4W 1206" constant="no"/>
 <attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
-<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://industrial.panasonic.com/ww/products/resistors/chip-resistors/chip-resistors/thick-film-chip-resistors/ERJ14YJ155U" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
@@ -835,8 +809,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SERIES" value="ERJ" constant="no"/>
 <attribute name="SIZE" value="0.126&quot; L x 0.063&quot; W (3.20mm x 1.60mm)" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="P4.7KECT-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/ERJ-8GEYJ472V/P4.7KECT-ND/203338" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
@@ -848,7 +822,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES SMD 510 OHM 5% 1/4W 1206" constant="no"/>
 <attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
-<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://industrial.panasonic.com/ww/products/resistors/chip-resistors/chip-resistors/thick-film-chip-resistors/ERJ14YJ155U" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
@@ -862,8 +836,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SERIES" value="ERJ" constant="no"/>
 <attribute name="SIZE" value="0.126&quot; L x 0.063&quot; W (3.20mm x 1.60mm)" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="P510ECT-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/ERJ-8GEYJ511V/P510ECT-ND/203342" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
@@ -873,9 +847,9 @@ For attribution, please provide a link in any documentation or design files to t
 <technology name="YK126V">
 <attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
-<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="RES SMD 12M OHM 10% 1/4W 1206" constant="no"/>
 <attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
-<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://industrial.panasonic.com/ww/products/resistors/chip-resistors/chip-resistors/thick-film-chip-resistors/ERJ14YJ155U" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
@@ -883,14 +857,14 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
 <attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
 <attribute name="PACKAGE" value="1206 (3216 Metric)" constant="no"/>
-<attribute name="PART_NUMBER" value="" constant="no"/>
+<attribute name="PART_NUMBER" value="ERJ-8GEYK126V" constant="no"/>
 <attribute name="POWER" value="0.25W, 1/4W" constant="no"/>
 <attribute name="RESISTANCE" value="12M" constant="no"/>
 <attribute name="SERIES" value="ERJ" constant="no"/>
 <attribute name="SIZE" value="0.126&quot; L x 0.063&quot; W (3.20mm x 1.60mm)" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="P12MECT-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/ERJ-8GEYK126V/P12MECT-ND/282535" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
@@ -910,7 +884,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES SMD 1.27K OHM 1% 1/2W 1210" constant="no"/>
 <attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
-<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://industrial.panasonic.com/ww/products/resistors/chip-resistors/chip-resistors/thick-film-chip-resistors/ERJ14YJ155U" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
@@ -925,8 +899,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SIZE" value="0.126&quot; L x 0.098&quot; W (3.20mm x 2.50mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="1210" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="P1.27KAACT-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/ERJ-14NF1271U/P1.27KAACT-ND/384540" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
@@ -938,7 +912,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES SMD 1.2K OHM 5% 1/2W 1210" constant="no"/>
 <attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
-<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://industrial.panasonic.com/ww/products/resistors/chip-resistors/chip-resistors/thick-film-chip-resistors/ERJ14YJ155U" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
@@ -953,8 +927,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SIZE" value="0.126&quot; L x 0.098&quot; W (3.20mm x 2.50mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="1210" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="P1.2KVCT-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/ERJ-14YJ122U/P1.2KVCT-ND/249595" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
@@ -966,7 +940,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES SMD 1.5M OHM 5% 1/2W 1210" constant="no"/>
 <attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
-<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://industrial.panasonic.com/ww/products/resistors/chip-resistors/chip-resistors/thick-film-chip-resistors/ERJ14YJ155U" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
@@ -981,8 +955,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SIZE" value="0.126&quot; L x 0.098&quot; W (3.20mm x 2.50mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="1210" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="P1.5MVCT-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/ERJ-14YJ155U/P1.5MVCT-ND/282566" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
@@ -1002,7 +976,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES SMD 130K OHM 1% 1/4W 1206" constant="no"/>
 <attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
-<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://industrial.panasonic.com/ww/products/resistors/chip-resistors/chip-resistors/thick-film-chip-resistors/ERJ14YJ155U" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
@@ -1017,8 +991,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SIZE" value="0.126&quot; L x 0.063&quot; W (3.20mm x 1.60mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="1206" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="P130KFCT-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/ERJ-8ENF1303V/P130KFCT-ND/89929" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
@@ -1030,7 +1004,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES SMD 1.5M OHM 1% 1/4W 1206" constant="no"/>
 <attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
-<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://industrial.panasonic.com/ww/products/resistors/chip-resistors/chip-resistors/thick-film-chip-resistors/ERJ14YJ155U" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
@@ -1045,8 +1019,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SIZE" value="0.126&quot; L x 0.063&quot; W (3.20mm x 1.60mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="1206" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="P1.50MFCT-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/ERJ-8ENF1504V/P1.50MFCT-ND/282745" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
@@ -1058,7 +1032,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES SMD 169K OHM 1% 1/4W 1206" constant="no"/>
 <attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
-<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://industrial.panasonic.com/ww/products/resistors/chip-resistors/chip-resistors/thick-film-chip-resistors/ERJ14YJ155U" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
@@ -1073,8 +1047,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SIZE" value="0.126&quot; L x 0.063&quot; W (3.20mm x 1.60mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="1206" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="P169KFCT-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/ERJ-8ENF1693V/P169KFCT-ND/89940" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
@@ -1086,7 +1060,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES SMD 510K OHM 1% 1/4W 1206" constant="no"/>
 <attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
-<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://industrial.panasonic.com/ww/products/resistors/chip-resistors/chip-resistors/thick-film-chip-resistors/ERJ14YJ155U" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
@@ -1101,8 +1075,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SIZE" value="0.126&quot; L x 0.063&quot; W (3.20mm x 1.60mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="1206" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="P510KFCT-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/ERJ-8ENF5103V/P510KFCT-ND/1746609" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
@@ -1122,7 +1096,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES SMD 4.3M OHM 5% 1/10W 0603" constant="no"/>
 <attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
-<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://industrial.panasonic.com/ww/products/resistors/chip-resistors/chip-resistors/thick-film-chip-resistors/ERJ14YJ155U" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.022&quot; (0.55mm)" constant="no"/>
@@ -1137,8 +1111,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SIZE" value="0.063&quot; L x 0.031&quot; W (1.60mm x 0.80mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="0603" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="P4.3MGCT-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/ERJ-3GEYJ435V/P4.3MGCT-ND/282436" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
@@ -1158,7 +1132,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES SMD 2.4K OHM 1% 1/2W 0805" constant="no"/>
 <attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
-<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://industrial.panasonic.com/ww/products/resistors/chip-resistors/chip-resistors/thick-film-chip-resistors/ERJ14YJ155U" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200, Pulse Withstanding" constant="no"/>
 <attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
@@ -1174,8 +1148,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="STANDARD_PACKAGE" value="1" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="0805" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="P16067CT-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/ERJ-P06F2401V/P16067CT-ND/3982414" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
