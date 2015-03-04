@@ -389,9 +389,10 @@ These devices are available in small 6-pin SOT-23 and DFN 2x2 mm packages.
 </connects>
 <technologies>
 <technology name="1">
-<attribute name="DATASHEET" value="http://ww1.microchip.com/downloads/en/DeviceDoc/22272C.pdf" constant="no"/>
 <attribute name="DATA_INTERFACE" value="EEPROM, I2C, Serial" constant="no"/>
 <attribute name="DESCRIPTION" value="IC DAC 10BIT NV EEP I2C SOT-23-6" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://ww1.microchip.com/downloads/en/DeviceDoc/22272C.pdf" constant="no"/>
 <attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Surface Mount" constant="no"/>
 <attribute name="NUMBER_OF_BITS" value="10" constant="no"/>
@@ -403,8 +404,12 @@ These devices are available in small 6-pin SOT-23 and DFN 2x2 mm packages.
 <attribute name="SETTLING_TIME" value="6us" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="SOT-23-6" constant="no"/>
 <attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-detail/en/MCP4716A0T-E%2FCH/MCP4716A0T-E%2FCHCT-ND/2684987" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="MCP4716A0T-E/CHCT-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
+<attribute name="SUPPLIER_URL" value="" constant="no"/>
 <attribute name="VOLTAGE_SUPPLY_SOURCE" value="Single Supply" constant="no"/>
 </technology>
 </technologies>
