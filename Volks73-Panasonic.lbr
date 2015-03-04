@@ -365,6 +365,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES SMD 10.2K OHM 1% 1/10W 0603" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.022&quot; (0.55mm)" constant="no"/>
@@ -378,6 +380,12 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SERIES" value="ERJ" constant="no"/>
 <attribute name="SIZE" value="0.063&quot; L x 0.031&quot; W (1.60mm x 0.80mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="0603" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="" constant="no"/>
+<attribute name="SUPPLIER_URL" value="" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 </technology>
@@ -385,6 +393,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES SMD 130K OHM 1% 1/10W 0603" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.022&quot; (0.55mm)" constant="no"/>
@@ -398,6 +408,12 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SERIES" value="ERJ" constant="no"/>
 <attribute name="SIZE" value="0.063&quot; L x 0.031&quot; W (1.60mm x 0.80mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="0603" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="" constant="no"/>
+<attribute name="SUPPLIER_URL" value="" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 </technology>
@@ -405,6 +421,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES SMD 1.96K OHM 1% 1/10W 0603" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.022&quot; (0.55mm)" constant="no"/>
@@ -418,6 +436,12 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SERIES" value="ERJ" constant="no"/>
 <attribute name="SIZE" value="0.063&quot; L x 0.031&quot; W (1.60mm x 0.80mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="0603" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="" constant="no"/>
+<attribute name="SUPPLIER_URL" value="" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 </technology>
@@ -425,6 +449,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES SMD 205K OHM 1% 1/10W 0603" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.022&quot; (0.55mm)" constant="no"/>
@@ -438,6 +464,12 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SERIES" value="ERJ" constant="no"/>
 <attribute name="SIZE" value="0.063&quot; L x 0.031&quot; W (1.60mm x 0.80mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="0603" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="" constant="no"/>
+<attribute name="SUPPLIER_URL" value="" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 </technology>
@@ -445,6 +477,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES SMD 210K OHM 1% 1/10W 0603" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.022&quot; (0.55mm)" constant="no"/>
@@ -458,6 +492,12 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SERIES" value="ERJ" constant="no"/>
 <attribute name="SIZE" value="0.063&quot; L x 0.031&quot; W (1.60mm x 0.80mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="0603" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="" constant="no"/>
+<attribute name="SUPPLIER_URL" value="" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 </technology>
@@ -465,6 +505,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES SMD 24K OHM 1% 1/10W 0603" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.022&quot; (0.55mm)" constant="no"/>
@@ -478,6 +520,12 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SERIES" value="ERJ" constant="no"/>
 <attribute name="SIZE" value="0.063&quot; L x 0.031&quot; W (1.60mm x 0.80mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="0603" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="" constant="no"/>
+<attribute name="SUPPLIER_URL" value="" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 </technology>
@@ -485,6 +533,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES SMD 274K OHM 1% 1/10W 0603" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.022&quot; (0.55mm)" constant="no"/>
@@ -498,6 +548,12 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SERIES" value="ERJ" constant="no"/>
 <attribute name="SIZE" value="0.063&quot; L x 0.031&quot; W (1.60mm x 0.80mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="0603" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="" constant="no"/>
+<attribute name="SUPPLIER_URL" value="" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 </technology>
@@ -505,6 +561,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES SMD 37.4K OHM 1% 1/10W 0603" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.022&quot; (0.55mm)" constant="no"/>
@@ -518,6 +576,12 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SERIES" value="ERJ" constant="no"/>
 <attribute name="SIZE" value="0.063&quot; L x 0.031&quot; W (1.60mm x 0.80mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="0603" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="" constant="no"/>
+<attribute name="SUPPLIER_URL" value="" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 </technology>
@@ -525,6 +589,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES SMD 51.1 OHM 1% 1/10W 0603" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.022&quot; (0.55mm)" constant="no"/>
@@ -538,6 +604,12 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SERIES" value="ERJ" constant="no"/>
 <attribute name="SIZE" value="0.063&quot; L x 0.031&quot; W (1.60mm x 0.80mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="0603" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="" constant="no"/>
+<attribute name="SUPPLIER_URL" value="" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 </technology>
@@ -545,6 +617,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES SMD 665K OHM 1% 1/10W 0603" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.022&quot; (0.55mm)" constant="no"/>
@@ -558,6 +632,12 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SERIES" value="ERJ" constant="no"/>
 <attribute name="SIZE" value="0.063&quot; L x 0.031&quot; W (1.60mm x 0.80mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="0603" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="" constant="no"/>
+<attribute name="SUPPLIER_URL" value="" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 </technology>
@@ -565,6 +645,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES SMD 91K OHM 1% 1/10W 0603" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.022&quot; (0.55mm)" constant="no"/>
@@ -578,6 +660,12 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SERIES" value="ERJ" constant="no"/>
 <attribute name="SIZE" value="0.063&quot; L x 0.031&quot; W (1.60mm x 0.80mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="0603" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="" constant="no"/>
+<attribute name="SUPPLIER_URL" value="" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 </technology>
@@ -585,6 +673,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES SMD 95.3K OHM 1% 1/10W 0603" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.022&quot; (0.55mm)" constant="no"/>
@@ -598,6 +688,12 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SERIES" value="ERJ" constant="no"/>
 <attribute name="SIZE" value="0.063&quot; L x 0.031&quot; W (1.60mm x 0.80mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="0603" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="" constant="no"/>
+<attribute name="SUPPLIER_URL" value="" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 </technology>
@@ -613,6 +709,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES SMD 10K OHM 5% 1/4W 1206" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
@@ -625,6 +723,12 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="RESISTANCE" value="510k" constant="no"/>
 <attribute name="SERIES" value="ERJ" constant="no"/>
 <attribute name="SIZE" value="0.126&quot; L x 0.063&quot; W (3.20mm x 1.60mm)" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="" constant="no"/>
+<attribute name="SUPPLIER_URL" value="" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 </technology>
@@ -632,6 +736,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES SMD 10K OHM 5% 1/4W 1206" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
@@ -644,6 +750,12 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="RESISTANCE" value="10k" constant="no"/>
 <attribute name="SERIES" value="ERJ" constant="no"/>
 <attribute name="SIZE" value="0.126&quot; L x 0.063&quot; W (3.20mm x 1.60mm)" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="" constant="no"/>
+<attribute name="SUPPLIER_URL" value="" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="200ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="5%" constant="no"/>
 </technology>
@@ -651,6 +763,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES SMD 270 OHM 5% 1/4W 1206" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
@@ -663,6 +777,12 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="RESISTANCE" value="270" constant="no"/>
 <attribute name="SERIES" value="ERJ" constant="no"/>
 <attribute name="SIZE" value="0.126&quot; L x 0.063&quot; W (3.20mm x 1.60mm)" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="" constant="no"/>
+<attribute name="SUPPLIER_URL" value="" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="200ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="5%" constant="no"/>
 </technology>
@@ -670,6 +790,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES SMD 470 OHM 5% 1/4W 1206" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
@@ -682,6 +804,12 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="RESISTANCE" value="470" constant="no"/>
 <attribute name="SERIES" value="ERJ" constant="no"/>
 <attribute name="SIZE" value="0.126&quot; L x 0.063&quot; W (3.20mm x 1.60mm)" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="" constant="no"/>
+<attribute name="SUPPLIER_URL" value="" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="200ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="5%" constant="no"/>
 </technology>
@@ -689,6 +817,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES SMD 4.7K OHM 5% 1/4W 1206" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
@@ -701,6 +831,12 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="RESISTANCE" value="4.7k" constant="no"/>
 <attribute name="SERIES" value="ERJ" constant="no"/>
 <attribute name="SIZE" value="0.126&quot; L x 0.063&quot; W (3.20mm x 1.60mm)" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="" constant="no"/>
+<attribute name="SUPPLIER_URL" value="" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="200ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="5%" constant="no"/>
 </technology>
@@ -708,6 +844,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES SMD 510 OHM 5% 1/4W 1206" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
@@ -720,6 +858,12 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="RESISTANCE" value="510" constant="no"/>
 <attribute name="SERIES" value="ERJ" constant="no"/>
 <attribute name="SIZE" value="0.126&quot; L x 0.063&quot; W (3.20mm x 1.60mm)" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="" constant="no"/>
+<attribute name="SUPPLIER_URL" value="" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="200ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="5%" constant="no"/>
 </technology>
@@ -727,6 +871,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
@@ -739,6 +885,12 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="RESISTANCE" value="12M" constant="no"/>
 <attribute name="SERIES" value="ERJ" constant="no"/>
 <attribute name="SIZE" value="0.126&quot; L x 0.063&quot; W (3.20mm x 1.60mm)" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="" constant="no"/>
+<attribute name="SUPPLIER_URL" value="" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="-400/+150ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="10%" constant="no"/>
 </technology>
@@ -754,6 +906,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES SMD 1.27K OHM 1% 1/2W 1210" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
@@ -767,6 +921,12 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SERIES" value="ERJ" constant="no"/>
 <attribute name="SIZE" value="0.126&quot; L x 0.098&quot; W (3.20mm x 2.50mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="1210" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="" constant="no"/>
+<attribute name="SUPPLIER_URL" value="" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 </technology>
@@ -774,6 +934,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES SMD 1.2K OHM 5% 1/2W 1210" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
@@ -787,6 +949,12 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SERIES" value="ERJ" constant="no"/>
 <attribute name="SIZE" value="0.126&quot; L x 0.098&quot; W (3.20mm x 2.50mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="1210" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="" constant="no"/>
+<attribute name="SUPPLIER_URL" value="" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="150ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="5%" constant="no"/>
 </technology>
@@ -794,6 +962,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES SMD 1.5M OHM 5% 1/2W 1210" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
@@ -807,6 +977,12 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SERIES" value="ERJ" constant="no"/>
 <attribute name="SIZE" value="0.126&quot; L x 0.098&quot; W (3.20mm x 2.50mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="1210" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="" constant="no"/>
+<attribute name="SUPPLIER_URL" value="" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="150ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="5%" constant="no"/>
 </technology>
@@ -822,6 +998,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES SMD 130K OHM 1% 1/4W 1206" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
@@ -835,6 +1013,12 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SERIES" value="ERJ" constant="no"/>
 <attribute name="SIZE" value="0.126&quot; L x 0.063&quot; W (3.20mm x 1.60mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="1206" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="" constant="no"/>
+<attribute name="SUPPLIER_URL" value="" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="±100ppm/°C" constant="no"/>
 <attribute name="TOLERANCE" value="±1%" constant="no"/>
 </technology>
@@ -842,6 +1026,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES SMD 1.5M OHM 1% 1/4W 1206" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
@@ -855,6 +1041,12 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SERIES" value="ERJ" constant="no"/>
 <attribute name="SIZE" value="0.126&quot; L x 0.063&quot; W (3.20mm x 1.60mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="1206" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="" constant="no"/>
+<attribute name="SUPPLIER_URL" value="" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="±100ppm/°C" constant="no"/>
 <attribute name="TOLERANCE" value="±1%" constant="no"/>
 </technology>
@@ -862,6 +1054,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES SMD 169K OHM 1% 1/4W 1206" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
@@ -875,6 +1069,12 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SERIES" value="ERJ" constant="no"/>
 <attribute name="SIZE" value="0.126&quot; L x 0.063&quot; W (3.20mm x 1.60mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="1206" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="" constant="no"/>
+<attribute name="SUPPLIER_URL" value="" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="±100ppm/°C" constant="no"/>
 <attribute name="TOLERANCE" value="±1%" constant="no"/>
 </technology>
@@ -882,6 +1082,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES SMD 510K OHM 1% 1/4W 1206" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
@@ -895,6 +1097,12 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SERIES" value="ERJ" constant="no"/>
 <attribute name="SIZE" value="0.126&quot; L x 0.063&quot; W (3.20mm x 1.60mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="1206" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="" constant="no"/>
+<attribute name="SUPPLIER_URL" value="" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="±100ppm/°C" constant="no"/>
 <attribute name="TOLERANCE" value="±1%" constant="no"/>
 </technology>
@@ -910,6 +1118,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES SMD 4.3M OHM 5% 1/10W 0603" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200 Qualified" constant="no"/>
 <attribute name="HEIGHT" value="0.022&quot; (0.55mm)" constant="no"/>
@@ -923,6 +1133,12 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SERIES" value="ERJ" constant="no"/>
 <attribute name="SIZE" value="0.063&quot; L x 0.031&quot; W (1.60mm x 0.80mm)" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="0603" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="" constant="no"/>
+<attribute name="SUPPLIER_URL" value="" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="-400/+150ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="5%" constant="no"/>
 </technology>
@@ -938,6 +1154,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CATEGORY" value="Resistors" constant="no"/>
 <attribute name="COMPOSITION" value="Thick Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES SMD 2.4K OHM 1% 1/2W 0805" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
 <attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
 <attribute name="FEATURES" value="Automotive AEC-Q200, Pulse Withstanding" constant="no"/>
 <attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
@@ -952,6 +1170,12 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SIZE" value="0.079&quot; L x 0.049&quot; W (2.00mm x 1.25mm)" constant="no"/>
 <attribute name="STANDARD_PACKAGE" value="1" constant="no"/>
 <attribute name="SUPPLIER_DEVICE_PACKAGE" value="0805" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="" constant="no"/>
+<attribute name="SUPPLIER_URL" value="" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
 </technology>
 </technologies>
