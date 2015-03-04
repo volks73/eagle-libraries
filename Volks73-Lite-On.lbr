@@ -228,9 +228,9 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="160-1139-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
-<attribute name="SUPPLIER_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
-<attribute name="SUPPLIER_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
 <attribute name="VIEWING-ANGLE" value="60" constant="no"/>
 <attribute name="VOLTAGE-FORWARD" value="2V" constant="no"/>
 <attribute name="WAVELENGTH-DOMINANT" value="623nm" constant="no"/>
@@ -258,9 +258,9 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="160-1142-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
-<attribute name="SUPPLIER_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
-<attribute name="SUPPLIER_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
 <attribute name="VIEWING-ANGLE" value="60" constant="no"/>
 <attribute name="VOLTAGE-FORWARD" value="2.1V" constant="no"/>
 <attribute name="WAVELENGTH-DOMINANT" value="569nm" constant="no"/>
@@ -288,9 +288,9 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="160-1145-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
-<attribute name="SUPPLIER_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
-<attribute name="SUPPLIER_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
 <attribute name="VIEWING-ANGLE" value="60" constant="no"/>
 <attribute name="VOLTAGE-FORWARD" value="2.1V" constant="no"/>
 <attribute name="WAVELENGTH-DOMINANT" value="588nm" constant="no"/>
