@@ -289,6 +289,9 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="PACKAGE" value="Radial" constant="no"/>
 <attribute name="PART_NUMBER" value="LN28RPX" constant="no"/>
 <attribute name="SIZE" value="-" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
 <attribute name="VIEWING_ANGLE" value="-" constant="no"/>
 <attribute name="VOLTAGE-FORWARD" value="2.2V" constant="no"/>
 <attribute name="WAVELENGTH-DOMINANT" value="-" constant="no"/>
@@ -383,9 +386,9 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
-<attribute name="SUPPLIER_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_NAME" value="" constant="no"/>
-<attribute name="SUPPLIER_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 </technology>
@@ -411,9 +414,9 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
-<attribute name="SUPPLIER_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_NAME" value="" constant="no"/>
-<attribute name="SUPPLIER_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 </technology>
@@ -439,9 +442,9 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
-<attribute name="SUPPLIER_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_NAME" value="" constant="no"/>
-<attribute name="SUPPLIER_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 </technology>
@@ -467,9 +470,9 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
-<attribute name="SUPPLIER_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_NAME" value="" constant="no"/>
-<attribute name="SUPPLIER_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 </technology>
@@ -495,9 +498,9 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
-<attribute name="SUPPLIER_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_NAME" value="" constant="no"/>
-<attribute name="SUPPLIER_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 </technology>
@@ -523,9 +526,9 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
-<attribute name="SUPPLIER_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_NAME" value="" constant="no"/>
-<attribute name="SUPPLIER_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 </technology>
@@ -551,9 +554,9 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
-<attribute name="SUPPLIER_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_NAME" value="" constant="no"/>
-<attribute name="SUPPLIER_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 </technology>
@@ -579,9 +582,9 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
-<attribute name="SUPPLIER_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_NAME" value="" constant="no"/>
-<attribute name="SUPPLIER_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 </technology>
@@ -607,9 +610,9 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
-<attribute name="SUPPLIER_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_NAME" value="" constant="no"/>
-<attribute name="SUPPLIER_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 </technology>
@@ -635,9 +638,9 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
-<attribute name="SUPPLIER_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_NAME" value="" constant="no"/>
-<attribute name="SUPPLIER_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 </technology>
@@ -663,9 +666,9 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
-<attribute name="SUPPLIER_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_NAME" value="" constant="no"/>
-<attribute name="SUPPLIER_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 </technology>
@@ -691,9 +694,9 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
-<attribute name="SUPPLIER_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_NAME" value="" constant="no"/>
-<attribute name="SUPPLIER_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 </technology>
@@ -726,9 +729,9 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
-<attribute name="SUPPLIER_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_NAME" value="" constant="no"/>
-<attribute name="SUPPLIER_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 </technology>
@@ -753,9 +756,9 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
-<attribute name="SUPPLIER_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_NAME" value="" constant="no"/>
-<attribute name="SUPPLIER_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="200ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="5%" constant="no"/>
 </technology>
@@ -780,9 +783,9 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
-<attribute name="SUPPLIER_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_NAME" value="" constant="no"/>
-<attribute name="SUPPLIER_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="200ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="5%" constant="no"/>
 </technology>
@@ -807,9 +810,9 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
-<attribute name="SUPPLIER_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_NAME" value="" constant="no"/>
-<attribute name="SUPPLIER_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="200ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="5%" constant="no"/>
 </technology>
@@ -834,9 +837,9 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
-<attribute name="SUPPLIER_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_NAME" value="" constant="no"/>
-<attribute name="SUPPLIER_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="200ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="5%" constant="no"/>
 </technology>
@@ -861,9 +864,9 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
-<attribute name="SUPPLIER_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_NAME" value="" constant="no"/>
-<attribute name="SUPPLIER_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="200ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="5%" constant="no"/>
 </technology>
@@ -888,9 +891,9 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
-<attribute name="SUPPLIER_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_NAME" value="" constant="no"/>
-<attribute name="SUPPLIER_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="-400/+150ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="10%" constant="no"/>
 </technology>
@@ -924,9 +927,9 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
-<attribute name="SUPPLIER_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_NAME" value="" constant="no"/>
-<attribute name="SUPPLIER_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 </technology>
@@ -952,9 +955,9 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
-<attribute name="SUPPLIER_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_NAME" value="" constant="no"/>
-<attribute name="SUPPLIER_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="150ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="5%" constant="no"/>
 </technology>
@@ -980,9 +983,9 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
-<attribute name="SUPPLIER_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_NAME" value="" constant="no"/>
-<attribute name="SUPPLIER_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="150ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="5%" constant="no"/>
 </technology>
@@ -1016,9 +1019,9 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
-<attribute name="SUPPLIER_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_NAME" value="" constant="no"/>
-<attribute name="SUPPLIER_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="±100ppm/°C" constant="no"/>
 <attribute name="TOLERANCE" value="±1%" constant="no"/>
 </technology>
@@ -1044,9 +1047,9 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
-<attribute name="SUPPLIER_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_NAME" value="" constant="no"/>
-<attribute name="SUPPLIER_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="±100ppm/°C" constant="no"/>
 <attribute name="TOLERANCE" value="±1%" constant="no"/>
 </technology>
@@ -1072,9 +1075,9 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
-<attribute name="SUPPLIER_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_NAME" value="" constant="no"/>
-<attribute name="SUPPLIER_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="±100ppm/°C" constant="no"/>
 <attribute name="TOLERANCE" value="±1%" constant="no"/>
 </technology>
@@ -1100,9 +1103,9 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
-<attribute name="SUPPLIER_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_NAME" value="" constant="no"/>
-<attribute name="SUPPLIER_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="±100ppm/°C" constant="no"/>
 <attribute name="TOLERANCE" value="±1%" constant="no"/>
 </technology>
@@ -1136,9 +1139,9 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
-<attribute name="SUPPLIER_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_NAME" value="" constant="no"/>
-<attribute name="SUPPLIER_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="-400/+150ppm/C" constant="no"/>
 <attribute name="TOLERANCE" value="5%" constant="no"/>
 </technology>
@@ -1173,9 +1176,9 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
-<attribute name="SUPPLIER_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_NAME" value="" constant="no"/>
-<attribute name="SUPPLIER_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
 </technology>
 </technologies>

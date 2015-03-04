@@ -226,9 +226,9 @@ DIP switch with through hole terminals in a wide assortment of pole configuratio
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
-<attribute name="SUPPLIER_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_NAME" value="" constant="no"/>
-<attribute name="SUPPLIER_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
 <attribute name="WASHABLE" value="No" constant="no"/>
 </technology>
 </technologies>

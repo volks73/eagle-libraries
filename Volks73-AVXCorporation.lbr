@@ -218,9 +218,9 @@ taped and reeled for auto insertion. The 15 case sizes with wide capacitance and
 <attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/TAP106K010CCS/478-9320-ND/1471121&quot;&gt;Details&lt;/a&gt;" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="478-9320-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/TAP106K010CCS/478-9320-ND/1471121" constant="no"/>
-<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Digi-Key&lt;/a&gt;" constant="no"/>
-<attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
-<attribute name="SUPPLIER_URL" value="http://www.digikey.com" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
 <attribute name="TYPE" value="Conformal Coated" constant="no"/>
 <attribute name="VOLTAGE-RATED" value="10V" constant="no"/>
 </technology>
@@ -276,8 +276,8 @@ X7R dielectric chip usage covers the broad spectrum of industrial applications w
 <attribute name="SUPPLIER_ITEM_NUMBER" value="478-6204-1-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/06035C220JAT2A/478-6204-1-ND/2391403" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
-<attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
-<attribute name="SUPPLIER_URL" value="http://www.digikey.com" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="X7R" constant="no"/>
 <attribute name="THICKNESS" value="0.035&quot; (0.90mm)" constant="no"/>
 <attribute name="TOLERANCE" value="5%" constant="no"/>

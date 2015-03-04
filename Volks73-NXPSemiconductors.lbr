@@ -255,9 +255,9 @@ P82B96/PCA9600 and choose the type of device that is best for their application.
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
-<attribute name="SUPPLIER_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_NAME" value="" constant="no"/>
-<attribute name="SUPPLIER_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
 <attribute name="TYPE" value="Buffer, ReDriver" constant="no"/>
 <attribute name="VOLTAGE_SUPPLY" value="4.5V ~ 12V" constant="no"/>
 </technology>
@@ -334,9 +334,9 @@ PRTR5V0U2X incorporates two pairs of ultra low capacitance rail-to-rail diodes a
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
-<attribute name="SUPPLIER_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_NAME" value="" constant="no"/>
-<attribute name="SUPPLIER_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
 <attribute name="TYPE" value="Steering (Rail to Rail)" constant="no"/>
 <attribute name="UNIDIRECTIONAL_CHANNELS" value="-" constant="no"/>
 <attribute name="VOLTAGE_BREAKDOWN" value="6V" constant="no"/>

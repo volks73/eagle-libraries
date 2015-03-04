@@ -169,9 +169,9 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/CDBC540-G/641-1126-1-ND/1559087&quot;&gt;Details&lt;/a&gt;" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="641-1126-1-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/CDBC540-G/641-1126-1-ND/1559087" constant="no"/>
-<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;" constant="no"/>
-<attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
-<attribute name="SUPPLIER_URL" value="http://www.digikey.com" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
 <attribute name="VOLTAGE-DC_REVERSE" value="40V" constant="no"/>
 <attribute name="VOLTAGE-FORWARD" value="550mV @ 5A" constant="no"/>
 </technology>
