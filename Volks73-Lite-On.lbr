@@ -210,8 +210,9 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CATEGORY" value="Optoelectronics" constant="no"/>
 <attribute name="COLOR" value="Red" constant="no"/>
 <attribute name="CURRENT-TEST" value="10mA" constant="no"/>
-<attribute name="DATASHEET" value="http://optoelectronics.liteon.com/upload/download/DS-20-92-0237/S_110_LTL-4221N.pdf" constant="no"/>
 <attribute name="DESCRIPTION" value="LED 3MM HI-EFF RED DIFFUSED" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://optoelectronics.liteon.com/upload/download/DS-20-92-0237/S_110_LTL-4221N.pdf" constant="no"/>
 <attribute name="FAMILY" value="ED Indication - Discrete" constant="no"/>
 <attribute name="HEIGHT" value="4.45mm" constant="no"/>
 <attribute name="LENS_STYLE" value="Round with Domed Top, 3mm, T-1" constant="no"/>
@@ -224,8 +225,12 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="PART_NUMBER" value="LTL-4221N" constant="no"/>
 <attribute name="SIZE" value="-" constant="no"/>
 <attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-detail/en/LTL-4221N/160-1139-ND/214530" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="160-1139-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
+<attribute name="SUPPLIER_URL" value="" constant="no"/>
 <attribute name="VIEWING-ANGLE" value="60" constant="no"/>
 <attribute name="VOLTAGE-FORWARD" value="2V" constant="no"/>
 <attribute name="WAVELENGTH-DOMINANT" value="623nm" constant="no"/>
@@ -235,8 +240,9 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CATEGORY" value="Optoelectronics" constant="no"/>
 <attribute name="COLOR" value="Green" constant="no"/>
 <attribute name="CURRENT-TEST" value="10mA" constant="no"/>
-<attribute name="DATASHEET" value="http://media.digikey.com/photos/Lite%20On%20Photos/LTL-4231N.jpg" constant="no"/>
 <attribute name="DESCRIPTION" value="LED 3MM GREEN DIFFUSED" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://media.digikey.com/photos/Lite%20On%20Photos/LTL-4231N.jpg" constant="no"/>
 <attribute name="FAMILY" value="ED Indication - Discrete" constant="no"/>
 <attribute name="HEIGHT" value="4.45mm" constant="no"/>
 <attribute name="LENS_STYLE" value="Round with Domed Top, 3mm, T-1" constant="no"/>
@@ -249,8 +255,12 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="PART_NUMBER" value="LTL-4231N" constant="no"/>
 <attribute name="SIZE" value="-" constant="no"/>
 <attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-detail/en/LTL-4231N/160-1142-ND/214440" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="160-1142-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
+<attribute name="SUPPLIER_URL" value="" constant="no"/>
 <attribute name="VIEWING-ANGLE" value="60" constant="no"/>
 <attribute name="VOLTAGE-FORWARD" value="2.1V" constant="no"/>
 <attribute name="WAVELENGTH-DOMINANT" value="569nm" constant="no"/>
@@ -260,8 +270,9 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CATEGORY" value="Optoelectronics" constant="no"/>
 <attribute name="COLOR" value="Yellow" constant="no"/>
 <attribute name="CURRENT-TEST" value="10mA" constant="no"/>
-<attribute name="DATASHEET" value="http://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTL-4251N.pdf" constant="no"/>
 <attribute name="DESCRIPTION" value="LED 3MM YELLOW DIFFUSED" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTL-4251N.pdf" constant="no"/>
 <attribute name="FAMILY" value="ED Indication - Discrete" constant="no"/>
 <attribute name="HEIGHT" value="4.45mm" constant="no"/>
 <attribute name="LENS_STYLE" value="Round with Domed Top, 3mm, T-1" constant="no"/>
@@ -274,8 +285,12 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="PART_NUMBER" value="LTL-4251N" constant="no"/>
 <attribute name="SIZE" value="-" constant="no"/>
 <attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-detail/en/LTL-4251N/160-1145-ND/149419" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="160-1145-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
+<attribute name="SUPPLIER_URL" value="" constant="no"/>
 <attribute name="VIEWING-ANGLE" value="60" constant="no"/>
 <attribute name="VOLTAGE-FORWARD" value="2.1V" constant="no"/>
 <attribute name="WAVELENGTH-DOMINANT" value="588nm" constant="no"/>
