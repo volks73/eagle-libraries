@@ -146,32 +146,32 @@ For attribution, please provide a link in any documentation or design files to t
 </connects>
 <technologies>
 <technology name="BJ104KV-F">
-<attribute name="APPLICATIONS" value="General Purpose" constant="no"/>
-<attribute name="CAPACITANCE" value="0.1uF" constant="no"/>
-<attribute name="DESCRIPTION" value="CAP CER 0.1UF 10V 10% X5R 0402" constant="no"/>
+<attribute name="APPLICATIONS" value="General Purpose"/>
+<attribute name="CAPACITANCE" value="0.1uF"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 10V 10% X5R 0402"/>
 <attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.yuden.co.jp/productdata/catalog/en/mlcc_all_e.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
-<attribute name="DOCUMENTATION_URL" value="http://www.yuden.co.jp/productdata/catalog/en/mlcc_all_e.pdf" constant="no"/>
-<attribute name="FEATURES" value="-" constant="no"/>
-<attribute name="HEIGHT-SEATED" value="-" constant="no"/>
-<attribute name="LEAD_SPACING" value="-" constant="no"/>
-<attribute name="LEAD_STYLE" value="-" constant="no"/>
-<attribute name="MOUNTING_TYPE" value="Surface Mount, MLCC" constant="no"/>
-<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 85C" constant="no"/>
-<attribute name="PACKAGE" value="0402 (1005 Metric)" constant="no"/>
-<attribute name="PART_NUMBER" value="LMK105BJ104KV-F" constant="no"/>
-<attribute name="RATINGS" value="-" constant="no"/>
-<attribute name="SERIES" value="M" constant="no"/>
-<attribute name="SIZE" value="0.039&quot; L x 0.020&quot; W (1.00mm x 0.50mm)" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.yuden.co.jp/productdata/catalog/en/mlcc_all_e.pdf"/>
+<attribute name="FEATURES" value="-"/>
+<attribute name="HEIGHT-SEATED" value="-"/>
+<attribute name="LEAD_SPACING" value="-"/>
+<attribute name="LEAD_STYLE" value="-"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount, MLCC"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 85C"/>
+<attribute name="PACKAGE" value="0402 (1005 Metric)"/>
+<attribute name="PART_NUMBER" value="LMK105BJ104KV-F"/>
+<attribute name="RATINGS" value="-"/>
+<attribute name="SERIES" value="M"/>
+<attribute name="SIZE" value="0.039&quot; L x 0.020&quot; W (1.00mm x 0.50mm)"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/LMK105BJ104KV-F/587-1227-1-ND/931004&quot;&gt;Details&lt;/a&gt;"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="587-1227-1-ND" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/LMK105BJ104KV-F/587-1227-1-ND/931004" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="587-1227-1-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/LMK105BJ104KV-F/587-1227-1-ND/931004"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
-<attribute name="TEMPERATURE_COEFFICIENT" value="X5R" constant="no"/>
-<attribute name="THICKNESS" value="0.022&quot; (0.55mm)" constant="no"/>
-<attribute name="TOLERANCE" value="10%" constant="no"/>
-<attribute name="VOLTAGE-RATED" value="10V" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="X5R"/>
+<attribute name="THICKNESS" value="0.022&quot; (0.55mm)"/>
+<attribute name="TOLERANCE" value="10%"/>
+<attribute name="VOLTAGE-RATED" value="10V"/>
 </technology>
 </technologies>
 </device>
@@ -195,34 +195,34 @@ For attribution, please provide a link in any documentation or design files to t
 </connects>
 <technologies>
 <technology name="AB7475KL-T">
-<attribute name="APPLICATIONS" value="General Purpose" constant="no"/>
-<attribute name="CAPACITANCE" value="4.7uF" constant="no"/>
-<attribute name="CATEGORY" value="Capacitors" constant="no"/>
-<attribute name="DESCRIPTION" value="CAP CER 4.7UF 50V 10% X7R 1206" constant="no"/>
+<attribute name="APPLICATIONS" value="General Purpose"/>
+<attribute name="CAPACITANCE" value="4.7uF"/>
+<attribute name="CATEGORY" value="Capacitors"/>
+<attribute name="DESCRIPTION" value="CAP CER 4.7UF 50V 10% X7R 1206"/>
 <attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.yuden.co.jp/productdata/catalog/en/mlcc_all_e.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
-<attribute name="DOCUMENTATION_URL" value="http://www.yuden.co.jp/productdata/catalog/en/mlcc_all_e.pdf" constant="no"/>
-<attribute name="FAMILY" value="Cermaic Capacitors" constant="no"/>
-<attribute name="FEATURES" value="-" constant="no"/>
-<attribute name="HEIGHT-SEATED" value="-" constant="no"/>
-<attribute name="LEAD_SPACING" value="-" constant="no"/>
-<attribute name="LEAD_STYLE" value="-" constant="no"/>
-<attribute name="MANUFACTURER" value="Taiyo Yuden" constant="no"/>
-<attribute name="MOUNTING_TYPE" value="Surface Mount, MLCC" constant="no"/>
-<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 125C" constant="no"/>
-<attribute name="PACKAGE" value="1206 (3216 Metric)" constant="no"/>
-<attribute name="PART_NUMBER" value="UMK316AB7475KL-T" constant="no"/>
-<attribute name="RATINGS" value="-" constant="no"/>
-<attribute name="SERIES" value="M" constant="no"/>
-<attribute name="SIZE" value="0.126&quot; L x 0.063&quot; W (3.20mm x 1.60mm)" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.yuden.co.jp/productdata/catalog/en/mlcc_all_e.pdf"/>
+<attribute name="FAMILY" value="Cermaic Capacitors"/>
+<attribute name="FEATURES" value="-"/>
+<attribute name="HEIGHT-SEATED" value="-"/>
+<attribute name="LEAD_SPACING" value="-"/>
+<attribute name="LEAD_STYLE" value="-"/>
+<attribute name="MANUFACTURER" value="Taiyo Yuden"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount, MLCC"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 125C"/>
+<attribute name="PACKAGE" value="1206 (3216 Metric)"/>
+<attribute name="PART_NUMBER" value="UMK316AB7475KL-T"/>
+<attribute name="RATINGS" value="-"/>
+<attribute name="SERIES" value="M"/>
+<attribute name="SIZE" value="0.126&quot; L x 0.063&quot; W (3.20mm x 1.60mm)"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/UMK316AB7475KL-T/587-2994-1-ND/2714187&quot;&gt;Details&lt;/a&gt;"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="587-2994-1-ND" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/UMK316AB7475KL-T/587-2994-1-ND/2714187" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="587-2994-1-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/UMK316AB7475KL-T/587-2994-1-ND/2714187"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
-<attribute name="TEMPERATURE_COEFFICIENT" value="X7R" constant="no"/>
-<attribute name="THICKNESS" value="0.071&quot; (1.80mm)" constant="no"/>
-<attribute name="VOLTAGE-RATED" value="50V" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="X7R"/>
+<attribute name="THICKNESS" value="0.071&quot; (1.80mm)"/>
+<attribute name="VOLTAGE-RATED" value="50V"/>
 </technology>
 </technologies>
 </device>
@@ -233,36 +233,36 @@ For attribution, please provide a link in any documentation or design files to t
 </connects>
 <technologies>
 <technology name="BJ105KA-T">
-<attribute name="APPLICATIONS" value="General Purpose" constant="no"/>
-<attribute name="CAPACITANCE" value="1uF" constant="no"/>
-<attribute name="CATEGORY" value="Capacitors" constant="no"/>
-<attribute name="DESCRIPTION" value="CAP CER 1UF 50V 10% X5R 0603" constant="no"/>
+<attribute name="APPLICATIONS" value="General Purpose"/>
+<attribute name="CAPACITANCE" value="1uF"/>
+<attribute name="CATEGORY" value="Capacitors"/>
+<attribute name="DESCRIPTION" value="CAP CER 1UF 50V 10% X5R 0603"/>
 <attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.yuden.co.jp/productdata/catalog/en/mlcc_all_e.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
-<attribute name="DOCUMENTATION_URL" value="http://www.yuden.co.jp/productdata/catalog/en/mlcc_all_e.pdf" constant="no"/>
-<attribute name="FAMILY" value="Ceramic Capacitors" constant="no"/>
-<attribute name="FEATURES" value="-" constant="no"/>
-<attribute name="HEIGHT-SEATED" value="-" constant="no"/>
-<attribute name="LEAD_SPACING" value="-" constant="no"/>
-<attribute name="LEAD_STYLE" value="-" constant="no"/>
-<attribute name="MANUFACTURER" value="Taiyo Yuden" constant="no"/>
-<attribute name="MOUNTING_TYPE" value="Surface Mount, MLCC" constant="no"/>
-<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 85C" constant="no"/>
-<attribute name="PACKAGE" value="0603 (1608 Metric)" constant="no"/>
-<attribute name="PART_NUMBER" value="UMK107BJ105KA-T" constant="no"/>
-<attribute name="RATINGS" value="-" constant="no"/>
-<attribute name="SERIES" value="M" constant="no"/>
-<attribute name="SIZE" value="0.063&quot; L x 0.031&quot; W (1.60mm x 0.80mm)" constant="no"/>
-<attribute name="STANDARD_PACKAGE" value="1" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.yuden.co.jp/productdata/catalog/en/mlcc_all_e.pdf"/>
+<attribute name="FAMILY" value="Ceramic Capacitors"/>
+<attribute name="FEATURES" value="-"/>
+<attribute name="HEIGHT-SEATED" value="-"/>
+<attribute name="LEAD_SPACING" value="-"/>
+<attribute name="LEAD_STYLE" value="-"/>
+<attribute name="MANUFACTURER" value="Taiyo Yuden"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount, MLCC"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 85C"/>
+<attribute name="PACKAGE" value="0603 (1608 Metric)"/>
+<attribute name="PART_NUMBER" value="UMK107BJ105KA-T"/>
+<attribute name="RATINGS" value="-"/>
+<attribute name="SERIES" value="M"/>
+<attribute name="SIZE" value="0.063&quot; L x 0.031&quot; W (1.60mm x 0.80mm)"/>
+<attribute name="STANDARD_PACKAGE" value="1"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/UMK107BJ105KA-T/587-2400-1-ND/2179013&quot;&gt;Details&lt;/a&gt;"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="587-2400-1-ND" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/UMK107BJ105KA-T/587-2400-1-ND/2179013" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="587-2400-1-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/UMK107BJ105KA-T/587-2400-1-ND/2179013"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
-<attribute name="TEMPERATURE_COEFFICIENT" value="X5R" constant="no"/>
-<attribute name="THICKNESS" value="0.035&quot; (0.90mm)" constant="no"/>
-<attribute name="TOLERANCE" value="10%" constant="no"/>
-<attribute name="VOLTAGE-RATED" value="50V" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="X5R"/>
+<attribute name="THICKNESS" value="0.035&quot; (0.90mm)"/>
+<attribute name="TOLERANCE" value="10%"/>
+<attribute name="VOLTAGE-RATED" value="50V"/>
 </technology>
 </technologies>
 </device>

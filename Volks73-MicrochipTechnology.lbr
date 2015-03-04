@@ -389,28 +389,28 @@ These devices are available in small 6-pin SOT-23 and DFN 2x2 mm packages.
 </connects>
 <technologies>
 <technology name="1">
-<attribute name="DATA_INTERFACE" value="EEPROM, I2C, Serial" constant="no"/>
-<attribute name="DESCRIPTION" value="IC DAC 10BIT NV EEP I2C SOT-23-6" constant="no"/>
+<attribute name="DATA_INTERFACE" value="EEPROM, I2C, Serial"/>
+<attribute name="DESCRIPTION" value="IC DAC 10BIT NV EEP I2C SOT-23-6"/>
 <attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://ww1.microchip.com/downloads/en/DeviceDoc/22272C.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
 <attribute name="DOCUMENTATION_URL" value="http://ww1.microchip.com/downloads/en/DeviceDoc/22272C.pdf"/>
-<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
-<attribute name="MOUNTING_TYPE" value="Surface Mount" constant="no"/>
-<attribute name="NUMBER_OF_BITS" value="10" constant="no"/>
-<attribute name="NUMBER_OF_CONVERTERS" value="1" constant="no"/>
-<attribute name="NUMBER_OF_OUTPUTS_AND_TYPE" value="1 Voltage, Unipolar" constant="no"/>
-<attribute name="OPERATING_TEMPERATURE" value="-40C ~ 125C" constant="no"/>
-<attribute name="PACKAGE" value="SOT-23-6" constant="no"/>
-<attribute name="PART_NUMBER" value="MCP4716A0T-E/CH" constant="no"/>
-<attribute name="SETTLING_TIME" value="6us" constant="no"/>
-<attribute name="SUPPLIER_DEVICE_PACKAGE" value="SOT-23-6" constant="no"/>
-<attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-detail/en/MCP4716A0T-E%2FCH/MCP4716A0T-E%2FCHCT-ND/2684987" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount"/>
+<attribute name="NUMBER_OF_BITS" value="10"/>
+<attribute name="NUMBER_OF_CONVERTERS" value="1"/>
+<attribute name="NUMBER_OF_OUTPUTS_AND_TYPE" value="1 Voltage, Unipolar"/>
+<attribute name="OPERATING_TEMPERATURE" value="-40C ~ 125C"/>
+<attribute name="PACKAGE" value="SOT-23-6"/>
+<attribute name="PART_NUMBER" value="MCP4716A0T-E/CH"/>
+<attribute name="SETTLING_TIME" value="6us"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="SOT-23-6"/>
+<attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-detail/en/MCP4716A0T-E%2FCH/MCP4716A0T-E%2FCHCT-ND/2684987"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/MCP4716A0T-E%2FCH/MCP4716A0T-E%2FCHCT-ND/2684987&quot;&gt;Details&lt;/a&gt;"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="MCP4716A0T-E/CHCT-ND"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/MCP4716A0T-E%2FCH/MCP4716A0T-E%2FCHCT-ND/2684987"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
-<attribute name="VOLTAGE_SUPPLY_SOURCE" value="Single Supply" constant="no"/>
+<attribute name="VOLTAGE_SUPPLY_SOURCE" value="Single Supply"/>
 </technology>
 </technologies>
 </device>
@@ -480,34 +480,34 @@ The MCP3021 runs on a single supply voltage that operates over a broad range of 
 </connects>
 <technologies>
 <technology name="">
-<attribute name="ARCHITECTURE" value="SAR" constant="no"/>
-<attribute name="CONFIGURATION" value="S/H-ADC" constant="no"/>
-<attribute name="DATA_INTERFACE" value="I2C" constant="no"/>
-<attribute name="DESCRIPTION" value="IC ADC 10BIT 2.7V 1CH SOT23-5" constant="no"/>
+<attribute name="ARCHITECTURE" value="SAR"/>
+<attribute name="CONFIGURATION" value="S/H-ADC"/>
+<attribute name="DATA_INTERFACE" value="I2C"/>
+<attribute name="DESCRIPTION" value="IC ADC 10BIT 2.7V 1CH SOT23-5"/>
 <attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://ww1.microchip.com/downloads/en/DeviceDoc/21805B.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
 <attribute name="DOCUMENTATION_URL" value="http://ww1.microchip.com/downloads/en/DeviceDoc/21805B.pdf"/>
-<attribute name="FEATURES" value="-" constant="no"/>
-<attribute name="INPUT_TYPE" value="Single Ended" constant="no"/>
-<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
-<attribute name="NUMBER_OF_AD_CONVERTERS" value="1" constant="no"/>
-<attribute name="NUMBER_OF_BITS" value="10" constant="no"/>
-<attribute name="NUMBER_OF_INPUTS" value="1" constant="no"/>
-<attribute name="OPERATING_TEMPERATURE" value="-40C ~ 125C" constant="no"/>
-<attribute name="PACKAGE" value="SC-74A, SOT-753" constant="no"/>
-<attribute name="PART_NUMBER" value="MCP3021A5T-E/OT" constant="no"/>
-<attribute name="RATIO" value="1:1" constant="no"/>
-<attribute name="REFERENCE_TYPE" value="External" constant="no"/>
-<attribute name="SAMPLING_RATE" value="22.3k" constant="no"/>
-<attribute name="SUPPLIER_DEVICE_PACKAGE" value="SOT-23-5" constant="no"/>
-<attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-detail/en/MCP3021A5T-E%2FOT/MCP3021A5T-E%2FOTCT-ND/1979808" constant="no"/>
+<attribute name="FEATURES" value="-"/>
+<attribute name="INPUT_TYPE" value="Single Ended"/>
+<attribute name="MANUFACTURER" value="Microchip Technology"/>
+<attribute name="NUMBER_OF_AD_CONVERTERS" value="1"/>
+<attribute name="NUMBER_OF_BITS" value="10"/>
+<attribute name="NUMBER_OF_INPUTS" value="1"/>
+<attribute name="OPERATING_TEMPERATURE" value="-40C ~ 125C"/>
+<attribute name="PACKAGE" value="SC-74A, SOT-753"/>
+<attribute name="PART_NUMBER" value="MCP3021A5T-E/OT"/>
+<attribute name="RATIO" value="1:1"/>
+<attribute name="REFERENCE_TYPE" value="External"/>
+<attribute name="SAMPLING_RATE" value="22.3k"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="SOT-23-5"/>
+<attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-detail/en/MCP3021A5T-E%2FOT/MCP3021A5T-E%2FOTCT-ND/1979808"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/MCP3021A5T-E%2FOT/MCP3021A5T-E%2FOTCT-ND/1979808&quot;&gt;Details&lt;/a&gt;"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="MCP3021A5T-E/OTCT-ND"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/MCP3021A5T-E%2FOT/MCP3021A5T-E%2FOTCT-ND/1979808"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
-<attribute name="VOLTAGE-SUPPLY_ANALOG" value="2.7V ~ 5.5V" constant="no"/>
-<attribute name="VOLTAGE-SUPPLY_DIGITAL" value="2.7V ~ 5.5V" constant="no"/>
+<attribute name="VOLTAGE-SUPPLY_ANALOG" value="2.7V ~ 5.5V"/>
+<attribute name="VOLTAGE-SUPPLY_DIGITAL" value="2.7V ~ 5.5V"/>
 </technology>
 </technologies>
 </device>
@@ -571,33 +571,33 @@ The MCP6001/2/4 family is available in the industrial and extended temperature r
 </connects>
 <technologies>
 <technology name="I">
-<attribute name="3DB_BANDWIDTH" value="-" constant="no"/>
-<attribute name="AMPLIFIER_TYPE" value="General Purpose" constant="no"/>
-<attribute name="CURRENT-INPUT_BIAS" value="1pA" constant="no"/>
-<attribute name="CURRENT-OUTPUT" value="23mA" constant="no"/>
-<attribute name="CURRENT-SUPPLY" value="100uA" constant="no"/>
-<attribute name="DESCRIPTION" value="IC OPAMP GP 1MHZ RRO 8SOIC" constant="no"/>
+<attribute name="3DB_BANDWIDTH" value="-"/>
+<attribute name="AMPLIFIER_TYPE" value="General Purpose"/>
+<attribute name="CURRENT-INPUT_BIAS" value="1pA"/>
+<attribute name="CURRENT-OUTPUT" value="23mA"/>
+<attribute name="CURRENT-SUPPLY" value="100uA"/>
+<attribute name="DESCRIPTION" value="IC OPAMP GP 1MHZ RRO 8SOIC"/>
 <attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
 <attribute name="DOCUMENTATION_URL" value="http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"/>
-<attribute name="GAIN_BANDWIDTH" value="1MHz" constant="no"/>
-<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
-<attribute name="MOUNTING_TYPE" value="Surface Mount" constant="no"/>
-<attribute name="NUMBER_OF_CIRCUITS" value="2" constant="no"/>
-<attribute name="OPERATING_TEMPERATURE" value="-40C ~ 85C" constant="no"/>
-<attribute name="OUTPUT_TYPE" value="Rail-to-Rail" constant="no"/>
-<attribute name="PACKAGE" value="8-SOIC" constant="no"/>
-<attribute name="PART_NUMBER" value="MCP6002T-I/SN" constant="no"/>
-<attribute name="SLEW_RATE" value="0.6 V/us" constant="no"/>
-<attribute name="SUPPLIER_DEVICE_PACKAGE" value="8-SOIC N" constant="no"/>
-<attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-detail/en/MCP6002T-I%2FSN/MCP6002T-I%2FSNCT-ND/4307905" constant="no"/>
+<attribute name="GAIN_BANDWIDTH" value="1MHz"/>
+<attribute name="MANUFACTURER" value="Microchip Technology"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount"/>
+<attribute name="NUMBER_OF_CIRCUITS" value="2"/>
+<attribute name="OPERATING_TEMPERATURE" value="-40C ~ 85C"/>
+<attribute name="OUTPUT_TYPE" value="Rail-to-Rail"/>
+<attribute name="PACKAGE" value="8-SOIC"/>
+<attribute name="PART_NUMBER" value="MCP6002T-I/SN"/>
+<attribute name="SLEW_RATE" value="0.6 V/us"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="8-SOIC N"/>
+<attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-detail/en/MCP6002T-I%2FSN/MCP6002T-I%2FSNCT-ND/4307905"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/MCP6002T-I%2FSN/MCP6002T-I%2FSNCT-ND/4307905&quot;&gt;Details&lt;/a&gt;"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="MCP6002T-I/SNCT-ND"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/MCP6002T-I%2FSN/MCP6002T-I%2FSNCT-ND/4307905"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
-<attribute name="VOLTAGE-INPUT_OFFSET" value="4.5mV" constant="no"/>
-<attribute name="VOLTAGE-SUPPLY" value="1.8V ~ 6V" constant="no"/>
+<attribute name="VOLTAGE-INPUT_OFFSET" value="4.5mV"/>
+<attribute name="VOLTAGE-SUPPLY" value="1.8V ~ 6V"/>
 </technology>
 </technologies>
 </device>
@@ -694,30 +694,30 @@ Microchip Technology’s MCP2515 is a stand-alone Controller Area Network (CAN) 
 </connects>
 <technologies>
 <technology name="I">
-<attribute name="CATEGORY" value="Integrated Circuits (ICs)" constant="no"/>
-<attribute name="CURRENT-SUPPLY" value="10mA" constant="no"/>
-<attribute name="DATASHEET" value="http://ww1.microchip.com/downloads/en/DeviceDoc/21801G.pdf" constant="no"/>
-<attribute name="DESCRIPTION" value="IC CAN CONTROLLER W/SPI 18SOIC" constant="no"/>
+<attribute name="CATEGORY" value="Integrated Circuits (ICs)"/>
+<attribute name="CURRENT-SUPPLY" value="10mA"/>
+<attribute name="DATASHEET" value="http://ww1.microchip.com/downloads/en/DeviceDoc/21801G.pdf"/>
+<attribute name="DESCRIPTION" value="IC CAN CONTROLLER W/SPI 18SOIC"/>
 <attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en552842&quot;&gt;Datasheet&lt;/a&gt;"/>
 <attribute name="DOCUMENTATION_URL" value="http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en552842"/>
-<attribute name="FAMILY" value="Interface - Controllers" constant="no"/>
-<attribute name="FUNCTION" value="Controller" constant="no"/>
-<attribute name="INTERFACE" value="SPI" constant="no"/>
-<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
-<attribute name="OPERATING_TEMPERATURE" value="-40°C ~ 85°C" constant="no"/>
-<attribute name="PACKAGE-CASE" value="18-SOIC (0.295&quot;, 7.50mm Width)" constant="no"/>
-<attribute name="PART_NUMBER" value="MCP2515-I/SO" constant="no"/>
-<attribute name="PROTOCOL" value="CAN" constant="no"/>
-<attribute name="SERIES" value="-" constant="no"/>
-<attribute name="STANDARDS" value="CAN 2.0" constant="no"/>
-<attribute name="SUPPLIER_DEVICE_PACKAGE" value="18-SOIC" constant="no"/>
+<attribute name="FAMILY" value="Interface - Controllers"/>
+<attribute name="FUNCTION" value="Controller"/>
+<attribute name="INTERFACE" value="SPI"/>
+<attribute name="MANUFACTURER" value="Microchip Technology"/>
+<attribute name="OPERATING_TEMPERATURE" value="-40°C ~ 85°C"/>
+<attribute name="PACKAGE-CASE" value="18-SOIC (0.295&quot;, 7.50mm Width)"/>
+<attribute name="PART_NUMBER" value="MCP2515-I/SO"/>
+<attribute name="PROTOCOL" value="CAN"/>
+<attribute name="SERIES" value="-"/>
+<attribute name="STANDARDS" value="CAN 2.0"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="18-SOIC"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/MCP2515T-I%2FSO/MCP2515T-I%2FSOCT-ND/4307902&quot;&gt;Details&lt;/a&gt;"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="MCP2515T-I/SOCT-ND"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/MCP2515T-I%2FSO/MCP2515T-I%2FSOCT-ND/4307902"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
-<attribute name="VOLTAGE-SUPPLY" value="2.7 V ~ 5.5 V" constant="no"/>
+<attribute name="VOLTAGE-SUPPLY" value="2.7 V ~ 5.5 V"/>
 </technology>
 </technologies>
 </device>
@@ -784,32 +784,32 @@ The device meets the automotive requirements for high-speed (up to 1 Mb/s), low 
 </connects>
 <technologies>
 <technology name="E">
-<attribute name="CATEGORY" value="Integrated Circuits (ICs)" constant="no"/>
-<attribute name="DATA_RATE" value="-" constant="no"/>
-<attribute name="DESCRIPTION" value="IC TXRX CAN 8SOIC" constant="no"/>
+<attribute name="CATEGORY" value="Integrated Circuits (ICs)"/>
+<attribute name="DATA_RATE" value="-"/>
+<attribute name="DESCRIPTION" value="IC TXRX CAN 8SOIC"/>
 <attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://ww1.microchip.com/downloads/en/DeviceDoc/20005167C.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
 <attribute name="DOCUMENTATION_URL" value="http://ww1.microchip.com/downloads/en/DeviceDoc/20005167C.pdf"/>
-<attribute name="DUPLEX" value="Full" constant="no"/>
-<attribute name="FAMILY" value="Interface - Drivers, Receivers, Transceivers" constant="no"/>
-<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
-<attribute name="MOUNTING_TYPE" value="Surface Mount" constant="no"/>
-<attribute name="NUMBER_OF_DRIVERS-RECEIVERS" value="1/1" constant="no"/>
-<attribute name="OPERATING_TEMPERATURE" value="-40°C ~ 125°C" constant="no"/>
-<attribute name="PACKAGE_CASE" value="8-SOIC (0.154&quot;, 3.90mm Width)" constant="no"/>
-<attribute name="PART_NUMBER" value="MCP2561-E/SN" constant="no"/>
-<attribute name="PROTOCOL" value="CAN" constant="no"/>
-<attribute name="RECEIVER_HYSTERSIS" value="-" constant="no"/>
-<attribute name="SERIES" value="-" constant="no"/>
-<attribute name="SUPPLIER_DEVICE_PACKAGE" value="8-SOIC N" constant="no"/>
-<attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-detail/en/MCP2561-E%2FSN/MCP2561-E%2FSN-ND/4079961" constant="no"/>
+<attribute name="DUPLEX" value="Full"/>
+<attribute name="FAMILY" value="Interface - Drivers, Receivers, Transceivers"/>
+<attribute name="MANUFACTURER" value="Microchip Technology"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount"/>
+<attribute name="NUMBER_OF_DRIVERS-RECEIVERS" value="1/1"/>
+<attribute name="OPERATING_TEMPERATURE" value="-40°C ~ 125°C"/>
+<attribute name="PACKAGE_CASE" value="8-SOIC (0.154&quot;, 3.90mm Width)"/>
+<attribute name="PART_NUMBER" value="MCP2561-E/SN"/>
+<attribute name="PROTOCOL" value="CAN"/>
+<attribute name="RECEIVER_HYSTERSIS" value="-"/>
+<attribute name="SERIES" value="-"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="8-SOIC N"/>
+<attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-detail/en/MCP2561-E%2FSN/MCP2561-E%2FSN-ND/4079961"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/MCP2561-E%2FSN/MCP2561-E%2FSN-ND/4079961&quot;&gt;Details&lt;/a&gt;"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="MCP2561-E/SN-ND"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/MCP2561-E%2FSN/MCP2561-E%2FSN-ND/4079961"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
-<attribute name="TYPE" value="Transceiver" constant="no"/>
-<attribute name="VOLTAGE-SUPPLY" value="4.5 V ~ 5.5 V" constant="no"/>
+<attribute name="TYPE" value="Transceiver"/>
+<attribute name="VOLTAGE-SUPPLY" value="4.5 V ~ 5.5 V"/>
 </technology>
 </technologies>
 </device>

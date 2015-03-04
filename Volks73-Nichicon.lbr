@@ -204,35 +204,35 @@ For attribution, please provide a link in any documentation or design files to t
 </connects>
 <technologies>
 <technology name="1H101M">
-<attribute name="APPLICATIONS" value="General Purpose" constant="no"/>
-<attribute name="CAPACITANCE" value="100uF" constant="no"/>
-<attribute name="DESCRIPTION" value="CAP ALUM 100UF 50V 20% RADIAL" constant="no"/>
+<attribute name="APPLICATIONS" value="General Purpose"/>
+<attribute name="CAPACITANCE" value="100uF"/>
+<attribute name="DESCRIPTION" value="CAP ALUM 100UF 50V 20% RADIAL"/>
 <attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://nichicon-us.com/english/products/pdfs/e-he.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
 <attribute name="DOCUMENTATION_URL" value="http://nichicon-us.com/english/products/pdfs/e-he.pdf"/>
-<attribute name="ESR" value="-" constant="no"/>
-<attribute name="FAMILY" value="Aluminum Capacitors" constant="no"/>
-<attribute name="HEIGHT-SEATED" value="0.453&quot; (11.50mm)" constant="no"/>
-<attribute name="IMPEDANCE" value="150mOhm" constant="no"/>
-<attribute name="LEAD_SPACING" value="0.138&quot; (3.50mm)" constant="no"/>
-<attribute name="LIFETIME" value="7000 Hrs @ 105C" constant="no"/>
-<attribute name="MANUFACTURER" value="Nichicon" constant="no"/>
-<attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
-<attribute name="OPERATING_TEMPERATURE" value="-40C ~ 105C" constant="no"/>
-<attribute name="PACKAGE" value="Radial, Can" constant="no"/>
-<attribute name="PART_NUMBER" value="UHE1H101MPD" constant="no"/>
-<attribute name="RIPPLE_CURRENT" value="555mA" constant="no"/>
-<attribute name="SERIES" value="HE" constant="no"/>
-<attribute name="SIZE" value="0.315&quot; Dia (8.00mm)" constant="no"/>
+<attribute name="ESR" value="-"/>
+<attribute name="FAMILY" value="Aluminum Capacitors"/>
+<attribute name="HEIGHT-SEATED" value="0.453&quot; (11.50mm)"/>
+<attribute name="IMPEDANCE" value="150mOhm"/>
+<attribute name="LEAD_SPACING" value="0.138&quot; (3.50mm)"/>
+<attribute name="LIFETIME" value="7000 Hrs @ 105C"/>
+<attribute name="MANUFACTURER" value="Nichicon"/>
+<attribute name="MOUNTING_TYPE" value="Through Hole"/>
+<attribute name="OPERATING_TEMPERATURE" value="-40C ~ 105C"/>
+<attribute name="PACKAGE" value="Radial, Can"/>
+<attribute name="PART_NUMBER" value="UHE1H101MPD"/>
+<attribute name="RIPPLE_CURRENT" value="555mA"/>
+<attribute name="SERIES" value="HE"/>
+<attribute name="SIZE" value="0.315&quot; Dia (8.00mm)"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/UHE1H101MPD/493-1605-ND/589346&quot;&gt;Details&lt;/a&gt;"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="493-1605-ND"/>
-<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/UHE1H101MPD/493-1605-ND/589346" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/UHE1H101MPD/493-1605-ND/589346"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
-<attribute name="SURFACE_MOUNT_LAND_SIZE" value="-" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
-<attribute name="TYPE" value="-" constant="no"/>
-<attribute name="VOLTAGE_RATING" value="50V" constant="no"/>
+<attribute name="SURFACE_MOUNT_LAND_SIZE" value="-"/>
+<attribute name="TOLERANCE" value="20%"/>
+<attribute name="TYPE" value="-"/>
+<attribute name="VOLTAGE_RATING" value="50V"/>
 </technology>
 </technologies>
 </device>
@@ -264,35 +264,35 @@ For attribution, please provide a link in any documentation or design files to t
 </connects>
 <technologies>
 <technology name="1E101MCL">
-<attribute name="APPLICATIONS" value="General Purpose" constant="no"/>
-<attribute name="CAPACITANCE" value="100µF" constant="no"/>
-<attribute name="CATEGORY" value="Capacitors" constant="no"/>
-<attribute name="DESCRIPTION" value="CAP ALUM 100UF 25V 20% SMD" constant="no"/>
+<attribute name="APPLICATIONS" value="General Purpose"/>
+<attribute name="CAPACITANCE" value="100µF"/>
+<attribute name="CATEGORY" value="Capacitors"/>
+<attribute name="DESCRIPTION" value="CAP ALUM 100UF 25V 20% SMD"/>
 <attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.nichicon.co.jp/english/products/pdfs/e-ch_ta.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
 <attribute name="DOCUMENTATION_URL" value="http://www.nichicon.co.jp/english/products/pdfs/e-ch_ta.pdf"/>
-<attribute name="ESR" value="-" constant="no"/>
-<attribute name="FAMILY" value="Aluminum Capacitors" constant="no"/>
-<attribute name="HEIGHT-SEATED" value="0.213&quot; (5.40mm)" constant="no"/>
-<attribute name="IMPEDANCE" value="-" constant="no"/>
-<attribute name="LEAD_SPACING" value="-" constant="no"/>
-<attribute name="LIFETIME_TEMP" value="2000 Hrs @ 85°C" constant="no"/>
-<attribute name="MANUFACTURER" value="Nichicon" constant="no"/>
-<attribute name="MOUNTING_TYPE" value="Surface Mount" constant="no"/>
-<attribute name="OPERATING_TEMPERATURE" value="-40°C ~ 85°C" constant="no"/>
-<attribute name="PART_NUMBER" value="UWX1E101MCL1GB" constant="no"/>
-<attribute name="RIPPLE_CURRENT" value="110mA" constant="no"/>
-<attribute name="SERIES" value="WX" constant="no"/>
-<attribute name="SIZE-DIMENSION" value="0.315&quot; Dia (8.00mm)" constant="no"/>
+<attribute name="ESR" value="-"/>
+<attribute name="FAMILY" value="Aluminum Capacitors"/>
+<attribute name="HEIGHT-SEATED" value="0.213&quot; (5.40mm)"/>
+<attribute name="IMPEDANCE" value="-"/>
+<attribute name="LEAD_SPACING" value="-"/>
+<attribute name="LIFETIME_TEMP" value="2000 Hrs @ 85°C"/>
+<attribute name="MANUFACTURER" value="Nichicon"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount"/>
+<attribute name="OPERATING_TEMPERATURE" value="-40°C ~ 85°C"/>
+<attribute name="PART_NUMBER" value="UWX1E101MCL1GB"/>
+<attribute name="RIPPLE_CURRENT" value="110mA"/>
+<attribute name="SERIES" value="WX"/>
+<attribute name="SIZE-DIMENSION" value="0.315&quot; Dia (8.00mm)"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/UWX1E101MCL1GB/493-2113-1-ND/590088&quot;&gt;Details&lt;/a&gt;"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="493-2113-1-ND" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/UWX1E101MCL1GB/493-2113-1-ND/590088" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="493-2113-1-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/UWX1E101MCL1GB/493-2113-1-ND/590088"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
-<attribute name="SURFACE_MOUNT_LAND_SIZE" value="0.327&quot; L x 0.327&quot; W (8.30mm x 8.30mm)" constant="no"/>
-<attribute name="TOLERANCE" value="±20%" constant="no"/>
-<attribute name="TYPE" value="-" constant="no"/>
-<attribute name="VOLTAGE_RATING" value="25V" constant="no"/>
+<attribute name="SURFACE_MOUNT_LAND_SIZE" value="0.327&quot; L x 0.327&quot; W (8.30mm x 8.30mm)"/>
+<attribute name="TOLERANCE" value="±20%"/>
+<attribute name="TYPE" value="-"/>
+<attribute name="VOLTAGE_RATING" value="25V"/>
 </technology>
 </technologies>
 </device>

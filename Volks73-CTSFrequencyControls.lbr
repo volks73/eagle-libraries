@@ -134,33 +134,33 @@ Model 445 is a low cost device used in a wide range of commercial applications i
 </connects>
 <technologies>
 <technology name="C25D20M00000">
-<attribute name="CATEGORY" value="Crystals and Oscillators" constant="no"/>
-<attribute name="DESCRIPTION" value="CRYSTAL 20MHZ 18PF SMD" constant="no"/>
+<attribute name="CATEGORY" value="Crystals and Oscillators"/>
+<attribute name="DESCRIPTION" value="CRYSTAL 20MHZ 18PF SMD"/>
 <attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.ctscorp.com/components/Datasheets/008-0360-0.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
-<attribute name="DOCUMENTATION_URL" value="http://www.ctscorp.com/components/Datasheets/008-0360-0.pdf" constant="no"/>
-<attribute name="ESR" value="40 Ohm" constant="no"/>
-<attribute name="FAMILY" value="Crystals" constant="no"/>
-<attribute name="FREQUENCY" value="20MHz" constant="no"/>
-<attribute name="FREQUENCY_STABILITY" value="±50ppm" constant="no"/>
-<attribute name="FREQUENCY_TOLERANCE" value="±20ppm" constant="no"/>
-<attribute name="HEIGHT" value="0.053&quot; (1.35mm)" constant="no"/>
-<attribute name="LOAD_CAPACITANCE" value="18pF" constant="no"/>
-<attribute name="MANUFACTURER" value="CTS-Frequency Controls" constant="no"/>
-<attribute name="MOUNTING_TYPE" value="Surface Mount" constant="no"/>
-<attribute name="OPERATING_MODE" value="Fundamental" constant="no"/>
-<attribute name="OPERATING_TEMPERATURE" value="-20°C ~ 70°C" constant="no"/>
-<attribute name="PACKAGE" value="2-SMD" constant="no"/>
-<attribute name="PART_NUMBER" value="445C25D20M00000" constant="no"/>
-<attribute name="RATINGS" value="-" constant="no"/>
-<attribute name="SERIES" value="445" constant="no"/>
-<attribute name="SIZE" value="0.197&quot; L x 0.126&quot; W (5.00mm x 3.20mm)" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.ctscorp.com/components/Datasheets/008-0360-0.pdf"/>
+<attribute name="ESR" value="40 Ohm"/>
+<attribute name="FAMILY" value="Crystals"/>
+<attribute name="FREQUENCY" value="20MHz"/>
+<attribute name="FREQUENCY_STABILITY" value="±50ppm"/>
+<attribute name="FREQUENCY_TOLERANCE" value="±20ppm"/>
+<attribute name="HEIGHT" value="0.053&quot; (1.35mm)"/>
+<attribute name="LOAD_CAPACITANCE" value="18pF"/>
+<attribute name="MANUFACTURER" value="CTS-Frequency Controls"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount"/>
+<attribute name="OPERATING_MODE" value="Fundamental"/>
+<attribute name="OPERATING_TEMPERATURE" value="-20°C ~ 70°C"/>
+<attribute name="PACKAGE" value="2-SMD"/>
+<attribute name="PART_NUMBER" value="445C25D20M00000"/>
+<attribute name="RATINGS" value="-"/>
+<attribute name="SERIES" value="445"/>
+<attribute name="SIZE" value="0.197&quot; L x 0.126&quot; W (5.00mm x 3.20mm)"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/445C25D20M00000/CTX1164CT-ND/3135104&quot;&gt;Details&lt;/a&gt;"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="CTX1164CT-ND" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/445C25D20M00000/CTX1164CT-ND/3135104" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="CTX1164CT-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/445C25D20M00000/CTX1164CT-ND/3135104"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
-<attribute name="TYPE" value="MHz Crystal" constant="no"/>
+<attribute name="TYPE" value="MHz Crystal"/>
 </technology>
 </technologies>
 </device>

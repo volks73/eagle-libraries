@@ -325,33 +325,33 @@ The reference outline is for a 8-Pin, Closed IC Socket from Assman WSW Component
 </connects>
 <technologies>
 <technology name="8">
-<attribute name="CONNECTIVITY" value="USI" constant="no"/>
-<attribute name="CORE_PROCESSOR" value="AVR" constant="no"/>
-<attribute name="CORE_SIZE" value="8-Bit" constant="no"/>
-<attribute name="DATA_CONVERTERS" value="A/D 4x10b" constant="no"/>
-<attribute name="DESCRIPTION" value="IC MCU 8BIT 8KB FLASH 8DIP" constant="no"/>
+<attribute name="CONNECTIVITY" value="USI"/>
+<attribute name="CORE_PROCESSOR" value="AVR"/>
+<attribute name="CORE_SIZE" value="8-Bit"/>
+<attribute name="DATA_CONVERTERS" value="A/D 4x10b"/>
+<attribute name="DESCRIPTION" value="IC MCU 8BIT 8KB FLASH 8DIP"/>
 <attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.atmel.com/images/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
-<attribute name="DOCUMENTATION_URL" value="http://www.atmel.com/images/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf" constant="no"/>
-<attribute name="EEPROM_SIZE" value="512 x 8" constant="no"/>
-<attribute name="MANUFACTURER" value="Atmel" constant="no"/>
-<attribute name="NUMBER_OF_IO" value="6" constant="no"/>
-<attribute name="OPERATING_TEMPERATURE" value="-40C ~ 85C" constant="no"/>
-<attribute name="OSCILLATOR_TYPE" value="Internal" constant="no"/>
-<attribute name="PACKAGE" value="8-DIP (0.300&quot;, 7.62mm)" constant="no"/>
-<attribute name="PART_NUMBER" value="ATTINY85-20PU" constant="no"/>
-<attribute name="PERIPHERALS" value="Brown-out Detect/Reset, POR, PWM, WDT" constant="no"/>
-<attribute name="PROGRAM_MEMORY_SIZE" value="8KB (4K x 16)" constant="no"/>
-<attribute name="PROGRAM_MEMORY_TYPE" value="FLASH" constant="no"/>
-<attribute name="RAM_SIZE" value="512 x 8" constant="no"/>
-<attribute name="SPEED" value="20MHz" constant="no"/>
-<attribute name="SUPPLIER_DEVICE_PACKAGE" value="8-PDIP" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.atmel.com/images/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf"/>
+<attribute name="EEPROM_SIZE" value="512 x 8"/>
+<attribute name="MANUFACTURER" value="Atmel"/>
+<attribute name="NUMBER_OF_IO" value="6"/>
+<attribute name="OPERATING_TEMPERATURE" value="-40C ~ 85C"/>
+<attribute name="OSCILLATOR_TYPE" value="Internal"/>
+<attribute name="PACKAGE" value="8-DIP (0.300&quot;, 7.62mm)"/>
+<attribute name="PART_NUMBER" value="ATTINY85-20PU"/>
+<attribute name="PERIPHERALS" value="Brown-out Detect/Reset, POR, PWM, WDT"/>
+<attribute name="PROGRAM_MEMORY_SIZE" value="8KB (4K x 16)"/>
+<attribute name="PROGRAM_MEMORY_TYPE" value="FLASH"/>
+<attribute name="RAM_SIZE" value="512 x 8"/>
+<attribute name="SPEED" value="20MHz"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="8-PDIP"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/ATTINY85-20PU/ATTINY85-20PU-ND/735469&quot;&gt;Details&lt;/a&gt;"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="ATTINY85-20PU-ND" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/ATTINY85-20PU/ATTINY85-20PU-ND/735469" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="ATTINY85-20PU-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/ATTINY85-20PU/ATTINY85-20PU-ND/735469"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
-<attribute name="VOLTAGE-SUPPLY" value="2.7 ~ 5.5V" constant="no"/>
+<attribute name="VOLTAGE-SUPPLY" value="2.7 ~ 5.5V"/>
 </technology>
 </technologies>
 </device>
@@ -487,36 +487,36 @@ The ATtiny87/167 AVR is supported with a full suite of program and system develo
 </connects>
 <technologies>
 <technology name="16">
-<attribute name="CATEGORY" value="Integrated Circuits (ICs)" constant="no"/>
-<attribute name="CONNECTIVITY" value="I²C, LIN, SPI, UART/USART, USI" constant="no"/>
-<attribute name="CORE_PROCESSOR" value="AVR" constant="no"/>
-<attribute name="CORE_SIZE" value="8-Bit" constant="no"/>
-<attribute name="DATA_CONVERTERS" value="A/D 11x10b" constant="no"/>
-<attribute name="DESCRIPTION" value="IC MCU 8BIT 16KB FLASH 20SOIC" constant="no"/>
+<attribute name="CATEGORY" value="Integrated Circuits (ICs)"/>
+<attribute name="CONNECTIVITY" value="I²C, LIN, SPI, UART/USART, USI"/>
+<attribute name="CORE_PROCESSOR" value="AVR"/>
+<attribute name="CORE_SIZE" value="8-Bit"/>
+<attribute name="DATA_CONVERTERS" value="A/D 11x10b"/>
+<attribute name="DESCRIPTION" value="IC MCU 8BIT 16KB FLASH 20SOIC"/>
 <attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.atmel.com/Images/Atmel-8265-8-bit-AVR-Microcontroller-tinyAVR-ATtiny87-ATtiny167_datasheet.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
-<attribute name="DOCUMENTATION_URL" value="http://www.atmel.com/Images/Atmel-8265-8-bit-AVR-Microcontroller-tinyAVR-ATtiny87-ATtiny167_datasheet.pdf" constant="no"/>
-<attribute name="EEPROM_SIZE" value="512 x 8" constant="no"/>
-<attribute name="FAMILY" value="Embedded - Microcontrollers" constant="no"/>
-<attribute name="MANUFACTURER" value="Atmel" constant="no"/>
-<attribute name="NUMBER_OF_IO" value="16" constant="no"/>
-<attribute name="OPERATING_TEMPERATURE" value="-40°C ~ 85°C" constant="no"/>
-<attribute name="OSCILLATOR_TYPE" value="Internal" constant="no"/>
-<attribute name="PACKAGE" value="20-SOIC (0.295&quot;, 7.50mm Width)" constant="no"/>
-<attribute name="PART_NUMBER" value="ATTINY167-SUR" constant="no"/>
-<attribute name="PERIPHERALS" value="Brown-out Detect/Reset, POR, PWM, Temp Sensor, WDT" constant="no"/>
-<attribute name="PROGRAM_MEMORY_SIZE" value="16KB (8K x 16)" constant="no"/>
-<attribute name="PROGRAM_MEMORY_TYPE" value="FLASH" constant="no"/>
-<attribute name="RAM_SIZE" value="512 x 8" constant="no"/>
-<attribute name="SERIES" value="AVR® ATtiny" constant="no"/>
-<attribute name="SPEED" value="20MHz" constant="no"/>
-<attribute name="SUPPLIER_DEVICE_PACKAGE" value="20-SOIC" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.atmel.com/Images/Atmel-8265-8-bit-AVR-Microcontroller-tinyAVR-ATtiny87-ATtiny167_datasheet.pdf"/>
+<attribute name="EEPROM_SIZE" value="512 x 8"/>
+<attribute name="FAMILY" value="Embedded - Microcontrollers"/>
+<attribute name="MANUFACTURER" value="Atmel"/>
+<attribute name="NUMBER_OF_IO" value="16"/>
+<attribute name="OPERATING_TEMPERATURE" value="-40°C ~ 85°C"/>
+<attribute name="OSCILLATOR_TYPE" value="Internal"/>
+<attribute name="PACKAGE" value="20-SOIC (0.295&quot;, 7.50mm Width)"/>
+<attribute name="PART_NUMBER" value="ATTINY167-SUR"/>
+<attribute name="PERIPHERALS" value="Brown-out Detect/Reset, POR, PWM, Temp Sensor, WDT"/>
+<attribute name="PROGRAM_MEMORY_SIZE" value="16KB (8K x 16)"/>
+<attribute name="PROGRAM_MEMORY_TYPE" value="FLASH"/>
+<attribute name="RAM_SIZE" value="512 x 8"/>
+<attribute name="SERIES" value="AVR® ATtiny"/>
+<attribute name="SPEED" value="20MHz"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="20-SOIC"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/ATTINY167-SUR/ATTINY167-SURCT-ND/2774335&quot;&gt;Details&lt;/a&gt;"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="ATTINY167-SURCT-ND" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/ATTINY167-SUR/ATTINY167-SURCT-ND/2774335" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="ATTINY167-SURCT-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/ATTINY167-SUR/ATTINY167-SURCT-ND/2774335"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
-<attribute name="VOLTAGE-SUPPLY" value="1.8 V ~ 5.5 V" constant="no"/>
+<attribute name="VOLTAGE-SUPPLY" value="1.8 V ~ 5.5 V"/>
 </technology>
 </technologies>
 </device>

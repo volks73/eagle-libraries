@@ -135,34 +135,34 @@ For attribution, please provide a link in any documentation or design files to t
 </connects>
 <technologies>
 <technology name="160-20">
-<attribute name="CATEGORY" value="Crystals and Oscillators" constant="no"/>
-<attribute name="DESCRIPTION" value="CRYSTAL 16MHZ 20PF THRU" constant="no"/>
+<attribute name="CATEGORY" value="Crystals and Oscillators"/>
+<attribute name="DESCRIPTION" value="CRYSTAL 16MHZ 20PF THRU"/>
 <attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.ecsxtal.com/store/pdf/hc-49usx.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
-<attribute name="DOCUMENTATION_URL" value="http://www.ecsxtal.com/store/pdf/hc-49usx.pdf" constant="no"/>
-<attribute name="ESR" value="40 Ohm" constant="no"/>
-<attribute name="FAMILY" value="Crystals" constant="no"/>
-<attribute name="FREQUENCY" value="16MHz" constant="no"/>
-<attribute name="FREQUENCY_STABILITY" value="50ppm" constant="no"/>
-<attribute name="FREQUENCY_TOLERANCE" value="30ppm" constant="no"/>
-<attribute name="HEIGHT" value="0.138&quot; (3.50mm)" constant="no"/>
-<attribute name="LOAD_CAPACITANCE" value="20pF" constant="no"/>
-<attribute name="MANUFACTURER" value="ECS Inc" constant="no"/>
-<attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
-<attribute name="OPERATING_MODE" value="Fundamental" constant="no"/>
-<attribute name="OPERATING_TEMPERATURE" value="-10C ~ 70C" constant="no"/>
-<attribute name="PACKAGE" value="HC49/US" constant="no"/>
-<attribute name="PART_NUMBER" value="ECS-160-20-4X" constant="no"/>
-<attribute name="RATINGS" value="-" constant="no"/>
-<attribute name="SERIES" value="HC-49USX" constant="no"/>
-<attribute name="SIZE" value="0.447&quot; L x 0.183&quot; W (11.35mm x 4.65mm)" constant="no"/>
-<attribute name="STANDARD_PACKAGE" value="200" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.ecsxtal.com/store/pdf/hc-49usx.pdf"/>
+<attribute name="ESR" value="40 Ohm"/>
+<attribute name="FAMILY" value="Crystals"/>
+<attribute name="FREQUENCY" value="16MHz"/>
+<attribute name="FREQUENCY_STABILITY" value="50ppm"/>
+<attribute name="FREQUENCY_TOLERANCE" value="30ppm"/>
+<attribute name="HEIGHT" value="0.138&quot; (3.50mm)"/>
+<attribute name="LOAD_CAPACITANCE" value="20pF"/>
+<attribute name="MANUFACTURER" value="ECS Inc"/>
+<attribute name="MOUNTING_TYPE" value="Through Hole"/>
+<attribute name="OPERATING_MODE" value="Fundamental"/>
+<attribute name="OPERATING_TEMPERATURE" value="-10C ~ 70C"/>
+<attribute name="PACKAGE" value="HC49/US"/>
+<attribute name="PART_NUMBER" value="ECS-160-20-4X"/>
+<attribute name="RATINGS" value="-"/>
+<attribute name="SERIES" value="HC-49USX"/>
+<attribute name="SIZE" value="0.447&quot; L x 0.183&quot; W (11.35mm x 4.65mm)"/>
+<attribute name="STANDARD_PACKAGE" value="200"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/ECS-160-20-4X/X1103-ND/827594&quot;&gt;Details&lt;/a&gt;"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="X1103-ND" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/ECS-160-20-4X/X1103-ND/827594" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="X1103-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/ECS-160-20-4X/X1103-ND/827594"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
-<attribute name="TYPE" value="MHz Crystal" constant="no"/>
+<attribute name="TYPE" value="MHz Crystal"/>
 </technology>
 </technologies>
 </device>

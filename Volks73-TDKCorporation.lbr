@@ -153,66 +153,66 @@ For attribution, please provide a link in any documentation or design files to t
 </connects>
 <technologies>
 <technology name="X7R1E104K">
-<attribute name="APPLICATIONS" value="General Purpose" constant="no"/>
-<attribute name="CAPACITANCE" value="0.1uF" constant="no"/>
-<attribute name="CATEGORY" value="Capacitors" constant="no"/>
-<attribute name="DESCRIPTION" value="CAP CER 0.1UF 25V 10% RADIAL" constant="no"/>
+<attribute name="APPLICATIONS" value="General Purpose"/>
+<attribute name="CAPACITANCE" value="0.1uF"/>
+<attribute name="CATEGORY" value="Capacitors"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 25V 10% RADIAL"/>
 <attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://product.tdk.com/capacitor/leadmlcc/en/documents/leadmlcc_commercial_general_en.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
 <attribute name="DOCUMENTATION_URL" value="http://product.tdk.com/capacitor/leadmlcc/en/documents/leadmlcc_commercial_general_en.pdf"/>
-<attribute name="FAMILY" value="Ceramic Capacitors" constant="no"/>
-<attribute name="FEATURES" value="-" constant="no"/>
-<attribute name="HEIGHT" value="0.217&quot; (5.50mm)" constant="no"/>
-<attribute name="LEAD_SPACING" value="0.098&quot; (2.50mm)" constant="no"/>
-<attribute name="LEAD_STYLE" value="Formed Leads - Kinked" constant="no"/>
-<attribute name="MANUFACTURER" value="TDK Corporation" constant="no"/>
-<attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
-<attribute name="OPERATING_TEMPERATURE" value="-55°C ~ 125°C" constant="no"/>
-<attribute name="PACKAGE" value="Radial" constant="no"/>
-<attribute name="PACKAGE-CASE" value="Radial" constant="no"/>
-<attribute name="PART_NUMBER" value="FK18X7R1E104K" constant="no"/>
-<attribute name="RATINGS" value="-" constant="no"/>
-<attribute name="SIZE" value="0.157&quot; L x 0.098&quot; W (4.00mm x 2.50mm)" constant="no"/>
+<attribute name="FAMILY" value="Ceramic Capacitors"/>
+<attribute name="FEATURES" value="-"/>
+<attribute name="HEIGHT" value="0.217&quot; (5.50mm)"/>
+<attribute name="LEAD_SPACING" value="0.098&quot; (2.50mm)"/>
+<attribute name="LEAD_STYLE" value="Formed Leads - Kinked"/>
+<attribute name="MANUFACTURER" value="TDK Corporation"/>
+<attribute name="MOUNTING_TYPE" value="Through Hole"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55°C ~ 125°C"/>
+<attribute name="PACKAGE" value="Radial"/>
+<attribute name="PACKAGE-CASE" value="Radial"/>
+<attribute name="PART_NUMBER" value="FK18X7R1E104K"/>
+<attribute name="RATINGS" value="-"/>
+<attribute name="SIZE" value="0.157&quot; L x 0.098&quot; W (4.00mm x 2.50mm)"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-search/en?KeyWords=FK18X7R1E104K&amp;WT.z_header=search_go&quot;&gt;Details&lt;/a&gt;"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="445-8421-ND" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-search/en?KeyWords=FK18X7R1E104K&amp;WT.z_header=search_go" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="445-8421-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-search/en?KeyWords=FK18X7R1E104K&amp;WT.z_header=search_go"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
-<attribute name="TEMPERATURE_COEFFICIENT" value="X7R" constant="no"/>
-<attribute name="THICKNESS" value="-" constant="no"/>
-<attribute name="TOLERANCE" value="±10%" constant="no"/>
-<attribute name="VOLTAGE-RATED" value="25V" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="X7R"/>
+<attribute name="THICKNESS" value="-"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VOLTAGE-RATED" value="25V"/>
 </technology>
 <technology name="X7R1E105K">
-<attribute name="APPLICATIONS" value="General Purpose" constant="no"/>
-<attribute name="CAPACITANCE" value="1.0uF" constant="no"/>
-<attribute name="CATEGORY" value="Capacitors" constant="no"/>
-<attribute name="DESCRIPTION" value="CAP CER 1UF 25V 10% RADIAL" constant="no"/>
+<attribute name="APPLICATIONS" value="General Purpose"/>
+<attribute name="CAPACITANCE" value="1.0uF"/>
+<attribute name="CATEGORY" value="Capacitors"/>
+<attribute name="DESCRIPTION" value="CAP CER 1UF 25V 10% RADIAL"/>
 <attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://product.tdk.com/capacitor/leadmlcc/en/documents/leadmlcc_commercial_general_en.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
 <attribute name="DOCUMENTATION_URL" value="http://product.tdk.com/capacitor/leadmlcc/en/documents/leadmlcc_commercial_general_en.pdf"/>
-<attribute name="FAMILY" value="Ceramic Capacitors" constant="no"/>
-<attribute name="FEATURES" value="-" constant="no"/>
-<attribute name="HEIGHT" value="0.217&quot; (5.50mm)" constant="no"/>
-<attribute name="LEAD_SPACING" value="0.098&quot; (2.50mm)" constant="no"/>
-<attribute name="LEAD_STYLE" value="Formed Leads - Kinked" constant="no"/>
-<attribute name="MANUFACTURER" value="TDK Corporation" constant="no"/>
-<attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
-<attribute name="OPERATING_TEMPERATURE" value="-55°C ~ 125°C" constant="no"/>
-<attribute name="PACKAGE" value="Radial" constant="no"/>
-<attribute name="PACKAGE-CASE" value="" constant="no"/>
-<attribute name="PART_NUMBER" value="FK18X7R1E105K" constant="no"/>
-<attribute name="RATINGS" value="-" constant="no"/>
-<attribute name="SIZE" value="0.157&quot; L x 0.098&quot; W (4.00mm x 2.50mm)" constant="no"/>
+<attribute name="FAMILY" value="Ceramic Capacitors"/>
+<attribute name="FEATURES" value="-"/>
+<attribute name="HEIGHT" value="0.217&quot; (5.50mm)"/>
+<attribute name="LEAD_SPACING" value="0.098&quot; (2.50mm)"/>
+<attribute name="LEAD_STYLE" value="Formed Leads - Kinked"/>
+<attribute name="MANUFACTURER" value="TDK Corporation"/>
+<attribute name="MOUNTING_TYPE" value="Through Hole"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55°C ~ 125°C"/>
+<attribute name="PACKAGE" value="Radial"/>
+<attribute name="PACKAGE-CASE" value=""/>
+<attribute name="PART_NUMBER" value="FK18X7R1E105K"/>
+<attribute name="RATINGS" value="-"/>
+<attribute name="SIZE" value="0.157&quot; L x 0.098&quot; W (4.00mm x 2.50mm)"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-search/en?KeyWords=FK18X7R1E105K&amp;WT.z_header=search_go&quot;&gt;Details&lt;/a&gt;"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="445-8422-ND" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-search/en?KeyWords=FK18X7R1E105K&amp;WT.z_header=search_go" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="445-8422-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-search/en?KeyWords=FK18X7R1E105K&amp;WT.z_header=search_go"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
-<attribute name="TEMPERATURE_COEFFICIENT" value="X7R" constant="no"/>
-<attribute name="THICKNESS" value="-" constant="no"/>
-<attribute name="TOLERANCE" value="±10%" constant="no"/>
-<attribute name="VOLTAGE-RATED" value="25V" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="X7R"/>
+<attribute name="THICKNESS" value="-"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VOLTAGE-RATED" value="25V"/>
 </technology>
 </technologies>
 </device>
@@ -223,35 +223,35 @@ For attribution, please provide a link in any documentation or design files to t
 </connects>
 <technologies>
 <technology name="X7R1E106K">
-<attribute name="APPLICATIONS" value="General Purpose" constant="no"/>
-<attribute name="CAPACITANCE" value="10uF" constant="no"/>
-<attribute name="CATEGORY" value="Capacitors" constant="no"/>
-<attribute name="DESCRIPTION" value="CAP CER 10UF 25V 10% RADIAL" constant="no"/>
+<attribute name="APPLICATIONS" value="General Purpose"/>
+<attribute name="CAPACITANCE" value="10uF"/>
+<attribute name="CATEGORY" value="Capacitors"/>
+<attribute name="DESCRIPTION" value="CAP CER 10UF 25V 10% RADIAL"/>
 <attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://product.tdk.com/capacitor/leadmlcc/en/documents/leadmlcc_commercial_general_en.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
-<attribute name="DOCUMENTATION_URL" value="http://product.tdk.com/capacitor/leadmlcc/en/documents/leadmlcc_commercial_general_en.pdf" constant="no"/>
-<attribute name="FAMILY" value="Ceramic Capacitors" constant="no"/>
-<attribute name="FEATURES" value="-" constant="no"/>
-<attribute name="HEIGHT" value="0.236&quot;" constant="no"/>
-<attribute name="LEAD_SPACING" value="0.098&quot;" constant="no"/>
-<attribute name="LEAD_STYLE" value="Formed Leads - Kinked" constant="no"/>
-<attribute name="MANUFACTURER" value="TDK Corporation" constant="no"/>
-<attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
-<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 125C" constant="no"/>
-<attribute name="PACKAGE" value="Radial" constant="no"/>
-<attribute name="PART_NUMBER" value="FK16X7R1E106K" constant="no"/>
-<attribute name="RATINGS" value="-" constant="no"/>
-<attribute name="SERIES" value="FK" constant="no"/>
-<attribute name="SIZE" value="0.217&quot; L x 0.138&quot; W (5.50mm x 3.50mm)" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://product.tdk.com/capacitor/leadmlcc/en/documents/leadmlcc_commercial_general_en.pdf"/>
+<attribute name="FAMILY" value="Ceramic Capacitors"/>
+<attribute name="FEATURES" value="-"/>
+<attribute name="HEIGHT" value="0.236&quot;"/>
+<attribute name="LEAD_SPACING" value="0.098&quot;"/>
+<attribute name="LEAD_STYLE" value="Formed Leads - Kinked"/>
+<attribute name="MANUFACTURER" value="TDK Corporation"/>
+<attribute name="MOUNTING_TYPE" value="Through Hole"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 125C"/>
+<attribute name="PACKAGE" value="Radial"/>
+<attribute name="PART_NUMBER" value="FK16X7R1E106K"/>
+<attribute name="RATINGS" value="-"/>
+<attribute name="SERIES" value="FK"/>
+<attribute name="SIZE" value="0.217&quot; L x 0.138&quot; W (5.50mm x 3.50mm)"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-search/en?KeyWords=FK16X7R1E106K&amp;WT.z_header=search_go&quot;&gt;Details&lt;/a&gt;"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="445-8351-ND" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-search/en?KeyWords=FK16X7R1E106K&amp;WT.z_header=search_go" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="445-8351-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-search/en?KeyWords=FK16X7R1E106K&amp;WT.z_header=search_go"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
-<attribute name="TEMPERATURE_COEFFICIENT" value="X7R" constant="no"/>
-<attribute name="THICKNESS" value="-" constant="no"/>
-<attribute name="TOLERANCE" value="±10%" constant="no"/>
-<attribute name="VOLTAGE-RATED" value="25V" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="X7R"/>
+<attribute name="THICKNESS" value="-"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VOLTAGE-RATED" value="25V"/>
 </technology>
 </technologies>
 </device>

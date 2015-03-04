@@ -291,62 +291,62 @@ For attribution, please provide a link in any documentation or design files to t
 </connects>
 <technologies>
 <technology name="C104M5U5TA">
-<attribute name="APPLICATIONS" value="General Purpose" constant="no"/>
-<attribute name="CAPACITANCE" value="0.1uF" constant="no"/>
-<attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V 20% RADIAL" constant="no"/>
+<attribute name="APPLICATIONS" value="General Purpose"/>
+<attribute name="CAPACITANCE" value="0.1uF"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V 20% RADIAL"/>
 <attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.kemet.com/Lists/ProductCatalog/Attachments/52/F3101_GoldMax.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
-<attribute name="DOCUMENTATION_URL" value="http://www.kemet.com/Lists/ProductCatalog/Attachments/52/F3101_GoldMax.pdf" constant="no"/>
-<attribute name="FEATURES" value="-" constant="no"/>
-<attribute name="HEIGHT" value="0.210&quot; (5.33mm)" constant="no"/>
-<attribute name="LEAD_SPACING" value="0.100&quot; (2.54mm)" constant="no"/>
-<attribute name="LEAD_STYLE" value="Straight" constant="no"/>
-<attribute name="MANUFACTURER" value="Kemet" constant="no"/>
-<attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
-<attribute name="OPERATING_TEMERPATURE" value="10C ~ 85C" constant="no"/>
-<attribute name="PACKAGE" value="Radial" constant="no"/>
-<attribute name="PART_NUMBER" value="C315C104M5U5TA" constant="no"/>
-<attribute name="RATINGS" value="-" constant="no"/>
-<attribute name="SERIES" value="Golden Max" constant="no"/>
-<attribute name="SIZE" value="0.150&quot; L x 0.100&quot; W (3.81mm x 2.54mm" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.kemet.com/Lists/ProductCatalog/Attachments/52/F3101_GoldMax.pdf"/>
+<attribute name="FEATURES" value="-"/>
+<attribute name="HEIGHT" value="0.210&quot; (5.33mm)"/>
+<attribute name="LEAD_SPACING" value="0.100&quot; (2.54mm)"/>
+<attribute name="LEAD_STYLE" value="Straight"/>
+<attribute name="MANUFACTURER" value="Kemet"/>
+<attribute name="MOUNTING_TYPE" value="Through Hole"/>
+<attribute name="OPERATING_TEMERPATURE" value="10C ~ 85C"/>
+<attribute name="PACKAGE" value="Radial"/>
+<attribute name="PART_NUMBER" value="C315C104M5U5TA"/>
+<attribute name="RATINGS" value="-"/>
+<attribute name="SERIES" value="Golden Max"/>
+<attribute name="SIZE" value="0.150&quot; L x 0.100&quot; W (3.81mm x 2.54mm"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/C315C104M5U5TA/399-4151-ND/817927&quot;&gt;Details&lt;/a&gt;"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="399-4151-ND" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/C315C104M5U5TA/399-4151-ND/817927" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="399-4151-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/C315C104M5U5TA/399-4151-ND/817927"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
-<attribute name="TEMPERATURE_COEFFICIENT" value="Z5U" constant="no"/>
-<attribute name="THICKNESS" value="-" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
-<attribute name="VOLTAGE-RATED" value="50V" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="Z5U"/>
+<attribute name="THICKNESS" value="-"/>
+<attribute name="TOLERANCE" value="20%"/>
+<attribute name="VOLTAGE-RATED" value="50V"/>
 </technology>
 <technology name="C105K3R5TA">
-<attribute name="APPLICATIONS" value="General Purpose" constant="no"/>
-<attribute name="CAPACITANCE" value="1.0uF" constant="no"/>
-<attribute name="DESCRIPTION" value="CAP CER 1UF 25V 10% RADIAL" constant="no"/>
+<attribute name="APPLICATIONS" value="General Purpose"/>
+<attribute name="CAPACITANCE" value="1.0uF"/>
+<attribute name="DESCRIPTION" value="CAP CER 1UF 25V 10% RADIAL"/>
 <attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.kemet.com/Lists/ProductCatalog/Attachments/52/F3101_GoldMax.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
-<attribute name="DOCUMENTATION_URL" value="http://www.kemet.com/Lists/ProductCatalog/Attachments/52/F3101_GoldMax.pdf" constant="no"/>
-<attribute name="FEATURES" value="-" constant="no"/>
-<attribute name="HEIGHT" value="0.210&quot; (5.33mm)" constant="no"/>
-<attribute name="LEAD_SPACING" value="0.100&quot; (2.54mm)" constant="no"/>
-<attribute name="LEAD_STYLE" value="Straight" constant="no"/>
-<attribute name="MANUFACTURER" value="Kemet" constant="no"/>
-<attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
-<attribute name="OPERATING_TEMERPATURE" value="-55C ~ 125C" constant="no"/>
-<attribute name="PACKAGE" value="Radial" constant="no"/>
-<attribute name="PART_NUMBER" value="C315C105K3R5TA" constant="no"/>
-<attribute name="RATINGS" value="-" constant="no"/>
-<attribute name="SERIES" value="Golden Max" constant="no"/>
-<attribute name="SIZE" value="0.150&quot; L x 0.100&quot; W (3.81mm x 2.54mm" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.kemet.com/Lists/ProductCatalog/Attachments/52/F3101_GoldMax.pdf"/>
+<attribute name="FEATURES" value="-"/>
+<attribute name="HEIGHT" value="0.210&quot; (5.33mm)"/>
+<attribute name="LEAD_SPACING" value="0.100&quot; (2.54mm)"/>
+<attribute name="LEAD_STYLE" value="Straight"/>
+<attribute name="MANUFACTURER" value="Kemet"/>
+<attribute name="MOUNTING_TYPE" value="Through Hole"/>
+<attribute name="OPERATING_TEMERPATURE" value="-55C ~ 125C"/>
+<attribute name="PACKAGE" value="Radial"/>
+<attribute name="PART_NUMBER" value="C315C105K3R5TA"/>
+<attribute name="RATINGS" value="-"/>
+<attribute name="SERIES" value="Golden Max"/>
+<attribute name="SIZE" value="0.150&quot; L x 0.100&quot; W (3.81mm x 2.54mm"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-search/en?KeyWords=C315C105K3R5TA&amp;WT.z_header=search_go&quot;&gt;Details&lt;/a&gt;"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="399-9714-ND" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-search/en?KeyWords=C315C105K3R5TA&amp;WT.z_header=search_go" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="399-9714-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-search/en?KeyWords=C315C105K3R5TA&amp;WT.z_header=search_go"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
-<attribute name="TEMPERATURE_COEFFICIENT" value="X7R" constant="no"/>
-<attribute name="THICKNESS" value="-" constant="no"/>
-<attribute name="TOLERANCE" value="10%" constant="no"/>
-<attribute name="VOLTAGE-RATED" value="25V" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="X7R"/>
+<attribute name="THICKNESS" value="-"/>
+<attribute name="TOLERANCE" value="10%"/>
+<attribute name="VOLTAGE-RATED" value="25V"/>
 </technology>
 </technologies>
 </device>
@@ -393,34 +393,34 @@ as MSL (Moisture Sensitivity Level) 1 under J STD 020: unlimited flor life time 
 </connects>
 <technologies>
 <technology name="107K025AT">
-<attribute name="CAPACITANCE" value="100uF" constant="no"/>
-<attribute name="CATEGORY" value="Capacitors" constant="no"/>
-<attribute name="DESCRIPTION" value="CAP TANT 100UF 25V 10% 2917" constant="no"/>
+<attribute name="CAPACITANCE" value="100uF"/>
+<attribute name="CATEGORY" value="Capacitors"/>
+<attribute name="DESCRIPTION" value="CAP TANT 100UF 25V 10% 2917"/>
 <attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
-<attribute name="DOCUMENTATION_URL" value="http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf" constant="no"/>
-<attribute name="ESR" value="300 mOhm" constant="no"/>
-<attribute name="FAMILY" value="Tantalum Capacitors" constant="no"/>
-<attribute name="FEATURES" value="General Purpose" constant="no"/>
-<attribute name="HEIGHT-SEATED" value="0.169&quot; (4.30mm)" constant="no"/>
-<attribute name="LEAD_SPACING" value="-" constant="no"/>
-<attribute name="MANUFACTURER" value="Kemet" constant="no"/>
-<attribute name="MANUFACTURER_SIZE_CODE" value="X" constant="no"/>
-<attribute name="MOUNTING_TYPE" value="Surface Mount" constant="no"/>
-<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 125C" constant="no"/>
-<attribute name="PACKAGE" value="2917 (7343 Metric)" constant="no"/>
-<attribute name="PART_NUMBER" value="T491X107K025AT" constant="no"/>
-<attribute name="SERIES" value="T491" constant="no"/>
-<attribute name="SIZE" value="0.287&quot; L x 0.169&quot; W (7.30mm x 4.30mm)" constant="no"/>
-<attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-detail/en/T491X107K025AT/399-8410-1-ND/3472133" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf"/>
+<attribute name="ESR" value="300 mOhm"/>
+<attribute name="FAMILY" value="Tantalum Capacitors"/>
+<attribute name="FEATURES" value="General Purpose"/>
+<attribute name="HEIGHT-SEATED" value="0.169&quot; (4.30mm)"/>
+<attribute name="LEAD_SPACING" value="-"/>
+<attribute name="MANUFACTURER" value="Kemet"/>
+<attribute name="MANUFACTURER_SIZE_CODE" value="X"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 125C"/>
+<attribute name="PACKAGE" value="2917 (7343 Metric)"/>
+<attribute name="PART_NUMBER" value="T491X107K025AT"/>
+<attribute name="SERIES" value="T491"/>
+<attribute name="SIZE" value="0.287&quot; L x 0.169&quot; W (7.30mm x 4.30mm)"/>
+<attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-detail/en/T491X107K025AT/399-8410-1-ND/3472133"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;&quot;&gt;Details&lt;/a&gt;"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="399-8410-1-ND" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="399-8410-1-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value=""/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
-<attribute name="TOLERANCE" value="10%" constant="no"/>
-<attribute name="TYPE" value="Molded" constant="no"/>
-<attribute name="VOLTAGE-RATED" value="25V" constant="no"/>
+<attribute name="TOLERANCE" value="10%"/>
+<attribute name="TYPE" value="Molded"/>
+<attribute name="VOLTAGE-RATED" value="25V"/>
 </technology>
 </technologies>
 </device>
@@ -431,97 +431,97 @@ as MSL (Moisture Sensitivity Level) 1 under J STD 020: unlimited flor life time 
 </connects>
 <technologies>
 <technology name="107K016AT">
-<attribute name="CAPACITANCE" value="100µF" constant="no"/>
-<attribute name="CATEGORY" value="Capacitors" constant="no"/>
-<attribute name="DATASHEET" value="http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf" constant="no"/>
-<attribute name="DESCRIPTION" value="CAP TANT 100UF 16V 10% 2917" constant="no"/>
+<attribute name="CAPACITANCE" value="100µF"/>
+<attribute name="CATEGORY" value="Capacitors"/>
+<attribute name="DATASHEET" value="http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf"/>
+<attribute name="DESCRIPTION" value="CAP TANT 100UF 16V 10% 2917"/>
 <attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
-<attribute name="DOCUMENTATION_URL" value="http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf" constant="no"/>
-<attribute name="ESR" value="700 mOhm" constant="no"/>
-<attribute name="FAMILY" value="Tantalum Capacitors" constant="no"/>
-<attribute name="FEATURES" value="General Purpose" constant="no"/>
-<attribute name="HEIGHT-SEATED" value="0.122&quot; (3.10mm)" constant="no"/>
-<attribute name="LEAD_SPACING" value="-" constant="no"/>
-<attribute name="LIFETIME_TEMP" value="2000 Hrs @ 85°C" constant="no"/>
-<attribute name="MANUFACTURER" value="Kemet" constant="no"/>
-<attribute name="MANUFACTURER_SIZE_CODE" value="D" constant="no"/>
-<attribute name="MOUNTING_TYPE" value="Surface Mount" constant="no"/>
-<attribute name="OPERATING_TEMPERATURE" value="-55°C ~ 125°C" constant="no"/>
-<attribute name="PART_NUMBER" value="T491D107K016AT" constant="no"/>
-<attribute name="SERIES" value="T491" constant="no"/>
-<attribute name="SIZE" value="0.287&quot; L x 0.169&quot; W (7.30mm x 4.30mm)" constant="no"/>
-<attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-detail/en/T491D107K016AT/399-3770-1-ND/819095" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf"/>
+<attribute name="ESR" value="700 mOhm"/>
+<attribute name="FAMILY" value="Tantalum Capacitors"/>
+<attribute name="FEATURES" value="General Purpose"/>
+<attribute name="HEIGHT-SEATED" value="0.122&quot; (3.10mm)"/>
+<attribute name="LEAD_SPACING" value="-"/>
+<attribute name="LIFETIME_TEMP" value="2000 Hrs @ 85°C"/>
+<attribute name="MANUFACTURER" value="Kemet"/>
+<attribute name="MANUFACTURER_SIZE_CODE" value="D"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55°C ~ 125°C"/>
+<attribute name="PART_NUMBER" value="T491D107K016AT"/>
+<attribute name="SERIES" value="T491"/>
+<attribute name="SIZE" value="0.287&quot; L x 0.169&quot; W (7.30mm x 4.30mm)"/>
+<attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-detail/en/T491D107K016AT/399-3770-1-ND/819095"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/T491D107K016AT/399-3770-1-ND/819095&quot;&gt;Details&lt;/a&gt;"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="399-3770-1-ND" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/T491D107K016AT/399-3770-1-ND/819095" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="399-3770-1-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/T491D107K016AT/399-3770-1-ND/819095"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
-<attribute name="TOLERANCE" value="±10%" constant="no"/>
-<attribute name="TYPE" value="Molded" constant="no"/>
-<attribute name="VOLTAGE-RATED" value="16V" constant="no"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="TYPE" value="Molded"/>
+<attribute name="VOLTAGE-RATED" value="16V"/>
 </technology>
 <technology name="107M006AT">
-<attribute name="CAPACITANCE" value="100µF" constant="no"/>
-<attribute name="CATEGORY" value="Capacitors" constant="no"/>
-<attribute name="DATASHEET" value="http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf" constant="no"/>
-<attribute name="DESCRIPTION" value="CAP TANT 100UF 6.3V 20% 2917" constant="no"/>
+<attribute name="CAPACITANCE" value="100µF"/>
+<attribute name="CATEGORY" value="Capacitors"/>
+<attribute name="DATASHEET" value="http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf"/>
+<attribute name="DESCRIPTION" value="CAP TANT 100UF 6.3V 20% 2917"/>
 <attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
-<attribute name="DOCUMENTATION_URL" value="http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf" constant="no"/>
-<attribute name="ESR" value="800 mOhm" constant="no"/>
-<attribute name="FAMILY" value="Tantalum Capacitors" constant="no"/>
-<attribute name="FEATURES" value="General Purpose" constant="no"/>
-<attribute name="HEIGHT-SEATED" value="0.122&quot; (3.10mm)" constant="no"/>
-<attribute name="LEAD_SPACING" value="-" constant="no"/>
-<attribute name="LIFETIME_TEMP" value="2000 Hrs @ 85°C" constant="no"/>
-<attribute name="MANUFACTURER" value="Kemet" constant="no"/>
-<attribute name="MANUFACTURER_SIZE_CODE" value="D" constant="no"/>
-<attribute name="MOUNTING_TYPE" value="Surface Mount" constant="no"/>
-<attribute name="OPERATING_TEMPERATURE" value="-55°C ~ 125°C" constant="no"/>
-<attribute name="PART_NUMBER" value="T491D107M006AT" constant="no"/>
-<attribute name="SERIES" value="T491" constant="no"/>
-<attribute name="SIZE" value="0.287&quot; L x 0.169&quot; W (7.30mm x 4.30mm)" constant="no"/>
-<attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-detail/en/T491D107M006AT/399-8367-1-ND/3472090" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf"/>
+<attribute name="ESR" value="800 mOhm"/>
+<attribute name="FAMILY" value="Tantalum Capacitors"/>
+<attribute name="FEATURES" value="General Purpose"/>
+<attribute name="HEIGHT-SEATED" value="0.122&quot; (3.10mm)"/>
+<attribute name="LEAD_SPACING" value="-"/>
+<attribute name="LIFETIME_TEMP" value="2000 Hrs @ 85°C"/>
+<attribute name="MANUFACTURER" value="Kemet"/>
+<attribute name="MANUFACTURER_SIZE_CODE" value="D"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55°C ~ 125°C"/>
+<attribute name="PART_NUMBER" value="T491D107M006AT"/>
+<attribute name="SERIES" value="T491"/>
+<attribute name="SIZE" value="0.287&quot; L x 0.169&quot; W (7.30mm x 4.30mm)"/>
+<attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-detail/en/T491D107M006AT/399-8367-1-ND/3472090"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/T491D107M006AT/399-8367-1-ND/3472090&quot;&gt;Details&lt;/a&gt;"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="399-8367-1-ND" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/T491D107M006AT/399-8367-1-ND/3472090" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="399-8367-1-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/T491D107M006AT/399-8367-1-ND/3472090"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
-<attribute name="TOLERANCE" value="±20%" constant="no"/>
-<attribute name="TYPE" value="Molded" constant="no"/>
-<attribute name="VOLTAGE-RATED" value="6.3V" constant="no"/>
+<attribute name="TOLERANCE" value="±20%"/>
+<attribute name="TYPE" value="Molded"/>
+<attribute name="VOLTAGE-RATED" value="6.3V"/>
 </technology>
 <technology name="107M010AT">
-<attribute name="CAPACITANCE" value="100µF" constant="no"/>
-<attribute name="CATEGORY" value="Capacitors" constant="no"/>
-<attribute name="DATASHEET" value="http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf" constant="no"/>
-<attribute name="DESCRIPTION" value="CAP TANT 100UF 10V 20% 2917" constant="no"/>
+<attribute name="CAPACITANCE" value="100µF"/>
+<attribute name="CATEGORY" value="Capacitors"/>
+<attribute name="DATASHEET" value="http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf"/>
+<attribute name="DESCRIPTION" value="CAP TANT 100UF 10V 20% 2917"/>
 <attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
-<attribute name="DOCUMENTATION_URL" value="http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf" constant="no"/>
-<attribute name="ESR" value="700 mOhm" constant="no"/>
-<attribute name="FAMILY" value="Tantalum Capacitors" constant="no"/>
-<attribute name="FEATURES" value="General Purpose" constant="no"/>
-<attribute name="HEIGHT-SEATED" value="0.122&quot; (3.10mm)" constant="no"/>
-<attribute name="LEAD_SPACING" value="-" constant="no"/>
-<attribute name="LIFETIME_TEMP" value="2000 Hrs @ 85°C" constant="no"/>
-<attribute name="MANUFACTURER" value="Kemet" constant="no"/>
-<attribute name="MANUFACTURER_SIZE_CODE" value="D" constant="no"/>
-<attribute name="MOUNTING_TYPE" value="Surface Mount" constant="no"/>
-<attribute name="OPERATING_TEMPERATURE" value="-55°C ~ 125°C" constant="no"/>
-<attribute name="PART_NUMBER" value="T491D107M010AT" constant="no"/>
-<attribute name="SERIES" value="T491" constant="no"/>
-<attribute name="SIZE" value="0.287&quot; L x 0.169&quot; W (7.30mm x 4.30mm)" constant="no"/>
-<attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-detail/en/T491D107M010AT/399-3772-1-ND/819097" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf"/>
+<attribute name="ESR" value="700 mOhm"/>
+<attribute name="FAMILY" value="Tantalum Capacitors"/>
+<attribute name="FEATURES" value="General Purpose"/>
+<attribute name="HEIGHT-SEATED" value="0.122&quot; (3.10mm)"/>
+<attribute name="LEAD_SPACING" value="-"/>
+<attribute name="LIFETIME_TEMP" value="2000 Hrs @ 85°C"/>
+<attribute name="MANUFACTURER" value="Kemet"/>
+<attribute name="MANUFACTURER_SIZE_CODE" value="D"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55°C ~ 125°C"/>
+<attribute name="PART_NUMBER" value="T491D107M010AT"/>
+<attribute name="SERIES" value="T491"/>
+<attribute name="SIZE" value="0.287&quot; L x 0.169&quot; W (7.30mm x 4.30mm)"/>
+<attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-detail/en/T491D107M010AT/399-3772-1-ND/819097"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/T491D107M010AT/399-3772-1-ND/819097&quot;&gt;Details&lt;/a&gt;"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="399-3772-1-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="399-3772-1-ND"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/T491D107M010AT/399-3772-1-ND/819097"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
-<attribute name="TOLERANCE" value="±20%" constant="no"/>
-<attribute name="TYPE" value="Molded" constant="no"/>
-<attribute name="VOLTAGE-RATED" value="10V" constant="no"/>
+<attribute name="TOLERANCE" value="±20%"/>
+<attribute name="TYPE" value="Molded"/>
+<attribute name="VOLTAGE-RATED" value="10V"/>
 </technology>
 </technologies>
 </device>
@@ -559,35 +559,35 @@ Typical applications include coupling, decoupling, bypass, and fitering.
 </connects>
 <technologies>
 <technology name="107M050A">
-<attribute name="APPLICATIONS" value="General Purpose" constant="no"/>
-<attribute name="CAPACITANCE" value="100uF" constant="no"/>
-<attribute name="CATEGORY" value="Capacitors" constant="no"/>
-<attribute name="DESCRIPTION" value="CAP ALUM 100UF 50V 20% SMD" constant="no"/>
+<attribute name="APPLICATIONS" value="General Purpose"/>
+<attribute name="CAPACITANCE" value="100uF"/>
+<attribute name="CATEGORY" value="Capacitors"/>
+<attribute name="DESCRIPTION" value="CAP ALUM 100UF 50V 20% SMD"/>
 <attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.kemet.com/Lists/ProductCatalog/Attachments/273/KEM_A4001_EDK.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
-<attribute name="DOCUMENTATION_URL" value="http://www.kemet.com/Lists/ProductCatalog/Attachments/273/KEM_A4001_EDK.pdf" constant="no"/>
-<attribute name="ESR" value="-" constant="no"/>
-<attribute name="FAMILY" value="Aluminum Capacitors" constant="no"/>
-<attribute name="HEIGHT-SEATED" value="0.413&quot; (10.50mm)" constant="no"/>
-<attribute name="LEAD_SPACING" value="-" constant="no"/>
-<attribute name="LIFETIME" value="2000 Hrs @ 85C" constant="no"/>
-<attribute name="MANUFACTURER" value="Kemet" constant="no"/>
-<attribute name="MOUNTING_TYPE" value="Surface Mount" constant="no"/>
-<attribute name="PACKAGE" value="Radial, Can - SMD" constant="no"/>
-<attribute name="PART_NUMBER" value="EDK107M050A9MAA" constant="no"/>
-<attribute name="RIPPLE_CURRENT" value="165mA" constant="no"/>
-<attribute name="SERIES" value="EDK" constant="no"/>
-<attribute name="SIZE" value="0.315&quot; Dia (8.00mm)" constant="no"/>
-<attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-detail/en/EDK107M050A9MAA/399-6672-1-ND/3082804" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.kemet.com/Lists/ProductCatalog/Attachments/273/KEM_A4001_EDK.pdf"/>
+<attribute name="ESR" value="-"/>
+<attribute name="FAMILY" value="Aluminum Capacitors"/>
+<attribute name="HEIGHT-SEATED" value="0.413&quot; (10.50mm)"/>
+<attribute name="LEAD_SPACING" value="-"/>
+<attribute name="LIFETIME" value="2000 Hrs @ 85C"/>
+<attribute name="MANUFACTURER" value="Kemet"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount"/>
+<attribute name="PACKAGE" value="Radial, Can - SMD"/>
+<attribute name="PART_NUMBER" value="EDK107M050A9MAA"/>
+<attribute name="RIPPLE_CURRENT" value="165mA"/>
+<attribute name="SERIES" value="EDK"/>
+<attribute name="SIZE" value="0.315&quot; Dia (8.00mm)"/>
+<attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-detail/en/EDK107M050A9MAA/399-6672-1-ND/3082804"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/EDK107M050A9MAA/399-6672-1-ND/3082804&quot;&gt;Details&lt;/a&gt;"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="399-6672-1-ND" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/EDK107M050A9MAA/399-6672-1-ND/3082804" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="399-6672-1-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/EDK107M050A9MAA/399-6672-1-ND/3082804"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
-<attribute name="SURFACE_MOUNT_LAND_SIZE" value="0.327&quot; L x 0.394&quot; W (8.30mm x 10.00mm)" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
-<attribute name="TYPE" value="-" constant="no"/>
-<attribute name="VOLTAGE_RATING" value="50V" constant="no"/>
+<attribute name="SURFACE_MOUNT_LAND_SIZE" value="0.327&quot; L x 0.394&quot; W (8.30mm x 10.00mm)"/>
+<attribute name="TOLERANCE" value="20%"/>
+<attribute name="TYPE" value="-"/>
+<attribute name="VOLTAGE_RATING" value="50V"/>
 </technology>
 </technologies>
 </device>
@@ -611,37 +611,37 @@ Typical applications include coupling, decoupling, bypass, and fitering.
 </connects>
 <technologies>
 <technology name="C200F5GAC">
-<attribute name="APPLICATIONS" value="RF, Microware, High Frequency" constant="no"/>
-<attribute name="CAPACITANCE" value="20pF" constant="no"/>
-<attribute name="CATEGORY" value="Capacitors" constant="no"/>
-<attribute name="DESCRIPTION" value="CAP CER 20PF 50V 1% NP0 0201" constant="no"/>
+<attribute name="APPLICATIONS" value="RF, Microware, High Frequency"/>
+<attribute name="CAPACITANCE" value="20pF"/>
+<attribute name="CATEGORY" value="Capacitors"/>
+<attribute name="DESCRIPTION" value="CAP CER 20PF 50V 1% NP0 0201"/>
 <attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.kemet.com/Lists/ProductCatalog/Attachments/490/KEM_C1030_CBR_SMD.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
-<attribute name="DOCUMENTATION_URL" value="http://www.kemet.com/Lists/ProductCatalog/Attachments/490/KEM_C1030_CBR_SMD.pdf" constant="no"/>
-<attribute name="FAMILY" value="Ceramic Capacitors" constant="no"/>
-<attribute name="FEATURES" value="High Q, Low Loss" constant="no"/>
-<attribute name="HEIGHT-SEATED" value="-" constant="no"/>
-<attribute name="LEAD_SPACING" value="-" constant="no"/>
-<attribute name="LEAD_STYLE" value="-" constant="no"/>
-<attribute name="MANUFACTURER" value="Kemet" constant="no"/>
-<attribute name="MOUNTING_TYPE" value="Surface Mount, MLCC" constant="no"/>
-<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 125C" constant="no"/>
-<attribute name="PACKAGE" value="0201 (0603 Metric)" constant="no"/>
-<attribute name="PART_NUMBER" value="CBR02C200F5GAC" constant="no"/>
-<attribute name="RATINGS" value="-" constant="no"/>
-<attribute name="SERIES" value="CBR" constant="no"/>
-<attribute name="SIZE" value="0.024&quot; L x 0.012&quot; W (0.60mm x 0.30mm)" constant="no"/>
-<attribute name="STANDARD_PACKAGE" value="1" constant="no"/>
-<attribute name="SUPPLIER_ITEM_INFO" value="www.digikey.com/product-detail/en/CBR02C200F5GAC/399-11242-1-ND/4376869" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.kemet.com/Lists/ProductCatalog/Attachments/490/KEM_C1030_CBR_SMD.pdf"/>
+<attribute name="FAMILY" value="Ceramic Capacitors"/>
+<attribute name="FEATURES" value="High Q, Low Loss"/>
+<attribute name="HEIGHT-SEATED" value="-"/>
+<attribute name="LEAD_SPACING" value="-"/>
+<attribute name="LEAD_STYLE" value="-"/>
+<attribute name="MANUFACTURER" value="Kemet"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount, MLCC"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 125C"/>
+<attribute name="PACKAGE" value="0201 (0603 Metric)"/>
+<attribute name="PART_NUMBER" value="CBR02C200F5GAC"/>
+<attribute name="RATINGS" value="-"/>
+<attribute name="SERIES" value="CBR"/>
+<attribute name="SIZE" value="0.024&quot; L x 0.012&quot; W (0.60mm x 0.30mm)"/>
+<attribute name="STANDARD_PACKAGE" value="1"/>
+<attribute name="SUPPLIER_ITEM_INFO" value="www.digikey.com/product-detail/en/CBR02C200F5GAC/399-11242-1-ND/4376869"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/CBR02C200F5GAC/399-11242-1-ND/4376869&quot;&gt;Details&lt;/a&gt;"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="399-11242-1-ND" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/CBR02C200F5GAC/399-11242-1-ND/4376869" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="399-11242-1-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/CBR02C200F5GAC/399-11242-1-ND/4376869"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
-<attribute name="TEMPERATURE_COEFFICIENT" value="C0G, NP0" constant="no"/>
-<attribute name="THICKENSS" value="0.013&quot; (0.33mm)" constant="no"/>
-<attribute name="TOLERANCE" value="1%" constant="no"/>
-<attribute name="VOLTAGE-RATED" value="50V" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="C0G, NP0"/>
+<attribute name="THICKENSS" value="0.013&quot; (0.33mm)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE-RATED" value="50V"/>
 </technology>
 </technologies>
 </device>

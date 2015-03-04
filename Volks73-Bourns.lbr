@@ -176,26 +176,26 @@ For attribution, please provide a link in any documentation or design files to t
 </connects>
 <technologies>
 <technology name="075/24">
-<attribute name="CATEGORY" value="Circuit Protection" constant="no"/>
-<attribute name="CURRENT-MAX" value="40A" constant="no"/>
-<attribute name="CURRENT-TRIP" value="1.5A" constant="no"/>
-<attribute name="DESCRIPTION" value="PTC RESETTABLE .75A 24V 1812" constant="no"/>
+<attribute name="CATEGORY" value="Circuit Protection"/>
+<attribute name="CURRENT-MAX" value="40A"/>
+<attribute name="CURRENT-TRIP" value="1.5A"/>
+<attribute name="DESCRIPTION" value="PTC RESETTABLE .75A 24V 1812"/>
 <attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.bourns.com/data/global/pdfs/mfmsmf.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
-<attribute name="DOCUMENTATION_URL" value="http://www.bourns.com/data/global/pdfs/mfmsmf.pdf" constant="no"/>
-<attribute name="FAMILY" value="PTC Resettable Fuses" constant="no"/>
-<attribute name="MANUFACTURER" value="Bourns Inc." constant="no"/>
-<attribute name="PACKAGE" value="1812 (4532 Metric), Concave" constant="no"/>
-<attribute name="PART_NUMBER" value="MF-MSMF075/24-2" constant="no"/>
-<attribute name="R_MINMAX" value="0.11 ~ 0.450 Ohm" constant="no"/>
-<attribute name="SERIES" value="MF-MSMF" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.bourns.com/data/global/pdfs/mfmsmf.pdf"/>
+<attribute name="FAMILY" value="PTC Resettable Fuses"/>
+<attribute name="MANUFACTURER" value="Bourns Inc."/>
+<attribute name="PACKAGE" value="1812 (4532 Metric), Concave"/>
+<attribute name="PART_NUMBER" value="MF-MSMF075/24-2"/>
+<attribute name="R_MINMAX" value="0.11 ~ 0.450 Ohm"/>
+<attribute name="SERIES" value="MF-MSMF"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/MF-MSMF075%2F24-2/MF-MSMF075%2F24-2CT-ND/662844&quot;&gt;Details&lt;/a&gt;"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="MF-MSMF075/24-2CT-ND" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/MF-MSMF075%2F24-2/MF-MSMF075%2F24-2CT-ND/662844" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="MF-MSMF075/24-2CT-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/MF-MSMF075%2F24-2/MF-MSMF075%2F24-2CT-ND/662844"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
-<attribute name="TIME_TO_TRIP" value="0.2s" constant="no"/>
-<attribute name="VOLTAGE-MAX" value="24V" constant="no"/>
+<attribute name="TIME_TO_TRIP" value="0.2s"/>
+<attribute name="VOLTAGE-MAX" value="24V"/>
 </technology>
 </technologies>
 </device>
@@ -230,31 +230,31 @@ For attribution, please provide a link in any documentation or design files to t
 </connects>
 <technologies>
 <technology name="1-103LF">
-<attribute name="ADJUSTMENT_TYPE" value="Tope Adjustment" constant="no"/>
-<attribute name="CATEGORY" value="Potentiometers, Variable Resistors" constant="no"/>
-<attribute name="DESCRIPTION" value="TRIMMER 10K OHM 0.5W PC PIN" constant="no"/>
+<attribute name="ADJUSTMENT_TYPE" value="Tope Adjustment"/>
+<attribute name="CATEGORY" value="Potentiometers, Variable Resistors"/>
+<attribute name="DESCRIPTION" value="TRIMMER 10K OHM 0.5W PC PIN"/>
 <attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.bourns.com/data/global/pdfs/3296.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
-<attribute name="DOCUMENTATION_URL" value="http://www.bourns.com/data/global/pdfs/3296.pdf" constant="no"/>
-<attribute name="FAMILY" value="Trimmer Potentiometers" constant="no"/>
-<attribute name="MANUFACTURER" value="Bourns Inc" constant="no"/>
-<attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
-<attribute name="NUMBER_OF_TURNS" value="25" constant="no"/>
-<attribute name="PART_NUMBER" value="3296W-1-103LF" constant="no"/>
-<attribute name="POWER" value="0.5W, 1/2W" constant="no"/>
-<attribute name="RESISTANCE" value="10k" constant="no"/>
-<attribute name="RESISTIVE_MATERIAL" value="Cermet" constant="no"/>
-<attribute name="SERIES" value="Trimpt 3296 - Sealed" constant="no"/>
-<attribute name="SIZE" value="Rectangular - 0.375&quot; x 0.190&quot; Face x 0.395&quot; H (9.53mm x 4.83mm x 10.03mm)" constant="no"/>
-<attribute name="STANDARD_PACKAGE" value="50" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.bourns.com/data/global/pdfs/3296.pdf"/>
+<attribute name="FAMILY" value="Trimmer Potentiometers"/>
+<attribute name="MANUFACTURER" value="Bourns Inc"/>
+<attribute name="MOUNTING_TYPE" value="Through Hole"/>
+<attribute name="NUMBER_OF_TURNS" value="25"/>
+<attribute name="PART_NUMBER" value="3296W-1-103LF"/>
+<attribute name="POWER" value="0.5W, 1/2W"/>
+<attribute name="RESISTANCE" value="10k"/>
+<attribute name="RESISTIVE_MATERIAL" value="Cermet"/>
+<attribute name="SERIES" value="Trimpt 3296 - Sealed"/>
+<attribute name="SIZE" value="Rectangular - 0.375&quot; x 0.190&quot; Face x 0.395&quot; H (9.53mm x 4.83mm x 10.03mm)"/>
+<attribute name="STANDARD_PACKAGE" value="50"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/3296W-1-103LF/3296W-103LF-ND/1088045&quot;&gt;Details&lt;/a&gt;"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="3296W-103LF-ND" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/3296W-1-103LF/3296W-103LF-ND/1088045" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="3296W-103LF-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/3296W-1-103LF/3296W-103LF-ND/1088045"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
-<attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
-<attribute name="TERMINATION_STYLE" value="PC Pin" constant="no"/>
-<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C"/>
+<attribute name="TERMINATION_STYLE" value="PC Pin"/>
+<attribute name="TOLERANCE" value="10%"/>
 </technology>
 </technologies>
 </device>

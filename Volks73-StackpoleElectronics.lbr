@@ -179,32 +179,32 @@ For attribution, please provide a link in any documentation or design files to t
 </connects>
 <technologies>
 <technology name="FAL3M00">
-<attribute name="CATEGORY" value="Resistors" constant="no"/>
-<attribute name="COMPOSITION" value="Metal Film" constant="no"/>
-<attribute name="DESCRIPTION" value="RES MF HV .25W 3M OHM 1% AXIAL" constant="no"/>
+<attribute name="CATEGORY" value="Resistors"/>
+<attribute name="COMPOSITION" value="Metal Film"/>
+<attribute name="DESCRIPTION" value="RES MF HV .25W 3M OHM 1% AXIAL"/>
 <attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;https://www.seielect.com/Catalog/SEI-RNV.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
-<attribute name="DOCUMENTATION_URL" value="https://www.seielect.com/Catalog/SEI-RNV.pdf" constant="no"/>
-<attribute name="FAMILY" value="Through Hole Resistors" constant="no"/>
-<attribute name="FEATURES" value="Flame Retardant Coating, Moisture Resistant, Pulse Withstanding" constant="no"/>
-<attribute name="HEIGHT" value="-" constant="no"/>
-<attribute name="MANUFACTURER" value="Stackpole Electronics Inc" constant="no"/>
-<attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
-<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C" constant="no"/>
-<attribute name="PACKAGE" value="Axial" constant="no"/>
-<attribute name="PART_NUMBER" value="RNV14FAL3M00" constant="no"/>
-<attribute name="POWER" value="0.25W, 1/4W" constant="no"/>
-<attribute name="RESISTANCE" value="3M" constant="no"/>
-<attribute name="SERIES" value="RNV" constant="no"/>
-<attribute name="SIZE" value="0.094&quot; Dia x 0.236&quot; L (2.40mm x 6.00mm)" constant="no"/>
-<attribute name="SUPPLIER_DEVICE_PACKAGE" value="Axial" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="https://www.seielect.com/Catalog/SEI-RNV.pdf"/>
+<attribute name="FAMILY" value="Through Hole Resistors"/>
+<attribute name="FEATURES" value="Flame Retardant Coating, Moisture Resistant, Pulse Withstanding"/>
+<attribute name="HEIGHT" value="-"/>
+<attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
+<attribute name="NUMBER_OF_TERMINATIONS" value="2"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C"/>
+<attribute name="PACKAGE" value="Axial"/>
+<attribute name="PART_NUMBER" value="RNV14FAL3M00"/>
+<attribute name="POWER" value="0.25W, 1/4W"/>
+<attribute name="RESISTANCE" value="3M"/>
+<attribute name="SERIES" value="RNV"/>
+<attribute name="SIZE" value="0.094&quot; Dia x 0.236&quot; L (2.40mm x 6.00mm)"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="Axial"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/RNV14FAL3M00/RNV14FAL3M00CT-ND/2665293&quot;&gt;Details&lt;/a&gt;"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="RNV14FAL3M00CT-ND" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/RNV14FAL3M00/RNV14FAL3M00CT-ND/2665293" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="RNV14FAL3M00CT-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/RNV14FAL3M00/RNV14FAL3M00CT-ND/2665293"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
-<attribute name="TEMPERATURE_COEFFICIENT" value="200ppm/C" constant="no"/>
-<attribute name="TOLERANCE" value="1%" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="200ppm/C"/>
+<attribute name="TOLERANCE" value="1%"/>
 </technology>
 </technologies>
 </device>

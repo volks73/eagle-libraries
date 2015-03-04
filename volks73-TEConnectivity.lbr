@@ -282,36 +282,36 @@ For attribution, please provide a link in any documentation or design files to t
 </connects>
 <technologies>
 <technology name="AMP">
-<attribute name="COLOR" value="Black" constant="no"/>
-<attribute name="CONNECTOR_STYLE" value="D-Sub, High Density" constant="no"/>
-<attribute name="CONNECTOR_TYPE" value="Receptacle, Female Sockets" constant="no"/>
-<attribute name="CONTACT_FINISH" value="Gold" constant="no"/>
-<attribute name="CONTACT_FINISH_THICKNESS" value="Flash" constant="no"/>
-<attribute name="CONTACT_TYPE" value="Signal" constant="no"/>
-<attribute name="CURRENT_RATING" value="2A" constant="no"/>
-<attribute name="DESCRIPTION" value="CONN DSUB HD RCPT 15POS R/A SLDR" constant="no"/>
+<attribute name="COLOR" value="Black"/>
+<attribute name="CONNECTOR_STYLE" value="D-Sub, High Density"/>
+<attribute name="CONNECTOR_TYPE" value="Receptacle, Female Sockets"/>
+<attribute name="CONTACT_FINISH" value="Gold"/>
+<attribute name="CONTACT_FINISH_THICKNESS" value="Flash"/>
+<attribute name="CONTACT_TYPE" value="Signal"/>
+<attribute name="CURRENT_RATING" value="2A"/>
+<attribute name="DESCRIPTION" value="CONN DSUB HD RCPT 15POS R/A SLDR"/>
 <attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1734530&amp;DocType=Customer+Drawing&amp;DocLang=English&quot;&gt;Datasheet&lt;/a&gt;"/>
-<attribute name="DOCUMENTATION_URL" value="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1734530&amp;DocType=Customer+Drawing&amp;DocLang=English" constant="no"/>
-<attribute name="FEATURES" value="Board Lock" constant="no"/>
-<attribute name="FLANGE_FEATURE" value="Housing/Shell (4-40)" constant="no"/>
-<attribute name="HOUSING_MATERIAL" value="Polyamide (PA9T), Nylon 9T" constant="no"/>
-<attribute name="MANUFACTURER" value="TE Connectivity" constant="no"/>
-<attribute name="MOUNTINT_TYPE" value="Through Hole, Right Angle" constant="no"/>
-<attribute name="NUMBER_POSITIONS" value="15" constant="no"/>
-<attribute name="NUMBER_ROWS" value="3" constant="no"/>
-<attribute name="OPERATING_TEMPERATURE" value="-55 ~ 105C" constant="no"/>
-<attribute name="PART_NUMBER" value="1-1734530-1" constant="no"/>
-<attribute name="SERIES" value="AMPLIMITE HD-22, AMP" constant="no"/>
-<attribute name="SHELL_MATERIAL" value="Steel, Nickel Plated" constant="no"/>
-<attribute name="SHELL_SIZE" value="1 (DE, E) High Density" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1734530&amp;DocType=Customer+Drawing&amp;DocLang=English"/>
+<attribute name="FEATURES" value="Board Lock"/>
+<attribute name="FLANGE_FEATURE" value="Housing/Shell (4-40)"/>
+<attribute name="HOUSING_MATERIAL" value="Polyamide (PA9T), Nylon 9T"/>
+<attribute name="MANUFACTURER" value="TE Connectivity"/>
+<attribute name="MOUNTINT_TYPE" value="Through Hole, Right Angle"/>
+<attribute name="NUMBER_POSITIONS" value="15"/>
+<attribute name="NUMBER_ROWS" value="3"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55 ~ 105C"/>
+<attribute name="PART_NUMBER" value="1-1734530-1"/>
+<attribute name="SERIES" value="AMPLIMITE HD-22, AMP"/>
+<attribute name="SHELL_MATERIAL" value="Steel, Nickel Plated"/>
+<attribute name="SHELL_SIZE" value="1 (DE, E) High Density"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-search/en?KeyWords=A35116-ND&amp;WT.z_header=search_go&quot;&gt;Details&lt;/a&gt;"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="A35116-ND" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-search/en?KeyWords=A35116-ND&amp;WT.z_header=search_go" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="A35116-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-search/en?KeyWords=A35116-ND&amp;WT.z_header=search_go"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
-<attribute name="TERMINATION" value="Solder" constant="no"/>
-<attribute name="VOLTAGE_RATING" value="125V" constant="no"/>
+<attribute name="TERMINATION" value="Solder"/>
+<attribute name="VOLTAGE_RATING" value="125V"/>
 </technology>
 </technologies>
 </device>
@@ -351,35 +351,35 @@ For attribution, please provide a link in any documentation or design files to t
 </connects>
 <technologies>
 <technology name="AMP">
-<attribute name="COLOR" value="Black" constant="no"/>
-<attribute name="CONNECTOR_STYLE" value="D-Sub" constant="no"/>
-<attribute name="CONNECTOR_TYPE" value="Receptacle, Female Sockets" constant="no"/>
-<attribute name="CONTACT_FINISH" value="Gold" constant="no"/>
-<attribute name="CONTACT_FINISH_THICKNESS" value="Flash" constant="no"/>
-<attribute name="CONTACT_TYPE" value="Signal" constant="no"/>
-<attribute name="CURRENT_RATING" value="" constant="no"/>
-<attribute name="DESCRIPTION" value="CONN D-SUB RCPT 9POS R/A SOLDER" constant="no"/>
+<attribute name="COLOR" value="Black"/>
+<attribute name="CONNECTOR_STYLE" value="D-Sub"/>
+<attribute name="CONNECTOR_TYPE" value="Receptacle, Female Sockets"/>
+<attribute name="CONTACT_FINISH" value="Gold"/>
+<attribute name="CONTACT_FINISH_THICKNESS" value="Flash"/>
+<attribute name="CONTACT_TYPE" value="Signal"/>
+<attribute name="CURRENT_RATING" value=""/>
+<attribute name="DESCRIPTION" value="CONN D-SUB RCPT 9POS R/A SOLDER"/>
 <attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1734354&amp;DocType=Customer+Drawing&amp;DocLang=English&quot;&gt;Datasheet&lt;/a&gt;"/>
-<attribute name="DOCUMENTATION_URL" value="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1734354&amp;DocType=Customer+Drawing&amp;DocLang=English" constant="no"/>
-<attribute name="FLANGE_FEATURE" value="Mating Side; Female Screwlock (4-40)" constant="no"/>
-<attribute name="HOUSING_MATERIAL" value="Polyamide (PA9T), Nylon 9T, Glass Filled" constant="no"/>
-<attribute name="MANUFACTURER" value="TE Connectivity" constant="no"/>
-<attribute name="MOUNTING_TYPE" value="Through Hole, Right Angle" constant="no"/>
-<attribute name="NUMBER_POSITIONS" value="9" constant="no"/>
-<attribute name="NUMBER_ROWS" value="2" constant="no"/>
-<attribute name="OPERATING_TEMPERATURE" value="-55 ~ 105C" constant="no"/>
-<attribute name="PART_NUMBER" value="1734354-1" constant="no"/>
-<attribute name="SERIES" value="AMPLIMITE HD-20, AMP" constant="no"/>
-<attribute name="SHELL_MATERIAL" value="Steel, Nickel Plated" constant="no"/>
-<attribute name="SHELL_SIZE" value="1 (DE, E)" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1734354&amp;DocType=Customer+Drawing&amp;DocLang=English"/>
+<attribute name="FLANGE_FEATURE" value="Mating Side; Female Screwlock (4-40)"/>
+<attribute name="HOUSING_MATERIAL" value="Polyamide (PA9T), Nylon 9T, Glass Filled"/>
+<attribute name="MANUFACTURER" value="TE Connectivity"/>
+<attribute name="MOUNTING_TYPE" value="Through Hole, Right Angle"/>
+<attribute name="NUMBER_POSITIONS" value="9"/>
+<attribute name="NUMBER_ROWS" value="2"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55 ~ 105C"/>
+<attribute name="PART_NUMBER" value="1734354-1"/>
+<attribute name="SERIES" value="AMPLIMITE HD-20, AMP"/>
+<attribute name="SHELL_MATERIAL" value="Steel, Nickel Plated"/>
+<attribute name="SHELL_SIZE" value="1 (DE, E)"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-search/en?KeyWords=A35107-ND&amp;WT.z_header=search_go&quot;&gt;Details&lt;/a&gt;"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="A35107-ND" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-search/en?KeyWords=A35107-ND&amp;WT.z_header=search_go" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="A35107-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-search/en?KeyWords=A35107-ND&amp;WT.z_header=search_go"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
-<attribute name="TERMINATION" value="Solder" constant="no"/>
-<attribute name="VOLTAGE_RATING" value="250V" constant="no"/>
+<attribute name="TERMINATION" value="Solder"/>
+<attribute name="VOLTAGE_RATING" value="250V"/>
 </technology>
 </technologies>
 </device>

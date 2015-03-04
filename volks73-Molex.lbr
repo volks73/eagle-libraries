@@ -521,33 +521,33 @@ For attribution, please provide a link in any documentation or design files to t
 </connects>
 <technologies>
 <technology name="">
-<attribute name="COLOR" value="Natural" constant="no"/>
-<attribute name="CONNECTOR_TYPE" value="Header, Unshrouded" constant="no"/>
-<attribute name="CONTACT_FINISH" value="Tin" constant="no"/>
-<attribute name="CONTACT_FINISH_THICKNESS" value="100uin (2.54um)" constant="no"/>
-<attribute name="CONTACT_MATING_LENGTH" value="0.295&quot; (7.49mm)" constant="no"/>
-<attribute name="CONTACT_TYPE" value="Male Pin" constant="no"/>
-<attribute name="DESCRIPTION" value="CONN HEADER 3POS .100 VERT TIN" constant="no"/>
+<attribute name="COLOR" value="Natural"/>
+<attribute name="CONNECTOR_TYPE" value="Header, Unshrouded"/>
+<attribute name="CONTACT_FINISH" value="Tin"/>
+<attribute name="CONTACT_FINISH_THICKNESS" value="100uin (2.54um)"/>
+<attribute name="CONTACT_MATING_LENGTH" value="0.295&quot; (7.49mm)"/>
+<attribute name="CONTACT_TYPE" value="Male Pin"/>
+<attribute name="DESCRIPTION" value="CONN HEADER 3POS .100 VERT TIN"/>
 <attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.molex.com/pdm_docs/sd/022272031_sd.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
-<attribute name="DOCUMENTATION_URL" value="http://www.molex.com/pdm_docs/sd/022272031_sd.pdf" constant="no"/>
-<attribute name="FASTENING_TYPE" value="Friction Lock" constant="no"/>
-<attribute name="FEATURES" value="-" constant="no"/>
-<attribute name="MANUFACTURER" value="Molex Inc" constant="no"/>
-<attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
-<attribute name="NUMBER_OF_POSITIONS" value="3" constant="no"/>
-<attribute name="NUMBER_OF_POSITIONS_LOADED" value="All" constant="no"/>
-<attribute name="NUMBER_OF_ROWS" value="1" constant="no"/>
-<attribute name="PART_NUMBER" value="0022272031" constant="no"/>
-<attribute name="PITCH" value="0.100&quot; (2.54mm)" constant="no"/>
-<attribute name="ROW_SPACING" value="-" constant="no"/>
-<attribute name="SERIES" value="KK® 6410" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.molex.com/pdm_docs/sd/022272031_sd.pdf"/>
+<attribute name="FASTENING_TYPE" value="Friction Lock"/>
+<attribute name="FEATURES" value="-"/>
+<attribute name="MANUFACTURER" value="Molex Inc"/>
+<attribute name="MOUNTING_TYPE" value="Through Hole"/>
+<attribute name="NUMBER_OF_POSITIONS" value="3"/>
+<attribute name="NUMBER_OF_POSITIONS_LOADED" value="All"/>
+<attribute name="NUMBER_OF_ROWS" value="1"/>
+<attribute name="PART_NUMBER" value="0022272031"/>
+<attribute name="PITCH" value="0.100&quot; (2.54mm)"/>
+<attribute name="ROW_SPACING" value="-"/>
+<attribute name="SERIES" value="KK® 6410"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-search/en?KeyWords=WM4112-ND&amp;WT.z_header=search_go&quot;&gt;Details&lt;/a&gt;"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="WM4112-ND" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-search/en?KeyWords=WM4112-ND&amp;WT.z_header=search_go" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="WM4112-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-search/en?KeyWords=WM4112-ND&amp;WT.z_header=search_go"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
-<attribute name="TERMINATION" value="Solder" constant="no"/>
+<attribute name="TERMINATION" value="Solder"/>
 </technology>
 </technologies>
 </device>
@@ -579,33 +579,33 @@ For attribution, please provide a link in any documentation or design files to t
 </connects>
 <technologies>
 <technology name="">
-<attribute name="COLOR" value="Natural" constant="no"/>
-<attribute name="CONNECTOR_TYPE" value="Header, Unshrouded" constant="no"/>
-<attribute name="CONTACT_FINISH" value="Tin" constant="no"/>
-<attribute name="CONTACT_FINISH_THICKNESS" value="100uin (2.54um)" constant="no"/>
-<attribute name="CONTACT_MATING_LENGTH" value="0.295&quot; (7.49mm)" constant="no"/>
-<attribute name="CONTACT_TYPE" value="Male Pin" constant="no"/>
-<attribute name="DESCRIPTION" value="CONN HEADER 5POS .100 VERT TIN" constant="no"/>
+<attribute name="COLOR" value="Natural"/>
+<attribute name="CONNECTOR_TYPE" value="Header, Unshrouded"/>
+<attribute name="CONTACT_FINISH" value="Tin"/>
+<attribute name="CONTACT_FINISH_THICKNESS" value="100uin (2.54um)"/>
+<attribute name="CONTACT_MATING_LENGTH" value="0.295&quot; (7.49mm)"/>
+<attribute name="CONTACT_TYPE" value="Male Pin"/>
+<attribute name="DESCRIPTION" value="CONN HEADER 5POS .100 VERT TIN"/>
 <attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.molex.com/pdm_docs/sd/022272051_sd.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
-<attribute name="DOCUMENTATION_URL" value="http://www.molex.com/pdm_docs/sd/022272051_sd.pdf" constant="no"/>
-<attribute name="FASTENING_TYPE" value="Friction Lock" constant="no"/>
-<attribute name="FEATURES" value="-" constant="no"/>
-<attribute name="MANUFACTURER" value="Molex Inc" constant="no"/>
-<attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
-<attribute name="NUMBER_OF_POSITIONS" value="5" constant="no"/>
-<attribute name="NUMBER_OF_POSITIONS_LOADED" value="All" constant="no"/>
-<attribute name="NUMBER_OF_ROWS" value="1" constant="no"/>
-<attribute name="PART_NUMBER" value="0022272051" constant="no"/>
-<attribute name="PITCH" value="0.100&quot; (2.54mm)" constant="no"/>
-<attribute name="ROW_SPACING" value="-" constant="no"/>
-<attribute name="SERIES" value="6410" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.molex.com/pdm_docs/sd/022272051_sd.pdf"/>
+<attribute name="FASTENING_TYPE" value="Friction Lock"/>
+<attribute name="FEATURES" value="-"/>
+<attribute name="MANUFACTURER" value="Molex Inc"/>
+<attribute name="MOUNTING_TYPE" value="Through Hole"/>
+<attribute name="NUMBER_OF_POSITIONS" value="5"/>
+<attribute name="NUMBER_OF_POSITIONS_LOADED" value="All"/>
+<attribute name="NUMBER_OF_ROWS" value="1"/>
+<attribute name="PART_NUMBER" value="0022272051"/>
+<attribute name="PITCH" value="0.100&quot; (2.54mm)"/>
+<attribute name="ROW_SPACING" value="-"/>
+<attribute name="SERIES" value="6410"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-search/en?KeyWords=0022272051&amp;WT.z_header=search_go&quot;&gt;Details&lt;/a&gt;"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="WM4114-ND" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-search/en?KeyWords=0022272051&amp;WT.z_header=search_go" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="WM4114-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-search/en?KeyWords=0022272051&amp;WT.z_header=search_go"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
-<attribute name="TERMINATION" value="Solder" constant="no"/>
+<attribute name="TERMINATION" value="Solder"/>
 </technology>
 </technologies>
 </device>
@@ -633,37 +633,37 @@ For attribution, please provide a link in any documentation or design files to t
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CONNECTOR_TYPE" value="Receptacle, Poke-In Wire" constant="no"/>
-<attribute name="CONTACT_FINISH" value="Tin" constant="no"/>
-<attribute name="CONTACT_MATERIAL" value="Copper Alloy" constant="no"/>
-<attribute name="CURRENT_RATING" value="5A, 6A, 9A" constant="no"/>
-<attribute name="DESCRIPTION" value="CONN SSL RCPT 2POS 4MM SOLDER" constant="no"/>
+<attribute name="CONNECTOR_TYPE" value="Receptacle, Poke-In Wire"/>
+<attribute name="CONTACT_FINISH" value="Tin"/>
+<attribute name="CONTACT_MATERIAL" value="Copper Alloy"/>
+<attribute name="CURRENT_RATING" value="5A, 6A, 9A"/>
+<attribute name="DESCRIPTION" value="CONN SSL RCPT 2POS 4MM SOLDER"/>
 <attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.molex.com/pdm_docs/sd/1041880210_sd.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
-<attribute name="DOCUMENTATION_URL" value="http://www.molex.com/pdm_docs/sd/1041880210_sd.pdf" constant="no"/>
-<attribute name="FAMILY" value="Solid State Lighting Connectors" constant="no"/>
-<attribute name="FASTENING_TYPE" value="-" constant="no"/>
-<attribute name="FEATURES" value="-" constant="no"/>
-<attribute name="HOUSING_COLOR" value="Natural" constant="no"/>
-<attribute name="HOUSING_MATERIAL" value="Liquid Crystal Polymer (LCP), Halogen Free" constant="no"/>
-<attribute name="INGREE_PROTECTION" value="-" constant="no"/>
-<attribute name="MANUFACTURER" value="Molex Inc" constant="no"/>
-<attribute name="MATING_CYCLES" value="-" constant="no"/>
-<attribute name="MOUNTING_TYPE" value="Surface Mount, Right Angle" constant="no"/>
-<attribute name="NUMBER_OF_POSITIONS" value="2" constant="no"/>
-<attribute name="OPERATING_TEMPERATURE" value="-40°C ~ 130°C" constant="no"/>
-<attribute name="PART_NUMBER" value="1041880210" constant="no"/>
-<attribute name="PITCH" value="0.157&quot; (4.00mm)" constant="no"/>
-<attribute name="SERIES" value="Lite-Trap™" constant="no"/>
-<attribute name="STYLE" value="Board to Cable/Wire" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.molex.com/pdm_docs/sd/1041880210_sd.pdf"/>
+<attribute name="FAMILY" value="Solid State Lighting Connectors"/>
+<attribute name="FASTENING_TYPE" value="-"/>
+<attribute name="FEATURES" value="-"/>
+<attribute name="HOUSING_COLOR" value="Natural"/>
+<attribute name="HOUSING_MATERIAL" value="Liquid Crystal Polymer (LCP), Halogen Free"/>
+<attribute name="INGREE_PROTECTION" value="-"/>
+<attribute name="MANUFACTURER" value="Molex Inc"/>
+<attribute name="MATING_CYCLES" value="-"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount, Right Angle"/>
+<attribute name="NUMBER_OF_POSITIONS" value="2"/>
+<attribute name="OPERATING_TEMPERATURE" value="-40°C ~ 130°C"/>
+<attribute name="PART_NUMBER" value="1041880210"/>
+<attribute name="PITCH" value="0.157&quot; (4.00mm)"/>
+<attribute name="SERIES" value="Lite-Trap™"/>
+<attribute name="STYLE" value="Board to Cable/Wire"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/1041880210/WM10425CT-ND/4747481&quot;&gt;Details&lt;/a&gt;"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="WM10425CT-ND" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/1041880210/WM10425CT-ND/4747481" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="WM10425CT-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/1041880210/WM10425CT-ND/4747481"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
-<attribute name="TERMINATION" value="Solder" constant="no"/>
-<attribute name="VOLTAGE_RATING" value="300V" constant="no"/>
-<attribute name="WIRE_GAUGE" value="18-24 AWG" constant="no"/>
+<attribute name="TERMINATION" value="Solder"/>
+<attribute name="VOLTAGE_RATING" value="300V"/>
+<attribute name="WIRE_GAUGE" value="18-24 AWG"/>
 </technology>
 </technologies>
 </device>
@@ -697,33 +697,33 @@ For attribution, please provide a link in any documentation or design files to t
 </connects>
 <technologies>
 <technology name="">
-<attribute name="COLOR" value="Natural" constant="no"/>
-<attribute name="CONNECTOR_TYPE" value="Header, Unshrouded" constant="no"/>
-<attribute name="CONTACT_FINISH" value="Tin" constant="no"/>
-<attribute name="CONTACT_FINISH_THICKNESS" value="100uin (2.54um)" constant="no"/>
-<attribute name="CONTACT_MATING_LENGTH" value="0.295&quot; (7.49mm)" constant="no"/>
-<attribute name="CONTACT_TYPE" value="Male Pin" constant="no"/>
-<attribute name="DESCRIPTION" value="CONN HEADER 6POS .100 VERT TIN" constant="no"/>
+<attribute name="COLOR" value="Natural"/>
+<attribute name="CONNECTOR_TYPE" value="Header, Unshrouded"/>
+<attribute name="CONTACT_FINISH" value="Tin"/>
+<attribute name="CONTACT_FINISH_THICKNESS" value="100uin (2.54um)"/>
+<attribute name="CONTACT_MATING_LENGTH" value="0.295&quot; (7.49mm)"/>
+<attribute name="CONTACT_TYPE" value="Male Pin"/>
+<attribute name="DESCRIPTION" value="CONN HEADER 6POS .100 VERT TIN"/>
 <attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.molex.com/pdm_docs/sd/022272061_sd.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
-<attribute name="DOCUMENTATION_URL" value="http://www.molex.com/pdm_docs/sd/022272061_sd.pdf" constant="no"/>
-<attribute name="FASTENING_TYPE" value="Friction Lock" constant="no"/>
-<attribute name="FEATURES" value="-" constant="no"/>
-<attribute name="MANUFACTURER" value="Molex Inc" constant="no"/>
-<attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
-<attribute name="NUMBER_OF_POSITIONS" value="6" constant="no"/>
-<attribute name="NUMBER_OF_POSITIONS_LOADED" value="All" constant="no"/>
-<attribute name="NUMBER_OF_ROWS" value="1" constant="no"/>
-<attribute name="PART_NUMBER" value="0022272061" constant="no"/>
-<attribute name="PITCH" value="0.100&quot; (2.54mm)" constant="no"/>
-<attribute name="ROW_SPACING" value="-" constant="no"/>
-<attribute name="SERIES" value="6410" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.molex.com/pdm_docs/sd/022272061_sd.pdf"/>
+<attribute name="FASTENING_TYPE" value="Friction Lock"/>
+<attribute name="FEATURES" value="-"/>
+<attribute name="MANUFACTURER" value="Molex Inc"/>
+<attribute name="MOUNTING_TYPE" value="Through Hole"/>
+<attribute name="NUMBER_OF_POSITIONS" value="6"/>
+<attribute name="NUMBER_OF_POSITIONS_LOADED" value="All"/>
+<attribute name="NUMBER_OF_ROWS" value="1"/>
+<attribute name="PART_NUMBER" value="0022272061"/>
+<attribute name="PITCH" value="0.100&quot; (2.54mm)"/>
+<attribute name="ROW_SPACING" value="-"/>
+<attribute name="SERIES" value="6410"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-search/en?KeyWords=WM4115-ND&amp;WT.z_header=search_go&quot;&gt;Details&lt;/a&gt;"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="WM4115-ND" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-search/en?KeyWords=WM4115-ND&amp;WT.z_header=search_go" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="WM4115-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-search/en?KeyWords=WM4115-ND&amp;WT.z_header=search_go"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
-<attribute name="TERMINATION" value="Solder" constant="no"/>
+<attribute name="TERMINATION" value="Solder"/>
 </technology>
 </technologies>
 </device>
@@ -754,34 +754,34 @@ For attribution, please provide a link in any documentation or design files to t
 </connects>
 <technologies>
 <technology name="">
-<attribute name="COLOR" value="Natural" constant="no"/>
-<attribute name="CONNECTOR_TYPE" value="Header, Unshrouded" constant="no"/>
-<attribute name="CONTACT_FINISH" value="Tin" constant="no"/>
-<attribute name="CONTACT_FINISH_THICKNESS" value="60uin (1.52um)" constant="no"/>
-<attribute name="CONTACT_MATING_LENGTH" value="0.450&quot; (11.43mm)" constant="no"/>
-<attribute name="CONTACT_TYPE" value="Male Pin" constant="no"/>
-<attribute name="DESCRIPTION" value="156 HDR FRLK RTAN PEG 4CKT TIN" constant="no"/>
+<attribute name="COLOR" value="Natural"/>
+<attribute name="CONNECTOR_TYPE" value="Header, Unshrouded"/>
+<attribute name="CONTACT_FINISH" value="Tin"/>
+<attribute name="CONTACT_FINISH_THICKNESS" value="60uin (1.52um)"/>
+<attribute name="CONTACT_MATING_LENGTH" value="0.450&quot; (11.43mm)"/>
+<attribute name="CONTACT_TYPE" value="Male Pin"/>
+<attribute name="DESCRIPTION" value="156 HDR FRLK RTAN PEG 4CKT TIN"/>
 <attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.molex.com/pdm_docs/sd/026645040_sd.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
-<attribute name="DOCUMENTATION_URL" value="http://www.molex.com/pdm_docs/sd/026645040_sd.pdf" constant="no"/>
-<attribute name="FAMILY" value="Rectangular Connectors - Headers, Male Pins" constant="no"/>
-<attribute name="FASTENING_TYPE" value="Friction Lock" constant="no"/>
-<attribute name="FEATURES" value="Board Guide" constant="no"/>
-<attribute name="MANUFACTURER" value="Molex Inc" constant="no"/>
-<attribute name="MOUNTING_TYPE" value="Through Hole, Right Angle" constant="no"/>
-<attribute name="NUMBER_OF_POSITIONS" value="4" constant="no"/>
-<attribute name="NUMBER_OF_POSITIONS_LOADED" value="All" constant="no"/>
-<attribute name="NUMBER_OF_ROWS" value="1" constant="no"/>
-<attribute name="PART_NUMBER" value="0026645040" constant="no"/>
-<attribute name="PITCH" value="0.156&quot; (3.96mm)" constant="no"/>
-<attribute name="ROW_SPACING" value="-" constant="no"/>
-<attribute name="SERIES" value="KK 42492" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.molex.com/pdm_docs/sd/026645040_sd.pdf"/>
+<attribute name="FAMILY" value="Rectangular Connectors - Headers, Male Pins"/>
+<attribute name="FASTENING_TYPE" value="Friction Lock"/>
+<attribute name="FEATURES" value="Board Guide"/>
+<attribute name="MANUFACTURER" value="Molex Inc"/>
+<attribute name="MOUNTING_TYPE" value="Through Hole, Right Angle"/>
+<attribute name="NUMBER_OF_POSITIONS" value="4"/>
+<attribute name="NUMBER_OF_POSITIONS_LOADED" value="All"/>
+<attribute name="NUMBER_OF_ROWS" value="1"/>
+<attribute name="PART_NUMBER" value="0026645040"/>
+<attribute name="PITCH" value="0.156&quot; (3.96mm)"/>
+<attribute name="ROW_SPACING" value="-"/>
+<attribute name="SERIES" value="KK 42492"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-search/en?KeyWords=0026645040&amp;WT.z_header=search_go&quot;&gt;Details&lt;/a&gt;"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="WM3916-ND" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-search/en?KeyWords=0026645040&amp;WT.z_header=search_go" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="WM3916-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-search/en?KeyWords=0026645040&amp;WT.z_header=search_go"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
-<attribute name="TERMINATION" value="Solder" constant="no"/>
+<attribute name="TERMINATION" value="Solder"/>
 </technology>
 </technologies>
 </device>
@@ -806,35 +806,35 @@ For attribution, please provide a link in any documentation or design files to t
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CATEGORY" value="Conectors, Interconnects" constant="no"/>
-<attribute name="COLOR" value="Natural" constant="no"/>
-<attribute name="CONNECTOR_TYPE" value="Header, Shrouded" constant="no"/>
-<attribute name="CONTACT_FINISH" value="Tin" constant="no"/>
-<attribute name="CONTACT_FINISH_THICKNESS" value="39µin (1.00µm)" constant="no"/>
-<attribute name="CONTACT_MATING_LENGTH" value="-" constant="no"/>
-<attribute name="CONTACT_TYPE" value="Blade Pin" constant="no"/>
-<attribute name="DESCRIPTION" value="CONN HEADER 2POS 1.25MM R/A SMD" constant="no"/>
+<attribute name="CATEGORY" value="Conectors, Interconnects"/>
+<attribute name="COLOR" value="Natural"/>
+<attribute name="CONNECTOR_TYPE" value="Header, Shrouded"/>
+<attribute name="CONTACT_FINISH" value="Tin"/>
+<attribute name="CONTACT_FINISH_THICKNESS" value="39µin (1.00µm)"/>
+<attribute name="CONTACT_MATING_LENGTH" value="-"/>
+<attribute name="CONTACT_TYPE" value="Blade Pin"/>
+<attribute name="DESCRIPTION" value="CONN HEADER 2POS 1.25MM R/A SMD"/>
 <attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.molex.com/pdm_docs/sd/532610271_sd.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
-<attribute name="DOCUMENTATION_URL" value="http://www.molex.com/pdm_docs/sd/532610271_sd.pdf" constant="no"/>
-<attribute name="FAMILY" value="Rectangular Connectors - Headers, Male Pins" constant="no"/>
-<attribute name="FASTENING_TYPE" value="-" constant="no"/>
-<attribute name="FEATURES" value="Solder Retention" constant="no"/>
-<attribute name="MANUFACTURER" value="Molex Inc" constant="no"/>
-<attribute name="MOUNTING_TYPE" value="Surface Mount, Right Angle" constant="no"/>
-<attribute name="NUMBER_OF_POSITIONS" value="2" constant="no"/>
-<attribute name="NUMBER_OF_POSITIONS_LOADED" value="All" constant="no"/>
-<attribute name="NUMBER_OF_ROWS" value="1" constant="no"/>
-<attribute name="PART_NUMBER" value="0532610271" constant="no"/>
-<attribute name="PITCH" value="0.049&quot; (1.25mm)" constant="no"/>
-<attribute name="ROW_SPACING" value="-" constant="no"/>
-<attribute name="SERIES" value="PicoBlade™ 53261" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.molex.com/pdm_docs/sd/532610271_sd.pdf"/>
+<attribute name="FAMILY" value="Rectangular Connectors - Headers, Male Pins"/>
+<attribute name="FASTENING_TYPE" value="-"/>
+<attribute name="FEATURES" value="Solder Retention"/>
+<attribute name="MANUFACTURER" value="Molex Inc"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount, Right Angle"/>
+<attribute name="NUMBER_OF_POSITIONS" value="2"/>
+<attribute name="NUMBER_OF_POSITIONS_LOADED" value="All"/>
+<attribute name="NUMBER_OF_ROWS" value="1"/>
+<attribute name="PART_NUMBER" value="0532610271"/>
+<attribute name="PITCH" value="0.049&quot; (1.25mm)"/>
+<attribute name="ROW_SPACING" value="-"/>
+<attribute name="SERIES" value="PicoBlade™ 53261"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/0532610271/WM7620CT-ND/699107&quot;&gt;Details&lt;/a&gt;"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="WM7620CT-ND" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/0532610271/WM7620CT-ND/699107" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="WM7620CT-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/0532610271/WM7620CT-ND/699107"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
-<attribute name="TERMINATION" value="Solder" constant="no"/>
+<attribute name="TERMINATION" value="Solder"/>
 </technology>
 </technologies>
 </device>
@@ -870,36 +870,36 @@ For attribution, please provide a link in any documentation or design files to t
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CATEGORY" value="Connectors, Interconnects" constant="no"/>
-<attribute name="COLOR" value="Natural" constant="no"/>
-<attribute name="CONNECTOR_TYPE" value="Header, Unshrouded" constant="no"/>
-<attribute name="CONTACT_FINISH" value="Tin" constant="no"/>
-<attribute name="CONTACT_FINISH_THICKNESS" value="100µin (2.54µm)" constant="no"/>
-<attribute name="CONTACT_MATING_LENGTH" value="0.295&quot; (7.49mm)" constant="no"/>
-<attribute name="CONTACT_TYPE" value="Male Pin" constant="no"/>
-<attribute name="DESCRIPTION" value="CONN HEADER 2POS .100 VERT TIN" constant="no"/>
+<attribute name="CATEGORY" value="Connectors, Interconnects"/>
+<attribute name="COLOR" value="Natural"/>
+<attribute name="CONNECTOR_TYPE" value="Header, Unshrouded"/>
+<attribute name="CONTACT_FINISH" value="Tin"/>
+<attribute name="CONTACT_FINISH_THICKNESS" value="100µin (2.54µm)"/>
+<attribute name="CONTACT_MATING_LENGTH" value="0.295&quot; (7.49mm)"/>
+<attribute name="CONTACT_TYPE" value="Male Pin"/>
+<attribute name="DESCRIPTION" value="CONN HEADER 2POS .100 VERT TIN"/>
 <attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.molex.com/pdm_docs/sd/022272021_sd.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
-<attribute name="DOCUMENTATION_URL" value="http://www.molex.com/pdm_docs/sd/022272021_sd.pdf" constant="no"/>
-<attribute name="FAMILY" value="Rectangular Connectors - Headers, Male Pins" constant="no"/>
-<attribute name="FASTENING_TYPE" value="Friction Lock" constant="no"/>
-<attribute name="FEATURES" value="-" constant="no"/>
-<attribute name="MANUFACTURER" value="Molex Inc" constant="no"/>
-<attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
-<attribute name="NUMBER_OF_POSITIONS" value="2" constant="no"/>
-<attribute name="NUMBER_OF_POSITIONS_LOADED" value="All" constant="no"/>
-<attribute name="NUMBER_OF_ROWS" value="1" constant="no"/>
-<attribute name="PART_NUMBER" value="0022272021" constant="no"/>
-<attribute name="PITCH" value="0.100&quot; (2.54mm)" constant="no"/>
-<attribute name="ROW_SPACING" value="-" constant="no"/>
-<attribute name="SERIES" value="KK® 6410" constant="no"/>
-<attribute name="SUPPLIER" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Digi-Key&lt;/a&gt;" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.molex.com/pdm_docs/sd/022272021_sd.pdf"/>
+<attribute name="FAMILY" value="Rectangular Connectors - Headers, Male Pins"/>
+<attribute name="FASTENING_TYPE" value="Friction Lock"/>
+<attribute name="FEATURES" value="-"/>
+<attribute name="MANUFACTURER" value="Molex Inc"/>
+<attribute name="MOUNTING_TYPE" value="Through Hole"/>
+<attribute name="NUMBER_OF_POSITIONS" value="2"/>
+<attribute name="NUMBER_OF_POSITIONS_LOADED" value="All"/>
+<attribute name="NUMBER_OF_ROWS" value="1"/>
+<attribute name="PART_NUMBER" value="0022272021"/>
+<attribute name="PITCH" value="0.100&quot; (2.54mm)"/>
+<attribute name="ROW_SPACING" value="-"/>
+<attribute name="SERIES" value="KK® 6410"/>
+<attribute name="SUPPLIER" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Digi-Key&lt;/a&gt;"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-search/en?KeyWords=0022272021&amp;WT.z_header=search_go&quot;&gt;Details&lt;/a&gt;"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="WM4111-ND" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-search/en?KeyWords=0022272021&amp;WT.z_header=search_go" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="WM4111-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-search/en?KeyWords=0022272021&amp;WT.z_header=search_go"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
-<attribute name="TERMINATION" value="Solder" constant="no"/>
+<attribute name="TERMINATION" value="Solder"/>
 </technology>
 </technologies>
 </device>
@@ -924,35 +924,35 @@ For attribution, please provide a link in any documentation or design files to t
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CATEGORY" value="Connectors, Interconnects" constant="no"/>
-<attribute name="COLOR" value="Natural" constant="no"/>
-<attribute name="CONNECTOR_TYPE" value="Header, Unshrouded" constant="no"/>
-<attribute name="CONTACT_FINISH" value="Tin" constant="no"/>
-<attribute name="CONTACT_FINISH_THICKNESS" value="60µin (1.52µm)" constant="no"/>
-<attribute name="CONTACT_MATING_LENGTH" value="0.450&quot; (11.43mm)" constant="no"/>
-<attribute name="CONTACT_TYPE" value="Male Pin" constant="no"/>
-<attribute name="DESCRIPTION" value="CONN HEADER 2POS .156 VERT TIN" constant="no"/>
+<attribute name="CATEGORY" value="Connectors, Interconnects"/>
+<attribute name="COLOR" value="Natural"/>
+<attribute name="CONNECTOR_TYPE" value="Header, Unshrouded"/>
+<attribute name="CONTACT_FINISH" value="Tin"/>
+<attribute name="CONTACT_FINISH_THICKNESS" value="60µin (1.52µm)"/>
+<attribute name="CONTACT_MATING_LENGTH" value="0.450&quot; (11.43mm)"/>
+<attribute name="CONTACT_TYPE" value="Male Pin"/>
+<attribute name="DESCRIPTION" value="CONN HEADER 2POS .156 VERT TIN"/>
 <attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.molex.com/pdm_docs/sd/026604020_sd.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
-<attribute name="DOCUMENTATION_URL" value="http://www.molex.com/pdm_docs/sd/026604020_sd.pdf" constant="no"/>
-<attribute name="FAMILY" value="Rectangular Connectors - Headers, Male Pins" constant="no"/>
-<attribute name="FASTENING_TYPE" value="Friction Lock" constant="no"/>
-<attribute name="FEATURES" value="-" constant="no"/>
-<attribute name="MANUFACTURER" value="Molex Inc" constant="no"/>
-<attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
-<attribute name="NUMBER_OF_POSITIONS" value="2" constant="no"/>
-<attribute name="NUMBER_OF_POSITIONS_LOADED" value="All" constant="no"/>
-<attribute name="NUMBER_OF_ROWS" value="1" constant="no"/>
-<attribute name="PART_NUMBER" value="0026604020" constant="no"/>
-<attribute name="PITCH" value="0.156&quot; (3.96mm)" constant="no"/>
-<attribute name="ROW_SPACING" value="-" constant="no"/>
-<attribute name="SERIES" value="KK® 41791" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.molex.com/pdm_docs/sd/026604020_sd.pdf"/>
+<attribute name="FAMILY" value="Rectangular Connectors - Headers, Male Pins"/>
+<attribute name="FASTENING_TYPE" value="Friction Lock"/>
+<attribute name="FEATURES" value="-"/>
+<attribute name="MANUFACTURER" value="Molex Inc"/>
+<attribute name="MOUNTING_TYPE" value="Through Hole"/>
+<attribute name="NUMBER_OF_POSITIONS" value="2"/>
+<attribute name="NUMBER_OF_POSITIONS_LOADED" value="All"/>
+<attribute name="NUMBER_OF_ROWS" value="1"/>
+<attribute name="PART_NUMBER" value="0026604020"/>
+<attribute name="PITCH" value="0.156&quot; (3.96mm)"/>
+<attribute name="ROW_SPACING" value="-"/>
+<attribute name="SERIES" value="KK® 41791"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-search/en?KeyWords=0026604020&amp;WT.z_header=search_go&quot;&gt;Details&lt;/a&gt;"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="WM4620-ND" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-search/en?KeyWords=0026604020&amp;WT.z_header=search_go" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="WM4620-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-search/en?KeyWords=0026604020&amp;WT.z_header=search_go"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
-<attribute name="TERMINATION" value="Solder" constant="no"/>
+<attribute name="TERMINATION" value="Solder"/>
 </technology>
 </technologies>
 </device>
@@ -981,35 +981,35 @@ For attribution, please provide a link in any documentation or design files to t
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CATEGORY" value="Connectors, Interconnects" constant="no"/>
-<attribute name="COLOR" value="Natural" constant="no"/>
-<attribute name="CONNECTOR_TYPE" value="Header, Shrouded" constant="no"/>
-<attribute name="CONTACT_FINISH" value="Tin" constant="no"/>
-<attribute name="CONTACT_FINISH_THICKNESS" value="39µin (1.00µm)" constant="no"/>
-<attribute name="CONTACT_MATING_LENGTH" value="-" constant="no"/>
-<attribute name="CONTACT_TYPE" value="Blade Pin" constant="no"/>
-<attribute name="DESCRIPTION" value="CONN HEADER 4POS 1.25MM R/A SMD" constant="no"/>
+<attribute name="CATEGORY" value="Connectors, Interconnects"/>
+<attribute name="COLOR" value="Natural"/>
+<attribute name="CONNECTOR_TYPE" value="Header, Shrouded"/>
+<attribute name="CONTACT_FINISH" value="Tin"/>
+<attribute name="CONTACT_FINISH_THICKNESS" value="39µin (1.00µm)"/>
+<attribute name="CONTACT_MATING_LENGTH" value="-"/>
+<attribute name="CONTACT_TYPE" value="Blade Pin"/>
+<attribute name="DESCRIPTION" value="CONN HEADER 4POS 1.25MM R/A SMD"/>
 <attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.molex.com/pdm_docs/sd/532610471_sd.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
-<attribute name="DOCUMENTATION_URL" value="http://www.molex.com/pdm_docs/sd/532610471_sd.pdf" constant="no"/>
-<attribute name="FAMILY" value="Rectangular Connectors - Headers, Male Pins" constant="no"/>
-<attribute name="FASTENING_TYPE" value="-" constant="no"/>
-<attribute name="FEATURES" value="Solder Retention" constant="no"/>
-<attribute name="MANUFACTURER" value="Molex Inc" constant="no"/>
-<attribute name="MOUNTING_TYPE" value="Surface Mount, Right Angle" constant="no"/>
-<attribute name="NUMBER_OF_POSITIONS" value="4" constant="no"/>
-<attribute name="NUMBER_OF_POSITIONS_LOADED" value="All" constant="no"/>
-<attribute name="NUMBER_OF_ROWS" value="1" constant="no"/>
-<attribute name="PART_NUMBER" value="0533980371" constant="no"/>
-<attribute name="PITCH" value="0.049&quot; (1.25mm)" constant="no"/>
-<attribute name="ROW_SPACING" value="-" constant="no"/>
-<attribute name="SERIES" value="PicoBlade™ 53261" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.molex.com/pdm_docs/sd/532610471_sd.pdf"/>
+<attribute name="FAMILY" value="Rectangular Connectors - Headers, Male Pins"/>
+<attribute name="FASTENING_TYPE" value="-"/>
+<attribute name="FEATURES" value="Solder Retention"/>
+<attribute name="MANUFACTURER" value="Molex Inc"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount, Right Angle"/>
+<attribute name="NUMBER_OF_POSITIONS" value="4"/>
+<attribute name="NUMBER_OF_POSITIONS_LOADED" value="All"/>
+<attribute name="NUMBER_OF_ROWS" value="1"/>
+<attribute name="PART_NUMBER" value="0533980371"/>
+<attribute name="PITCH" value="0.049&quot; (1.25mm)"/>
+<attribute name="ROW_SPACING" value="-"/>
+<attribute name="SERIES" value="PicoBlade™ 53261"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/0532610471/WM7622CT-ND/699109&quot;&gt;Details&lt;/a&gt;"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="WM7622CT-ND" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/0532610471/WM7622CT-ND/699109" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="WM7622CT-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/0532610471/WM7622CT-ND/699109"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
-<attribute name="TERMINATION" value="Solder" constant="no"/>
+<attribute name="TERMINATION" value="Solder"/>
 </technology>
 </technologies>
 </device>
@@ -1040,35 +1040,35 @@ For attribution, please provide a link in any documentation or design files to t
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CATEGORY" value="Connectors, Interconnects" constant="no"/>
-<attribute name="COLOR" value="Natural" constant="no"/>
-<attribute name="CONNECTOR_TYPE" value="Header, Shrouded" constant="no"/>
-<attribute name="CONTACT_FINISH" value="Tin" constant="no"/>
-<attribute name="CONTACT_FINISH_THICKNESS" value="39µin (1.00µm)" constant="no"/>
-<attribute name="CONTACT_MATING_LENGTH" value="-" constant="no"/>
-<attribute name="CONTACT_TYPE" value="Blade Pin" constant="no"/>
-<attribute name="DESCRIPTION" value="CONN HEADER 5POS 1.25MM R/A SMD" constant="no"/>
+<attribute name="CATEGORY" value="Connectors, Interconnects"/>
+<attribute name="COLOR" value="Natural"/>
+<attribute name="CONNECTOR_TYPE" value="Header, Shrouded"/>
+<attribute name="CONTACT_FINISH" value="Tin"/>
+<attribute name="CONTACT_FINISH_THICKNESS" value="39µin (1.00µm)"/>
+<attribute name="CONTACT_MATING_LENGTH" value="-"/>
+<attribute name="CONTACT_TYPE" value="Blade Pin"/>
+<attribute name="DESCRIPTION" value="CONN HEADER 5POS 1.25MM R/A SMD"/>
 <attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.molex.com/pdm_docs/sd/532610571_sd.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
-<attribute name="DOCUMENTATION_URL" value="http://www.molex.com/pdm_docs/sd/532610571_sd.pdf" constant="no"/>
-<attribute name="FAMILY" value="Rectangular Connectors - Headers, Male Pins" constant="no"/>
-<attribute name="FASTENING_TYPE" value="-" constant="no"/>
-<attribute name="FEATURES" value="Solder Retention" constant="no"/>
-<attribute name="MANUFACTURER" value="Molex Inc" constant="no"/>
-<attribute name="MOUNTING_TYPE" value="Surface Mount, Right Angle" constant="no"/>
-<attribute name="NUMBER_OF_POSITIONS" value="5" constant="no"/>
-<attribute name="NUMBER_OF_POSITIONS_LOADED" value="All" constant="no"/>
-<attribute name="NUMBER_OF_ROWS" value="1" constant="no"/>
-<attribute name="PART_NUMBER" value="0532610571" constant="no"/>
-<attribute name="PITCH" value="0.049&quot; (1.25mm)" constant="no"/>
-<attribute name="ROW_SPACING" value="-" constant="no"/>
-<attribute name="SERIES" value="PicoBlade™ 53261" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.molex.com/pdm_docs/sd/532610571_sd.pdf"/>
+<attribute name="FAMILY" value="Rectangular Connectors - Headers, Male Pins"/>
+<attribute name="FASTENING_TYPE" value="-"/>
+<attribute name="FEATURES" value="Solder Retention"/>
+<attribute name="MANUFACTURER" value="Molex Inc"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount, Right Angle"/>
+<attribute name="NUMBER_OF_POSITIONS" value="5"/>
+<attribute name="NUMBER_OF_POSITIONS_LOADED" value="All"/>
+<attribute name="NUMBER_OF_ROWS" value="1"/>
+<attribute name="PART_NUMBER" value="0532610571"/>
+<attribute name="PITCH" value="0.049&quot; (1.25mm)"/>
+<attribute name="ROW_SPACING" value="-"/>
+<attribute name="SERIES" value="PicoBlade™ 53261"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/0532610571/WM7623CT-ND/699110&quot;&gt;Details&lt;/a&gt;"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="WM7623CT-ND" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/0532610571/WM7623CT-ND/699110" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="WM7623CT-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/0532610571/WM7623CT-ND/699110"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
-<attribute name="TERMINATION" value="Solder" constant="no"/>
+<attribute name="TERMINATION" value="Solder"/>
 </technology>
 </technologies>
 </device>
@@ -1100,34 +1100,34 @@ For attribution, please provide a link in any documentation or design files to t
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CATEGORY" value="Connectors, Interconnects" constant="no"/>
-<attribute name="COLOR" value="Black" constant="no"/>
-<attribute name="CONNECTOR_TYPE" value="Header, Shrouded" constant="no"/>
-<attribute name="CONTACT_FINISH" value="Gold" constant="no"/>
-<attribute name="CONTACT_FINISH_THICKNESS" value="30µin (0.76µm)" constant="no"/>
-<attribute name="CONTACT_MATING_LENGTH" value="-" constant="no"/>
-<attribute name="CONTACT_TYPE" value="Male Pin" constant="no"/>
-<attribute name="DESCRIPTION" value="MICROFIT 3.0 SR RA SMT GOLD 4CKT" constant="no"/>
+<attribute name="CATEGORY" value="Connectors, Interconnects"/>
+<attribute name="COLOR" value="Black"/>
+<attribute name="CONNECTOR_TYPE" value="Header, Shrouded"/>
+<attribute name="CONTACT_FINISH" value="Gold"/>
+<attribute name="CONTACT_FINISH_THICKNESS" value="30µin (0.76µm)"/>
+<attribute name="CONTACT_MATING_LENGTH" value="-"/>
+<attribute name="CONTACT_TYPE" value="Male Pin"/>
+<attribute name="DESCRIPTION" value="MICROFIT 3.0 SR RA SMT GOLD 4CKT"/>
 <attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.molex.com/pdm_docs/sd/436500414_sd.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
-<attribute name="DOCUMENTATION_URL" value="http://www.molex.com/pdm_docs/sd/436500414_sd.pdf" constant="no"/>
-<attribute name="FAMILY" value="Rectangular Connectors - Headers, Male Pins" constant="no"/>
-<attribute name="FASTENING_TYPE" value="Locking Ramp" constant="no"/>
-<attribute name="FEATURES" value="Solder Retention" constant="no"/>
-<attribute name="MANUFACTURER" value="Molex Inc" constant="no"/>
-<attribute name="MOUNTING_TYPE" value="Surface Mount, Right Angle" constant="no"/>
-<attribute name="NUMBER_OF_POSITIONS" value="4" constant="no"/>
-<attribute name="NUMBER_OF_POSITIONS_LOADED" value="All" constant="no"/>
-<attribute name="NUMBER_OF_ROWS" value="1" constant="no"/>
-<attribute name="PART_NUMBER" value="0436500414" constant="no"/>
-<attribute name="PITCH" value="0.118&quot; (3.00mm)" constant="no"/>
-<attribute name="SERIES" value="Micro-Fit 3.0™ 43650" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.molex.com/pdm_docs/sd/436500414_sd.pdf"/>
+<attribute name="FAMILY" value="Rectangular Connectors - Headers, Male Pins"/>
+<attribute name="FASTENING_TYPE" value="Locking Ramp"/>
+<attribute name="FEATURES" value="Solder Retention"/>
+<attribute name="MANUFACTURER" value="Molex Inc"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount, Right Angle"/>
+<attribute name="NUMBER_OF_POSITIONS" value="4"/>
+<attribute name="NUMBER_OF_POSITIONS_LOADED" value="All"/>
+<attribute name="NUMBER_OF_ROWS" value="1"/>
+<attribute name="PART_NUMBER" value="0436500414"/>
+<attribute name="PITCH" value="0.118&quot; (3.00mm)"/>
+<attribute name="SERIES" value="Micro-Fit 3.0™ 43650"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/0436500414/WM3799CT-ND/2421872&quot;&gt;Details&lt;/a&gt;"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="WM3799CT-ND" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/0436500414/WM3799CT-ND/2421872" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="WM3799CT-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/0436500414/WM3799CT-ND/2421872"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
-<attribute name="TERMINATION" value="Solder" constant="no"/>
+<attribute name="TERMINATION" value="Solder"/>
 </technology>
 </technologies>
 </device>
@@ -1158,33 +1158,33 @@ For attribution, please provide a link in any documentation or design files to t
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CATEGORY" value="Connectors, Interconnects " constant="no"/>
-<attribute name="COLOR" value="Black" constant="no"/>
-<attribute name="CONNECTOR_TYPE" value="Header, Shrouded" constant="no"/>
-<attribute name="CONTACT_FINISH" value="Gold" constant="no"/>
-<attribute name="CONTACT_FINISH_THICKNESS" value="-" constant="no"/>
-<attribute name="CONTACT_MATING_LENGTH" value="-" constant="no"/>
-<attribute name="CONTACT_TYPE" value="Blade Pin" constant="no"/>
-<attribute name="DESCRIPTION" value="CONN WIRE TO BOARD RA 4POS" constant="no"/>
+<attribute name="CATEGORY" value="Connectors, Interconnects "/>
+<attribute name="COLOR" value="Black"/>
+<attribute name="CONNECTOR_TYPE" value="Header, Shrouded"/>
+<attribute name="CONTACT_FINISH" value="Gold"/>
+<attribute name="CONTACT_FINISH_THICKNESS" value="-"/>
+<attribute name="CONTACT_MATING_LENGTH" value="-"/>
+<attribute name="CONTACT_TYPE" value="Blade Pin"/>
+<attribute name="DESCRIPTION" value="CONN WIRE TO BOARD RA 4POS"/>
 <attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.molex.com/pdm_docs/sd/5040500691_sd.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
-<attribute name="DOCUMENTATION_URL" value="http://www.molex.com/pdm_docs/sd/5040500691_sd.pdf" constant="no"/>
-<attribute name="FAMILY" value="Rectangular Connectors - Headers, Male Pins" constant="no"/>
-<attribute name="MANUFACTURER" value="Molex Inc" constant="no"/>
-<attribute name="MOUNTING_TYPE" value="Surface Mount, Right Angle" constant="no"/>
-<attribute name="NUMBER_OF_POSITIONS" value="4" constant="no"/>
-<attribute name="NUMBER_OF_POSITIONS_LOADED" value="All" constant="no"/>
-<attribute name="NUMBER_OF_ROWS" value="1" constant="no"/>
-<attribute name="PART_NUMBER" value="5040500491" constant="no"/>
-<attribute name="PITCH" value="0.059&quot; (1.50mm)" constant="no"/>
-<attribute name="ROW_SPACING" value="-" constant="no"/>
-<attribute name="SERIES" value="Pico-Lock™ 504050" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.molex.com/pdm_docs/sd/5040500691_sd.pdf"/>
+<attribute name="FAMILY" value="Rectangular Connectors - Headers, Male Pins"/>
+<attribute name="MANUFACTURER" value="Molex Inc"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount, Right Angle"/>
+<attribute name="NUMBER_OF_POSITIONS" value="4"/>
+<attribute name="NUMBER_OF_POSITIONS_LOADED" value="All"/>
+<attribute name="NUMBER_OF_ROWS" value="1"/>
+<attribute name="PART_NUMBER" value="5040500491"/>
+<attribute name="PITCH" value="0.059&quot; (1.50mm)"/>
+<attribute name="ROW_SPACING" value="-"/>
+<attribute name="SERIES" value="Pico-Lock™ 504050"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/5040500491/WM10137CT-ND/4357653&quot;&gt;Details&lt;/a&gt;"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="WM10137CT-ND" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/5040500491/WM10137CT-ND/4357653" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="WM10137CT-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/5040500491/WM10137CT-ND/4357653"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
-<attribute name="TERMINATION" value="Solder" constant="no"/>
+<attribute name="TERMINATION" value="Solder"/>
 </technology>
 </technologies>
 </device>

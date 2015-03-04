@@ -149,32 +149,32 @@ For attribution, please provide a link in any documentation or design files to t
 </connects>
 <technologies>
 <technology name="6344TRPBF">
-<attribute name="CATEGORY" value="Discrete Semiconductor Products" constant="no"/>
-<attribute name="CURRENT-CONTINUOUS_DRAIN" value="5A (Ta)" constant="no"/>
-<attribute name="DESCRIPTION" value="MOSFET N-CH 30V 5A SOT23" constant="no"/>
+<attribute name="CATEGORY" value="Discrete Semiconductor Products"/>
+<attribute name="CURRENT-CONTINUOUS_DRAIN" value="5A (Ta)"/>
+<attribute name="DESCRIPTION" value="MOSFET N-CH 30V 5A SOT23"/>
 <attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.irf.com/product-info/datasheets/data/irlml6344pbf.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
-<attribute name="DOCUMENTATION_URL" value="http://www.irf.com/product-info/datasheets/data/irlml6344pbf.pdf" constant="no"/>
-<attribute name="DRAIN_TO_SOURCE_VOLTAGE" value="30V" constant="no"/>
-<attribute name="FAMILY" value="FETs - Single" constant="no"/>
-<attribute name="FET_FEATURE" value="Logic Level Gate" constant="no"/>
-<attribute name="FET_TYPE" value="MOSFET N-Channel, Metal Oxide" constant="no"/>
-<attribute name="GATE_CHARGE" value="6.8nC @ 4.5V" constant="no"/>
-<attribute name="INPUT_CAPACITANCE" value="650pF @ 25V" constant="no"/>
-<attribute name="MANUFACTURER" value="International Rectifier" constant="no"/>
-<attribute name="MOUNTING_TYPE" value="Surface Mount" constant="no"/>
-<attribute name="PACKAGE" value="TO-236-3, SC-59, SOT-23-3" constant="no"/>
-<attribute name="PART_NUMBER" value="IRLML6344TRPBF" constant="no"/>
-<attribute name="POWER-MAX" value="1.3W" constant="no"/>
-<attribute name="RDS_ON" value="29 mOhm @ 5A, 4.5V" constant="no"/>
-<attribute name="SERIES" value="HEXFET" constant="no"/>
-<attribute name="SUPPLIER_DEVICE_PACKAGE" value="SOT-23" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.irf.com/product-info/datasheets/data/irlml6344pbf.pdf"/>
+<attribute name="DRAIN_TO_SOURCE_VOLTAGE" value="30V"/>
+<attribute name="FAMILY" value="FETs - Single"/>
+<attribute name="FET_FEATURE" value="Logic Level Gate"/>
+<attribute name="FET_TYPE" value="MOSFET N-Channel, Metal Oxide"/>
+<attribute name="GATE_CHARGE" value="6.8nC @ 4.5V"/>
+<attribute name="INPUT_CAPACITANCE" value="650pF @ 25V"/>
+<attribute name="MANUFACTURER" value="International Rectifier"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount"/>
+<attribute name="PACKAGE" value="TO-236-3, SC-59, SOT-23-3"/>
+<attribute name="PART_NUMBER" value="IRLML6344TRPBF"/>
+<attribute name="POWER-MAX" value="1.3W"/>
+<attribute name="RDS_ON" value="29 mOhm @ 5A, 4.5V"/>
+<attribute name="SERIES" value="HEXFET"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="SOT-23"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/IRLML6344TRPBF/IRLML6344TRPBFCT-ND/2538168&quot;&gt;Details&lt;/a&gt;"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="IRLML6344TRPBFCT-ND" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/IRLML6344TRPBF/IRLML6344TRPBFCT-ND/2538168" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="IRLML6344TRPBFCT-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/IRLML6344TRPBF/IRLML6344TRPBFCT-ND/2538168"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
-<attribute name="VGS" value="1.1V @ 10uA" constant="no"/>
+<attribute name="VGS" value="1.1V @ 10uA"/>
 </technology>
 </technologies>
 </device>

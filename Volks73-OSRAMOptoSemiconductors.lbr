@@ -217,32 +217,32 @@ For attribution, please provide a link in any documentation or design files to t
 </connects>
 <technologies>
 <technology name="">
-<attribute name="COLOR" value="Green" constant="no"/>
-<attribute name="CURRENT-TEST" value="20mA" constant="no"/>
-<attribute name="DESCRIPTION" value="LED CHIPLED 570NM GREEN 0805 SMD" constant="no"/>
+<attribute name="COLOR" value="Green"/>
+<attribute name="CURRENT-TEST" value="20mA"/>
+<attribute name="DESCRIPTION" value="LED CHIPLED 570NM GREEN 0805 SMD"/>
 <attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
-<attribute name="DOCUMENTATION_URL" value="http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" constant="no"/>
-<attribute name="FAMILY" value="LED indications - Discrete" constant="no"/>
-<attribute name="HEIGHT" value="0.80mm" constant="no"/>
-<attribute name="LENS_STYLE" value="Rectangle with Flat Top, 1.3mm x 1.25mm" constant="no"/>
-<attribute name="LENS_TYPE" value="Diffused" constant="no"/>
-<attribute name="LUMINOUS_FLUX" value="100 mim" constant="no"/>
-<attribute name="MANUFACTURER" value="OSRAM Opto Semiconductos Inc" constant="no"/>
-<attribute name="MILLICANDELA_RATING" value="26.05mcd" constant="no"/>
-<attribute name="MOUNTING_TYPE" value="Surface Mount" constant="no"/>
-<attribute name="PACKAGE" value="0805 (2012 Metric)" constant="no"/>
-<attribute name="PART_NUMBER" value="LG R971-KN-1" constant="no"/>
-<attribute name="SERIES" value="CHIPLED" constant="no"/>
-<attribute name="SIZE" value="2.00mm L x 1.25mm W" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf"/>
+<attribute name="FAMILY" value="LED indications - Discrete"/>
+<attribute name="HEIGHT" value="0.80mm"/>
+<attribute name="LENS_STYLE" value="Rectangle with Flat Top, 1.3mm x 1.25mm"/>
+<attribute name="LENS_TYPE" value="Diffused"/>
+<attribute name="LUMINOUS_FLUX" value="100 mim"/>
+<attribute name="MANUFACTURER" value="OSRAM Opto Semiconductos Inc"/>
+<attribute name="MILLICANDELA_RATING" value="26.05mcd"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount"/>
+<attribute name="PACKAGE" value="0805 (2012 Metric)"/>
+<attribute name="PART_NUMBER" value="LG R971-KN-1"/>
+<attribute name="SERIES" value="CHIPLED"/>
+<attribute name="SIZE" value="2.00mm L x 1.25mm W"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/LG%20R971-KN-1/475-1410-1-ND/1802598&quot;&gt;Details&lt;/a&gt;"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="475-1410-1-ND" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/LG%20R971-KN-1/475-1410-1-ND/1802598" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="475-1410-1-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/LG%20R971-KN-1/475-1410-1-ND/1802598"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
-<attribute name="VIEWING_ANGLE" value="160" constant="no"/>
-<attribute name="WAVELENGTH-DOMINANT" value="570nm" constant="no"/>
-<attribute name="WAVELENGTH-PEAK" value="572nm" constant="no"/>
+<attribute name="VIEWING_ANGLE" value="160"/>
+<attribute name="WAVELENGTH-DOMINANT" value="570nm"/>
+<attribute name="WAVELENGTH-PEAK" value="572nm"/>
 </technology>
 </technologies>
 </device>
@@ -282,32 +282,32 @@ For attribution, please provide a link in any documentation or design files to t
 </connects>
 <technologies>
 <technology name="">
-<attribute name="COLOR" value="Yellow" constant="no"/>
-<attribute name="CURRENT-TEST" value="20mA" constant="no"/>
-<attribute name="DESCRIPTION" value="LED CHIPLED 588NM YLW 0805 SMD" constant="no"/>
+<attribute name="COLOR" value="Yellow"/>
+<attribute name="CURRENT-TEST" value="20mA"/>
+<attribute name="DESCRIPTION" value="LED CHIPLED 588NM YLW 0805 SMD"/>
 <attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.osram-os.com/Graphics/XPic9/00078941_0.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
-<attribute name="DOCUMENTATION_URL" value="http://www.osram-os.com/Graphics/XPic9/00078941_0.pdf" constant="no"/>
-<attribute name="FAMILY" value="LED Indication - Discrete" constant="no"/>
-<attribute name="HEIGHT" value="0.80mm" constant="no"/>
-<attribute name="LENS_STYLE" value="Rectangle with Flat Top, 1.3mm x 1.25mm" constant="no"/>
-<attribute name="LENS_TYPE" value="Diffused" constant="no"/>
-<attribute name="LUMINOUS_FLUX" value="520 mlm" constant="no"/>
-<attribute name="MANUFACTURER" value="OSRAM Opto Semiconductors Inc" constant="no"/>
-<attribute name="MILLICANDELA_RATING" value="162.5mcd" constant="no"/>
-<attribute name="MOUNTING_TYPE" value="Surface Mount" constant="no"/>
-<attribute name="PACKAGE" value="0805 (2012 Metric)" constant="no"/>
-<attribute name="PART_NUMBER" value="LY R976-PS-36" constant="no"/>
-<attribute name="SERIES" value="CHIPLED" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.osram-os.com/Graphics/XPic9/00078941_0.pdf"/>
+<attribute name="FAMILY" value="LED Indication - Discrete"/>
+<attribute name="HEIGHT" value="0.80mm"/>
+<attribute name="LENS_STYLE" value="Rectangle with Flat Top, 1.3mm x 1.25mm"/>
+<attribute name="LENS_TYPE" value="Diffused"/>
+<attribute name="LUMINOUS_FLUX" value="520 mlm"/>
+<attribute name="MANUFACTURER" value="OSRAM Opto Semiconductors Inc"/>
+<attribute name="MILLICANDELA_RATING" value="162.5mcd"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount"/>
+<attribute name="PACKAGE" value="0805 (2012 Metric)"/>
+<attribute name="PART_NUMBER" value="LY R976-PS-36"/>
+<attribute name="SERIES" value="CHIPLED"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/LY%20R976-PS-36/475-2560-1-ND/1802687&quot;&gt;Details&lt;/a&gt;"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="475-2560-1-ND" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/LY%20R976-PS-36/475-2560-1-ND/1802687" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="475-2560-1-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/LY%20R976-PS-36/475-2560-1-ND/1802687"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
-<attribute name="VIEWING_ANGLE" value="160" constant="no"/>
-<attribute name="VOLTAGE-FORWARD" value="2V" constant="no"/>
-<attribute name="WAVELENGTH-DOMINANT" value="588nm" constant="no"/>
-<attribute name="WAVELENGTH-PEAK" value="591nm" constant="no"/>
+<attribute name="VIEWING_ANGLE" value="160"/>
+<attribute name="VOLTAGE-FORWARD" value="2V"/>
+<attribute name="WAVELENGTH-DOMINANT" value="588nm"/>
+<attribute name="WAVELENGTH-PEAK" value="591nm"/>
 </technology>
 </technologies>
 </device>
