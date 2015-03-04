@@ -157,6 +157,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CAPACITANCE" value="0.1uF" constant="no"/>
 <attribute name="CATEGORY" value="Capacitors" constant="no"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 25V 10% RADIAL" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://product.tdk.com/capacitor/leadmlcc/en/documents/leadmlcc_commercial_general_en.pdf"/>
 <attribute name="FAMILY" value="Ceramic Capacitors" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="HEIGHT" value="0.217&quot; (5.50mm)" constant="no"/>
@@ -186,6 +188,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CAPACITANCE" value="1.0uF" constant="no"/>
 <attribute name="CATEGORY" value="Capacitors" constant="no"/>
 <attribute name="DESCRIPTION" value="CAP CER 1UF 25V 10% RADIAL" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://product.tdk.com/capacitor/leadmlcc/en/documents/leadmlcc_commercial_general_en.pdf"/>
 <attribute name="FAMILY" value="Ceramic Capacitors" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="HEIGHT" value="0.217&quot; (5.50mm)" constant="no"/>
@@ -224,7 +228,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CATEGORY" value="Capacitors" constant="no"/>
 <attribute name="DESCRIPTION" value="CAP CER 10UF 25V 10% RADIAL" constant="no"/>
 <attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
-<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://product.tdk.com/capacitor/leadmlcc/en/documents/leadmlcc_commercial_general_en.pdf" constant="no"/>
 <attribute name="FAMILY" value="Ceramic Capacitors" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="HEIGHT" value="0.236&quot;" constant="no"/>

@@ -150,7 +150,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CAPACITANCE" value="0.1uF" constant="no"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 10V 10% X5R 0402" constant="no"/>
 <attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
-<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.yuden.co.jp/productdata/catalog/en/mlcc_all_e.pdf" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="HEIGHT-SEATED" value="-" constant="no"/>
 <attribute name="LEAD_SPACING" value="-" constant="no"/>
@@ -199,6 +199,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CAPACITANCE" value="4.7uF" constant="no"/>
 <attribute name="CATEGORY" value="Capacitors" constant="no"/>
 <attribute name="DESCRIPTION" value="CAP CER 4.7UF 50V 10% X7R 1206" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.yuden.co.jp/productdata/catalog/en/mlcc_all_e.pdf" constant="no"/>
 <attribute name="FAMILY" value="Cermaic Capacitors" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="HEIGHT-SEATED" value="-" constant="no"/>
@@ -236,7 +238,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CATEGORY" value="Capacitors" constant="no"/>
 <attribute name="DESCRIPTION" value="CAP CER 1UF 50V 10% X5R 0603" constant="no"/>
 <attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
-<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.yuden.co.jp/productdata/catalog/en/mlcc_all_e.pdf" constant="no"/>
 <attribute name="FAMILY" value="Ceramic Capacitors" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="HEIGHT-SEATED" value="-" constant="no"/>

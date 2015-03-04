@@ -183,7 +183,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="COMPOSITION" value="Metal Film" constant="no"/>
 <attribute name="DESCRIPTION" value="RES MF HV .25W 3M OHM 1% AXIAL" constant="no"/>
 <attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
-<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="https://www.seielect.com/Catalog/SEI-RNV.pdf" constant="no"/>
 <attribute name="FAMILY" value="Through Hole Resistors" constant="no"/>
 <attribute name="FEATURES" value="Flame Retardant Coating, Moisture Resistant, Pulse Withstanding" constant="no"/>
 <attribute name="HEIGHT" value="-" constant="no"/>

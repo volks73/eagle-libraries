@@ -320,7 +320,7 @@ Package contains a relatively large pad on the bottom that should be soldered di
 <attribute name="CURRENT_OUTPUT" value="500mA" constant="no"/>
 <attribute name="DESCRIPTION" value="IC REG LDO ADJ 0.5A SOT223" constant="no"/>
 <attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
-<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.ti.com/lit/ds/symlink/lm317m.pdf" constant="no"/>
 <attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Surface Mount" constant="no"/>
 <attribute name="NUMBER_OF_REGULATORS" value="1" constant="no"/>
@@ -391,7 +391,7 @@ The TPS54531 device is a 28-V, 5-A non-synchronous buck converter that integrate
 <attribute name="CURRENT-OUTPUT" value="5A" constant="no"/>
 <attribute name="DESCRIPTION" value="IC REG BUCK ADJ 5A 8SOPWRPAD" constant="no"/>
 <attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
-<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.ti.com/lit/ds/symlink/tps54531.pdf" constant="no"/>
 <attribute name="FAMILY" value="PMIC - Voltage Regulators - DC DC Switching Regulators" constant="no"/>
 <attribute name="FREQUENCY-SWITCHING" value="570kHz" constant="no"/>
 <attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
@@ -469,7 +469,7 @@ The TPS54531 device is a 28-V, 5-A non-synchronous buck converter that integrate
 <attribute name="CURRENT-OUTPUT" value="3.5A" constant="no"/>
 <attribute name="DESCRIPTION" value="IC REG BUCK ADJ 3.5A 8SOPWRPAD" constant="no"/>
 <attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
-<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.ti.com/lit/ds/symlink/tps54332.pdf" constant="no"/>
 <attribute name="FAMILY" value="PMIC - Voltage Regulators - DC DC Switching Regulators" constant="no"/>
 <attribute name="FREQUENCY-SWITCHING" value="1MHz" constant="no"/>
 <attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
@@ -547,7 +547,7 @@ The TPS54331 device is a 28-V, 3-A non-synchronous buck converter that integrate
 <attribute name="CURRENT-OUTPUT" value="3A" constant="no"/>
 <attribute name="DESCRIPTION" value="IC REG BUCK ADJ 3A 8SOIC" constant="no"/>
 <attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
-<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.ti.com/lit/ds/symlink/tps54331.pdf" constant="no"/>
 <attribute name="FAMILY" value="PMIC - Voltage Regulators - DC DC Switching Regulators" constant="no"/>
 <attribute name="FREQUENCY-SWITCHING" value="570kHz" constant="no"/>
 <attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
@@ -655,7 +655,7 @@ The OPAx171 series of op amps are specified from -40&lt;sup&gt;o&lt;/sup&gt;C to
 <attribute name="CURRENT-SUPPLY" value="475µA" constant="no"/>
 <attribute name="DESCRIPTION" value="IC OPAMP GP 3MHZ RRO 8SOIC" constant="no"/>
 <attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
-<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.ti.com/lit/ds/symlink/opa2171.pdf" constant="no"/>
 <attribute name="FAMILY" value="Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps" constant="no"/>
 <attribute name="GAIN_BANDWIDTH_PRODUCT" value="3MHz" constant="no"/>
 <attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
