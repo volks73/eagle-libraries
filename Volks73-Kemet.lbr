@@ -308,13 +308,12 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="RATINGS" value="-" constant="no"/>
 <attribute name="SERIES" value="Golden Max" constant="no"/>
 <attribute name="SIZE" value="0.150&quot; L x 0.100&quot; W (3.81mm x 2.54mm" constant="no"/>
-<attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-detail/en/C315C104M5U5TA/399-4151-ND/817927" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="399-4151-ND" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
-<attribute name="SUPPLIER_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
-<attribute name="SUPPLIER_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/C315C104M5U5TA/399-4151-ND/817927" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="Z5U" constant="no"/>
 <attribute name="THICKNESS" value="-" constant="no"/>
 <attribute name="TOLERANCE" value="20%" constant="no"/>
@@ -338,13 +337,12 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="RATINGS" value="-" constant="no"/>
 <attribute name="SERIES" value="Golden Max" constant="no"/>
 <attribute name="SIZE" value="0.150&quot; L x 0.100&quot; W (3.81mm x 2.54mm" constant="no"/>
-<attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-search/en?KeyWords=C315C105K3R5TA&amp;WT.z_header=search_go" constant="no"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="399-9714-ND" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
-<attribute name="SUPPLIER_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
-<attribute name="SUPPLIER_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-search/en?KeyWords=C315C105K3R5TA&amp;WT.z_header=search_go" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="X7R" constant="no"/>
 <attribute name="THICKNESS" value="-" constant="no"/>
 <attribute name="TOLERANCE" value="10%" constant="no"/>
@@ -417,9 +415,9 @@ as MSL (Moisture Sensitivity Level) 1 under J STD 020: unlimited flor life time 
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="399-8410-1-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
-<attribute name="SUPPLIER_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
-<attribute name="SUPPLIER_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
 <attribute name="TOLERANCE" value="10%" constant="no"/>
 <attribute name="TYPE" value="Molded" constant="no"/>
 <attribute name="VOLTAGE-RATED" value="25V" constant="no"/>
@@ -456,9 +454,9 @@ as MSL (Moisture Sensitivity Level) 1 under J STD 020: unlimited flor life time 
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="399-3770-1-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
-<attribute name="SUPPLIER_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
-<attribute name="SUPPLIER_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
 <attribute name="TOLERANCE" value="±10%" constant="no"/>
 <attribute name="TYPE" value="Molded" constant="no"/>
 <attribute name="VOLTAGE-RATED" value="16V" constant="no"/>
@@ -487,9 +485,9 @@ as MSL (Moisture Sensitivity Level) 1 under J STD 020: unlimited flor life time 
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="399-8367-1-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
-<attribute name="SUPPLIER_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
-<attribute name="SUPPLIER_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
 <attribute name="TOLERANCE" value="±20%" constant="no"/>
 <attribute name="TYPE" value="Molded" constant="no"/>
 <attribute name="VOLTAGE-RATED" value="6.3V" constant="no"/>
@@ -518,9 +516,9 @@ as MSL (Moisture Sensitivity Level) 1 under J STD 020: unlimited flor life time 
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="399-3772-1-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
-<attribute name="SUPPLIER_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
-<attribute name="SUPPLIER_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
 <attribute name="TOLERANCE" value="±20%" constant="no"/>
 <attribute name="TYPE" value="Molded" constant="no"/>
 <attribute name="VOLTAGE-RATED" value="10V" constant="no"/>
@@ -565,7 +563,7 @@ Typical applications include coupling, decoupling, bypass, and fitering.
 <attribute name="CAPACITANCE" value="100uF" constant="no"/>
 <attribute name="CATEGORY" value="Capacitors" constant="no"/>
 <attribute name="DESCRIPTION" value="CAP ALUM 100UF 50V 20% SMD" constant="no"/>
-<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.kemet.com/Lists/ProductCatalog/Attachments/273/KEM_A4001_EDK.pdf&quot;&gt;Datasheet&lt;/a&gt;" constant="no"/>
 <attribute name="DOCUMENTATION_URL" value="http://www.kemet.com/Lists/ProductCatalog/Attachments/273/KEM_A4001_EDK.pdf" constant="no"/>
 <attribute name="ESR" value="-" constant="no"/>
 <attribute name="FAMILY" value="Aluminum Capacitors" constant="no"/>
@@ -583,9 +581,9 @@ Typical applications include coupling, decoupling, bypass, and fitering.
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="399-6672-1-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
-<attribute name="SUPPLIER_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
-<attribute name="SUPPLIER_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
 <attribute name="SURFACE_MOUNT_LAND_SIZE" value="0.327&quot; L x 0.394&quot; W (8.30mm x 10.00mm)" constant="no"/>
 <attribute name="TOLERANCE" value="20%" constant="no"/>
 <attribute name="TYPE" value="-" constant="no"/>
@@ -637,9 +635,9 @@ Typical applications include coupling, decoupling, bypass, and fitering.
 <attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="399-11242-1-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
-<attribute name="SUPPLIER_LINK" value="" constant="no"/>
-<attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
-<attribute name="SUPPLIER_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="C0G, NP0" constant="no"/>
 <attribute name="THICKENSS" value="0.013&quot; (0.33mm)" constant="no"/>
 <attribute name="TOLERANCE" value="1%" constant="no"/>
