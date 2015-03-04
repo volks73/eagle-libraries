@@ -549,6 +549,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CONTACT_MATING_LENGTH" value="0.228'' (5.80 mm)" constant="no"/>
 <attribute name="CONTACT_TYPE" value="Male Pin" constant="no"/>
 <attribute name="DESCRIPTION" value="CONN HEADER 16POS .100 VERT GOLD" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
 <attribute name="MANUFACTURER" value="TE Connectivity" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
 <attribute name="NUMBER_POSITIONS" value="10" constant="no"/>
@@ -557,6 +559,12 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="PITCH" value="0.100'' (2.54 mm)" constant="no"/>
 <attribute name="ROW_SPACING" value="0.100'' (2.54 mm)" constant="no"/>
 <attribute name="SERIES" value="AMP-Latch, AMP" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="" constant="no"/>
+<attribute name="SUPPLIER_URL" value="" constant="no"/>
 <attribute name="TERMINATION" value="Solder" constant="no"/>
 </technology>
 </technologies>
@@ -658,6 +666,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CONTACT_TYPE" value="Signal" constant="no"/>
 <attribute name="CURRENT_RATING" value="2A" constant="no"/>
 <attribute name="DESCRIPTION" value="CONN DSUB HD RCPT 15POS R/A SLDR" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
 <attribute name="FEATURES" value="Board Lock" constant="no"/>
 <attribute name="FLANGE_FEATURE" value="Housing/Shell (4-40)" constant="no"/>
 <attribute name="HOUSING_MATERIAL" value="Polyamide (PA9T), Nylon 9T" constant="no"/>
@@ -670,6 +680,12 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SERIES" value="AMPLIMITE HD-22, AMP" constant="no"/>
 <attribute name="SHELL_MATERIAL" value="Steel, Nickel Plated" constant="no"/>
 <attribute name="SHELL_SIZE" value="1 (DE, E) High Density" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="" constant="no"/>
+<attribute name="SUPPLIER_URL" value="" constant="no"/>
 <attribute name="TERMINATION" value="Solder" constant="no"/>
 <attribute name="VOLTAGE_RATING" value="125V" constant="no"/>
 </technology>
@@ -720,6 +736,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CONTACT_TYPE" value="Signal" constant="no"/>
 <attribute name="CURRENT_RATING" value="" constant="no"/>
 <attribute name="DESCRIPTION" value="CONN D-SUB RCPT 9POS R/A SOLDER" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
 <attribute name="FLANGE_FEATURE" value="Mating Side; Female Screwlock (4-40)" constant="no"/>
 <attribute name="HOUSING_MATERIAL" value="Polyamide (PA9T), Nylon 9T, Glass Filled" constant="no"/>
 <attribute name="MANUFACTURER" value="TE Connectivity" constant="no"/>
@@ -731,6 +749,12 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SERIES" value="AMPLIMITE HD-20, AMP" constant="no"/>
 <attribute name="SHELL_MATERIAL" value="Steel, Nickel Plated" constant="no"/>
 <attribute name="SHELL_SIZE" value="1 (DE, E)" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="" constant="no"/>
+<attribute name="SUPPLIER_URL" value="" constant="no"/>
 <attribute name="TERMINATION" value="Solder" constant="no"/>
 <attribute name="VOLTAGE_RATING" value="250V" constant="no"/>
 </technology>
