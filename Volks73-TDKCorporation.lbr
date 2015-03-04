@@ -218,6 +218,8 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="CAPACITANCE" value="10uF" constant="no"/>
 <attribute name="CATEGORY" value="Capacitors" constant="no"/>
 <attribute name="DESCRIPTION" value="CAP CER 10UF 25V 10% RADIAL" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="" constant="no"/>
 <attribute name="FAMILY" value="Ceramic Capacitors" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="HEIGHT" value="0.236&quot;" constant="no"/>
@@ -231,6 +233,12 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="RATINGS" value="-" constant="no"/>
 <attribute name="SERIES" value="FK" constant="no"/>
 <attribute name="SIZE" value="0.217&quot; L x 0.138&quot; W (5.50mm x 3.50mm)" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="" constant="no"/>
+<attribute name="SUPPLIER_URL" value="" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="X7R" constant="no"/>
 <attribute name="THICKNESS" value="-" constant="no"/>
 <attribute name="TOLERANCE" value="±10%" constant="no"/>
