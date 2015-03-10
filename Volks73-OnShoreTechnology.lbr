@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1.75" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -200,6 +200,29 @@ For attribution, please provide a link in any documentation or design files to t
 <wire x1="-10.16" y1="-7.62" x2="-10.16" y2="1.27" width="0.127" layer="21"/>
 <wire x1="-15.24" y1="-7.62" x2="-15.24" y2="1.27" width="0.127" layer="21"/>
 </package>
+<package name="0254">
+<description>&lt;h1&gt;8-Pole Therminal Block, Right Angle Header&lt;/h1&gt;
+&lt;h2&gt;"02" Size Code for OSTOQ Series, 0.200" (5.08mm) Pitch&lt;/h2&gt;</description>
+<pad name="1" x="-2.54" y="0" drill="1.6" shape="square"/>
+<pad name="2" x="2.54" y="0" drill="1.6"/>
+<wire x1="-6.08" y1="2" x2="6.08" y2="2" width="0.127" layer="21"/>
+<wire x1="6.08" y1="2" x2="6.08" y2="-10" width="0.127" layer="21"/>
+<wire x1="-6.08" y1="2" x2="-6.08" y2="-10" width="0.127" layer="21"/>
+<wire x1="-6.08" y1="-10" x2="6.08" y2="-10" width="0.127" layer="21"/>
+<circle x="2.54" y="0" radius="0.5" width="0.127" layer="51"/>
+<circle x="-2.54" y="0" radius="0.5" width="0.127" layer="51"/>
+<wire x1="-6.08" y1="2" x2="-6.08" y2="-10" width="0.127" layer="49"/>
+<wire x1="6.08" y1="2" x2="6.08" y2="-10" width="0.127" layer="49"/>
+<wire x1="-6.08" y1="2" x2="6.08" y2="2" width="0.127" layer="49"/>
+<wire x1="-6.08" y1="-10" x2="6.08" y2="-10" width="0.127" layer="49"/>
+<text x="-7.66" y="2.105" size="1.27" layer="25" rot="R270">&gt;NAME</text>
+<text x="6.49" y="2.155" size="1.27" layer="27" rot="R270">&gt;VALUE</text>
+<wire x1="0" y1="-7.62" x2="-5.08" y2="-7.62" width="0.127" layer="21" curve="-70"/>
+<wire x1="5.08" y1="-7.62" x2="0" y2="-7.62" width="0.127" layer="21" curve="-70"/>
+<wire x1="5.08" y1="-7.62" x2="5.08" y2="1.27" width="0.127" layer="21"/>
+<wire x1="0" y1="-7.62" x2="0" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="1.27" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="FEMALE_CONNECTOR">
@@ -324,6 +347,56 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/OSTOQ085451/ED2834-ND/1588287&quot;&gt;Details&lt;/a&gt;" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="ED2834-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/OSTOQ085451/ED2834-ND/1588287" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com" constant="no"/>
+<attribute name="TERMINAL_BLOCK_TYPE" value="Header, Male Pins, Shrouded (4 Side)" constant="no"/>
+<attribute name="TERMINATION" value="Solder" constant="no"/>
+<attribute name="VOLTAGE" value="300V" constant="no"/>
+<attribute name="WIRE_GAUGE" value="-" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="OSTOQ0254*1" prefix="J">
+<description>&lt;h1&gt;2-Pole Terminal Block Right Angle Header&lt;/h1&gt;
+&lt;h2&gt;0.200" (5.08mm) Pitch&lt;/h2&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.on-shore.com/sites/default/files/manuals/ostoqxx5451.pdf"&gt;Drawing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="@1" symbol="MALE_CONNECTOR" x="0" y="5.08"/>
+<gate name="@2" symbol="MALE_CONNECTOR" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="" package="0254">
+<connects>
+<connect gate="@1" pin="P$1" pad="1"/>
+<connect gate="@2" pin="P$1" pad="2"/>
+</connects>
+<technologies>
+<technology name="5">
+<attribute name="CATEGORY" value="Connectors, Interconnects" constant="no"/>
+<attribute name="COLOR" value="Green" constant="no"/>
+<attribute name="CURRENT" value="20A" constant="no"/>
+<attribute name="DESCRIPTION" value="TERM BLOCK HDR 2POS R/A 5.08MM" constant="no"/>
+<attribute name="FAMILY" value="Terminal Blocks - Headers, Plugs and Sockets" constant="no"/>
+<attribute name="FEATURES" value="-" constant="no"/>
+<attribute name="HEADER_ORIENTATION" value="90°, Right Angle" constant="no"/>
+<attribute name="MANUFACTURER" value="On Shore Technology Inc" constant="no"/>
+<attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
+<attribute name="NUMBER_OF_LEVELS" value="1" constant="no"/>
+<attribute name="NUMBER_OF_POSITIONS" value="2" constant="no"/>
+<attribute name="PART_NUMBER" value="OSTOQ025451" constant="no"/>
+<attribute name="PITCH" value="0.200&quot; (5.08mm)" constant="no"/>
+<attribute name="PLUG_WIRE_ENTRY" value="-" constant="no"/>
+<attribute name="POSITIONS_PER_LEVEL" value="2" constant="no"/>
+<attribute name="SERIES" value="OSTOQ" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/OSTOQ025451/ED2828-ND/1588281&quot;&gt;Details&lt;/a&gt;" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="ED2828-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/OSTOQ025451/ED2828-ND/1588281" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;" constant="no"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com" constant="no"/>
