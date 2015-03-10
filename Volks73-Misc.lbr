@@ -132,6 +132,12 @@ For attribution, please provide a link in any documentation or design files to t
 <text x="-2.54" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.175" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="GROUND_4-40_HOLE">
+<description>&lt;h1&gt;4-40 Grounded Mount Hole&lt;/h1&gt;</description>
+<pad name="P$1" x="0" y="0" drill="3.2" diameter="6.4516"/>
+<text x="-3.175" y="3.81" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="MALE_CONNECTOR">
@@ -207,6 +213,22 @@ For attribution, please provide a link in any documentation or design files to t
 <device name="" package="THROUGH_HOLE_TAP">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="4-40_GROUNDED_HOLE" prefix="JP" uservalue="yes">
+<description>&lt;h1&gt;4-40 Grounded Hole&lt;/h1&gt;</description>
+<gates>
+<gate name="G$1" symbol="CHASSIS" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="" package="GROUND_4-40_HOLE">
+<connects>
+<connect gate="G$1" pin="CHASSIS" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
