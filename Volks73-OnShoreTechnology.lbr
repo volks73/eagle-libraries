@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="1.75" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -117,7 +117,7 @@ Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0), &lt;a href=
 For attribution, please provide a link in any documentation or design files to the repository on Github. 
 &lt;/p&gt;</description>
 <packages>
-<package name="02">
+<package name="0212">
 <description>&lt;h1&gt;2-Pole Therminal Block, Right Angle Header&lt;/h1&gt;
 &lt;h2&gt;"02" Size Code for OSTOQ Series, 3.5mm Pitch&lt;/h2&gt;</description>
 <pad name="1" x="-1.75" y="0" drill="1.4" shape="square"/>
@@ -134,8 +134,26 @@ For attribution, please provide a link in any documentation or design files to t
 <wire x1="4.05" y1="-1.2" x2="-4.05" y2="-1.2" width="0.127" layer="21"/>
 <text x="-4.445" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="5.715" y="-1.27" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<wire x1="-2.39" y1="6.35" x2="-3.025" y2="6.985" width="0.127" layer="21"/>
+<wire x1="-3.025" y1="6.985" x2="-0.485" y2="6.985" width="0.127" layer="21"/>
+<wire x1="-0.485" y1="6.985" x2="-1.12" y2="6.35" width="0.127" layer="21"/>
+<wire x1="-1.12" y1="6.35" x2="-1.12" y2="5.715" width="0.127" layer="21"/>
+<wire x1="-1.12" y1="5.715" x2="-0.485" y2="5.715" width="0.127" layer="21"/>
+<wire x1="-0.485" y1="5.715" x2="-0.485" y2="-0.48" width="0.127" layer="21"/>
+<wire x1="-2.39" y1="6.35" x2="-2.39" y2="5.715" width="0.127" layer="21"/>
+<wire x1="-2.39" y1="5.715" x2="-3.025" y2="5.715" width="0.127" layer="21"/>
+<wire x1="-3.025" y1="5.715" x2="-3.025" y2="-0.48" width="0.127" layer="21"/>
+<wire x1="1.11" y1="6.35" x2="0.475" y2="6.985" width="0.127" layer="21"/>
+<wire x1="0.475" y1="6.985" x2="3.015" y2="6.985" width="0.127" layer="21"/>
+<wire x1="3.015" y1="6.985" x2="2.38" y2="6.35" width="0.127" layer="21"/>
+<wire x1="2.38" y1="6.35" x2="2.38" y2="5.715" width="0.127" layer="21"/>
+<wire x1="2.38" y1="5.715" x2="3.015" y2="5.715" width="0.127" layer="21"/>
+<wire x1="3.015" y1="5.715" x2="3.015" y2="-0.48" width="0.127" layer="21"/>
+<wire x1="1.11" y1="6.35" x2="1.11" y2="5.715" width="0.127" layer="21"/>
+<wire x1="1.11" y1="5.715" x2="0.475" y2="5.715" width="0.127" layer="21"/>
+<wire x1="0.475" y1="5.715" x2="0.475" y2="-0.48" width="0.127" layer="21"/>
 </package>
-<package name="08">
+<package name="0854">
 <description>&lt;h1&gt;8-Pole Therminal Block, Right Angle Header&lt;/h1&gt;
 &lt;h2&gt;"08" Size Code for OSTOQ Series, 0.200" (5.08mm) Pitch&lt;/h2&gt;</description>
 <pad name="1" x="-17.78" y="0" drill="1.6" shape="square"/>
@@ -164,6 +182,23 @@ For attribution, please provide a link in any documentation or design files to t
 <wire x1="-21.32" y1="-10" x2="21.32" y2="-10" width="0.127" layer="49"/>
 <text x="-22.86" y="1.905" size="1.27" layer="25" rot="R270">&gt;NAME</text>
 <text x="21.59" y="1.905" size="1.27" layer="27" rot="R270">&gt;VALUE</text>
+<wire x1="0" y1="-7.62" x2="-5.08" y2="-7.62" width="0.127" layer="21" curve="-70"/>
+<wire x1="5.08" y1="-7.62" x2="0" y2="-7.62" width="0.127" layer="21" curve="-70"/>
+<wire x1="10.16" y1="-7.62" x2="5.08" y2="-7.62" width="0.127" layer="21" curve="-70"/>
+<wire x1="15.24" y1="-7.62" x2="10.16" y2="-7.62" width="0.127" layer="21" curve="-70"/>
+<wire x1="20.32" y1="-7.62" x2="15.24" y2="-7.62" width="0.127" layer="21" curve="-70"/>
+<wire x1="-5.08" y1="-7.62" x2="-10.16" y2="-7.62" width="0.127" layer="21" curve="-70"/>
+<wire x1="-10.16" y1="-7.62" x2="-15.24" y2="-7.62" width="0.127" layer="21" curve="-70"/>
+<wire x1="-15.24" y1="-7.62" x2="-20.32" y2="-7.62" width="0.127" layer="21" curve="-70"/>
+<wire x1="-20.32" y1="-7.62" x2="-20.32" y2="1.27" width="0.127" layer="21"/>
+<wire x1="20.32" y1="-7.62" x2="20.32" y2="1.27" width="0.127" layer="21"/>
+<wire x1="15.24" y1="-7.62" x2="15.24" y2="1.27" width="0.127" layer="21"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="1.27" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-7.62" x2="5.08" y2="1.27" width="0.127" layer="21"/>
+<wire x1="0" y1="-7.62" x2="0" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="-7.62" x2="-15.24" y2="1.27" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -187,7 +222,7 @@ For attribution, please provide a link in any documentation or design files to t
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="OSTOQ021251" prefix="J">
+<deviceset name="OSTOQ0212*1" prefix="J">
 <description>&lt;h1&gt;2-Pole Terminal Block Right Angle Header&lt;/h1&gt;
 &lt;h2&gt;3.5mm Pitch&lt;/h2&gt;
 &lt;h3&gt;Documentation&lt;/h3&gt;
@@ -199,19 +234,19 @@ For attribution, please provide a link in any documentation or design files to t
 <gate name="@2" symbol="MALE_CONNECTOR" x="0" y="-5.08"/>
 </gates>
 <devices>
-<device name="" package="02">
+<device name="" package="0212">
 <connects>
 <connect gate="@1" pin="P$1" pad="1"/>
 <connect gate="@2" pin="P$1" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
+<technology name="5">
 <attribute name="CATEGORY" value="Connectors, Interconnects" constant="no"/>
 <attribute name="COLOR" value="Green" constant="no"/>
 <attribute name="CURRENT" value="10A" constant="no"/>
 <attribute name="DESCRIPTION" value="TERM BLOCK HDR 2POS R/A 3.5MM" constant="no"/>
-<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.on-shore.com/sites/default/files/manuals/ostoqxx1251.pdf&quot;&gt;Drawing&lt;/a&gt;" constant="no"/>
-<attribute name="DOCUMENTATION_URL" value="http://www.on-shore.com/sites/default/files/manuals/ostoqxx1251.pdf" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="http://www.on-shore.com/sites/default/files/manuals/ostoqxx1251.pdf" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="&lt;a href=&quot;http://www.on-shore.com/sites/default/files/manuals/ostoqxx1251.pdf&quot;&gt;Drawing&lt;/a&gt;" constant="no"/>
 <attribute name="FAMILY" value="Terminal Blocks - Headers, Plugs and Sockets" constant="no"/>
 <attribute name="FEATURES" value="-" constant="no"/>
 <attribute name="HEADER_ORIENTATION" value="90°, Right Angle" constant="no"/>
@@ -224,10 +259,10 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="PLUG_WIRE_ENTRY" value="-" constant="no"/>
 <attribute name="POSITIONS_PER_LEVEL" value="2" constant="no"/>
 <attribute name="SERIES" value="OSTOQ" constant="no"/>
-<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/OSTOQ021251/ED10546-ND/1588073&quot;&gt;Info&lt;/a&gt;" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="http://www.digikey.com/product-detail/en/OSTOQ021251/ED10546-ND/1588073" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="ED10546-ND" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/OSTOQ021251/ED10546-ND/1588073" constant="no"/>
-<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/OSTOQ021251/ED10546-ND/1588073&quot;&gt;Details&lt;/a&gt;" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Digi-Key&lt;/a&gt;" constant="no"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com" constant="no"/>
 <attribute name="TERMINAL_BLOCK_TYPE" value="Header, Male Pins, Shrouded (4 Side)" constant="no"/>
@@ -239,7 +274,7 @@ For attribution, please provide a link in any documentation or design files to t
 </device>
 </devices>
 </deviceset>
-<deviceset name="OTSTOQ085451" prefix="J">
+<deviceset name="OSTOQ0854*1" prefix="J">
 <description>&lt;h1&gt;8-Pole Terminal Block Right Angle Header&lt;/h1&gt;
 &lt;h2&gt;0.200" (5.08mm) Pitch&lt;/h2&gt;
 &lt;h3&gt;Documentation&lt;/h3&gt;
@@ -257,7 +292,7 @@ For attribution, please provide a link in any documentation or design files to t
 <gate name="@8" symbol="MALE_CONNECTOR" x="0" y="-35.56"/>
 </gates>
 <devices>
-<device name="" package="08">
+<device name="" package="0854">
 <connects>
 <connect gate="@1" pin="P$1" pad="1"/>
 <connect gate="@2" pin="P$1" pad="2"/>
@@ -269,7 +304,7 @@ For attribution, please provide a link in any documentation or design files to t
 <connect gate="@8" pin="P$1" pad="8"/>
 </connects>
 <technologies>
-<technology name="">
+<technology name="5">
 <attribute name="CATEGORY" value="Connectors, Interconnects" constant="no"/>
 <attribute name="COLOR" value="Green" constant="no"/>
 <attribute name="CURRENT" value="20A" constant="no"/>
