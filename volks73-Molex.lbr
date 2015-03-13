@@ -239,7 +239,7 @@ For attribution, please provide a link in any documentation or design files to t
 <rectangle x1="1.19" y1="1.6" x2="1.51" y2="2.4" layer="51"/>
 <rectangle x1="2.39" y1="1.6" x2="2.71" y2="2.4" layer="51"/>
 </package>
-<package name="PICOBLADE-53261_4-PIN">
+<package name="PICOBLADE53261-0471">
 <description>&lt;h1&gt;4-Pin Surface Mount, Right Angle, Male Header&lt;/h1&gt;
 &lt;h2&gt;PicoBlade&amp;trade; 53261 Series, Single Row, 0.049" (1.25mm) Pitch&lt;/h2&gt;
 &lt;ul&gt;
@@ -290,7 +290,7 @@ For attribution, please provide a link in any documentation or design files to t
 <wire x1="-5.9436" y1="16.74" x2="5.9436" y2="16.74" width="0.127" layer="49"/>
 <wire x1="-5.9436" y1="5.41" x2="5.9436" y2="5.41" width="0.127" layer="49"/>
 </package>
-<package name="PICOLOCK-505050_4-PIN">
+<package name="PICOLOCK505050-0491">
 <description>&lt;h1&gt;4-Pin, Surface Mount, Right Angle, Male Header&lt;/h1&gt;
 &lt;h2&gt;Pico-Lock&amp;trade; 504050 Series, 0.059" (1.50mm) Pitch&lt;/h2&gt;
 &lt;ul&gt;
@@ -335,7 +335,7 @@ For attribution, please provide a link in any documentation or design files to t
 <text x="-0.9" y="4.445" size="0.8128" layer="21">3</text>
 <text x="-2.54" y="4.445" size="0.8128" layer="21">4</text>
 </package>
-<package name="MICROFIT-43650_4-PIN">
+<package name="MICROFIT43650-0414">
 <description>&lt;h1&gt;4-Pin, Surface Mount, Right Angle, Male Header&lt;/h1&gt;
 &lt;h2&gt;Micro-Fit 3.0&amp;trade; 43650 Series, 0.118" (3.00mm) Pitch&lt;/h2&gt;
 &lt;ul&gt;
@@ -423,7 +423,7 @@ For attribution, please provide a link in any documentation or design files to t
 <text x="-1.27" y="-2.54" size="1.27" layer="21">2</text>
 <wire x1="7" y1="-0.635" x2="7" y2="0.635" width="0.127" layer="21"/>
 </package>
-<package name="PICOBLADE-53261_2-PIN">
+<package name="PICOBLADE53261-0271">
 <description>&lt;h1&gt;2-Pin Surface Mount, Right Angle, Male Header&lt;/h1&gt;
 &lt;h2&gt;PicoBlade&amp;trade; 53261 Series, Single Row, 0.049" (1.25mm) Pitch&lt;/h2&gt;
 &lt;ul&gt;
@@ -444,7 +444,7 @@ For attribution, please provide a link in any documentation or design files to t
 <rectangle x1="2.15" y1="-1.7635" x2="3.85" y2="1.0365" layer="51"/>
 <rectangle x1="-3.85" y1="-1.7635" x2="-2.15" y2="1.0365" layer="51"/>
 </package>
-<package name="PICOBLADE_3-PIN">
+<package name="PICOBLADE53261-0371">
 <description>&lt;h1&gt;3-Pin Surface Mount, Right Angle, Male Header&lt;/h1&gt;
 &lt;h2&gt;PicoBlade&amp;trade; 53261 Series, Single Row, 0.049" (1.25mm) Pitch&lt;/h2&gt;
 &lt;ul&gt;
@@ -831,7 +831,7 @@ For attribution, please provide a link in any documentation or design files to t
 <gate name="@2" symbol="MALE_CONNECTOR" x="0" y="-5.08"/>
 </gates>
 <devices>
-<device name="" package="PICOBLADE-53261_2-PIN">
+<device name="" package="PICOBLADE53261-0271">
 <connects>
 <connect gate="@1" pin="P$1" pad="1"/>
 <connect gate="@2" pin="P$1" pad="2"/>
@@ -1004,7 +1004,7 @@ For attribution, please provide a link in any documentation or design files to t
 <gate name="@4" symbol="MALE_CONNECTOR" x="0" y="-15.24"/>
 </gates>
 <devices>
-<device name="" package="PICOBLADE-53261_4-PIN">
+<device name="" package="PICOBLADE53261-0471">
 <connects>
 <connect gate="@1" pin="P$1" pad="1"/>
 <connect gate="@2" pin="P$1" pad="2"/>
@@ -1123,7 +1123,7 @@ For attribution, please provide a link in any documentation or design files to t
 <gate name="@4" symbol="MALE_CONNECTOR" x="0" y="-15.24"/>
 </gates>
 <devices>
-<device name="" package="MICROFIT-43650_4-PIN">
+<device name="" package="MICROFIT43650-0414">
 <connects>
 <connect gate="@1" pin="P$1" pad="1"/>
 <connect gate="@2" pin="P$1" pad="2"/>
@@ -1181,7 +1181,7 @@ For attribution, please provide a link in any documentation or design files to t
 <gate name="@4" symbol="MALE_CONNECTOR" x="0" y="-15.24"/>
 </gates>
 <devices>
-<device name="" package="PICOLOCK-505050_4-PIN">
+<device name="" package="PICOLOCK505050-0491">
 <connects>
 <connect gate="@1" pin="P$1" pad="1"/>
 <connect gate="@2" pin="P$1" pad="2"/>
@@ -1257,8 +1257,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="DESCRIPTION" value="CONN HEADER 5POS 1.25MM VERT SMD" constant="no"/>
 <attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.molex.com/pdm_docs/sd/533980571_sd.pdf&quot;&gt;Drawing&lt;/a&gt;" constant="no"/>
 <attribute name="DOCUMENTATION_URL" value="http://www.molex.com/pdm_docs/sd/533980571_sd.pdf" constant="no"/>
-<attribute name="FAMILY" value="	
-Rectangular Connectors - Headers, Male Pins " constant="no"/>
+<attribute name="FAMILY" value="  Rectangular Connectors - Headers, Male Pins " constant="no"/>
 <attribute name="FASTENING_TYPE" value="-" constant="no"/>
 <attribute name="FEATURES" value="Solder Retention" constant="no"/>
 <attribute name="MANUFACTURER" value="Molex Inc" constant="no"/>
