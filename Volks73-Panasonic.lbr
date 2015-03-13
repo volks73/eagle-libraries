@@ -210,6 +210,19 @@ For attribution, please provide a link in any documentation or design files to t
 <rectangle x1="-1.1" y1="-0.635" x2="-0.85" y2="0.635" layer="51"/>
 <rectangle x1="0.85" y1="-0.635" x2="1.1" y2="0.635" layer="51" rot="R180"/>
 </package>
+<package name="2512">
+<description>&lt;h1&gt;2512 (6432 Metric)&lt;/h1&gt;</description>
+<smd name="1" x="-2.6" y="0" dx="1.75" dy="3.5" layer="1"/>
+<smd name="2" x="2.6" y="0" dx="1.75" dy="3.5" layer="1" rot="R180"/>
+<text x="-3.175" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.175" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-3.3" y1="-1.7" x2="-3.3" y2="1.7" width="0.127" layer="49"/>
+<wire x1="-3.3" y1="1.7" x2="3.3" y2="1.7" width="0.127" layer="49"/>
+<wire x1="3.3" y1="1.7" x2="3.3" y2="-1.7" width="0.127" layer="49"/>
+<wire x1="3.3" y1="-1.7" x2="-3.3" y2="-1.7" width="0.127" layer="49"/>
+<rectangle x1="-3.3" y1="-1.7" x2="-2.45" y2="1.7" layer="51"/>
+<rectangle x1="2.45" y1="-1.7" x2="3.3" y2="1.7" layer="51" rot="R180"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LED">
@@ -1091,6 +1104,34 @@ For attribution, please provide a link in any documentation or design files to t
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
+<technology name="YJ271V">
+<attribute name="CATEGORY" value="Resistors"/>
+<attribute name="COMPOSITION" value="Thick Film"/>
+<attribute name="DESCRIPTION" value="RES SMD 270 OHM 5% 1/10W 0603"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://industrial.panasonic.com/ww/products/resistors/chip-resistors/chip-resistors/thick-film-chip-resistors/ERJ14YJ155U&quot;&gt;Datasheet&lt;/a&gt;"/>
+<attribute name="DOCUMENTATION_URL" value="http://industrial.panasonic.com/ww/products/resistors/chip-resistors/chip-resistors/thick-film-chip-resistors/ERJ14YJ155U"/>
+<attribute name="FAMILY" value="Chip Resistor - Surface Mount"/>
+<attribute name="FEATURES" value="Automotive AEC-Q200 Qualified"/>
+<attribute name="HEIGHT" value="0.022&quot; (0.55mm)"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="NUMBER_OF_TERMINATIONS" value="2"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C"/>
+<attribute name="PACKAGE" value="0603 (1608 Metric)"/>
+<attribute name="PART_NUMBER" value="ERJ-3GEYJ271V"/>
+<attribute name="POWER" value="0.1, 1/10W"/>
+<attribute name="RESISTANCE" value="270"/>
+<attribute name="SERIES" value="ERJ"/>
+<attribute name="SIZE" value="0.063&quot; L x 0.031&quot; W (1.60mm x 0.80mm)"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="0603"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/ERJ-3GEYJ271V/P270GCT-ND/134766&quot;&gt;Details&lt;/a&gt;"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="P270GCT-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/ERJ-3GEYJ271V/P270GCT-ND/134766"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="±200ppm/°C"/>
+<attribute name="TOLERANCE" value="5%"/>
+</technology>
 <technology name="YJ435V">
 <attribute name="CATEGORY" value="Resistors"/>
 <attribute name="COMPOSITION" value="Thick Film"/>
@@ -1235,6 +1276,42 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/ERJ-PA3J472V/P4.7KBZCT-ND/5036332&quot;&gt;Details&lt;/a&gt;" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="P4.7KBZCT-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/ERJ-PA3J472V/P4.7KBZCT-ND/5036332" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="±200ppm/°C" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1T" package="2512">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="YJ271U">
+<attribute name="CATEGORY" value="Resistors" constant="no"/>
+<attribute name="COMPOSITIONS" value="Thick Film" constant="no"/>
+<attribute name="DESCRIPTION" value="RES SMD 270 OHM 5% 1W 2512" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://industrial.panasonic.com/ww/products/resistors/chip-resistors/chip-resistors/thick-film-chip-resistors/ERJ1TYJ271U&quot;&gt;Datasheet&lt;/a&gt;" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://industrial.panasonic.com/ww/products/resistors/chip-resistors/chip-resistors/thick-film-chip-resistors/ERJ1TYJ271U" constant="no"/>
+<attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
+<attribute name="FEATURES" value="Automotive AEC-Q200" constant="no"/>
+<attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" constant="no"/>
+<attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55°C ~ 155°C" constant="no"/>
+<attribute name="PACKAGE" value="2512 (6432 Metric)" constant="no"/>
+<attribute name="PART_NUMBER" value="ERJ-1TYJ271U" constant="no"/>
+<attribute name="POWER" value="1W" constant="no"/>
+<attribute name="RESISTANCE" value="270" constant="no"/>
+<attribute name="SERIES" value="ERJ" constant="no"/>
+<attribute name="SIZE" value="0.252&quot; L x 0.126&quot; W (6.40mm x 3.20mm)" constant="no"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="2512" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/ERJ-1TYJ271U/PT270XCT-ND/365365&quot;&gt;Details&lt;/a&gt;" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="PT270XCT-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/ERJ-1TYJ271U/PT270XCT-ND/365365" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;" constant="no"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com" constant="no"/>
