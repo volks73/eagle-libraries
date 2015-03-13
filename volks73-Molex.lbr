@@ -212,7 +212,7 @@ For attribution, please provide a link in any documentation or design files to t
 <text x="-7.62" y="-5.08" size="1.27" layer="21">&gt;VALUE</text>
 <pad name="6" x="6.35" y="0" drill="1.2"/>
 </package>
-<package name="PICOBLADE-53261_5-PIN">
+<package name="PICOBLADE53261-0571">
 <description>&lt;h1&gt;5-Pin Surface Mount, Right Angle, Male Header&lt;/h1&gt;
 &lt;h2&gt;PicoBlade&amp;trade; 53261 Series, Single Row, 0.049" (1.25mm) Pitch&lt;/h2&gt;
 &lt;ul&gt;
@@ -466,6 +466,38 @@ For attribution, please provide a link in any documentation or design files to t
 <rectangle x1="-1.41" y1="1.6" x2="-1.09" y2="2.4" layer="51"/>
 <rectangle x1="-0.16" y1="1.6" x2="0.16" y2="2.4" layer="51"/>
 <rectangle x1="1.09" y1="1.6" x2="1.41" y2="2.4" layer="51"/>
+</package>
+<package name="PICOBLADE53398-0571">
+<description>&lt;h1&gt;5-Pin Surface Mount, Vertical, Male Header&lt;/h1&gt;
+&lt;h2&gt;PicoBlade&amp;trade; 53398 Series, Single Row, 0.049" (1.25mm) Pitch&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Maximum Current Rating: 1.0A (per channel)&lt;/li&gt;
+&lt;/ul&gt;</description>
+<smd name="MOUNT1" x="-5.05" y="0" dx="2.1" dy="3" layer="1"/>
+<smd name="MOUNT2" x="5.05" y="0" dx="2.1" dy="3" layer="1" rot="R180"/>
+<smd name="1" x="-2.5" y="2.75" dx="0.8" dy="1.3" layer="1"/>
+<smd name="2" x="-1.25" y="2.75" dx="0.8" dy="1.3" layer="1"/>
+<smd name="3" x="0" y="2.75" dx="0.8" dy="1.3" layer="1"/>
+<smd name="4" x="1.25" y="2.75" dx="0.8" dy="1.3" layer="1"/>
+<smd name="5" x="2.5" y="2.75" dx="0.8" dy="1.3" layer="1"/>
+<wire x1="-5.7" y1="-1.125" x2="5.7" y2="-1.125" width="0.127" layer="49"/>
+<wire x1="-5.7" y1="-1.125" x2="-5.7" y2="3.075" width="0.127" layer="49"/>
+<wire x1="5.73" y1="-1.125" x2="5.73" y2="3.075" width="0.127" layer="49"/>
+<wire x1="-5.7" y1="3.075" x2="5.7" y2="3.075" width="0.127" layer="49"/>
+<rectangle x1="-2.66" y1="-0.2" x2="-2.34" y2="0.2" layer="21"/>
+<rectangle x1="-1.41" y1="-0.2" x2="-1.09" y2="0.2" layer="21"/>
+<rectangle x1="-0.16" y1="-0.2" x2="0.16" y2="0.2" layer="21"/>
+<rectangle x1="1.09" y1="-0.2" x2="1.41" y2="0.2" layer="21"/>
+<rectangle x1="2.34" y1="-0.2" x2="2.66" y2="0.2" layer="21"/>
+<rectangle x1="-2.66" y1="2.575" x2="-2.34" y2="3.175" layer="51"/>
+<rectangle x1="-1.41" y1="2.575" x2="-1.09" y2="3.175" layer="51"/>
+<rectangle x1="-0.16" y1="2.575" x2="0.16" y2="3.175" layer="51"/>
+<rectangle x1="1.09" y1="2.575" x2="1.41" y2="3.175" layer="51"/>
+<rectangle x1="2.34" y1="2.575" x2="2.66" y2="3.175" layer="51"/>
+<rectangle x1="-5.7" y1="-1.125" x2="-4.22" y2="1.075" layer="51"/>
+<rectangle x1="4.22" y1="-1.075" x2="5.7" y2="1.125" layer="51" rot="R180"/>
+<text x="-6.25" y="-1.25" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="7.5" y="-1.25" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -1030,7 +1062,7 @@ For attribution, please provide a link in any documentation or design files to t
 <gate name="@5" symbol="MALE_CONNECTOR" x="0" y="-20.32"/>
 </gates>
 <devices>
-<device name="" package="PICOBLADE-53261_5-PIN">
+<device name="" package="PICOBLADE53261-0571">
 <connects>
 <connect gate="@1" pin="P$1" pad="1"/>
 <connect gate="@2" pin="P$1" pad="2"/>
@@ -1185,6 +1217,66 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
 <attribute name="TERMINATION" value="Solder"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="0533980571" prefix="J">
+<description>&lt;h1&gt;1.25mm Pitch PicoBlade™ Header, Surface Mount, Vertical, 5 Circuits&lt;/h1&gt;
+&lt;h2&gt;PicoBlade™ Connector System&lt;/h2&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.molex.com/pdm_docs/sd/533980571_sd.pdf"&gt;Drawing&lt;/a&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="@1" symbol="MALE_CONNECTOR" x="0" y="20.32"/>
+<gate name="@2" symbol="MALE_CONNECTOR" x="0" y="10.16"/>
+<gate name="@3" symbol="MALE_CONNECTOR" x="0" y="0"/>
+<gate name="@4" symbol="MALE_CONNECTOR" x="0" y="-10.16"/>
+<gate name="@5" symbol="MALE_CONNECTOR" x="0" y="-20.32"/>
+</gates>
+<devices>
+<device name="" package="PICOBLADE53398-0571">
+<connects>
+<connect gate="@1" pin="P$1" pad="1"/>
+<connect gate="@2" pin="P$1" pad="2"/>
+<connect gate="@3" pin="P$1" pad="3"/>
+<connect gate="@4" pin="P$1" pad="4"/>
+<connect gate="@5" pin="P$1" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Connectors, Interconnects" constant="no"/>
+<attribute name="COLOR" value="Natural" constant="no"/>
+<attribute name="CONNECTOR_TYPE" value="Header, Shrouded" constant="no"/>
+<attribute name="CONTACT_FINISH" value="Tin" constant="no"/>
+<attribute name="CONTACT_FINISH_THICKNESS" value="39µin (1.00µm)" constant="no"/>
+<attribute name="CONTACT_MATING_LENGTH" value="-" constant="no"/>
+<attribute name="CONTACT_TYPE" value="Blade Pin" constant="no"/>
+<attribute name="DESCRIPTION" value="CONN HEADER 5POS 1.25MM VERT SMD" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.molex.com/pdm_docs/sd/533980571_sd.pdf&quot;&gt;Drawing&lt;/a&gt;" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.molex.com/pdm_docs/sd/533980571_sd.pdf" constant="no"/>
+<attribute name="FAMILY" value="	
+Rectangular Connectors - Headers, Male Pins " constant="no"/>
+<attribute name="FASTENING_TYPE" value="-" constant="no"/>
+<attribute name="FEATURES" value="Solder Retention" constant="no"/>
+<attribute name="MANUFACTURER" value="Molex Inc" constant="no"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount" constant="no"/>
+<attribute name="NUMBER_OF_POSITIONS" value="5" constant="no"/>
+<attribute name="NUMBER_OF_POSITIONS_LOADED" value="All" constant="no"/>
+<attribute name="NUMBER_OF_ROWS" value="1" constant="no"/>
+<attribute name="PART_NUMBER" value="0533980571" constant="no"/>
+<attribute name="PITCH" value="0.049&quot; (1.25mm)" constant="no"/>
+<attribute name="ROW_SPACING" value="-" constant="no"/>
+<attribute name="SERIES" value="PicoBlade™ 53398" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/0533980571/WM7609CT-ND/699083&quot;&gt;Details&lt;/a&gt;" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="WM7609CT-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/0533980571/WM7609CT-ND/699083" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="Digi-key" constant="no"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com" constant="no"/>
+<attribute name="TERMINATION" value="Solder" constant="no"/>
 </technology>
 </technologies>
 </device>
