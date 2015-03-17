@@ -66,12 +66,15 @@
 <layer number="105" name="tPlate" color="7" fill="1" visible="no" active="yes"/>
 <layer number="106" name="bPlate" color="7" fill="1" visible="no" active="yes"/>
 <layer number="107" name="Crop" color="7" fill="1" visible="no" active="yes"/>
+<layer number="108" name="tplace-old" color="10" fill="1" visible="yes" active="yes"/>
+<layer number="109" name="ref-old" color="11" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
 <layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
 <layer number="202" name="202bmp" color="3" fill="10" visible="no" active="yes"/>
@@ -136,6 +139,13 @@ For attribution, please provide a link in any documentation or design files to t
 <wire x1="0" y1="3.15" x2="0" y2="3.81" width="0.6096" layer="51"/>
 <wire x1="0" y1="-3.81" x2="0" y2="-3.18" width="0.6096" layer="51"/>
 </package>
+<package name="60">
+<pad name="1" x="-3.81" y="0" drill="0.7"/>
+<pad name="2" x="3.81" y="0" drill="0.7"/>
+<text x="-2.54" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.175" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.64008125" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="RESISTOR">
@@ -152,6 +162,17 @@ For attribution, please provide a link in any documentation or design files to t
 <text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+<symbol name="JUMPER">
+<pin name="1" x="-10.16" y="0" visible="off" length="middle" direction="pas"/>
+<pin name="2" x="10.16" y="0" visible="off" length="middle" direction="pas" rot="R180"/>
+<circle x="-2.54" y="0" radius="1.077628125" width="0.254" layer="94"/>
+<circle x="2.54" y="0" radius="1.077628125" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-3.556" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="3.556" y2="0" width="0.254" layer="94"/>
+<text x="-4.064" y="3.302" size="1.778" layer="95">&gt;NAME</text>
+<text x="-4.826" y="-3.556" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-2.032" y1="1.524" x2="2.032" y2="1.524" width="0.254" layer="94" curve="-100"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -205,6 +226,55 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="200ppm/C"/>
 <attribute name="TOLERANCE" value="1%"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JW?*" prefix="JP">
+<description>&lt;h1&gt;Resistor Jumper&lt;/h1&gt;
+&lt;h2&gt;JW&lt;/h2&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.seielect.com/catalog/SEI-JW.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="JUMPER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="60" package="60">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="ZT0R00">
+<attribute name="CATEGORY" value="Resistors" constant="no"/>
+<attribute name="COMPOSITION" value="Metal Element" constant="no"/>
+<attribute name="DESCRIPTION" value="RES 0.0 OHM 3A JUMP AXIAL" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;https://www.seielect.com/catalog/SEI-JW.pdf&quot;&gt;Datasheet&lt;/a&gt;" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="https://www.seielect.com/catalog/SEI-JW.pdf" constant="no"/>
+<attribute name="FAMILY" value="Through Hole Resistors" constant="no"/>
+<attribute name="FEATURES" value="-" constant="no"/>
+<attribute name="HEIGHT" value="-" constant="no"/>
+<attribute name="MANUFACTURER" value="Stackpole Electronics Inc" constant="no"/>
+<attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-" constant="no"/>
+<attribute name="PACKAGE" value="-" constant="no"/>
+<attribute name="PART_NUMBER" value="JW60ZT0R00" constant="no"/>
+<attribute name="POWER" value="-" constant="no"/>
+<attribute name="RESISTANCE" value="0.0" constant="no"/>
+<attribute name="SERIES" value="JW" constant="no"/>
+<attribute name="SIZE" value="-" constant="no"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="-" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/0/JW60ZT0R00CT-ND&quot;&gt;Details&lt;/a&gt;" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="JW60ZT0R00CT-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/0/JW60ZT0R00CT-ND" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="-" constant="no"/>
+<attribute name="TOLERANCE" value="Jumper" constant="no"/>
 </technology>
 </technologies>
 </device>
