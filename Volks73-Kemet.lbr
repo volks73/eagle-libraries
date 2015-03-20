@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -242,6 +242,24 @@ For attribution, please provide a link in any documentation or design files to t
 <text x="-5.08" y="3.175" size="1.27" layer="25">&gt;NAME</text>
 <text x="-5.08" y="-4.445" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="A">
+<description>&lt;h1&gt;1206 (3216 Metric)&lt;/h1&gt;
+&lt;h2&gt;T491 Series, A Size Code&lt;/h2&gt;</description>
+<smd name="C" x="-1.31" y="0" dx="1.8" dy="1.23" layer="1"/>
+<smd name="A" x="1.31" y="0" dx="1.8" dy="1.23" layer="1"/>
+<wire x1="-2.46" y1="-1.15" x2="-2.46" y2="1.15" width="0.127" layer="49"/>
+<wire x1="-2.46" y1="1.15" x2="2.46" y2="1.15" width="0.127" layer="49"/>
+<wire x1="2.46" y1="1.15" x2="2.46" y2="-1.15" width="0.127" layer="49"/>
+<wire x1="2.46" y1="-1.15" x2="-2.46" y2="-1.15" width="0.127" layer="49"/>
+<text x="3.175" y="-0.635" size="1.27" layer="21">A</text>
+<text x="-3.81" y="-0.635" size="1.27" layer="21">C</text>
+<text x="4.445" y="0" size="1.27" layer="21">+</text>
+<text x="-5.08" y="0" size="1.27" layer="21">-</text>
+<rectangle x1="-1.5275" y1="-0.6235" x2="-0.6235" y2="0.6235" layer="51"/>
+<rectangle x1="0.6235" y1="-0.6235" x2="1.5275" y2="0.6235" layer="51" rot="R180"/>
+<text x="-3.175" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.175" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="DIELECTRIC_CAPACITOR">
@@ -267,8 +285,8 @@ For attribution, please provide a link in any documentation or design files to t
 <text x="5.08" y="-4.064" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <rectangle x1="-2.253" y1="1.43" x2="-1.364" y2="1.557" layer="94"/>
 <rectangle x1="-1.872" y1="1.049" x2="-1.745" y2="1.938" layer="94"/>
-<pin name="A" x="0" y="5.08" visible="off" length="short" direction="in" swaplevel="1" rot="R270"/>
-<pin name="C" x="0" y="-5.08" visible="off" length="short" direction="out" swaplevel="1" rot="R90"/>
+<pin name="A" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="C" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 <wire x1="0" y1="0.762" x2="0" y2="2.54" width="0.1524" layer="94"/>
 </symbol>
 </symbols>
@@ -522,6 +540,44 @@ as MSL (Moisture Sensitivity Level) 1 under J STD 020: unlimited flor life time 
 <attribute name="TOLERANCE" value="±20%"/>
 <attribute name="TYPE" value="Molded"/>
 <attribute name="VOLTAGE-RATED" value="10V"/>
+</technology>
+</technologies>
+</device>
+<device name="A" package="A">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="106K010AT">
+<attribute name="CAPACITANCE" value="10µF" constant="no"/>
+<attribute name="CATEGORY" value="Capacitors" constant="no"/>
+<attribute name="DESCRIPTION" value="CAP TANT 10UF 10V 10% 1206" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf&quot;&gt;Datasheet&lt;/a&gt;" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf" constant="no"/>
+<attribute name="ESR" value="3.8 Ohm" constant="no"/>
+<attribute name="FAMILY" value="Tantalum Capacitors" constant="no"/>
+<attribute name="FEATURES" value="General Purpose" constant="no"/>
+<attribute name="HEIGHT" value="0.071&quot; (1.80mm)" constant="no"/>
+<attribute name="LEAD_SPACING" value="-" constant="no"/>
+<attribute name="LIFETIME_AT_TEMP" value="2000 Hrs @ 85°C" constant="no"/>
+<attribute name="MANUFACTURER" value="Kemet" constant="no"/>
+<attribute name="MANUFACTURER_SIZE_CODE" value="A" constant="no"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55°C ~ 125°C" constant="no"/>
+<attribute name="PACKAGE" value="1206 (3216 Metric)" constant="no"/>
+<attribute name="PART_NUMBER" value="T491A106K010AT" constant="no"/>
+<attribute name="SERIES" value="T491" constant="no"/>
+<attribute name="SIZE" value="0.126&quot; L x 0.063&quot; W (3.20mm x 1.60mm)" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/T491A106K010AT/399-3684-1-ND/819009&quot;&gt;Details&lt;/a&gt;" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="399-3684-1-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/T491A106K010AT/399-3684-1-ND/819009" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="TYPE" value="Molded" constant="no"/>
+<attribute name="VOLTAGE-RATED" value="10V" constant="no"/>
 </technology>
 </technologies>
 </device>
