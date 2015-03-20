@@ -214,6 +214,76 @@ The reference outline is for a 8-Pin, Closed IC Socket from Assman WSW Component
 <rectangle x1="2.59" y1="0.38" x2="4.115" y2="0.89" layer="51" rot="R180"/>
 <rectangle x1="2.59" y1="1.65" x2="4.115" y2="2.16" layer="51" rot="R180"/>
 </package>
+<package name="DIP-28">
+<pad name="1" x="-3.81" y="16.51" drill="0.8" shape="square"/>
+<pad name="2" x="-3.81" y="13.97" drill="0.8"/>
+<pad name="3" x="-3.81" y="11.43" drill="0.8"/>
+<pad name="4" x="-3.81" y="8.89" drill="0.8"/>
+<pad name="5" x="-3.81" y="6.35" drill="0.8"/>
+<pad name="6" x="-3.81" y="3.81" drill="0.8"/>
+<pad name="7" x="-3.81" y="1.27" drill="0.8"/>
+<pad name="8" x="-3.81" y="-1.27" drill="0.8"/>
+<pad name="9" x="-3.81" y="-3.81" drill="0.8"/>
+<pad name="10" x="-3.81" y="-6.35" drill="0.8"/>
+<pad name="11" x="-3.81" y="-8.89" drill="0.8"/>
+<pad name="12" x="-3.81" y="-11.43" drill="0.8"/>
+<pad name="13" x="-3.81" y="-13.97" drill="0.8"/>
+<pad name="14" x="-3.81" y="-16.51" drill="0.8"/>
+<pad name="15" x="3.81" y="-16.51" drill="0.8"/>
+<pad name="16" x="3.81" y="-13.97" drill="0.8"/>
+<pad name="17" x="3.81" y="-11.43" drill="0.8"/>
+<pad name="18" x="3.81" y="-8.89" drill="0.8"/>
+<pad name="19" x="3.81" y="-6.35" drill="0.8"/>
+<pad name="20" x="3.81" y="-3.81" drill="0.8"/>
+<pad name="21" x="3.81" y="-1.27" drill="0.8"/>
+<pad name="22" x="3.81" y="1.27" drill="0.8"/>
+<pad name="23" x="3.81" y="3.81" drill="0.8"/>
+<pad name="24" x="3.81" y="6.35" drill="0.8"/>
+<pad name="25" x="3.81" y="8.89" drill="0.8"/>
+<pad name="26" x="3.81" y="11.43" drill="0.8"/>
+<pad name="27" x="3.81" y="13.97" drill="0.8"/>
+<pad name="28" x="3.81" y="16.51" drill="0.8"/>
+<wire x1="-2.54" y1="-17.78" x2="-2.54" y2="17.78" width="0.127" layer="21"/>
+<wire x1="2.54" y1="17.78" x2="2.54" y2="-17.78" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-17.78" x2="-2.54" y2="-17.78" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="17.78" x2="-0.635" y2="17.78" width="0.127" layer="21"/>
+<wire x1="2.54" y1="17.78" x2="0.635" y2="17.78" width="0.127" layer="21"/>
+<wire x1="0.635" y1="17.78" x2="-0.635" y2="17.78" width="0.127" layer="21" curve="-180"/>
+<wire x1="-3.81" y1="16.51" x2="-2.54" y2="16.51" width="0.530859375" layer="51"/>
+<wire x1="-3.81" y1="13.97" x2="-2.54" y2="13.97" width="0.530859375" layer="51"/>
+<wire x1="-3.81" y1="11.43" x2="-2.54" y2="11.43" width="0.530859375" layer="51"/>
+<wire x1="-3.81" y1="8.89" x2="-2.54" y2="8.89" width="0.530859375" layer="51"/>
+<wire x1="-3.81" y1="6.35" x2="-2.54" y2="6.35" width="0.530859375" layer="51"/>
+<wire x1="-3.81" y1="3.81" x2="-2.54" y2="3.81" width="0.530859375" layer="51"/>
+<wire x1="-3.81" y1="1.27" x2="-2.54" y2="1.27" width="0.530859375" layer="51"/>
+<wire x1="-3.81" y1="-1.27" x2="-2.54" y2="-1.27" width="0.530859375" layer="51"/>
+<wire x1="-3.81" y1="-3.81" x2="-2.54" y2="-3.81" width="0.530859375" layer="51"/>
+<wire x1="-3.81" y1="-6.35" x2="-2.54" y2="-6.35" width="0.530859375" layer="51"/>
+<wire x1="-3.81" y1="-8.89" x2="-2.54" y2="-8.89" width="0.530859375" layer="51"/>
+<wire x1="-3.81" y1="-11.43" x2="-2.54" y2="-11.43" width="0.530859375" layer="51"/>
+<wire x1="-3.81" y1="-13.97" x2="-2.54" y2="-13.97" width="0.530859375" layer="51"/>
+<wire x1="-3.81" y1="-16.51" x2="-2.54" y2="-16.51" width="0.530859375" layer="51"/>
+<wire x1="3.81" y1="-16.51" x2="2.54" y2="-16.51" width="0.530859375" layer="51"/>
+<wire x1="3.81" y1="-13.97" x2="2.54" y2="-13.97" width="0.530859375" layer="51"/>
+<wire x1="3.81" y1="-11.43" x2="2.54" y2="-11.43" width="0.530859375" layer="51"/>
+<wire x1="3.81" y1="-8.89" x2="2.54" y2="-8.89" width="0.530859375" layer="51"/>
+<wire x1="3.81" y1="-6.35" x2="2.54" y2="-6.35" width="0.530859375" layer="51"/>
+<wire x1="3.81" y1="-3.81" x2="2.54" y2="-3.81" width="0.530859375" layer="51"/>
+<wire x1="3.81" y1="-1.27" x2="2.54" y2="-1.27" width="0.530859375" layer="51"/>
+<wire x1="3.81" y1="1.27" x2="2.54" y2="1.27" width="0.530859375" layer="51"/>
+<wire x1="3.81" y1="3.81" x2="2.54" y2="3.81" width="0.530859375" layer="51"/>
+<wire x1="3.81" y1="6.35" x2="2.54" y2="6.35" width="0.530859375" layer="51"/>
+<wire x1="3.81" y1="8.89" x2="2.54" y2="8.89" width="0.530859375" layer="51"/>
+<wire x1="3.81" y1="11.43" x2="2.54" y2="11.43" width="0.530859375" layer="51"/>
+<wire x1="3.81" y1="13.97" x2="2.54" y2="13.97" width="0.530859375" layer="51"/>
+<wire x1="3.81" y1="16.51" x2="2.54" y2="16.51" width="0.530859375" layer="51"/>
+<wire x1="-5.08" y1="17.399" x2="-5.08" y2="-17.399" width="0.127" layer="49"/>
+<wire x1="5.08" y1="-17.399" x2="5.08" y2="17.399" width="0.127" layer="49"/>
+<wire x1="-5.08" y1="17.399" x2="5.08" y2="17.399" width="0.127" layer="49"/>
+<wire x1="5.08" y1="-17.399" x2="-5.08" y2="-17.399" width="0.127" layer="49"/>
+<text x="-2.54" y="18.415" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-19.685" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="ATTINYX5">
@@ -261,6 +331,39 @@ The reference outline is for a 8-Pin, Closed IC Socket from Assman WSW Component
 <pin name="GND" x="0" y="-12.7" length="middle" direction="pwr" rot="R90"/>
 <text x="-2.54" y="-7.62" size="1.778" layer="95" rot="R90">&gt;NAME</text>
 <text x="3.81" y="-7.62" size="1.778" layer="95" rot="R90">&gt;VALUE</text>
+</symbol>
+<symbol name="ATMEGAX8">
+<pin name="PCINT14/!RESET!/PC6" x="-38.1" y="30.48" length="middle"/>
+<pin name="PCINT16/RXD/PD0" x="43.18" y="-25.4" length="middle" rot="R180"/>
+<pin name="PCINT17/TXD/PD1" x="43.18" y="-22.86" length="middle" rot="R180"/>
+<pin name="PCINT18/INT0/PD2" x="-38.1" y="17.78" length="middle"/>
+<pin name="PCINT19/OC2B/INT1/PD3" x="-38.1" y="15.24" length="middle"/>
+<pin name="PCINT20/XCK/T0/PD4" x="43.18" y="17.78" length="middle" rot="R180"/>
+<pin name="PCINT6/XTAL1/TOSC1/PB6" x="-38.1" y="-22.86" length="middle"/>
+<pin name="PCINT7/XTAL2/TOSC2/PB7" x="-38.1" y="-25.4" length="middle"/>
+<pin name="PCINT21/OC0B/T1/PD5" x="43.18" y="15.24" length="middle" rot="R180"/>
+<pin name="PCINT22/OC0A/AIN0/PD6" x="43.18" y="25.4" length="middle" rot="R180"/>
+<pin name="PCINT23/AIN1/PD7" x="43.18" y="22.86" length="middle" rot="R180"/>
+<pin name="PCINT0/CLK0/ICP1/PB0" x="-38.1" y="-17.78" length="middle"/>
+<pin name="PCINT1/OC1A/PB1" x="43.18" y="30.48" length="middle" rot="R180"/>
+<pin name="PCINT2/OC1B/SS/PB2" x="43.18" y="-10.16" length="middle" rot="R180"/>
+<pin name="PCINT3/OC2A/MOSI/PB3" x="43.18" y="-12.7" length="middle" rot="R180"/>
+<pin name="PCINT4/MISO/PB4" x="43.18" y="-15.24" length="middle" rot="R180"/>
+<pin name="PCINT5/SCK/PB5" x="43.18" y="-17.78" length="middle" rot="R180"/>
+<pin name="AVCC" x="-38.1" y="25.4" length="middle"/>
+<pin name="AREF" x="-38.1" y="22.86" length="middle"/>
+<pin name="PCINT8/ADC0/PC0" x="43.18" y="10.16" length="middle" rot="R180"/>
+<pin name="PCINT9/ADC1/PC1" x="43.18" y="7.62" length="middle" rot="R180"/>
+<pin name="PCINT10/ADC2/PC2" x="43.18" y="5.08" length="middle" rot="R180"/>
+<pin name="PCINT12/SDA/ADC4/PC4" x="43.18" y="-2.54" length="middle" rot="R180"/>
+<pin name="PCINT13/SCL/ADC5/PC5" x="43.18" y="-5.08" length="middle" rot="R180"/>
+<wire x1="-33.02" y1="-30.48" x2="-33.02" y2="35.56" width="0.254" layer="94"/>
+<wire x1="-33.02" y1="35.56" x2="38.1" y2="35.56" width="0.254" layer="94"/>
+<wire x1="38.1" y1="35.56" x2="38.1" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="38.1" y1="-30.48" x2="-33.02" y2="-30.48" width="0.254" layer="94"/>
+<pin name="PCINT11/ADC3/PC3" x="43.18" y="2.54" length="middle" rot="R180"/>
+<text x="-33.02" y="36.322" size="1.27" layer="95">&gt;NAME</text>
+<text x="-33.02" y="-33.02" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -604,6 +707,167 @@ The ATtiny87/167 AVR is supported with a full suite of program and system develo
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
 <attribute name="VOLTAGE-SUPPLY" value="1.8 V ~ 5.5 V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ATTINY*8P-?" prefix="U">
+<description>&lt;h1&gt;ATmeag48A/PA/88A/PA/168A/PA/328/P&lt;/h1&gt;
+&lt;h2&gt;Atmel 8-bit Microcontroller with 4/8/16/32KBytes In-System Programmable Flash&lt;/h2&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.atmel.com/images/Atmel-8271-8-bit-AVR-Microcontroller-ATmega48A-48PA-88A-88PA-168A-168PA-328-328P_datasheet_Complete.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;High Performance, Low Power AVR® 8-Bit Microcontroller&lt;/li&gt;
+&lt;li&gt;Advanced RISC Architecture&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;131 Powerful Instructions – Most Single Clock Cycle Execution&lt;/li&gt;
+&lt;li&gt;32 x 8 General Purpose Working Registers&lt;/li&gt;
+&lt;li&gt;Fully Static Operation&lt;/li&gt;
+&lt;li&gt;Up to 20 MIPS Throughput at 20MHz&lt;/li&gt;
+&lt;li&gt;On-chip 2-cycle Multiplier&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;High Endurance Non-volatile Memory Segments&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;4/8/16/32KBytes of In-System Self Programmable Flash program memory&lt;/li&gt;
+&lt;li&gt;256/512/512/1KBytes EEPROM&lt;/li&gt;
+&lt;li&gt;512/1K/1K/2KBytes Internal SRAM&lt;/li&gt;
+&lt;li&gt; Write/Erase Cycles: 10,000 Flash/100,000 EEPROM&lt;/li&gt;
+&lt;li&gt;Data Retention: 20 years at 85&lt;sup&gt;o&lt;/sup&gt;C/100 years at 25&lt;sup&gt;o&lt;/sup&gt;C&lt;/li&gt;
+&lt;li&gt;Optional boot Code Section with Independent Lock Bits&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;In-System Programming by On-chip Boot Program&lt;/li&gt;
+&lt;li&gt;True Read-While-Write Operation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;li&gt;Atmel&amp;reg; QTouch&amp;reg; library support&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Capacitive touch buttons, silders and wheels&lt;/li&gt;
+&lt;li&gt;QTouch and QMatrix&amp;reg; acquisition&lt;/li&gt;
+&lt;li&gt;Up to 64 sense channels&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Peripheral Features&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Two 8-bit Timer/Counters with Separate Prescaler and Compare Mode&lt;/li&gt;
+&lt;li&gt;One 16-bit Timer/Counter with Separate Prescaler, Compare Mode, and Capture Mode&lt;/li&gt;
+&lt;li&gt;Real Time Counter with Separate Oscillator&lt;/li&gt;
+&lt;li&gt;Six PWM Channels&lt;/li&gt;
+&lt;li&gt;8-channel 10-bit ADC in TQFP and QFN/MLF package&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;Temperature Measurement&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;6-channel 10-bit ADC in PDIP Package&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Temperature Measurement&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Programmable Serial USART&lt;/li&gt;
+&lt;li&gt;Master/Slave SPI Serial Interface&lt;/li&gt;
+&lt;li&gt;Byte-oriented 2-wire Serial Interface (Philips I&lt;sup&gt;2&lt;/sup&gt;C compatible)&lt;/li&gt;
+&lt;li&gt;Programmable Watchdog Timer with Separate On-chip Oscillator&lt;/li&gt;
+&lt;li&gt;On-chip Analog Comparator&lt;/li&gt;
+&lt;/li&gt;Interrupt and Wake-up on Pin Change&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Special Microcontroller Features&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Power-on Reset and Programmable Brown-out Detection&lt;/li&gt;
+&lt;li&gt;Internal Calibrated Oscillator&lt;/li&gt;
+&lt;li&gt;External and Internal Interrupt Sources&lt;/li&gt;
+&lt;li&gt;Six Sleep Modes: Idle, ADC Noise Reduction, Power-save, Power-down, Standby, and Extended Standby&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;I/O and Packages&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;23 Programmable I/O Lines&lt;/li&gt;
+&lt;li&gt;28-pin PDIP, 32-lead TQFP, 28-pad QFN/MLF and 32-pad QFN/MLF&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Operating Voltage:&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;1.8 - 5.5V&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Temperature Range:&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;-40&lt;sup&gt;o&lt;/sup&gt;C to 85&lt;sup&gt;o&lt;/sup&gt;C&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Speed Grade:&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;0 - 4MHz@1.8 - 5.5V, 0 - 10MHz@2.7 - 5.5.V, 0 - 20MHz @ 4.5 - 5.5V&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Power Consumption at 1MHz, 1.8V, 25&lt;sup&gt;o&lt;/sup&gt;C&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Active Mode: 0.2mA&lt;/li&gt;
+&lt;li&gt;Power-down Mode: 0.1μA&lt;/li&gt;
+&lt;li&gt;Power-save Mode: 0.75μA (Including 32kHz RTC)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="ATMEGAX8" x="0" y="-2.54"/>
+<gate name="-SUPPLY" symbol="SUPPLY" x="-66.04" y="0"/>
+</gates>
+<devices>
+<device name="PU" package="DIP-28">
+<connects>
+<connect gate="-SUPPLY" pin="GND" pad="8 22"/>
+<connect gate="-SUPPLY" pin="VCC" pad="7"/>
+<connect gate="G$1" pin="AREF" pad="21"/>
+<connect gate="G$1" pin="AVCC" pad="20"/>
+<connect gate="G$1" pin="PCINT0/CLK0/ICP1/PB0" pad="14"/>
+<connect gate="G$1" pin="PCINT1/OC1A/PB1" pad="15"/>
+<connect gate="G$1" pin="PCINT10/ADC2/PC2" pad="25"/>
+<connect gate="G$1" pin="PCINT11/ADC3/PC3" pad="26"/>
+<connect gate="G$1" pin="PCINT12/SDA/ADC4/PC4" pad="27"/>
+<connect gate="G$1" pin="PCINT13/SCL/ADC5/PC5" pad="28"/>
+<connect gate="G$1" pin="PCINT14/!RESET!/PC6" pad="1"/>
+<connect gate="G$1" pin="PCINT16/RXD/PD0" pad="2"/>
+<connect gate="G$1" pin="PCINT17/TXD/PD1" pad="3"/>
+<connect gate="G$1" pin="PCINT18/INT0/PD2" pad="4"/>
+<connect gate="G$1" pin="PCINT19/OC2B/INT1/PD3" pad="5"/>
+<connect gate="G$1" pin="PCINT2/OC1B/SS/PB2" pad="16"/>
+<connect gate="G$1" pin="PCINT20/XCK/T0/PD4" pad="6"/>
+<connect gate="G$1" pin="PCINT21/OC0B/T1/PD5" pad="11"/>
+<connect gate="G$1" pin="PCINT22/OC0A/AIN0/PD6" pad="12"/>
+<connect gate="G$1" pin="PCINT23/AIN1/PD7" pad="13"/>
+<connect gate="G$1" pin="PCINT3/OC2A/MOSI/PB3" pad="17"/>
+<connect gate="G$1" pin="PCINT4/MISO/PB4" pad="18"/>
+<connect gate="G$1" pin="PCINT5/SCK/PB5" pad="19"/>
+<connect gate="G$1" pin="PCINT6/XTAL1/TOSC1/PB6" pad="9"/>
+<connect gate="G$1" pin="PCINT7/XTAL2/TOSC2/PB7" pad="10"/>
+<connect gate="G$1" pin="PCINT8/ADC0/PC0" pad="23"/>
+<connect gate="G$1" pin="PCINT9/ADC1/PC1" pad="24"/>
+</connects>
+<technologies>
+<technology name="32">
+<attribute name="CATEGORY" value="Integrated Circuits (ICs)" constant="no"/>
+<attribute name="CONNECTIVITY" value="I²C, SPI, UART/USART" constant="no"/>
+<attribute name="CORE_PROCESSOR" value="AVR" constant="no"/>
+<attribute name="CORE_SIZE" value="8-Bit" constant="no"/>
+<attribute name="DATA_CONVERTERS" value="A/D 6x10b" constant="no"/>
+<attribute name="DESCRIPTION" value="IC MCU 8BIT 32KB FLASH 28DIP" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.atmel.com/images/Atmel-8271-8-bit-AVR-Microcontroller-ATmega48A-48PA-88A-88PA-168A-168PA-328-328P_datasheet_Complete.pdf&quot;&gt;Datasheet&lt;/a&gt;" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.atmel.com/images/Atmel-8271-8-bit-AVR-Microcontroller-ATmega48A-48PA-88A-88PA-168A-168PA-328-328P_datasheet_Complete.pdf" constant="no"/>
+<attribute name="EEPROM_SIZE" value="1K x 8" constant="no"/>
+<attribute name="FAMILY" value="Embedded - Microcontrollers" constant="no"/>
+<attribute name="MANUFACTURER" value="Atmel" constant="no"/>
+<attribute name="NUMBER_OF_IO" value="23" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-40°C ~ 85°C" constant="no"/>
+<attribute name="OSCILLATOR_TYPE" value="Internal" constant="no"/>
+<attribute name="PACKAGE" value="28-DIP (0.300&quot;, 7.62mm)" constant="no"/>
+<attribute name="PART_NUMBER" value="ATMEGA328P-PU" constant="no"/>
+<attribute name="PERIPHERALS" value="Brown-out Detect/Reset, POR, PWM, WDT" constant="no"/>
+<attribute name="PROGRAM_MEMORY_SIZE" value="32KB (16K x 16)" constant="no"/>
+<attribute name="PROGRAM_MEMORY_TYPE" value="FLASH" constant="no"/>
+<attribute name="RAM_SIZE" value="2K x 8" constant="no"/>
+<attribute name="SERIES" value="AVR® ATmega" constant="no"/>
+<attribute name="SPEED" value="20MHz" constant="no"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="28-PDIP" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/ATMEGA328P-PU/ATMEGA328P-PU-ND/1914589&quot;&gt;Details&lt;/a&gt;" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="ATMEGA328P-PU-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/ATMEGA328P-PU/ATMEGA328P-PU-ND/1914589" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com" constant="no"/>
+<attribute name="VOLTAGE-SUPPLY" value="1.8 V ~ 5.5 V" constant="no"/>
 </technology>
 </technologies>
 </device>
