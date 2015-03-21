@@ -1196,6 +1196,34 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C"/>
 </technology>
+<technology name="J122V">
+<attribute name="CATEGORY" value="Resistors"/>
+<attribute name="COMPOSITION" value="Thick Film"/>
+<attribute name="DESCRIPTION" value="RES SMD 1.2K OHM 5% 1/2W 0805"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://industrial.panasonic.com/ww/products/resistors/chip-resistors/chip-resistors/thick-film-chip-resistors/ERJ14YJ155U&quot;&gt;Datasheet&lt;/a&gt;"/>
+<attribute name="DOCUMENTATION_URL" value="http://industrial.panasonic.com/ww/products/resistors/chip-resistors/chip-resistors/thick-film-chip-resistors/ERJ14YJ155U"/>
+<attribute name="FAMILY" value="Chip Resistor - Surface Mount"/>
+<attribute name="FEATURES" value="Automotive AEC-Q200, Pulse Withstanding"/>
+<attribute name="HEIGHT" value="0.028&quot; (0.70mm)"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="NUMBER_OF_TERMINATIONS" value="2"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 155C"/>
+<attribute name="PACKAGE" value="0805 (2012 Metric)"/>
+<attribute name="PART_NUMBER" value="ERJ-P06J122V"/>
+<attribute name="POWER" value="0.5W, 1/2W"/>
+<attribute name="RESISTANCE" value="1.2k"/>
+<attribute name="SERIES" value="ERJ"/>
+<attribute name="SIZE" value="0.079&quot; L x 0.049&quot; W (2.00mm x 1.25mm)"/>
+<attribute name="STANDARD_PACKAGE" value="1"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="0805"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/ERJ-P06J122V/P1.2KADCT-ND/525448&quot;&gt;Details&lt;/a&gt;" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="P1.2KADCT-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/ERJ-P06J122V/P1.2KADCT-ND/525448" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="±200ppm/°C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="PA3" package="0603">
