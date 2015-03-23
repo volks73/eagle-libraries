@@ -155,6 +155,7 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="HEIGHT-SEATED" value="-"/>
 <attribute name="LEAD_SPACING" value="-"/>
 <attribute name="LEAD_STYLE" value="-"/>
+<attribute name="MANUFACTURER" value="Taiyo Yuden" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Surface Mount, MLCC"/>
 <attribute name="OPERATING_TEMPERATURE" value="-55C ~ 85C"/>
 <attribute name="PACKAGE" value="0402 (1005 Metric)"/>
