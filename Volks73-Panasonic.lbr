@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -1340,6 +1340,42 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/ERJ-1TYJ271U/PT270XCT-ND/365365&quot;&gt;Details&lt;/a&gt;" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="PT270XCT-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/ERJ-1TYJ271U/PT270XCT-ND/365365" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="±200ppm/°C" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="6GE" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="YJ391V">
+<attribute name="CATEGORY" value="Resistors" constant="no"/>
+<attribute name="COMPOSITION" value="Thick Film" constant="no"/>
+<attribute name="DESCRIPTION" value="RES SMD 390 OHM 5% 1/8W 0805" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ6GEYJ391V+7+WW&quot;&gt;Datasheet&lt;/a&gt;" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ6GEYJ391V+7+WW" constant="no"/>
+<attribute name="FAMILY" value="Chip Resistor - Surface Mount" constant="no"/>
+<attribute name="FEATURES" value="Automotive AEC-Q200" constant="no"/>
+<attribute name="HEIGHT" value="0.028&quot; (0.70mm)" constant="no"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" constant="no"/>
+<attribute name="NUMBER_OF_TERMINATIONS" value="2" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55°C ~ 155°C" constant="no"/>
+<attribute name="PACKAGE" value="0805 (2012 Metric)" constant="no"/>
+<attribute name="PART_NUMBER" value="ERJ-6GEYJ391V" constant="no"/>
+<attribute name="POWER" value="0.125W, 1/8W" constant="no"/>
+<attribute name="RESISTANCE" value="390" constant="no"/>
+<attribute name="SERIES" value="ERJ" constant="no"/>
+<attribute name="SIZE" value="0.079&quot; L x 0.049&quot; W (2.00mm x 1.25mm)" constant="no"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="0805" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/ERJ-6GEYJ391V/P390ACT-ND/90027&quot;&gt;Details&lt;/a&gt;" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="P390ACT-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/ERJ-6GEYJ391V/P390ACT-ND/90027" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;" constant="no"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com" constant="no"/>
