@@ -68,11 +68,11 @@ Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0), &lt;a href=
 For attribution, please provide a link in any documentation or design files to the repository on Github. 
 &lt;/p&gt;</description>
 <packages>
-<package name="SMT">
-<description>&lt;h1&gt;SMT Barrel Jack&lt;/h1&gt;
+<package name="002BH-SMT">
+<description>&lt;h1&gt;Surface Mount Devie (SMD) Barrel Jack&lt;/h1&gt;
 &lt;h2&gt;Right Angle, 2 Conductor, 3 Contacts, 2.5mm ID, 5.5mm OD&lt;/h2&gt;</description>
-<smd name="1@1" x="-3.05" y="5.7" dx="2.8" dy="2.4" layer="1" rot="R90"/>
-<smd name="1@2" x="3.05" y="5.7" dx="2.8" dy="2.4" layer="1" rot="R90"/>
+<smd name="CENTER1" x="-3.05" y="5.7" dx="2.8" dy="2.4" layer="1" rot="R90"/>
+<smd name="CENTER2" x="3.05" y="5.7" dx="2.8" dy="2.4" layer="1" rot="R90"/>
 <smd name="2" x="-3.05" y="-5.7" dx="2.8" dy="2.4" layer="1" rot="R270"/>
 <smd name="3" x="3.05" y="-5.7" dx="2.8" dy="2.4" layer="1" rot="R270"/>
 <hole x="-3.05" y="0" drill="1.6"/>
@@ -101,6 +101,31 @@ For attribution, please provide a link in any documentation or design files to t
 <text x="-3.175" y="7.62" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.175" y="-8.89" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="014DH-SMT">
+<description>&lt;h1&gt;1.35mm ID, 3.5mm OD DC Power Jack Surface Mount Device (SMD)&lt;/h1&gt;</description>
+<smd name="CENTER1" x="0" y="-4.55" dx="2.8" dy="1.7" layer="1" rot="R180"/>
+<smd name="CENTER2" x="4.5" y="-4.55" dx="2.8" dy="1.7" layer="1" rot="R180"/>
+<smd name="3" x="0" y="4.1" dx="2.8" dy="2.6" layer="1" rot="R180"/>
+<smd name="2" x="4.5" y="4.1" dx="2.8" dy="2.6" layer="1" rot="R180"/>
+<wire x1="8" y1="4" x2="8" y2="-4" width="0.127" layer="21"/>
+<hole x="6.5" y="0" drill="0.8"/>
+<hole x="1.5" y="0" drill="0.8"/>
+<wire x1="8" y1="4" x2="6.2" y2="4" width="0.127" layer="21"/>
+<wire x1="8" y1="-4" x2="6.2" y2="-4" width="0.127" layer="21"/>
+<wire x1="-1.3" y1="-3.5" x2="-1.3" y2="2.5" width="0.127" layer="21"/>
+<wire x1="2.75" y1="4" x2="1.75" y2="4" width="0.127" layer="21"/>
+<wire x1="2.75" y1="-4" x2="1.75" y2="-4" width="0.127" layer="21"/>
+<wire x1="8" y1="-4" x2="8" y2="4" width="0.127" layer="49"/>
+<wire x1="8" y1="4" x2="-1.3" y2="4" width="0.127" layer="49"/>
+<wire x1="8" y1="-4" x2="-1.3" y2="-4" width="0.127" layer="49"/>
+<wire x1="-1.3" y1="4" x2="-1.3" y2="-4" width="0.127" layer="49"/>
+<rectangle x1="-0.8" y1="2.8" x2="0.8" y2="5" layer="51"/>
+<rectangle x1="3.7" y1="2.8" x2="5.3" y2="5" layer="51"/>
+<rectangle x1="-0.8" y1="-4.5" x2="0.8" y2="-3.7" layer="51"/>
+<rectangle x1="3.7" y1="-4.5" x2="5.3" y2="-3.7" layer="51"/>
+<text x="-2" y="-3" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="10" y="-3" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="BARREL_JACK">
@@ -128,14 +153,43 @@ For attribution, please provide a link in any documentation or design files to t
 <text x="-3.81" y="8.89" size="1.778" layer="95">&gt;NAME</text>
 <text x="-5.08" y="-8.89" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="BARREL">
+<pin name="1" x="5.08" y="0" visible="off" length="middle" direction="pwr" rot="R180"/>
+<wire x1="0" y1="-2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="-12.7" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-1.27" x2="-12.7" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-1.27" x2="-12.7" y2="1.27" width="0.254" layer="94" curve="-180"/>
+<text x="-13.97" y="3.81" size="1.778" layer="95">&gt;NAME</text>
+<text x="-13.97" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="CONTACT">
+<pin name="2" x="5.08" y="-2.54" visible="off" length="middle" direction="pwr" rot="R180"/>
+<pin name="3" x="5.08" y="2.54" visible="off" length="middle" direction="pwr" rot="R180"/>
+<wire x1="0" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-6.35" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="1.27" x2="-5.08" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="1.27" x2="-3.81" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="1.27" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-8.89" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-8.89" y1="-2.54" x2="-11.43" y2="0" width="0.254" layer="94"/>
+<wire x1="-11.43" y1="0" x2="-13.97" y2="-2.54" width="0.254" layer="94"/>
+<text x="-13.97" y="3.81" size="1.778" layer="95">&gt;NAME</text>
+<text x="-13.97" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
-<deviceset name="PJ-002BH-?" prefix="J">
+<deviceset name="PJ-?" prefix="J">
 <description>&lt;h1&gt;DC Power Jack&lt;/h1&gt;
-&lt;h2&gt;SMT Barrel 2.5mm ID, 5.5mm OD&lt;/h2&gt;
 &lt;h3&gt;Documentation&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://www.cui.com/product/resource/pj-002bh-smt.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.cui.com/product/resource/pj-014dh-smt.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
@@ -143,14 +197,15 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;li&gt;5A current rating&lt;/li&gt;
 &lt;li&gt;narrow footprint&lt;/li&gt;</description>
 <gates>
-<gate name="G$1" symbol="BARREL_JACK" x="0" y="0"/>
+<gate name="-CENTER" symbol="BARREL" x="0" y="5.08"/>
+<gate name="-SHIELD" symbol="CONTACT" x="0" y="-10.16"/>
 </gates>
 <devices>
-<device name="SMT" package="SMT">
+<device name="002BH-SMT" package="002BH-SMT">
 <connects>
-<connect gate="G$1" pin="1" pad="1@1 1@2"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="-CENTER" pin="1" pad="CENTER1 CENTER2"/>
+<connect gate="-SHIELD" pin="2" pad="2"/>
+<connect gate="-SHIELD" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name="">
@@ -184,6 +239,48 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
 <attribute name="TERMINATION" value="Solder"/>
 <attribute name="VOLTAGE-RATED" value="24VDC"/>
+</technology>
+</technologies>
+</device>
+<device name="014DH-SMT" package="014DH-SMT">
+<connects>
+<connect gate="-CENTER" pin="1" pad="CENTER1 CENTER2"/>
+<connect gate="-SHIELD" pin="2" pad="2"/>
+<connect gate="-SHIELD" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Connectors, Interconnects" constant="no"/>
+<attribute name="COLOR" value="Black" constant="no"/>
+<attribute name="CONNECTOR_TYPE" value="Jack" constant="no"/>
+<attribute name="CONTACT_MATERIAL" value="Copper" constant="no"/>
+<attribute name="CONTACT_MATERIAL_PLATING" value="Nickel" constant="no"/>
+<attribute name="CURRENT_RATING" value="5A" constant="no"/>
+<attribute name="DESCRIPTION" value="CONN POWER JACK 1.3X3.8MM HI CUR" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.cui.com/product/resource/pj-014dh-smt.pdf&quot;&gt;Datasheet&lt;/a&gt;" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.cui.com/product/resource/pj-014dh-smt.pdf" constant="no"/>
+<attribute name="FAMILY" value="Barrel - Power Connectors" constant="no"/>
+<attribute name="FEATURES" value="-" constant="no"/>
+<attribute name="GENDER" value="Male" constant="no"/>
+<attribute name="HOUSING_COLOR" value="Black" constant="no"/>
+<attribute name="HOUSING_MATERIAL" value="Thermoplastic" constant="no"/>
+<attribute name="INTERNAL_SWITCH" value="Single Switch, Normally Closed" constant="no"/>
+<attribute name="MANUFACTURER" value="CUI Inc" constant="no"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount, Right Angle" constant="no"/>
+<attribute name="NUMBER_OF_POSITIONS-CONTACTS" value="2 Conductors, 3 Contacts" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-25°C ~ 85°C" constant="no"/>
+<attribute name="PART_NUMBER" value="PJ-014DH-SMT-TR" constant="no"/>
+<attribute name="PLUG-MATING_PLUG_DIAMETER" value="1.35mm ID, 3.5mm OD" constant="no"/>
+<attribute name="SERIES" value="-" constant="no"/>
+<attribute name="SHIELDING" value="Unshielded" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/scripts/DkSearch/dksus.dll?Detail&amp;itemSeq=169196550&amp;uq=635629562899050903&amp;CSRT=11113514107677323174&quot;&gt;Details&lt;/a&gt;" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="CP-014DHPJCT-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/scripts/DkSearch/dksus.dll?Detail&amp;itemSeq=169196550&amp;uq=635629562899050903&amp;CSRT=11113514107677323174" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com" constant="no"/>
+<attribute name="TERMINATION" value="Solder" constant="no"/>
+<attribute name="VOLTAGE-RATED" value="24VDC" constant="no"/>
 </technology>
 </technologies>
 </device>
