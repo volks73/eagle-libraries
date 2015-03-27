@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -548,16 +548,16 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;li&gt;&lt;a href="http://www.molex.com/pdm_docs/ps/PS-99020-0088.pdf"&gt;Product Specification&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
-<gate name="@1" symbol="MALE_CONNECTOR" x="0" y="12.7"/>
-<gate name="@2" symbol="MALE_CONNECTOR" x="0" y="0"/>
-<gate name="@3" symbol="MALE_CONNECTOR" x="0" y="-12.7"/>
+<gate name="-1" symbol="MALE_CONNECTOR" x="0" y="12.7"/>
+<gate name="-2" symbol="MALE_CONNECTOR" x="0" y="0"/>
+<gate name="-3" symbol="MALE_CONNECTOR" x="0" y="-12.7"/>
 </gates>
 <devices>
 <device name="" package="KK6410-2031_3-PIN">
 <connects>
-<connect gate="@1" pin="P$1" pad="1"/>
-<connect gate="@2" pin="P$1" pad="2"/>
-<connect gate="@3" pin="P$1" pad="3"/>
+<connect gate="-1" pin="P$1" pad="1"/>
+<connect gate="-2" pin="P$1" pad="2"/>
+<connect gate="-3" pin="P$1" pad="3"/>
 </connects>
 <technologies>
 <technology name="">
@@ -602,20 +602,20 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;li&gt;&lt;a href="http://www.molex.com/pdm_docs/ps/PS-99020-0088.pdf"&gt;Product Specification&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
-<gate name="@1" symbol="MALE_CONNECTOR" x="0" y="12.7"/>
-<gate name="@2" symbol="MALE_CONNECTOR" x="0" y="2.54"/>
-<gate name="@3" symbol="MALE_CONNECTOR" x="0" y="-7.62"/>
-<gate name="@4" symbol="MALE_CONNECTOR" x="0" y="-17.78"/>
-<gate name="@5" symbol="MALE_CONNECTOR" x="0" y="-27.94"/>
+<gate name="-1" symbol="MALE_CONNECTOR" x="0" y="12.7"/>
+<gate name="-2" symbol="MALE_CONNECTOR" x="0" y="2.54"/>
+<gate name="-3" symbol="MALE_CONNECTOR" x="0" y="-7.62"/>
+<gate name="-4" symbol="MALE_CONNECTOR" x="0" y="-17.78"/>
+<gate name="-5" symbol="MALE_CONNECTOR" x="0" y="-27.94"/>
 </gates>
 <devices>
 <device name="" package="KK6410-2051_5-PIN">
 <connects>
-<connect gate="@1" pin="P$1" pad="1"/>
-<connect gate="@2" pin="P$1" pad="2"/>
-<connect gate="@3" pin="P$1" pad="3"/>
-<connect gate="@4" pin="P$1" pad="4"/>
-<connect gate="@5" pin="P$1" pad="5"/>
+<connect gate="-1" pin="P$1" pad="1"/>
+<connect gate="-2" pin="P$1" pad="2"/>
+<connect gate="-3" pin="P$1" pad="3"/>
+<connect gate="-4" pin="P$1" pad="4"/>
+<connect gate="-5" pin="P$1" pad="5"/>
 </connects>
 <technologies>
 <technology name="">
@@ -662,14 +662,14 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;li&gt;&lt;a href="http://www.molex.com/pdm_docs/pk/PK-104188-001.pdf"&gt;Packaging Specification&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
-<gate name="@1" symbol="MALE_CONNECTOR" x="0" y="5.08"/>
-<gate name="@2" symbol="MALE_CONNECTOR" x="0" y="-5.08"/>
+<gate name="-1" symbol="MALE_CONNECTOR" x="0" y="5.08"/>
+<gate name="-2" symbol="MALE_CONNECTOR" x="0" y="-5.08"/>
 </gates>
 <devices>
 <device name="" package="LITETRAP_2-PIN">
 <connects>
-<connect gate="@1" pin="P$1" pad="1"/>
-<connect gate="@2" pin="P$1" pad="2"/>
+<connect gate="-1" pin="P$1" pad="1"/>
+<connect gate="-2" pin="P$1" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
@@ -718,22 +718,22 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;li&gt;&lt;a href="http://www.molex.com/pdm_docs/ps/PS-99020-0088.pdf"&gt;Product Specification&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
-<gate name="@1" symbol="MALE_CONNECTOR" x="0" y="10.16"/>
-<gate name="@2" symbol="MALE_CONNECTOR" x="0" y="0"/>
-<gate name="@3" symbol="MALE_CONNECTOR" x="0" y="-10.16"/>
-<gate name="@4" symbol="MALE_CONNECTOR" x="0" y="-20.32"/>
-<gate name="@5" symbol="MALE_CONNECTOR" x="0" y="-30.48"/>
-<gate name="@6" symbol="MALE_CONNECTOR" x="0" y="-40.64"/>
+<gate name="-1" symbol="MALE_CONNECTOR" x="0" y="10.16"/>
+<gate name="-2" symbol="MALE_CONNECTOR" x="0" y="0"/>
+<gate name="-3" symbol="MALE_CONNECTOR" x="0" y="-10.16"/>
+<gate name="-4" symbol="MALE_CONNECTOR" x="0" y="-20.32"/>
+<gate name="-5" symbol="MALE_CONNECTOR" x="0" y="-30.48"/>
+<gate name="-6" symbol="MALE_CONNECTOR" x="0" y="-40.64"/>
 </gates>
 <devices>
 <device name="" package="KK6410-2061_6-PIN">
 <connects>
-<connect gate="@1" pin="P$1" pad="1"/>
-<connect gate="@2" pin="P$1" pad="2"/>
-<connect gate="@3" pin="P$1" pad="3"/>
-<connect gate="@4" pin="P$1" pad="4"/>
-<connect gate="@5" pin="P$1" pad="5"/>
-<connect gate="@6" pin="P$1" pad="6"/>
+<connect gate="-1" pin="P$1" pad="1"/>
+<connect gate="-2" pin="P$1" pad="2"/>
+<connect gate="-3" pin="P$1" pad="3"/>
+<connect gate="-4" pin="P$1" pad="4"/>
+<connect gate="-5" pin="P$1" pad="5"/>
+<connect gate="-6" pin="P$1" pad="6"/>
 </connects>
 <technologies>
 <technology name="">
@@ -779,18 +779,18 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;li&gt;&lt;a href="http://www.molex.com/pdm_docs/as/AS-504051-002.pdf"&gt;Application Specification&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
-<gate name="@1" symbol="MALE_CONNECTOR" x="0" y="12.7"/>
-<gate name="@2" symbol="MALE_CONNECTOR" x="0" y="2.54"/>
-<gate name="@3" symbol="MALE_CONNECTOR" x="0" y="-7.62"/>
-<gate name="@4" symbol="MALE_CONNECTOR" x="0" y="-17.78"/>
+<gate name="-1" symbol="MALE_CONNECTOR" x="0" y="12.7"/>
+<gate name="-2" symbol="MALE_CONNECTOR" x="0" y="2.54"/>
+<gate name="-3" symbol="MALE_CONNECTOR" x="0" y="-7.62"/>
+<gate name="-4" symbol="MALE_CONNECTOR" x="0" y="-17.78"/>
 </gates>
 <devices>
 <device name="" package="KK42492-5040_4-PIN">
 <connects>
-<connect gate="@1" pin="P$1" pad="1"/>
-<connect gate="@2" pin="P$1" pad="2"/>
-<connect gate="@3" pin="P$1" pad="3"/>
-<connect gate="@4" pin="P$1" pad="4"/>
+<connect gate="-1" pin="P$1" pad="1"/>
+<connect gate="-2" pin="P$1" pad="2"/>
+<connect gate="-3" pin="P$1" pad="3"/>
+<connect gate="-4" pin="P$1" pad="4"/>
 </connects>
 <technologies>
 <technology name="">
@@ -835,14 +835,14 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;li&gt;&lt;a href="http://www.molex.com/pdm_docs/sd/532610271_sd.pdf"&gt;Drawing&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
-<gate name="@1" symbol="MALE_CONNECTOR" x="0" y="5.08"/>
-<gate name="@2" symbol="MALE_CONNECTOR" x="0" y="-5.08"/>
+<gate name="-1" symbol="MALE_CONNECTOR" x="0" y="5.08"/>
+<gate name="-2" symbol="MALE_CONNECTOR" x="0" y="-5.08"/>
 </gates>
 <devices>
 <device name="" package="PICOBLADE53261-0271">
 <connects>
-<connect gate="@1" pin="P$1" pad="1"/>
-<connect gate="@2" pin="P$1" pad="2"/>
+<connect gate="-1" pin="P$1" pad="1"/>
+<connect gate="-2" pin="P$1" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
@@ -899,14 +899,14 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;tr&gt;&lt;td&gt;0022012021&lt;/td&gt;&lt;td&gt;CONN HOUSING 2POS .100 W/O RAMP&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;0022012025&lt;/td&gt;&lt;td&gt;CONN HSNG 2POS .100 W/RAMP/RIB&lt;/td&gt;&lt;/tr&gt;</description>
 <gates>
-<gate name="@1" symbol="MALE_CONNECTOR" x="0" y="5.08"/>
-<gate name="@2" symbol="MALE_CONNECTOR" x="0" y="-5.08"/>
+<gate name="-1" symbol="MALE_CONNECTOR" x="0" y="5.08"/>
+<gate name="-2" symbol="MALE_CONNECTOR" x="0" y="-5.08"/>
 </gates>
 <devices>
 <device name="" package="KK6410-2021_2-PIN">
 <connects>
-<connect gate="@1" pin="P$1" pad="1"/>
-<connect gate="@2" pin="P$1" pad="2"/>
+<connect gate="-1" pin="P$1" pad="1"/>
+<connect gate="-2" pin="P$1" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
@@ -953,14 +953,14 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;li&gt;&lt;a href="http://www.molex.com/pdm_docs/sd/026604020_sd.pdf"&gt;Drawing&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
-<gate name="@1" symbol="MALE_CONNECTOR" x="0" y="5.08"/>
-<gate name="@2" symbol="MALE_CONNECTOR" x="0" y="-5.08"/>
+<gate name="-1" symbol="MALE_CONNECTOR" x="0" y="5.08"/>
+<gate name="-2" symbol="MALE_CONNECTOR" x="0" y="-5.08"/>
 </gates>
 <devices>
 <device name="" package="KK41791-4020_2-PIN">
 <connects>
-<connect gate="@1" pin="P$1" pad="1"/>
-<connect gate="@2" pin="P$1" pad="2"/>
+<connect gate="-1" pin="P$1" pad="1"/>
+<connect gate="-2" pin="P$1" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1006,18 +1006,18 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;li&gt;&lt;a href="http://www.molex.com/pdm_docs/sd/532610471_sd.pdf"&gt;Drawing&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
-<gate name="@1" symbol="MALE_CONNECTOR" x="0" y="15.24"/>
-<gate name="@2" symbol="MALE_CONNECTOR" x="0" y="5.08"/>
-<gate name="@3" symbol="MALE_CONNECTOR" x="0" y="-5.08"/>
-<gate name="@4" symbol="MALE_CONNECTOR" x="0" y="-15.24"/>
+<gate name="-1" symbol="MALE_CONNECTOR" x="0" y="15.24"/>
+<gate name="-2" symbol="MALE_CONNECTOR" x="0" y="5.08"/>
+<gate name="-3" symbol="MALE_CONNECTOR" x="0" y="-5.08"/>
+<gate name="-4" symbol="MALE_CONNECTOR" x="0" y="-15.24"/>
 </gates>
 <devices>
 <device name="" package="PICOBLADE53261-0471">
 <connects>
-<connect gate="@1" pin="P$1" pad="1"/>
-<connect gate="@2" pin="P$1" pad="2"/>
-<connect gate="@3" pin="P$1" pad="3"/>
-<connect gate="@4" pin="P$1" pad="4"/>
+<connect gate="-1" pin="P$1" pad="1"/>
+<connect gate="-2" pin="P$1" pad="2"/>
+<connect gate="-3" pin="P$1" pad="3"/>
+<connect gate="-4" pin="P$1" pad="4"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1063,20 +1063,20 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;li&gt;&lt;a href="http://www.molex.com/pdm_docs/sd/532610571_sd.pdf"&gt;Drawing&lt;/a&gt;
 &lt;/ul&gt;</description>
 <gates>
-<gate name="@1" symbol="MALE_CONNECTOR" x="0" y="20.32"/>
-<gate name="@2" symbol="MALE_CONNECTOR" x="0" y="10.16"/>
-<gate name="@3" symbol="MALE_CONNECTOR" x="0" y="0"/>
-<gate name="@4" symbol="MALE_CONNECTOR" x="0" y="-10.16"/>
-<gate name="@5" symbol="MALE_CONNECTOR" x="0" y="-20.32"/>
+<gate name="-1" symbol="MALE_CONNECTOR" x="0" y="20.32"/>
+<gate name="-2" symbol="MALE_CONNECTOR" x="0" y="10.16"/>
+<gate name="-3" symbol="MALE_CONNECTOR" x="0" y="0"/>
+<gate name="-4" symbol="MALE_CONNECTOR" x="0" y="-10.16"/>
+<gate name="-5" symbol="MALE_CONNECTOR" x="0" y="-20.32"/>
 </gates>
 <devices>
 <device name="" package="PICOBLADE53261-0571">
 <connects>
-<connect gate="@1" pin="P$1" pad="1"/>
-<connect gate="@2" pin="P$1" pad="2"/>
-<connect gate="@3" pin="P$1" pad="3"/>
-<connect gate="@4" pin="P$1" pad="4"/>
-<connect gate="@5" pin="P$1" pad="5"/>
+<connect gate="-1" pin="P$1" pad="1"/>
+<connect gate="-2" pin="P$1" pad="2"/>
+<connect gate="-3" pin="P$1" pad="3"/>
+<connect gate="-4" pin="P$1" pad="4"/>
+<connect gate="-5" pin="P$1" pad="5"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1125,18 +1125,18 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;li&gt;&lt;a href="http://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/43650_655_Pkg_Dwg.pdf"&gt;Package Drawing&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
-<gate name="@1" symbol="MALE_CONNECTOR" x="0" y="15.24"/>
-<gate name="@2" symbol="MALE_CONNECTOR" x="0" y="5.08"/>
-<gate name="@3" symbol="MALE_CONNECTOR" x="0" y="-5.08"/>
-<gate name="@4" symbol="MALE_CONNECTOR" x="0" y="-15.24"/>
+<gate name="-1" symbol="MALE_CONNECTOR" x="0" y="15.24"/>
+<gate name="-2" symbol="MALE_CONNECTOR" x="0" y="5.08"/>
+<gate name="-3" symbol="MALE_CONNECTOR" x="0" y="-5.08"/>
+<gate name="-4" symbol="MALE_CONNECTOR" x="0" y="-15.24"/>
 </gates>
 <devices>
 <device name="" package="MICROFIT43650-0414">
 <connects>
-<connect gate="@1" pin="P$1" pad="1"/>
-<connect gate="@2" pin="P$1" pad="2"/>
-<connect gate="@3" pin="P$1" pad="3"/>
-<connect gate="@4" pin="P$1" pad="4"/>
+<connect gate="-1" pin="P$1" pad="1"/>
+<connect gate="-2" pin="P$1" pad="2"/>
+<connect gate="-3" pin="P$1" pad="3"/>
+<connect gate="-4" pin="P$1" pad="4"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1183,18 +1183,18 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;li&gt;&lt;a href="http://www.molex.com/pdm_docs/as/AS-504051-002.pdf"&gt;Application Specification&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
-<gate name="@1" symbol="MALE_CONNECTOR" x="0" y="15.24"/>
-<gate name="@2" symbol="MALE_CONNECTOR" x="0" y="5.08"/>
-<gate name="@3" symbol="MALE_CONNECTOR" x="0" y="-5.08"/>
-<gate name="@4" symbol="MALE_CONNECTOR" x="0" y="-15.24"/>
+<gate name="-1" symbol="MALE_CONNECTOR" x="0" y="15.24"/>
+<gate name="-2" symbol="MALE_CONNECTOR" x="0" y="5.08"/>
+<gate name="-3" symbol="MALE_CONNECTOR" x="0" y="-5.08"/>
+<gate name="-4" symbol="MALE_CONNECTOR" x="0" y="-15.24"/>
 </gates>
 <devices>
 <device name="" package="PICOLOCK505050-0491">
 <connects>
-<connect gate="@1" pin="P$1" pad="1"/>
-<connect gate="@2" pin="P$1" pad="2"/>
-<connect gate="@3" pin="P$1" pad="3"/>
-<connect gate="@4" pin="P$1" pad="4"/>
+<connect gate="-1" pin="P$1" pad="1"/>
+<connect gate="-2" pin="P$1" pad="2"/>
+<connect gate="-3" pin="P$1" pad="3"/>
+<connect gate="-4" pin="P$1" pad="4"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1238,20 +1238,20 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;li&gt;&lt;a href="http://www.molex.com/pdm_docs/sd/533980571_sd.pdf"&gt;Drawing&lt;/a&gt;
 &lt;/ul&gt;</description>
 <gates>
-<gate name="@1" symbol="MALE_CONNECTOR" x="0" y="20.32"/>
-<gate name="@2" symbol="MALE_CONNECTOR" x="0" y="10.16"/>
-<gate name="@3" symbol="MALE_CONNECTOR" x="0" y="0"/>
-<gate name="@4" symbol="MALE_CONNECTOR" x="0" y="-10.16"/>
-<gate name="@5" symbol="MALE_CONNECTOR" x="0" y="-20.32"/>
+<gate name="-1" symbol="MALE_CONNECTOR" x="0" y="20.32"/>
+<gate name="-2" symbol="MALE_CONNECTOR" x="0" y="10.16"/>
+<gate name="-3" symbol="MALE_CONNECTOR" x="0" y="0"/>
+<gate name="-4" symbol="MALE_CONNECTOR" x="0" y="-10.16"/>
+<gate name="-5" symbol="MALE_CONNECTOR" x="0" y="-20.32"/>
 </gates>
 <devices>
 <device name="" package="PICOBLADE53398-0571">
 <connects>
-<connect gate="@1" pin="P$1" pad="1"/>
-<connect gate="@2" pin="P$1" pad="2"/>
-<connect gate="@3" pin="P$1" pad="3"/>
-<connect gate="@4" pin="P$1" pad="4"/>
-<connect gate="@5" pin="P$1" pad="5"/>
+<connect gate="-1" pin="P$1" pad="1"/>
+<connect gate="-2" pin="P$1" pad="2"/>
+<connect gate="-3" pin="P$1" pad="3"/>
+<connect gate="-4" pin="P$1" pad="4"/>
+<connect gate="-5" pin="P$1" pad="5"/>
 </connects>
 <technologies>
 <technology name="">
