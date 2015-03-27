@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.2.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="13" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;h1&gt;Volks73's Library for Maxim Parts&lt;/h1&gt;
+&lt;p&gt;
+&lt;a href="https://github.com/volks73/eagle-libraries/"&gt;Repository&lt;/a&gt;
+&lt;/p&gt;
+&lt;h3&gt;Licensing:&lt;/h3&gt; 
+&lt;p&gt;
+Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0), &lt;a href="http://creativecommons.org/licenses/by-sa/3.0/"&gt;http://creativecommons.org/licenses/by-sa/3.0/&lt;/a&gt;. 
+&lt;/p&gt;
+&lt;p&gt;
+For attribution, please provide a link in any documentation or design files to the repository on Github. 
+&lt;/p&gt;</description>
+<packages>
+<package name="SO-16">
+<description>&lt;h1&gt;Small Outline 16-Pin&lt;/h1&gt;
+&lt;h2&gt;Small Outline Integrated Circuit (SOIC) 16-Pin Surface Mount Device (SMD)&lt;/h2&gt;</description>
+<smd name="1" x="-2.465" y="4.445" dx="1.98" dy="0.53" layer="1"/>
+<smd name="2" x="-2.465" y="3.175" dx="1.98" dy="0.53" layer="1"/>
+<smd name="3" x="-2.465" y="1.905" dx="1.98" dy="0.53" layer="1"/>
+<smd name="4" x="-2.465" y="0.635" dx="1.98" dy="0.53" layer="1"/>
+<smd name="5" x="-2.465" y="-0.635" dx="1.98" dy="0.53" layer="1"/>
+<smd name="6" x="-2.465" y="-1.905" dx="1.98" dy="0.53" layer="1"/>
+<smd name="7" x="-2.465" y="-3.175" dx="1.98" dy="0.53" layer="1"/>
+<smd name="8" x="-2.465" y="-4.445" dx="1.98" dy="0.53" layer="1"/>
+<smd name="9" x="2.465" y="-4.445" dx="1.98" dy="0.53" layer="1" rot="R180"/>
+<smd name="10" x="2.465" y="-3.175" dx="1.98" dy="0.53" layer="1" rot="R180"/>
+<smd name="11" x="2.465" y="-1.905" dx="1.98" dy="0.53" layer="1" rot="R180"/>
+<smd name="12" x="2.465" y="-0.635" dx="1.98" dy="0.53" layer="1" rot="R180"/>
+<smd name="13" x="2.465" y="0.635" dx="1.98" dy="0.53" layer="1" rot="R180"/>
+<smd name="14" x="2.465" y="1.905" dx="1.98" dy="0.53" layer="1" rot="R180"/>
+<smd name="15" x="2.465" y="3.175" dx="1.98" dy="0.53" layer="1" rot="R180"/>
+<smd name="16" x="2.465" y="4.445" dx="1.98" dy="0.53" layer="1" rot="R180"/>
+<wire x1="-1.27" y1="-5.08" x2="-1.27" y2="5.08" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="5.08" x2="1.27" y2="5.08" width="0.127" layer="21"/>
+<wire x1="1.27" y1="5.08" x2="1.27" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-5.08" x2="-1.27" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="-0.9" y1="-4.9" x2="-0.9" y2="4.9" width="0.127" layer="21"/>
+<wire x1="-0.9" y1="4.9" x2="1.17" y2="4.9" width="0.127" layer="21"/>
+<wire x1="1.17" y1="4.9" x2="1.17" y2="-4.9" width="0.127" layer="21"/>
+<wire x1="1.17" y1="-4.9" x2="-0.9" y2="-4.9" width="0.127" layer="21"/>
+<circle x="-0.5" y="4.5" radius="0.25" width="0.127" layer="21"/>
+<wire x1="-3" y1="5" x2="-2" y2="5" width="0.127" layer="21"/>
+<text x="-2.5" y="5.5" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3" y="-6.5" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-2.54" y1="-4.9" x2="-2.54" y2="4.9" width="0.127" layer="49"/>
+<wire x1="2.54" y1="4.9" x2="2.54" y2="-4.9" width="0.127" layer="49"/>
+<wire x1="-2.54" y1="4.9" x2="2.54" y2="4.9" width="0.127" layer="49"/>
+<wire x1="2.54" y1="-4.9" x2="-2.54" y2="-4.9" width="0.127" layer="49"/>
+<rectangle x1="-2.54" y1="4.2" x2="-2" y2="4.69" layer="51"/>
+<rectangle x1="-2.54" y1="2.93" x2="-2" y2="3.42" layer="51"/>
+<rectangle x1="-2.54" y1="1.66" x2="-2" y2="2.15" layer="51"/>
+<rectangle x1="-2.54" y1="0.39" x2="-2" y2="0.88" layer="51"/>
+<rectangle x1="-2.54" y1="-0.88" x2="-2" y2="-0.39" layer="51"/>
+<rectangle x1="-2.54" y1="-2.15" x2="-2" y2="-1.66" layer="51"/>
+<rectangle x1="-2.54" y1="-3.42" x2="-2" y2="-2.93" layer="51"/>
+<rectangle x1="-2.54" y1="-4.69" x2="-2" y2="-4.2" layer="51"/>
+<rectangle x1="2" y1="-4.69" x2="2.54" y2="-4.2" layer="51" rot="R180"/>
+<rectangle x1="2" y1="-3.42" x2="2.54" y2="-2.93" layer="51" rot="R180"/>
+<rectangle x1="2" y1="-2.15" x2="2.54" y2="-1.66" layer="51" rot="R180"/>
+<rectangle x1="2" y1="-0.88" x2="2.54" y2="-0.39" layer="51" rot="R180"/>
+<rectangle x1="2" y1="0.39" x2="2.54" y2="0.88" layer="51" rot="R180"/>
+<rectangle x1="2" y1="1.66" x2="2.54" y2="2.15" layer="51" rot="R180"/>
+<rectangle x1="2" y1="2.93" x2="2.54" y2="3.42" layer="51" rot="R180"/>
+<rectangle x1="2" y1="4.2" x2="2.54" y2="4.69" layer="51" rot="R180"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MAX232">
+<pin name="C1+" x="-17.78" y="17.78" length="middle"/>
+<pin name="V+" x="17.78" y="15.24" length="middle" rot="R180"/>
+<pin name="C1-" x="-17.78" y="12.7" length="middle"/>
+<pin name="C2+" x="-17.78" y="5.08" length="middle"/>
+<pin name="C2-" x="-17.78" y="0" length="middle"/>
+<pin name="V-" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="T2OUT" x="17.78" y="-10.16" length="middle" direction="out" rot="R180"/>
+<pin name="R2IN" x="17.78" y="-17.78" length="middle" direction="in" rot="R180"/>
+<pin name="R2OUT" x="-17.78" y="-17.78" length="middle" direction="out"/>
+<pin name="T2IN" x="-17.78" y="-10.16" length="middle" direction="in"/>
+<pin name="T1IN" x="-17.78" y="-7.62" length="middle" direction="in"/>
+<pin name="R1OUT" x="-17.78" y="-15.24" length="middle" direction="out"/>
+<pin name="R1IN" x="17.78" y="-15.24" length="middle" direction="in" rot="R180"/>
+<pin name="T1OUT" x="17.78" y="-7.62" length="middle" direction="out" rot="R180"/>
+<wire x1="-12.7" y1="-20.32" x2="-12.7" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="20.32" x2="12.7" y2="20.32" width="0.254" layer="94"/>
+<wire x1="12.7" y1="20.32" x2="12.7" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-20.32" x2="-12.7" y2="-20.32" width="0.254" layer="94"/>
+<text x="-12.7" y="21.59" size="1.778" layer="95">&gt;NAME</text>
+<text x="-12.7" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="SUPPLY">
+<pin name="VCC" x="0" y="12.7" length="middle" direction="pwr" rot="R270"/>
+<pin name="GND" x="0" y="-12.7" length="middle" direction="pwr" rot="R90"/>
+<text x="-2.54" y="-7.62" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="3.81" y="-7.62" size="1.778" layer="95" rot="R90">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MAX232*?" prefix="U">
+<description>&lt;h1&gt;+5V-Powered, Multichannel RS-232 Drivers/Receivers&lt;/h1&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://datasheets.maximintegrated.com/en/ds/MAX220-MAX249.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;General Description&lt;/h3&gt;
+&lt;p&gt;
+The MAX220–MAX249 family of line drivers/receivers is intended for all EIA/TIA-232E and V.28/V.24 communications interfaces, particularly applications where ±12V is not available.
+&lt;/p&gt;
+&lt;p&gt;
+The MAX225, MAX233, MAX235, and MAX245/MAX246/MAX247 use no external components and are recommended for applications where printed circuit board space is critical.
+&lt;/p&gt;
+&lt;p&gt;
+The MAX220-MAX249 are offered in 26 different packages with temperatures from 0 to +70°C up to -55°C to +125°C. See ordering information table at the end of the data sheet for all package and temperature options.
+&lt;/p&gt;
+&lt;h3&gt;Applications&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Interface Translation&lt;/li&gt;
+&lt;li&gt;Multidrop RS-232 Networks&lt;/li&gt;
+&lt;li&gt;Portable Diagnostics Equipment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Benefits and Features&lt;/h3&gt;
+&lt;p&gt;
+Saves Board Space
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Integrated Charge Pump Circuitry&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Eliminates the Need for a Bipolar ±12V Supply&lt;/li&gt;
+&lt;li&gt;Enables the Single Supply Operation from +5V Supply&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Integrated Capacitors (MAX223, MAX233, MAX235, MAX245-MAX247)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Saves Power for Reduced Power Requirements
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;5μW Shutdown Mode&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="MAX232" x="0" y="0"/>
+<gate name="-SUPPLY" symbol="SUPPLY" x="-40.64" y="2.54" addlevel="request"/>
+</gates>
+<devices>
+<device name="CSE+" package="SO-16">
+<connects>
+<connect gate="-SUPPLY" pin="GND" pad="15"/>
+<connect gate="-SUPPLY" pin="VCC" pad="16"/>
+<connect gate="G$1" pin="C1+" pad="1"/>
+<connect gate="G$1" pin="C1-" pad="3"/>
+<connect gate="G$1" pin="C2+" pad="4"/>
+<connect gate="G$1" pin="C2-" pad="5"/>
+<connect gate="G$1" pin="R1IN" pad="13"/>
+<connect gate="G$1" pin="R1OUT" pad="12"/>
+<connect gate="G$1" pin="R2IN" pad="8"/>
+<connect gate="G$1" pin="R2OUT" pad="9"/>
+<connect gate="G$1" pin="T1IN" pad="11"/>
+<connect gate="G$1" pin="T1OUT" pad="14"/>
+<connect gate="G$1" pin="T2IN" pad="10"/>
+<connect gate="G$1" pin="T2OUT" pad="7"/>
+<connect gate="G$1" pin="V+" pad="2"/>
+<connect gate="G$1" pin="V-" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Integrated Circuits (ICs)" constant="no"/>
+<attribute name="DATA_RATE" value="120Kbps" constant="no"/>
+<attribute name="DESCRIPTION" value="IC RS-232 DVR/RCVR 16-SOIC" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://datasheets.maximintegrated.com/en/ds/MAX220-MAX249.pdf&quot;&gt;Datasheet&lt;/a&gt;" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://datasheets.maximintegrated.com/en/ds/MAX220-MAX249.pdf" constant="no"/>
+<attribute name="DUPLEX" value="Full" constant="no"/>
+<attribute name="FAMILY" value="Interface - Drivers, Receivers, Transceivers" constant="no"/>
+<attribute name="MANUFACTURER" value="Maxim Integrated" constant="no"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount" constant="no"/>
+<attribute name="NUMBER_OF_DRIVERS-RECEIVERS" value="2/2" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="0°C ~ 70°C" constant="no"/>
+<attribute name="PACKAGE" value="16-SOIC (0.154&quot;, 3.90mm Width)" constant="no"/>
+<attribute name="PART_NUMBER" value="MAX232CSE+" constant="no"/>
+<attribute name="PROTOCOL" value="RS232" constant="no"/>
+<attribute name="RECEIVER_HYSTERESIS" value="500mV" constant="no"/>
+<attribute name="SERIES" value="-" constant="no"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="16-SOIC" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/MAX232CSE%2B/MAX232CSE%2B-ND/1513858&quot;&gt;Details&lt;/a&gt;" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="MAX232CSE+-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/MAX232CSE%2B/MAX232CSE%2B-ND/1513858" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com" constant="no"/>
+<attribute name="TYPE" value="Transceiver" constant="no"/>
+<attribute name="VOLTAGE-SUPPLY" value="4.5 V ~ 5.5 V" constant="no"/>
+</technology>
+<technology name="A">
+<attribute name="CATEGORY" value="Integrated Circuits (ICs)" constant="no"/>
+<attribute name="DATA_RATE" value="200Kbps" constant="no"/>
+<attribute name="DESCRIPTION" value="IC 2DVR/2RCVR RS232 5V 16-SOIC" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://datasheets.maximintegrated.com/en/ds/MAX220-MAX249.pdf&quot;&gt;Datasheet&lt;/a&gt;" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://datasheets.maximintegrated.com/en/ds/MAX220-MAX249.pdf" constant="no"/>
+<attribute name="DUPLEX" value="Full" constant="no"/>
+<attribute name="FAMILY" value="Interface - Drivers, Receivers, Transceivers" constant="no"/>
+<attribute name="MANUFACTURER" value="Maxim Integrated" constant="no"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount" constant="no"/>
+<attribute name="NUMBER_OF_DRIVERS-RECEIVERS" value="2/2" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="0°C ~ 70°C" constant="no"/>
+<attribute name="PACKAGE" value="16-SOIC (0.154&quot;, 3.90mm Width)" constant="no"/>
+<attribute name="PART_NUMBER" value="MAX232ACSE+" constant="no"/>
+<attribute name="PROTOCOL" value="RS232" constant="no"/>
+<attribute name="RECEIVER_HYSTERESIS" value="500mV" constant="no"/>
+<attribute name="SERIES" value="-" constant="no"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="16-SOIC" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/MAX232ACSE%2B/MAX232ACSE%2B-ND/947830&quot;&gt;Details&lt;/a&gt;" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="MAX232ACSE+-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/MAX232ACSE%2B/MAX232ACSE%2B-ND/947830" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com" constant="no"/>
+<attribute name="TYPE" value="Transceiver" constant="no"/>
+<attribute name="VOLTAGE-SUPPLY" value="4.5 V ~ 5.5 V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
