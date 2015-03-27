@@ -540,12 +540,12 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;li&gt;&lt;a href="http://portal.fciconnect.com/Comergent//fci/drawing/68000.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
-<gate name="@1" symbol="MALE_CONNECTOR" x="0" y="0"/>
+<gate name="-1" symbol="MALE_CONNECTOR" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="68000">
 <connects>
-<connect gate="@1" pin="P$1" pad="1"/>
+<connect gate="-1" pin="P$1" pad="1"/>
 </connects>
 <technologies>
 <technology name="HLF">
@@ -590,18 +590,18 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;li&gt;&lt;a href="http://portal.fciconnect.com/Comergent//fci/drawing/68015.pdf"&gt;Drawing&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
-<gate name="@1" symbol="MALE_CONNECTOR" x="0" y="17.78"/>
-<gate name="@2" symbol="MALE_CONNECTOR" x="0" y="5.08"/>
-<gate name="@3" symbol="MALE_CONNECTOR" x="0" y="-7.62"/>
-<gate name="@4" symbol="MALE_CONNECTOR" x="0" y="-20.32"/>
+<gate name="-1" symbol="MALE_CONNECTOR" x="0" y="17.78"/>
+<gate name="-2" symbol="MALE_CONNECTOR" x="0" y="5.08"/>
+<gate name="-3" symbol="MALE_CONNECTOR" x="0" y="-7.62"/>
+<gate name="-4" symbol="MALE_CONNECTOR" x="0" y="-20.32"/>
 </gates>
 <devices>
 <device name="" package="204">
 <connects>
-<connect gate="@1" pin="P$1" pad="1"/>
-<connect gate="@2" pin="P$1" pad="2"/>
-<connect gate="@3" pin="P$1" pad="3"/>
-<connect gate="@4" pin="P$1" pad="4"/>
+<connect gate="-1" pin="P$1" pad="1"/>
+<connect gate="-2" pin="P$1" pad="2"/>
+<connect gate="-3" pin="P$1" pad="3"/>
+<connect gate="-4" pin="P$1" pad="4"/>
 </connects>
 <technologies>
 <technology name="HLF">
@@ -645,20 +645,20 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;li&gt;&lt;a href="http://portal.fciconnect.com/Comergent//fci/drawing/68015.pdf"&gt;Drawing&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
-<gate name="@1" symbol="MALE_CONNECTOR" x="0" y="25.4"/>
-<gate name="@2" symbol="MALE_CONNECTOR" x="0" y="12.7"/>
-<gate name="@3" symbol="MALE_CONNECTOR" x="0" y="0"/>
-<gate name="@4" symbol="MALE_CONNECTOR" x="0" y="-12.7"/>
-<gate name="@5" symbol="MALE_CONNECTOR" x="0" y="-25.4"/>
+<gate name="-1" symbol="MALE_CONNECTOR" x="0" y="25.4"/>
+<gate name="-2" symbol="MALE_CONNECTOR" x="0" y="12.7"/>
+<gate name="-3" symbol="MALE_CONNECTOR" x="0" y="0"/>
+<gate name="-4" symbol="MALE_CONNECTOR" x="0" y="-12.7"/>
+<gate name="-5" symbol="MALE_CONNECTOR" x="0" y="-25.4"/>
 </gates>
 <devices>
 <device name="" package="205">
 <connects>
-<connect gate="@1" pin="P$1" pad="1"/>
-<connect gate="@2" pin="P$1" pad="2"/>
-<connect gate="@3" pin="P$1" pad="3"/>
-<connect gate="@4" pin="P$1" pad="4"/>
-<connect gate="@5" pin="P$1" pad="5"/>
+<connect gate="-1" pin="P$1" pad="1"/>
+<connect gate="-2" pin="P$1" pad="2"/>
+<connect gate="-3" pin="P$1" pad="3"/>
+<connect gate="-4" pin="P$1" pad="4"/>
+<connect gate="-5" pin="P$1" pad="5"/>
 </connects>
 <technologies>
 <technology name="HLF">
@@ -704,16 +704,16 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;li&gt;&lt;a href="http://portal.fciconnect.com/Comergent//fci/drawing/68015.pdf"&gt;Drawing&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
-<gate name="@1" symbol="MALE_CONNECTOR" x="0" y="12.7"/>
-<gate name="@2" symbol="MALE_CONNECTOR" x="0" y="0"/>
-<gate name="@3" symbol="MALE_CONNECTOR" x="0" y="-12.7"/>
+<gate name="-1" symbol="MALE_CONNECTOR" x="0" y="12.7"/>
+<gate name="-2" symbol="MALE_CONNECTOR" x="0" y="0"/>
+<gate name="-3" symbol="MALE_CONNECTOR" x="0" y="-12.7"/>
 </gates>
 <devices>
 <device name="" package="203">
 <connects>
-<connect gate="@1" pin="P$1" pad="1"/>
-<connect gate="@2" pin="P$1" pad="2"/>
-<connect gate="@3" pin="P$1" pad="3"/>
+<connect gate="-1" pin="P$1" pad="1"/>
+<connect gate="-2" pin="P$1" pad="2"/>
+<connect gate="-3" pin="P$1" pad="3"/>
 </connects>
 <technologies>
 <technology name="HLF">
@@ -750,7 +750,7 @@ For attribution, please provide a link in any documentation or design files to t
 </device>
 </devices>
 </deviceset>
-<deviceset name="68685-?*" prefix="J">
+<deviceset name="68685-306*" prefix="J">
 <description>&lt;h1&gt;6-Pin Female Header&lt;/h1&gt;
 &lt;h2&gt;DUBOX™, MezzSelect™, Basics+&lt;/h2&gt;
 &lt;h3&gt;Documentation&lt;/h3&gt;
@@ -758,22 +758,22 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;li&gt;&lt;a href="http://portal.fciconnect.com/Comergent//fci/drawing/68685.pdf"&gt;Drawing&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
-<gate name="@1" symbol="FEMALE_CONNECTOR" x="0" y="33.02"/>
-<gate name="@2" symbol="FEMALE_CONNECTOR" x="0" y="20.32"/>
-<gate name="@3" symbol="FEMALE_CONNECTOR" x="0" y="7.62"/>
-<gate name="@4" symbol="FEMALE_CONNECTOR" x="0" y="-5.08"/>
-<gate name="@5" symbol="FEMALE_CONNECTOR" x="0" y="-17.78"/>
-<gate name="@6" symbol="FEMALE_CONNECTOR" x="0" y="-30.48"/>
+<gate name="-1" symbol="FEMALE_CONNECTOR" x="0" y="33.02"/>
+<gate name="-2" symbol="FEMALE_CONNECTOR" x="0" y="20.32"/>
+<gate name="-3" symbol="FEMALE_CONNECTOR" x="0" y="7.62"/>
+<gate name="-4" symbol="FEMALE_CONNECTOR" x="0" y="-5.08"/>
+<gate name="-5" symbol="FEMALE_CONNECTOR" x="0" y="-17.78"/>
+<gate name="-6" symbol="FEMALE_CONNECTOR" x="0" y="-30.48"/>
 </gates>
 <devices>
-<device name="306" package="306">
+<device name="" package="306">
 <connects>
-<connect gate="@1" pin="P$1" pad="1"/>
-<connect gate="@2" pin="P$1" pad="2"/>
-<connect gate="@3" pin="P$1" pad="3"/>
-<connect gate="@4" pin="P$1" pad="4"/>
-<connect gate="@5" pin="P$1" pad="5"/>
-<connect gate="@6" pin="P$1" pad="6"/>
+<connect gate="-1" pin="P$1" pad="1"/>
+<connect gate="-2" pin="P$1" pad="2"/>
+<connect gate="-3" pin="P$1" pad="3"/>
+<connect gate="-4" pin="P$1" pad="4"/>
+<connect gate="-5" pin="P$1" pad="5"/>
+<connect gate="-6" pin="P$1" pad="6"/>
 </connects>
 <technologies>
 <technology name="LF">
@@ -811,29 +811,29 @@ For attribution, please provide a link in any documentation or design files to t
 </device>
 </devices>
 </deviceset>
-<deviceset name="67996-?*" prefix="J">
+<deviceset name="67996-206*" prefix="J">
 <description>&lt;h1&gt;3x2 6-Pin Male Header&lt;/h1&gt;
 &lt;h3&gt;Documentation&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://portal.fciconnect.com/Comergent//fci/drawing/67996.pdf"&gt;Drawing&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
-<gate name="@1" symbol="MALE_CONNECTOR" x="0" y="25.4"/>
-<gate name="@2" symbol="MALE_CONNECTOR" x="0" y="15.24"/>
-<gate name="@3" symbol="MALE_CONNECTOR" x="0" y="5.08"/>
-<gate name="@4" symbol="MALE_CONNECTOR" x="0" y="-5.08"/>
-<gate name="@5" symbol="MALE_CONNECTOR" x="0" y="-15.24"/>
-<gate name="@6" symbol="MALE_CONNECTOR" x="0" y="-25.4"/>
+<gate name="-1" symbol="MALE_CONNECTOR" x="0" y="25.4"/>
+<gate name="-2" symbol="MALE_CONNECTOR" x="0" y="15.24"/>
+<gate name="-3" symbol="MALE_CONNECTOR" x="0" y="5.08"/>
+<gate name="-4" symbol="MALE_CONNECTOR" x="0" y="-5.08"/>
+<gate name="-5" symbol="MALE_CONNECTOR" x="0" y="-15.24"/>
+<gate name="-6" symbol="MALE_CONNECTOR" x="0" y="-25.4"/>
 </gates>
 <devices>
-<device name="206" package="206">
+<device name="" package="206">
 <connects>
-<connect gate="@1" pin="P$1" pad="1"/>
-<connect gate="@2" pin="P$1" pad="2"/>
-<connect gate="@3" pin="P$1" pad="3"/>
-<connect gate="@4" pin="P$1" pad="4"/>
-<connect gate="@5" pin="P$1" pad="5"/>
-<connect gate="@6" pin="P$1" pad="6"/>
+<connect gate="-1" pin="P$1" pad="1"/>
+<connect gate="-2" pin="P$1" pad="2"/>
+<connect gate="-3" pin="P$1" pad="3"/>
+<connect gate="-4" pin="P$1" pad="4"/>
+<connect gate="-5" pin="P$1" pad="5"/>
+<connect gate="-6" pin="P$1" pad="6"/>
 </connects>
 <technologies>
 <technology name="HLF">
@@ -881,22 +881,22 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;li&gt;&lt;a href="http://portal.fciconnect.com/Comergent//fci/drawing/68020.pdf"&gt;Drawing&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
-<gate name="@1" symbol="MALE_CONNECTOR" x="0" y="25.4"/>
-<gate name="@2" symbol="MALE_CONNECTOR" x="0" y="15.24"/>
-<gate name="@3" symbol="MALE_CONNECTOR" x="0" y="5.08"/>
-<gate name="@4" symbol="MALE_CONNECTOR" x="0" y="-5.08"/>
-<gate name="@5" symbol="MALE_CONNECTOR" x="0" y="-15.24"/>
-<gate name="@6" symbol="MALE_CONNECTOR" x="0" y="-25.4"/>
+<gate name="-1" symbol="MALE_CONNECTOR" x="0" y="25.4"/>
+<gate name="-2" symbol="MALE_CONNECTOR" x="0" y="15.24"/>
+<gate name="-3" symbol="MALE_CONNECTOR" x="0" y="5.08"/>
+<gate name="-4" symbol="MALE_CONNECTOR" x="0" y="-5.08"/>
+<gate name="-5" symbol="MALE_CONNECTOR" x="0" y="-15.24"/>
+<gate name="-6" symbol="MALE_CONNECTOR" x="0" y="-25.4"/>
 </gates>
 <devices>
 <device name="" package="68021-206">
 <connects>
-<connect gate="@1" pin="P$1" pad="1"/>
-<connect gate="@2" pin="P$1" pad="2"/>
-<connect gate="@3" pin="P$1" pad="3"/>
-<connect gate="@4" pin="P$1" pad="4"/>
-<connect gate="@5" pin="P$1" pad="5"/>
-<connect gate="@6" pin="P$1" pad="6"/>
+<connect gate="-1" pin="P$1" pad="1"/>
+<connect gate="-2" pin="P$1" pad="2"/>
+<connect gate="-3" pin="P$1" pad="3"/>
+<connect gate="-4" pin="P$1" pad="4"/>
+<connect gate="-5" pin="P$1" pad="5"/>
+<connect gate="-6" pin="P$1" pad="6"/>
 </connects>
 <technologies>
 <technology name="HLF">
