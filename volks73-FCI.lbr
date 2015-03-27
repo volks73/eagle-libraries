@@ -378,6 +378,40 @@ For attribution, please provide a link in any documentation or design files to t
 <wire x1="3.429" y1="-1.27" x2="2.794" y2="-0.635" width="0.127" layer="21"/>
 <wire x1="3.429" y1="-3.81" x2="2.794" y2="-3.175" width="0.127" layer="21"/>
 </package>
+<package name="68000-103">
+<pad name="1" x="-2.54" y="0" drill="1.1" shape="square"/>
+<pad name="2" x="0" y="0" drill="1.1"/>
+<pad name="3" x="2.54" y="0" drill="1.1"/>
+<wire x1="-3.81" y1="-0.635" x2="-3.81" y2="0.635" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="0.635" x2="-3.175" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-3.175" y1="1.27" x2="-1.905" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="1.27" x2="-1.27" y2="0.635" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-0.635" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.127" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.127" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.905" y2="1.27" width="0.127" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.127" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.127" layer="21"/>
+<wire x1="3.81" y1="0.635" x2="3.81" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="1.27" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="-1.27" x2="-1.27" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-1.905" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="-1.27" x2="-3.175" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-3.175" y1="-1.27" x2="-3.81" y2="-0.635" width="0.127" layer="21"/>
+<rectangle x1="-0.32" y1="-0.32" x2="0.32" y2="0.32" layer="51"/>
+<rectangle x1="2.22" y1="-0.32" x2="2.86" y2="0.32" layer="51"/>
+<rectangle x1="-2.86" y1="-0.32" x2="-2.22" y2="0.32" layer="51"/>
+<wire x1="-3.81" y1="-1.205" x2="-3.81" y2="1.205" width="0.127" layer="49"/>
+<wire x1="-3.81" y1="1.205" x2="3.81" y2="1.205" width="0.127" layer="49"/>
+<wire x1="3.81" y1="1.205" x2="3.81" y2="-1.205" width="0.127" layer="49"/>
+<wire x1="3.81" y1="-1.205" x2="-3.81" y2="-1.205" width="0.127" layer="49"/>
+<text x="-3.81" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="1-PIN_HEADER">
@@ -891,6 +925,61 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/68021-206HLF/609-3343-ND/1878487&quot;&gt;Details&lt;/a&gt;" constant="no"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="609-3343-ND" constant="no"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/68021-206HLF/609-3343-ND/1878487" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com" constant="no"/>
+<attribute name="TERMINATION" value="Solder" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="68000-103*" prefix="J">
+<description>&lt;h1&gt;3-Pin Vertical, Male Header&lt;/h1&gt;
+&lt;h2&gt;BERGSTIK® II, MezzSelect™, Basics+&lt;/h2&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://portal.fciconnect.com/Comergent//fci/drawing/68000.pdf"&gt;Drawing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="-1" symbol="MALE_CONNECTOR" x="0" y="10.16"/>
+<gate name="-2" symbol="MALE_CONNECTOR" x="0" y="0"/>
+<gate name="-3" symbol="MALE_CONNECTOR" x="0" y="-10.16"/>
+</gates>
+<devices>
+<device name="" package="68000-103">
+<connects>
+<connect gate="-1" pin="P$1" pad="1"/>
+<connect gate="-2" pin="P$1" pad="2"/>
+<connect gate="-3" pin="P$1" pad="3"/>
+</connects>
+<technologies>
+<technology name="HLF">
+<attribute name="CATEGORY" value="Connectors, Interconnects" constant="no"/>
+<attribute name="COLOR" value="Black" constant="no"/>
+<attribute name="CONNECTOR_TYPE" value="Header, Unshrouded" constant="no"/>
+<attribute name="CONTACT_FINISH" value="Gold or Gold, GXT™" constant="no"/>
+<attribute name="CONTACT_FINISH_THICKNESS" value="30µin (0.76µm)" constant="no"/>
+<attribute name="CONTACT_MATING_LENGTH" value="0.230&quot; (5.84mm)" constant="no"/>
+<attribute name="CONTACT_TYPE" value="Male Pin" constant="no"/>
+<attribute name="DESCRIPTION" value="BERGSTIK II .100&quot; SR STRAIGHT" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://portal.fciconnect.com/Comergent//fci/drawing/68000.pdf&quot;&gt;Drawing&lt;/a&gt;" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://portal.fciconnect.com/Comergent//fci/drawing/68000.pdf" constant="no"/>
+<attribute name="FAMILY" value="Rectangular Connectors - Headers, Male Pins" constant="no"/>
+<attribute name="FASTENING_TYPE" value="-" constant="no"/>
+<attribute name="FEATURES" value="-" constant="no"/>
+<attribute name="MANUFACTURER" value="FCI" constant="no"/>
+<attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
+<attribute name="NUMBER_OF_POSITIONS" value="3" constant="no"/>
+<attribute name="NUMBER_OF_POSITIONS_LOADED" value="ALL" constant="no"/>
+<attribute name="NUMBER_OF_ROWS" value="1" constant="no"/>
+<attribute name="PART_NUMBER" value="68000-103HLF" constant="no"/>
+<attribute name="PITCH" value="0.100&quot; (2.54mm)" constant="no"/>
+<attribute name="ROW_SPACING" value="-" constant="no"/>
+<attribute name="SERIES" value="BERGSTIK® II, MezzSelect™, Basics+" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/68000-103HLF/609-3461-ND/2023309&quot;&gt;Details&lt;/a&gt;" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="609-3461-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/68000-103HLF/609-3461-ND/2023309" constant="no"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;" constant="no"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com" constant="no"/>
