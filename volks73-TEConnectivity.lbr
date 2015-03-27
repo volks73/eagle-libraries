@@ -121,7 +121,7 @@ Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0), &lt;a href=
 For attribution, please provide a link in any documentation or design files to the repository on Github. 
 &lt;/p&gt;</description>
 <packages>
-<package name="1734530-1">
+<package name="HD15_FEMALE_RIGHT-ANGLE">
 <description>&lt;h1&gt;15-Pin High Density D-sub Miniature (DB15) Board Mount Connector&lt;/h1&gt;</description>
 <pad name="SHIELD-1" x="-12.5" y="0" drill="3.2"/>
 <pad name="SHIELD-2" x="12.5" y="0" drill="3.2"/>
@@ -150,38 +150,7 @@ For attribution, please provide a link in any documentation or design files to t
 <text x="-15.24" y="5.08" size="1.27" layer="25">&gt;NAME</text>
 <text x="8.89" y="5.08" size="1.27" layer="25">&gt;VALUE</text>
 </package>
-<package name="5747236-4">
-<description>&lt;h1&gt;15-Pin D-sub Miniature (DB15) Board Mount Connector&lt;/h1&gt;</description>
-<pad name="1" x="8.89" y="0" drill="1.1" shape="square"/>
-<pad name="2" x="6.35" y="0" drill="1.1"/>
-<pad name="3" x="3.81" y="0" drill="1.1"/>
-<pad name="4" x="1.27" y="0" drill="1.1"/>
-<pad name="5" x="-1.27" y="0" drill="1.1"/>
-<pad name="6" x="-3.81" y="0" drill="1.1"/>
-<pad name="7" x="-6.35" y="0" drill="1.1"/>
-<pad name="8" x="-8.89" y="0" drill="1.1"/>
-<pad name="9" x="7.62" y="2.8448" drill="1.1"/>
-<pad name="10" x="5.08" y="2.8448" drill="1.1"/>
-<pad name="11" x="2.54" y="2.8448" drill="1.1"/>
-<pad name="12" x="0" y="2.8448" drill="1.1"/>
-<pad name="13" x="-2.54" y="2.8448" drill="1.1"/>
-<pad name="14" x="-5.08" y="2.8448" drill="1.1"/>
-<pad name="15" x="-7.62" y="2.8448" drill="1.1"/>
-<pad name="SHIELD-1" x="16.6624" y="1.4224" drill="3.2"/>
-<pad name="SHIELD-2" x="-16.6624" y="1.4224" drill="3.2"/>
-<wire x1="-19.5707" y1="10.922" x2="-19.558" y2="10.922" width="0.127" layer="21"/>
-<wire x1="-19.558" y1="10.922" x2="19.558" y2="10.922" width="0.127" layer="21"/>
-<wire x1="-19.5707" y1="-1.7272" x2="-19.558" y2="-1.7272" width="0.127" layer="21"/>
-<wire x1="-19.558" y1="-1.7272" x2="19.558" y2="-1.7272" width="0.127" layer="21"/>
-<wire x1="-19.558" y1="10.922" x2="-19.558" y2="-1.7272" width="0.127" layer="21"/>
-<wire x1="19.558" y1="10.922" x2="19.558" y2="-1.7272" width="0.127" layer="21"/>
-<wire x1="-12.6238" y1="10.922" x2="-12.6238" y2="16.891" width="0.127" layer="49"/>
-<wire x1="-12.6238" y1="16.891" x2="12.6238" y2="16.891" width="0.127" layer="49"/>
-<wire x1="12.6238" y1="16.891" x2="12.6238" y2="10.922" width="0.127" layer="49"/>
-<text x="-19.685" y="-3.81" size="1.27" layer="25">&gt;NAME</text>
-<text x="12.7" y="-3.81" size="1.27" layer="25">&gt;VALUE</text>
-</package>
-<package name="1734354-1">
+<package name="DB9_FEMALE_RIGHT-ANGLE">
 <description>&lt;h1&gt;9-Pin D-sub Miniature (DB9) Board Mount Connector&lt;/h1&gt;</description>
 <pad name="SHIELD-1" x="-12.495" y="0" drill="3.2"/>
 <pad name="SHIELD-2" x="12.495" y="0" drill="3.2"/>
@@ -236,7 +205,7 @@ For attribution, please provide a link in any documentation or design files to t
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="15-PIN_CONNECTOR-*_?" prefix="J">
+<deviceset name="1734530-1" prefix="J">
 <description>&lt;h1&gt;15-Pin High Density Female D-Sub Connector&lt;/h1&gt;
 &lt;h3&gt;Documentation&lt;/h3&gt;
 &lt;ul&gt;
@@ -261,7 +230,7 @@ For attribution, please provide a link in any documentation or design files to t
 <gate name="@CHASSIS" symbol="CHASSIS" x="15.24" y="-27.94" addlevel="request"/>
 </gates>
 <devices>
-<device name="HD-22" package="1734530-1">
+<device name="" package="HD15_FEMALE_RIGHT-ANGLE">
 <connects>
 <connect gate="@1" pin="P$1" pad="1"/>
 <connect gate="@10" pin="P$1" pad="10"/>
@@ -281,7 +250,7 @@ For attribution, please provide a link in any documentation or design files to t
 <connect gate="@CHASSIS" pin="CHASSIS" pad="SHIELD-1 SHIELD-2"/>
 </connects>
 <technologies>
-<technology name="AMP">
+<technology name="">
 <attribute name="COLOR" value="Black"/>
 <attribute name="CONNECTOR_STYLE" value="D-Sub, High Density"/>
 <attribute name="CONNECTOR_TYPE" value="Receptacle, Female Sockets"/>
@@ -317,7 +286,7 @@ For attribution, please provide a link in any documentation or design files to t
 </device>
 </devices>
 </deviceset>
-<deviceset name="9-PIN_CONNECTOR-*_?" prefix="J">
+<deviceset name="1734354-1" prefix="J">
 <description>&lt;h1&gt;9-Pin D-Sub miniature (DB9) Connector&lt;/h1&gt;
 &lt;h3&gt;Documentation&lt;/h3&gt;
 &lt;ul&gt;
@@ -336,7 +305,7 @@ For attribution, please provide a link in any documentation or design files to t
 <gate name="@CHASSIS" symbol="CHASSIS" x="2.54" y="-66.04" addlevel="request"/>
 </gates>
 <devices>
-<device name="HD-20" package="1734354-1">
+<device name="" package="DB9_FEMALE_RIGHT-ANGLE">
 <connects>
 <connect gate="@1" pin="P$1" pad="1"/>
 <connect gate="@2" pin="P$1" pad="2"/>
@@ -350,14 +319,14 @@ For attribution, please provide a link in any documentation or design files to t
 <connect gate="@CHASSIS" pin="CHASSIS" pad="SHIELD-1 SHIELD-2"/>
 </connects>
 <technologies>
-<technology name="AMP">
+<technology name="">
 <attribute name="COLOR" value="Black"/>
 <attribute name="CONNECTOR_STYLE" value="D-Sub"/>
 <attribute name="CONNECTOR_TYPE" value="Receptacle, Female Sockets"/>
 <attribute name="CONTACT_FINISH" value="Gold"/>
 <attribute name="CONTACT_FINISH_THICKNESS" value="Flash"/>
 <attribute name="CONTACT_TYPE" value="Signal"/>
-<attribute name="CURRENT_RATING" value=""/>
+<attribute name="CURRENT_RATING" value="2A"/>
 <attribute name="DESCRIPTION" value="CONN D-SUB RCPT 9POS R/A SOLDER"/>
 <attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1734354&amp;DocType=Customer+Drawing&amp;DocLang=English&quot;&gt;Datasheet&lt;/a&gt;"/>
 <attribute name="DOCUMENTATION_URL" value="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1734354&amp;DocType=Customer+Drawing&amp;DocLang=English"/>
