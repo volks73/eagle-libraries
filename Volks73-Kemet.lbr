@@ -147,10 +147,10 @@ For attribution, please provide a link in any documentation or design files to t
 <wire x1="-5.11" y1="-2.8" x2="-5.11" y2="2.8" width="0.127" layer="49"/>
 <text x="-2.54" y="3.175" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.175" y="-4.445" size="1.27" layer="27">&gt;VALUE</text>
-<text x="-6.35" y="1.27" size="0.8128" layer="27">A</text>
-<text x="5.715" y="1.27" size="0.8128" layer="27">C</text>
-<text x="-6.35" y="-2.54" size="0.8128" layer="27">+</text>
-<text x="5.715" y="-2.54" size="0.8128" layer="27">-</text>
+<text x="-6.35" y="1.27" size="0.8128" layer="21">A</text>
+<text x="5.715" y="1.27" size="0.8128" layer="21">C</text>
+<text x="-6.35" y="-2.54" size="0.8128" layer="21">+</text>
+<text x="5.715" y="-2.54" size="0.8128" layer="21">-</text>
 <rectangle x1="-3.65" y1="-1.2" x2="-2.35" y2="1.2" layer="51"/>
 <rectangle x1="2.35" y1="-1.2" x2="3.65" y2="1.2" layer="51"/>
 <wire x1="-1.27" y1="0" x2="-0.235" y2="0" width="0.127" layer="21"/>
@@ -159,11 +159,15 @@ For attribution, please provide a link in any documentation or design files to t
 <wire x1="1.27" y1="0" x2="0.335" y2="0" width="0.127" layer="21"/>
 <wire x1="0.835" y1="-1.24" x2="0.935" y2="1.24" width="0.127" layer="21" curve="-100"/>
 <wire x1="-3.5" y1="1.5" x2="-3.5" y2="2.5" width="0.127" layer="21"/>
-<wire x1="-3.5" y1="2.5" x2="3.5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="2.5" x2="-2.54" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="2.5" x2="3.5" y2="2.5" width="0.127" layer="21"/>
 <wire x1="3.5" y1="2.5" x2="3.5" y2="1.5" width="0.127" layer="21"/>
-<wire x1="3.4" y1="-2.5" x2="-3.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="3.4" y1="-2.5" x2="-2.54" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-2.5" x2="-3.5" y2="-2.5" width="0.127" layer="21"/>
 <wire x1="-3.5" y1="-1.5" x2="-3.5" y2="-2.5" width="0.127" layer="21"/>
 <wire x1="3.5" y1="-1.5" x2="3.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="2.5" x2="-2.54" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-2.5" x2="-2.54" y2="-1.5" width="0.127" layer="21"/>
 </package>
 <package name="RADIAL-SMD">
 <description>&lt;h1&gt;Radial, Can - Surface Mount Device&lt;/h1&gt;
