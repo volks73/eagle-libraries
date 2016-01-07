@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -412,13 +412,37 @@ These devices are available in small 6-pin SOT-23 and DFN 2x2 mm packages.
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
 <attribute name="VOLTAGE_SUPPLY_SOURCE" value="Single Supply"/>
 </technology>
+<technology name="2">
+<attribute name="DATA_INTERFACE" value="EEPROM, I2C, Serial"/>
+<attribute name="DESCRIPTION" value="IC DAC 12BIT NV EEP I2C SOT-23-6"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://ww1.microchip.com/downloads/en/DeviceDoc/22272C.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
+<attribute name="DOCUMENTATION_URL" value="http://ww1.microchip.com/downloads/en/DeviceDoc/22272C.pdf"/>
+<attribute name="MANUFACTURER" value="Microchip Technology"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount"/>
+<attribute name="NUMBER_OF_BITS" value="12"/>
+<attribute name="NUMBER_OF_CONVERTERS" value="1"/>
+<attribute name="NUMBER_OF_OUTPUTS_AND_TYPE" value="1 Voltage, Unipolar"/>
+<attribute name="OPERATING_TEMPERATURE" value="-40C ~ 125C"/>
+<attribute name="PACKAGE" value="SOT-23-6"/>
+<attribute name="PART_NUMBER" value="MCP4726A0T-E/CH"/>
+<attribute name="SETTLING_TIME" value="6us"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="SOT-23-6"/>
+<attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-detail/en/MCP4726A0T-E%2FCH/MCP4726A0T-E%2FCHCT-ND/2713266?WT.z_cid=ref_octopart_dkc_buynow&amp;site=us"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/MCP4726A0T-E%2FCH/MCP4726A0T-E%2FCHCT-ND/2713266?WT.z_cid=ref_octopart_dkc_buynow&amp;site=us&quot;&gt;Details&lt;/a&gt;"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="MCP4726A0T-E/CHCT-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/MCP4726A0T-E%2FCH/MCP4726A0T-E%2FCHCT-ND/2713266?WT.z_cid=ref_octopart_dkc_buynow&amp;site=us"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
+<attribute name="VOLTAGE_SUPPLY_SOURCE" value="Single Supply"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MCP3021" prefix="U">
+<deviceset name="MCP3*21" prefix="U">
 <description>&lt;h1&gt;Analog-to-Digital Converter&lt;/h1&gt;
-&lt;h2&gt;Low Power 10-Bit A/D Converter with I&lt;sup&gt;2&lt;/sup&gt;2&amp;trade; Interface&lt;/h2&gt;
+&lt;h2&gt;Low Power 10-, 12-Bit A/D Converter with I&lt;sup&gt;2&lt;/sup&gt;2&amp;trade; Interface&lt;/h2&gt;
 &lt;h3&gt;Documentation&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/21805B.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
@@ -479,7 +503,7 @@ The MCP3021 runs on a single supply voltage that operates over a broad range of 
 <connect gate="U$1" pin="SDA" pad="4"/>
 </connects>
 <technologies>
-<technology name="">
+<technology name="0">
 <attribute name="ARCHITECTURE" value="SAR"/>
 <attribute name="CONFIGURATION" value="S/H-ADC"/>
 <attribute name="DATA_INTERFACE" value="I2C"/>
@@ -502,6 +526,36 @@ The MCP3021 runs on a single supply voltage that operates over a broad range of 
 <attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-detail/en/MCP3021A5T-E%2FOT/MCP3021A5T-E%2FOTCT-ND/1979808"/>
 <attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/MCP3021A5T-E%2FOT/MCP3021A5T-E%2FOTCT-ND/1979808&quot;&gt;Details&lt;/a&gt;"/>
 <attribute name="SUPPLIER_ITEM_NUMBER" value="MCP3021A5T-E/OTCT-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/MCP3021A5T-E%2FOT/MCP3021A5T-E%2FOTCT-ND/1979808"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
+<attribute name="VOLTAGE-SUPPLY_ANALOG" value="2.7V ~ 5.5V"/>
+<attribute name="VOLTAGE-SUPPLY_DIGITAL" value="2.7V ~ 5.5V"/>
+</technology>
+<technology name="2">
+<attribute name="ARCHITECTURE" value="SAR"/>
+<attribute name="CONFIGURATION" value="S/H-ADC"/>
+<attribute name="DATA_INTERFACE" value="I2C"/>
+<attribute name="DESCRIPTION" value="IC ADC 12BIT 2.7V 1CH SOT23-5"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://ww1.microchip.com/downloads/en/DeviceDoc/21805B.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
+<attribute name="DOCUMENTATION_URL" value="http://ww1.microchip.com/downloads/en/DeviceDoc/21805B.pdf"/>
+<attribute name="FEATURES" value="-"/>
+<attribute name="INPUT_TYPE" value="Single Ended"/>
+<attribute name="MANUFACTURER" value="Microchip Technology"/>
+<attribute name="NUMBER_OF_AD_CONVERTERS" value="1"/>
+<attribute name="NUMBER_OF_BITS" value="12"/>
+<attribute name="NUMBER_OF_INPUTS" value="1"/>
+<attribute name="OPERATING_TEMPERATURE" value="-40C ~ 125C"/>
+<attribute name="PACKAGE" value="SC-74A, SOT-753"/>
+<attribute name="PART_NUMBER" value="MCP3221A5T-E/OT"/>
+<attribute name="RATIO" value="1:1"/>
+<attribute name="REFERENCE_TYPE" value="External"/>
+<attribute name="SAMPLING_RATE" value="22.3k"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="SOT-23-5"/>
+<attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-detail/en/MCP3221A5T-I%2FOT/MCP3221A5T-I%2FOTCT-ND/529836"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/MCP3221A5T-I%2FOT/MCP3221A5T-I%2FOTCT-ND/529836&quot;&gt;Details&lt;/a&gt;"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="MCP3221A5T-I/OTCT-ND"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/MCP3021A5T-E%2FOT/MCP3021A5T-E%2FOTCT-ND/1979808"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
