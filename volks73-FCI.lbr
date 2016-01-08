@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -411,6 +411,51 @@ For attribution, please provide a link in any documentation or design files to t
 <wire x1="3.81" y1="-1.205" x2="-3.81" y2="-1.205" width="0.127" layer="49"/>
 <text x="-3.81" y="1.905" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.81" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="20020110-H08">
+<pad name="1" x="-17.78" y="-2.0066" drill="1.6" shape="square"/>
+<pad name="2" x="-12.7" y="-2.0066" drill="1.6"/>
+<pad name="3" x="-7.62" y="-2.0066" drill="1.6"/>
+<pad name="4" x="-2.54" y="-2.0066" drill="1.6"/>
+<pad name="5" x="2.54" y="-2.0066" drill="1.6"/>
+<pad name="6" x="7.62" y="-2.0066" drill="1.6"/>
+<pad name="7" x="12.7" y="-2.0066" drill="1.6"/>
+<pad name="8" x="17.78" y="-2.0066" drill="1.6"/>
+<wire x1="-21.3106" y1="0" x2="21.3106" y2="0" width="0.127" layer="21"/>
+<wire x1="21.3106" y1="0" x2="21.3106" y2="-11.9888" width="0.127" layer="21"/>
+<wire x1="-21.3106" y1="0" x2="-21.3106" y2="-11.9888" width="0.127" layer="21"/>
+<wire x1="-21.3106" y1="-11.9888" x2="21.3106" y2="-11.9888" width="0.127" layer="21"/>
+<circle x="17.78" y="-2.0066" radius="0.4953" width="0.127" layer="51"/>
+<circle x="12.7" y="-2.0066" radius="0.4953" width="0.127" layer="51"/>
+<circle x="7.62" y="-2.0066" radius="0.4953" width="0.127" layer="51"/>
+<circle x="2.54" y="-2.0066" radius="0.4953" width="0.127" layer="51"/>
+<circle x="-2.54" y="-2.0066" radius="0.4953" width="0.127" layer="51"/>
+<circle x="-7.62" y="-2.0066" radius="0.4953" width="0.127" layer="51"/>
+<circle x="-12.7" y="-2.0066" radius="0.4953" width="0.127" layer="51"/>
+<circle x="-17.78" y="-2.0066" radius="0.4953" width="0.127" layer="51"/>
+<wire x1="-21.3106" y1="0" x2="-21.3106" y2="-11.9888" width="0.127" layer="49"/>
+<wire x1="21.3106" y1="0" x2="21.3106" y2="-11.9888" width="0.127" layer="49"/>
+<wire x1="-21.3106" y1="0" x2="21.3106" y2="0" width="0.127" layer="49"/>
+<wire x1="-21.3106" y1="-11.9888" x2="21.3106" y2="-11.9888" width="0.127" layer="49"/>
+<text x="-22.86" y="0" size="1.27" layer="25" rot="R270">&gt;NAME</text>
+<text x="21.59" y="0" size="1.27" layer="27" rot="R270">&gt;VALUE</text>
+<wire x1="0" y1="-9.525" x2="-5.08" y2="-9.525" width="0.127" layer="21" curve="-70"/>
+<wire x1="5.08" y1="-9.525" x2="0" y2="-9.525" width="0.127" layer="21" curve="-70"/>
+<wire x1="10.16" y1="-9.525" x2="5.08" y2="-9.525" width="0.127" layer="21" curve="-70"/>
+<wire x1="15.24" y1="-9.525" x2="10.16" y2="-9.525" width="0.127" layer="21" curve="-70"/>
+<wire x1="20.32" y1="-9.525" x2="15.24" y2="-9.525" width="0.127" layer="21" curve="-70"/>
+<wire x1="-5.08" y1="-9.525" x2="-10.16" y2="-9.525" width="0.127" layer="21" curve="-70"/>
+<wire x1="-10.16" y1="-9.525" x2="-15.24" y2="-9.525" width="0.127" layer="21" curve="-70"/>
+<wire x1="-15.24" y1="-9.525" x2="-20.32" y2="-9.525" width="0.127" layer="21" curve="-70"/>
+<wire x1="-20.32" y1="-9.525" x2="-20.32" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="20.32" y1="-9.525" x2="20.32" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="15.24" y1="-9.525" x2="15.24" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="10.16" y1="-9.525" x2="10.16" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-9.525" x2="5.08" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="0" y1="-9.525" x2="0" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-9.525" x2="-5.08" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-10.16" y1="-9.525" x2="-10.16" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="-9.525" x2="-15.24" y2="-0.635" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -886,6 +931,75 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com" constant="no"/>
 <attribute name="TERMINATION" value="Solder" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="20020110-?A0*" prefix="J" uservalue="yes">
+<description>&lt;h1&gt;8-Pole Terminal Block Right Angle Header&lt;/h1&gt;
+&lt;h2&gt;0.200" (5.08mm) Pitch&lt;/h2&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://portal.fciconnect.com/Comergent//fci/drawing/20020110.pdf"&gt;Drawing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="-1" symbol="MALE_CONNECTOR" x="5.08" y="35.56"/>
+<gate name="-2" symbol="MALE_CONNECTOR" x="5.08" y="25.4"/>
+<gate name="-3" symbol="MALE_CONNECTOR" x="5.08" y="15.24"/>
+<gate name="-4" symbol="MALE_CONNECTOR" x="5.08" y="5.08"/>
+<gate name="-5" symbol="MALE_CONNECTOR" x="5.08" y="-5.08"/>
+<gate name="-6" symbol="MALE_CONNECTOR" x="5.08" y="-15.24"/>
+<gate name="-7" symbol="MALE_CONNECTOR" x="5.08" y="-25.4"/>
+<gate name="-8" symbol="MALE_CONNECTOR" x="5.08" y="-35.56"/>
+</gates>
+<devices>
+<device name="H08" package="20020110-H08">
+<connects>
+<connect gate="-1" pin="P$1" pad="1"/>
+<connect gate="-2" pin="P$1" pad="2"/>
+<connect gate="-3" pin="P$1" pad="3"/>
+<connect gate="-4" pin="P$1" pad="4"/>
+<connect gate="-5" pin="P$1" pad="5"/>
+<connect gate="-6" pin="P$1" pad="6"/>
+<connect gate="-7" pin="P$1" pad="7"/>
+<connect gate="-8" pin="P$1" pad="8"/>
+</connects>
+<technologies>
+<technology name="1LF">
+<attribute name="CATEGORY" value="Connectors, Interconnects"/>
+<attribute name="COLOR" value="Green"/>
+<attribute name="CONTACT_MATING_FINISH" value="Tin"/>
+<attribute name="CURRENT-IEC" value="-"/>
+<attribute name="CURRENT-UL" value="12A"/>
+<attribute name="DESCRIPTION" value="TERM BLOCK HDR 8POS R/A 5.08MM"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://portal.fciconnect.com/Comergent//fci/drawing/20020110.pdf&quot;&gt;Drawing&lt;/a&gt;"/>
+<attribute name="DOCUMENTATION_URL" value="http://portal.fciconnect.com/Comergent//fci/drawing/20020110.pdf"/>
+<attribute name="FAMILY" value="Terminal Blocks - Headers, Plugs and Sockets"/>
+<attribute name="FEATURES" value="-"/>
+<attribute name="HEADER_ORIENTATION" value="90°, Right Angle"/>
+<attribute name="MANUFACTURER" value="FCI" constant="no"/>
+<attribute name="MOUNTING_TYPE" value="Through Hole"/>
+<attribute name="NUMBER_OF_LEVELS" value="1"/>
+<attribute name="NUMBER_OF_POSITIONS" value="8"/>
+<attribute name="OPERATING_TEMPERATURE" value="-40°C ~ 115°C"/>
+<attribute name="PART_NUMBER" value="20020110-H081A01LF"/>
+<attribute name="PITCH" value="0.200&quot; (5.08mm)"/>
+<attribute name="PLUG_WIRE_ENTRY" value="-"/>
+<attribute name="POSITIONS_PER_LEVEL" value="8"/>
+<attribute name="SERIES" value="06-508"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/20020110-H081A01LF/609-3913-ND/2261306&quot;&gt;Details&lt;/a&gt;"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="609-3913-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/20020110-H081A01LF/609-3913-ND/2261306"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
+<attribute name="TERMINATION_STYLE" value="Solder"/>
+<attribute name="TYPE" value="Header, Male Pins, Shrouded (4 Side)"/>
+<attribute name="VOLTAGE-IEC" value="-"/>
+<attribute name="VOLTAGE-UL" value="300V"/>
+<attribute name="WIRE_GAUGE_OR_RANGE-AWG" value="-"/>
+<attribute name="WIRE_GAUGE_OR_RANGE-MM2" value="-"/>
 </technology>
 </technologies>
 </device>

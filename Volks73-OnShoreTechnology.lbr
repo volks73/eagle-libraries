@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -336,26 +336,26 @@ For attribution, please provide a link in any documentation or design files to t
 &lt;li&gt;&lt;a href="http://www.on-shore.com/sites/default/files/manuals/ostoqxx5451.pdf"&gt;Drawing&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
-<gate name="@1" symbol="MALE_CONNECTOR" x="0" y="35.56"/>
-<gate name="@2" symbol="MALE_CONNECTOR" x="0" y="25.4"/>
-<gate name="@3" symbol="MALE_CONNECTOR" x="0" y="15.24"/>
-<gate name="@4" symbol="MALE_CONNECTOR" x="0" y="5.08"/>
-<gate name="@5" symbol="MALE_CONNECTOR" x="0" y="-5.08"/>
-<gate name="@6" symbol="MALE_CONNECTOR" x="0" y="-15.24"/>
-<gate name="@7" symbol="MALE_CONNECTOR" x="0" y="-25.4"/>
-<gate name="@8" symbol="MALE_CONNECTOR" x="0" y="-35.56"/>
+<gate name="-1" symbol="MALE_CONNECTOR" x="0" y="35.56"/>
+<gate name="-2" symbol="MALE_CONNECTOR" x="0" y="25.4"/>
+<gate name="-3" symbol="MALE_CONNECTOR" x="0" y="15.24"/>
+<gate name="-4" symbol="MALE_CONNECTOR" x="0" y="5.08"/>
+<gate name="-5" symbol="MALE_CONNECTOR" x="0" y="-5.08"/>
+<gate name="-6" symbol="MALE_CONNECTOR" x="0" y="-15.24"/>
+<gate name="-7" symbol="MALE_CONNECTOR" x="0" y="-25.4"/>
+<gate name="-8" symbol="MALE_CONNECTOR" x="0" y="-35.56"/>
 </gates>
 <devices>
 <device name="" package="0854">
 <connects>
-<connect gate="@1" pin="P$1" pad="1"/>
-<connect gate="@2" pin="P$1" pad="2"/>
-<connect gate="@3" pin="P$1" pad="3"/>
-<connect gate="@4" pin="P$1" pad="4"/>
-<connect gate="@5" pin="P$1" pad="5"/>
-<connect gate="@6" pin="P$1" pad="6"/>
-<connect gate="@7" pin="P$1" pad="7"/>
-<connect gate="@8" pin="P$1" pad="8"/>
+<connect gate="-1" pin="P$1" pad="1"/>
+<connect gate="-2" pin="P$1" pad="2"/>
+<connect gate="-3" pin="P$1" pad="3"/>
+<connect gate="-4" pin="P$1" pad="4"/>
+<connect gate="-5" pin="P$1" pad="5"/>
+<connect gate="-6" pin="P$1" pad="6"/>
+<connect gate="-7" pin="P$1" pad="7"/>
+<connect gate="-8" pin="P$1" pad="8"/>
 </connects>
 <technologies>
 <technology name="5">
