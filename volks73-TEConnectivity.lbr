@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -380,6 +380,82 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
 <attribute name="TERMINATION" value="Solder"/>
 <attribute name="VOLTAGE_RATING" value="250V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="5747844-?" prefix="J" uservalue="yes">
+<description>&lt;h1&gt;9-Pin D-Sub miniature (DB9) Female Connector&lt;/h1&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=5747844&amp;DocType=Customer+Drawing&amp;DocLang=English"&gt;Drawing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Notes&lt;/h3&gt;
+&lt;p&gt;
+The 5747844-2 has 0.125" through holes instead of #4-40 threaded inserts, or screwlocks, for mounting cables to the connector.
+&lt;/p&gt;</description>
+<gates>
+<gate name="-1" symbol="FEMALE_CONNECTOR" x="0" y="30.48"/>
+<gate name="-2" symbol="FEMALE_CONNECTOR" x="0" y="20.32"/>
+<gate name="-3" symbol="FEMALE_CONNECTOR" x="0" y="10.16"/>
+<gate name="-4" symbol="FEMALE_CONNECTOR" x="0" y="0"/>
+<gate name="-5" symbol="FEMALE_CONNECTOR" x="0" y="-10.16"/>
+<gate name="-6" symbol="FEMALE_CONNECTOR" x="0" y="-20.32"/>
+<gate name="-7" symbol="FEMALE_CONNECTOR" x="0" y="-30.48"/>
+<gate name="-8" symbol="FEMALE_CONNECTOR" x="0" y="-40.64"/>
+<gate name="-9" symbol="FEMALE_CONNECTOR" x="0" y="-50.8"/>
+<gate name="CHASSIS" symbol="CHASSIS" x="-25.4" y="-48.26" addlevel="request"/>
+</gates>
+<devices>
+<device name="" package="DB9_FEMALE_RIGHT-ANGLE">
+<connects>
+<connect gate="-1" pin="P$1" pad="1"/>
+<connect gate="-2" pin="P$1" pad="2"/>
+<connect gate="-3" pin="P$1" pad="3"/>
+<connect gate="-4" pin="P$1" pad="4"/>
+<connect gate="-5" pin="P$1" pad="5"/>
+<connect gate="-6" pin="P$1" pad="6"/>
+<connect gate="-7" pin="P$1" pad="7"/>
+<connect gate="-8" pin="P$1" pad="8"/>
+<connect gate="-9" pin="P$1" pad="9"/>
+<connect gate="CHASSIS" pin="CHASSIS" pad="SHIELD-1 SHIELD-2"/>
+</connects>
+<technologies>
+<technology name="2">
+<attribute name="CATEGORY" value="Connectors, Interconnects"/>
+<attribute name="COLOR" value="Black"/>
+<attribute name="CONNECTOR_STYLE" value="D-Sub"/>
+<attribute name="CONNETOR_TYPE" value="Receptacle, Female Sockets"/>
+<attribute name="CONTACT_FINISH" value="Gold"/>
+<attribute name="CONTACT_FINISH_THICKNESS" value="30µin (0.76µm)"/>
+<attribute name="CONTACT_TYPE" value="Signal"/>
+<attribute name="CURRENT_RATING" value="6A"/>
+<attribute name="DESCRIPTION" value="9 Position D-Sub Receptacle, Female Sockets Connector, Through Hole, Right Angle Solder"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=5747844&amp;DocType=Customer+Drawing&amp;DocLang=English&quot;&gt;Drawing&lt;/a&gt;"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=5747844&amp;DocType=Customer+Drawing&amp;DocLang=English"/>
+<attribute name="FAMILY" value="D-Sub Connectors"/>
+<attribute name="FEATURES" value="Board Lock, Ground Strap"/>
+<attribute name="FLANGE_FEATURE" value="Housing/Shell (Unthreaded)"/>
+<attribute name="HOUSTING_MATERIAL" value="Thermoplastic"/>
+<attribute name="INGRESS_PROTECTION" value="-"/>
+<attribute name="MANUFACTURER" value="TE Connectivity AMP Connectors"/>
+<attribute name="MOUNTING_TYPE" value="Through Hole, Right Angle"/>
+<attribute name="NUMBER_OF_POSITIONS" value="9"/>
+<attribute name="NUMBER_OF_ROWS" value="2"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55°C ~ 105°C"/>
+<attribute name="PART_NUMBER" value="5747844-2"/>
+<attribute name="SERIES" value="AMPLIMITE HD-20"/>
+<attribute name="SHELL_MATERIAL-FINISH" value="Steel, Tin Plated"/>
+<attribute name="SHELL_SIZE-CONNECTOR_LAYOUT" value="1 (DE, E)"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/5747844-2/A32115-ND/808670&quot;&gt;Details&lt;/a&gt;"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="A32115-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/5747844-2/A32115-ND/808670"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
+<attribute name="TERMINATION" value="Solder"/>
+<attribute name="VOLTAGE_RATING" value="125V"/>
 </technology>
 </technologies>
 </device>
