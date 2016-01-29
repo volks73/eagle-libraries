@@ -204,34 +204,37 @@ For attribution, please provide a link in any documentation or design files to t
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CATEGORY" value="Connectors, Interconnects" constant="no"/>
-<attribute name="CONTACT_FINISH-MATING" value="Tin" constant="no"/>
-<attribute name="CONTACT_FINISH-POST" value="Tin " constant="no"/>
-<attribute name="CONTACT_FINISH_THICKNESS-MATING" value="-" constant="no"/>
-<attribute name="CONTACT_FINISH_THICKNESS-POST" value="-" constant="no"/>
-<attribute name="CONTACT_MATERIAL-MATING" value="Phosphor Bronze" constant="no"/>
-<attribute name="CONTACT_MATERIAL-POST" value="Phosphor Bronze " constant="no"/>
-<attribute name="CONTACT_RESISTANCE" value="30 mOhm " constant="no"/>
-<attribute name="CURRENT_RATING" value="1A" constant="no"/>
-<attribute name="DESCRIPTION" value="CONN IC DIP SOCKET 8POS TIN " constant="no"/>
-<attribute name="FAMILY" value="Sockets for ICs, Transistors" constant="no"/>
-<attribute name="FEATURES" value="Open Frame" constant="no"/>
-<attribute name="HOUSING_MATERIAL" value="Polybutylene Terephthalate (PBT)" constant="no"/>
-<attribute name="MANUFACTURER" value="Assmann WSW Components" constant="no"/>
-<attribute name="MATERIAL_FLAMMABILITY_RATING" value="UL94 V-0" constant="no"/>
-<attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
-<attribute name="NUMBER_OF_POSITIONS_OR_PINS-GRID" value="8 (2 x 4)" constant="no"/>
-<attribute name="OPERATING_TEMPERATURE" value="-55°C ~ 85°C " constant="no"/>
-<attribute name="PART_NUMBER" value="A08-LC-TT" constant="no"/>
-<attribute name="PITCH-MATING" value="0.100&quot; (2.54mm) " constant="no"/>
-<attribute name="PITCH-POST" value="0.100&quot; (2.54mm) " constant="no"/>
-<attribute name="SERIES" value="-" constant="no"/>
-<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;https://www.digikey.com/product-detail/en/A08-LC-TT/AE9986-ND/821740&quot;&gt;Details&lt;/a&gt;" constant="no"/>
-<attribute name="SUPPLIER_ITEM_NUMBER" value="AE9986-ND" constant="no"/>
-<attribute name="SUPPLIER_ITEM_URL" value="https://www.digikey.com/product-detail/en/A08-LC-TT/AE9986-ND/821740" constant="no"/>
-<attribute name="TERMINATION" value="Solder" constant="no"/>
-<attribute name="TERMINATION_POST_LENGTH" value="0.124&quot; (3.15mm) " constant="no"/>
-<attribute name="TYPE" value="DIP, 0.3&quot; (7.62mm) Row Spacing" constant="no"/>
+<attribute name="CATEGORY" value="Connectors, Interconnects"/>
+<attribute name="CONTACT_FINISH-MATING" value="Tin"/>
+<attribute name="CONTACT_FINISH-POST" value="Tin "/>
+<attribute name="CONTACT_FINISH_THICKNESS-MATING" value="-"/>
+<attribute name="CONTACT_FINISH_THICKNESS-POST" value="-"/>
+<attribute name="CONTACT_MATERIAL-MATING" value="Phosphor Bronze"/>
+<attribute name="CONTACT_MATERIAL-POST" value="Phosphor Bronze "/>
+<attribute name="CONTACT_RESISTANCE" value="30 mOhm "/>
+<attribute name="CURRENT_RATING" value="1A"/>
+<attribute name="DESCRIPTION" value="CONN IC DIP SOCKET 8POS TIN "/>
+<attribute name="FAMILY" value="Sockets for ICs, Transistors"/>
+<attribute name="FEATURES" value="Open Frame"/>
+<attribute name="HOUSING_MATERIAL" value="Polybutylene Terephthalate (PBT)"/>
+<attribute name="MANUFACTURER" value="Assmann WSW Components"/>
+<attribute name="MATERIAL_FLAMMABILITY_RATING" value="UL94 V-0"/>
+<attribute name="MOUNTING_TYPE" value="Through Hole"/>
+<attribute name="NUMBER_OF_POSITIONS_OR_PINS-GRID" value="8 (2 x 4)"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55°C ~ 85°C "/>
+<attribute name="PART_NUMBER" value="A08-LC-TT"/>
+<attribute name="PITCH-MATING" value="0.100&quot; (2.54mm) "/>
+<attribute name="PITCH-POST" value="0.100&quot; (2.54mm) "/>
+<attribute name="SERIES" value="-"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;https://www.digikey.com/product-detail/en/A08-LC-TT/AE9986-ND/821740&quot;&gt;Details&lt;/a&gt;"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="AE9986-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="https://www.digikey.com/product-detail/en/A08-LC-TT/AE9986-ND/821740"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
+<attribute name="TERMINATION" value="Solder"/>
+<attribute name="TERMINATION_POST_LENGTH" value="0.124&quot; (3.15mm) "/>
+<attribute name="TYPE" value="DIP, 0.3&quot; (7.62mm) Row Spacing"/>
 </technology>
 </technologies>
 </device>
