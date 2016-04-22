@@ -38,7 +38,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -277,6 +277,31 @@ For attribution, please provide a link in any documentation or design files to t
 <wire x1="17.78" y1="2.159" x2="17.145" y2="1.524" width="0.127" layer="21"/>
 <wire x1="-10.16" y1="2.159" x2="-10.795" y2="1.524" width="0.127" layer="21"/>
 </package>
+<package name="249121">
+<description>&lt;h1&gt;6-Pin 3x2 Male Header, Right Angle, Surface Mount, 0.100" (2.54mm) Lead Spacing&lt;/h1&gt;
+&lt;h2&gt;WR-PHD&lt;/h2&gt;</description>
+<smd name="1" x="-2.54" y="-1.96" dx="1" dy="2.5" layer="1"/>
+<smd name="2" x="0" y="-1.96" dx="1" dy="2.5" layer="1"/>
+<smd name="3" x="2.54" y="-1.96" dx="1" dy="2.5" layer="1"/>
+<smd name="4" x="-2.54" y="-5.66" dx="1" dy="2.5" layer="1"/>
+<smd name="5" x="0" y="-5.66" dx="1" dy="2.5" layer="1"/>
+<smd name="6" x="2.54" y="-5.66" dx="1" dy="2.5" layer="1"/>
+<hole x="-1.27" y="2.49" drill="1.6"/>
+<hole x="1.27" y="2.49" drill="1.6"/>
+<wire x1="0" y1="3.77" x2="0" y2="9.77" width="0.64" layer="51"/>
+<wire x1="2.54" y1="3.77" x2="2.54" y2="9.77" width="0.64" layer="51"/>
+<wire x1="-2.54" y1="3.77" x2="-2.54" y2="9.77" width="0.64" layer="51"/>
+<wire x1="-3.81" y1="3.81" x2="-3.81" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="1.27" x2="3.81" y2="1.27" width="0.127" layer="21"/>
+<wire x1="3.81" y1="1.27" x2="3.81" y2="3.81" width="0.127" layer="21"/>
+<wire x1="3.81" y1="3.81" x2="-3.81" y2="3.81" width="0.127" layer="21"/>
+<text x="-4.445" y="-6.985" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="5.715" y="-6.985" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<wire x1="-3.96" y1="-6.2" x2="-3.96" y2="10.16" width="0.127" layer="49"/>
+<wire x1="-3.96" y1="10.16" x2="3.96" y2="10.16" width="0.127" layer="49"/>
+<wire x1="3.96" y1="10.16" x2="3.96" y2="-6.2" width="0.127" layer="49"/>
+<wire x1="3.96" y1="-6.2" x2="-3.96" y2="-6.2" width="0.127" layer="49"/>
+</package>
 </packages>
 <symbols>
 <symbol name="INDUCTOR">
@@ -435,6 +460,66 @@ It is recommended that the temperature of the part does not exceed 125&lt;sup&gt
 <attribute name="SUPPLIER_ITEM_NUMBER" value="732-5344-ND"/>
 <attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-search/en?keywords=732-5344-ND"/>
 <attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Digi-Key&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
+<attribute name="TERMINATION" value="Solder"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="610106?" prefix="J" uservalue="yes">
+<description>&lt;h1&gt;6-Pin (3x2) Right-Angle, Surface Mount Male Header&lt;/h1&gt;
+&lt;h2&gt;WR-PHD&lt;/h2&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://katalog.we-online.de/em/datasheet/6101xx249121.pdf"&gt;Drawing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="-1" symbol="MALE_CONNECTOR" x="0" y="33.02"/>
+<gate name="-2" symbol="MALE_CONNECTOR" x="0" y="22.86"/>
+<gate name="-3" symbol="MALE_CONNECTOR" x="0" y="12.7"/>
+<gate name="-4" symbol="MALE_CONNECTOR" x="0" y="2.54"/>
+<gate name="-5" symbol="MALE_CONNECTOR" x="0" y="-7.62"/>
+<gate name="-6" symbol="MALE_CONNECTOR" x="0" y="-17.78"/>
+</gates>
+<devices>
+<device name="249121" package="249121">
+<connects>
+<connect gate="-1" pin="P$1" pad="1"/>
+<connect gate="-2" pin="P$1" pad="2"/>
+<connect gate="-3" pin="P$1" pad="3"/>
+<connect gate="-4" pin="P$1" pad="4"/>
+<connect gate="-5" pin="P$1" pad="5"/>
+<connect gate="-6" pin="P$1" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Connectors, Interconnects"/>
+<attribute name="COLOR" value="Black"/>
+<attribute name="CONNECTOR_TYPE" value="Header, Unshrouded"/>
+<attribute name="CONTACT_FINISH" value="Gold"/>
+<attribute name="CONTACT_FINISH_THICKNESS" value="-"/>
+<attribute name="CONTACT_MATING_LENGTH" value="0.236&quot; (6.00mm)"/>
+<attribute name="CONTACT_TYPE" value="Male Pin "/>
+<attribute name="DESCRIPTION" value="6 Positions Header, Unshrouded Connector 0.100&quot; (2.54mm) Surface Mount, Right Angle Gold "/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://katalog.we-online.de/em/datasheet/6101xx249121.pdf&gt;Drawing&lt;/a&gt;"/>
+<attribute name="FAMILY" value="Rectangular Connectors - Headers, Male Pins"/>
+<attribute name="FASTENING_TYPE" value="-"/>
+<attribute name="FEATURES" value="Board Guide"/>
+<attribute name="MANUFACTURER" value="Wurth Electronics Inc"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount, Right Angle"/>
+<attribute name="NUMBER_OF_POSITIONS" value="6"/>
+<attribute name="NUMBER_OF_POSITIONS_LOADED" value="All"/>
+<attribute name="NUMBER_OF_ROWS" value="2"/>
+<attribute name="PART_NUMBER" value="610106249121 "/>
+<attribute name="PITCH" value="0.100&quot; (2.54mm) "/>
+<attribute name="ROW_SPACING" value="0.100&quot; (2.54mm)"/>
+<attribute name="SERIES" value="WR-PHD"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/wurth-electronics-inc/610106249121/732-6067-1-ND/5047531&quot;&gt;Details&lt;/a&gt;"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="732-6067-1-ND "/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/wurth-electronics-inc/610106249121/732-6067-1-ND/5047531"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Supplier&lt;/a&gt;"/>
 <attribute name="SUPPLIER_NAME" value="Digi-Key"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
 <attribute name="TERMINATION" value="Solder"/>
