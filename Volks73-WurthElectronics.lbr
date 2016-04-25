@@ -277,7 +277,7 @@ For attribution, please provide a link in any documentation or design files to t
 <wire x1="17.78" y1="2.159" x2="17.145" y2="1.524" width="0.127" layer="21"/>
 <wire x1="-10.16" y1="2.159" x2="-10.795" y2="1.524" width="0.127" layer="21"/>
 </package>
-<package name="249121">
+<package name="06249121">
 <description>&lt;h1&gt;6-Pin 3x2 Male Header, Right Angle, Surface Mount, 0.100" (2.54mm) Lead Spacing&lt;/h1&gt;
 &lt;h2&gt;WR-PHD&lt;/h2&gt;</description>
 <smd name="1" x="-2.54" y="-1.96" dx="1" dy="2.5" layer="1"/>
@@ -468,7 +468,7 @@ It is recommended that the temperature of the part does not exceed 125&lt;sup&gt
 </device>
 </devices>
 </deviceset>
-<deviceset name="610106?" prefix="J" uservalue="yes">
+<deviceset name="6101?" prefix="J" uservalue="yes">
 <description>&lt;h1&gt;6-Pin (3x2) Right-Angle, Surface Mount Male Header&lt;/h1&gt;
 &lt;h2&gt;WR-PHD&lt;/h2&gt;
 &lt;h3&gt;Documentation&lt;/h3&gt;
@@ -484,7 +484,7 @@ It is recommended that the temperature of the part does not exceed 125&lt;sup&gt
 <gate name="-6" symbol="MALE_CONNECTOR" x="0" y="-17.78"/>
 </gates>
 <devices>
-<device name="249121" package="249121">
+<device name="06249121" package="06249121">
 <connects>
 <connect gate="-1" pin="P$1" pad="1"/>
 <connect gate="-2" pin="P$1" pad="2"/>
