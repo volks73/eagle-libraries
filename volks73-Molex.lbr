@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="8.0.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -506,6 +506,42 @@ For attribution, please provide a link in any documentation or design files to t
 <rectangle x1="4.22" y1="-1.075" x2="5.7" y2="1.125" layer="51" rot="R180"/>
 <text x="-6.25" y="-1.25" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="7.5" y="-1.25" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+</package>
+<package name="MICROFIT43045-0400">
+<description>&lt;h1&gt;4 Positions Header Connector 0.118" (3.00mm) Through Hole, Right Angle Tin &lt;/h1&gt;
+&lt;h2&gt;Micro-Fit 3.0&amp;trade; 43045 Series, 0.118" (3.00mm) Pitch&lt;/h2&gt;</description>
+<pad name="2" x="-1.5" y="0" drill="1.07"/>
+<pad name="1" x="1.5" y="0" drill="1.07" shape="square"/>
+<pad name="4" x="-1.5" y="3" drill="1.07"/>
+<pad name="3" x="1.5" y="3" drill="1.07"/>
+<hole x="0" y="-4.32" drill="3.05"/>
+<wire x1="-4.825" y1="0.99" x2="-4.825" y2="-7" width="0.127" layer="21"/>
+<wire x1="-3" y1="-8.92" x2="3" y2="-8.92" width="0.127" layer="21"/>
+<wire x1="4.825" y1="-7" x2="4.825" y2="0.99" width="0.127" layer="21"/>
+<wire x1="4.825" y1="0.99" x2="-4.825" y2="0.99" width="0.127" layer="21"/>
+<wire x1="-4.825" y1="-7" x2="-3" y2="-8.92" width="0.127" layer="21"/>
+<wire x1="3" y1="-8.92" x2="4.825" y2="-7" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="-8.5" x2="0.5" y2="-8.5" width="0.127" layer="21"/>
+<wire x1="0.5" y1="-8.5" x2="0.5" y2="-7.5" width="0.127" layer="21"/>
+<wire x1="0.5" y1="-7.5" x2="0.5" y2="-7" width="0.127" layer="21"/>
+<wire x1="0.5" y1="-7" x2="-0.5" y2="-7" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="-7" x2="-0.5" y2="-7.5" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="-7.5" x2="-0.5" y2="-8.5" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="-7.5" x2="0.5" y2="-7.5" width="0.127" layer="21"/>
+<wire x1="-5.075" y1="-8.92" x2="-5.075" y2="3.32" width="0.127" layer="49"/>
+<wire x1="-5.075" y1="3.32" x2="5.075" y2="3.32" width="0.127" layer="49"/>
+<wire x1="5.075" y1="3.32" x2="5.075" y2="-8.92" width="0.127" layer="49"/>
+<wire x1="5.075" y1="-8.92" x2="-5.075" y2="-8.92" width="0.127" layer="49"/>
+<circle x="-1.5" y="3" radius="0.32" width="0.127" layer="51"/>
+<circle x="1.5" y="3" radius="0.32" width="0.127" layer="51"/>
+<circle x="1.5" y="0" radius="0.32" width="0.127" layer="51"/>
+<circle x="-1.5" y="0" radius="0.32" width="0.127" layer="51"/>
+<text x="5.5" y="-0.5" size="1.27" layer="21">1</text>
+<text x="-6.5" y="-0.5" size="1.27" layer="21">2</text>
+<text x="5.5" y="2.5" size="1.27" layer="21">3</text>
+<text x="-6.5" y="2.5" size="1.27" layer="21">4</text>
+<text x="-5.5" y="-9" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="-3.5" y="4.5" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -1284,6 +1320,79 @@ For attribution, please provide a link in any documentation or design files to t
 <attribute name="SUPPLIER_NAME" value="Digi-key" constant="no"/>
 <attribute name="SUPPLIER_URL" value="http://www.digikey.com" constant="no"/>
 <attribute name="TERMINATION" value="Solder" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="0430450400" prefix="J" uservalue="yes">
+<description>&lt;h1&gt;Micro-Fit 3.0™ Header,4 Positions Header Connector 0.118" (3.00mm) Through Hole, Right Angle Tin&lt;/h1&gt;
+&lt;h2&gt;Micro-Fit 3.0™ Connectors&lt;/h2&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.molex.com/pdm_docs/sd/430450400_sd.pdf"&gt;Drawing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.molex.com/pdm_docs/ps/PS-43045.pdf"&gt;Product Specification&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://rhu103.sma-promail.com/SQLImages/kelmscott/Molex/PDF_Images/987650-5984.pdf"&gt;Micro-Fit 3.0 Family Guide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/PK-70873-05xx_1_N3.pdf"&gt;Package Specification&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="-1" symbol="MALE_CONNECTOR" x="0" y="15.24"/>
+<gate name="-2" symbol="MALE_CONNECTOR" x="0" y="5.08"/>
+<gate name="-3" symbol="MALE_CONNECTOR" x="0" y="-5.08"/>
+<gate name="-4" symbol="MALE_CONNECTOR" x="0" y="-15.24"/>
+</gates>
+<devices>
+<device name="" package="MICROFIT43045-0400">
+<connects>
+<connect gate="-1" pin="P$1" pad="1"/>
+<connect gate="-2" pin="P$1" pad="2"/>
+<connect gate="-3" pin="P$1" pad="3"/>
+<connect gate="-4" pin="P$1" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CATEGORIES" value="Connectors, Interconnects"/>
+<attribute name="CONNECTOR_TYPE" value="Header"/>
+<attribute name="CONTACT_FINISH-MATING" value="Tin"/>
+<attribute name="CONTACT_FINISH-POST" value="Tin"/>
+<attribute name="CONTACT_FINISH_THICKNESS-MATING" value="100µin (2.54µm) "/>
+<attribute name="CONTACT_FINISH_THICKNESS-POST" value="-"/>
+<attribute name="CONTACT_LENGTH-MATING" value="-"/>
+<attribute name="CONTACT_LENGTH-POST" value="0.125&quot; (7.37mm)"/>
+<attribute name="CONTACT_MATERIAL" value="Brass"/>
+<attribute name="CONTACT_SHAPE" value="Square"/>
+<attribute name="CONTACT_TYPE" value="Male Pin"/>
+<attribute name="CURRENT_RATING" value="-"/>
+<attribute name="DESCRIPTION" value="CONN HEADER 4POS 3MM RT ANG TIN"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.molex.com/pdm_docs/sd/430450400_sd.pdf&quot;&gt;Drawing&lt;/a&gt;"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.molex.com/pdm_docs/sd/430450400_sd.pdf"/>
+<attribute name="FASTENING_TYPE" value="Locking Ramp"/>
+<attribute name="FEATURES" value="Board Lock"/>
+<attribute name="INGRESS_PROTECTION" value="-"/>
+<attribute name="INSULATION_COLOR" value="Black"/>
+<attribute name="INSULATION_HEIGHT" value="0.290&quot; (7.37mm)"/>
+<attribute name="INSULATION_MATERIAL" value="Liquid Crystal Polymer (LCP), Glass Filled"/>
+<attribute name="MANUFACTURER" value="Molex, LLC"/>
+<attribute name="MATED_STACKING_HEIGHTS" value="-"/>
+<attribute name="MOUNTING_TYPE" value="Through Hole, Right Angle"/>
+<attribute name="NUMBER_OF_POSITIONS" value="4"/>
+<attribute name="NUMBER_OF_POSITIONS_LOADED" value="All"/>
+<attribute name="NUMBER_OF_ROWS" value="2"/>
+<attribute name="OPERATING_TEMPERATURE" value="-" constant="no"/>
+<attribute name="OVERALL_CONTACT_LENGTH" value="-"/>
+<attribute name="PART_NUMBER" value="0430450400"/>
+<attribute name="PART_STATUS" value="Active"/>
+<attribute name="PITCH-MATING" value="0.118&quot; (3.00mm)"/>
+<attribute name="ROW_SPACING-MATING" value="0.118&quot; (3.00mm)"/>
+<attribute name="SHROUDING" value="Shrouded - 4 Wall"/>
+<attribute name="STYLE" value="Board to Cable/Wire"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/0430450400/WM1814-ND/252527&quot;&gt;Details&lt;/a&gt;"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="WM1814-ND"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Digi-Key&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
+<attribute name="TERMINATION" value="Solder"/>
+<attribute name="VOLTAGE_RATING" value="-"/>
 </technology>
 </technologies>
 </device>
